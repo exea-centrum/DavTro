@@ -1,0 +1,4385 @@
+CM_ACCESSOIRES	Toebe&horen
+CM_AERATEURS	Venti&latieroosters
+CM_AJOUTCOULEUR	Een kleur d&upliceren
+CM_ALIGN_CENTER	&Centreren
+CM_ALIGN_LEFT	&Links aanpassen
+CM_ALIGN_RIGHT	&Rechts aanpassen
+CM_APPROBATION_DEVIS	&Goedkeuren geimporteerde bestellingen
+CM_APPROBCONFIRM	Bevestigingen goed&keuren
+CM_ARCHIVAGE	Ar&chieven
+CM_ARCHIVAGE_ARMOIRE	Tijdelijke archivering
+CM_ARCHIVAGE_DATE	Archiveren op datum
+CM_ARCHIVAGE_PALETTES	&Archiveren
+CM_ARRANGEICONS	&Rangschikking van de ikonen
+CM_ARTICLEPOSE	Artikels voor plaats&ing
+CM_ARTICLES	&Artikels
+CM_ARTICLE_DELAI	Leveringstermijn artikels
+CM_ASSISTANTS_COMMERCIAUX	Verkoops assistenten
+CM_AUGMENTER_PA	De &inkoopprijs verhogen
+CM_AVALFIN	&Financiële goedkeuring
+CM_BIBLIO	&Bibliotheken
+CM_BOLD	D&ik
+CM_BORDERAULIVRAISONPARTILLE	O&nvolledige leveringsbon
+CM_BORDEREAULIVRAISON	Levering&sbonnen
+CM_BORDEREAULIVRAISON2	Leveringsbonnen h&erafdrukken
+CM_BORDLIVR	L&ijst van leveringsvoorbereiding
+CM_BORDLIVR2	Li&jst van leveringsvoorbereiding &herafdrukken
+CM_BRUKOR	Facturation &Brukor
+CM_CADRES	OmK&adering
+CM_CAISSONS	Kaste&n
+CM_CANCEL	Verlaten\tESC
+CM_CASIER	Afva&lvakken
+CM_CATART	Cate&gorieën van artikels
+CM_CATCLI	Categ&orieën van klanten
+CM_CDES_TERMINEES	Importeren van bestellingen voltooid
+CM_CDEVITRAGE	&Beglazingen bestellen
+CM_CDEVITRAGE2	Best.v. beglazingen herafdr&ukken
+CM_CHANGEUSER	A&ndere gebruiker
+CM_CHARGEMENTPALETTE	&Laden
+CM_CHAUFFEURS	&Chauffeurs
+CM_CHEVALET	Geladen rekken
+CM_CINTRE	Vals&e Opdekken
+CM_CLIENTS	&Klanten
+CM_CLOSECHILDREN	&Alles sluiten
+CM_COEFF	Prijzencoë&fficiënten
+CM_COLIS	Verpakkingstype
+CM_COMMANDE	Bestellingen en &offertes
+CM_COMMANDESTOCK	Bestelling &aanmaken en wijzigen
+CM_COMPARAISON_STOCK_CASIER	Controle van de voorraad per vak
+CM_COMPTAGE_UNITES	Berekende eenheid\n
+CM_CONDITIONSLIVRAISON	&Verpakking
+CM_CONDITIONSTRANSPORT	Transport condities
+CM_CONFIRMATIONSTOCK	Bestelling &bevestigen
+CM_CONSOMENSUELLE	&Maandelijks verbruik afdrukken
+CM_CONSO_OPTIM	Verbruik per optimalisatie afdruk&ken
+CM_CONTROLECHAINE	Produktiecontrole
+CM_CONTROLEQUOTIDIEN	Hoeveelheidscontrole
+CM_CONTROLE_ACCESS	Controle Roeden,Ventilatoren,Accessoires
+CM_CONTROLE_CHASSIS	Raamcontrole
+CM_CONTROLE_LIVRAISON	Leveringscontrole
+CM_CONTROLE_VOLETS	Rolluikencontrole
+CM_COPY	Kopiëren\tF7
+CM_CORRECTIONSTOCK	Aanpassing (nieu&we stock)
+CM_CORRECTIONSTOCK2	Aanpassing (verschi&l)
+CM_CORRECTION_STOCK_CASIER	Correctie voorraadvakken
+CM_COULEURS	Kle&uren
+CM_COULISSES	Ge&leiders
+CM_CROISILLONS	Kr&uishouten/Roeden
+CM_DB_COMMERCIALE	Aanmaken commerciële database
+CM_DB_DEVIS	&Offerte databasis
+CM_DELETE	Uitwissen
+CM_DEPOTPALETTE	&Deponeren
+CM_DESSIN	WinPro &Tekeningen
+CM_DESSIN_MACONNERIE_ENGELS	Metswerk tekeningen
+CM_DEVIS	Afdruk bestellingen 
+CM_DEVISES	&Munteenheden
+CM_DISTRIBUTCOMMANDE	&Bestellingen verdelen
+CM_DORMANTS	&Kaders
+CM_DXF	D&XF tekeningen
+CM_EDIT	Wijzigen\tF3
+CM_EDITCOPY	Kopiëren\tCtrl+Ins
+CM_EDITCUT	Knippen\tShift+Del
+CM_EDITDELETE	Verwijderen\tDel
+CM_EDITPASTE	Plakken\tShift+Ins
+CM_EDITUNDO	Annuleren\tAlt+BkSp
+CM_EMPLACEMENTPRINCIPAL	&Plaats van de hoofdstock
+CM_EMPLACEMENTS	Voorraad&plaats
+CM_ENCOURSCHAINE	Bestellingen in produ&ctie
+CM_ENCOURS_CLIENT	Kla&nten bestellingen
+CM_ENCOURS_SYSTEME	Lopende fabri&catie
+CM_ENCOURS_SYSTEME_DEBUT	Per datum v. &beginfabricatie
+CM_ENCOURS_SYSTEME_DLIVRAISON	Per datum v. le&vering
+CM_ENTREESORTIE	Directe stock input/output
+CM_ENVOICONFIRM	Bevestigingen &zenden
+CM_EQUIPE	Levering/plaatsing ploege&n
+CM_ETATCHASSIS	De staat v. een r&aam wijzigen
+CM_ETATCOMMANDE	De staat v. een b&estelling wijzigen
+CM_ETIQUETTES	&Etiketten voor mappen
+CM_EXPORT	Export\t^F5
+CM_EXPORTTECHNIQUEALF	Export technische data naar ALF
+CM_EXPORTTECHNIQUEBREMAUD	Export technische data naar Bremaud
+CM_FACTURATIONMENSUELLE	Maandelijkse factuur
+CM_FACTURATIONMENSUELLE2	Herafdruk van de maandelijkse factuur
+CM_FACTURES	&Facturen
+CM_FACTURES2	Facturen herafdru&kken
+CM_FACTURES_PARTIELLE	&Gedeeltelijke facturen
+CM_FACTURES_SIMPLES	Eenvoudige facturen en kredietnota's
+CM_FIND	&Zoeken In formules
+CM_FONT	&Lettertype
+CM_FOURNISSEURS	&Leveranciers
+CM_GAMME	Gamma
+CM_GESTIONCHUTES	&Afvalstock beheren
+CM_GRILLEPREVISIONSTOCK	Tabel v.voorziene &stock afdrukken
+CM_GROUPEUSINAGE	Bewerkingsg&roepen
+CM_GROUPE_PRODUIT	Produktgroep
+CM_GROUPE_REMISE	Kortingsgroep
+CM_HELPABOUT	&About WinPro
+CM_HELP_INDEX	&Hulp
+CM_HISTODEVISE	Over&zicht munteenheden
+CM_HISTORIQUESTOCK	Ove&rzicht voorraadverplaatsingen
+CM_IMPORT	Import\t^F4
+CM_IMPORTTECHNIQUEALF	Importeer technische data vanuit Alf
+CM_IMPORTTECHNIQUEBREMAUD	Importeer technische data vanuit Bremaud
+CM_IMPORT_ARTICLES	Importeren van artikels
+CM_IMPORT_CLIENTS	Importeren klanten
+CM_IMPORT_COMMANDES	Importeren van bestellingen
+CM_IMPORT_DEVIS	Importeren offerten
+CM_IMPORT_PLANNING	Importeren van de planning
+CM_IMPORT_TOURNEES	Importeren van leveringszone's
+CM_IMPRCONFIRM	Bevestigingen &afdrukken
+CM_IMPRESSIONCHASSISSTD	Afdruk van standaard ramen
+CM_IMPRESSION_LOT	Afdruk doc&umenten van het lot
+CM_INCIDENTS	Gebeurtenissen
+CM_INDENT_LEFT	De linkse marge verkl&einen
+CM_INDENT_RIGHT	De linkse marge ver&groten
+CM_INFOCLI	&Disket INFOCLI
+CM_INFO_CLI	Informaties/klant &voor offertemodule
+CM_INVENTAIREGENERAL	De gehele &inventaris afdrukken
+CM_ITALICS	Cur&sief
+CM_JOUR_FERMETURE	&Sluitingsdagen
+CM_LANCERPRODUCTION	De &productie beginnen
+CM_LARGER	&Vergroten
+CM_LIAISONCOMPTABLE	&Import Boekhouding
+CM_LICENCE	&Licentie
+CM_LIGNE_PRODUCTION	Produktielijnen
+CM_LINEAIRECAMION	&Vrachtwagen capaciteit
+CM_LISTEACCESSOIRES	Toebe&horen
+CM_LISTEARTICLE	&Artikels (vereenvoudigd)
+CM_LISTEARTICLEDETAIL	A&rtikels (uitvoerig)
+CM_LISTECATEGORIEARTICLE	&Categorieën van artikels
+CM_LISTECATEGORIECLIENT	Categorieën van k&lanten
+CM_LISTECHUTES	&Rest afvallen
+CM_LISTECLIENTS	Kla&nten
+CM_LISTECOEFFICIENT	Coë&fficiënten
+CM_LISTEDESSINS	Te&keningen
+CM_LISTEDEVISES	&Munteenheid
+CM_LISTEDORMANTS	Ka&ders
+CM_LISTEEMPLACEMENT	Voorraadplaats&en
+CM_LISTEFOURNISSEUR	Le&veranciers
+CM_LISTEINVENTAIREEMPLACEMENT	I&nventaris per plaats afdrukken
+CM_LISTEOUVRANTS	Vle&ugels
+CM_LISTEPANNEAUX	&Panelen
+CM_LISTEPANNEAUXDECORATIFS	Sierpa&nelen
+CM_LISTEPARCLOSES	Glaslatten
+CM_LISTEPROFILS	Prof&ielen
+CM_LISTEQUINCAILLERIES	Besla&gen
+CM_LISTEREHAUSSES	&Ophogen
+CM_LISTESYMBOLES	Be&werking
+CM_LISTETRAVERSES	Sti&jlen/Regels
+CM_LISTEVITRAGES	&Beglazingen
+CM_LISTE_PALETTES_DISPONIBLES	&Beschikbare palletten
+CM_LISTE_PALETTES_NON_DISPONIBLES	&Niet beschibare palletten
+CM_LST_CMP_DC	&Vergelijkende lijst Offertes/Bestellingen
+CM_MATERIAU	Materialen
+CM_MESSAGES	Be&richten
+CM_MISEENATTENTE	&In afwachting
+CM_MISE_CHEVALET	Stockeren op leveringsbokken
+CM_MISE_EN_SERIE	Importeren van bestellingen in produktie
+CM_MODIFCONFIRM	Bevestiging van de wijziging
+CM_MODIFIERCODE	De code v. &1 record wijzigen
+CM_MODIF_LIVRAISON	Leveringen &wijzigen
+CM_MO_NEGOCE	Werkuren
+CM_NEW	Aanmaken\tF6
+CM_NONRECT	Leveren vanuit de werkplaats van niet-rechthoekige ramen
+CM_NORMEVENT	&Windlastnormen
+CM_NORMEVERRE	&Beglazingsnormen
+CM_OPTIMISER	&Optimalisatie
+CM_OPTIMISER_PROF_ACCESS	Optimalisatie van b&ijprofielen
+CM_OPTIMISER_TRAVERSES	Optimalisatie van s&tijlen
+CM_OUVRANTS	&Vleugels
+CM_PACKAGE	Beheer van verpakkingen
+CM_PAIEMENT	&Betalingsvoorwaarden
+CM_PALETTES	&Paletten
+CM_PANNEAUX	&Panelen
+CM_PANNEAUXDECORATIFS	S&ierpanelen
+CM_PANNEAUXFABRIQUES	Samengestel&de panelen
+CM_PARAMCOMCLI	Parameters dokument
+CM_PARCLOSES	Glas&latten
+CM_PASSWORD	&Wachtwoord
+CM_PERIMETRES	O&mtrekken
+CM_PLANENLEVEMENT	Lijst van &afhalingen
+CM_PLANIFIER	Produ&ktieplanning
+CM_PLANLIVRAISON	Lijst van &leveringen
+CM_PLANLIVRAISON2	Leveringsplanning per chauffeur
+CM_PLANNING_FABRICATION	Planning v. &fabricatie
+CM_PLANPOSE	Lijst van &plaatsingen
+CM_PLANSORTIE	Lijst van alle &referenties
+CM_PLANSORTIEZONE	Lijst van referenties per leverings&zone
+CM_POSITION_STOCK	Voorraadplaats
+CM_POSTETRAVAIL	Arbeids&posten
+CM_POSTE_ATELIER	Werkplaatsp&osten
+CM_PREPAOPTIMI	Een &lot voorbereiden
+CM_PREPARATION_COLIS	Voorbereiding verpakking
+CM_PREVISIONSTOCK	Voor&ziene stock afdrukken
+CM_PRINT	Afdrukken\nF11
+CM_PRIX_TARIF	&De tariefprijzen dumpen
+CM_PRN_CDE_SOUSTRAIT	Afdruk van bestellingen onderaannemers
+CM_PRODUCTIONCOST	&Produktie
+CM_PROFILS	Pro&fielen
+CM_PROPOSITIONSTOCK	&Voorstellen van bestelling
+CM_PROSPECTS	&Prospecten
+CM_QUERY_280	Op&gestuurde bevestigingen
+CM_QUERY_CDE	&Onderzoek v. bestellingen
+CM_QUERY_ETAT	Sta&at van de ramen
+CM_QUESTIONSGLOBALES	Algemene vragen bestelling
+CM_QUINCAILLERIE	Besla&gen
+CM_QUIT	&Afsluiten\tAlt+F4
+CM_RAPPELSTOCK	&Herinnering aan de leverancier
+CM_RAPPEL_PALETTES	&Herinnering voor de klanten
+CM_RAZ_STOCK	De stock tot niets &terugbrengen
+CM_REACTIVATIONCONFIRM	Reacti&vering
+CM_RECEPTIONSTOCK	Bestelling &ontvangen
+CM_RECEPTION_SORTIE_CHAINE	Ontvangst  afgewerkte ramen
+CM_REHAUSSES	&Ophogen en dorpels
+CM_REIMPRCONFIRM	Bevestigingen &herafdrukken
+CM_REIMPRESSIONOPTIM	De optimalisatie heraf&drukken
+CM_REINDEX	&Herindexering
+CM_REINSERTIONCHAINE	Invoegen in de productielijn
+CM_REOPTIMISER	De optimalisatie her&rekenen
+CM_REOPTIMISER_TRAVERSES	De optim. van stijlen &herrekenen
+CM_REPBORDERAULIVRAISONPARTILLE	O&nvolledige leveringsbon herafdrukken
+CM_REPFACTURES_PARTIELLE	Gedeeltelijke facturen herafdru&kken
+CM_REPORT	&Creëren
+CM_REPORTTYPE	&Type Document
+CM_REPRCONFIRM	Afdruk van gewijzigde bestellingen
+CM_REPRESENTANT	Vertegen&woordigers
+CM_RETOURPALETTE	&Terugkrijgen
+CM_REVALIDCONFIRM	Herafdruk van gewijzigde bestellingen
+CM_RINDENT_LEFT	De rechtse kant vergro&ten
+CM_RINDENT_RIGHT	De rechtse kant verklei&nen
+CM_ROUTINES	&Routines
+CM_SAVE	Opslaan\tF5
+CM_SCIE	&Zaag
+CM_SEEK	Zoeken\tF4
+CM_SEL_SYSTEME	&Systeem selectie
+CM_SENDORDERSTOCK	Bestellingen verzenden
+CM_SITELIVR	Leveringsplaats
+CM_SMALLER	Ver&kleinen
+CM_SOCIETE	Gegevens van de maats&chappij
+CM_SOUS_GROUPE_PRODUIT	Produkt subgroep
+CM_STOCK_USINE	Produktievoorraad
+CM_STRIKEOUT	&Doorgestreept
+CM_SUR_MESURE	Standaard/Op maat
+CM_SYSTEMES	S&ystemen
+CM_SYSTEME_PRINCIPAL	Hoofds&ysteem
+CM_TABLIERS	Rolluik&bladen
+CM_TARIFS	&Ramen
+CM_TARIFVOLET	Rol&luiken
+CM_TEXT_CQ	Periodieke tekst op de lijst voor kwaliteitscontrole
+CM_TILECHILDREN	&Verplaatsing
+CM_TOLE	Plooi&werk
+CM_TRANSFERTNAVISION	NaVision transfers
+CM_TRANSFERTSTOCK	Ver&plaatsingen
+CM_TRANSFERT_CDES_TERMINEES	Transfer afgewerkte bestellingen
+CM_TRANSFERT_MISE_EN_SERIE	Transfer produktielots
+CM_TRANSFERT_SIMPLIFIE_USINE	Werkplaats data transfer
+CM_TRANSFERT_SORTIES_CHAINE	Transfer afgewerkte ramen
+CM_TRANSLATE	Vertaling
+CM_TRAVERSES	&Stijlen/Regels
+CM_TRI_FIN_CHAINE	Volgorde einde van fabricatie
+CM_TVA	BTW c&odes
+CM_TYPETRANSPORT	Transport type
+CM_TYPE_PRODUIT	Produkttype
+CM_UNDERLINE	&Onderstreept
+CM_UPDATE_KOMMERLING	Kö&mmerling bijwerking
+CM_USERS	Geb&ruikers
+CM_USINAGE	Be&werkingscodes
+CM_VALIDCONFIRM	Bevestigingen &geldig maken
+CM_VALORISATION_ENCOURS	Waarde van de lopende bestellingen
+CM_VAL_CDE_SOUSTRAIT	Aanrekenen bestellingen onderaannemers
+CM_VERIFATELIER	Nakijken van afgewerkte produktie orders
+CM_VITRAGEPRINCIPAL	Suppl. afstandsh.in kleur
+CM_VITRAGES	&Beglazingen
+CM_WORKCOST	&Arbeidsloon
+CM_ZONELIVRAISON	Leverings&zones
+DOC_%R	%K
+DOC_ACC	Toe.
+DOC_ACCESSOIRES	Toebehoren
+DOC_ACCESSOIRE_CHASSIS	Toebehoren voor ramen
+DOC_ADRESSELIVRAISON	Leveringsadres
+DOC_AERATEUR	Ventilatierooster
+DOC_AJOURE	Opengewerkt
+DOC_ANGLES	Hoeken
+DOC_ARTICLES	Artikels
+DOC_ASSEMBLAGE	Verbinding
+DOC_ASSISTANT_COMMERCIAL	Verkoops assistent
+DOC_A_DROITE	rechts
+DOC_A_GAUCHE	links
+DOC_BONCOMMANDE	Bestelbon
+DOC_CAISSON	Kast
+DOC_CDERECUECONFORME	De bestelling in goede orde ontvangen:\nGoedgekeurd,
+DOC_CDERECUELE	Deze bestelling werd op      /      /         aan      :        ontvangen.
+DOC_CDE_AVALISEE	Opgeslaan bestelling 
+DOC_CDE_A_MODIFIER	Bestelling te wijzigen
+DOC_CDE_ENCODEE	Gecodeerde bestelling
+DOC_CDE_EN_ATTENTE	Bestelling in afwachting
+DOC_CDE_FABRIQUEE	Einde produktie
+DOC_CHA	Raa.
+DOC_CHASSIS	Raam
+DOC_CHASSISNO	Raam nr
+DOC_CHASSISNONREALISABLE	Dit raam is niet uitvoerbaar
+DOC_CHUTESRAL	RAL afval
+DOC_CLIENT	Klant
+DOC_CLR	Clr
+DOC_CODE	Code
+DOC_COMMANDE	Bestelling
+DOC_COMMANDENO	Bestelnr
+DOC_COMMANDEVITRAGE	Beglazingen bestelling
+DOC_COMMENTAIRE	Opmerking
+DOC_COMPRIS	Inbegrepen
+DOC_CONFIRMATION	Bevestiging
+DOC_CONFIRM_P	De klant aanvaardt zonder voorbehoud.de algemene verkoops-voorwaarden, waaronder art.11 bevoegdheid van het gerechthof van Neufchateau (België).
+DOC_CONF_APPROUVEE	Goedgekeurde bevestiging
+DOC_CONF_ENVOYEE	Gezonden bevestiging
+DOC_CONTROLEPRIXACHAT	Controle van inkoopprijs
+DOC_CONTROLEPRIXREVIENT	Kostprijskontrole
+DOC_CONTROLEPRIXVENTE	Controle van de verkoopsprijs
+DOC_CONTROLEQUALITE	Kwaliteitskontrole
+DOC_COULEUR	Kleur
+DOC_COULEURMAUCLAIR	Makelaar kleur
+DOC_COULEUR_EXT	Buit. kleur
+DOC_COULEUR_INT	Bin. kleur
+DOC_COULEUR_SOUS_LAME	Onderlat kleur
+DOC_COULISSE	Geleider
+DOC_COULISSES	Geleiders
+DOC_COUPLEUR_S_	Koppeling(en)
+DOC_CROISILLON	Kruishout/Roede
+DOC_CROISILLONS	Kruishouten/Roeden
+DOC_DANS_(x semaines)	in
+DOC_DATE	Datum
+DOC_DATECOMMANDE	Bestel. datum
+DOC_DATELIVRAISON	Leveringsdatum
+DOC_DATE_EXPEDITION	Expeditie
+DOC_DATE_RECEPTION	Ontvangst
+DOC_DELAI_JOURS_COMMANDE_SOIT_LE	Betalen #1# dagen na bestelling aub, op #2#.
+DOC_DELAI_JOURS_FIN_MOIS_LE	Betalingen #1# dagen einde maand #3#, welke valt op #2#.
+DOC_DELAI_JOURS_FIN_MOIS_SOIT_LE	Betalingstermijn #1# dagen maandeinde d.w.z. vervallen op #2#.
+DOC_DELAI_JOURS_SOIT_LE	Betalingstermijn #1# dagen d.w.z. vervallen op #2#.
+DOC_DELIVERY_NOTE_NUM	Verzendnotanr
+DOC_DELIVERY_NOTE_RECAP_TITLE	Samenvattende verzendnota
+DOC_DEMANDEPRIX	Prijsaanvraag
+DOC_DESCRIPTION	Beschrijving
+DOC_DESCRIPTIONCHANGEMENT	Beschrijving van wijzigingen
+DOC_DEVIS	Offerte
+DOC_DIMENSION	Maat
+DOC_DIMENSIONDORMANT	Kader afmetingen
+DOC_DIMENSIONFABRICATION	Fabricatie maten
+DOC_DIMENSIONHORSTOUT	Totale afmetingen
+DOC_DIMENSIONS	Maten
+DOC_DIMTABLEAU	Dagmaten
+DOC_DISCOUNT_AMNT	Korting
+DOC_DONNEUR_DORDRE	Gegevens volgorde:
+DOC_DORMANT	Kader
+DOC_DROITE	Rechts
+DOC_ENCODEPAR	Door #1# gecodeerd
+DOC_ENLEVEMENT	Afhaling
+DOC_ENLEVEMENTCOMMANDE	De afhaling van deze bestelling zal #4# #1# #5# plaatsvinden als de bevestiging bij ontvangst goedgekeurd teruggefaxt is.
+DOC_ENROULEMENT	Oprol
+DOC_ENTRAXEBASHAUT	Tussenassenmaten van beneden tot boven
+DOC_ENTRAXEGAUCHEDROITE	Tussenassenmaten van links tot rechts:
+DOC_EN_BAS	beneden
+DOC_EN_HAUT	boven
+DOC_EN_PRODUCTION	In produktie
+DOC_EQUIV_EURO	Tegenwaarde €
+DOC_ERREUR	Vergissing
+DOC_ESCOMPTE_PAIEMENT_COMPTANT	Disconto #1#% in geval van contante betaling: #2#
+DOC_ESCOMPTE_PAIEMENT_JOURS	Disconto #1#% indien betaling binnen #2# dagen: #3#
+DOC_ETATCOMMANDE	Bestelling
+DOC_EXTERIEUR	Buiten
+DOC_EXT_	Buit.
+DOC_FACTURE	Factuur
+DOC_FACTUREACOMPTE	Voorschotfactuur
+DOC_FACTUREACOMPTE_NO	Voorschotfactuur nr #1# van #2#
+DOC_FACTURE_NO	Factuur nr #1# van de #2#
+DOC_FAUXCINTRAGE	Schijnboog
+DOC_FAX	Fax
+DOC_FLECHE	Pijl
+DOC_FOURNITURECOMMANDE	De levering van deze bestelling zal #4# #1# #5# plaatsvinden als de bevestiging bij ontvangst goedgekeurd teruggefaxt is.
+DOC_FOURNITURESSUPPLEMENTAIRESARTICLES	Extra leveringen: artikels
+DOC_FOURNITURESSUPPLEMENTAIRESPROFILS	Extra leveringen : profielen
+DOC_FOURNITURESSUPPLEMENTAIRESTOLES	Extra levering: plooiwerk
+DOC_FRAISLIVRAISON	Leveringskosten
+DOC_FRAISPORT	Vracht
+DOC_GAUCHE	Links
+DOC_GRATUIT	Gratis
+DOC_GROSS_AMNT	Bruto bedrag
+DOC_HAUT	Boven
+DOC_HAUTDROITE	Boven rechts
+DOC_HAUTEUR	Hoogte
+DOC_HAUTGAUCHE	Boven links
+DOC_HORS_GARANTIE	Buiten waarborg !
+DOC_INITIALE_DROITE	R
+DOC_INITIALE_GAUCHE	L
+DOC_INSTRUCTIONSPOSE	Plaatsingsinstructies
+DOC_INTERCALAIRE	Afstandshouder
+DOC_INTERIEUR	Binnen
+DOC_INTERIEUR_EXTERIEUR	Binn/buit
+DOC_INT_	Bin.
+DOC_JUSQUE	tot
+DOC_Kg	Kg
+DOC_LARGEUR	Breedte
+DOC_LA_SEMAINE	in de loop van week
+DOC_LE (date)	de
+DOC_LECLIENT	De Klant
+DOC_LE_CHAUFFEUR	De bestuurder
+DOC_LIMITE_VALIDITE	Geldigheid tot
+DOC_LIVR	Lev
+DOC_LIVRAISON	Levering
+DOC_LIVRAISONCOMMANDE	Deze bestelling zal #4# #1# #5# geleverd worden als de bevestiging bij ontvangst goedgekeurd teruggefaxt is.
+DOC_LONGUEUR	Lengte
+DOC_LOT	Lot
+DOC_LPROD	Prod. lijn
+DOC_MANOEUVRE	Bediening
+DOC_MENEAU_X_	Makelaar(s)/Stolp(en)
+DOC_MESSAGE	Bericht
+DOC_MONTANT	Bedrag
+DOC_MOTIF	Reden
+DOC_NET_AMNT	Netto bedrag
+DOC_NEXTPAGE	Einde van het document op volgende bladzijde
+DOC_NOCLIENT	Klant nr
+DOC_NOMBRE_VOLUMES	Aantal volumes
+DOC_NON	Neen
+DOC_NONCOMPRIS	Niet inbegrepen
+DOC_NONFOURNI	NIET GELEVERD
+DOC_NONREALISABLE	Niet uitvoerbaar
+DOC_NOSREFERENCES	Onze referenties
+DOC_NOTECREDIT	Kredietnota
+DOC_NOTEENVOI	Verzendingsnota
+DOC_NOTE_ENVOI_NO	Verzendnota #1#
+DOC_NUMERO_TABLIER	Rolluik #1#
+DOC_OPTION	Optie
+DOC_OPTIONS	Opties
+DOC_ORDRE_LAQUAGE	Volgorde van lakken
+DOC_OUI	Ja
+DOC_OUVRANT	Vleugel
+DOC_PAGE	Blz
+DOC_PAIEMENT	Betaling
+DOC_PAIEMENT_COMMANDE_SOIT_LE	Betalen bij bestelling aub., op #1#.
+DOC_PAIEMENT_COMPTANT	Contante betaling.
+DOC_PAIEMENT_FIN_DE_MOIS_LE	Betaling einde maand #2#, welke valt op #1#.
+DOC_PAIEMENT_FIN_DE_MOIS_SOIT_LE	Betaling maandeinde d.w.z. op #1#.
+DOC_PAIEMENT_PAR_TRAITE	Betaling met wissel.
+DOC_PALETTE	Vervoerpallet
+DOC_PANNEAU	Panelen
+DOC_PARCLOSE	Glaslat
+DOC_PARCLOSES	Glaslatten
+DOC_PLANS_ATELIER	Werkplannen
+DOC_POIDS_TOTAL	Totaal gewicht
+DOC_POSE	Plaatsing
+DOC_POSECOMMANDE	De plaatsing van deze bestelling zal #4# #1# #5# plaatsvinden als de bevestiging bij ontvangst goedgekeurd teruggefaxt is.
+DOC_POURACCORD	Goedgekeurd,
+DOC_PREPARATIONLIVRAISON	Voorbereidingslijst van levering
+DOC_PRIX	Prijs
+DOC_PRIXBRUT	Brutopr.
+DOC_PRIXCOURANT	Lopende prijs
+DOC_PRIXTARIF	Tariefprijs
+DOC_PRIX_ASSEMBLAGE	Prijzen van verbindingstoebehoren
+DOC_PRIX_CHASSIS	Prijs van het raam
+DOC_PRIX_DES_ACCESSOIRES	Prijs van de toebehoren
+DOC_PRIX_DES_CHASSIS	Prijs van de ramen
+DOC_PRIX_DES_VITRAGES	Prijs van beglazingen
+DOC_PRIX_DES_VOLETS	Prijs van de rolluiken
+DOC_PRIX_NET	Netto prijs
+DOC_PRIX_TOTAL	Totale prijs
+DOC_PRIX_UNITAIRE	Prijs/stuk
+DOC_PRIX_VARIANTE	Prijs van de variant
+DOC_PRIX_VITRAGE	Prijs van de beglazing
+DOC_PRIX_VOLET	Prijs van het rolluik
+DOC_PROFILS_COMPLEMENTAIRES	Bijprofiel
+DOC_QTE	Hvld
+DOC_QUANTITE	Hoeveelheid
+DOC_QUINCAILLERIE	Beslag
+DOC_RAYON	Straal
+DOC_RECEPITIONNISTEAUTORISE	Bevoegde ontvanger
+DOC_REFERENCE	Referentie
+DOC_REFERENCECLIENT	Klant referenties
+DOC_REHAUSSE	Ophoogprofiel
+DOC_REMARQUE	Opmerking
+DOC_REMISE	Korting
+DOC_REMISERETROCESSION	Korting
+DOC_SANS_FOURNISSEUR	Zonder leverancier
+DOC_SEMAINE(S)	Weken
+DOC_SENS	Richting
+DOC_SEUIL	Dorpel
+DOC_SEUIL_RENFORT	Dorpel / Verterking
+DOC_SIGNATURE	Handtekening
+DOC_SITE	Productiesite
+DOC_SOUSLOT	Sub Lot
+DOC_SUIVANTCOMMANDEDU	Volgens Uw bestelling #1# van
+DOC_SUPPLEMENT	Supplement
+DOC_SUPPLEMENT_ACCESSOIRES	Supplement toebehoren voor de variant
+DOC_SUPPLEMENT_TOTAL	Totaal van de supplementen
+DOC_SUPPLEMENT_VARIANTE	Supplement voor de variant
+DOC_SUPPLEMENT_VITRAGE	Supplement beglazing voor de variant
+DOC_SUPPLEMENT_VOLET	Meerprijs rolluik
+DOC_SURFACE_TOTALE	Totale oppervlakte
+DOC_SYSTEME	Systeem
+DOC_TABLIER	Rolluikblad
+DOC_TEL	Tel
+DOC_TITREACOMPTE	Voorschot
+DOC_TITREACOMPTES	Voorschotten
+DOC_TOT	Tot.
+DOC_TOTAL	Totaal
+DOC_TOTALACOMPTE	Totaal voorschot
+DOC_TOTALACOMPTENET	Totaal voorschot netto
+DOC_TOTALACOMPTES	Totaal voorschotten
+DOC_TOTALCOMMANDEHTVA	Totaal bestelling BTW excl.
+DOC_TOTALCOMMANDENET	Netto totaal bestelling
+DOC_TOTALFOURNITURE	TOTAAL LEVERINGEN
+DOC_TOTALGENERALCOMMANDENET	Netto algemeen totaal
+DOC_TOTALGENERALCOMMANDETVAC	Algemeen totaal BTW incl.
+DOC_TOTALMATIERE	Totaal materiaal
+DOC_TOTALNET	Netto totaal
+DOC_TOTALPOSE	Totaal plaatsing
+DOC_TOTALPVC	TOTAAL PVC
+DOC_TOTALTVAC	Totaal BTW inb.
+DOC_TOTALVITRAGE	Totaal beglazing
+DOC_TOTALVOLET	TOTAAL ROLLUIK
+DOC_TOUTE_LA_COMMANDE	In de hele bestelling ermee rekening te houden
+DOC_TRAITEPAR	Behandeld door
+DOC_TRAITE_JOURS	Betaling met wissel op #1# dagen.
+DOC_TRAVERSE	Stijl/Regel
+DOC_TRAVERSE_S_	Stijl(en)/Regel(s)
+DOC_TRI	Tri
+DOC_TVA	BTW
+DOC_UNITE	Eenheid
+DOC_USER	Gebruiker
+DOC_VARIANTE	(variant)
+DOC_VARIANTES	Variant(en)
+DOC_VAR_ACCESSOIRE	Optie: #1#
+DOC_VAR_COULEUR	Kleur: #1#
+DOC_VAR_VITRAGE	Beglazing: #1#
+DOC_VENDUPAR	Verkocht door
+DOC_VERSION	Versie
+DOC_VEUILLEZNOTERPROBLEMES	Gelieve de volgende problemen  te noteren:
+DOC_VEUILLEZPROCEDERCHANGEMENT	Gelieve de volgende wijzigingen op mijn bestelling aan te brengen :
+DOC_VIT	Beg.
+DOC_VITRAGE	Beglazing
+DOC_VITRAGES	Beglazingen
+DOC_VITRAGES_CDES	Bestelde beglazingen
+DOC_VITRAGES_ET_PANNEAUX	Beglazingen en panelen
+DOC_VOL	RL.
+DOC_VOLET	Rolluik
+DOC_VOLETNONREALISABLE	Dit rolluik is niet uitvoerbaar
+DOC_VOSREFERENCES	Uw referenties
+DOC_VUEEXTERIEURE	Buitenzicht
+DOC_VUEINTERIEURE	Binnenzicht
+DOC_ZONE	Zone
+IDS_%	%
+IDS_%R	%K
+IDS_%_AUGMENTATION_PRIX	% verhoging van inkoopprijs
+IDS_%_CA	% Omz.
+IDS_%_FOND	%donker
+IDS_%_FOND_VITRAGE	%donker beglaz.
+IDS_%_MARGE	% marge
+IDS_%_MARGE/DEBOURSE	%marge per gebudgeteerde kost
+IDS_%_PAR_DEFAUT	% standaard
+IDS_%_REMISE	% korting
+IDS_%_SUPPLEMENT_INTERCALAIRE_COULEUR	% meerprijs voor afstandshouder in kleur
+IDS_''	"
+IDS_(BAS)	(Beneden)
+IDS_(TOUTES)	(Alle)
+IDS_(fois)	X
+IDS_+_COMMANDES_FOURNISSEURS	+ bestellingen bij leveranciers
+IDS_+_PRECIS	naukeuriger
+IDS_+_RAPIDE	sneller
+IDS_--- % remise ---	--- % Korting ---
+IDS_-_RESERVATIONS_CLIENTS	- reservaties voor klanten
+IDS_/10	/10
+IDS_1	1
+IDS_1,2,3,4,5	 1:\n 2:\n 3:\n 4:\n 5:
+IDS_1/10_mm	1/10 mm
+IDS_10	10
+IDS_1_CADRE_PAR_CASIER	1 kader per kast
+IDS_1_MM	1 mm
+IDS_1_OCCURRENCE	%d geval
+IDS_1_PAGE_PAR_CHASSIS	1 pagina per raam
+IDS_1_PLAN/PAGE	1 plan per blad
+IDS_1_SEULE_FOIS	Alleen één keer
+IDS_1_VANTAIL	1 deel
+IDS_1r_COLONNE_SUR_BON_COMMANDE	Referentiekolom op de bestelbon
+IDS_1°	1st
+IDS_2	2
+IDS_2_A_8	(2 tot 8)
+IDS_2_VANTAUX_HORIZONTALES	2 horizontale delen
+IDS_2_VANTAUX_VERTICALES	2 verticale delen
+IDS_2_VUES_SI_BICOLORE	2 zichten indien bicolor
+IDS_2°	2de
+IDS_2°_REMISE_COMPLEMENTAIRE	2de bijkomende korting
+IDS_2°_REMISE_MATIERE	2de korting / materiaal
+IDS_3	3
+IDS_3_VANTAUX_HORIZONTALES	3 horizontale delen
+IDS_3_VANTAUX_VERTICALES	3 verticale delen
+IDS_3°	3de
+IDS_3°_REMISE_MATIERE	3de korting / materiaal
+IDS_4	4
+IDS_4_VANTAUX_HORIZONTALES	4 horizontale delen
+IDS_5	5
+IDS_5_VANTAUX_HORIZONTALES	5 horizontale delen
+IDS_6	6
+IDS_6_VANTAUX_HORIZONTALES	6 horizontale delen
+IDS_7	7
+IDS_7_VANTAUX_HORIZONTALES	7 horizontale delen
+IDS_8	8
+IDS_9	9
+IDS_A	aan
+IDS_A(heure)	om
+IDS_ACC	Toe.
+IDS_ACCESREFUSE	Toegang geweigerd
+IDS_ACCESSOIRES	Toebehoren
+IDS_ACCESSOIRES_CHASSIS	Ramentoebehoren
+IDS_ACCESSOIRES_QUINCAILLERIE	Beslagtoebehoren
+IDS_ACCESSOIRE_CHASSIS	Toebehoren voor ramen
+IDS_ACCESSOIRE_HORS_TARIF	Toebehoren buiten tarief
+IDS_ACCES_IMPOSSIBLE	Onmogelijke toegang voor het ogenblik
+IDS_ACCORD_CHAUFFEUR	Goedkeuring bestuurder
+IDS_ACOLISER	Te verpakken
+IDS_ACOMPTE	Voorschot
+IDS_ACOMPTE_A_LA_COMMANDE	Vooruitbetaling
+IDS_ACTIF	Dinsdag
+IDS_ACTIONS	Acties
+IDS_ACTUALISER	Vernieuwen
+IDS_ADMINISTRATEUR	Administrateur
+IDS_ADRESSE	Adres
+IDS_ADRESSELIVRAISON	Leveringsadres
+IDS_ADRESSES_FACTURATION_ET_LIVRAISON	Adres van facturatie en levering
+IDS_ADRESSE_FOURNISSEUR	Adres van de leverancier
+IDS_ADRESSE_LIVRAISON_MODIFIEE	Gewijzigde leveringsadres
+IDS_AERATEUR	Ventilatierooster
+IDS_AERATEURS	Ventilatieroosters
+IDS_AERATEUR_HORS_TARIF	Ventilatierooster zonder prijs
+IDS_AFFICHER_SUR_POSTES:	Weergeven op werkplaatsposten :
+IDS_AGREATION	Overeenkomst
+IDS_AIDE_DECHARGEMENT	Hulp bij het afladen
+IDS_AISANCE	Speling
+IDS_AISANCENULLE	Gelieve de speling voor #1# beglazing te definiëren
+IDS_AISANCE_SUPPLEMENTAIRE_VITRAGE	Extra speling
+IDS_AJOURE	Opengewerkt
+IDS_AJOUT	Nieuw
+IDS_AJOUTER	Toevoegen
+IDS_AJOUTERTRAVERSE	Een Stijl/Regel toevoegen
+IDS_AJOUTER_COULEUR	Een kleur toevoegen
+IDS_AJOUTER_DEFAUT	Voeg - punten toe
+IDS_AJOUTER_FONCTION	Voeg een functie toe
+IDS_AJOUTER_HOBBY	Voeg een hobby toe
+IDS_AJOUTER_MARCHE	Voeg een nieuw marktsegment toe
+IDS_AJOUTER_QUALITE	Voeg + punten toe
+IDS_AJOUTER_TITRE	Voeg een nieuwe titel toe
+IDS_AJOUTER_TRAVERSE	Een stijl/regel toevoegen
+IDS_AJOUTER_TYPE_MARCHE	Voeg een nieuw marktsegment toe
+IDS_AJOUTVARIANTE	Variant toevoegen
+IDS_ALIGNEMENTCROISILLONS	De kruishouten/Roeden  op een rij plaatsen
+IDS_ALIGNERAXESTRAVERSES	De assen v.d. stijlen op een rij plaatsen
+IDS_ALIGNERCROISILLONSBAS	De kruishouten/Roeden van beneden op een rij plaatsen
+IDS_ALIGNERCROISILLONSDROITE	De kruishouten/Roeden op een rij van rechts plaatsen
+IDS_ALIGNERCROISILLONSGAUCHE	De kruishouten/Roeden op een rij van links plaatsen
+IDS_ALIGNERCROISILLONSHAUT	De kruishouten/roeden van boven op een rij plaatsen
+IDS_ALIGNERCROISILLONSVANTAIL	De kruishouten/roeden vanaf deze vleugel op een rij plaatsen
+IDS_ALVEOLES	Vak
+IDS_AM_PM	AM/PM
+IDS_AN	Jaar
+IDS_ANALYSE	Analysis
+IDS_ANCIENMOTPASSEINCORRECT	Het vorige wachtwoord is ongeldig
+IDS_ANCIENNE_COULEUR	Voormalige kleur
+IDS_ANCIENNE_DATE_LIVRAISON	Levering was gepland op
+IDS_ANCIENSTOCK	Vorige stock
+IDS_ANCIEN_CODE	Vorige code
+IDS_ANCIEN_ETAT	Vorige staat
+IDS_ANCIEN_MOT_DE_PASSE	Vorig wachtwoord
+IDS_ANCIEN_NUMERO	Offerte nr.
+IDS_ANCIEN_NUMERO_EXISTE	Dit bestelnummer bestaat al.  Wilt U dit vervangen ?
+IDS_ANGLE	Hoek
+IDS_ANGLES	Hoeken
+IDS_ANNEE	Jaar
+IDS_ANNEE_DEBUT	Eerste jaar
+IDS_ANNULATIONENCODAGE	De pas gemaakte codering zal geannuleerd worden.\nWilt U bevestigen?
+IDS_ANNULATIONETAT	Moet de bestelling opnieuw bevestigd worden ?
+IDS_ANNULATION_PRIX_MEMORISES	Wilt U de vroeger opgeslagen prijzen annuleren?
+IDS_ANSEPANIER	Korfboog
+IDS_ANSEPANIERDROITE	Rechtse halve korfboog
+IDS_ANSEPANIERGAUCHE	Linkse halve korfboog
+IDS_AOUT	augustus
+IDS_AOUT_ABR	aug
+IDS_APPLIQUE	Opgekleefd
+IDS_APPLIQUER	Toepassen
+IDS_APPLIQUER_MODE_PRIX_CLIENT	Pas de prijs van bij de klantgegevens toe
+IDS_APPLIQUER_PRIX_NEGOCE	Pas de verkoopsprijs toe (indien beschikbaar)
+IDS_APPROBATION	Goedkeuren
+IDS_APPROBATION_CONFIRMATION	Goedkeuring van bevestigingen
+IDS_APPROBATION_CONFIRMATION2	Bevestiging goedkeuren
+IDS_APPROBATION_DATE_QUI	Goedkeuringen van #1# aan #2# door #3#:
+IDS_APPROCHERTRAVERSE	Plaats de stijl van %.0f mm  korter 
+IDS_APRES_MIDI	Namiddag
+IDS_APRES_POSE	Na plaatsing
+IDS_ARCHIVAGE	Archiveren
+IDS_ARCHIVAGE_COMMANDES	Bestellingen archiveren
+IDS_ARCHIVAGE_DATE	Archiveer op factuurdatum
+IDS_ARCHIVAGE_HISTORIQUE_PALETTES	Overzicht van paletten archiveren
+IDS_ARCHIVE	Archief
+IDS_ARCHIVER_COMMANDES_FACTUREES	Archiveer de gefactureerde bestellingen t.e.m.
+IDS_ARCHIVE_EXISTE_DEJA	Er bestaat al een archief van #1# bestelling. Moet dit door een nieuwe versie vervangen worden ?
+IDS_ARCHIVE_SPEC	Archieven (*.WPA)|
+IDS_ARGUMENTINCORRECT	Verkeerde parameter
+IDS_ARRETER	Stop
+IDS_ARRONDI	Afgerond
+IDS_ARRONDIR_10_CM	Elk 10 cm afronden
+IDS_ARRONDIR_DIMENSIONS	Afgeronde maten
+IDS_ARRONDIR_TOTAL_LIGNE	Het bedrag per regel afronden
+IDS_ARTICLE	Artikel
+IDS_ARTICLEAENLEVER	Stukken af te nemen
+IDS_ARTICLECOIN	Hoekstukken
+IDS_ARTICLEINEXISTANT	Het %s artikel bestaat niet
+IDS_ARTICLES	Artikels
+IDS_ARTICLESCADRE	Artikels voor het kaderframe
+IDS_ARTICLESCOINS	Artikels voor de hoeken
+IDS_ARTICLESTOCK	Artikels in stock
+IDS_ARTICLES_DELAI	Levertermijn artikels
+IDS_ARTICLES_ET_PROFILS	Artikels en profielen
+IDS_ARTICLE_1	Artikel 1
+IDS_ARTICLE_2	Artikel 2
+IDS_ARTICLE_A_TRADUIRE	Vertalen van artikels
+IDS_ARTICLE_COMPOSE	Samengesteld artikel
+IDS_ARTICLE_DE	Artikel van
+IDS_ARTICLE_FOURNISSEUR	Artikel bij de lever.
+IDS_ARTICLE_NOTNOW_FOURNISSEUR	Bij deze leverancier is er nu geen artikel te bestellen!
+IDS_ARTICLE_NO_FOURNISSEUR	Geen artikelreferencie voor deze leverancier
+IDS_ARTICLE_PROMOTIONNEL	Artikel in Promotie
+IDS_ARTICLE_VERROUILLE_AILLEURS	Het '%s' artikel wordt door een andere gebuiker geblokkeerd.
+IDS_ASPECT_VIDE	Afbeelding lege deel (bitmap)
+IDS_ASSEMBLAGE	Verbinding
+IDS_ASSEMBLAGECOIN	Verbinding van de hoeken
+IDS_ASSEMBLAGEPORTE	Verbinding van de deuren
+IDS_ASSEMBLAGES_2_COTES	Met verbinding op de 2 zijden
+IDS_ASSEMBLAGE_1_COTE	Met verbinding op 1 zijde
+IDS_ASSEMBLAGE_ATTIQUES	Verbinding zijlicht deur
+IDS_ASSEMBLAGE_BOUT	Eindeverbinding
+IDS_ASSEMBLAGE_CADRES	Hoekenverbinding
+IDS_ASSEMBLAGE_CHASSIS	Verbinding van ramen
+IDS_ASSEMBLAGE_CROIX	Kruisverbinding
+IDS_ASSEMBL_ANGLES	Hoekenverbinding
+IDS_ASSISTANTS_COMMERCIAUX	Verkoops assistenten
+IDS_ASSISTANT_COMMERCIAL	Verkoops assistent
+IDS_ASSURANCE	Verzekering
+IDS_ASSURANCE_%	Verzekering (%)
+IDS_ATELIER	Werkplaats
+IDS_AU	Tot
+IDS_AUCUN	Geen
+IDS_AUCUNCHASSIS	Geen raam.
+IDS_AUCUNECOMMANDE	Geen bestelling
+IDS_AUCUNECOMMANDEAFACTURER	Geen bestelling te factureren
+IDS_AUCUNECOMMANDESEL	Geen geselecteerde bestelling
+IDS_AUCUNEOCCURRENCE	Geen invoer van %s werd gevonden
+IDS_AUGMENTATION_PA_ET_PR	Verhoging inkoop- en kostprijs
+IDS_AUGMENTER_PA	Verhoging van inkoopprijs
+IDS_AUTOMATIQUE	Automatisch
+IDS_AUTORISER_BICOLORE	Bicolor toestaan
+IDS_AUTORISER_DIM_BATTEE_ENUMEREES	Enkel de hieronder vermelde slagmaten worden toegestaan
+IDS_AUTORISER_SAISIE_COTES_TABLEAU	De dagmaten worden toegestaan
+IDS_AUTORISER_SAISIE_DIMENSIONS_FABRICATION	De fabricatiematen worden toegestaan
+IDS_AUTORISER_TOUTES_COULEURS	Alle kleuren toestaan
+IDS_AUTORISER_USINAGE_POSITION_0	Sta een bewerking toe op positie 0
+IDS_AUTRE	Ander
+IDS_AUTRES_FOURNISSEURS	Andere leveranciers
+IDS_AUTRES_INFORMATIONS	Andere informaties
+IDS_AUTRES_PAGES	Andere bladen
+IDS_AVALISATION	Goedkeuring
+IDS_AVALISATION_FINANCIERE	Financiële goedkeuring
+IDS_AVALISER	Goedkeuren
+IDS_AVANT_POSE	Voor de plaatsing
+IDS_AVECTVA	Met BTW
+IDS_AVERIF	Te verifiëren
+IDS_AVERTISSEMENT	Opgelet
+IDS_AVERTISSEMENT1_AJOUT_COULEUR	Daarmee hebt U de mogelijkheid aan de WINPRO parameters een kleur toevoegen.  Ten eerste moet de nieuwe kleur in de kleurentabel opgeslagen worden.  Daarna noemt U in dit scherm de kleur die tot de aanmaking van de nieuwe kleur dient gebruikt te worden.
+IDS_AVERTISSEMENT2_AJOUT_COULEUR	Indien U slechts een bestaande kleur moet herbenoemen hoeft U dit scherm niet gebruiken. Kies "Instelling|De code van 1 record wijzigen".
+IDS_AVERTISSEMENT_CHANGEMENT_CODE	BERICHT:\nDeze functie verandert de code van een record overal waar deze code gebruikt is. Het is ernstig aangeraden om:\n\n1. zeker te zijn dat niemand in het programmma op een andere post momenteel werkt.\n\n2. een zekerheidskopie van de gegevens te maken.\n\n3. na behandeling van de goede werking van het programma zich te vergewissen.\n\nOPMERKING:\nDe vorige en de nieuwe codes moeten beide in de geselecteerde tafel bestaan.
+IDS_AVERTISSEMENT_NUMERO_FACTURE	Het hier boven factuurnummer is als indicatie gegeven. Het werkelijke factuurnummer mag inderdaad verschillend zijn als een ander werkstation een andere factuur gedurende het weergave van dit nummer zendt.\nHet doel van deze beperking is de enigheid van elk factuurnummer te waarborgen.
+IDS_AVERTISSEMENT_NUMERO_NE	Het hier boven verzendnotanummer is als indicatie gegeven.  Het werkelijke verzendnotanummer mag inderdaad verschillend zijn als een ander werkstation een andere verzendnota gedurende het weergave van dit nummer zendt.\nHet doel van deze beperking is de enigheid van elk verzendnotanummer te waarborgen.
+IDS_AVOIR	Kredietnota
+IDS_AVRIL	april
+IDS_AVRIL_ABR	apr
+IDS_AXES_OUVRANT	As(sen) van de vleugels
+IDS_AXE_1	As 1/2
+IDS_AXE_2	As 2/3
+IDS_AXE_3	As 3/4
+IDS_AXE_4	As 4/5
+IDS_AXE_5	As 5/6
+IDS_AXE_6	As 6/7
+IDS_AXE_CROISILLONS_HORIZONTAUX	As van de horiz. kruishouten
+IDS_AXE_CROISILLONS_VERTICAUX	As van de vertic. kruishouten
+IDS_A_DROITE	rechts
+IDS_A_GAUCHE	links
+IDS_A_LAQUER	Te lakken
+IDS_A_OPTIMISER	Te optimaliseren
+IDS_A_PARTIR_BORD_DORMANT	Vanaf buitenkant van het kader
+IDS_A_PROPOS_DE_WINPRO	Over WinPro
+IDS_A_TRADUIRE	Te vertalen
+IDS_A_TRANSFERER	Te verplaatsen
+IDS_BADPWD	Verkeerd wachtwoord
+IDS_BALANCE_CLIENT	Klant balans
+IDS_BALANCE_DU_CLIENT	Financiële positie van #1# klant - Kredietbeperking : #2#
+IDS_BARRETTE	Stegen
+IDS_BARRETTE_1	Steeg 1
+IDS_BARRETTE_2	Steeg 2
+IDS_BARRETTE_3	Steeg 3
+IDS_BARRETTE_4	Steeg 4
+IDS_BAS	Beneden
+IDS_BAS_SEULEMENT	Slechts beneden
+IDS_BATTEE	Slag
+IDS_BATTEEBAS	Slaghoogte, beneden van vleugel
+IDS_BATTEES_PREDEFINIES	Staat metselwerk
+IDS_BATTEE_DEFAUT	Standaard
+IDS_BATTEE_MACONNERIE	Aanslag
+IDS_BATTEMENT_FIXE	Vaste ruimte tussen de vleugels
+IDS_BIBLIOTHEQUE	Bibliotheek
+IDS_BIBLIOTHEQUE_SELECTION_RAPIDE	Bibliotheek: snelle selectie
+IDS_BIBLIO_RAPIDE	Snel biblio. [F9]
+IDS_BICOLORE	Bicolour
+IDS_BL	Verz.
+IDS_BLEU	Blauw
+IDS_BN_BIBLIOTHEQUE	Bibliotheek [F8]
+IDS_BOIS	Hout
+IDS_BONCOMMANDE	Bestelbon
+IDS_BONMESURAGE	Opmeten
+IDS_BONUS_FIN_ANNEE	Eindejaars Bonus
+IDS_BON_COMMANDE_CLIENT	Bestelbon voor klant
+IDS_BON_COMMANDE_FOURNISSEUR	Bestelbon voor leverancier
+IDS_BON_QUINCAILLERIE	Bon voor de beslag - bestelling
+IDS_BORDEREAUX_LIVRAISON	Lijst van levering
+IDS_BORDEREAU_PANNEAUX	Lijst van panelen
+IDS_BORDEREAU_PREPARATION_LIVRAISON	Lijst van leveringsvoorbereiding
+IDS_BOUT	Einde
+IDS_BOUT_CHUTE	Einde/Afv.
+IDS_BULLSEYE_SINGLE_VENT_ONLY	Rond raam : slechts enkel vleugel
+IDS_BY_DISK	Dmv diskette
+IDS_BY_EMAIL	Dmv  Email
+IDS_CA	Omzet
+IDS_CACHEE	Verborgen
+IDS_CACHER_LIGNES_NON_SELECT	Niet geselect. lijnen bedekken
+IDS_CACHER_USINAGES	De bewerkingen verbergen
+IDS_CADRE	Kaderframe
+IDS_CADRES	Kadersframes
+IDS_CADRESANSNOM	Het raam heeft geen naam
+IDS_CAISSON	Kast
+IDS_CAISSONS	Kasten
+IDS_CAISSON_EXTERIEUR	Buiten kast
+IDS_CAISSON_HORS_TARIF	Kast zonder prijs
+IDS_CAISSON_INTEGRE_DORMANT	Kast in het kader inbegrepen
+IDS_CALCUL	Rekenen
+IDS_CALCUL>	Rekenen >
+IDS_CALCULER	Rekenen
+IDS_CALCULER_DEBOURSE	Bereken de verkoopsprijs vanuit de kostprijs
+IDS_CALCULOPTIMISATION	Rekening van de optimalisatie
+IDS_CALCULRESERVATION	Berekening van de reservaties
+IDS_CALCUL_EN_COURS	Berekening aan de gang
+IDS_CALCUL_PRIX_COURANT	In lopende prijzen
+IDS_CALCUL_PRIX_TARIF	Berekening van tariefprijzen
+IDS_CALENDRIER	Kalender
+IDS_CANCEL	Verlaten
+IDS_CANNOTFIND	Kan niet vinden "%s".
+IDS_CANTDELETE	Onmogelijk te verwijderen want er bestaat een referentie aan deze record in het bestand
+IDS_CAPACITE	Capaciteit
+IDS_CAPACITE_STANDARD	Std capac.
+IDS_CAPITAL_LIBERE	Maatschappelijk Kapitaal
+IDS_CASIER	Vak
+IDS_CASIERS	Vakken
+IDS_CASIERS_DE_STOCK	Vorraad vakken
+IDS_CASIERS_DORMANT	Kader vakken
+IDS_CASIERS_OUVRANT	Vleugel vakken
+IDS_CASIERS_VOLET	Vakken rolluik
+IDS_CASIER_DECOUPE	Kasten herzaagd
+IDS_CASIER_DORMANT	Kader vak
+IDS_CASIER_LIVRAISON	Geleverde kasten
+IDS_CASIER_OUVRANT	Vleugel vak
+IDS_CASIER_STOCK	Voorraadvak
+IDS_CASIER_VOLET	Vak rolluik
+IDS_CATEGORIE	Categorie
+IDS_CATEGORIE(1-99)	Categorie (1-99)
+IDS_CATEGORIEARTICLE	Artikelscategorieën
+IDS_CATEGORIECLIENT	Klantencategorieën
+IDS_CATEGORIESARTICLES	Artikelscategorieën
+IDS_CATEGORIESCLIENTS	Klantencategorieën
+IDS_CATEGORIE_CASIER	Vak categorie
+IDS_CATEGORIE_MO	Arbeids categorie
+IDS_CATEGORIE_USINAGE	Bewerkingscategorie
+IDS_CATEG_VITRAGE	Beglazings categorie
+IDS_CDE	Best. nr
+IDS_CDEMIN	Min bstl
+IDS_CDEPASVALIDEE	De bestelling wordt niet geldig gemaakt
+IDS_CDE_FABRICANT	Fabricant bst.
+IDS_CDE_VITRAGES	Beglazing bst
+IDS_CENTRAGEOUVRANTS	Ongelijke breedte vleugel
+IDS_CENTRE	Midden
+IDS_CH	Ra.
+IDS_CHA	Raa.
+IDS_CHAMBRE_BAS	Beneden kamer
+IDS_CHAMBRE_HAUT	Boven kamer
+IDS_CHAMBRE_INCOMPATIBLE	De profielenkamers zijn onverenigbaar.  Een verstekverband is dus onmogelijk!
+IDS_CHAMBRE_OU_TYPE_CLAME	Kamer (of type van hoekverbinding)
+IDS_CHANGEMENTMOTPASSE	Wachtwoord wijzigen
+IDS_CHANGEMENT_ETAT_CHASSIS_COMMANDE	Staatswijziging van de ramen van een bestelling
+IDS_CHANGEMENT_ETAT_COMMANDE	Staatswijziging van een bestelling
+IDS_CHANGEMENT_FORME_CADRE	Wijziging van de kadervorm
+IDS_CHANGERNUMERO	Het nummer wijzigen
+IDS_CHANGER_CODE_ENREGISTREMENT	De code van een record wijzigen
+IDS_CHANGER_MOT_DE_PASSE	Wachtwoordwijziging
+IDS_CHANGER_NUMERO	nummer veranderen
+IDS_CHANTIER	Project
+IDS_CHANTIERS	Projecten
+IDS_CHANTIER_ACTIF	Dit project  wordt gebruikt in bestelling #1#. Cerwijdereb geannuleerd.
+IDS_CHANTIER_EXISTE_DEJA	Dit project bestaat reeds
+IDS_CHARGE	Lading
+IDS_CHARGEES	Geladen
+IDS_CHARGEMAXI	Maximum lading 
+IDS_CHARGEMENT	Lading
+IDS_CHARGEMENT_PALETTES	Laden van palletten
+IDS_CHARGER	Laden
+IDS_CHARGER_LISTE	Laadlijst
+IDS_CHASSIS	Raam
+IDS_CHASSISNO	Raam nr
+IDS_CHASSISNONREALISABLE	Dit raam is niet uitvoerbaar
+IDS_CHASSIS_ET/OU_VOLET	Raam en/of rolluik
+IDS_CHASSIS_INACCESSIBLE	Raam #1# van bestelling #2# is niet toegankelijk
+IDS_CHASSIS_NON_RECTANGULAIRES	Niet rechthoekige ramen
+IDS_CHASSIS_PLURIEL	Ramen
+IDS_CHASSIS_RECTANGULAIRES	Rechthoekige ramen
+IDS_CHASSIS_VIDE	Leeg raam
+IDS_CHASS_VOL	Rm+Lk
+IDS_CHAUFFEUR	Bestuurder
+IDS_CHIFFRE_AFFAIRE	Omzet
+IDS_CHIFFRE_AFFAIRE_TOTAL	Globale Omzet
+IDS_CHILDCREATEFAIL	Mislukte uitvoering van het kindvenster %s
+IDS_CHILDREGISTERFAIL	Mislukte klasseinschrijving voor het kindvenster %s
+IDS_CHOISISSEZ_INCIDENT	Selecteer een type gebeurtenis
+IDS_CHOIXSCIES	Zaagselectie
+IDS_CHOIXTEXTE	Een tekst kiezen
+IDS_CHOIX_ARTICLE	Een artikel kiezen
+IDS_CHOIX_GROUPE_COULEURS	Een groep van kleuren kiezen
+IDS_CHOIX_MAGASIN	Selectie van een voorraadplaats
+IDS_CHOIX_PROFILS_DORMANT	Kader profielen
+IDS_CHOIX_SCIES	Zaagkeuze
+IDS_CHUTE	Afval
+IDS_CHUTES	Afval
+IDS_CHUTESRAL	RAL afval
+IDS_CHUTES_A_JETER:MAXIMUM	Onbruikbaar: maximum
+IDS_CHUTES_A_STOCKER:MINIMUM	Bruikbaar: minimum
+IDS_CHUTE_A_JETER_MAXIMUM	Max afvallengte te werpen
+IDS_CHUTE_A_STOCKER_MINIMUM	Min afvallengte te bewaren
+IDS_CHUTE_CHUTE	Afval/afval
+IDS_CH_ACCESS_CONTROL	Toebehoren op band te controleren
+IDS_CH_NON_RECT	Niet rechthoekig
+IDS_CH_OPTIM_CHASSIS	Optimalisatie van ramen
+IDS_CH_OPTIM_COMPLET	Volledige optimalisatie
+IDS_CH_OPTIM_VOLET	Optimalisatie van rolluiken
+IDS_CH_POSE	Raam geinstalleerd
+IDS_CH_TERMINE	Raam afgewerkt
+IDS_CH_VOLET_CONTROL	Rolluik op band te controleren
+IDS_CINTRE	Boog
+IDS_CINTREDROITE	Rechtse halve boog
+IDS_CINTREGAUCHE	Linkse halve boog
+IDS_CLASSE	Klasse
+IDS_CLETRI	Sorteersleutel
+IDS_CLIENT	Klant
+IDS_CLIENTS	Klanten
+IDS_CLIENT_DE	Klant van
+IDS_CLIENT_EXISTE_DEJA	Deze klantcode bestaat reeds.
+IDS_CLIENT_FACTURATION	Klant facturatie
+IDS_CLIENT_LIVRAISON	Klant levering
+IDS_CLIFOU	Klant/leveranc.
+IDS_CLOTURER	Afsluiten
+IDS_CLR_EXTER	Bui.Klr
+IDS_CLR_INTER	Bin.klr
+IDS_CODE	Code
+IDS_CODE+COURS	Code + koers
+IDS_CODE+DESCRIPTION	Code + Beschrijving
+IDS_CODE/QTE	Code / hvl
+IDS_CODEARTICLE	Artikel code
+IDS_CODEBARRE	Barcode
+IDS_CODECOULISSEMANQUANT	Er is geen geleiderscode
+IDS_CODEEAN	EAN code
+IDS_CODELOG	Logist. code
+IDS_CODEPAIEMENT	Betalingscode
+IDS_CODEPOSTAL	Postcode
+IDS_CODEVITRAGEINEXISTANT	Beglazingcode bestaat niet
+IDS_CODEVITRE	Beglazing code
+IDS_CODE_ACCES	Code
+IDS_CODE_ARTICLE_FOURNISSEUR	Artikel code voor leverancier
+IDS_CODE_BARRE	Barcode
+IDS_CODE_CLIENT	Klant ID
+IDS_CODE_CLIENT_FOURNISSEUR	Klantcode voor #1#
+IDS_CODE_CLIENT_INCORRECT	Verkeerde klant code !
+IDS_CODE_COMPTABLE	Rek.Boekh.
+IDS_CODE_CONCATENE	Samengestelde code
+IDS_CODE_DE	Code van
+IDS_CODE_DXF	Code van DXF tekening
+IDS_CODE_FOURNISSEUR	Leverancier code
+IDS_CODE_LOGIST	Logist. code
+IDS_CODE_LOGISTIQUE	Logistieke code
+IDS_CODE_LOT	Lot code
+IDS_CODE_NACE	NACE Code
+IDS_CODE_NO_EXIST	Niet bestaande code
+IDS_CODE_POSITIONNEMENT	Positie code
+IDS_CODE_POSTAL	Postcode
+IDS_CODE_PROSPECT	Prospect ID
+IDS_CODE_REHAUSSE_INEXISTANT	Deze ophoog code (#1#) bestaat niet
+IDS_CODE_TARIF	Tarief code
+IDS_CODE_TVA	BTW code
+IDS_CODE_VITRAGE_DEPASSEMENT_DIMENSION	De te gebruiken beglazingscode indien de afmetingen worden overschreden
+IDS_COEFF	Coëff.%
+IDS_COEFFICIENT	Coëfficiënt
+IDS_COEFFICIENTS_PRIX	Prijzencoëfficiënten
+IDS_COEFFICIENT_CESSION	Cession coefficient
+IDS_COEFFICIENT_FRAIS	Kosten coëfficiënt
+IDS_COEFFICIENT_MARGE	Margecoëfficiënt
+IDS_COEFFICIENT_MULTIPLICATEUR	Multiplicatorcoëfficiënt
+IDS_COEFFICIENT_PRIX	Prijscoefficient
+IDS_COEFFICIENT_VENTE	Verkoopscoefficient
+IDS_COEFFRAIS	Kostencoëff.
+IDS_COEFF_PERTE	Afval coeff.
+IDS_COEFF_PONDERATION	Gemiddelde coëff.
+IDS_COIN_PARCLOSE	Glaslathoeken
+IDS_COLIS	Type van verpakking
+IDS_COLISPREPARE	Voorbereide verpakkingen
+IDS_COLONNE_CONDITIONNEMENT_SEPAREE	Afzonderlijke kolom voor verpakking
+IDS_COMMANDE	Bestelling
+IDS_COMMANDEDEJAPASSEE	Een bestelling bestemd voor de leverancier werd al op nummer #1# gedaan
+IDS_COMMANDEENREGISTREE	1 bestelling werd op het nummer %ld ingeschreven. Gelieve deze als de voor de leveranciers bestemde bestellingen te behandelen.
+IDS_COMMANDEFOURNISSEUR	Bestelling bij leveranciers
+IDS_COMMANDENO	Bestelnr
+IDS_COMMANDER	Besteld
+IDS_COMMANDER_INDIVIDUELLEMENT	Afzonderlijk bestellen
+IDS_COMMANDER_SANS_COULEUR	Bestel zonder kleur
+IDS_COMMANDER_SUR_MESURE	Op maat bestellen
+IDS_COMMANDES	Bestellingen
+IDS_COMMANDESDEJAPASSEES	Bestellingen bestemd voor leveranciers werden al op nummers #1# tot #2# gedaan
+IDS_COMMANDESENREGISTREES	%d bestellingen werden op de nummers %ld tot %ld ingeschreven. Gelieve deze als de voor de leveranciers bestemde bestellingen te behandelen.
+IDS_COMMANDESTERMINEES	Afgewerkte bestellingen
+IDS_COMMANDES_ACCESSOIRES	Toebehoren bestelling
+IDS_COMMANDES_AVEC_DATE_LIVRAISON	Bestellingen met een leverdatum
+IDS_COMMANDES_CLIENT	Klanten bestelling
+IDS_COMMANDES_CONFIRMEES	Bevestigde bestellingen
+IDS_COMMANDES_FOURNISSEURS	Bestel. voor leveranciers
+IDS_COMMANDES_NON_APPROUVEES	Niet goedgekeurde bestellingen
+IDS_COMMANDES_SUPPRIMEES	Vernietigde bestellingen
+IDS_COMMANDEVITRAGE	Beglazingen bestelling
+IDS_COMMANDE_A_VERIFIER	Bestelling te controleren
+IDS_COMMANDE_DEJA_EXPORTEE	Deze bestelling is reeds geexporteerd.
+IDS_COMMANDE_INACCESSIBLE	Bestelling #1# onvindbaar of onbereikbaar
+IDS_COMMANDE_INEXISTANTE	Bestelling bestaat niet
+IDS_COMMANDE_INITIALE	Originele bestelling
+IDS_COMMANDE_LIVRAISON	Bestellingen en leveringen
+IDS_COMMANDE_MNT	Bedrag van bestellingen
+IDS_COMMANDE_NBR	Aantal bestellingen
+IDS_COMMANDE_NBR_CHA	Aantal ramen van bestellingen
+IDS_COMMANDE_NON_OPTIMISEE	Bestelling nog niet geoptimaliseerd
+IDS_COMMANDE_TERMINEE	Afgemaakte bestelling
+IDS_COMMANDE_VERIFIEE	Bestelling gecontroleerd
+IDS_COMMANDE_VITRAGES	Bestelling van beglazingen
+IDS_COMMANDE_VITRAGE_PAR_LOT	Beglazingsbestelling per lot
+IDS_COMMENTAIRE	Opmerking
+IDS_COMMENTAIRE_ATELIER	Commentaar voor fabricatie
+IDS_COMMENTAIRE_CLIENT	Commentaar voor de klant
+IDS_COMMENTAIRE_FACULTATIF	Extra opmerkingen
+IDS_COMMENTAIRE_PAS_IMPRIME	Opmerking (niet afgedrukt)
+IDS_COMMERCIAL	Commercieel
+IDS_COMMFOU_PAR_FOURNIS	Bestellingen per leverancier
+IDS_COMMFOU_PAR_NUM	De voor de leverancier bestemde bestellingen per bestelnummer
+IDS_COMPACTER_LOT	Wilt U de lots compacteren ?
+IDS_COMPETENCE	Kennis
+IDS_COMPETENCE_TECHNIQUE	Technische kennis
+IDS_COMPONENTSTOPACKAGE	Lijst van de onderdelen te verpakken
+IDS_COMPOSANT	Component
+IDS_COMPOSANTS	Componenten
+IDS_COMPOSITION	Samenstelling van de bestelling
+IDS_COMPRESSER	Compresseer het geëxporteerd bestand ?\n(uncompressed size: %.2f Kb)
+IDS_COMPRIS	Inbegrepen
+IDS_COMPRIS_DANS_HAUTEUR	In de hoogte inbegrepen
+IDS_COMPTABILITE	Boekhouding
+IDS_COMPTAGEUNITES	Eenheden tellen
+IDS_COMPTANT	Contant
+IDS_COMPTER_CHUTES_RAL	Bereken RAL afvallen
+IDS_COMPTEURS	Tellers
+IDS_COMPTEUR_DETAIL	U hebt een probleem bij opslaan in uw table travdorm.dbf.
+IDS_COMPTEUR_TRAVDORM	U hebt een probleem bij opslaan in uw table travouvr.dbf.
+IDS_COMPTE_DORMANTS	Er is(zijn) #1# kaders (max. #2#)
+IDS_COMPTE_OUVRANTS	Er is(zijn) #3# vleugels (max. #4#)
+IDS_CONCURRENTS	Concurrenten
+IDS_CONDIT	Verpak.
+IDS_CONDITIONLIVRAISON	Leveringsvoorwaarden
+IDS_CONDITIONNEMENT	Verpakking
+IDS_CONDITIONNEMENT_ET_PA_BRUT_DEVISE	Verpakking en bruto inkoopprijs in valuta
+IDS_CONDITIONS	Voorwaarden
+IDS_CONDITIONSTRANSPORT	Transport condities
+IDS_CONDITIONS_PAIEMENT	Betalingsvoorwaarden
+IDS_COND_TRANSP	Transp.condities
+IDS_CONF.	Bev.
+IDS_CONFIMER_ACTION	Bevestiging
+IDS_CONFIRMATION	Bevestiging
+IDS_CONFIRMATIONFOURNISSEUR	Bevestiging voor leverancier
+IDS_CONFIRMATION_A_MODIFIER	Bevestigingen wijzigen
+IDS_CONFIRMATION_ENVOYEE	Bevestiging verzonden
+IDS_CONFIRMER	Bevestigd
+IDS_CONFIRMEROPERATION	Wilt U deze operatie bevestigen ?
+IDS_CONFIRMER_CREATION_LOTS	Gelieve het aanmaken van deze lots te bevestigen:
+IDS_CONFIRMER_DEPLACEMENT_CHASSIS	Wilt U de verplaatsing van dit raam bevestigen ?
+IDS_CONFIRMER_MOT_DE_PASSE	Uw nieuw wachtwoord bevestigen
+IDS_CONFIRMER_RECEPTION	Bevestigt U dat de input van artikels mag opgeslagen worden ?
+IDS_CONFIRMER_S_LOTS	Bevestig aub uw zaagselectie voor alle sub-jobs.
+IDS_CONFIRMFOURNISSEUR	Bevestiging a.d.leverancier
+IDS_CONSERVER_NUMERO	Het nummer bewaren
+IDS_CONSOMMATION	Verbruik
+IDS_CONSOMMATIONSTOCK	Stockverbruik
+IDS_CONSOMMATIONS_OPTIMISATIONS	Verbruik per optimalisatie
+IDS_CONSOMMATION_MENSUELLE	Maandelijks verbruik
+IDS_CONSOMMATION_POUR_COMMANDE	Verbruik voor de bestelling
+IDS_CONSTITUTION_FICHIERS_MACHINES	Aanmaken bewerking en zaagbestanden
+IDS_CONSTITUTION_TRI_PRODUCTION	Bepaling van de aard van productie
+IDS_CONTACT	Contact
+IDS_CONTACTS	Contacten
+IDS_CONTACT_1	Contact 1
+IDS_CONTACT_2	Contact 2
+IDS_CONTACT_3	Contact 3
+IDS_CONTENU_LOTS	Job inhoud
+IDS_CONTINU	Onafgebroken
+IDS_CONTINUERMEMECODE	Moet de referentie gebruikt worden ?
+IDS_CONTROLE	Controle
+IDS_CONTROLEENCOURS	Controle van lopende fabricatie
+IDS_CONTROLEPRIX	Controle van prijs
+IDS_CONTROLEPRIXACHAT	Controle van inkoopprijs
+IDS_CONTROLEPRIXREVIENT	Kostprijskontrole
+IDS_CONTROLEPRIXVENTE	Controle van de verkoopsprijs
+IDS_CONTROLEQUALITE	Kwaliteitskontrole
+IDS_CONTROLER_SUR_CHAINE	Gecontroleerd op de produktielijn 
+IDS_CONTROLE_CHAINE	Controle lopende band
+IDS_CONTROLE_CHAINE_PRODUCTION	Op lopende band controleren
+IDS_CONTROLE_FIN_CHAINE	Controle van het raam op het einde van lopende band
+IDS_CONTROLE_LIVRAISON	Leveringsplanning
+IDS_CONTROLE_PRODUCTION	Fabricatie controle
+IDS_CONTROLE_RENFORCE	Speciale controle
+IDS_CONVERSION_EURO	Omschakeling naar €
+IDS_CONVERSION_TOTALE_EURO	Selecteer 'yes' om alles te converteren, 'No' om enkel de kostprijzen te converteren
+IDS_COORDONNEES	Adres
+IDS_COORDONNEES_SOCIETE	Coordinaten van de maatschappij
+IDS_COPIE>	Kopiëren >
+IDS_COPIER_ADRESSE_PRINCIPALE	Kopie van het hoofdadres
+IDS_COPIES	kopies
+IDS_COPY	Kopiëren
+IDS_COPYING_DATABASE	Kopie van de databasis
+IDS_CORPS	Tekst
+IDS_CORRECTION	Correctie
+IDS_CORRECTIONS	Correctie
+IDS_CORRECTIONSTOCK	Stockcorrectie
+IDS_CORRECTION_BAS	Correctie beneden
+IDS_CORRECTION_DROITE	Correctie rechts
+IDS_CORRECTION_GAUCHE	Correctie links
+IDS_CORRECTION_HAUT	Correctie boven
+IDS_CORRECTION_RECOUVREMENT_OUVRANT/DORMANT	Verbetering overlapping vleugel/kader
+IDS_CORRECTION_SCIE_COUPE_45	Zaagcorrectie voor 45° snee
+IDS_CORRECTION_TRAVERSE	Stijl correctie
+IDS_CORRESPONDANCE_RAL	Correspondeerde RAL
+IDS_CORRIGER_USINAGES_SI_ASSEMBLAGE_DROIT	De bewerkingen verbeteren in geval van rechte verbinding
+IDS_COTE	Kant
+IDS_COTES	Maten
+IDS_COTES_BATTEE_AUTORISEES	Toegestane slagmaten
+IDS_COTES_TABLEAU	Dagmaten
+IDS_COTE_AXE	Zijde As
+IDS_COTE_BASDROIT	Onderkant
+IDS_COTE_HAUTGAUCHE	Bovenkant
+IDS_COULEUR	Kleur
+IDS_COULEURCOULISSEINEXISTANTE	Onmogelijke kleur voor de geleiders
+IDS_COULEURINEXISTANTE	Het %s profiel bestaat in deze kleur niet
+IDS_COULEURNONDEFINIE	Het profiel %s bestaat niet zonder kleur!
+IDS_COULEURPANNEAU_NONAUTORISEE	Deze plaat kleur ist niet mogelijk
+IDS_COULEURPROFILINEXISTANTE	#1# profiel bestaat niet in #2# kleur!
+IDS_COULEURS	Kleuren
+IDS_COULEURS_AUTORISEES	Mogelijke kleuren
+IDS_COULEURS_RAL_STANDARD	Standaard RAL kleuren
+IDS_COULEURTABLIERINEXISTANTE	Onmogelijke kleur voor het rolluik
+IDS_COULEUR_CAISSON	Kast kleur
+IDS_COULEUR_COULISSE	Kleur v.d. geleider
+IDS_COULEUR_CROISILLON_INTERDITE	Deze kleur van kleinhout is niet mogelijk
+IDS_COULEUR_EXT	Buit. kleur
+IDS_COULEUR_EXTERIEURE	Buiten kleur
+IDS_COULEUR_FOND	Achtergrondkleur
+IDS_COULEUR_FOND_TITRE	Achtergrondkleur van titels en totalen
+IDS_COULEUR_INT	Bin. kleur
+IDS_COULEUR_INTERCALAIRE	Kleur afstandshouder
+IDS_COULEUR_INTERIEURE	Binnen kleur
+IDS_COULEUR_OUVRANT	Vleugel kleur
+IDS_COULEUR_QUINCAILLERIE	Beslag kleur
+IDS_COULEUR_SAISIE	Kleur getoond bij ingave
+IDS_COULEUR_SOUS_LAME	Onderlat kleur
+IDS_COULEUR_S_	Kleur(en)
+IDS_COULEUR_TABLIER	Blad kleur
+IDS_COULEUR_TRAIT	Kleur van de lijn
+IDS_COULISSE	Geleider
+IDS_COULISSES	Geleiders
+IDS_COULISSES_CENTRALES	Centrale geleiders
+IDS_COULISSE_DOUBLE	Dubbele geleider
+IDS_COULISSE_DROITE	Rechtse geleider
+IDS_COULISSE_GAUCHE	Linkse geleider
+IDS_COULISSE_HORS_TARIF	Geleider zonder prijs
+IDS_COUPEDROITE	90° snede
+IDS_COUPE_A_CHAQUE_INTERSECTION	Aan ieder kruis gesneden
+IDS_COUPE_DROITE	Recht afzagen
+IDS_COUPE_PAR	Gezaagd door
+IDS_COUPLEUR	Koppeling
+IDS_COUPLEURINEXISTANT	Deze koppeling bestaat niet
+IDS_COUPLEUR_S_	Koppeling(en)
+IDS_COURANT	Lopende prijs
+IDS_COURS	Koers
+IDS_COURS+CODE	Koers + code
+IDS_COUT	Kost
+IDS_COUTMO	AL kost
+IDS_CREATION	Aanmaking
+IDS_CREATIONCOLIS	Aanmaken van verpakking ?
+IDS_CREATION_FICHIER	Aanmaken file '%s.dbf'
+IDS_CREER_CLIENT	De input van klant #1# maken ?
+IDS_CREER_PROSPECT	Aanmaken prospect #1#?
+IDS_CRITERES	Criteria
+IDS_CRITERES_SELECTION	Selectiecriteria
+IDS_CRITERES_TRI	Sortering
+IDS_CROISILLON	Kruishout/Roeden
+IDS_CROISILLONS	Kruishouten/Roeden
+IDS_CTRL_PRIX	Prijs kontrol
+IDS_CUT	Knippen
+IDS_ComboBox	Combo Box
+IDS_D(roite)	R
+IDS_DANS_COMMENTAIRES	In de commentaren
+IDS_DANS_ECHECS	Bij de 'Fail' instructie
+IDS_DANS_FORMULES	In de formules
+IDS_DANS_MESSAGES	In de berichten
+IDS_DANS_USINAGES	In de bewerkingen
+IDS_DATE	Datum
+IDS_DATECDE	Bestel. datum
+IDS_DATECHARG	Laaddatum
+IDS_DATECOMMANDE	Bestel. datum
+IDS_DATECONFIRMEE	Bevestigde d.
+IDS_DATEDEMANDEE	Gevraagde d.
+IDS_DATEDEPASSEE	De uiterste datum van de test is overschreden
+IDS_DATEFACTUREACOMPTE	Datum van voorschotfactuur
+IDS_DATEINVENTAIRE	Inventaris datum
+IDS_DATELIVRAISON	Leveringsdatum
+IDS_DATEPROD	Prod. datum
+IDS_DATEPRODCALC	Berekening datum
+IDS_DATES	Data
+IDS_DATES_DE	Datum van
+IDS_DATES_LIVRAISON_DU	Leveringsdata: vanaf
+IDS_DATES_MISE_EN_FABRICATION_DU	Fabricatiedata: vanaf
+IDS_DATE_10eme	$
+IDS_DATE_11eme	$
+IDS_DATE_12eme	$
+IDS_DATE_13eme	$
+IDS_DATE_14eme	$
+IDS_DATE_15eme	$
+IDS_DATE_16eme	$
+IDS_DATE_17eme	$
+IDS_DATE_18eme	$
+IDS_DATE_19eme	$
+IDS_DATE_1er	$
+IDS_DATE_20eme	$
+IDS_DATE_21eme	$
+IDS_DATE_22eme	$
+IDS_DATE_23eme	$
+IDS_DATE_24eme	$
+IDS_DATE_25eme	$
+IDS_DATE_26eme	$
+IDS_DATE_27eme	$
+IDS_DATE_28eme	$
+IDS_DATE_29eme	$
+IDS_DATE_2eme	$
+IDS_DATE_30eme	$
+IDS_DATE_31eme	$
+IDS_DATE_3eme	$
+IDS_DATE_4eme	$
+IDS_DATE_5eme	$
+IDS_DATE_6eme	$
+IDS_DATE_7eme	$
+IDS_DATE_8eme	$
+IDS_DATE_9eme	$
+IDS_DATE_AVANT_DATE_PRECEDENTE	De factuurdatum gaat vooraf aan de vorige factuurdatum!
+IDS_DATE_CREATION	Datum van aanmaken
+IDS_DATE_DE	Data vanaf
+IDS_DATE_DEPART	Aanvangsdatum
+IDS_DATE_EXPEDITION	Datum expeditie
+IDS_DATE_EXPIREE	Uiterste gebruiksdatum.\nGelieve met Uw fabrikant contact op te nemen.
+IDS_DATE_EXPIRE_AUJOURDHUI	De uiterste gebruiksdatum van het programma vervalt vandaag.\nGelieve DRINGEND met Uw fabrikant  contact op te nemen
+IDS_DATE_EXPIRE_DANS_N_JOURS	De uiterste gebruiksdatum van het programma vervalt binnen #1# dagen.\nGelieven met Uw fabrikant zo snel mogelijk contact op te nemen.
+IDS_DATE_EXPIRE_DEMAIN	De uiterste gebruiksdatum van het programma vervalt morgen.\nGelieve DRINGEND met Uw fabrikant  contact op te nemen 
+IDS_DATE_FACTURE	Factuurdatum
+IDS_DATE_LANCEMENT	Datum produktiestart
+IDS_DATE_LIMITE	Uiterste datum
+IDS_DATE_LIVRAISON_ACCEPTEE	overeengekomen leveringsdatum
+IDS_DATE_LIVRAISON_DEMANDEE	Gevraagde leveringsdatum
+IDS_DATE_LIVRAISON_SUGGEREE	De voorgestelde leveringsdatum is
+IDS_DATE_LIVRAISON_VITRAGES	Leveringsdatum van beglazingen
+IDS_DATE_MISE_EN_FABRICATION	Datum van aanvangsfabricatie
+IDS_DATE_MISE_EN_PRODUCTION_LOTS	Beheer van produktielots
+IDS_DATE_MOUVEMENT	Datum van de wijziging
+IDS_DATE_OUT_OF_RANGE	De datum moet tussen %s en %s zijn!
+IDS_DATE_PRODUCTION	Productiedatum
+IDS_DATE_RAZ	De datum te bepalen waarop de stock tot niets zal teruggebracht worden
+IDS_DATE_RECEPTION	Datum aanvaarding
+IDS_DATE_REMISE_A_ZERO	Datum
+IDS_DATE_SAISIE	Aanmaak datum
+IDS_DATE_SORTIE	Datum uitgaand
+IDS_DATE_TARIF	Tariefdatum
+IDS_DBTU	...DBTU
+IDS_DBTU_DE	...DBTU de
+IDS_DCDE	Besteldatum
+IDS_DCONF	Bevest. d.
+IDS_DDEBUT	Fabr. begin
+IDS_DEADLINE	Deadline
+IDS_DEBIT_POUR_COMMANDE	Zaaglijst - bestelling
+IDS_DEBOURSE_PAR_DEFAUT	Gebruik de niet-commercieêle berekeningsmode
+IDS_DEBUT	Begin
+IDS_DEBUTCONFIRMATION	Begin bevestiging
+IDS_DEBUTDEVIS	Begin offerte
+IDS_DEBUTFABR	Fabr. begin
+IDS_DEBUTFACTURE	Begin factuur
+IDS_DEBUTNE	Begin verzendnota
+IDS_DECALAGE_HORIZONTAL	Horizontale verschuiving
+IDS_DECALAGE_TRANSVERSAL_VANTAIL	Dwarsverschuiving per vleugel
+IDS_DECALAGE_USINAGE	Bewerkingsafstand
+IDS_DECALAGE_VERTICAL	Verticale verschuiving
+IDS_DECALE	Verschoven
+IDS_DECEMBRE	december
+IDS_DECEMBRE_ABR	dec
+IDS_DECHARGEMENT	Herlading
+IDS_DECIMALES	Decimalen
+IDS_DEDUIRE	Aftrekken
+IDS_DEFINIR_CHARGEMENT	De lading bepalen
+IDS_DEFINIR_NUMERO_LOT	Het lotnummer bepalen
+IDS_DEGRES	graden
+IDS_DEJACOMMANDE	Deze bestelling bestaat al
+IDS_DEJACOMMANDEAUTO	%d bestelling(en) werd(en) al ingevoerd met de nummers %ld tot %ld. Wenst U toch deze nieuwe bestellingen invoeren ?
+IDS_DEJACOMMANDEFABRICANT	Deze bestelling werd al naar de fabrikant opgestuurd op #1#
+IDS_DEJARECU	Al ontvangen
+IDS_DELAI	Termijn
+IDS_DELAILIBRE	Geen verplichting om de leveringsdatum te bepalen
+IDS_DELAILIVRAISON	Leveringstermijn
+IDS_DELAIS_SPECIAUX	Speciale termijn
+IDS_DELAI_CLIENT	Levering klant
+IDS_DELAI_COURT	Korte termijn
+IDS_DELAI_PAIEMENT	Betalingsvoorw.
+IDS_DELAI_SAV	NS Levering
+IDS_DELAI_STD	Standaard termijn
+IDS_DELETE	Verwijderen
+IDS_DELIVERY_NOTE_RECAP_TITLE	Samenvattende verzendnota
+IDS_DEMANDE_PRIX_VITRAGE	Prijsaanvraag v. beglazing
+IDS_DEMARRAGE_WINPRO	WinPro startup
+IDS_DEMARRE_A	Gestart op %s om %s
+IDS_DEMO	Demoversie
+IDS_DEMOJUSQUE	Deze demoversie is geldig tot #1#
+IDS_DENV	Verz.D
+IDS_DEPART_USINE	Vertekdatum fabriek
+IDS_DEPLACEMENT_HORIZONTAL	Horizontale verschuiving
+IDS_DEPLACEMENT_VERTICAL	Verticale verschuiving
+IDS_DEPOT_PALETTES	Paletten levering
+IDS_DEPUIS_LE	Vanaf
+IDS_DEPUIS_PLUS_DE	Vanaf meer dan
+IDS_DERNIEREETIQUETTE	Laatst etiket
+IDS_DERNIER_PRIX_REVIENT	Laatste kostprijs
+IDS_DESACTIVE	Uitgeschakeld
+IDS_DESCRFOURN	Lever. beschr.
+IDS_DESCRIPTIFS	Beschrijvingen
+IDS_DESCRIPTION	Beschrijving
+IDS_DESCRIPTION+CODE	Beschrijving + code
+IDS_DESCRIPTIONARTICLE	Artikel beschrijving
+IDS_DESCRIPTION_CONCATENEE	Samengestelde beschrijving
+IDS_DESSIN	Tekening
+IDS_DESSINAENLEVER	Tekeningen af te nemen
+IDS_DESSINER_CHASSIS_VOLETS	Ramen en luiken tekenen
+IDS_DESSINS	Tekeningen
+IDS_DESSIN_DXF_HORIZONTAL	Horizontale DXF tekening
+IDS_DESSIN_DXF_VERTICAL	Verticale DXF tekening
+IDS_DESSIN_EXTERIEUR	Buiten tekening
+IDS_DESSIN_INTERIEUR	Binnen tekening
+IDS_DESSIN_MACONNERIE	Metwerk tekeningen
+IDS_DESTINATION	Bestemming
+IDS_DESTOCKAGE_CASIERS	verbruik uit voorraadvakken
+IDS_DETAIL	Detail
+IDS_DETAIL_COMMANDE_SELECTIONNEE	Detail van de geselecteerde bestelling
+IDS_DETAIL_LOTS	Jobs details
+IDS_DETAIL_PRIX_ACCESSOIRES	Detail Toebehoren prijs
+IDS_DEV	Munt
+IDS_DEVIS	Offerte
+IDS_DEVISE	Munteenheid
+IDS_DEVISES	Munteenheden
+IDS_DEVISEUR	Schatting
+IDS_DEVISE_ACHAT	Inkoop valuta
+IDS_DEVISPROSPECT	Deze prijsofferte is gekoppeld aan een prospect. Koppel dit aan een klant voor u dit converteerd naar een bestelling.
+IDS_DEVIS_A_CONFIRMER	Te bevestigen offertes
+IDS_DEVIS_DETAILLE	Uitvoerige offerte
+IDS_DEVIS_MNT	Bedrag van offertes
+IDS_DEVIS_NBR	Aantal offertes
+IDS_DEVIS_NBR_CHA	Aantal ramen van offertes
+IDS_DEVIS_SIMPLIFIE	Vereenvoudigde offerte
+IDS_DEVIS_SIMPLIFIE_SANS_COTE	Vereenv. off. zonder maten
+IDS_DFACT	Fact.D
+IDS_DFIN	Fabr. einde
+IDS_DIAMETRE	Diameter
+IDS_DIM	Maat
+IDS_DIMANCHE	zondag
+IDS_DIMANCHE_ABR	zon
+IDS_DIMENSION	Maat
+IDS_DIMENSIONHORSTOUT	Totale afmetingen
+IDS_DIMENSIONS	Maten
+IDS_DIMENSIONS_ETIQUETTES	Afmeting etiketten
+IDS_DIMENSIONS_EXTERIEUR_OUVRANT	Maten buitenzijde vleugel
+IDS_DIMENSIONS_MAXIMUM	Maximum maten
+IDS_DIMENSIONS_MAXIMUM_MINIMUM	Maximum en minimum maten
+IDS_DIMENSION_EXACTE	Juiste afmeting
+IDS_DIMENSION_EXACTE_VITRAGE	Nauwkeurige beglazingsmaten
+IDS_DIMENSION_EXTERIEUR_OUVRANT	Beslagmaat buitenzijde vleugel
+IDS_DIMENSION_MAXIMUM	Maximale afmeting
+IDS_DIMENSION_MINIMUM	Minimale afmeting
+IDS_DIMFABRICATION	Productiematen
+IDS_DIMTABLEAU	Dagmaten
+IDS_DIM_FABR	Fabr.
+IDS_DIM_TABL	Dagm.
+IDS_DIRECTEUR	Directeur
+IDS_DISPONIBILITE	Beschikbaarheid
+IDS_DISPONIBLE	Beschikbaar
+IDS_DISPOSITION	Plaatsing
+IDS_DISTANCE	Afstand
+IDS_DISTRIBUTION_COMMANDE	Verdeling van de bestellingen
+IDS_DIVERS	Diversen
+IDS_DLIVR	Lever. d.
+IDS_DLL_COMPTA	Verbindingsmodule met de boekhouding
+IDS_DOC	Doc.
+IDS_DOCCLI	Kl.Doc.
+IDS_DOCUMENT	Document
+IDS_DOCUMENTS	Dokumenten
+IDS_DOCUMENTS_ANNEXE_OPTIMISATION	Bijgevoegde dokumenten voor de optimalisatie
+IDS_DOCUMENTS_CLIENT	Dokumenten voor klanten
+IDS_DONNEES_ET_STAT.	Gegevens en statistieken
+IDS_DONNEUR_ORDRE	Gegevens volgorde
+IDS_DORMANT	Kader
+IDS_DORMANTS	Kaders
+IDS_DORMANT_HORS_TARIF	Kader zonder prijs
+IDS_DORMANT_SANS_BATTEE	Kader zonder aanslag
+IDS_DPROD	Prod. datum
+IDS_DROIT	Recht
+IDS_DROITE	Rechts
+IDS_DROITS	Rechten
+IDS_DROITS_BASE_REGISTRE	Uw toegangsrechten zijn onvoldoende. Het programma zal stoppen.
+IDS_DROITS_LIMITES	Toegangsrechten
+IDS_DSAIS	Inp;
+IDS_DU	Vanaf
+IDS_DUREE	Duur
+IDS_DXF	DXF
+IDS_DXF 1	DXF 1
+IDS_DXF 2	DXF 2
+IDS_DXF_NON_NOMME	Het DXF bestand heeft geen naam
+IDS_D_ACCORD	Akkoord
+IDS_D_SORTIE	D. uitgaan
+IDS_ECARTERTRAVERSE	Verplaats de stijl  %.0f mm weg
+IDS_ECHEANCE	Vervaldatum
+IDS_ECHELLE	Schaal
+IDS_ECHELLE_1	Schaal 1/
+IDS_ECHELLE_ECRAN_COUPE	Schaal afdruk doorsnede
+IDS_ECHELLE_IMPRIMANTE_COUPE	Schaal doorsnede
+IDS_ECHELLE_IMPRIMANTE_DESSIN	Schaal afdruk tekening
+IDS_ECRASERTEXTE	Moet de bestaande tekst vervangen worden ?
+IDS_ECR_D_A_G	<--
+IDS_EDIT	Wijzigen
+IDS_EGALISERHAUTEURVITRAGES	De beglazingshoogten gelijkmaken
+IDS_EGALISERLARGEURVITRAGES	De breedten  van beglazingen gelijkmaken
+IDS_ELEMENTS_APPLIQUES	Toegepaste elementen
+IDS_ELIMINER	Verwijder
+IDS_ELIMINER_CHUTES_SOUS_LOT	Verwijder afval van sub-loten
+IDS_EMAIL	e-mail
+IDS_EMPLACEMENT	Plaats
+IDS_EMPLACEMENTS	Plaatsen
+IDS_EMPLACEMENTSTOCK	Stockplaatsen
+IDS_EMPLACEMENT_A_DECREMENTER	Te verminderen Voorraadplaats
+IDS_EMPLACEMENT_DANS_STOCK	Voorraadplaats
+IDS_ENCODAGE	Invoer
+IDS_ENCODAGE_BON_COMMANDE	Codering van de bestelbon
+IDS_ENCODAGE_COMMERCIAL	Commercieel gebruik
+IDS_ENCODAGE_GRILLES_PRIX	Codering van prijstabelen
+IDS_ENCODAGE_GRILLE_VITRAGE	Codering van beglazingstabel
+IDS_ENCODAGE_PRIX	Invoer van plooien
+IDS_ENCODEPAR	Door #1# gecodeerd
+IDS_ENCODEUR	Gebruiker
+IDS_ENCOURS	Financiële positie
+IDS_ENCOURSFABRICATIONSYSTEME	Lopende fabricatie per systeem
+IDS_ENCOURS_AU	Financiële positie van #1# tot #2# voor #3#
+IDS_ENCOURS_CHAINE	Lopende fabricatie
+IDS_ENCOURS_CLIENT	Financiële positie van de klant #1#
+IDS_ENCOURS_CONFIRME	Bevestigde bestelling
+IDS_ENCOURS_DATE	Lopende fabricatie per datum
+IDS_ENCOURS_FACRICATION	Bestelling in fabricatie
+IDS_ENCOURS_FOURNISSEUR	Leveranciersbestellingen
+IDS_ENCOURS_NON_CONFIRME	Niet bevestigde bestelling
+IDS_ENCOURS_SYSTEME	Lopende fabricatie per systeem
+IDS_ENLEVEMENT	Afhaling
+IDS_ENREGISTRECOMMANDE	Wilt U de bestelling inschrijven ?
+IDS_ENREGISTRECONFIRM	Wilt U de bevestiging inschrijven ?
+IDS_ENREGISTRENOUVSTOCK	Wilt U de nieuwe stock inschrijven?
+IDS_ENREGISTREPROPCOMMANDE	Wilt U deze bestelling (her)inschrijven ?
+IDS_ENREGISTRER	Opslaan
+IDS_ENREGISTRERMODIF	Wilt U de wijzigingen opslaan?
+IDS_ENREGISTRER_FACTURE	De factuur opslaan
+IDS_ENREGISTRER_LISTE_AVEC_LOT	Een lijst met ieder lot opslaan
+IDS_ENREGISTRER_MODIFICATIONS	Wilt U de wijzigingen opslaan
+IDS_ENREGISTRETRANSFERT	Inschrijving van verplaatsing
+IDS_ENROULEMENT	Oprol
+IDS_ENROULEMENTS	Oprol
+IDS_ENTETE	Opschrift
+IDS_ENTETE_CFOU	Opschrift best. leverancier
+IDS_ENTETE_FICHIER_CORROMPU	Bestand lijkt corrupt.De toepassing wordt afgesloten
+IDS_ENTRAXEBASHAUT	Tussenassenmaten van beneden tot boven
+IDS_ENTRAXEGAUCHEDROITE	Tussenassenmaten van links tot rechts:
+IDS_ENTREE	Inkomst
+IDS_ENTREES	Ingaande
+IDS_ENTREES_SORTIES	Input / Output
+IDS_ENVOI_ARC	Bevestiging meer dan 48 uur geleden verzonden 
+IDS_ENVOI_CONFIRMATION	Bevestigingen zenden
+IDS_ENVOI_USINES	Verzonden naar de produktie-eenheden
+IDS_ENVOYER	Verzenden
+IDS_EN_BAS	beneden
+IDS_EN_COTE_TABLEAU	Muurdikte
+IDS_EN_HAUT	boven
+IDS_EN_HAUTEUR	in de hoogte
+IDS_EN_LARGEUR	in de breedte
+IDS_EN_REDRESSEMENT_OU_CONCORDAT	In herstructurering
+IDS_EPAISSEUR	Dikte
+IDS_EPAISSEURAERATEURINCORRECTE	De dikte van de verluchtingsrooster komt met die van de beglazing niet overeen.
+IDS_EPAISSEUR_FOND_COULISSE	Dikte van de geleiderbodem
+IDS_EPAISSEUR_LAMELLE	Lameldikte
+IDS_EPAISSEUR_MAXIMUM_INTERCALAIRE_VITRAGE	Maximale dikte afstandh.beglazing
+IDS_EPAISSEUR_MINIMUM_INTERCALAIRE_VITRAGE	Minimale dikte afstandshouder glas
+IDS_EPAISSEUR_TRAIT	Lijndikte
+IDS_EQUIPE	Ploeg
+IDS_EQUIPES_POSE	Plaatsingsploegen
+IDS_ERASE_EXISTING_FILE	Het bestand #1# bestaat al.  Wilt U deze uitwissen ?
+IDS_ERREUR	Vergissing
+IDS_ERREURCHARGEMENTMODULE	Vergissing bij het laden van de %s module.
+IDS_ERREURCLE	De sleutel van bescherming werd niet gevonden
+IDS_ERREURDICTIONNAIRE	Fout in het woordenboek van gegevens
+IDS_ERREURINTERNE	Binnen vergissing
+IDS_ERREURPREPAOPTI	Een vergissing is gebeurd in het te optimaliseren bestand van ramen - Een herorganisatie van de optimalisatie bestanden moet gemaakt worden
+IDS_ERREURSURCOMMANDE	Rekenfout in de bestelling
+IDS_ERREURTSE	De sleutel van bescherming werd niet gevonden (-10)
+IDS_ERREUR_ACCES	Toegangsvergissing op bestelling
+IDS_ERREUR_ASSEMBLAGE	Vergissing bij de verbinding van profielen.
+IDS_ERREUR_CALCUL_SUR_CHASSIS	Berekeningsfout op raam %s
+IDS_ERREUR_CHASSIS	Vergissing op raam
+IDS_ERREUR_DORMANT	Vergissing op het kader
+IDS_ERREUR_IMPORT	Het geïmporteerde bestand is beschadigd.  Wordt de procedure geannuleerd ?
+IDS_ERREUR_OUVERTURE_FICHIER	Error opening file
+IDS_ERREUR_REHAUSSE	Er is een vergissing bij de input van bijprofielen.
+IDS_ERREUR_SYSTEME_DORMANT	Fout met het kader: onverenigbaar systeem
+IDS_ERREUR_SYSTEME_OUVRANT	Fout met de vleugel: onverenigbaar systeem
+IDS_ERREUR_SYSTEME_QUINCAILLERIE	Fout met het beslag: onverenigbaar systeem
+IDS_ERREUR_SYSTEME_TRAVERSE	Fout met de stijl: onverenigbaar systeem
+IDS_ERREUR_SYSTEME_VERROUILLAGE_ARTICLE	Systeemvergissing bij de blokkering van het '%s' artikel.
+IDS_ERRORFILEACCESS	Toegangsprobleem tot bestanden
+IDS_ERROR_LOADING_DLL	Vergissing : onmogelijk module %s te laden
+IDS_ERR_INTERPR_00	Gebruiker verlaten
+IDS_ERR_INTERPR_01	Einde van bestand tijdens het proces
+IDS_ERR_INTERPR_02	Delen door nul fout
+IDS_ERR_INTERPR_03	'else if' buiten sequence
+IDS_ERR_INTERPR_04	'end if' niet gevonden
+IDS_ERR_INTERPR_05	Instructie 'fail' is uitgevoerd
+IDS_ERR_INTERPR_06	Onbekende instructie
+IDS_ERR_INTERPR_07	Onjuist nummer formaat
+IDS_ERR_INTERPR_08	Onjuist tijd formaat
+IDS_ERR_INTERPR_09	Mist de juiste parenthesis
+IDS_ERR_INTERPR_10	Onjuiste uitvoering
+IDS_ERR_INTERPR_11	Variabele niet gevonden
+IDS_ERR_INTERPR_12	Geen argument voor deze functie
+IDS_ERR_INTERPR_13	Verkeerd aantal argumenten
+IDS_ERR_INTERPR_14	Onjuiste variabele naam
+IDS_ERR_INTERPR_15	Fout tijdens evaluatie arithmetische expressie
+IDS_ERR_INTERPR_16	Mist de parenthesis in een functie oproep
+IDS_ERR_INTERPR_17	Oneindige loop
+IDS_ERR_INTERPR_18	'exit loop' gevonden buiten een loop
+IDS_ERR_INTERPR_19	Gebrekkige loop gevonden
+IDS_ERR_INTERPR_20	Operator verwacht
+IDS_ERR_INTERPR_21	Math overflow
+IDS_ERR_INTERPR_22	Arithmetic stack overflow
+IDS_ERR_INTERPR_23	Te veel else uitvoeringen!
+IDS_ERR_INTERPR_24	Expressie is te lang!
+IDS_ERR_INTERPR_25	Te veel parameters voor deze functie!
+IDS_ERR_INTERPR_26	'If' sequence is niet correct (teveel else, else if of end if)
+IDS_ERR_INTERPR_27	Geen juiste operand in de opdracht
+IDS_ERR_INTERPR_28	Er is een  ']' tekort !!
+IDS_ERR_INTERPR_29	Variabele bestaat reeds
+IDS_ERR_INTERPR_30	Onbekende procedure
+IDS_ERR_INTERPR_31	Verkeerd aantal argumenten
+IDS_ERR_INTERPR_32	Onjuist argument
+IDS_ERR_INTERPR_33	Onjuist bitmap bestand
+IDS_ERR_INTERPR_34	Pad is niet gedefinieerd
+IDS_ERR_INTERPR_35	Onjuiste parameter
+IDS_ERR_INTERPR_36	Functie niet van toepassing in deze omgeving
+IDS_ESCOMPTE	Disconto
+IDS_ESPACEMENT_VERTICAL_ETIQUETTES	Verticale ruimte tussen de etiketten
+IDS_ESSENCE	Essence
+IDS_ET	en
+IDS_ETAT	Staat
+IDS_ETATAPPROBATIONCONFIRMATION	De bevestiging van de klant goedkeuren
+IDS_ETATAVALISATIONFINANCIERE	Financiële goedkeuring
+IDS_ETATCHASSIS	Staat van het raam
+IDS_ETATCLOTURE	Afgesloten bestelling
+IDS_ETATCOMMANDE	Bestelling
+IDS_ETATCOMMANDEFOURNISSEUR	Leverancier bestelling
+IDS_ETATCOMMANDEVITRAGE	Bestelling van beglazingen
+IDS_ETATCONFIRMATIONMODIFIEE	Teruggebrachte en gewijzigde bevestiging
+IDS_ETATEDITIONVERIFCONFIRMATION	De bevestiging afdrukken
+IDS_ETATENVOICONFIRMATION	De bevestiging zenden
+IDS_ETATFACTURATION	Afdruk van de factuur
+IDS_ETATIMPRESSIONCONFIRMATIONMODIFIEE	Teruggebrachte, gewijzigde en herafgedrukte bevestiging
+IDS_ETATMISEENATTENTECONFIRMATION	De bevestiging in afwachting zetten
+IDS_ETATMODIFICATIONCOMMANDE	Gewijzigde bestelling
+IDS_ETATMODIFICATIONDATEFABRICATION	Wijziging van de datum van fabricatieaanvang
+IDS_ETATMODIFICATIONDATELIVRAISON	Wijziging van de leveringsdatum
+IDS_ETATNOTEENVOI	Afdruk van de verzendnota
+IDS_ETATOPTIMISATION	Optimalisatie
+IDS_ETATOPTIMISATION_PARTIELLE	Gedeeltelijke optimalisatie
+IDS_ETATPREPAOPTIMISATION	Voorbereiding van de optimalisatie
+IDS_ETATPREPARATIONLIVRAISON	Voorbereidingsbon voor levering
+IDS_ETATPRODUCTION	Het begin van productie
+IDS_ETATPRODUCTION_PARTIELLE	Gedeeltelijke fabricatie
+IDS_ETATREACTIVATIONCONFIRMATION	De bevestiging opnieuw geldig maken
+IDS_ETATRETOURCONFIRMATIONAMODIFIER	Ontvangst van de bevestiging : te wijzigen
+IDS_ETATS	Staat van bestelling
+IDS_ETATS_COMMANDES	Staten van bestellingen
+IDS_ETATVALIDATIONCONFIRMATIONMODIFIEE	Teruggebrachte, gewijzigde en weer geldig gemaakte bevestiging
+IDS_ETATVALIDVERIFCONFIRMATION	De bevestiging geldig maken
+IDS_ETAT_DESCRIP	Beschrijving van de staat
+IDS_ETAT_DES_CHASSIS	Produktiestatus
+IDS_ETIQDOSSIER	Dossier etiketten
+IDS_ETIQUETTE	Etiket
+IDS_ETIQUETTES	Etiketten
+IDS_ETIQUETTES_RECEPTION	Etiketten afdrukken
+IDS_ETPAS	en niet
+IDS_ET_DE	en van
+IDS_EXCLURE_MAIN_D_OEUVRE_PR	Sluit de werkuren uit van de kostprijs
+IDS_EXCLURE_MAIN_D_OEUVRE_PV	Sluit de werkuren uit van de verkoopsprijs
+IDS_EXCLURE_PRIX_REVIENT	Van kostprijs uitsluiten
+IDS_EXCLURE_PRIX_VENTE	Van verkoopsprijs uitsluiten
+IDS_EXCLURE_PR_REVIENT	Van kostprijs uitsluiten
+IDS_EXCLURE_PR_VENTE	Van vkpsprijs uitsluiten
+IDS_EXCLURE_WINPRO/D	Onbruikbaar in WinPro/D
+IDS_EXISTEDEJA	The code '#1#' already exists
+IDS_EXPEDITEUR	Zender
+IDS_EXPORT	Export
+IDS_EXPORTATION	Exporteren
+IDS_EXPORTATION_TECHNIQUE	Technische export
+IDS_EXPORTATION_TERMINEE	Export van de tabel is afgemaakt.
+IDS_EXPORTCOMMANDE	Een bestelling exporteren
+IDS_EXPORTER_HISTORIQUE	Exporteer de geschiedenis?
+IDS_EXPORTER_LIENS_ATELIER	Exporteer de links tussen deze arbeidspost en artikels, berichten en bewerkingen ?
+IDS_EXPORTER_OUVRANT	Exporteer de vleugel waartoe dit beslag behoort?
+IDS_EXPORTER_QUINC	Exporteer beslag behorend aan deze vleugel?
+IDS_EXPORT_OUVRANT	Vleugel export
+IDS_EXPORT_PALETTE	Palletten export
+IDS_EXPORT_POSTE_ATELIER	Arbeidspost export
+IDS_EXPORT_QUINC	Beslag export
+IDS_EXPORT_SPEC	Archieven & geëxporteerde bestanden|
+IDS_EXPORT_SPEC2	Archieven & bestanden geexporteerd van de maatschappij|
+IDS_EXP_PLAN	Exp. Plan.
+IDS_EXTERIEUR	Buiten
+IDS_EXTERIEUR_OUVRANT	Totale vleugel maten
+IDS_EXT_	Buit.
+IDS_FABRICATION	Fabricatie
+IDS_FABRICATIONTERMINEE	Fabricatie is klaar
+IDS_FABRICATION_CHASSIS	Ramen fabricatie
+IDS_FACTURATION	Factureren
+IDS_FACTURE	Factuur
+IDS_FACTUREMENSUELLE	Maandelijkse facturering
+IDS_FACT_ECHUE-30	Vervalde factuur - 30 dagen
+IDS_FACT_ECHUE_+90	Vervalde factuur + 90 dagen
+IDS_FACT_ECHUE_30_60	Vervalde factuur 30 - 60 dagen
+IDS_FACT_ECHUE_60_90	Vervalde factuur 60 - 90 dagen
+IDS_FACT_NON_ECHUE	Niet vervalde factuur
+IDS_FACT_PARTIELLE	Gedeeltelijk factureren
+IDS_FAUXCINTRAGE	Schijnboog
+IDS_FAUXCINTRAGES	Schijnbogen
+IDS_FAUXCINTRE_0	Standaard vorm
+IDS_FAUXCINTRE_1	Buitenkader is rechthoekig
+IDS_FAUXCINTRE_2	Buitenkader rechthoekig;buitenzijde vleugel rechthoekig
+IDS_FAUXCINTRE_3	Buitenkader rechthoekig;buitenzijde vleugel rechthoekig;glas rechthoekig;binnenzijde vleugel en glaslat rechthoekig
+IDS_FAUXCINTRE_4	Buitenkader uitgevuld met een paneel
+IDS_FAUXCINTRE_5	Raam blijft gelijk;glas wordt bedekt met een niet-rechthoekige vorm.
+IDS_FAX	Fax
+IDS_FERMER	Sluiten
+IDS_FEVRIER	februari
+IDS_FEVRIER_ABR	feb
+IDS_FICHE_SIMPLIFIEE	Eenvoudig
+IDS_FICHIER	Bestand
+IDS_FICHIERCLIENTDEPLACE	Het bestand werdt hergenoemd en als volgt verplaatst: '#1#'
+IDS_FICHIERPOURFABRICANT	Is dit bestand voor de leverancier bestemd ?
+IDS_FICHIERS_MACHINES	Zaag bestand
+IDS_FICHIER_AIDE	Hulp
+IDS_FICHIER_DBF	Bestand .DBF
+IDS_FICHIER_EXPORT_EXISTE_DEJA	Er bestaat al een export bestand van #1# bestelling. Moet dit door een nieuwe versie vervangen worden ?
+IDS_FICHIER_IMAGE	Bitmap bestand
+IDS_FICHIER_INEXISTANT	Onvindbaar #1# bestand.
+IDS_FICHIER_INFORMATION_CLIENT_MODULE_DEVIS	Informatiesbestand over de klant (offerte module)
+IDS_FICHIER_N_EXISTE_PAS	Bestand bestaat niet !
+IDS_FICHIER_PAS_CREE	Het bestand #1# kon niet aangemaakt worden
+IDS_FICHIER_VIDE	Leeg bestand
+IDS_FILTRE	Filter
+IDS_FILTRES	Filters
+IDS_FIN	Einde
+IDS_FINANCES	Financieel
+IDS_FINCHAINE	Stockeer in rek na produktie
+IDS_FINCONFIRMATION	Einde bevestiging
+IDS_FINDEVIS	Einde offerte
+IDS_FINFACTURE	Einde factuur
+IDS_FINNE	Einde verzendnota
+IDS_FIN_FABR	Einde fabr.
+IDS_FIN_MOIS	Maandeinde
+IDS_FIRST_OPTIM	Eerste optimalisatie
+IDS_FIXE	Vast
+IDS_FIXE_SIMPLE_CADRE	Vast enkel kader
+IDS_FLASQUE_INTERIEUR	Binnen zijkap
+IDS_FLECHE	Pijl
+IDS_FONCTION	Positie
+IDS_FOND_FEUILLURE_DORMANT	Kader sponning
+IDS_FOND_FEUILLURE_OUVRANT	Vleugel sponning
+IDS_FONTE	Letterteken
+IDS_FONTES	Lettertype
+IDS_FONTE_POUR_DIMENSIONS	Letterteken voor afmetingen
+IDS_FORCER_COUPE_SIMPLE	Verplicht gebruik van de enkele zaag ipv de dubbele zaag
+IDS_FORCER_DATE	De datum opleggen
+IDS_FORCER_PA_COMMERCIAL	Verplicht gebruik com. aankoopprijs
+IDS_FORFAIT	Prijs
+IDS_FORMATDATE	 - ds mmmm yyyy
+IDS_FORMATER	Format
+IDS_FORMAT_DATE	Datum uitgedrukt in
+IDS_FORME	Vorm
+IDS_FORME_PAS_DE_BAS	Deze vorm heeft geen beneden kant
+IDS_FORME_PAS_DE_DROITE	Deze vorm heeft geen rechtse kant
+IDS_FORME_PAS_DE_GAUCHE	Deze vorm heeft geen linkse kant
+IDS_FORME_PAS_DE_HAUT	Deze vorm heeft geen boven kant
+IDS_FORME_PAS_DE_HAUT_DROITE	Deze vorm heeft geen boven rechtse kant
+IDS_FORME_PAS_DE_HAUT_GAUCHE	Deze vorm heeft geen boven linkse kant
+IDS_FORME_VITRAGE_INCORRECTE	Vorm van glas #1# is niet correct
+IDS_FORMULE	Formule
+IDS_FORMULES	Formules
+IDS_FORMULES_HORIZONTALES_BAS_PAGE	Horizontale formules (beneden op de bladzijde)
+IDS_FORMULE_CALCUL_PV	Formule om de verkoopsprijs te rekenen
+IDS_FORMULE_REMISE	Formules van korting
+IDS_FORMULE_SPECIF	Specifieke formules
+IDS_FORMULE_TARIF	Tarief prijs formule
+IDS_FORMULE_VERTICALE_DROITE_PAGE	Verticale formules (rechts op de bladzijde)
+IDS_FOURNISS	Leveranc
+IDS_FOURNISSEUR	Leverancier
+IDS_FOURNISSEURNUM	Lever. nr
+IDS_FOURNISSEURPRINCIPAL	Hoofdlever.
+IDS_FOURNISSEURS	Leveranciers
+IDS_FOURNISSEUR_NO_EXIST	Deze leverancier bestaat niet
+IDS_FOURNISSEUR_PRINCIPAL	Hoofdleverancier
+IDS_FOURNISSEUR_VITRAGE	Beglazing leverancier
+IDS_FRAIS	Kosten
+IDS_FRAISLIVRAISON	Leveringskosten
+IDS_FRAISPORT	Vracht
+IDS_FRAIS_LIVRAISON_CHANTIER	Levering op werf
+IDS_FRANCO_PAS_ATTEINT	Het (#1#) franco bedrag wordt niet bereikt. Leveringskosten : #2#
+IDS_FREQUENCE_LIVRAISON	Leveringsfrequentie
+IDS_G(auche)	L
+IDS_GAMME	Gamma
+IDS_GARDENUMFACTURE	Wenst u de factuurdatum en bedrag te behouden ?
+IDS_GAUCHE	Links
+IDS_GAUCHE_DROITE	Links + rechts
+IDS_GENERER	Toepassen
+IDS_GENERER_LOTS_SELECT	Geselecteerde lots genereren
+IDS_GENERER_SERIE_DIMENSIONS	Afmetingen aanmaken
+IDS_GESTION_PRODUCTION	Productiehandling
+IDS_GRANDEHAUTEUR	Grotere hoogte
+IDS_GRANDEHAUTEURBAS	Grotere hoogte (binnenprofiel)
+IDS_GRATUIT_CLIENT	Gratis klant
+IDS_GRATUIT_USINE	Gratis produktie
+IDS_GRILLEPREVISIONSTOCK	Wekelijkse verwachte tabel
+IDS_GRILLE_1_DIMENSION	Tabel met 1 afmeting
+IDS_GRILLE_2_DIMENSIONS	Tabel met 2 afmetingen
+IDS_GRILLE_PA_ARTICLE	Tabel van de inkoopprijs van het artikel #1#
+IDS_GRILLE_PRIX	Tarief
+IDS_GRILLE_PRIX_COURANT	Lopende prijstabel
+IDS_GRILLE_PRIX_SUIVANT_DIMENSION	Prijstabel
+IDS_GRILLE_PRIX_SUIVANT_SURFACE	Prijstabel volgens oppervlakte
+IDS_GRILLE_PRIX_TARIF	Lijst prijstabel
+IDS_GRILLE_PR_COURANT_ARTICLE	Tabel van de lopende kostprijzen van het artikel #1#
+IDS_GRILLE_PR_TARIF_ARTICLE	Tabel van de tarief kostprijzen van het artikel #1#
+IDS_GRILLE_PR_VITRAGE	Tabel van kostprijs van beglazing van vleugel
+IDS_GRILLE_PV_ARTICLE	Tabel van de verkoopsprijzen van het artikel #1#
+IDS_GRILLE_VITRAGES	Beglazingstabel
+IDS_GROUPES_USINAGES	Bewerkingsgroepen
+IDS_GROUPEUSINAGE	Bewerkingsgroep
+IDS_GROUPE_ACHAT	Groepsaankoop
+IDS_GROUPE_COULEUR	Groep
+IDS_GROUPE_COULEURS	Groepen van kleuren
+IDS_GROUPE_PRODUIT	Produktgroep
+IDS_GROUPE_REMISE	Kortingsgroep
+IDS_GRP_ACHAT	Groepsaank.
+IDS_H(aut)	B
+IDS_HAUT	Boven
+IDS_HAUT.	Hoog.
+IDS_HAUTDROITE	Boven rechts
+IDS_HAUTEUR	Hoogte
+IDS_HAUTEURCAISSONINSUFFISANTE	De hoogte van de kast is onvoldoende
+IDS_HAUTEUREXTERIEUR	Buiten hoogte
+IDS_HAUTEUREXTERIEURBAS	Buitenhoogte, beneden van vleugel
+IDS_HAUTEURINTERIEUR	Binnen hoogte
+IDS_HAUTEURINTERIEURBAS	Binnenhoogte, beneden van vleugel
+IDS_HAUTEURS	Hoogten
+IDS_HAUTEUR_CAISSON	Kast hoogte
+IDS_HAUTEUR_CONSTRUCTION	Gebouwhoogte
+IDS_HAUTEUR_DE	Hoogte van
+IDS_HAUTEUR_FACE_PARCLOSE	Hoogte v. glaslatkant
+IDS_HAUTEUR_INSUFFISANTE	Niet hoog genoeg
+IDS_HAUTEUR_LAMELLE	Lamelhoogte
+IDS_HAUTEUR_MAXIMUM	Maximale hoogte
+IDS_HAUTEUR_MINIMUM	Minimale hoogte
+IDS_HAUTEUR_SUPPLEMENTAIRE	Hoogte dagmaat
+IDS_HAUTEUR_TROP_IMPORTANTE	Te hoog !
+IDS_HAUTEUR_VARIABLE	Variabele hoogte
+IDS_HAUTFABR	Fabr. H
+IDS_HAUTGAUCHE	Boven links
+IDS_HAUTTABL	Dagmaten H
+IDS_HAUT_BAS	Boven + beneden
+IDS_HAUT_SEULEMENT	Slechts boven
+IDS_HBGD	BOLR
+IDS_HEURE	Uur
+IDS_HEURES/MINUTES	uur:minuten
+IDS_HEURE_RECEPTION	Tijd ontvangen
+IDS_HISTORIQUE	Overzicht
+IDS_HISTORIQUEDEVISE	Valuta overzicht
+IDS_HISTORIQUEMO	Bijwerking van het werktijdenoverzicht
+IDS_HISTORIQUESTOCK	Stock overzicht
+IDS_HISTORIQUE_COMMANDE	Overzicht bestelling
+IDS_HISTO_FACT_PARTIELLE	Lijst van Documenten
+IDS_HOBBY	Hobby
+IDS_HORAIRE_DE	Tijd: van
+IDS_HORIZONTAL	Horizontaal
+IDS_HORIZONTALE	Horizontaal
+IDS_HORIZONTALES	horizontale
+IDS_HORS-TOUT	Totale maten
+IDS_HORS_GARANTIE	Buiten waarborg !
+IDS_HORS_STOCK	Buiten stock
+IDS_HTVA	Belastbaar
+IDS_IDENTIFICATEUR	Identificatie
+IDS_IDENTIFICATEUR_LOT	Alfanumerieke reeks  (lot)
+IDS_IDENTIFICATEUR_NUMERIQUE	Numerieke identificatie
+IDS_IDENTIFICATEUR_VITRAGE	Identificatie beglazing
+IDS_IEME_TRIMESTRE	%d° trimester
+IDS_IGNORER	Nalaten
+IDS_IMPORT	Import
+IDS_IMPORTANCE_CREANCES	Bedrag van bestellingen nog te innen
+IDS_IMPORTANCE_LITIGES	Aantal conflicten
+IDS_IMPORTATION	Importeren
+IDS_IMPORTATION_ARCHIVE	Importeren archief
+IDS_IMPORTATION_EN_COURS_VEUILLEZ_PATIENTER	Bezig met importeren, even geduld aub.  ...
+IDS_IMPORTATION_MULTI_SITE	Importeren multi-site
+IDS_IMPORTAUTREFABRICANT	Dit bestand is bestemd voor een andere fabrikant !
+IDS_IMPORTER_PROSPECTS	Importeer prospect
+IDS_IMPORT_COMMANDE	Bestelling importeren
+IDS_IMPRESSION	Afdruk
+IDS_IMPRESSIONBONVALORISE	Wilt U de leveringsbon met prijzen afdrukken ?
+IDS_IMPRESSIONCORRECTE	Is de afdruk correct ?
+IDS_IMPRESSIONCORRECTION	Afdruk van correcties
+IDS_IMPRESSIONS_FACULTATIVES	Fakultatieve afdrukken
+IDS_IMPRESSION_ARTICLE_PLAN	Afdruk op de documenten
+IDS_IMPRESSION_CASIERS_STOCK	Afdruk lijst voorraadvakken
+IDS_IMPRESSION_CDE_SOUS_TRAITANTS	Afdruk bestellijst onderaannemers
+IDS_IMPRESSION_CINTRE_1:1	Plotter 1:1
+IDS_IMPRESSION_CONFIRMATION	Bevestiging afdrukken
+IDS_IMPRESSION_CONFIRMATIONS	Bevestigingen afdrukken
+IDS_IMPRESSION_DE	Lopende afdruk van
+IDS_IMPRESSION_DEVIS	Afdruk van offerten
+IDS_IMPRESSION_DOCUMENTS_CLIENT	Afdruk v. klanten documenten
+IDS_IMPRESSION_DOCUMENTS_OPTIMISATION	De documenten voor optimalisatie afdrukken
+IDS_IMPRESSION_EN_LISTE	Lijst afdrukken
+IDS_IMPRESSION_ETIQUETTES_JETER	Afdruk van de etiketten 'Werpen'
+IDS_IMPRESSION_PAGE	Lopende afdruk van bladzijde %d van
+IDS_IMPRESSION_PRIX_UNITAIRE	Eenheidsprijs afdrukken
+IDS_IMPRESSION_RECAP_COMMANDE	Ramensamenvatting van een bestelling afdrukken
+IDS_IMPRESSION_STOCK_NEGATIF	Negatieve stock afdrukken
+IDS_IMPRESSION_SUR_ETIQUETTE	Etiket afdrukken
+IDS_IMPRIMER	Afdrukken
+IDS_IMPRIMER_ADRESSE_LIVRAISON	Leveringsadres afdrukken
+IDS_IMPRIMER_COMMANDE_FOURNISSEUR	Dit bestelvoorstel wordt nog niet afgedrukt.  Wenst U nu dit af te drukken ?
+IDS_IMPRIMER_DIFFERENCE_PRIX	Het verschil van prijs afdrukken
+IDS_IMPRIMER_DIMENSION_CADRE	De afmeting van het frame afdrukken
+IDS_IMPRIMER_LISTE	De lijst afdrukken
+IDS_IMPRIMER_LISTE_AVEC_LOT	Een lijst met ieder lot afdrukken
+IDS_IMPRIMER_LISTE_COMMANDES	Bestellingslijst afdrukken
+IDS_IMPRIMER_NUMERO_CLIENT	Klantnummer afdrukken
+IDS_IMPRIMER_POSITION	De positie afdrukken
+IDS_IMPRIMER_SUR_DOC_CLIENT	Op klantdokumenten afdrukken
+IDS_IMPRIMER_SUR_ETIQUETTES	Op etiketten afdrukken
+IDS_IMPRIMER_SUR_PLAN	Op werkplannen afdrukken
+IDS_IMPUTATION	Boekhoud.
+IDS_IMPUTATION_COMPTABLE	Grootboekrekening
+IDS_IMP_PLAN	Imp. plan.
+IDS_INCIDENTS	Gebeurtenissen
+IDS_INCIDENT_F2	Gebeurtenis[F3]
+IDS_INCLURE NE & FACT	Facturen en zendnota's inbegrepen
+IDS_INCLURE_CET_ARTICLE	Dit artikel invoegen
+IDS_INCLURE_COMMANDES_NON_CONFIRMEES	De niet bevestigde bestellingen toevoegen
+IDS_INCLURE_ENCOURS_COMPTABLE	De financiële positie toevoegen
+IDS_INCLURE_NOTES_ENVOI	De verzendnota's toevoegen
+IDS_INCORPORE	Ingewerkt
+IDS_INCORRECT_DATE	Ongeldige datum!
+IDS_INCORRECT_SHAPE_ORIENTATION	Richting van de vorm is niet correct
+IDS_INCORRECT_SHAPE_TYPE	Type vorm is niet correct
+IDS_INCORRECT_TIME	Ongeldige tijd!
+IDS_INCREMENT	Incrementeel
+IDS_INDENTATION	Indentation
+IDS_INDEXATION_TABLE	Indexing file '%s.dbf'
+IDS_INDEX_CORROMPU	Vergissing #1110: Een probleem met de index werd gevonden. Het programma zal stoppen
+IDS_INDEX_ERRONNE	De index is verkeerd. De bestanden moeten dwingend herorganiseerd worden!
+IDS_INDIQUEZ_CODE_CLIENT	De code van de klant invoeren !!
+IDS_INDIQUEZ_DATE_LIMITE	U moet de uiterste gebruiksdatum invoeren
+IDS_INDIQUEZ_NOM_CLIENT	De naam van de klant invoeren !!
+IDS_INFO	Info.
+IDS_INFOCLI_CORROMPU	Het INFOCLI bestand is onbruikbaar.\nGelieve met Uw fabrikant contact op te nemen.
+IDS_INFORMATIONS	Informaties
+IDS_INFORMATIONS_GENERALES_VITRAGES	Algemene inlichtingen over de beglazing
+IDS_INFORMATIONS_SOCIETE	Maatschappij informatie
+IDS_INFORMATIONS_VITRAGE	Algemene informatie over de beglazing
+IDS_INFORMATION_COMMANDE	Algemene informatie
+IDS_INFOS_ATELIER	Informatie werkplaatspost
+IDS_INFO_CDE	Bestellingsinfo
+IDS_INFO_CLI	Informaties over klant
+IDS_INFO_LIVRAISON	Informaties betreffende de leveringstermijn
+IDS_INITIALE_DORMANT	K
+IDS_INITIALE_DROITE	R
+IDS_INITIALE_GAUCHE	L
+IDS_INITIALE_OUVRANT	V
+IDS_INSEREZ_DISQUETTE	Een geformateerde disket in A drive invoegen
+IDS_INSEREZ_FLOPPY_LICENCE	De disket met het licentienummer invoeren
+IDS_INSEREZ_INFO_CLI	De 'INFOCLI' disket invoegen
+IDS_INSTRUCTIONS	Instructies
+IDS_INSTRUCTIONS_COMPLEMENTAIRES	Andere instructies
+IDS_INSTRUCTIONS_LIVRAISON	Leverings instructies
+IDS_INSTRUCTIONS_POUR_LIVRAISONS	Instructies voor de levering
+IDS_INTERCALAIRE	Afstandh.
+IDS_INTERCALAIRE_TROP_EPAIS	De afstandshouder van de beglazing is te breed voor de gekozen kruishout!
+IDS_INTERCALAIRE_TROP_MINCE	De afstandshouder van de beglazing is te smal voor de gekozen kruishout!
+IDS_INTERDITES	Onbeschikbaar
+IDS_INTERIEUR	Binnen
+IDS_INTERIEUR_EXTERIEUR	Binn/buit
+IDS_INTERNET	Internet
+IDS_INTERVALLE	Tussenruimte
+IDS_INTERVALLES	Tussenruimten
+IDS_INTERVALLE_ENTRE_COLONNES	Ruimte tussen de kolommen
+IDS_INTITULE	Titel
+IDS_INTITULE_VITRAGE	Beglazingsnaam
+IDS_INTRODUIRE_NUMERO_LICENCE	Uw licentienummer invoeren
+IDS_INT_	Bin.
+IDS_INVALID_RANGE	Ongeldige waarde
+IDS_INVENTAIRE	Inventaris
+IDS_INVENTEMPLACEMENT	Inventaris per plaats
+IDS_INVENTGENERAL	Algemene inventaris
+IDS_INVERSER_ANGLES_PROFILS	Indien dubbele zaag,dienen de hoeken van het profiel omgedraaid te worden in vergelijking tot de andere profielen
+IDS_INVERSER_DORMANT	Buitendraaiend
+IDS_INVERSER_SEL.	Select.omk.
+IDS_INVERSER_SELECTION	Selectie afval
+IDS_INVERSER_VUE	Omkeren aanzicht
+IDS_INVISIBLE	Onzichtbaar
+IDS_INVISIBLE_WINPRO/D	Onzichtbaar in WinPro/D
+IDS_JAMAIS	Nooit
+IDS_JANVIER	januari
+IDS_JANVIER_ABR	jan
+IDS_JETER	Werpen
+IDS_JEUDI	donderdag
+IDS_JEUDI_ABR	don
+IDS_JEU_COULISSES	Geleidersspeling
+IDS_JOINTPARCLOSE	Dichting van glaslat
+IDS_JOINTPROFIL	Dichting van beglazing
+IDS_JOINT_CENTRAL_DORMANT	Middendichting kader
+IDS_JOINT_CENTRAL_OUVRANT	Middendichting vleugel
+IDS_JOINT_FRAPPE_DORMANT	Dichting/kader
+IDS_JOINT_FRAPPE_OUVRANT	Dichting/vleugel
+IDS_JOINT_SUR_CADRE	Dichting op kaderframe
+IDS_JOINT_SUR_PARCLOSE	Dichting op glaslat
+IDS_JOINT_VITRAGE	Beglazingsdichting
+IDS_JONCTIONTRAV	Verbinding met andere stijlen:
+IDS_JONCTIONTRAV1	Geen verbinding
+IDS_JONCTIONTRAV2	Eén enkel kant verbinding
+IDS_JONCTIONTRAV3	Beide kanten verbinding
+IDS_JOUR	dag
+IDS_JOURLIVRAISON	Leveringsdag
+IDS_JOURNAL_MAIN_OEUVRE	Arbeidspostenoverzicht
+IDS_JOURNAL_STOCK	Stockoverzicht
+IDS_JOURS	dagen
+IDS_JOUR_DE_POSE	Op plaatsingsdag
+IDS_JTPARCLOSE	Glaslattendichting
+IDS_JTVITRAGE	Beglazingsdichting
+IDS_JT_CENTRAL_DORMANT	Middendichting/kader
+IDS_JT_CENTRAL_OUVRANT	Middendichting/vleugel
+IDS_JT_FRAPPE_DORMANT	Dichting/kader
+IDS_JT_FRAPPE_OUVRANT	Dichting/vleugel
+IDS_JUILLET	juli
+IDS_JUILLET_ABR	jul
+IDS_JUIN	juni
+IDS_JUIN_ABR	jun
+IDS_JUSQUE	tot
+IDS_JUSQUE_DATE_SORTIE	Tot en met datum van depot
+IDS_JUSQU_AU	Tot
+IDS_JUSTIFICATION	Reden
+IDS_KM_RAYON	km radius
+IDS_Kg/m²	Kg/m²
+IDS_LAMELLES	Rolluikblad
+IDS_LANCEMENTFABRICATION	Begin van de produktie
+IDS_LANCEMENT_OPTIMISATION	Optimalisatie
+IDS_LANCER_RECHERCHE	Start zoeken 
+IDS_LANGAGE	Taal
+IDS_LANGUE	Taal
+IDS_LANGUECATEG	Taal, categorie, munteenheid
+IDS_LANGUEDEV	Taal en munteenheid
+IDS_LANGUES	Taal
+IDS_LANGUE_ACTIVE	Aktieve Taal
+IDS_LANGUE_AFFICHAGE	Weergegeven Taal
+IDS_LANGUE_BASE	Standaardtaal
+IDS_LANG_SUBST	Vervangende Taal
+IDS_LAQUAGE	Lakken
+IDS_LAQUE	Lak
+IDS_LAQUER_1_COULEUR_APRES_ASSEMBLAGE	Eenkleurige profielen na verbinding lakken
+IDS_LARG.	Br.
+IDS_LARGEUR	Breedte
+IDS_LARGEURNULLE	De breedtewaarde is nul
+IDS_LARGEURS	Breedten
+IDS_LARGEUR_COULISSE	Breedte van de geleider
+IDS_LARGEUR_DE	Breedte van
+IDS_LARGEUR_FRAISAGE	Breedte van frezen
+IDS_LARGEUR_MAUCLAIR	Makelaar breedte
+IDS_LARGEUR_MAXIMUM	Maximale breedte
+IDS_LARGEUR_MINIMUM	Minimale breedte
+IDS_LARGEUR_RESTANTE	Overblijvende breedte
+IDS_LARGFABR	Fabr. B
+IDS_LARGTABL	Dagm. B
+IDS_LIAISON_FOURNISSEUR	Leveranciersverbinding
+IDS_LIBELLE	Omschrijving
+IDS_LIBELLES	Omschrijving
+IDS_LICENCE	Licentie
+IDS_LIGNE	Lijn
+IDS_LIGNEPRODUCTION	Prod.lijn
+IDS_LIGNES_PRODUCTION	Productie lijnen
+IDS_LIGNE_PRODUCTION	Productie lijnen
+IDS_LIGNE_REPERE	Hulp lijn
+IDS_LIMCREDIT	Kredietbeperking
+IDS_LIMITER_CHOIX_RAL	Selectiebox RAL kleuren
+IDS_LIMITES_COUPE	Lengte limieten
+IDS_LIMITE_CREDIT	Kredietbeperking
+IDS_LIMITE_VALIDITE	Geldigheid tot
+IDS_LIM_VAL	Geldig tot
+IDS_LINEAIRE	Oppervlakte
+IDS_LINEAIRECAMION	Vrachtwagen opslag
+IDS_LINEAIRE_CAMION	Oppervlakte vrachtwagenlading
+IDS_LISTE	Opt. lijst
+IDS_LISTEARTICLE	Lijst van artikels
+IDS_LISTECATEGORIEARTICLES	Artikelenkategoriënlijst
+IDS_LISTECATEGORIECLIENTS	Lijst van klantencategorieën
+IDS_LISTECHARGEMENT	Lijst van ladingen
+IDS_LISTECHASSIS	Lijst van de ramen
+IDS_LISTECLIENT	Lijst van klanten
+IDS_LISTECOEFFICIENTS	Lijst van prijscoëfficiënten
+IDS_LISTEDEVISE	Lijst van deviezen
+IDS_LISTEEMPLACEMENT	Lijst van plaatsen
+IDS_LISTEERREURS	Lijst van de vergissingen
+IDS_LISTEFOURNISSEUR	Lijst van leveranciers
+IDS_LISTELOT	Lijst van Job's
+IDS_LISTEPANNEAUX	Lijst van de te zagen platen 
+IDS_LISTEPROFIL	Lijst van profielen
+IDS_LISTES	Lijsten
+IDS_LISTESERTISSAGE	Lijst van te monteren profielen
+IDS_LISTEUSINAGE	Lijst van bewerkingen
+IDS_LISTE_ACCESSOIRE_CHASSIS	Lijst van de raamtoebehoren
+IDS_LISTE_CADRES_LOT_CATEGORIE	Lot #1# - Lijst van kaders type #2#
+IDS_LISTE_CHARGEMENT_BARRES	Lijst van profielenlading
+IDS_LISTE_CHASSIS_OPTIMISES	Lijst van geoptimaliseerde ramen
+IDS_LISTE_COMPARATIVE_DEVIS/COMMANDE	Vergelijkende lijst Offertes / Bestellingen
+IDS_LISTE_CONFIRMATIONS	Lijst van bevestigingen
+IDS_LISTE_CONFIRMATION_ENVOYEE	Lijst van de opgestuurde bevestigingen
+IDS_LISTE_CONSOMMATION	Lijst van verbruik
+IDS_LISTE_DESSIN	Lijst van tekeningen
+IDS_LISTE_DES_FICHIERS	Lijst van de bestanden
+IDS_LISTE_DORMANT	Lijst van Kaders
+IDS_LISTE_LAQUAGE	Lijst van het lakken
+IDS_LISTE_OPTIMISATION	Lijst van optimalisatie
+IDS_LISTE_OUVRANT	Lijst van vleugels
+IDS_LISTE_PANNEAU	Lijst van panelen
+IDS_LISTE_PANNEAU_DECORATIF	Lijst van sierpanelen
+IDS_LISTE_PARCLOSE	Lijst van de glaslatten
+IDS_LISTE_QUINCAILLERIE	Lijst van de beslagen
+IDS_LISTE_REHAUSSE	Lijst van de ophoogprofielen
+IDS_LISTE_RESERVATIONS	Lijst van reservaties
+IDS_LISTE_TRAVERSE	Lijst van de stijlprofielen
+IDS_LISTE_VITRAGE	Lijst van beglazingen
+IDS_LISTE_VITRAGES_ET_PANNEAUX	Lijst van beglazingen en planelen
+IDS_LISTE_VUES_COUPES	Lijst van doorsneden
+IDS_LISTPACKAGES	Lijst van de pakketten
+IDS_LIVR	Lev
+IDS_LIVR/POSE	Lever/plaats.
+IDS_LIVRAISON	Levering
+IDS_LIVRAISONFRANCO	Franco levering
+IDS_LIVRAISONS	Leveringen
+IDS_LIVRAISONS_AVANCEES	Levering voor de planning
+IDS_LIVRAISONS_CHANTIER	Directe levering
+IDS_LIVRAISON_SAMEDI	Levering op zaterdag
+IDS_LIVREES	Geleverd
+IDS_LIVREES_DEPUIS_PLUS_DE	Geleverd vanaf meer dan
+IDS_LIVRVITR	Beglaz.lever.
+IDS_LIVR_FABRICANT	Fabric. lever.
+IDS_LIVR_VITRAGES	Beglazing lev
+IDS_LIV_PARTIELLE	Gedeeltelijke levering
+IDS_LOCALITE	Stad
+IDS_LOCKINGFILE	Locking file #1#.
+IDS_LOCKINGRECORD	Opslaan van het bestand
+IDS_LOGFACTURATIONPARTIELLE	Gedeeltelijke facturatie
+IDS_LOGIQUE	Logica
+IDS_LOGISTIQUE	Logistiek
+IDS_LOGNOTEENVOIPARTIELLE	Gedeeltelijke verzendingsnota
+IDS_LOGO	Logo
+IDS_LONGUEUR	Lengte
+IDS_LONGUEURS	Lengten
+IDS_LONGUEUR_1_BARRE	Lengte van een profiel
+IDS_LONGUEUR_COUPE	Lengte van zaag
+IDS_LONGUEUR_COUPE+	Sneelengte +
+IDS_LONGUEUR_FRAISAGE	Lengte van frezen
+IDS_LONGUEUR_MAXIMUM	Maximum lengte
+IDS_LONGUEUR_MINIMUM	Minimum lengte
+IDS_LONG_DATE	dddd, d mmmm YYYY
+IDS_LONG_MAX	Max len
+IDS_LONG_MIN	Min len
+IDS_LONG_MINIMUM	Minimale lengte
+IDS_LONG_TOT	Tot.lengte
+IDS_LOT	Lot
+IDS_LOTS	Lots
+IDS_LOTS_CHUTES	Lots van restafval
+IDS_LOTS_DE	Lots van
+IDS_LOTS_NON_VALIDES	Lots met niet goedgekeurde bestellingen werden geselecteerd
+IDS_LOTS_OPTIMISATION	Optimalisatielots
+IDS_LOTVIDE	Dit lot is leeg
+IDS_LOWERCASE	Kleine letters
+IDS_LPROD	Prod. lijn
+IDS_LUNDI	maandag
+IDS_LUNDI_ABR	maa
+IDS_Licensed to	Licentie toegewezen aan %s
+IDS_MACONNERIE	Metselwerk
+IDS_MAGASIN	Winkel
+IDS_MAI	mei
+IDS_MAIL_ORDERS	Bestellingen per e-mail
+IDS_MAIL_TITLE	Electronisch mail
+IDS_MAINDOEUVRE	Arbeidsloon
+IDS_MAINDOEUVREAENLEVER	Te verwijderen arbeidsloon 
+IDS_MAI_ABR	mei
+IDS_MAJDB_TABLE_INEXISTANTE	Kan dit betsand niet openen '%s'.\nHet bestand is in gebruik door een ander werkstation.\nWinPro kan niet herstructureren en zal afsluiten.
+IDS_MAJMANUELLE	Handwijziging
+IDS_MAJMANUELLECHASSIS	Staatswijziging van een raam
+IDS_MAJPRIXREVIENT	Wilt U bevestigen dat de tarief kostprijzen bijgewerkt worden ?
+IDS_MAJ_CLIENT	Bijwerking van de klant #1#?
+IDS_MAJ_KOM	Bijwerking van Kömmerling
+IDS_MAJ_KOM_ART	Wilt U dit artikel aanmaken : 
+IDS_MAJ_KOM_ERROR	Er is een vergissing gebeurd bij de bijwerking van Kömmerling bestanden
+IDS_MAJ_KOM_QUIT	Gelieve a.u.b. WinPro te verlaten om de gegevens te herorganiseren
+IDS_MAJ_KOM_SPEC	Kömmerling| bestanden|
+IDS_MAJ_PROSPECT	Update prospect #1#?
+IDS_MANOEUVRE	Bediening
+IDS_MARDI	dinsdag
+IDS_MARDI_ABR	din
+IDS_MARGE	Winst
+IDS_MARGES	Kanten
+IDS_MARGE_(HORS_MAIN_D_OEUVRE)	Marge (zonder arbeidsloon)
+IDS_MARGE_BRUTE	Bruto marge
+IDS_MARGE_COMM	verkoops marge
+IDS_MARGE_DROITE	Rechtse kantlijn
+IDS_MARGE_MAT	Prod. marge
+IDS_MARGE_POSE	Plaats. marge
+IDS_MARGE_PR	Marge/Kostprijs
+IDS_MARGE_PV	Marge/Verkoopsprijs
+IDS_MARGE_SUPERIEURE	Boven kantlijn
+IDS_MARGE_SUPPLEMENTAIRE	Bijkomende marge
+IDS_MARGE_SUPPL_(%)	Extra winst (%)
+IDS_MARGE_TOT	Totale marge
+IDS_MARS	maart
+IDS_MARS_ABR	maa
+IDS_MATERIAU	Materialen
+IDS_MATERIEL_PROMOTIONNEL	Promotie materiaal
+IDS_MATIN	's morgens
+IDS_MAUCLAIR	Makelaar/Stolp
+IDS_MAUCLAIR_1/2	Makelaar/Stolp 1/2
+IDS_MAUCLAIR_2/3	Makelaar/Stolp  2/3
+IDS_MAUCLAIR_3/4	Makelaar/Stolp  3/4
+IDS_MAUCLAIR_4/5	Makelaar/Stolp  4/5
+IDS_MAUCLAIR_5/6	Makelaar/Stolp  5/6
+IDS_MAUCLAIR_6/7	Makelaar/Stolp  6/7
+IDS_MAUCLAIR_COULEUR_DORMANT	Makelaar/Stolp kader kleur
+IDS_MAX	Max
+IDS_MAXIMUM	Maximum
+IDS_MAX_N_PIECES	U mag niet meer dan #1# ramen van een zelfde lot selecteren!
+IDS_MAX_N_VANTAUX	U mag niet meer dan #1# vleugels van een zelfde lot selecteren!
+IDS_MEMORISER_PRIX_DEVIS	Wilt U de prijzen opslaan ?
+IDS_MEMORISER_SELECTIONS	De selecties opslaan
+IDS_MENEAU_X_	Makelaar(s)/Stolp(en)
+IDS_MENUFAILURE	Mislukte aanmaak van het menu
+IDS_MERCREDI	woensdag
+IDS_MERCREDI_ABR	woe
+IDS_MESSAGE	Bericht
+IDS_MESSAGES	Bericht
+IDS_MESURES_FINIES_HxL	Maten (HxL)
+IDS_MIN	Min
+IDS_MINIMISER_NOMBRE_COUPES	Het aantal zaagsneden beperken
+IDS_MINIMUM	Minimum
+IDS_MISEAJOURINTERDITE	De ramen van deze bestelling kunnen niet meer gewijzigd worden
+IDS_MISEAJOURSTOCK	Bijwerking van de stock
+IDS_MISE_A_JOUR_STRUCTURE_FICHIER	Updating structure for file '%s.dbf'
+IDS_MISE_EN_ATTENTE_CONFIRMATION	De bevestigingen in afwachting zetten
+IDS_MISE_EN_LOT	Aanmaken van lot
+IDS_MISE_EN_LOTS	Aanmaken van lots
+IDS_MISE_EN_PRODUCTION	In produktie gegeven
+IDS_MIXEDCASE	Afwisselend
+IDS_MM_DE_BAS_OU_GAUCHE	mm van links of beneden
+IDS_MM_X_HAUTEUR	mm x Hoogte
+IDS_MO	AL
+IDS_MOCADRE	Werktijd voor het kader
+IDS_MOCOINS	Werktijden voor hoeken
+IDS_MOCONSOMMEE	Gepresteerde arbeid
+IDS_MODEM	Modem
+IDS_MODE_CALCUL	Prijzen berekenen
+IDS_MODE_SAISIE_COTES	Maatopname
+IDS_MODIFCOMMANDE	Wijziging van de bestelling
+IDS_MODIFICATION	Wijziging
+IDS_MODIFICATION_DELAI_COMMANDE	Wijzig levertermijn bestelling
+IDS_MODIFICATION_ENTETE_COMMANDE	Wijzig de hoofding van de bestelling
+IDS_MODIFICATION_LIVRAISONS	Leveringswijziging
+IDS_MODIFIERVITRAGE	De beglazing wijzigen
+IDS_MODIFIER_TRAVERSE	Een stijl wijzigen
+IDS_MODIF_ETAT_CDE	Staat van best. wij.
+IDS_MODULEWINPRO	WinPro Modules
+IDS_MOIS	Maand
+IDS_MONTANT	Bedrag
+IDS_MONTANT_HTVA	Excl. BTW
+IDS_MONTANT_MAIN_OEUVRE	Arbeidskosten
+IDS_MOTIF	Reden
+IDS_MOT_DE_PASSE	Wachtwoord
+IDS_MOT_DE_PASSE_FOURNISSEUR	Wachtwoord leverancier
+IDS_MOT_ENTIER	Het hele woord
+IDS_MOYENNE	Gemiddelde
+IDS_MSG_CLIENT	&Bericht
+IDS_NATURE_COMMANDE	Bestellingstype
+IDS_NBRE_CHASSIS	Aant. ramen
+IDS_NBRE_TRAV	Aantal stijlen
+IDS_NBRE_VOLETS	Aant. rolluiken
+IDS_NBR_COMMANDES	Aant.bestellingen
+IDS_NBR_PORTES	Aant. deuren
+IDS_NEAU_DEVIS	Nw offerte
+IDS_NEAU_PREF	Nw Pref
+IDS_NEAU_SAV	Nw Naserv.
+IDS_NET_COMM	Verkoop netto
+IDS_NET_MAT	Prod. netto
+IDS_NET_POSE	Plaats. netto
+IDS_NET_TOT	Totale netto
+IDS_NEW	Aanmaken
+IDS_NEXT_OPTIM	Volgende optimalisatie
+IDS_NE_PAS_ENREGISTRER	Niet opslaan
+IDS_NIVEAU	Niveau
+IDS_NIVEAU_OPTIMISATION	Niveau van optimalisatie
+IDS_NIVEAU_PRIX	Prijs niveau
+IDS_NJOURSDATEFACTURE	%d dagen factuurdatum
+IDS_NJOURSFINDEMOIS	%d dagen maandeinde
+IDS_NLLE_CDE	Nw bestell
+IDS_NLLE_CDE_ACC	Nw toeb best
+IDS_NOAPP	No application object
+IDS_NOCDE	Bestel nr
+IDS_NOCLIENT	Klant nr
+IDS_NOEXPRESSION	(Expressie) Tafelrelatievergissing
+IDS_NOM	Naam
+IDS_NOMBREARGUMENTSINCORRECT	Verkeerd aantal parameters
+IDS_NOMBRE_ASSOCIES	Aantal bestuurders
+IDS_NOMBRE_CHIFFRES	Aantal cijfers
+IDS_NOMBRE_COLONNES	Aantal kolommen
+IDS_NOMBRE_MAXIMUM_CHASSIS_LOT	Maximaal aantal ramen per lot
+IDS_NOMBRE_MAXIMUM_PROFILS_PAR_CASIER	Maximum aantal per kast
+IDS_NOMBRE_MAXIMUM_VANTAUX_PAR_LOT	Maximaal aantal kaders per lot
+IDS_NOMBRE_MAXI_DORMANTS	Max. aantal kaders
+IDS_NOMBRE_MAXI_OUVRANTS	Max. aantal vleugels
+IDS_NOMBRE_POSTES	Aantal ramen
+IDS_NOMBRE_SALARIES	Aantal werknemers
+IDS_NOMBRE_TOTAL_VOLUMES	Totaal aantal beglazingen
+IDS_NOMBRE_TRAVERSES_SELECTIONNEES	Aantal geselecteerde stijlen
+IDS_NOMBRE_VANTAUX	Aantal vleugels
+IDS_NOMBRE_VITRAGES_PAR_PALETTE	Aantal beglazingen/palette
+IDS_NOMBRE_VOLUMES	Aantal volumes
+IDS_NOMTVA	Naam en BTW nr
+IDS_NOM_CLIENT	Naam van de klant
+IDS_NOM_CONTACT	Contact
+IDS_NOM_FICHIER	Naam van bestand
+IDS_NOM_VARIABLE	Naam van de variabele
+IDS_NON	Neen
+IDS_NONCOMPRIS	Niet inbegrepen
+IDS_NONFOURNI	NIET GELEVERD
+IDS_NONOPTIMISE	Niet geoptimaliseerd
+IDS_NONRECTANGULAIRES	Niet rechthoekig
+IDS_NONZERO	<> 0
+IDS_NON_LISTE	Niet gelijst
+IDS_NON_MODIFIABLE	Onveranderbaar
+IDS_NON_POUR_TOUS	Nee voor alles
+IDS_NON_RETOURNABLE	Niet omkeerbaar
+IDS_NON_VALORISE	Zonder prijs
+IDS_NON_VALORISEE	Zonder prijs
+IDS_NOPATH	Ontbrekende bestandnaam :
+IDS_NORECORD_SELECT	Geen record geselecteerd
+IDS_NORMES_VITRAGE	Beglazingsnorm
+IDS_NORMEVENT	Windlastnorm
+IDS_NORMEVERRE	Glasnorm
+IDS_NOSREFERENCES	Onze referenties
+IDS_NOS_DEFAUTS	Eigen - punten
+IDS_NOS_QUALITES	Eigen + punten
+IDS_NOTABLE	(Tafel) Tafelrelatievergissing
+IDS_NOTAG	(Tag) Tafelrelatievergissing
+IDS_NOTECREDIT	Kredietnota
+IDS_NOTEENVOI	Verzendingsnota
+IDS_NOTES	Nota's
+IDS_NOTES_ENVOI_RECAP	Samenvattende verzendnota's
+IDS_NOTE_VITRIER	Nota voor de glazenmaker
+IDS_NOUVEAUCHASSIS	Nieuw raam
+IDS_NOUVEAUMOTPASSEINCORRECT	Het nieuwe wachtwoord is ongeldig
+IDS_NOUVEAUNUMERO	Het nummer wijzigen
+IDS_NOUVEAUNUMEROFACTURE	Nieuw factuurnummer
+IDS_NOUVEAUNUMERONE	Nummer van verzendnota
+IDS_NOUVEAUSTOCK	Nieuwe stock
+IDS_NOUVEAU_CHANTIER	Beschrijving van een lot referentie
+IDS_NOUVEAU_CLIENT	Nieuwe klant
+IDS_NOUVEAU_CODE	Nieuwe code
+IDS_NOUVEAU_MOT_DE_PASSE	Nieuw wachtwoord
+IDS_NOUVEAU_VOLET	Nieuw rolluik
+IDS_NOUVELLE_COULEUR	Nieuwe kleur
+IDS_NOUVELLE_DATE_FABRICATION	Nieuwe datum van fabricatie
+IDS_NOUVELLE_DATE_LIVRAISON	De nieuwe voorgestelde leveringsdatum is
+IDS_NOUVELLE_VERSION	Nieuwe versie
+IDS_NOUVEL_ETAT	Nieuwe staat
+IDS_NOVEMBRE	november
+IDS_NOVEMBRE_ABR	nov
+IDS_NO_CONFIRMATION	Bevest. nummer
+IDS_NO_DATE	U moet een datum ingeven!
+IDS_NO_LABEL	Geen etiket
+IDS_NO_SELECT_FILE	U hebt geen bestand gekozen !
+IDS_NO_STOCK_CHUTES	N° afvalstock
+IDS_NO_SUBJECT_MAIL	Geen mail hierover ontvangen
+IDS_NR	N.R.
+IDS_NRECT	N.Recht
+IDS_NUM	Nr
+IDS_NUMBER_OUT_OF_RANGE	De waarde moet tussen %s and %s zijn!
+IDS_NUMBON	Correctie nr
+IDS_NUMDOC	Documentnummer
+IDS_NUMERIQUE	Numeriek
+IDS_NUMERO	Nummer
+IDS_NUMEROAUTOMATIQUE	Wilt u een automatisch nummer toevoegen ?
+IDS_NUMEROEXISTEDEJA	Dit nummer bestaat al
+IDS_NUMEROFACTUREEFFECTIF	Werkelijk factuurnummer:
+IDS_NUMEROS_VERSION	Een versienummer beheren
+IDS_NUMEROTATION	Nummering
+IDS_NUMEROTATION_LIGNES	Nummering van regels
+IDS_NUMEROTATION_LOTS	Nummering van de lots
+IDS_NUMEROTATION_MANUELLE	Vrije invoer ID
+IDS_NUMEROTER	Nummeren
+IDS_NUMEROTEXTE	Tekstnummer
+IDS_NUMERO_1°_PAGE	Nummer van de 1° bladzijde
+IDS_NUMERO_AUTO	Automatisch nieuw nummer
+IDS_NUMERO_CASIER	Vak nummer
+IDS_NUMERO_CLIENT	Klantnummer
+IDS_NUMERO_COMMANDE	Bestelnummer
+IDS_NUMERO_CONFIRMATION	Nummer van bevestiging
+IDS_NUMERO_LICENCE	Licentienummer
+IDS_NUMERO_LOT	Lotnummer
+IDS_NUMERO_MACHINE	Machine Nr
+IDS_NUMERO_MANUEL	Een nieuw nummer kiezen
+IDS_NUMERO_NE	Verzendnotanummer
+IDS_NUMERO_NE_EFFECTIF	Werkelijk nummer van verzendnota
+IDS_NUMERO_OUTIL_FACE_BG	Werktuig Nr (Be/L zijden)
+IDS_NUMERO_OUTIL_FACE_HD	Werktuig Nr (Bo/R zijden)
+IDS_NUMERO_SCIE	Zaagnummer
+IDS_NUMERO_TABLIER	Rolluik #1#
+IDS_NUMERO_TARIFS_REMIS	Aantal geleverde prijslijsten
+IDS_NUMERO_TVA	BTW nr.
+IDS_NUMSLOT	Sub-job ID 
+IDS_NUM_CHASSIS	Nummer van raam
+IDS_NUM_NOTE_ENVOI	Verzendnota nr
+IDS_NUM_SIRET	Siret #
+IDS_NV_CHASSIS	Nieuw raam [F12]
+IDS_N_OCCURRENCES	%d gevallen
+IDS_Nr_COMMANDE	Bestelnr
+IDS_N°_DOCUMENT	Documentnr
+IDS_OBJCA0P	Voorzichtige objectief omzet jaar 0
+IDS_OBJCA0V	Objectief omzet jaar 0 (agressief)
+IDS_OBJCA1P	Voorzichtige objectief jaar +1
+IDS_OBJCA1V	Agressieve objectief jaar +1
+IDS_OCCUPATION	% vulling
+IDS_OCTOBRE	oktober
+IDS_OCTOBRE_ABR	oct
+IDS_OFFRES_ET_CONFIRMATIONS	Offerte en bevestiging
+IDS_OK	OK
+IDS_OKTORESUME	OK om verder te gaan ?
+IDS_ONGLET	Verstek
+IDS_ONGLET+DROIT	Verstek+recht
+IDS_ON_DEVICE	%s aan %s
+IDS_OPERATEUR	Bewerker
+IDS_OPTIM	Optimalisatie
+IDS_OPTIMENCOURS	#1# is nu bezig met een andere optimalisatie. U moet wachten totdat deze gedaan is. Kies 'Herbeginnen' om onmiddelijk opnieuw te proberen, of 'Annuleren' om nu te stoppen en later te herbeginnen.
+IDS_OPTIMISATION	Optimalisatie
+IDS_OPTIMISATIONTRAVERSE	Optimalisatie van stijlen
+IDS_OPTIMISATION_DES_ACCESSOIRES	Optimalisatie van toebehoren
+IDS_OPTIMISATION_DIFFEREE	Uitgestelde optimalisatie
+IDS_OPTIMISATION_INCOMPLETE	De optimalisatie van dit raam is niet afgemaakt
+IDS_OPTIMISER	Optimaliseren
+IDS_OPTIMISER_PROFILS_PERIPHERIQUES_SEPAREMENT	De bijprofielen apart optimaliseren
+IDS_OPTIMISER_TRAVERSES_PLUS_TARD	De stijlen later optimaliseren
+IDS_OPTIMISER_TRAVERSES_SEPAREMENT	De stijlen apart optimaliseren
+IDS_OPTION	Optie
+IDS_OPTIONS	Opties
+IDS_OPTIONS_CALCUL	Berekenings opties
+IDS_OPTIONS_INVENTAIRE	Inventaris opties
+IDS_ORDERS_FOR_IMPORT	Bestelling in afwachting van import
+IDS_ORDRE_DESSIN_OUVRANT	Volgorde om de vleugels te tekenen
+IDS_ORDRE_DESSIN_VANTAUX	Tekeningsorde van de vleugels
+IDS_ORIENTATION	Richting
+IDS_ORIENTATION_PAGE	Afdruk
+IDS_OU	of
+IDS_OUI	Ja
+IDS_OUI_POUR_TOUS	Ja voor alles
+IDS_OUTILLAGE	Werktuigen
+IDS_OUTOFMEMORY	Niet genoeg geheugen
+IDS_OUVERTURE_DROITE	Opening naar rechts
+IDS_OUVERTURE_DROITE_VUE_EXTERIEURE	Opening rechts, van buitenuit gezien
+IDS_OUVERTURE_DROITE_VUE_INTERIEURE	Opening rechts, van binnenuit gezien
+IDS_OUVERTURE_GAUCHE	Opening naar links
+IDS_OUVERTURE_GAUCHE_VUE_EXTERIEURE	linker opening,van buitenuit gezien
+IDS_OUVERTURE_GAUCHE_VUE_INTERIEURE	linker opening,van binnenuit gezien
+IDS_OUVRANT	Vleugel
+IDS_OUVRANTNORMAL	Gewone vleugel
+IDS_OUVRANTS	Vleugels
+IDS_OUVRANT_HORS_TARIF	Vleugel buiten tarief
+IDS_OUVRANT_PORTEFIXE	Vast
+IDS_OUVRIR	Openen
+IDS_OU_%	of %
+IDS_OU_>	of >
+IDS_OU_PAR	of per
+IDS_OVALE	Ovaal
+IDS_OWLEXCEPTION	Uitzondering ObjectWindows
+IDS_O_N	J/N
+IDS_PA	A.P.
+IDS_PACKAGE	Beheer van verpakkingen
+IDS_PADEVISE	Inkooppr. dev.
+IDS_PAGE	Blz
+IDS_PAGE_1	Blad 1
+IDS_PAGE_ARTICLES	Bladzijde artikels
+IDS_PAGE_PROFILS	Bladzijde profielen
+IDS_PAIEMENT	Betaling
+IDS_PALETTE	Vervoerpallet
+IDS_PALETTES	Paletten
+IDS_PALETTES_DEPOSEES	Geleverd palletten
+IDS_PALETTES_DISPONIBLES	Beschikbare palletten
+IDS_PALETTES_NON_DISPONIBLES	Niet beschikbare palletten
+IDS_PALETTES_RENTREES	Teruggekregen palletten
+IDS_PALETTE_CHARGEE	Geladen
+IDS_PALETTE_DISPONIBLE	Beschikbaar
+IDS_PALETTE_LIVREE	Geleverd
+IDS_PALETTE_VERRE	Glaspakket
+IDS_PANET	Netto I.P.
+IDS_PANNEAU	Paneel
+IDS_PANNEAUADECOUPER	Te zagen paneel
+IDS_PANNEAUDECORATIF	Sierpaneel
+IDS_PANNEAUFABRIQUE_HORS_TARIF	Paneel zonder prijs
+IDS_PANNEAUTROPGRAND	Te groot paneel
+IDS_PANNEAUX	Panelen
+IDS_PANNEAUX_A_DECOUPER	Te zagen panelen
+IDS_PANNEAUX_DECORATIFS	Sierpanelen
+IDS_PANNEAUX_FABRIQUES	Samengestelde panelen
+IDS_PANNEAUX_SUR_TOUTE_SURFACE	Panelen over de hele oppervlakte
+IDS_PANNEAU_1	Paneel 1
+IDS_PANNEAU_2	Paneel 2
+IDS_PANNEAU_3	Paneel 3
+IDS_PANNEAU_4	Paneel 4
+IDS_PANNEAU_5	Paneel 5
+IDS_PANNEAU_FABRIQUE	Samengesteld paneel
+IDS_PANNEAU_HORS_COTE	Dit paneel #1# valt buiten de afmetingen !!!
+IDS_PAR	per
+IDS_PARAMETRAGE	Eigenschappen
+IDS_PARAMETRAGE_FORMULES	Parametrage dmv formules
+IDS_PARAMETRE	Parameter
+IDS_PARAMETRES	Parameters
+IDS_PARAMETRES_DOCUMENTS	Parameteren van de documenten
+IDS_PARAMETRES_OPTIMISATION	Parameters voor de optimalisatie
+IDS_PARAM_LIVRAISON	Leveringsparam.
+IDS_PARAM_PANNEAUX	Paneelparam.
+IDS_PARAM_VITRAGES	Beglazingsparam.
+IDS_PARCLOSE	Glaslat
+IDS_PARCLOSES	Glaslatten
+IDS_PARCLOSE_EXTERIEUR	Glaslatten buitenzijde
+IDS_PARPERIMETRE	Per omtrek
+IDS_PARPIECE	Per stuk
+IDS_PARSURFACE	Per oppervlakte
+IDS_PARTICULIER	Particulier
+IDS_PARTIEVIDEEXTERIEURE_DORMANT	Leeg deel buiten ( kaderprofiel bovenaan)
+IDS_PARTIEVIDEEXTERIEURE_TRAVERSE	Leeg deel buiten ( Stijlprofiel bovenaan )
+IDS_PARTIEVIDESANSBATTEE_DORMANT	Leeg deel zonder aanslag ( kaderprofiel bovenaan )
+IDS_PARTIEVIDESANSBATTEE_TRAVERSE	Leeg deel zonder aanslag ( Stijlprofiel bovenaan)
+IDS_PARTIEVIDE_DORMANT	Leeg deel (bovenste profiel= kaderprofiel)
+IDS_PARTIEVIDE_TRAVERSE	Leeg deel (bovenste profiel = stijlprofiel)
+IDS_PAR_DEFAUT	Standaard
+IDS_PAR_UNITE+FORFAIT	p. eenheid + vast bedrag
+IDS_PASDEBASEDEREFERENCE	Geen basis van referentie
+IDS_PASDEFICHIERINI	Het WinPro.ini bestek is ongeldig of onvindbaar
+IDS_PASDEMARGE	U Hebt de toe te passen winstmarge niet bepaald. Moet de afdruk toch doorgaan ?
+IDS_PASDEMARGE2	U hebt geen winstmarge bepaald. De document zal niet afgedrukt worden
+IDS_PASDENUMERO	U hebt geen nummer aangegeven
+IDS_PASDESELECTION	U hebt niets gekozen
+IDS_PASDETRAVERSEDANSFIXE	U mag geen stijl in een vast enkelkader plaatsen. Laat U liever deze als kadersstijl inzetten.
+IDS_PASPARCLOSEPOUREPAISSEUR	Deze glaslat mag met deze beglazingsdikte (#1# mm) niet gebruikt worden
+IDS_PASTE	Plakken
+IDS_PAS_ASSEMBLAGE	Geen verbinding
+IDS_PAS_A_COTE_TRAVERSE	Niet bij een tussenstijl
+IDS_PAS_CODE_COULEUR	Geen kleur code
+IDS_PAS_CODE_FOURNISSEUR	Geen leverancier code
+IDS_PAS_CRX_INCORP_PANNEAU	U kan geen kruishouten/roeden in een paneel plaatsen!
+IDS_PAS_CRX_INCORP_VITRAGE	U kan in deze beglazing geen kruishouten/roeden  invoegen!
+IDS_PAS_DE_CHASSIS	Er bestaat geen raam in dit lot
+IDS_PAS_DE_CODE_CLIENT	De klant code bestaat niet !
+IDS_PAS_DE_COMMANDE_EN_COURS	Geen bestellingen weer te geven
+IDS_PAS_DE_CROISILLONS_INCORPORES	Geen ingewerkte kruishouten/roeden
+IDS_PAS_DE_DESTINATION_MAIL	Voor de maatschappij '#1#' is er geen vastgestelde bestemmeling !!!
+IDS_PAS_DE_DIFFERENCE_STOCK	Er is geen verschil in de voorraad en het detail per voorraadvak
+IDS_PAS_DE_DIM_VITRAGE_SUR_CONFIRMATION	Geen glasafmetingen op de bevestiging
+IDS_PAS_DE_GRILLE	Geen tabel
+IDS_PAS_DE_PRIX	Geen prijs gedefinieerd voor het glas
+IDS_PAS_DE_QUANTITE	U bent de hoeveelheid vergeten op te geven
+IDS_PAS_DE_R4	Geen D4
+IDS_PAS_DE_REMPLACEMENT	Geen te vervangen element wordt gevonden
+IDS_PAS_DE_RESERVATION	Voor het ogenblik geen reservatie
+IDS_PAS_DE_SOUS_LOTS	Zaag in één enkele keer
+IDS_PAS_DE_TOTAL	Geen totaal
+IDS_PAS_DE_VITRAGE!	Geen beglazing
+IDS_PAS_D_ACCORD	Niet akkoord
+IDS_PAS_D_ARTICLE_A_COMMANDER	Er is geen artikel te bestellen
+IDS_PAS_ECLATER_QUANTITES	De hoeveelheden niet wissen
+IDS_PAS_FOURNIR_VITRAGE	Glazen niet leveren
+IDS_PAS_GENERER_COMMANDE_DEPUIS_CLIENT	Geen leverancierbestelling genereren vanuit de klantbestelling
+IDS_PAS_IMPRIMANTE_INSTALLEE	WinPro heeft een standaard printer nodig
+IDS_PAS_IMPRIMER_DIM_VITRAGE	De glasafmetingen op de bevestiging niet afdrukken
+IDS_PAS_IMPRIMER_ETIQUETTE	Geen etiketten afdrukken
+IDS_PAS_METTRE_A_JOUR_STOCK	De stock niet bijhouden
+IDS_PAS_PRIX_UNITAIRE	Geen eenheidsprijs
+IDS_PAS_UTILISER_A_COTE_TRAVERSE	Naast een stijl niet te gebruiken
+IDS_PAS_UTILISER_STOCK_CHUTES	De afvalstock niet gebruiken
+IDS_PAYS	Land
+IDS_PAYSAGE	Liggend
+IDS_PA_COMMERCIAL	Aankoopprijs commercieel
+IDS_PBH	Krh.H
+IDS_PBV	Krh.V.
+IDS_PC_CA	% verkoop
+IDS_PC_CHUTE	% afval
+IDS_PC_REM	% K
+IDS_PDFMAIL	PDF-mail
+IDS_PDFMAILINI	U hebt niet het juiste pad aangegeven in het bestand PDFMAIL.INI
+IDS_PERIMETRE	Omtrek
+IDS_PERIMETRES	Omtrekken
+IDS_PERIMETRE_M	Totale omtrek
+IDS_PERIODE_COMPTABLE_NON_AUTORISEE	Voor het ogenblik mag U in deze periode niet factureren
+IDS_PERIODE_LIVRAISON	Leveringsperiode
+IDS_PERIODICITE	Periodiciteit
+IDS_PERTE:BOUT_BARRE	Verlies : profieleinde
+IDS_PERTE_BOUT_CHUTE	Minimum verlies van afval
+IDS_PERTE_TRAIT_SCIE_ANGLE	-- Afval i.f.v de zaagkeuze (afhankelijk van de hoeken) --
+IDS_PETITEHAUTEUR	Kleinere hoogte
+IDS_PETITEHAUTEURBAS	Kleinere hoogte (binnenprofiel)
+IDS_PIECES	Stukken
+IDS_PIECES_LIVRABLES_DATES	De volgende stukken zijn op onderstaand datum leverbaar
+IDS_PISTE_1	Spoor 1
+IDS_PISTE_2	Spoor 2
+IDS_PLANCOMPLET	Gedetailleerd werkplaatsplan
+IDS_PLANIFICATION	Planning
+IDS_PLANMESURAGE	Opmetingsplan
+IDS_PLANNINGFABRICATION	Fabricatie planning
+IDS_PLANNINGLIVRAISON	Leveringsplanning
+IDS_PLANNINGSORTIE	Planning van de afgewerkte bestellingen
+IDS_PLANNING_ENLEVEMENT	Lijst van afhalingen
+IDS_PLANNING_LIVRAISON	Lijst van leveringen
+IDS_PLANNING_POSE	Lijst van plaatsingen
+IDS_PLANSIMPLIFIE	Vereenvoudigd werkplaatsplan
+IDS_PLANS_ATELIER	Werkplannen
+IDS_PLAN_ATELIER_DETAILLE	Uitvoerig fabricatieplan
+IDS_PLEINCINTRE	Rondboog
+IDS_PLEINCINTREDROITE	Rechtse halve rondboog
+IDS_PLEINCINTREGAUCHE	Linkse halve rondboog
+IDS_PLIS	Plooien
+IDS_PNET	Netto P.
+IDS_POIDS_UNITAIRE	Gewicht per eenheid
+IDS_POIDS_m²	Gewicht per m²
+IDS_POINTAGE_ATELIER	Werkplaatscontrole
+IDS_POINTS_TYPO	punten (1/72")
+IDS_POLICE	Letterteken
+IDS_PORT	Vracht
+IDS_PORTABLE	Mobiel
+IDS_PORTE	Deur
+IDS_PORTES	Deuren
+IDS_PORTRAIT	Staand
+IDS_PORT_HTVA	Geen BTW op transport
+IDS_POS	Pos
+IDS_POSCOULISSEMANQUANT	Er is geen geleiderspositie
+IDS_POSE	Plaatsing
+IDS_POSE/ENLEVEMENT/LIVRAISON	Plaatsing / afhaling / levering
+IDS_POSITION	Positie
+IDS_POSITIONAERATEURINCORRECTE	Verkeerde positie van veentilatierooster
+IDS_POSITIONINCORRECTE	De stijlpositie is verkeerd
+IDS_POSITION_PAR_DEFAUT	Standaard positie
+IDS_POSTE	Post
+IDS_POSTEFRAIS	Post
+IDS_POSTES_TRAVAIL	Arbeidsposten
+IDS_POSTE_ATELIER	Werkplaatspost
+IDS_POSTE_VIRTUEL	Virtuele werkpost
+IDS_POSTRAV	Stijl positie
+IDS_POURCENTAGE	%
+IDS_POUR_ATELIER	Voor de fabricatie
+IDS_POUR_CLIENT	Voor de klant
+IDS_POUR_PAIEMENT_DANS	% indien betaling binnen
+IDS_POUR_UTILISATEUR	Voor de gebruiker
+IDS_PRCACOMPTE	% Voorschot
+IDS_PRCOURANT	Lopende K.P.
+IDS_PRCSUPP	% Suppl
+IDS_PRECISION_COUPE	Sneenauwkeurigheid
+IDS_PREDECOUPE	Andere lengtes
+IDS_PREFERENCES	Parameters dokument
+IDS_PREFIX	Prefix
+IDS_PREFIXE	Prefix
+IDS_PREFIXE_NUMEROTATION_AUTO	Prefix voor automatische nummering
+IDS_PREFIXE_SUPPLEMENTAIRE	Extra prefix
+IDS_PRENDRE	Neem
+IDS_PRENOM	Voornaam
+IDS_PREPARATIONPIECES	Voorbereiding van de stukkenlijst
+IDS_PREPARATION_LIVRAISON	Leveringsvoorbereiding
+IDS_PREPARATION_LOT	Lotsvoorbereiding
+IDS_PREPARATION_OPTIMISATION	Optimalisatie voorbereiden
+IDS_PREPASTOCK	Voorbereiding van de stock
+IDS_PRESSE_PAPIER	Klembord
+IDS_PREST	Prest.
+IDS_PRESTATIONS_ASSOCIEES	Gebruik de niet-commercieêle berekeningsmode
+IDS_PREVENIR	Eerst contacteren
+IDS_PREVIENT	Kostprijs
+IDS_PREVISION	Vooruitzicht
+IDS_PREVU	Gepland
+IDS_PRINT	Afdrukken
+IDS_PRINTERERROR	Printer Error
+IDS_PRINTTOFILE	Afdruk naar bestand ?
+IDS_PRINT_ON	'%s' aan
+IDS_PRIORITE	Voorrang
+IDS_PRIORITE_SUR_VALEURS_SCIE	Deze waarden,indien gedefinieerd, vervangen deze bij de zaagdefinitie
+IDS_PRISE_MESURE	Opmeten
+IDS_PRISE_MESURES	Opmeten
+IDS_PRIX	Prijs
+IDS_PRIXACHAT	Aankoopprijs
+IDS_PRIXBRUT	Brutopr.
+IDS_PRIXDEV	Prijs devies
+IDS_PRIXREVIENT	Kostprijs
+IDS_PRIXTARIF	Tariefprijs
+IDS_PRIXUNITE	Eenheidsprijs
+IDS_PRIX_1KG_ALU	Prijs per kg
+IDS_PRIX_ACHAT_NET_DEVISE	Netto inkoopprijs in #1#
+IDS_PRIX_AU_M2	Prijs per m²
+IDS_PRIX_BASE	Basis prij
+IDS_PRIX_BRUT+REMISE_%	Bruto prijs + % korting
+IDS_PRIX_CESSION	Prijsafspraak
+IDS_PRIX_COURANT	Lopende prijs
+IDS_PRIX_DANS_GRILLE_M³	Prijs / m² in tabel
+IDS_PRIX_DES_CHASSIS	Prijs van de ramen
+IDS_PRIX_ET_REMISES	Prijzen en kortingen
+IDS_PRIX_FORCES	Vaste prijzen
+IDS_PRIX_FORFAITAIRE_ALVEOLE	Vaste prijs per cel
+IDS_PRIX_FOURN_KG	Aluminium profielen geprijsd per kg (prijs gedefinieerd bij de leveranciersgegevens)
+IDS_PRIX_HORS_VITRAGE	Prijzen zonder beglaz.
+IDS_PRIX_IMPOSE	Vaste prijs
+IDS_PRIX_MIN	Min prijs
+IDS_PRIX_MINIMUM	Minimum prijs
+IDS_PRIX_MINIMUM_TARIF	Minimumprijs: tarief
+IDS_PRIX_MOYEN_PONDERE	Bezadigde middelprijs
+IDS_PRIX_NET	Netto prijs
+IDS_PRIX_PROPORTIONNEL_LARGEUR_UTILE	Evenredige prijs met de gebruikte breedte
+IDS_PRIX_REVIENT	Kostprijs
+IDS_PRIX_REVIENT_ALVEOLE	Kostprijs per cel
+IDS_PRIX_REVIENT_COURANT	Lopende kostprijs
+IDS_PRIX_REVIENT_TARIF	Tarief kostprijs
+IDS_PRIX_TARIF	Kost
+IDS_PRIX_VENTE	Verkoopsprijs
+IDS_PRIX_VENTE_CONVENUS	Afgesproken verkoopsprijzen
+IDS_PRIX_VENTE_NEGOCE	Verkoopsprijs voor de klanten
+IDS_PRIX_VITRAGES_SEPAREMENT	Beglazingen prijs
+IDS_PRIX_VITRAGE_SEUL	Prijs v. enkel beglaz.
+IDS_PRIX_VOLETS_SEPAREMENT	Prijs van rolluiken
+IDS_PRIX_m²_TARIF	Prijs/m²: tarief
+IDS_PRNCANCEL	Verlaten afdruk
+IDS_PRNERRORCAPTION	Afdruk fout
+IDS_PRNERRORTEMPLATE	'%s' niet afgedrukt. %s.
+IDS_PRNGENERROR	Fout gedurende afdruk
+IDS_PRNMGRABORT	Mislukte afdruk in Print Manager
+IDS_PRNON	 aan 
+IDS_PRNOUTOFDISK	Af van harde schijf
+IDS_PRNOUTOFMEMORY	Af van geheugen
+IDS_PROBLEME_ACCES_TARIF	Mislukte toegang tot geselecteerd tarief
+IDS_PROBLEME_CALCUL_DIMENSION	Verkeerde maatberekening
+IDS_PROBLEME_DBDEVIS	Probleem gedurende het aanmaken van data basis/offerte. Het programma zal stoppen.
+IDS_PROCEDUREINCONNUE	Onbekende naam van procedure
+IDS_PRODUITS_VENDUS	Soort produkt
+IDS_PROF	Beroepsklant
+IDS_PROFESSIONNEL	Beroepsklant
+IDS_PROFIL	Profiel
+IDS_PROFILINACCESSIBLE	Deze profiel code is onberijkbaar
+IDS_PROFILINEXISTANT	Het %s profiel bestaat niet
+IDS_PROFILPRINCIPAL	Hoofdprofiel
+IDS_PROFILS	Profielen
+IDS_PROFILS_COMPLEMENTAIRES	Bijprofiel
+IDS_PROFILS_PERIPHERIQUES	Bijprofielen
+IDS_PROFIL_COMPOSE	Samengesteld profiel
+IDS_PROFIL_EXTERIEUR_1	Buiten profiel 1
+IDS_PROFIL_EXTERIEUR_2	Buiten profiel 2
+IDS_PROFIL_INTERIEUR_1	Binnen profiel 1
+IDS_PROFIL_INTERIEUR_2	Binnen profiel 2
+IDS_PROFIL_PERIPHERIQUE_HORS_TARIF	Perifeer profiel buiten tarief
+IDS_PROFONDEUR_FRAISAGE	Diepte van frezen
+IDS_PROF_EXT	Buit. prof..
+IDS_PROF_INT	Bin.prof.
+IDS_PROLONGER_CRX_CRX_VERTIC	Verlengen van vertikale kruishouten in het bovenlicht
+IDS_PROLONGER_TOUT_CRX_VERTIC	Verlengen van vertikale stijlen, makelaars en kruishouten in het bovenlicht
+IDS_PROLONGER_TRAV_CRX_VERTIC	Verlengen van de vertikale stijlen en makelaars in het bovenlicht
+IDS_PROPORTIONVITRAGEDEPASSEE	Te grote breedte/hoogte beglazingsproportie
+IDS_PROPORTION_LH_MAX	Max B/H proportie
+IDS_PROPOSITIONCOMMANDE	Bestelvoorstel
+IDS_PROPOSITIONCOMMANDEFOURNISSEUR	Voorstel van bestelling bestemd voor leverancier
+IDS_PROPOSITIONENREGISTREE	Het voorstel werd in bestelnr ingescheven
+IDS_PROPRETE	Netheid
+IDS_PROSPECT	Prospect
+IDS_PROSPECTS	Prospecten
+IDS_PRTARIF	Tarief kostp.
+IDS_PR_CHANTIER	Installatie kost
+IDS_PR_COURANT_VITRAGE	Huidige kostprijs van glasleverancier #1#
+IDS_PR_POSE	Plaats. kost
+IDS_PR_PROD	Prod. kost
+IDS_PR_PRODUCTION	Productie kost
+IDS_PR_TARIF_VITRAGE	Tariefkostprijs van glasleverancier #1#
+IDS_PR_TOT	Totale kost
+IDS_PVBRUT	Bruto V.P
+IDS_PVENTE	Verkoopsp.
+IDS_PVNET	Netto V.P
+IDS_QTE	Hvld
+IDS_QTE/CASIER	Hvld per vak
+IDS_QTECDEE	Bstld hvld
+IDS_QTERECUE	Gekr hvld
+IDS_QTE_AFABRIQUER	Hvhd te vervaardigen
+IDS_QTE_ALIVRER	Hvld te leveren
+IDS_QTE_A_FACTURER	Hvld te factureren
+IDS_QTE_CASIER	Hoev. in voorraadvak
+IDS_QTE_FABRIQUEE	Vervaardigde hvld
+IDS_QTE_FACTUREE	Gefactureerde hvld
+IDS_QTE_LAQUE	Hvhd lak
+IDS_QTE_LIVREE	Geleverde hvld
+IDS_QTE_MIN	Min.hoev.
+IDS_QTE_STOCK	Hoev. in voorraad
+IDS_QUAI_CHARGEMENT	Laadkade
+IDS_QUALITE	Kwaliteit
+IDS_QUALITE_ET_QUANTITE	Kwaliteit en hoeveelheid
+IDS_QUANTITE	Hoeveelheid
+IDS_QUANTITETROPIMPORTANTE	Opgelet ! De gevraagde hoeveelheid blijkt te groot te zijn !
+IDS_QUANTITE_PAR_DEFAUT	Standaard hoeveelheid
+IDS_QUANTITE_TOTALE:	Totale hoeveelheid:
+IDS_QUELS_FOURNISSEURS	Welke leveranciers?
+IDS_QUERYETAT	Onderzoek naar nog niet afgemaakte ramen
+IDS_QUESTION	Vraag
+IDS_QUESTIONS	Vragen
+IDS_QUESTIONSDORMANT	Vragen kader
+IDS_QUE_REMPLACER	Wat wilt U vervangen ?
+IDS_QUINC	Beslag
+IDS_QUINCAILLERIE	Beslag
+IDS_QUINCAILLERIES	Beslagen
+IDS_QUINCAILLERIE_HORS_TARIF	Beslag buiten tarief
+IDS_QUITTER	Afsluiten
+IDS_R4	D4
+IDS_R4_CUMULATIVE	Cumulatieve D4
+IDS_R4_SUBSTITUTIVE	Substitutive D4
+IDS_RAL	RAL
+IDS_RAL1COUL	<RAL 1 KLEUR>
+IDS_RAL2COUL	<RAL 2 KLEUREN>
+IDS_RAL_1_COULEUR	RAL 1 kleur
+IDS_RAL_2_COULEURS	RAL 2 kleuren
+IDS_RAL_EXT	Buit. RAL kl.
+IDS_RAL_INT	Bin. RAL kl.
+IDS_RAL_STANDARD_1_COULEUR	1 kleurig standaard RAL
+IDS_RAL_STANDARD_2_COULEURS	2 kleurig standaard RAL
+IDS_RAPPELFOURNISSEUR	Leveranciers herinnering
+IDS_RAPPEL_PALETTES	Herinnering van geleverde palletten
+IDS_RAPPORT_MAXIMUM_LARGEUR/HAUTEUR	Maximum ratio breedte/hoogte
+IDS_RAREMENT	Zelden
+IDS_RAZRESCLI	Annulering van reservaties
+IDS_RAZ_STOCK	Stock tot niets terugbrengen
+IDS_RAZ_TOTALE_STOCK	De totale stock zal tot niets teruggebracht worden!!!.  Wilt U bevestigen ?
+IDS_RAZ_TOUT_STOCK	De hele stock tot niets terugbrengen
+IDS_REACTIVATION_CONFIRMATION	Reactivering der in afwachting bevestigingen 
+IDS_RECALCULER	Opnieuw berekenen
+IDS_RECALCULER_DEVIS	Wilt U de prijzen opnieuw berekenen ?
+IDS_RECALC_SELECTION	Selectie opnieuw berekenen
+IDS_RECAPITULATIF	Samenvatting
+IDS_RECAPITULATIFS	Samenvatting
+IDS_RECAP_CHASSIS	 Samenvattende lijst ramen
+IDS_RECAP_PAR_SECTION	Samenvatting per sektie - bestelling
+IDS_RECEPTIONCOMMANDEFOURNISSEUR	Ontvangst van een leverancierbestelling
+IDS_RECEPTIONCOMMANDENO	Ontvangst van bestelling n°
+IDS_RECEPTION_CDE_FOURN	Aanvangst van bestelling
+IDS_RECEPT_CHANT	Aanvangst van bestelling
+IDS_RECHERCHE	Onderzoek
+IDS_RECHERCHE_COMMANDES	Zoeken van bestellingen
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES	Zoeken van opgestuurde bevestigingen
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES_AVANT	Bevestigingen opgestuurde voor
+IDS_RECHERCHE_DE	Onderzoek naar «#1#»
+IDS_RECHERCHE_DEPUIS	Zoeken vanaf
+IDS_RECHERCHE_ETATS_CHASSIS	De staten van ramen zoeken
+IDS_RECONFIRMER	Herbevestigen
+IDS_RECORDLOCKEDBYOTHER	Record door een andere gebruiker verspert. Probeert U op nieuw?
+IDS_RECOUVREMENTOUVRANTDORMANT	Overlapping van de vleugel op het kader
+IDS_RECOUVREMENTOUVRANTDORMANTBAS	Overdekking vleugel/kader, beneden
+IDS_RECOUVREMENT_FIXE	Vaste overlapping
+IDS_RECOUVREMENT_OUVRANT/DORMANT	Overdekking vleugel/kader
+IDS_RECTANGLES	Rechthoekig
+IDS_RECU	Gekregen
+IDS_REDESSINER	Hertekenen
+IDS_REEL	Werkelijk
+IDS_REENREGISTRERCOMMANDE	Wilt U de bestelling (her)opslaan ?
+IDS_REFERENCE	Referentie
+IDS_REFERENCECLIENT	Klant referenties
+IDS_REFERENCEINCONNUE	Onbekende referentie
+IDS_REHAUSSE	Ophoogprofiel
+IDS_REHAUSSES	Bijprofielen
+IDS_REHAUSSES_SEUILS	Ophogen en dorpels
+IDS_REHAUSSE_PAS_A_DROITE	Het #1# profiel mag niet aan rechtse kant van het raam geplaatst worden
+IDS_REHAUSSE_PAS_A_GAUCHE	Het #1# profiel mag niet aan linkse kant van het raam geplaatst worden
+IDS_REHAUSSE_PAS_EN_BAS	Het #1# profiel mag niet beneden het raam geplaatst worden
+IDS_REHAUSSE_PAS_EN_HAUT	Het #1# profiel mag niet boven het raam geplaatst worden
+IDS_REIMPRESSION	Herafdruk
+IDS_REIMPRESSION_CONFIRMATIONS	De bevestigingen herafdrukken
+IDS_REIMPRESSION_OPTIMISATION	De etiketten voor optimalisatie herafdrukken
+IDS_REIMPRIMER_CONFIRMATIONS	Bevestigingen herafdrukken
+IDS_REINDEXATION	Herindexering
+IDS_REINDEXATION_FICHIERS	Herindexering van de bestanden
+IDS_REJET_D_EAU	Ontwatering
+IDS_RELANCE_OPTIMISATION	Heroptimalisatie
+IDS_RELATIONS	Relaties
+IDS_REM	% Korting
+IDS_REMARQUE	Opmerking
+IDS_REMISE	Korting
+IDS_REMISES	Korting
+IDS_REMISE_%	Korting (%)
+IDS_REMISE_1	Korting 1
+IDS_REMISE_2	Korting 2
+IDS_REMISE_3	Korting 3
+IDS_REMISE_ACCORDEE	Overeengekomen korting
+IDS_REMISE_A_ZERO	Tot niets terugbrengen
+IDS_REMISE_COMPLEMENTAIRE	Extra korting
+IDS_REMISE_DEDUITE	Afgetrokken korting
+IDS_REMISE_MATIERE	Korting / materiaal
+IDS_REMISE_MAXI	Maxi. korting
+IDS_REMISE_POSE	Korting / plaatsing
+IDS_REMISE_REC	Korting (Raa,Rol,Begl)
+IDS_REMISE_REPERE	Berekende korting per raam
+IDS_REMISE_REPERE_COMMANDE_FABRICANT	Korting per stuk op de bestelling
+IDS_REMISE_REPERE_PAR_DEFAUT	Korting/positie
+IDS_REMISE_SUR_COUTS_PRODUCTION	Korting op de produktiekosten
+IDS_REMISE_TOTALE	Totale korting
+IDS_REMPLACEMENT	Vervanging
+IDS_REMPLACEMENT_ELEMENT	Een component vervangen
+IDS_REMPLACER	Vervangen
+IDS_REMPLIRPARTIEVIDE	Het lege deel invullen
+IDS_REMPLISSAGE	Vullingstype
+IDS_REMPLISSAGES	Vullingen
+IDS_REMPLISSAGES_PAR_DEFAUT	Standaard vulling
+IDS_REMPLISSAGE_BAS_GAUCHE	Vulling onder of links\nType
+IDS_REMPLISSAGE_HAUT_DROITE	Vulling boven of rechts\nType
+IDS_REM_VITR	Kort. glas
+IDS_REM_VITR_2	Kort. glas 2
+IDS_REM_VITR_3	Kort. glas 3
+IDS_REM_VOLET	Kort rolluik
+IDS_REM_VOLET_2	Kort rolluik 2
+IDS_REM_VOLET_3	Kort rolluik 3
+IDS_RENAME	Naam wijzigen
+IDS_RENFORT	Versterking
+IDS_RENFORTMAUCLAIR	Makelaar versterking
+IDS_RENFORTREHAUSSE	Ophoogversterking
+IDS_RENSEIGNEMENTS	Inlichtigen
+IDS_RENSEIGNEMENTS_FACULTATIFS	Facultatieve inlichtingen
+IDS_RENSEIGNEMNENTS	Inlichtingen
+IDS_REPART	Indeling
+IDS_REPARTIR	Verborgen
+IDS_REPARTIR_CHUTES_RAL	RAL afvallen verdelen
+IDS_REPARTITION	Herverdeling van de charges
+IDS_REPARTITION_COMMANDES	Verdeling van de bestellingen
+IDS_REPARTITION_DES_COUTS	Verdeling van de kosten per sektie
+IDS_REPERE	Merkteken
+IDS_REPRESENTANT	Vertegenwoordiger
+IDS_REPRESENTANTS	Vertegenwoordigers
+IDS_REP_FACT_PARTIELLE	Gedeeltelijke facturatie herafdrukken
+IDS_REP_LIV_PARTIELLE	Gedeeltelijke levering herafdrukken
+IDS_REP_MAJDB	Update from %d.%d.%d to %d.%d.%d on %s at %s
+IDS_RESERVATION	Reservatie
+IDS_RESERVATIONS	Reservatie
+IDS_RESERVATIONS_CLIENTS	Klanten reservaties
+IDS_RESERVE	Voorbehouden
+IDS_RESPECTER_CASSE	Zich aan de preciese letterkast behouden
+IDS_RESPONSABLE	Hoofdcontact
+IDS_RESPONSABLE_RECEPTION	Leveringsmanager
+IDS_RESP_COMMERCIAL	Commercieel manager
+IDS_RESP_FINANCIER	Financieel manager
+IDS_RESP_POSE	Werf manager
+IDS_RESP_TECHNIQUE	Technische manager
+IDS_RESTAURER_STOCK_CHUTE_IMPOSSIBLE	Het is onmogelijk de afvalstock weer in te voeren!!
+IDS_RESULTATS	Resultaten
+IDS_RETOURNABLE	Omkeerbaar
+IDS_RETOURNER	Omdraaien
+IDS_RETOURNER_HORIZONTALEMENT	Horizontaal omdraaien
+IDS_RETOURNER_RAL_BICOLORE	Omdraaien als RAL bicolor
+IDS_RETOURNER_VERTICALEMENT	Verticaal omdraaien
+IDS_RETOUR_PALETTES	Paletten terugkrijgen
+IDS_RETRAIT_SOUDURE	Lasdikte aftrekken
+IDS_RETRIER_LOT(S)	Re-sort job(s)
+IDS_RIB_1	Reknr 1
+IDS_RIB_2	Reknr 2
+IDS_RIB_3	Reknr 3
+IDS_ROTATION	Omdraaing
+IDS_ROUGE	Rood
+IDS_ROUTINE	Routine
+IDS_ROUTINES	Sub-routines
+IDS_RUE	Straat
+IDS_RUE2	Straat 2
+IDS_SAISIE_SIMPLIFIEE	Eenvoudige invoer
+IDS_SALLE_EXPO	Toonzaal
+IDS_SAMEDI	zaterdag
+IDS_SAMEDI_ABR	zat
+IDS_SANSTVA	Zonder BTW
+IDS_SANS_COULEUR	Zonder kleur
+IDS_SANS_LISTE_CHARGEMENT	Geen ladingslijst
+IDS_SANS_PRIX	Zonder prijs
+IDS_SANS_SEGMENTATION	geen segmentatie
+IDS_SANS_VOLET	Zonder rolluik
+IDS_SAUVEMODIF	Wilt U de wijzigingen opslaan ?
+IDS_SAV	Na dienst verkoop
+IDS_SAVE	Opslaan
+IDS_SCIE	Zaag
+IDS_SCIES	Zagen
+IDS_SCIE_ALT	Zaag 2
+IDS_SECTION	Sectie
+IDS_SECTIONS	Secties
+IDS_SECTION_FIXE	Vaste segmentatie
+IDS_SEEK	Zoeken
+IDS_SELECTALL	Alles selecteren
+IDS_SELECTION	Selectie
+IDS_SELECTIONNER_CAT_ART_RAZ	De artikelscategorieën kiezen waarvan de stock tot niets moet teruggebracht worden
+IDS_SELECTIONNEZ_DORMANTS	Kies de  te gebruiken kaders
+IDS_SELECTIONNEZ_OUVRANTS	Kies de te gebruiken vleugels
+IDS_SELECTIONNEZ_SYSTEMES	Kies de te gebruiken systemen
+IDS_SELECTIONNEZ_TARIF	U hebt geen tarief code geselecteerd
+IDS_SELECTIONS	Selectie
+IDS_SELECTION_BIBLIOTHEQUE	Bibliotheek - selectie van een raam
+IDS_SELECTION_RAPIDE	Snelle selectie
+IDS_SELECTION_RAZ	Geen categorie werd gekozen
+IDS_SELECTION_SYSTEME	Systeemselectie
+IDS_SELECTUN	U dient één enkele lijn te selecteren
+IDS_SEM	Week
+IDS_SEMAINE	Week
+IDS_SEMAINELIVRAISON	Leveringsweek
+IDS_SEMAINES	Weken
+IDS_SEMAINE_ANNEE_LIVRAISON	Week / jaar van levering
+IDS_SEMAINE_LIVRAISON_DE	Leveringsweek: vanaf
+IDS_SENDPOLYPANEMAIL	Bent u zeker dat u het bestand per e-mail wil verzenden ?
+IDS_SENS	Richting
+IDS_SENS_OUVERTURE	Opening naar
+IDS_SEPARATION_1/2	Scheiding 1/2
+IDS_SEPARATION_2/3	Scheiding 2/3
+IDS_SEPARATION_3/4	Scheiding 3/4
+IDS_SEPARATION_4/5	Scheiding 4/5
+IDS_SEPARATION_5/6	Scheiding 5/6
+IDS_SEPARATION_6/7	Scheiding 6/7
+IDS_SEPTEMBRE	september
+IDS_SEPTEMBRE_ABR	sep
+IDS_SEUIL	Dorpel
+IDS_SEUIL_CHASSIS	Raam dorpel
+IDS_SEUIL_PORTE	Deur dorpel
+IDS_SEUIL_PORTE_AVEC_REDUCTION	Deurdorpel (Kader wordt afgetrokken)
+IDS_SEUIL_PORTE_SANS_REDUCTION	Deurdorpel (zonder kaderafkorting)
+IDS_SHAPE_INDEX_OUT_OF_BOUND	Vorm index is out of bound
+IDS_SHAPE_NOT_CREATED	Deze vorm kan niet aangemaakt worden (incorrecte parameters)
+IDS_SHORT_DATE	DD/MM/YY
+IDS_SIGNALETIQUES	Signalementsbstden
+IDS_SIGNATURE	Handtekening
+IDS_SIRET	Siret
+IDS_SITE	Productiesite
+IDS_SITEL	Site
+IDS_SITELIVR	Lev.Site
+IDS_SITE_INTERNET	Web site
+IDS_SITE_LIVRAISON	Leveringsplaats
+IDS_SITUATION	Waar ?
+IDS_SITUATION_MACONNERIE	Situatie van het metselwerk
+IDS_SI_DEPASSEMENT_UTILISER	In geval van overschrijding te gebruiken:
+IDS_SI_INDIQUE	Als vermeld
+IDS_SI_LONGUEUR_<	Als de lengte <
+IDS_SI_NON_INDIQUE	Als niet vermeld
+IDS_SLIVR	Lev.W
+IDS_SOCIETE	Maatschappij
+IDS_SOCIETE_NO_DEFINE	De gegevens betreffende de maatschappij werden niet bepaald
+IDS_SOLDE	Saldo
+IDS_SORTIE	Uitgang
+IDS_SORTIES	Uitgaande
+IDS_SOURCE	Start
+IDS_SOUSLAME	Onderlat
+IDS_SOUSLOT	Sub Lot
+IDS_SOUSTOTAL	Ondertotaal
+IDS_SOUS_GROUPE_PRODUIT	Produkt subgroep
+IDS_SOUS_LOT_PRECEDENT	Vorige sub job
+IDS_SOUS_LOT_SUIVANT	Volgende sub job
+IDS_SOUS_TITRE	Ondertitel
+IDS_SOUS_TRAITANT_ACCEPTE	Door onderaannemer
+IDS_SOUS_TRAITER_LAQUAGE	Het lakken onderaanbesteden
+IDS_SOUVENT	Vaak
+IDS_SPECIFIER_COULEUR_CROISILLON	De kleur van de kleinhout bepalen
+IDS_STANDARD	Standard
+IDS_STATUT	Status
+IDS_STKCH	Af st.
+IDS_STOCK	Stock
+IDS_STOCKAGE_CASIERS	Opslaan in voorraadvakken
+IDS_STOCKAGE_CHUTES	Restafval vakken
+IDS_STOCKAGE_COUPE	De gezaagde profielen opruimen
+IDS_STOCKER	Opslaan
+IDS_STOCKMINMAX	min/max stock
+IDS_STOCKPREVISIONNEL	Voorziene stock
+IDS_STOCKTOTAL	Totale stock
+IDS_STOCK_ACTUEL	Werkelijke stock
+IDS_STOCK_CHUTES	Stock van afvallen
+IDS_STOCK_INFERIEUR_A_0	Stock kleiner dan nul
+IDS_STOCK_METRES	Stock in meter
+IDS_STOCK_MINIMUM/MAXIMUM	Minimum/maximum Voorraad
+IDS_STOCK_NEGATIF	Negatieve stock
+IDS_STOCK_PRINCIPAL	Hoofdstock
+IDS_STOCK_SUPERIEUR_0	Stock hoger dan nul
+IDS_STOCK_SUP_OU_EGAL_0	Stock hoger of gelijk aan nul
+IDS_STOP!	Stop!
+IDS_STYLE	Style
+IDS_SUPPLEMENT	Supplement
+IDS_SUPPLEMENT_ALIGNEMENT_PR	Supplement om kruishouten op een rij te plaatsen (KP)
+IDS_SUPPLEMENT_FORFAITAIRE	Supplement
+IDS_SUPPRESSION	Verwijdering
+IDS_SUPPRESSIONARTICLE	Overzicht verwijderen
+IDS_SUPPRESSIONBIBLIOTHEQUE	Een bibliotheek verwijderen
+IDS_SUPPRESSIONCOMMANDE	Bestelling vernietigen
+IDS_SUPPRESSIONCOMMANDECOMPLETE	Wilt U de hele bestelling vernietigen ?
+IDS_SUPPRESSIONHISTORIQUE	Wilt U het overzicht verwijderen ?
+IDS_SUPPRESSIONPROFIL	Profielverwijdering
+IDS_SUPPRESSIONRECORD	Verwijdering van record '#1#'?
+IDS_SUPPRESSIONTARIFCOMPLET	Wilt U het hele tarief verwijderen ?
+IDS_SUPPRESSION_CHANTIER	Verwijderen  van een lot referentie
+IDS_SUPPRESSION_CHUTES	Wilt U afval verwijderen ?
+IDS_SUPPRESSION_IMPOSSIBLE	Onmogelijke verwijdering voor het ogenblik
+IDS_SUPPRIMECHASSIS	Bevestigt U de verwijdering van dit raam ?
+IDS_SUPPRIMER	Uitwissen
+IDS_SUPPRIMERENSEMBLE	Gelieve de vernietiging van alle ramen te bevestigen
+IDS_SUPPRIMERVARIANTES	Deze handeling zal al de varianten verwijteren. Gelieve te bevestigen.
+IDS_SUPPRIMER_GRILLE	Wenst U deze prijstabel te verwijderen ?
+IDS_SUPPRIMEVOLET	Bevestigt U de verwijdering van dit rolluik ?
+IDS_SUPPR_COMMANDES	Best. verwijdering
+IDS_SURCOTE	Ext.lengte.
+IDS_SURFACE	Oppervlakte
+IDS_SURFACES	Oppervlakte
+IDS_SURFACEVITRAGETROPGRANDE	Te grote beglazingsoppervlakte
+IDS_SURFACE_MAXIMUM	Maximale oppervlakte
+IDS_SURFACE_MAXIMUM(m²)	Maximale oppervlakte (m²)
+IDS_SURFACE_TOTALE	Totale oppervlakte
+IDS_SURF_MAX	Max oppervl.
+IDS_SUR_CHANTIER	op werf
+IDS_SUR_DOCUMENTS_ATELIER	op dokumenten voor fabricatie
+IDS_SUR_DOCUMENTS_CLIENT	op dokumenten voor de klanten
+IDS_SUR_GRILLES_TARIF	Op de tarief toepassen
+IDS_SUR_MESURE	Standaard / op maat
+IDS_SUR_PRIX_COURANT	op lopende prijs
+IDS_SYMBOLESOUVERTURE	Symbolen van opening
+IDS_SYMBOLE_B	Symbol B
+IDS_SYMBOLE_D	Symbol R
+IDS_SYMBOLE_G	Symbol L
+IDS_SYMBOLE_GRAPHIQUE	Grafisch symbool
+IDS_SYMBOLE_H	Symbol T
+IDS_SYSTEME	Systeem
+IDS_SYSTEMEPRINCIPAL	Hoofdsysteem
+IDS_SYSTEMES	Systemen
+IDS_TABLE	Tafel
+IDS_TABLES_A_TRAITER	Te behandelen tabellen
+IDS_TABLE_PARCLOSE	Glaslatten
+IDS_TABLE_PRIX_REVIENT	Kostprijs tabel
+IDS_TABLIER	Rolluikblad
+IDS_TABLIERS	Bladen
+IDS_TABLIERTROPHAUTPOURCAISSON	Het rolluikblad is te hoog voor deze kast
+IDS_TABLIER_1	Rolluikblad 1
+IDS_TABLIER_HORS_TARIF	Rolluikblad buiten tarief
+IDS_TAILLE	Hoogte
+IDS_TARIF	Tarief
+IDS_TARIFS	Tarieven
+IDS_TARIFS_CHASSIS	Ramentarieven
+IDS_TARIFS_VOLETS	Rolluikentarieven
+IDS_TARIFVOLET	Rolluiktarief
+IDS_TARIF_ASCII	ASCII tarief
+IDS_TARIF_FORMAT_ASCII	Tarieven in ASCII-formaat
+IDS_TARIF_MAIN_DOEUVRE	Arbeidskost
+IDS_TARIF_MO	Arbeidskosten
+IDS_TARIF_SPEC	Tarieven (*.TXT)|*.TXT|
+IDS_TAUX	Koers
+IDS_TAUX_CHANGE	Koers
+IDS_TAUX_CHUTE	Afval ratio
+IDS_TAUX_EN_%	Codes (%)
+IDS_TAUX_TVA	BTW codes
+IDS_TECHNIQUE	Techniek
+IDS_TEINTE_RAL	RAL kleur
+IDS_TEL	Tel
+IDS_TELECOMMUNICATIONS	Telecommunicaties
+IDS_TELEFAX	Telefax
+IDS_TELEGLASS_FILE	Vorige bestelling werd niet opgestuurd : Wilt U DOORGAAN ?
+IDS_TELEPHONE	Telefoon
+IDS_TELEPHONEFAX	Telefoon en telefax
+IDS_TELEPHONES	Telefoonnummers
+IDS_TELEPHONE_MOBILE	Mobiele telefoon
+IDS_TEMPER	Tijdelijk.
+IDS_TEMPSCOIN	Werktijden voor hoek
+IDS_TEMPS_BUREAU_ETUDE	Geschatte tijd
+IDS_TEMPS_POSE	Montagetijd
+IDS_TEMPS_PROD	arbeid
+IDS_TEMPS_TOTAL	Totale tijd
+IDS_TENIRCOMPTESTOCK	Wordt er rekening gehouden met de stock en de reservaties ?
+IDS_TENIR_COMPTE_DELAI_LIVRAISON	Rekening houden met de leveringstermijn voor de klantbevestiging
+IDS_TERMINAL_SERVEUR	Terminal Server
+IDS_TERMINE	Afgemaakt
+IDS_TERMINE_A	Beëindigd op %s at %s
+IDS_TESTER	Testen
+IDS_TESTETIQUETTESOPTIMISATION	Test van de optimalisatie etiketten
+IDS_TEXTE	Tekst
+IDS_TEXTEPASTROUVE	De tekst werd niet gevonden
+IDS_TEXTES	Teksten
+IDS_TEXTES_CONFIRMATION	Teksten bev.
+IDS_TEXTES_DEVIS	Teksten offerte
+IDS_TEXTES_ENGELS	Offerte vaste teksten
+IDS_TEXTES_FACTURE	Teksten fac.
+IDS_TEXTES_NOTEENVOI	Teksten V.N.
+IDS_TEXTE_ATELIER	Tekst fabricatie
+IDS_TEXTE_A_RECHERCHER	Tekst te zoeken
+IDS_TEXTE_DEBUT	Beginteksten
+IDS_TEXTE_FIN	Eindteksten
+IDS_TEXTE_FINAL	Einde tekst
+IDS_TEXTE_FIN_BON_COMMANDE	Tekst op het einde van de bestelbon
+IDS_TEXTE_OPTIONNEL	Toestaan van extra teksten
+IDS_TEXTE_PERIODIQUE_FICHE_QUALITE	Periodieke tekst van het kwaliteitskaartje
+IDS_TEXTE_PERIODIQUE_SUR_TOUTES_FICHES_QUALITE	Periodieke tekst te vermelden op alle kaartjes van kwaliteitscontrole
+IDS_TEXTE_TABLEAU	Tekst tableau
+IDS_TEXTURE	Soort
+IDS_TIME	Tijd
+IDS_TIME_OUT_OF_RANGE	De tijd moet tussen %s en %s zijn!
+IDS_TITLE	Titel
+IDS_TITRE	Titel
+IDS_TITREACOMPTES	Voorschotten
+IDS_TITRE_GRILLE_PRIX	Tabel van prijzen voor de kleuren van groep #1#
+IDS_TITRE_LST_CMPDC	VERGELIJKENDE LIJST OFFERTES/BESTELLINGEN
+IDS_TITRE_PAGE_TARIF	Titel van de bladzijde
+IDS_TOLE	Plaat
+IDS_TOLEPLIE	Plooiwerk
+IDS_TOTAL	Totaal
+IDS_TOTALACOMPTES	Totaal voorschotten
+IDS_TOTALCOMMANDES	Totaal van bestellingen
+IDS_TOTALDEV	Tot. devies
+IDS_TOTALMATIERE	Totaal materiaal
+IDS_TOTALNET	Netto totaal
+IDS_TOTALPOSE	Totaal plaatsing
+IDS_TOTALSTOCK	Totale waarde van de stock
+IDS_TOTALTVAC	Totaal BTW inb.
+IDS_TOTALVITRAGE	Totaal beglazing
+IDS_TOTAL_BON_COMMANDE	Totaal op de bestelbon
+IDS_TOTAL_CONVENU	Overeengekomen prijs
+IDS_TOTAL_GENERAL	Hoofdtotaal
+IDS_TOTAL_RESERVATION	Aantal reservaties
+IDS_TOTAL_SEULEMENT	Enkel de totalen
+IDS_TOTAL_SUPPLEMENTS	Totaal van de supplementen
+IDS_TOTAUX	Totalen
+IDS_TOTAUX_LIGNES	Totalen van productielijnen
+IDS_TOTAUX_LOTS	Totalen per lot
+IDS_TOTAUX_TYPE_PALETTES_DISPONIBLES	Beschikbare palletten per type
+IDS_TOTBRUT	Bruto
+IDS_TOTNET	Netto
+IDS_TOT_MATIERE_NET	Netto totaal materiaal
+IDS_TOT_PV_BRUT	Bruto totale verkoopsprijs
+IDS_TOT_PV_NET	Netto totale verkoopsprijs
+IDS_TOUJOURS	Altijd
+IDS_TOUJOURS_2_VUES	Altijd de 2 zichten
+IDS_TOURNEE	Lever.zone
+IDS_TOUS	Alles
+IDS_TOUS_LES_ARTICLES	Alle artikelen
+IDS_TOUT	Alles
+IDS_TOUTES	Alle
+IDS_TOUT_DESELECTIONNER	Alles desactiveren
+IDS_TOUT_INVERSER	Alles omkeren
+IDS_TOUT_SEL.	Alles.
+IDS_TOUT_SELECTIONNER	Alles selecteren
+IDS_TO_PAGE	tot %d van
+IDS_TRAD	Vert.
+IDS_TRADUCTION	Vertaling
+IDS_TRADUCTIONS	Vertaling
+IDS_TRAITE	Wissel
+IDS_TRAITEANJOURS	wissel op %d dagen
+IDS_TRAITEMENTENCOURS	Berekening....
+IDS_TRAITER_TOUS_FOURNISSEURS	(Alle leveranciers indien geen leverancier ingegeven wordt.)
+IDS_TRAIT_SCIE	Zaaglijn
+IDS_TRANSFERER_CLIENTS	Transfer klanten
+IDS_TRANSFERT	Verplaatsing
+IDS_TRANSFERTS	Verplaatsing
+IDS_TRANSFERTSTOCK	Stock verplaatsing
+IDS_TRANSFERT_EN_CLIENT	Transfer -> klant
+IDS_TRANSFO_PROSPECT_CLIENT	Omschakeling naar klant
+IDS_TRANSLATE	Vertaling
+IDS_TRANSNAVIBAT	Navibat transfer
+IDS_TRANSNAVISION	Navison transfer
+IDS_TRANSPORTEUR	Transportfirma
+IDS_TRAVAILLER_EN_PRIX_COURANT	Werken met de lopende prijs
+IDS_TRAVAILLER_EN_PRIX_TARIF	Werken met tarief kostprijs
+IDS_TRAVERSE	Stijl
+IDS_TRAVERSEINEXISTANTE	Deze stijlcode bestaat niet
+IDS_TRAVERSES	Stijlen
+IDS_TRAVERSES_HORIZONTALES_ENTIERES	Horizontale stijlen in één stuk
+IDS_TRAVERSES_VERTICALES_ENTIERES	Verticale stijlen in één stuk
+IDS_TRAVERSE_DORMANT	Stijl (kader)
+IDS_TRAVERSE_HORS_TARIF	Stijl buiten tarief
+IDS_TRAVERSE_ISOLEE	Enkele tussenstijl
+IDS_TRAVERSE_OUVRANT	Stijl (vleugel)
+IDS_TRAVERSE_PAR_DEFAUT	Standaard stijl
+IDS_TRAVERSE_S_	Stijl(en)
+IDS_TRI	Tri
+IDS_TRIDECOUPE	Tri na herzagen
+IDS_TRIMESTRE	Trimester
+IDS_TRIVITRAGE	Tri beglazing
+IDS_TRI_CODE_ARTICLE	Sortering per artikelcode
+IDS_TRI_EMPLACEMENT	Sortering per leveringszone
+IDS_TRI_PAR_COMMANDE	Sorteer op bestelling
+IDS_TROPHAUTPOURCAISSON	De hoogte van deze kast is te groot
+IDS_TROP_DE_DIMENSIONS	Te veel afmetingen (#1#, maximum #2#)!
+IDS_TVA	BTW
+IDS_TYPE	Type
+IDS_TYPECRX	Kruishouttype
+IDS_TYPEDIM	Type maat.
+IDS_TYPEDOC	Type Document
+IDS_TYPEOUVRANT	Vleugeltype
+IDS_TYPES	Types
+IDS_TYPETRANSPORT	Transport type
+IDS_TYPE_ASSEMBLAGE	Verbindingstype
+IDS_TYPE_CLIENT	Type van klanten
+IDS_TYPE_CODE_BARRE_INCOMPATIBLE	De ingevoerde barcode is onverenigbaar met deze functie!
+IDS_TYPE_COLIS	Type van verpakking
+IDS_TYPE_COLIS_LONGUEUR_ENTIERE	Type van verpakking
+IDS_TYPE_COMMANDE	Bestellingstype
+IDS_TYPE_CONTROLE	Controle
+IDS_TYPE_DIMENSION	Type van afmeting
+IDS_TYPE_LIVRAISON	Leveringstype
+IDS_TYPE_MARCHE	Markt segment
+IDS_TYPE_MOUVEMENT	Type van verandering
+IDS_TYPE_PRODUIT	Produktgroep
+IDS_TYPE_REMPLISSAGE	Vullingstype
+IDS_TYPE_SAISIE	Maat type
+IDS_TYPE_SOCIETE	Type Maatschappij
+IDS_TYPE_TARIF	Prijscode
+IDS_UNABLELOCK	Onmogelijk af te sluiten
+IDS_UNABLEREAD	Kan het bestek %s op het disc niet lezen.
+IDS_UNABLEWRITE	Kan het bestek %s op het disc niet schrijven.
+IDS_UNDEFINED_SHAPE	Vorm niet gedefinieerd
+IDS_UNDO	Annuleren
+IDS_UNEXPECTED_EXCEPTION	Unexpected exception. WinPro zal afsluiten
+IDS_UNHANDLEDXMSG	Onbehandelde uitzondering
+IDS_UNICOLORE	Onbehandelde uitzondering
+IDS_UNIQUEMENT_PISTE	Enkel op spoor
+IDS_UNITE	Eenheid
+IDS_UNITES	eenheid
+IDS_UNITE_MESURE	Maateenheid
+IDS_UNITPRICE	E.P.
+IDS_UNKNOWNERROR	Onbekende vergissing
+IDS_UNKNOWNEXCEPTION	Onbekende uitzondering
+IDS_UNTITLED	Document
+IDS_UPPERCASE	HOOFDLETTERS
+IDS_URL	Url http://
+IDS_USER	Gebruiker
+IDS_USINAGE	Bewerking
+IDS_USINAGES	Bewerkingen
+IDS_USINAGE_ORIGINE_BAS_GAUCHE	Bewerkingen (begin links &onder v. h. frame)
+IDS_USINAGE_ORIGINE_GAUCHE	Bewerkingen (begin &links v. h. profiel)
+IDS_USINE	Produktie-eenheid
+IDS_UTILE	Bruikbaar
+IDS_UTILISATEURS	Gebruikers
+IDS_UTILISATION	Gebruik
+IDS_UTILISER_FORMULES_DESSIN	Gebruik de WinPro tekening
+IDS_UTILISER_POUR_PRIX_REVIENT	Om de kostprijs te rekenen
+IDS_UTILISER_POUR_PRIX_VENTE	Om de verkoopsprijs te rekenen
+IDS_UTILISER_SCIE_N	gebruik dan zaagnr
+IDS_UTILISE_COMME	Gebruik in
+IDS_VACANCES	Vakanties
+IDS_VAL.	Val.
+IDS_VALABLE_JUSQUE	Geldig tot
+IDS_VALCH	Afval
+IDS_VALEUR	Waarde
+IDS_VALEURPARDEFAUT	Waarde bij verstek
+IDS_VALEURS_PAR_DEFAUT	Mogelijke kleuren
+IDS_VALEUR_BRUTE	Bruto
+IDS_VALEUR_EURO	Waarde van €
+IDS_VALEUR_NETTE	Netto
+IDS_VALEUR_TOTALE:	Totale waarde:
+IDS_VALIDATION	Goedkeuring
+IDS_VALIDATION_CONFIRMATION	Technische goedkeuring van bestellingen
+IDS_VALIDATION_FACTURES	Facturen goedkeuren
+IDS_VALIDATORSYNTAX	Vergissing van validateursyntaxis
+IDS_VALIDER	Opslaan
+IDS_VALIDER_CHASSIS	Raam bevestigen [^F3]
+IDS_VALIDER_DATE	Datum bevestigen
+IDS_VALIDER_ET_IMPRIMER	Goedkeuren en afdrukken
+IDS_VALIDER_SANS_IMPRIMER	Goedkeuren zonder afdruk
+IDS_VALIDER_STOCK_CHUTES	Afvalstock goedkeuren
+IDS_VALIDER_VOLET	Goedkeuren [^F3]
+IDS_VALID_CDE_SOUS_TRAITANTS	Aanrekenen bestellingen van onderaannemers
+IDS_VALINVALIDCHAR	Ongeldig letterteken
+IDS_VALNOTINLIST	De inschrijving is in het geldigheidslijst niet
+IDS_VALNOTINRANGE	De waarde is niet tussen %ld en %ld.
+IDS_VALORISATION	Becijfering
+IDS_VALORISATION_BON_COMMANDE	Becijfering van de bestelbon
+IDS_VALORISATION_ENCOURS	Valorisatie van de huidige bestellingen
+IDS_VALORISE	Met prijzen
+IDS_VALORISEE	Met prijzen
+IDS_VALPXPCONFORM	De inschrijving komt niet met het filter:\n""%s""overeen
+IDS_VANTAIL_1	Vleugel 1
+IDS_VANTAIL_2	Vleugel 2
+IDS_VANTAIL_3	Vleugel 3
+IDS_VANTAIL_4	Vleugel 4
+IDS_VANTAIL_5	Vleugel 5
+IDS_VANTAIL_6	Vleugel 6
+IDS_VANTAIL_7	Vleugel 7
+IDS_VANTAUX	Vleugels
+IDS_VARIABLES	Variables
+IDS_VARIABLE_P1	(Variabele: P1)
+IDS_VARIABLE_P2	(Variabele: P2)
+IDS_VARIABLE_P3	(Variabele: P3)
+IDS_VARIABLE_X1	(Variabele: X1)
+IDS_VARIABLE_X2	(Variabele: X2)
+IDS_VARIANTEPRINCIPALE	Hoofdvariant
+IDS_VARIANTE_1	Variant &1
+IDS_VARIANTE_2	Variant &2
+IDS_VARIANTE_3	Variant &3
+IDS_VARIANTE_4	Variant &4
+IDS_VARIANTE_5	Variant &5
+IDS_VARIANTE_COULEUR	Varianten beglazing
+IDS_VARIANTE_VITRAGE	Varianten kleur
+IDS_VAR_SITE	Site variabelen
+IDS_VENDEURS	Vertegenwoordigers
+IDS_VENDREDI	vrijdag
+IDS_VENDREDI_ABR	vrij
+IDS_VERIF	Gecontoleerd
+IDS_VERIFICATION_CASIER	Controle voorraadvakken
+IDS_VERIFICATION_CONFIRMATION	Bevestiging controleren
+IDS_VERROUILLAGE	Blokkering
+IDS_VERROUILLER_MODIFICATIONS	Wijzigingen blokkeren
+IDS_VERSION	Versie
+IDS_VERSION_EXPIREE	Uw gebruikersdatum is vervallen\nGelieve contact te nemen met Quadrature SA (+32(0)71/349.100)
+IDS_VERSION_EXPIREE_CA	Uw gebruikersdatum is vervallen\nGelieve contact te nemen met WinPro-Canada Inc. (1-514-217-7620)
+IDS_VERSION_VA_EXPIRER Uw gebruikersdatum is bijna vervallen\nGelieve te nemen met Quadrature NV (+32(0)71/349.100)
+IDS_VERSION_VA_EXPIRER_CA	Uw gebruikersdatum is bijna vervallen\nGelieve te nemen met WinPro-Canada Inc. (1-514-217-7620)
+IDS_VERT	Groen
+IDS_VERTICAL	Verticaal
+IDS_VERTICALE	Verticaal
+IDS_VERTICALES	verticale
+IDS_VEUILLEZ_CONFIRMER_SUPPRESSION	Bevestig aub de verwijdering
+IDS_VEUILLEZ_CONFIRMER_VERIF_STOCK	Bevestig aub de voorraad
+IDS_VEUILLEZ_PATIENTER	Even geduld AUB
+IDS_VEUILLEZ_SELECTIONNER_INCIDENT	Selecteer het type van gebeurtenis aub.
+IDS_VIDE_DORMANT_INCOMPATIBLE	Een lege ruimte onder kader is onverenigbaar met de vorm van de gebruikte stijlen
+IDS_VIDE_VIDE_NON_RECTANGULAIRE	Met WinPro is het onmogelijk lege rechthoekige ruimten te bepalen
+IDS_VISIBLE_EXTERIEUR	Buitenzicht
+IDS_VISIBLE_INTERIEUR	Binnenzicht
+IDS_VIT	Beg.
+IDS_VITR	Glas
+IDS_VITRAGE	Beglazing
+IDS_VITRAGEFABRIQUE_HORS_TARIF	Beglazing bestaat niet in de prijslijst
+IDS_VITRAGES	Beglazingen
+IDS_VITRAGESDEJACOMMANDES	De beglazingen werden al op #1# besteld
+IDS_VITRAGES_DEJA_COMMANDES	De beglazingen van de bestelling #1# werden al besteld.\nWilt U de bestelling van de beglazingen herafdrukken ?
+IDS_VITRAGES_DIFFERENTS	Verschillende beglaz.
+IDS_VITRAGES_ET_PANNEAUX	Beglazingen en platen
+IDS_VITRAGETROPGRAND	Te grote beglazing
+IDS_VITRAGETROPHAUT	Te hoge beglazing
+IDS_VITRAGETROPLARGE	Te brede beglazing
+IDS_VITRAGE_COMPOSE	Samengesteld glas
+IDS_VITRAGE_FABRIQUE	Samengesteld glas
+IDS_VOIRPAGE	Bladzijde %d
+IDS_VOL	RL.
+IDS_VOLET	Rolluik
+IDS_VOLETNONREALISABLE	Dit rolluik is niet uitvoerbaar
+IDS_VOLETS	Rolluiken
+IDS_VOLET_SEUL	Enkel rolluik
+IDS_VOLUME	Vol.
+IDS_VOSREFERENCES	Uw referenties
+IDS_VOUSNAVEZRIENSELECTIONNE	U hebt niets gekozen
+IDS_VUEEXTERIEURE	Buitenzicht
+IDS_VUEINTERIEURE	Binnenzicht
+IDS_VUES	Bin/buit zicht
+IDS_VUE_COUPE_OUVERTURE_PORTES	Doorsnede voorstelling van de opening
+IDS_VUE_DEFINIE_DANS_SYSTEME	Gekozen zicht in het systeem
+IDS_VUE_DESSIN_SUR_DOCUMENTS	Tekening op de documenten
+IDS_VUE_INVERSEE	Omgekeerd zicht
+IDS_VUE_NORMALE	Normaal zicht
+IDS_Version démo	Demo versie
+IDS_WARN_TERMINATION	Een bericht 'Abnormal program termination' zal verschijnen. Deze boodschap is normaal.
+IDS_WINDIFFUS	WinDiffus
+IDS_WINPRO/D	WinPro/D
+IDS_WORK	Arbeidspost
+IDS_WP_REPORT	WP-Report
+IDS_X_PAR_MOIS	X per maand
+IDS_ZERO	= 0
+IDS_ZERO(0)	Nul
+IDS_ZLIVR	Lever.z.
+IDS_ZONE	Zone
+IDS_ZONELIVRAISON	Leveringszone
+IDS_ZONES	Zones
+IDS_ZONES_LIVRAISON	Leveringszones
+IDS_ZONE_CHALANDISE	Commercieel gebied
+IDS_ZONE_EXCLUSIVITE	Exclusief gebied
+IDS_ZONE_INFLUENCE_±	Invloedzone: ±
+IDS_ZONE_NON_DEFINIE	Onbepaalde zone
+IDS__AUTOMATIQUE_	<Auto.>
+IDS__CLRCAISSON_	<Kastkleur>
+IDS__CLRTABLIER_	<Rolluikblad kleur>
+IDS__IDENTIQUE_	<Volkomen gelijk>
+IDS_mm	mm
+IDS_mm_PART_ET_AUTRE	mm op beide kanten
+IDS_mm_X_HAUTEUR	mm x Hoogte
+IDS_m²	m²
+IDS_pcdQTYnlPU	%d H\nP
+IDS_traverses	stijlen
+IDS_¼_MM	¼ mm
+IDS_½_MM	½ mm
+IDX_CANCEL	Verlaten
+IDX_CANNOT_OPEN_TABLE	Cannot open table '%s'.\nThe table may be in use on another workstation.\nWinPro cannot pack the table and indexing will terminate.
+IDX_COMPACTAGE	Comprimeren
+IDX_COMPLETED	Completed.
+IDX_DEPUIS_UN_BACKUP	Vanuit een backup copy
+IDX_ENTETE_FICHIER_CORROMPU	Bestandsnaam is niet correct
+IDX_ENTETE_FICHIER_CORROMPU_FIN_APPLICATION	Bestandsnaam is niet correct.Winpro zal afsluiten
+IDX_ERREUR	Vergissing
+IDX_ERREUR_OUVERTURE_FICHIER	Fout bij het openen van het bestand
+IDX_FICHIER_INEXISTANT	Onvindbaar bestand.
+IDX_FILE_COULD_NOT_BE_OPENED	Bestand kan niet geopend worden.
+IDX_FIN_TRAITEMENT	Einde bewerking
+IDX_INDEXING	Indexing...
+IDX_NETTOYAGE_ACCOUVR	Cleaning up 'accouvr.dbf'
+IDX_NETTOYAGE_ART	Opkuisen van 'Art.dbf'
+IDX_NETTOYAGE_ARTCDE	Cleaning up 'artcde.dbf'
+IDX_NETTOYAGE_CDELOG	Cleaning up 'cdelog.dbf'
+IDX_NETTOYAGE_CHEVALET	Cleaning up 'chevalet.dbf'
+IDX_NETTOYAGE_DET	Opkuisen van 'Det.dbf'
+IDX_NETTOYAGE_DETAIL	Cleaning up 'detail.dbf'
+IDX_NETTOYAGE_DOC	Opkuisen van 'Cde.dbf'
+IDX_NETTOYAGE_FEN	Opkuisen van 'Fen.dbf'
+IDX_NETTOYAGE_LIN	Opkuisen van ' Lin.dbf'
+IDX_NETTOYAGE_REHDORM	Cleaning up 'rehdorm.dbf'
+IDX_NETTOYAGE_TRAVDORM	Cleaning up 'travdorm.dbf'
+IDX_NETTOYAGE_TRAVOUVR	Cleaning up 'travouvr.dbf'
+IDX_NETTOYAGE_VAR	Opkuisen van 'var.dbf'
+IDX_PACK	Pack
+IDX_PACKING_DATA_FILE	Packing table...
+IDX_PACKING_FILES	Packing files
+IDX_REMOVED_RECORDS	Records have been removed from table 'compos.dbf' and placed in table 'rjcompos.dbf'\nThese records were no longer used.
+IDX_START	Start
+IDX_TABLE	Tafel
+IDX_VERIF_ARTICLES	Checking articles.
+IDX_VERIF_CDES_FOURN	Checking leveranciersbestellingen
+IDX_VERIF_COULEURS_PROFILS	Checking profielkleuren
+IDX_VERIF_ENREG_NON_UTILISES_COMPOS	Checking ongebruikte records in compos.dbf
+IDX_VERIF_RESERVATIONS	Checking reservaties
+IDX_VERIF_STOCK	Checking voorraad
+IDX_VOUS_DEVEZ_RESTAURER	U dient het bestand opnieuw op te slaan
+MENU_AIDE	&Hulp
+MENU_AUTRES_DONNEES	Diversen
+MENU_CHASSIS	Raam
+MENU_COMMANDE	&Bestellingen
+MENU_CONTROLE_COUT	&Kostencontrole
+MENU_DESSIN	Tekeningen
+MENU_DIVERS	Diversen
+MENU_DONNEES	&Gegevens
+MENU_DONNEES_BASE	Basisgegevens
+MENU_EDITION	Be&werken
+MENU_ENCOURS_SYSTEME	Lopende fabricatie per &systeem
+MENU_FENETRES	&Vensters
+MENU_FIMA	Fima
+MENU_FORMAT	&Formaat
+MENU_GESTION_COMMANDES	&Beheer van bestellingen
+MENU_GESTION_CONFIRMATIONS	Be&heer van bevestigingen
+MENU_GESTION_LIVRAISON	Beheer van &levering
+MENU_GESTION_PRODUCTION	Beheer van &productie
+MENU_LISTES	&Lijsten
+MENU_LISTE_ENCOURS	&Lijsten van lopende zaken
+MENU_LST_PALETTES	&Lijsten
+MENU_MVT_PALETTES	&Bewegingen
+MENU_PRODUCTION	&Production
+MENU_RAPPORT	&Rapporten
+MENU_STOCK	&Voorraad
+MENU_TARIF	&Tarieven
+MENU_TECHNIQUE	&Techniek
+MENU_TRANSFERT	Transfer
+MENU_UTILITAIRES	&Instelling
+MENU_VOLET	Rolluik
+TBL_AccessoireBibliotheque	Toebehoren in bibliotheken
+TBL_AccessoireChassis	Raamtoebehoren
+TBL_AccessoireOuvrant	Vleugeltoebehoren
+TBL_Aerateur	Verluchtingen
+TBL_ArtPromo	Artikels in promotie
+TBL_Article	Basisartikels
+TBL_ArticleCommande	Bijkomende leveringen in de bestelling
+TBL_ArticleCompose	Samengestelde artikels
+TBL_ArticleFournisseur	Info leverancier v/h artikel
+TBL_Atelier	Tijdregistratie in het atelier
+TBL_BatchStock	Tijdelijke voorraadverplaatsingen
+TBL_Battee	Voorgedefinieerde aanslag
+TBL_Bibliotheque	Raam en rolluik bibliotheken
+TBL_CAClient	Klantenomzet
+TBL_Cadre	Kaders
+TBL_Caisson	Rolluikkasten
+TBL_Casier	Afvalvakken
+TBL_CategorieArticle	Artikelcategorie
+TBL_CategorieClient	Klanten categorie
+TBL_Chauffeur	Vrachtwagenbestuurders
+TBL_ChuteProfil	Reststukken
+TBL_CliMarche	Markttype
+TBL_CliVendeur	Verkopers bij de klant
+TBL_Client	Klanten
+TBL_Coefficient	Marge coëfficient
+TBL_CoinParclose	Glastlathoek
+TBL_Colis	Verpakking
+TBL_Commande	Klantenbestelling
+TBL_CommandeFournisseur	Bestellijn leveranciers
+TBL_Composant	Onderdelen
+TBL_ConditionTransport	Transportkondities
+TBL_ConsommationMensuelle	Maandelijks voorraadverbruik
+TBL_Contact	Contacten
+TBL_Couleur	Kleuren
+TBL_CouleurComposant	Toegestane kleuren voor de onderdelen
+TBL_CouleurFauxCintrage	Valse center in kleur
+TBL_CouleurProfil	profielkleuren
+TBL_Coulisse	rolluikgeleiders
+TBL_CoutProduction	Produktiekost
+TBL_Croisillon	Kleinhouten
+TBL_Dessin	Tekeningen
+TBL_Detail	Bestellijn
+TBL_Detail1Bibliotheque	Ramenbibliotheek
+TBL_Detail2Bibliotheque	Vleugels en stijlen in bibliotheken
+TBL_Detail3Bibliotheque	Vleugelstijl in de bibliotheek
+TBL_DetailColis	Verpakkingsdetail
+TBL_DetailLotOptimisation	Details van de optimalisatielot
+TBL_DetailParclose	Glaslattendetails
+TBL_DetailTarif	Ramen in de prijslijst
+TBL_DetailTarifVolet	Luiken in de prijslijst
+TBL_DevisEtCommande	Offerten en bestellingen statistieken
+TBL_Devise	Deviezen
+TBL_Dormant	Kaders
+TBL_Dxf	DXF Tekeningen
+TBL_Emplacement	Voorraadlokaties
+TBL_EnteteCommandeFournisseur	Hoofding van de leveranciersbestelling
+TBL_Equipe	Montage en leveringsploegen
+TBL_FauxCintrage	Valse centers
+TBL_FournVitrage	Informatie per glasleverancier
+TBL_Fournisseur	Leveranciers
+TBL_GrillePrix	Prijslijst
+TBL_GroupeCouleur	Kleurgroepen
+TBL_GroupeUsinage	Bewerkingsgroepen
+TBL_HistoFactPartielle	Facturatie overzicht
+TBL_HistoLotNavision	Overzicht van jobs gecreerd buiten WinPro
+TBL_HistoPalette	Overzicht van transportbokken
+TBL_HistoriqueDevise	Munteenheid overzicht
+TBL_ImportLotNavision	Importeren van jobs buiten WinPro
+TBL_InfoPoste	Informatie per arbeidspost
+TBL_Jourchr	Sluitingsdagen
+TBL_JournalMainD'Oeuvre	Overzicht werkuren
+TBL_JournalStock	Overzicht voorraadverplaatsingen
+TBL_Langue	Taal
+TBL_LaqueArt	Gelakt artikel
+TBL_LienPoste	Link arbeidspost <-> informatie
+TBL_LineCapacity	Produktielijnen capaciteit
+TBL_LotChassis	Aantal ramen in een productielot
+TBL_LotOptimisation	Productielots
+TBL_Message	Foutmelding
+TBL_NormeVent	Windlastnorm
+TBL_NormeVerre	Glasnorm
+TBL_NumTarif	Prijslijstnummer
+TBL_Numero	Diverse nummers
+TBL_Ouvrant	Vleugels
+TBL_Paiement	Betalingscondities
+TBL_Palette	Transportbokken
+TBL_Panneau	Paneel te verzagen
+TBL_PanneauDecoratif	Sierpaneel
+TBL_PanneauFabrique	Samengesteld paneel
+TBL_Parclose	Glaslatten
+TBL_Perimetre	Omtrekken
+TBL_PlanningLivraisonFournisseur	Leveranciersplanning
+TBL_Pose	Montage-artikels
+TBL_PosteAtelier	Arbeidsposten
+TBL_PosteDeTravail	Werkuren
+TBL_PrepaLot	Voorbereiden productielot
+TBL_ProductionDate	Voorziene datum start van produktie
+TBL_ProductionLine	Produktielijnen
+TBL_ProductionSpot	Productieplaatsen
+TBL_Profil	Profielen
+TBL_Prospect	Prospecten
+TBL_Question	Vragen
+TBL_Quincaillerie	Beslag
+TBL_Rehausse	Ophogen
+TBL_RehausseBibliotheque	Extra ophogen in de bibliotheek
+TBL_RehausseDormant	Extra ophogen en dorpels in de bestelling
+TBL_Report	Report definities
+TBL_ReportCfg	Rapport dokumenten
+TBL_Representant	Vertegenwoordiger
+TBL_ReservationClient	Klant voorraadreservaties
+TBL_Scie	Zaag
+TBL_ScieProfil	Alternatieve zaag per profiel
+TBL_SelectionQuestion	Selektievragen
+TBL_Societe	Gegevens van de maatschappij
+TBL_StatutChassis	Raamstatistieken
+TBL_StatutCommande	Bestellingsoverzicht
+TBL_StatutCommandeNavision	Overzicht geëxporteerde bestellingen
+TBL_StatutLotNavision	Export van de staat per lot
+TBL_StatutRepereNavision	Export van de staat per werf
+TBL_Stock	Voorraad
+TBL_Sub	Routines
+TBL_Systeme	Sysytemen
+TBL_Tablier	Rolluikbladen
+TBL_Tarif	Raam prijslijst
+TBL_TarifVolet	Rolluik prijslijst
+TBL_Tole	Plooiwerk
+TBL_Traduction	Basis vertalingen
+TBL_TraductionQuestion	Vertalingen vragen
+TBL_TraductionSelectionQuestion	Vertaling selectievragen
+TBL_Transport	Transporttypes
+TBL_Traverse	Stijlen
+TBL_TraverseDormant	Vleugels en stijlen in het kader van de bestelling
+TBL_TraverseOuvrant	Stijlen in de vleugels van de bestelling
+TBL_TraverseOuvrantTarif	Stijlen in de vleugel prijslijst
+TBL_TraverseTarif	Vleugels en stijlen in de prijslijst
+TBL_TypeColis	Verpakkingstype
+TBL_UserInterface	Gebruikersinterface informatie
+TBL_Usinage	Bewerkingen
+TBL_Utilisateur	Gebruikers
+TBL_VarClient	Klantvariabelen
+TBL_Vitrage	Beglazingen
+TBL_XArt	Artikels in de geëxporteerde dokumenten
+TBL_XDet	Raamdetails in de geëxporteerde dokumenten
+TBL_XDoc	Geëxporteerde dokumenten
+TBL_XFen	Ramen in de geëxporteerde dokumenten
+TBL_XLin	Raamonderdelen in de geëxporteerde dokumenten
+TBL_XVar	Raamvariant in de geëxporteerde dokumenten
+TBL_ZoneLivraison	Leveringszones
+TBL_conditionlivraison	Leveringskondities
+TBL_paramRapide	Snelle parametrage
+TBL_sitelivraison	Leveringsplaatsen
+TBL_vitrecde	Bestellingslijn beglazingen
+TBL_vitrecrx	Kleinhouten in de glasbestelling
+TBL_vitrehdr	Hoofding glasbestellingen
+VAR_2000	RechterZijde
+VAR_2001	LinkerZijde
+VAR_2002	Geperforeerd
+VAR_2003	NvakkenHorz
+VAR_2004	NvakkenVert
+VAR_2005	Hoek1
+VAR_2006	Hoek2
+VAR_2007	Hoek
+VAR_2008	As
+VAR_2009	Onder
+VAR_2010	Zijde
+VAR_2011	Einde1
+VAR_2012	Einde2
+VAR_2013	Kaderomtrek
+VAR_2014	Midden
+VAR_2015	MiddenX
+VAR_2016	MiddenY
+VAR_2017	Speling
+VAR_2018	Roede
+VAR_2019	Maat
+VAR_2020	Maat1
+VAR_2021	Maat2
+VAR_2022	Kader
+VAR_2023	KaderOnder
+VAR_2024	KaderRechts
+VAR_2025	KaderLinks
+VAR_2026	KaderBoven
+VAR_2027	Rechts
+VAR_2028	Recht
+VAR_2029	Onderaan
+VAR_2030	Bovenaan
+VAR_2031	SpelMakelaar1
+VAR_2032	SpelMakelaar2
+VAR_2033	SpelMakelaar3
+VAR_2034	SpelMakelaar4
+VAR_2035	SpelMakelaar5
+VAR_2036	SpelMakelaar6
+VAR_2037	DikteLamel
+VAR_2038	ProfielDikte
+VAR_2039	BeglazingsDikte
+VAR_2040	Vorm
+VAR_2041	VormKader
+VAR_2042	VormVleugel
+VAR_2043	Links
+VAR_2044	Boven
+VAR_2045	RechtsBoven
+VAR_2046	Hoogte
+VAR_2047	KastHoogte
+VAR_2048	HoogteRechts
+VAR_2049	HoogteLinks
+VAR_2050	LamelHoogte
+VAR_2051	TotaleHoogte
+VAR_2052	LinksBoven
+VAR_2053	Horizontaal
+VAR_2054	Breedte
+VAR_2055	BreedteOnder
+VAR_2056	BovenBreedte
+VAR_2057	BladBreedte
+VAR_2058	TotaleBreedte
+VAR_2059	Lengte
+VAR_2060	LengteBovenRechts
+VAR_2061	LengteBovenLinks
+VAR_2062	AantalLamellen
+VAR_2063	AantalBladen
+VAR_2064	Orientatie
+VAR_2065	Vleugel
+VAR_2066	Opening
+VAR_2067	Parameter
+VAR_2068	Gewicht
+VAR_2069	GewichtM2
+VAR_2070	GewichtBlad
+VAR_2071	RechtsEenDeur
+VAR_2072	LinksEenDeur
+VAR_2073	Positie
+VAR_2074	Hoeveelheid
+VAR_2075	Straal
+VAR_2076	OverLapping
+VAR_2077	Richting
+VAR_2078	Dorpel
+VAR_2079	EnkeleDeur
+VAR_2080	Uitgang
+VAR_2081	Oppervlak
+VAR_2082	Stijl
+VAR_2083	StijlLinkerzijde
+VAR_2084	StijlRechterzijde
+VAR_2085	Verticaal
+VAR_2086	Enkel
+VAR_2087	Samengesteld
+VAR_2088	Bewerking
+VAR_2089	VervangenDoor
+VAR_2090	Verbredingrechts
+VAR_2091	VerbredingLinks
+VAR_2092	Makelaar
+VAR_2093	BezijdeDeur
+VAR_2094	AantalSegmenten
+VAR_2095	AantalBladen
+VAR_2096	DorpelHoogte
+VAR_2097	AantalVleugeldelen
+VAR_2098	Ingebouwd
+VAR_2099	EnkelRolluik
+VAR_2100	MetRolluik
+VAR_2101	VerhogingBoven
+VAR_2102	VerhogingOnder
+VAR_2103	VerhogingLinks
+VAR_2104	VerhogingRechts
+VAR_2105	BeginHoek
+VAR_2106	EindeHoek
+VAR_2107	MaatA
+VAR_2108	MaatB
+VAR_2109	MaatC
+VAR_2110	MaatD
+VAR_2111	MaatE
+VAR_2112	MaatF
+VAR_2113	MaatG
+VAR_2114	MaatH
+VAR_2115	Rond
+VAR_2116	ValsRond
+VAR_2117	Dikte
+VAR_2118	VersterkingVleugel
+VAR_2119	VersterkingKader
+VAR_2120	VersterkingMakelaar
+VAR_2121	HoogteOnder
+VAR_2122	HoogteBoven
+VAR_2123	BreedteRechts
+VAR_2124	BreedteLinks
+VAR_2125	OnderEenDeur
+VAR_2126	AssemblageStijl
+VAR_2127	Assemblage
+VAR_2128	Assemblage1
+VAR_2129	Assemblage2
+VAR_2130	Verstek
+VAR_2131	RechtKortezijde
+VAR_2132	RechtLangezijde
+VAR_2133	ProfielDikte1
+VAR_2134	ProfielDikte2
+VAR_2135	Kamer
+VAR_2136	Kamer1
+VAR_2137	Kamer2
+VAR_2138	ZonderAssemblage
+VAR_2139	MaatHT
+VAR_2140	BreedteHT
+VAR_2141	HoogteHT
+VAR_2142	Bijprofiel
+VAR_2143	ZonderBeglazing
+VAR_2144	VanOnderNiets
+VAR_2145	BezijdeNiets
+VAR_2146	RechtsNiets
+VAR_2147	LinksNiets
+VAR_2148	ExtramaatKader
+VAR_2149	ExtramaatStijl
+VAR_2150	MaatKader
+VAR_2151	BinnenBreedte
+VAR_2152	BinnenHoogte
+VAR_2153	Doorsnede
+VAR_2154	VleugelType
+VAR_2155	Deur
+VAR_2156	Vast
+VAR_2157	Raam
+VAR_2158	Positiedoorsnede
+VAR_2159	PijlValsRond
+VAR_2160	OmgekeerdeRichting
+VAR_2161	Absoluut
+VAR_2162	ArtikelBreedte
+VAR_2163	ArtikelHoogte
+VAR_2164	Vleugelkader
+VAR_2165	SegmentNummer
+VAR_2166	TypeSegment
+VAR_2167	AfmetingSegment
+VAR_2168	Assemblage1Segment
+VAR_2169	Assemblage2Segment
+VAR_2170	TussenSegmenten
+VAR_2171	AantalSegmenten
+VAR_2172	Normaal
+VAR_2173	Omgekeerd
+VAR_2174	SNormaal
+VAR_2175	SOmgekeerd
+VAR_2176	ZNormaal
+VAR_2177	ZOmgekeerd
+VAR_2178	Hoek1Segment
+VAR_2179	Hoek2Segment
+VAR_2180	PositieOnder
+VAR_2181	PositieLinks
+VAR_2182	OverlappingBoven
+VAR_2183	OverlappingOnder
+VAR_2184	OverlappingLinks
+VAR_2185	OverlappingRechts
+VAR_2186	OverlappingLinksBoven
+VAR_2187	OverlappingRechtsBoven
+VAR_2188	AfstandsHouder
+VAR_2189	NBeglazingsDikte
+VAR_2190	MuurBreedte
+VAR_2191	MuurHoogte
+VAR_2192	NietsBoven
+VAR_2193	RechtsSegmentNiets
+VAR_2194	LinksSegmentNiets
+VAR_2195	Korting
+VAR_2196	Korting2
+VAR_2197	KortingRolluik
+VAR_2198	KortingRolluik 2
+VAR_2199	Maker
+VAR_2200	Gamma
+VAR_2201	Dealer
+VAR_2202	JobSortering
+VAR_2203	KleineHoogte
+VAR_2204	GroteHoogte
+VAR_2205	MiddenXKader
+VAR_2206	MiddenYKader
+VAR_2207	OpeningKader
+VAR_2208	StraalKader
+VAR_2209	HoekKaderBegin
+VAR_2210	HoekKaderEinde
+VAR_2211	BinnenDikte
+VAR_2212	BuitenDikte
+VAR_2213	Rechthoekig
+VAR_2214	Trapezium
+VAR_2215	RechthoekigeDriehoek
+VAR_2216	SpitseHoek
+VAR_2217	RechthoekigeTrapezium
+VAR_2218	Rond
+VAR_2219	Boog
+VAR_2220	HalfBoog
+VAR_2221	PlatteBoog
+VAR_2222	PlatteHalfBoog
+VAR_2223	SpitsBoog
+VAR_2224	AfgerondeHoek
+VAR_2225	Driehoek
+VAR_2226	Vierhoek
+VAR_2227	SimpleTrapezium
+VAR_2228	TruncatedCorner2
+VAR_2229	Vijfhoek
+VAR_2230	SpitseTrapezium
+VAR_2231	BasketHandle
+VAR_2232	TruncatedBasketHandle
+VAR_2233	OsseOog
+VAR_2234	InhoudDeur
+VAR_2235	InhoudLeeg
+VAR_2236	NVleugels
+VAR_2237	NStijlen
+VAR_2238	VleugelB
+VAR_2239	VleugelH
+VAR_2240	VleugelX
+VAR_2241	VleugelY
+VAR_2242	CatVleugel
+VAR_2243	CatBeslag
+VAR_2244	Vleugelrichting
+VAR_2245	VleugelNVleugeldelen
+VAR_2246	LengteStijl
+VAR_2247	StijlType
+VAR_2248	StijlX
+VAR_2249	StijlY
+VAR_2250	StijlRichting
+VAR_2251	CatStijl
+VAR_2252	StijlDikte
+VAR_2253	NStijlenKader
+VAR_2254	NStijlenVleugel
+VAR_2255	VleugelNStijlen
+VAR_2256	KaderomtrekStijl
+VAR_2257	NBijprofiel
+VAR_2258	PosBijprofiel
+VAR_2259	TypeBijprofiel
+VAR_2260	LengteBijprofiel
+VAR_2261	CatBijprofiel
+VAR_2262	BijprofielDikte
+VAR_2263	Profiel
+VAR_2264	Deurdorpel
+VAR_2265	Raamdorpel
+VAR_2266	Glas
+VAR_2267	Paneel
+VAR_2268	Sierpaneel
+VAR_2269	SamengesteldPaneel
+VAR_2270	Vleugelnummer
+VAR_2271	VullingsType
+VAR_2272	VleugelBoven
+VAR_2273	VleugelOnder
+VAR_2274	VleugelLinks
+VAR_2275	VleugelRechts
+VAR_2276	StijlBoven
+VAR_2277	StijlOnder
+VAR_2278	StijlLinks
+VAR_2279	StijlRechts
+VAR_2280	VleugeloverlappingB
+VAR_2281	VleugeloverlappingO
+VAR_2282	VleugeloverlappingL
+VAR_2283	VleugeloverlappingR
+VAR_2284	Stijlnummer
+VAR_2285	MuurSituatie
+VAR_2286	HorizontaleAs
+VAR_2287	VerticaleAs
+VAR_2288	CatGlaslat
+VAR_2289	Uitvoeren
+VAR_2290	CatRoede
+VAR_2291	IDLeverancier
+VAR_2292	BewerkingBuitenz
+VAR_2293	TransportOppervlak
+VAR_2294	RaamProduktieLijn
+VAR_2295	RolluikProduktieLijn
+VAR_2296	SorteringKader
+VAR_2297	LeveringRaamProduktie
+VAR_2298	LeveringRolluikProduktie
+VAR_2299	Vorm2
+VAR_2300	VormKader2
+VAR_2301	VormVleugel2
+VAR_2302	DeurdorpelType
+VAR_2303	KaderVorm
+VAR_2304	PrijsType
+VAR_2305	WerkelijkeKosten
+VAR_2306	Commercieel
+VAR_2307	Korting3
+VAR_2308	KortingRolluik 3
+VAR_2309	Auto
+VAR_2310	Speciaal
+VAR_2311	CatBewerking
+VAR_2312	Zichtbaar
+VAR_2313	Selectie
+VAR_2314	Profielnummer
+VAR_2315	AftrekKast
+VAR_2316	GeenAftrekKast
+VAR_2317	RechtseKastverbreding
+VAR_2318	LinkseKastverbreding
+VAR_2319	KaderDikteLinks
+VAR_2320	KaderDikteRechts
+VAR_2321	KaderDikteBoven
+VAR_2322	KaderDikteOnder
+VAR_2323	KaderDikteBovenLinks
+VAR_2324	KaderDikteBovenRechts
+VAR_2325	TypeVulling
+VAR_2326	CatVulling
+VAR_2327	VullingX
+VAR_2328	VullingY
+VAR_2329	VullingsBreedte
+VAR_2330	VullingsHoogte
+VAR_2331	VullingOpening
+VAR_2332	VullingsDikte
+VAR_2333	Vleugelvulling
+VAR_2334	Avullingen
+VAR_2335	Vullingsnummer
+VAR_2336	AsInKader
+VAR_2337	Buitenzicht
+VAR_2338	Binnenzicht
+VAR_2339	Zicht
+VAR_2340	AantalRolluikBladen
+VAR_2341	VleugelStijlLinks
+VAR_2342	VleugelStijlRechts
+VAR_2343	VleugelStijlBoven
+VAR_2344	VleugelStijlBeneden
+VAR_2345	VullingBeneden
+VAR_2346	VullingBovenaan
+VAR_2347	VullingLinkerzijde
+VAR_2348	VullingRechterzijde
+VAR_2349	VullingDikteBoven
+VAR_2350	VullingDikteBeneden
+VAR_2351	VullingDikteLinks
+VAR_2352	VullingDikteRechts
+VAR_2353	VentilatorPositie
+VAR_2354	CompleteKorfboog3
+VAR_2355	HalveKorfboog3
+VAR_2356	KorfBoog5
+VAR_2357	CompleteKorfboog5
+VAR_2358	HalfKorfboog5
+VAR_2359	NBogen
+VAR_2360	Korfboog
+VAR_2361	StijldikteOnder
+VAR_2362	StijldikteBoven
+VAR_2363	StijldikteLinks
+VAR_2364	StijldikteRechts
+VAR_2365	StijlLinksStijl
+VAR_2366	StijlRechtsStijl
+VAR_2367	StijlBovenStijl
+VAR_2368	StijlOnderStijl
+VAR_2369	TruncatedBow5
+VAR_2370	OpeningBreedte
+VAR_2371	OpeningHoogte
+VAR_2372	Zaagnummer
+VAR_2373	LeveringsVoorbereiding
+VAR_2374	EenvWerkPlan
+VAR_2375	KlantDocument
+VAR_2376	KwaliteitsControle
+VAR_2377	Coefficient
+VAR_2378	Valid
+VAR_2379	SnelleInvoer
+VAR_2380	GlasKorting
+VAR_2381	GlasKorting2
+VAR_2382	GlasKorting3
+VAR_2384	Afdruk
+VAR_2385	@Zwart
+VAR_2386	@Blauw
+VAR_2387	@Groen
+VAR_2388	@Cyaan
+VAR_2389	@Rood
+VAR_2390	@Magenta
+VAR_2391	@Geel
+VAR_2392	@Grijs
+VAR_2393	@Wit
+VAR_2394	VraagTekst
+VAR_2395	VraagAchtergrond
+VAR_2396	VullingsBreedteHT
+VAR_2397	VullingsHoogteHT
+VAR_2398	DoorlopendBoven
+VAR_2399	DoorlopendBeneden
+VAR_2400	DoorlopendLinks
+VAR_2401	DoorlopendRechts
+VAR_2402	StijlDoorlopendBoven
+VAR_2403	StijlDoorlopendBeneden
+VAR_2404	StijlDoorlopendLinks
+VAR_2405	StijlDoorlopendRechts
+VAR_2406	StijlIndex1
+VAR_2407	StijlIndex2
+VAR_2408	Vandaag
+VAR_2409	InvoerDatum
+VAR_2410	VullingsVorm
+VAR_2411	KopieerVorm
+VAR_2412	VerkleinVorm
+VAR_2413	VergrootVorm
+VAR_2414	VerdeelVormHorizontaal
+VAR_2415	VerdeelVormVerticaal
+VAR_2416	AanmaakVorm
+VAR_2417	VormType
+VAR_2418	RichtingVorm
+VAR_2419	VormMaatA
+VAR_2420	VormMaatB
+VAR_2421	VormMaatC
+VAR_2422	VormMaatD
+VAR_2423	VormMaatE
+VAR_2424	VormMaatF
+VAR_2425	VormMaatG
+VAR_2426	VormMaatH
+VAR_2427	VormMaatI
+VAR_2428	VormMaatJ
+VAR_2429	VormMaatK
+VAR_2430	VormMaatL
+VAR_2431	ValseBoogType
+VAR_2432	AftrekBijprofiel
+VAR_2433	AanslagGlas
+VAR_2434	VullingsVorm
+VAR_2435	KleurKader
+VAR_2436	KleurVleugel
+VAR_2437	KleurBeslag
+VAR_2438	InMuurOnder
+VAR_2439	InMuurBoven
+VAR_2440	InMuurLinks
+VAR_2441	InMuurRechts
+VAR_2442	Arbeid
+VAR_2443	SegmentX0
+VAR_2444	SegmentX1
+VAR_2445	SegmentY0
+VAR_2446	SegmentY1
+VAR_2447	ValsRond
+VAR_2448	DikteMinProfiel
+VAR_2449	DikteLinksProfiel
+VAR_2450	DikteRechtsProfiel
+VAR_2451	ExtraHoogteOpdek
+VAR_2452	Samengesteldraam
+VAR_2453	ElementSamenstelling
+VAR_2454	SamenstellingsStructuur
+VAR_2455	ZonderSamenstelling
+VAR_2456	WindLastNorm
+VAR_2457	GlasNorm
+VAR_2458	Gebouwhoogte
+VAR_2459	LinkerSegmentVleugel
+VAR_2460	RechterSegmentVleugel
+VAR_2461	BovenSegmentVleugel
+VAR_2462	OnderSegmentVleugel
+VAR_2463	MaatI
+VAR_2464	MaatJ
+VAR_2465	MaatK
+VAR_2466	MaatL
+VAR_2467	VullingsLeverancierID
+VAR_2468	SpelingVullingOnder
+VAR_2469	SpelingVullingBoven
+VAR_2470	SpelingVullingLinks
+VAR_2471	SpelingVullingRechts
+VAR_2472	Leveringsdatum
+VAR_2473	BreedteRoede
+VAR_2474	ZichtBijTekening
+VAR_2475	BeideZichten
+VAR_2476	AsStijl
+VAR_2477	AsBeginStijl
+VAR_2478	VleugelTussenAsVak1
+VAR_2479	VleugelTussenAsVak2
+VAR_2480	VleugelTussenAsVak3
+VAR_2481	VleugelTussenAsVak4
+VAR_2482	VleugelTussenAsVak5
+VAR_2483	VleugelTussenAsVak6
+VAR_2484	VleugelBreedteTabel
+VAR_2485	VleugelHoogteTabel
+VAR_2486	NummerBiblio
+VAR_2487	NummerInternBiblio
+VAR_2488	CommercieelGebruik
+VAR_2489	VullingCatKruis
+VAR_2490	VullingKruisHvelden
+VAR_2491	VullingKruisVvelden
+VAR_2492	AftrekKasthoogte
+VAR_2493	TotaalDikte
+VAR_2494	MuurBoven
+VAR_2495	MuurOnder
+VAR_2496	MuurLinks
+VAR_2497	MuurRechts
+VAR_2498	OverlappingKast
+VAR_2499	LengteStijlBR
+VAR_2500	LengteStijlBL
+VAR_2501	VullingBovenStijl
+VAR_2502	VullingOnderStijl
+VAR_2503	VullingLinksStijl
+VAR_2504	VullingRechtsStijl
+VAR_2505	VullingsHoogteDagmaat
+VAR_2506	VullingsBreedteDagmaat
+VAR_2507	EDIcrxCode
+VAR_2508	X0
+VAR_2509	X1
+VAR_2510	Y0
+VAR_2511	Y1
+VAR_2512	T
+VAR_2513	B
+VAR_2514	H
+VAR_2515	X
+VAR_2516	Y
+VAR_2517	P1
+VAR_2518	P2
+VAR_2519	P3
+VAR_2520	X2
+VAR_2521	WinPro
+VAR_2522	Linkerkant
+VAR_2523	Rechterkant
+VAR_2524	Linkerbovenkant
+VAR_2525	Rechterbovenkant
+VAR_2526	Bovenkant
+VAR_2527	Onderkant
+VAR_2528	RAL
+VAR_2529	Kaderassemblage1
+VAR_2530	Kaderassemblage2
+VAR_2531	BinnenkleurKader
+VAR_2532	BinnenkleurVleugel
+VAR_2533	Vraag
+VAR_2534	Fabrieksafmeting
+VAR_2535	Dagmaten
+VAR_2536	Invoermode
+VAR_2537	Glassysteem
+VAR_2538	VullingNRoedenH
+VAR_2539	VullingNRoedenV
+VAR_2540	VullingNRoeden
+VAR_2541	Roedenummer
+VAR_2542	VarLin
+VAR_2543	Tekstkleur
+VAR_2544	AchtergrondKleur
+VAR_2545	VullingGewicht
+VAR_2546	CatKleurAfst
+VAR_2547	RefVleugelHoogte
+VAR_2548	RefVleugelBreedte
+VAR_2549	AsmaatVleugeldagmaat
+VAR_2550	ParamBeglazing
+VAR_2551	VarSim
+VAR_2552	BeglazingsZicht
+VAR_2553	BeglazingsCat
+VAR_2554	KaderRichting
+VAR_2555	BinnenKleurBeslag
+VAR_2556	VarLin2
+VAR_2557	VarLin3
+VAR_2558	VarLin4
+VAR_2559	VarLin5
+VAR_2560	VarLin6
+VAR_2561	LBinL
+VAR_2562	LBinR
+VAR_2563	LBuiL
+VAR_2564	LBuiR
+VAR_2565	SZAanslag
+VAR_2566	KZAanslag
+VAR_2567	HoogteLeegDeelLinks
+VAR_2568	HoogteLeegDeelRechts
+WPR_ACTIVE	Aktief
+WPR_BUYING_PRICE_CONTROL	Aankoopprijscontrole
+WPR_CANCEL	&Cancel
+WPR_CLEARDESIGNERCONTENT	Wissen designerinhoud
+WPR_CODE	Code
+WPR_CODECANNOTBEEMPTY	Code kan niet leeg zijn
+WPR_COMPLETE	Volledig
+WPR_CONFIRMATION	Bevestiging
+WPR_CONNECTED	Verbonden
+WPR_COPIES	kopies
+WPR_COPY	ko&pie
+WPR_COPYREPORT	kopie rapport
+WPR_COPYTITLE	kopie
+WPR_COST_PRICE_CONTROL	Kostprijscontrole
+WPR_CREATE	&Nieuw
+WPR_CUSTOMER_ORDER_FORM	Formulier klantbestelling
+WPR_DATABASENAME	Databasenaam
+WPR_DATASOURCE	Databron
+WPR_DBQUERY	Databases en queries
+WPR_DELETE	&Wis
+WPR_DELETEREPORT	Wis rapport ?
+WPR_DELETE_DBQUERY	Wis een database/query
+WPR_DELIVERY_NOTE	Leveringsnota
+WPR_DELIVERY_NOTE_PREPARATION	Voorbereiding levering
+WPR_DESCRIPTION	Beschrijving
+WPR_DESIGNER	Designer
+WPR_DESIGNING	Designing
+WPR_DETAILED_FACTORY_DOCUMENT	Gedetailleerd werkplaatsplan
+WPR_DETAILED_QUOTATION	Gedetailleerde offerte
+WPR_DOCTYPE	Dokument kind
+WPR_DOCUMENT	Dokument
+WPR_DOYOUWANTTOCANCEL	Wilt u verlaten ?
+WPR_DRAWING	Tekening
+WPR_DRAWING0	Geen tekening
+WPR_DRAWING1	Ramen
+WPR_DRAWING2	Artikels
+WPR_DRAWING3	Ramen en artikels
+WPR_EDIT	&Toevoegen
+WPR_EXPORT	E&xport
+WPR_EXPORTATION	Export
+WPR_FILE	Bestand
+WPR_FILEWITHOUTCOTATIONS	Bestand zonder cotations
+WPR_FIND	&Zoek
+WPR_GLASS_ORDER_FORM	Formulier glasbestelling
+WPR_IMPORT	Imp&ort
+WPR_INSPECTOR	Inspector
+WPR_INVOICE	Factuur
+WPR_LANGUAGE	Taal
+WPR_LANGUAGES	Talen
+WPR_LOGINPROMPT	Login prompt
+WPR_MEMO	Memo
+WPR_MEMOWITHOUTCOTATIONS	Memo zonder cotations
+WPR_NAME	Naam
+WPR_NAMECANNOTBEEMPTY	Naam kan niet leeg zijn !
+WPR_NEWCODE	Nieuwe code
+WPR_NEW_DB	Nieuwe database
+WPR_NEW_QUERY	Nieuwe query
+WPR_NORECORD	Geen record
+WPR_OK	&Ok
+WPR_OPTIMIZATION_LABELS	Optimalisatie etiketten
+WPR_OPTIMIZATION_LIST	Optimalisatielijst
+WPR_ORDER_FORM	Bestelling
+WPR_PLEASE_WAIT	Even geduld aub...
+WPR_PREVIEW	Afdrukvoorbeeld
+WPR_PRINT	&Print
+WPR_PRINTMODE	Output mode
+WPR_PRINTMODE0	0 : niet afdrukken
+WPR_PRINTMODE1	1 : WinPro standaard afdruk
+WPR_PRINTMODE2	2 : Data export
+WPR_PRINTMODE3	3 : 1 + 2
+WPR_PRINTMODE4	4 : WPReport afdruk (met data export + wissen van data)
+WPR_PRINTMODE5	5 : 4 + 1
+WPR_PRINTMODE6	6 : WPReport afdruk (met data export)
+WPR_PRINTMODE7	7 : 6 + 1
+WPR_PRINTMODE8	8 : WPReport afdruk
+WPR_PRODUCTION_SPOT	Productie werkplaats
+WPR_PROFILE_LOADING_LIST	Lijst profiellading
+WPR_QUALITY_CONTROL	Quality control
+WPR_QUIT	&Verlaten
+WPR_REFRESH	Vernieuwen
+WPR_REMOTEDATABASE	DNS ODBC
+WPR_REPLACEREPORT	Vervang het rapport ?
+WPR_REPORT	rapport 
+WPR_REPORTALREADYEXISTS	rapport bestaat reeds !
+WPR_REPORTDOESNOTEXIST	rapport bestaat niet !
+WPR_REPORTNOTFOUND	rapport niet gevonden !
+WPR_REPORTS	rapporten 
+WPR_RESULT	Resultaat
+WPR_SAVE	&Opslaan
+WPR_SAVEREPORT	Rapport opslaan ?
+WPR_SCRIPT	Script
+WPR_SELLING_PRICE_CONTROL	Verkoopsprijscontrole
+WPR_SETUP	Setup
+WPR_SIMPLFIED_FACTORY_DOCUMENT	Vereenvoudigd werkplaatsplan
+WPR_SIMPLIFIED_QUOTATION	Vereenvoudigde offerte
+WPR_SIMPLIFIED_QUOTATION_NO_DIM	Vereenvoudigd offerte zonder afmetingen
+WPR_STOCK_USAGE	Stockverbruik
+WPR_SUPPLIER_ORDER_FORM	Leveranciersbestelling
+WPR_TESTQUERY	Test query
+WPR_TITLE	Titel
+XLS_Add Language	Nieuwe &taal
+XLS_Add String	Een String toevoegen
+XLS_Cancel	Verlaten
+XLS_Chaines vides en	Lege strings in:
+XLS_Chercher	Zoek
+XLS_Code	Code
+XLS_Delete	Verwijderen
+XLS_Description	Beschrijving
+XLS_Duplicate	Kopiëren
+XLS_Fichier	&Bestand
+XLS_Identifier	Identificatie
+XLS_Ignorer Maj Min	Negeer hoofd-en kleine letters
+XLS_Lang Exists	Deze taalcode bestaat reeds
+XLS_Langue	Taal
+XLS_Langue Base	vervangtaal
+XLS_Langue affichage	Taalkeuze
+XLS_Langues	Talen
+XLS_New Lang	Nieuwe taal
+XLS_New String	Nieuwe String
+XLS_OK	OK
+XLS_Quitter	Verlaten
+XLS_Sauver?	Opslaan?
+XLS_Save	&Opslaan
+XLS_String Count	String count: %d
+XLS_Texte a rechercher	Te zoeken tekst
+XLS_Texte entier	Volledige tekst
+XLS_Toutes	Alle
+XLS_Traduction	Vertaling
+XLS_Traductions	Vertalingen
+XLS_Translate strings	WinPro strings vertaalmodule
+XLS_Trouver	&Zoek
+XLS_Trouver suivant	Zoek volgende

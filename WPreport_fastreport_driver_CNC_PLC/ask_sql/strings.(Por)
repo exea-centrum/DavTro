@@ -1,0 +1,3803 @@
+CM_ACCESSOIRES	Acessórios 
+CM_AERATEURS	Ventiladores
+CM_AJOUTCOULEUR	Duplicar uma cor
+CM_ALIGN_CENTER	Alinhar ao centro
+CM_ALIGN_LEFT	Alinhar a esquerda
+CM_ALIGN_RIGHT	Alinhar a direita
+CM_APPROBATION_DEVIS	Aprovar orçamentos importados
+CM_APPROBCONFIRM	Aprovação da confirmação
+CM_ARCHIVAGE	&Arquivo
+CM_ARCHIVAGE_ARMOIRE	Arquivo provisório
+CM_ARCHIVAGE_PALETTES	Arquivo
+CM_ARRANGEICONS	Ordernar icones
+CM_ARTICLEPOSE	Artigos de instalação
+CM_ARTICLES	&Artigos
+CM_AUGMENTER_PA	Aumentar os preços de compra
+CM_AVALFIN	Autorização financeira
+CM_BIBLIO	Bibliotecas
+CM_BORDERAULIVRAISONPARTILLE	Guia de entrega parcial
+CM_BORDEREAULIVRAISON	Guia de entrega
+CM_BORDEREAULIVRAISON2	R&eimpressão das guias de entrega
+CM_BORDLIVR	Guia de preparação de entrega
+CM_BORDLIVR2	Reimpressão de guias de preparação de entrega
+CM_BRUKOR	Facturação &Brukor
+CM_CADRES	Quadros
+CM_CAISSONS	Cai&xotes
+CM_CANCEL	Anular\tESC
+CM_CATART	Cate&gorias de artigos
+CM_CATCLI	Categ&orias de clientes
+CM_CDEVITRAGE	Encomenda de vidros
+CM_CDEVITRAGE2	&Reimpressão da encomenda de vidros
+CM_CHANGEUSER	&Outro utilizador
+CM_CHARGEMENTPALETTE	Carregamento
+CM_CHAUFFEURS	Condutores
+CM_CINTRE	Falsas curvas
+CM_CLIENTS	&Clientes
+CM_CLOSECHILDREN	Fechar tudo
+CM_COEFF	Coefficientes de preço
+CM_COLIS	Tipo de pacote
+CM_COMMANDE	Encomendas e orçamentos
+CM_COMMANDESTOCK	Criação e modificação de encomendas
+CM_COMPTAGE_UNITES	Contagem das unidades
+CM_CONDITIONSLIVRAISON	Empacotamento
+CM_CONDITIONSTRANSPORT	Condições de transporte
+CM_CONFIRMATIONSTOCK	Confirmações de encomenda
+CM_CONSOMENSUELLE	Impressão dos consumos mensais
+CM_CONSO_OPTIM	Impressão dos consumos por lote de optimização
+CM_CONTROLECHAINE	Controlo da cadeia
+CM_CONTROLEQUOTIDIEN	Controlo quotidiano
+CM_CONTROLE_ACCESS	Controlo pinázios, ventiladores, acessórios
+CM_CONTROLE_CHASSIS	Controlo caixilho
+CM_CONTROLE_LIVRAISON	Controlo das entregas
+CM_CONTROLE_VOLETS	Controlo estores
+CM_COPY	Copiar\tF7
+CM_CORRECTIONSTOCK	Correcções (novas existências)
+CM_CORRECTIONSTOCK2	Correcções (diferença) 
+CM_COULEURS	&Cores
+CM_CROISILLONS	Pinázios
+CM_DB_COMMERCIALE	Base de dados comercial
+CM_DB_DEVIS	Base de dados orçamentos
+CM_DELETE	Suprimir
+CM_DEPOTPALETTE	Em depósito
+CM_DESSIN	&Desenhos WinPro
+CM_DESSIN_MACONNERIE_ENGELS	Desenho maçonaria
+CM_DEVIS	Impressão dos orçamentos
+CM_DEVISES	Divisas
+CM_DISTRIBUTCOMMANDE	Distribuir encomendas
+CM_DORMANTS	Aros
+CM_DXF	Desenhos D&XF
+CM_EDIT	Modificar\tF3
+CM_EDITCOPY	Copiar\tCtrl+Ins
+CM_EDITCUT	Cortar\tShift+Del
+CM_EDITDELETE	Destruir\tDel
+CM_EDITPASTE	Co&lar\tShift+Ins
+CM_EDITUNDO	Anular\tAlt+BkSp
+CM_EMPLACEMENTPRINCIPAL	Localização das existências principais
+CM_EMPLACEMENTS	Localizações
+CM_ENCOURSCHAINE	Encomendas em curso de produção
+CM_ENCOURS_CLIENT	Em curso clientes
+CM_ENCOURS_SYSTEME	Em curso  fabricação, por sistema
+CM_ENCOURS_SYSTEME_DEBUT	Por data de início de fabricação
+CM_ENCOURS_SYSTEME_DLIVRAISON	Por data de entrega
+CM_ENTREESORTIE	Entradas/saídas directas
+CM_ENVOICONFIRM	Envío das confirmações
+CM_EQUIPE	E&quipas de instalação/entrega
+CM_ETATCHASSIS	Modificar o estado de um caixilho
+CM_ETATCOMMANDE	Modificar o estado de uma encomenda
+CM_ETIQUETTES	Etiquetas de arquivação
+CM_EXPORT	Exportar\t^F5
+CM_EXPORTTECHNIQUEALF	Exportação técnica para Alf
+CM_EXPORTTECHNIQUEBREMAUD	Exportação técnica para Brémaud
+CM_FACTURATIONMENSUELLE	Facturação mensal
+CM_FACTURATIONMENSUELLE2	Reimpressão de uma factura mensal
+CM_FACTURES	&Facturas
+CM_FACTURES2	Reimpressão de facturas
+CM_FACTURES_PARTIELLE	Facturação parcial
+CM_FACTURES_SIMPLES	Facturas simples e notas de crédito
+CM_FIND	Procurar nas fórmulas
+CM_FONT	Jogo de letras
+CM_FOURNISSEURS	&Fornecedores
+CM_GESTIONCHUTES	Gestão dos lotes de sobras
+CM_GRILLEPREVISIONSTOCK	Impressão tabela existências previsionais
+CM_GROUPEUSINAGE	Grupos de mecanizados
+CM_HELPABOUT	A propósito de WinPro
+CM_HELP_INDEX	Ajuda
+CM_HISTODEVISE	&Historial das divisas
+CM_HISTORIQUESTOCK	Historial movimentos de exitências
+CM_IMPORT	Importar\t^F4
+CM_IMPORTTECHNIQUEALF	Importação técnica que vem de Alf
+CM_IMPORTTECHNIQUEBREMAUD	Importação técnica que vem de Brémaud
+CM_IMPORT_PLANNING	Importação do plano
+CM_IMPRCONFIRM	Impressão das confirmações
+CM_IMPRESSIONCHASSISSTD	Impressão dos caixilhos estandartes
+CM_IMPRESSION_LOT	Impressão dos documentos do lote
+CM_INDENT_LEFT	Reduzir a margem esquerda
+CM_INDENT_RIGHT	Aumentar a margem esquerda
+CM_INFOCLI	Disquete INFOCLI
+CM_INFO_CLI	Informações clientes para módulo orçamento
+CM_INVENTAIREGENERAL	Impressão do inventário geral
+CM_ITALICS	Itálica
+CM_JOUR_FERMETURE	Dias que fecha
+CM_LANCERPRODUCTION	Posta em produção
+CM_LARGER	Aumentar
+CM_LIAISONCOMPTABLE	Conexão contabilística
+CM_LICENCE	Licença
+CM_LIGNE_PRODUCTION	Linhas de produção
+CM_LINEAIRECAMION	Superfície carregamento camião
+CM_LISTEACCESSOIRES	Acessórios 
+CM_LISTEARTICLE	Artigos (simplificado) 
+CM_LISTEARTICLEDETAIL	Artigos (detalhado)
+CM_LISTECATEGORIEARTICLE	Categorias de artigos
+CM_LISTECATEGORIECLIENT	Categoria de c&lientes
+CM_LISTECHUTES	Sobras perfis 
+CM_LISTECLIENTS	Clie&ntes
+CM_LISTECOEFFICIENT	&Coeficientes
+CM_LISTEDESSINS	Desenhos
+CM_LISTEDEVISES	Divisas
+CM_LISTEDORMANTS	A&ros
+CM_LISTEEMPLACEMENT	Localizações 
+CM_LISTEFOURNISSEUR	&Fornecedores
+CM_LISTEINVENTAIREEMPLACEMENT	Impressão do inventário por localização
+CM_LISTEOUVRANTS	Fol&has
+CM_LISTEPANNEAUX	Pai&néis
+CM_LISTEPANNEAUXDECORATIFS	Painéis decorativos
+CM_LISTEPROFILS	Perf&is
+CM_LISTEQUINCAILLERIES	Ferragens
+CM_LISTESYMBOLES	Mecanizados
+CM_LISTETRAVERSES	&Travessas
+CM_LISTEVITRAGES	&Vidros
+CM_LISTE_PALETTES_DISPONIBLES	Páletes disponiveis
+CM_LISTE_PALETTES_NON_DISPONIBLES	Páletes não disponiveis
+CM_LST_CMP_DC	Lista comparativa Orçamentos/Encomendas
+CM_MESSAGES	Mensagens
+CM_MISEENATTENTE	Posta em espera
+CM_MODIFCONFIRM	Confirmações a modificar 
+CM_MODIFIERCODE	Mo&dificar a chave de um registro
+CM_MODIF_LIVRAISON	Modifição das entregas
+CM_MO_NEGOCE	Mão-de-obra negócio
+CM_NEW	Criar\tF6
+CM_NONRECT	Saídas da fábrica não rectângulares
+CM_NORMEVENT	Norma de vento
+CM_NORMEVERRE	Norma de vidro
+CM_OPTIMISER	Optimização
+CM_OPTIMISER_PROF_ACCESS	Optimização dos perfis e acessórios
+CM_OPTIMISER_TRAVERSES	Optimização das travessas
+CM_OUVRANTS	Fol&has
+CM_PACKAGE	Gestão dos pacotes
+CM_PAIEMENT	&Modos de pagamento
+CM_PALETTES	Páletes
+CM_PANNEAUX	Painéis
+CM_PANNEAUXDECORATIFS	Painéis decorativos
+CM_PANNEAUXFABRIQUES	Painéis fabricados
+CM_PARAMCOMCLI	Preferências ...
+CM_PERIMETRES	&Perímetros
+CM_PLANENLEVEMENT	Lista de retiradas
+CM_PLANIFIER	Datas de produção
+CM_PLANLIVRAISON	Lista de &entregas
+CM_PLANLIVRAISON2	Plano de entregas, classificação por condutor
+CM_PLANNING_FABRICATION	Plano fabricação
+CM_PLANPOSE	Lista de instalações
+CM_PLANSORTIE	Lista das &saídas
+CM_PLANSORTIEZONE	Lista das saídas por zona de entrega
+CM_POSTETRAVAIL	Postos de mão-de-obra
+CM_POSTE_ATELIER	Postos de fábrica
+CM_PREPAOPTIMI	Preparar um lote
+CM_PREVISIONSTOCK	Impressão existências previsionais
+CM_PRINT	Imprimir\nF11
+CM_PRIX_TARIF	Copiar os preços tarifa
+CM_PRODUCTIONCOST	&Produção
+CM_PROFILS	Per&fis
+CM_PROPOSITIONSTOCK	Proposições de encomenda
+CM_PROSPECTS	Clientes potenciais
+CM_QUERY_280	&Confirmações enviadas
+CM_QUERY_CDE	Procura de encomendas
+CM_QUERY_ETAT	Estado dos caixilhos
+CM_QUINCAILLERIE	Ferragem
+CM_QUIT	&Deixar\tAlt+F4
+CM_RAPPELSTOCK	Lembrete aos fornecedores
+CM_RAPPEL_PALETTES	Lembrete aos clientes
+CM_RAZ_STOCK	Diminuição a zero das existências
+CM_REACTIVATIONCONFIRM	Reativação
+CM_RECEPTIONSTOCK	Recepção de encomendas
+CM_REIMPRCONFIRM	Reimpressão das confirmações
+CM_REIMPRESSIONOPTIM	Reimpressão da optimização
+CM_REINDEX	&Reindexar
+CM_REINSERTIONCHAINE	Reinserção sobre cadeia
+CM_REOPTIMISER	Novo cálculo da optimização
+CM_REOPTIMISER_TRAVERSES	Novo cálculo da optimização das travessas
+CM_REPBORDERAULIVRAISONPARTILLE	Reimpressão das guias de entrega parcial
+CM_REPFACTURES_PARTIELLE	Reimpressão de factura parcial
+CM_REPORT	Criação
+CM_REPORTTYPE	Documentos modelos
+CM_REPRCONFIRM	Impressão confirmações modificadas
+CM_REPRESENTANT	&Representantes
+CM_RETOURPALETTE	Retorno
+CM_REVALIDCONFIRM	Revalidação confirmações modificadas
+CM_RINDENT_LEFT	Aumentar a margem direita
+CM_RINDENT_RIGHT	Reduzir a margem direita
+CM_ROUTINES	Rotinas
+CM_SAVE	Salvar\tF5
+CM_SCIE	Serras
+CM_SEEK	Procurar\tF4
+CM_SEL_SYSTEME	&Selecção systemas
+CM_SMALLER	Reduzir
+CM_SOCIETE	Coordenadas Sociedade
+CM_STRIKEOUT	Barrado
+CM_SYSTEMES	&Sistemas
+CM_SYSTEME_PRINCIPAL	S&istema principal
+CM_TARIFS	Caixilhos
+CM_TARIFVOLET	&Estores
+CM_TEXT_CQ	Texto periódico da ficha controlo qualidade
+CM_TOLE	Chapa a dobrar
+CM_TRANSFERTSTOCK	Transferências
+CM_TRANSLATE	Traduções
+CM_TRAVERSES	&Travessas
+CM_TRI_FIN_CHAINE	Ordem de classificação em final de cadeia
+CM_TVA	Ta&xa de IVA
+CM_TYPETRANSPORT	Tipos de transporte
+CM_UNDERLINE	Sublinhar
+CM_UPDATE_KOMMERLING	Actualização Kömmerling
+CM_USERS	&Utilizadores
+CM_USINAGE	Mecanizados
+CM_VALIDCONFIRM	Validação das confirmações
+CM_VALORISATION_ENCOURS	Valorização do em curso
+CM_VERIFATELIER	Verificação encomendas terminadas na fábrica
+CM_VITRAGEPRINCIPAL	Suplemento perfis separadores de cor
+CM_VITRAGES	&Vidros
+CM_WORKCOST	&Mão-de-obra
+CM_ZONELIVRAISON	&Zonas de entrega
+DOC_%R	%D
+DOC_ACC	Ac.
+DOC_ACCESSOIRES	Acessórios
+DOC_ACCESSOIRE_CHASSIS	Acessório caixilhos
+DOC_ADRESSELIVRAISON	Morada de entrega
+DOC_AERATEUR	Ventilação
+DOC_AJOURE	Perfurado
+DOC_ANGLES	Ângulos
+DOC_ARTICLES	Artigos
+DOC_ASSEMBLAGE	Acoplamento
+DOC_A_DROITE	a direita
+DOC_A_GAUCHE	a esquerda
+DOC_BONCOMMANDE	Formulário de requisição
+DOC_CAISSON	Caixão
+DOC_CDERECUECONFORME	Encomenda recebida conforme:\nPara acordo,
+DOC_CDERECUELE	Essa encomenda foi recebida o    /    /       a      :
+DOC_CDE_AVALISEE	Encomenda autorizada
+DOC_CDE_A_MODIFIER	Encomenda a modificar
+DOC_CDE_ENCODEE	Encomenda codificada
+DOC_CDE_EN_ATTENTE	Encomenda em espera
+DOC_CDE_FABRIQUEE	Fabricação terminada
+DOC_CHA	Caix.
+DOC_CHASSIS	Caixilho
+DOC_CHASSISNO	Caixilho n°
+DOC_CHASSISNONREALISABLE	Este caixilho não é realizável
+DOC_CHUTESRAL	Sobras RAL
+DOC_CLIENT	Cliente
+DOC_CLR	Cor
+DOC_CODE	Código
+DOC_COMMANDE	Encomenda
+DOC_COMMANDENO	Encomenda nº
+DOC_COMMANDEVITRAGE	Encomenda de vidro
+DOC_COMMENTAIRE	Commentário
+DOC_COMPRIS	Deduzido
+DOC_CONFIRMATION	Confirmação
+DOC_CONFIRM_P	O cliente aceita sim reserva as condições gerais de venda, cujo artículo 11 competência do Tribunal de Neufchâteau (Bélgica)
+DOC_CONF_APPROUVEE	Confirmação aprovada
+DOC_CONF_ENVOYEE	Confirmação enviada
+DOC_CONTROLEPRIXACHAT	Controlo do preço de compra
+DOC_CONTROLEPRIXREVIENT	Controlo do preço de custo
+DOC_CONTROLEPRIXVENTE	Controlo do preço de venda
+DOC_CONTROLEQUALITE	Controlo qualidade
+DOC_COULEUR	Cor
+DOC_COULEUR_EXT	Cor ext.
+DOC_COULEUR_INT	Cor interior
+DOC_COUPLEUR_S_	Perfil(is) de união
+DOC_CROISILLON	Quadrícula
+DOC_CROISILLONS	Quadrículas
+DOC_DANS_(x semaines)	dentro de
+DOC_DATE	Data
+DOC_DATECOMMANDE	Data encomenda
+DOC_DATELIVRAISON	Data de entrega
+DOC_DELAI_JOURS_COMMANDE_SOIT_LE	Prazo de pagamento #1# dias depois encomenda seja o #2#.
+DOC_DELAI_JOURS_FIN_MOIS_SOIT_LE	Prazo de pagamento #1# dias fim do mes seja o #2#.
+DOC_DELAI_JOURS_SOIT_LE	Prazo de pagamento #1# dias seja o #2#.
+DOC_DELIVERY_NOTE_NUM	Núm. guia de entrega
+DOC_DELIVERY_NOTE_RECAP_TITLE	Guia de entrega recapitulativa
+DOC_DEMANDEPRIX	Pedido de preço
+DOC_DESCRIPTION	Descrição
+DOC_DESCRIPTIONCHANGEMENT	Descrição dos câmbios
+DOC_DEVIS	Orçamento
+DOC_DIMENSION	Dimensão
+DOC_DIMENSIONDORMANT	Dimensão aro
+DOC_DIMENSIONFABRICATION	Dimensões fabricação
+DOC_DIMENSIONHORSTOUT	Dimensões totais
+DOC_DIMENSIONS	Dimensões
+DOC_DIMTABLEAU	Dim tabela
+DOC_DISCOUNT_AMNT	Importe desconto
+DOC_DONNEUR_DORDRE	Mandante:
+DOC_DORMANT	Aro
+DOC_DROITE	Direita
+DOC_ENCODEPAR	Codificado por #1#
+DOC_ENLEVEMENT	Retirada
+DOC_ENLEVEMENTCOMMANDE	A retirada de esta encomenda se efectuará #4# #1# #5# se a confirmação nos é retornada imediatamente com acordo.
+DOC_ENROULEMENT	Enrolamento
+DOC_ENTRAXEBASHAUT	Distância entre eixos da parte baixa até em cima
+DOC_ENTRAXEGAUCHEDROITE	Distâcias entre eixos da esquerda até a direita:
+DOC_EN_BAS	em baixo
+DOC_EN_HAUT	em cima
+DOC_EN_PRODUCTION	Em produção
+DOC_EQUIV_EURO	Equivalente em €
+DOC_ERREUR	Erro
+DOC_ESCOMPTE_PAIEMENT_COMPTANT	Desconto #1#% para pagamento pronto: #2#
+DOC_ESCOMPTE_PAIEMENT_JOURS	Desconto #1#% para pagamento dentre de #2# dias: #3#
+DOC_ETATCOMMANDE	Encomenda
+DOC_EXTERIEUR	Exterior
+DOC_EXT_	ext.
+DOC_FACTURE	Factura
+DOC_FACTURE_NO	Factura n° #1# do #2#
+DOC_FAUXCINTRAGE	Falsa curva
+DOC_FAX	Fax
+DOC_FOURNITURECOMMANDE	A entrega de esta encomenda se efectuará #4# #1# #5# se a confirmação nos é retornada imediatamente com acordo.
+DOC_FOURNITURESSUPPLEMENTAIRESARTICLES	Fornecimentos suplementarios: artigos
+DOC_FOURNITURESSUPPLEMENTAIRESPROFILS	Fornecimentos suplementarios: perfis
+DOC_FOURNITURESSUPPLEMENTAIRESTOLES	Fornecimentos suplementares: chapas dobradas
+DOC_FRAISLIVRAISON	Portes de entrega
+DOC_FRAISPORT	Portes
+DOC_GAUCHE	Esquerda
+DOC_GROSS_AMNT	Importe bruto
+DOC_HAUT	Alto
+DOC_HAUTDROITE	Cima dereita
+DOC_HAUTEUR	Altura
+DOC_HAUTGAUCHE	Cima esquerda
+DOC_HORS_GARANTIE	Fora da garantia!
+DOC_INITIALE_DROITE	D
+DOC_INITIALE_GAUCHE	E
+DOC_INSTRUCTIONSPOSE	Instruções para a instalação
+DOC_INTERCALAIRE	Perfil separador
+DOC_INTERIEUR	Interior
+DOC_INTERIEUR_EXTERIEUR	Inter/Exter
+DOC_INT_	int.
+DOC_JUSQUE	até
+DOC_Kg	Kg
+DOC_LARGEUR	Largura
+DOC_LA_SEMAINE	durante a semana
+DOC_LE (date)	o
+DOC_LECLIENT	O Cliente
+DOC_LE_CHAUFFEUR	O condutor
+DOC_LIVR	Entr
+DOC_LIVRAISON	Entrega
+DOC_LIVRAISONCOMMANDE	A entrega de esta encomenda se efectuará #4# #1# #5# se a confirmação nos é retornada imediatamente com acordo.
+DOC_LONGUEUR	Comprimento
+DOC_LOT	Lote
+DOC_LPROD	Linha prod.
+DOC_MANOEUVRE	Obreiro
+DOC_MESSAGE	Mensagem
+DOC_MONTANT	Importe
+DOC_MOTIF	Motívo
+DOC_NET_AMNT	Importe neto
+DOC_NEXTPAGE	Continuação do documento na página seguinte
+DOC_NOCLIENT	Nº cliente
+DOC_NOMBRE_VOLUMES	Quantidade de volumes
+DOC_NON	Não
+DOC_NONCOMPRIS	Não deduzido
+DOC_NONFOURNI	NÃO ENTREGADO
+DOC_NONREALISABLE	Não realizável
+DOC_NOSREFERENCES	Nossas referências
+DOC_NOTECREDIT	Nota de crédito
+DOC_NOTEENVOI	Guia de envio
+DOC_NOTE_ENVOI_NO	Guia de entrega #1#
+DOC_OPTION	Opção
+DOC_OPTIONS	Opções
+DOC_ORDRE_LAQUAGE	Ordem de lacado
+DOC_OUI	Sim
+DOC_OUVRANT	Folha
+DOC_PAGE	Página
+DOC_PAIEMENT	Pagamento
+DOC_PAIEMENT_COMMANDE_SOIT_LE	Pagamento a encomenda, seja o #1#.
+DOC_PAIEMENT_COMPTANT	Pagamento a vista.
+DOC_PAIEMENT_FIN_DE_MOIS_SOIT_LE	Pagamento fim de mês, seja o #1#.
+DOC_PAIEMENT_PAR_TRAITE	Pagamento por letra bancaria.
+DOC_PALETTE	Pálete de transporte
+DOC_PANNEAU	Painéis
+DOC_PLANS_ATELIER	Planos de fábrica
+DOC_POIDS_TOTAL	Peso total
+DOC_POSE	Instalação
+DOC_POSECOMMANDE	A instalação de esta encomenda efectuar-se-a #4# #1# #5# se a confirmação nos é retornada imediatamente com acordo.
+DOC_POURACCORD	Para acordo,
+DOC_PREPARATIONLIVRAISON	Lista de preparação para a entrega
+DOC_PRIX	Preço
+DOC_PRIXBRUT	Preço bruto
+DOC_PRIXCOURANT	Pr corrente
+DOC_PRIXTARIF	Pr tarifa
+DOC_PRIX_ASSEMBLAGE	Preço dos acessórios de acoplamento
+DOC_PRIX_CHASSIS	Preço do caixilho
+DOC_PRIX_DES_ACCESSOIRES	Preço dos acessórios
+DOC_PRIX_DES_CHASSIS	Preço dos caixilhos
+DOC_PRIX_DES_VITRAGES	Preço dos vidros
+DOC_PRIX_DES_VOLETS	Preço dos estores
+DOC_PRIX_NET	Preço imposto
+DOC_PRIX_TOTAL	Preço total
+DOC_PRIX_UNITAIRE	Preço unidade
+DOC_PRIX_VARIANTE	Preço da variável
+DOC_PRIX_VITRAGE	Preço do vidro
+DOC_PRIX_VOLET	Preço do estore
+DOC_PROFILS_COMPLEMENTAIRES	Perfis complementares
+DOC_QTE	Qde
+DOC_QUANTITE	Quantidade
+DOC_QUINCAILLERIE	Ferragem
+DOC_RECEPITIONNISTEAUTORISE	Recepcionista autorizado
+DOC_REFERENCE	Referência
+DOC_REFERENCECLIENT	Referênçia cliente
+DOC_REHAUSSE	Perfil de enchimento
+DOC_REMARQUE	Observação
+DOC_REMISE	Desconto
+DOC_REMISERETROCESSION	Desconto de retrocesso
+DOC_SANS_FOURNISSEUR	Se fornecedor
+DOC_SEMAINE(S)	semana(s)
+DOC_SENS	Direcção
+DOC_SEUIL	Parapeito
+DOC_SEUIL_RENFORT	Soleira / Reforço
+DOC_SIGNATURE	Assinatura
+DOC_SITE	Sítio de produção
+DOC_SOUSLOT	Sublote
+DOC_SUIVANTCOMMANDEDU	De acordo com a sua encomenda #1# do
+DOC_SUPPLEMENT	Supplemento
+DOC_SUPPLEMENT_ACCESSOIRES	Suplemento acessório da variante
+DOC_SUPPLEMENT_TOTAL	Total dos suplementos
+DOC_SUPPLEMENT_VARIANTE	Suplementos para a variante
+DOC_SUPPLEMENT_VITRAGE	Suplemento vidro da variante
+DOC_SUPPLEMENT_VOLET	Suplemento estore
+DOC_SURFACE_TOTALE	Superfície total
+DOC_SYSTEME	Sistema
+DOC_TEL	Tel
+DOC_TOT	Tot.
+DOC_TOTAL	Total
+DOC_TOTALCOMMANDEHTVA	Total encomenda SIVA
+DOC_TOTALCOMMANDENET	Total encomenda neto
+DOC_TOTALFOURNITURE	TOTAL FORNECIMENTO
+DOC_TOTALGENERALCOMMANDENET	Total geral neto
+DOC_TOTALGENERALCOMMANDETVAC	Total geral IVAI
+DOC_TOTALMATIERE	Total matéria
+DOC_TOTALNET	Total neto
+DOC_TOTALPOSE	Total instalação
+DOC_TOTALPVC	TOTAL PVC
+DOC_TOTALTVAC	Total IVAI
+DOC_TOTALVITRAGE	Total vidro
+DOC_TOTALVOLET	TOTAL ESTORE
+DOC_TOUTE_LA_COMMANDE	A ter em conta para toda a encomenda
+DOC_TRAITEPAR	Tratado por
+DOC_TRAITE_JOURS	Pagamento por letra bancaria no prazo de #1# dias.
+DOC_TRAVERSE	Travessa
+DOC_TRAVERSE_S_	Travessa(s)
+DOC_TRI	Classificação
+DOC_TVA	IVA
+DOC_UNITE	Unidade
+DOC_USER	Utilizador
+DOC_VARIANTE	(variante)
+DOC_VARIANTES	Variante(s)
+DOC_VAR_ACCESSOIRE	Opção: #1#
+DOC_VAR_COULEUR	Cor: #1#
+DOC_VAR_VITRAGE	Vidro: #1#
+DOC_VENDUPAR	Vendido por
+DOC_VERSION	Versão
+DOC_VEUILLEZNOTERPROBLEMES	Queira ter em conta os problemas seguintes:
+DOC_VEUILLEZPROCEDERCHANGEMENT	Queira proceder às mudanças seguintes sobre a minha encomenda:
+DOC_VIT	Vid.
+DOC_VITRAGE	Vidro
+DOC_VITRAGES	Vidros
+DOC_VITRAGES_CDES	Vidros encomendados
+DOC_VITRAGES_ET_PANNEAUX	Vidros e painéis
+DOC_VOL	Est.
+DOC_VOLET	Estore
+DOC_VOLETNONREALISABLE	Este estore não é realizável
+DOC_VOSREFERENCES	Vossas referências
+DOC_VUEEXTERIEURE	Vista exterior
+DOC_VUEINTERIEURE	Vista interior
+DOC_ZONE	Zona
+IDS_%	%
+IDS_%R	%D
+IDS_%_AUGMENTATION_PRIX	% aumento do preço de compra
+IDS_%_CA	% V.N.
+IDS_%_FOND	% fundo
+IDS_%_FOND_VITRAGE	% fundo vidro
+IDS_%_MARGE	% margem
+IDS_%_MARGE/DEBOURSE	% margem / desembolso
+IDS_%_PAR_DEFAUT	% por defeito
+IDS_%_REMISE	% desconto
+IDS_%_SUPPLEMENT_INTERCALAIRE_COULEUR	% suplemento para perfil separador de cor
+IDS_''	"
+IDS_(BAS)	(Baixo)
+IDS_(TOUTES)	(Todas)
+IDS_(fois)	X
+IDS_+_COMMANDES_FOURNISSEURS	+ encomendas fornecedores
+IDS_+_PRECIS	+ preciso
+IDS_+_RAPIDE	+ rápido
+IDS_--- % remise ---	--- % desconto ---
+IDS_-_RESERVATIONS_CLIENTS	- reservações clientes
+IDS_/10	/10
+IDS_1	1
+IDS_1,2,3,4,5	 1:\n 2:\n 3:\n 4:\n 5:
+IDS_1/10_mm	1/10 mm
+IDS_10	10
+IDS_1_MM	1 mm
+IDS_1_OCCURRENCE	%d caso(s)
+IDS_1_PAGE_PAR_CHASSIS	1 página por caixilho
+IDS_1_PLAN/PAGE	1 mapa/página
+IDS_1_SEULE_FOIS	Uma vez só
+IDS_1_VANTAIL	1 parte
+IDS_1r_COLONNE_SUR_BON_COMMANDE	1ª coluna sobre formulário de requisição
+IDS_1°	1º
+IDS_2	2
+IDS_2_A_8	(2 até 8)
+IDS_2_VANTAUX_HORIZONTALES	2 partes horizontais
+IDS_2_VANTAUX_VERTICALES	2 partes verticais
+IDS_2_VUES_SI_BICOLORE	2 vistas se bicolor
+IDS_2°	2º
+IDS_2°_REMISE_COMPLEMENTAIRE	2º desconto complementario
+IDS_2°_REMISE_MATIERE	2º desconto matéria
+IDS_3	3
+IDS_3_VANTAUX_HORIZONTALES	3 partes horizontais
+IDS_3_VANTAUX_VERTICALES	3 partes verticais
+IDS_3°	3º
+IDS_3°_REMISE_MATIERE	3º desconto matéria
+IDS_4	4
+IDS_4_VANTAUX_HORIZONTALES	4 partes horizontais
+IDS_5	5
+IDS_5_VANTAUX_HORIZONTALES	5 partes horizontais
+IDS_6	6
+IDS_6_VANTAUX_HORIZONTALES	6 partes horizontais
+IDS_7	7
+IDS_7_VANTAUX_HORIZONTALES	7 partes horizontais
+IDS_8	8
+IDS_9	9
+IDS_A	até
+IDS_A(heure)	a
+IDS_ACC	Ac.
+IDS_ACCESREFUSE	Acçesso recusado
+IDS_ACCESSOIRES	Acessórios
+IDS_ACCESSOIRES_CHASSIS	Acessórios caixilhos
+IDS_ACCESSOIRES_QUINCAILLERIE	Acessórios de ferragem
+IDS_ACCESSOIRE_CHASSIS	Acessório caixilhos
+IDS_ACCESSOIRE_HORS_TARIF	Acessório fora tarifa
+IDS_ACCES_IMPOSSIBLE	Acçesso impossivel por o momento
+IDS_ACCORD_CHAUFFEUR	Acordo condutor
+IDS_ACOLISER	A empacotar
+IDS_ACTIF	Activo
+IDS_ACTIONS	Acções
+IDS_ADMINISTRATEUR	Administrador
+IDS_ADRESSE	Morada
+IDS_ADRESSELIVRAISON	Morada de entrega
+IDS_ADRESSES_FACTURATION_ET_LIVRAISON	Morada de facturação e entrega
+IDS_ADRESSE_FOURNISSEUR	Morada fornecedor
+IDS_ADRESSE_LIVRAISON_MODIFIEE	Morada de entrega modificada
+IDS_AERATEUR	Ventilador
+IDS_AERATEURS	Ventiladores
+IDS_AERATEUR_HORS_TARIF	Ventiladores fora tarifa
+IDS_AFFICHER_SUR_POSTES:	Indicar sobre estes postos:
+IDS_AGREATION	Aprovação
+IDS_AIDE_DECHARGEMENT	Ajuda a descarga
+IDS_AJOURE	Perfurado
+IDS_AJOUT	Ac.
+IDS_AJOUTER	Acrescentar
+IDS_AJOUTERTRAVERSE	Acrescentar uma travessa
+IDS_AJOUTER_COULEUR	Acrescentar uma cor
+IDS_AJOUTER_DEFAUT	Acrescentar um defeito
+IDS_AJOUTER_FONCTION	Acrescentar uma função
+IDS_AJOUTER_HOBBY	Acrescentar um hobby
+IDS_AJOUTER_MARCHE	Acrescentar um novo tipo de mercado
+IDS_AJOUTER_QUALITE	Acrescentar uma qualidade
+IDS_AJOUTER_TITRE	Acrescentar um título
+IDS_AJOUTER_TRAVERSE	Acrescentar uma travessa
+IDS_AJOUTER_TYPE_MARCHE	Acrescentar um novo tipo de mercado
+IDS_AJOUTVARIANTE	Acrescentar uma variante
+IDS_ALIGNEMENTCROISILLONS	Alinhamento pinázios
+IDS_ALIGNERAXESTRAVERSES	Alinhar os eixos das travessas
+IDS_ALIGNERCROISILLONSBAS	Alinhamento dos pinázios por baixo
+IDS_ALIGNERCROISILLONSDROITE	Alinhamento dos pinázios por a dereita
+IDS_ALIGNERCROISILLONSGAUCHE	Alinhamento dos pinázios por a esquerda
+IDS_ALIGNERCROISILLONSHAUT	Alinhamento dos pinázios por cima
+IDS_ALIGNERCROISILLONSVANTAIL	Alinhar os pinázios a partir de esta folha
+IDS_ALVEOLES	Alvéolos
+IDS_AN	Ano
+IDS_ANALYSE	Análise
+IDS_ANCIENNE_COULEUR	Cor antiga
+IDS_ANCIENNE_DATE_LIVRAISON	A data de entrega inicial era o 
+IDS_ANCIENSTOCK	Existências antigas
+IDS_ANCIEN_CODE	Código antigo
+IDS_ANCIEN_ETAT	Situação antiga
+IDS_ANCIEN_NUMERO	Número do orçamento
+IDS_ANCIEN_NUMERO_EXISTE	Este número de encomenda jà existe. Voçê quer substituir-lo?
+IDS_ANGLE	Ângulo
+IDS_ANGLES	Ângulos
+IDS_ANNEE	Ano
+IDS_ANNEE_DEBUT	Primero ano
+IDS_ANNULATIONENCODAGE	Voçê vai anular o que acaba de entrar.\nConfirma por favor.
+IDS_ANNULATIONETAT	È necessário reconfirmar a encomenda?
+IDS_ANNULATION_PRIX_MEMORISES	É necessário anular os preços memorizados anteriormente?
+IDS_AOUT	Agôsto
+IDS_AOUT_ABR	Agô
+IDS_APPLIQUE	Aplicado
+IDS_APPLIQUER	Aplicar
+IDS_APPLIQUER_MODE_PRIX_CLIENT	Aplicar o modo de preço do cliente
+IDS_APPLIQUER_PRIX_NEGOCE	Aplicar o preço negócio (se disponível)
+IDS_APPROBATION	Aprovação
+IDS_APPROBATION_CONFIRMATION	Aprovação das confirmações
+IDS_APPROBATION_CONFIRMATION2	Aprovação confirmação
+IDS_APPROBATION_DATE_QUI	Aprovação do #1# até o #2# por #3#:
+IDS_APPROCHERTRAVERSE	Acerca a travessa de %.Of mm
+IDS_APRES_POSE	Após a instalação
+IDS_ARCHIVAGE	Arquivo
+IDS_ARCHIVAGE_COMMANDES	Arquivar as encomendas
+IDS_ARCHIVAGE_HISTORIQUE_PALETTES	Arquivo do historial das páletes
+IDS_ARCHIVE	Arquivo
+IDS_ARCHIVE_EXISTE_DEJA	Um arquivo jà existe para essa encomenda #1#. É necesario substituir o arquivo por uma nova versão?
+IDS_ARCHIVE_SPEC	Arquivos (*.WPA)|
+IDS_ARGUMENTINCORRECT	Argumento incorrecto
+IDS_ARRETER	Parar
+IDS_ARRONDI	Arredondado
+IDS_ARRONDIR_10_CM	Arredondar aos 10 cm
+IDS_ARRONDIR_DIMENSIONS	Arredondar as dimensões
+IDS_ARRONDIR_TOTAL_LIGNE	Arredondar total por linha
+IDS_ARTICLE	Artigo
+IDS_ARTICLEAENLEVER	Peças a retirar
+IDS_ARTICLECOIN	Peças ângulo
+IDS_ARTICLEINEXISTANT	O artigo %s não existe
+IDS_ARTICLES	Artigos
+IDS_ARTICLESCADRE	Artigos para o quadro
+IDS_ARTICLESCOINS	Artigos para os ângulos
+IDS_ARTICLESTOCK	Artigos em existências
+IDS_ARTICLES_ET_PROFILS	Artigos e perfis
+IDS_ARTICLE_1	Artigo 1
+IDS_ARTICLE_2	Artigo 2
+IDS_ARTICLE_COMPOSE	Artigo composto
+IDS_ARTICLE_DE	Artigo desde
+IDS_ARTICLE_FOURNISSEUR	Artigo fornecedor
+IDS_ARTICLE_NOTNOW_FOURNISSEUR	Por o momento, não há artigos a encomendar a este fornecedor! 
+IDS_ARTICLE_NO_FOURNISSEUR	Nenhum artigo em referença para este fornecedor
+IDS_ARTICLE_PROMOTIONNEL	Material em promoção
+IDS_ARTICLE_VERROUILLE_AILLEURS	O artigo '%s' é bloqueado por um outro utilizador
+IDS_ASPECT_VIDE	Aspeito da parte vazía (bitmap)
+IDS_ASSEMBLAGE	Acoplamento
+IDS_ASSEMBLAGECOIN	Acoplamento dos ângulos
+IDS_ASSEMBLAGEPORTE	Acoplamento das portas
+IDS_ASSEMBLAGES_2_COTES	Acoplamento 2 lados
+IDS_ASSEMBLAGE_1_COTE	Acoplamento 1 lado
+IDS_ASSEMBLAGE_CADRES	Acoplamento dos quadros
+IDS_ASSEMBLAGE_CHASSIS	Conjunto de caixilhos
+IDS_ASSEMBLAGE_CROIX	Acoplamento em cruz
+IDS_ASSEMBL_ANGLES	Montagem de ângulos
+IDS_ASSURANCE	Segurança
+IDS_ASSURANCE_%	Segurança (%)
+IDS_ATELIER	Fábrica
+IDS_AU	Até o
+IDS_AUCUN	Nenhum
+IDS_AUCUNCHASSIS	Nenhum caixilho.
+IDS_AUCUNECOMMANDE	Nenhuma encomenda
+IDS_AUCUNECOMMANDEAFACTURER	Não há encomenda a facturar
+IDS_AUCUNECOMMANDESEL	Nenhuma encomenda seleccionada 
+IDS_AUCUNEOCCURRENCE	Nenhum caso de %s foi encontrado
+IDS_AUGMENTATION_PA_ET_PR	Aumento do preço de compra e do preço de custo 
+IDS_AUGMENTER_PA	Aumento dos preços de compra
+IDS_AUTOMATIQUE	Automático
+IDS_AUTORISER_BICOLORE	Autorizar bicolor
+IDS_AUTORISER_SAISIE_COTES_TABLEAU	Autorizar a entrada das medidas tabela
+IDS_AUTORISER_SAISIE_DIMENSIONS_FABRICATION	Autorizar a entrada das medidas de fabricação
+IDS_AUTORISER_TOUTES_COULEURS	Autorizar todas cores
+IDS_AUTORISER_USINAGE_POSITION_0	Autorizar o mecanizado na posição 0
+IDS_AUTRE	Outro
+IDS_AUTRES_FOURNISSEURS	Outros fornecedores
+IDS_AUTRES_INFORMATIONS	Outras informações
+IDS_AUTRES_PAGES	Outras paginas
+IDS_AVALISATION	Autorização
+IDS_AVALISATION_FINANCIERE	Autorização financeira
+IDS_AVALISER	Autorizar
+IDS_AVANT_POSE	Antes a instalação
+IDS_AVECTVA	com IVA
+IDS_AVERIF	Para verificar
+IDS_AVERTISSEMENT	Advertência
+IDS_AVERTISSEMENT1_AJOUT_COULEUR	Esse diálogo permite de adicionar uma cor na paramétrização WinPro.  Premeiro, voçê tem que criar uma nova cor na tabela de cores.  Depois, abra esse diálogo e indica qual é a cor antigua que têm que ser duplicada por a nova. 
+IDS_AVERTISSEMENT2_AJOUT_COULEUR	Se voçê têm apenas que renomear uma cor existente, não é necessário utilizar esse diálogo.  Passa simplesmente  por o ponto "Utilitário | Modificar a chave de um registro"
+IDS_AVERTISSEMENT_CHANGEMENT_CODE	ADVERTÊNCIA:\nEsta função modifica a chave de um registro por todas partes onde se utiliza esta chave.  É acoselhado vivamente de:\n\n1. Acautelar que ninguém trabalha actualmente em este programa desde outra estação.\n\n2. Fazer uma copia de seguro de a base de dados.\n\n3. Verifica depois tratamento o bom funcionamento do programa.\n\nNOTA:\nO código antigo e o novo devem existir na tabela seleccionada\n
+IDS_AVERTISSEMENT_NUMERO_FACTURE	O número da factura mencionada é dada a título indicativo. Pode diferir do número efectivamente atribuido a factura se um outro utilizador emitiu uma factura diferente durante a visualização deste número.\nEsta restrição têm por fim a garantia da unicidade de cada número de factura.
+IDS_AVERTISSEMENT_NUMERO_NE	O número da guia de entrega mencionada mais em cima é dada a título indicativo. Pode diferir do número efectivamente atribuido ao guia de entrega se um outro utilizador emitiu uma guia de entrega diferente durante a visualização deste número.\nEsta restrição têm por fim a garantia da unicidade de cada número de guia de entrega.
+IDS_AVRIL	Abril
+IDS_AVRIL_ABR	Abr
+IDS_AXES_OUVRANT	Eixo(s) das folhas múltiplas
+IDS_AXE_1	Eixo 1/2
+IDS_AXE_2	Eixo 2/3
+IDS_AXE_3	Eixo 3/4
+IDS_AXE_4	Eixo 4/5
+IDS_AXE_5	Eixo 5/6
+IDS_AXE_6	Eixo 6/7
+IDS_AXE_CROISILLONS_HORIZONTAUX	Eixo dos pinázios horizontais
+IDS_AXE_CROISILLONS_VERTICAUX	Eixo dos pinázios verticais
+IDS_A_DROITE	a direita
+IDS_A_GAUCHE	a esquerda
+IDS_A_LAQUER	A lacar
+IDS_A_OPTIMISER	A optimizar
+IDS_A_PARTIR_BORD_DORMANT	A partir da borda do aro
+IDS_A_PROPOS_DE_WINPRO	A propósito de WinPro...
+IDS_A_TRANSFERER	A transferir
+IDS_BALANCE_DU_CLIENT	Em curso do cliente #1# - Limite de crédito: #2#
+IDS_BAS	Baixo
+IDS_BAS_SEULEMENT	Baixo somente
+IDS_BATTEES_PREDEFINIES	Situação maçonaria
+IDS_BIBLIOTHEQUE	Biblioteca
+IDS_BIBLIOTHEQUE_SELECTION_RAPIDE	Biblioteca: seleccão rápida
+IDS_BIBLIO_RAPIDE	Biblio. rápida (F9)
+IDS_BICOLORE	Bicolor
+IDS_BL	Entr.
+IDS_BLEU	Azul
+IDS_BN_BIBLIOTHEQUE	Biblioteca (F8)
+IDS_BOIS	Madeira
+IDS_BONCOMMANDE	Formulário de requisição
+IDS_BONMESURAGE	Toma de medida
+IDS_BONUS_FIN_ANNEE	Bónus de fim de ano
+IDS_BON_COMMANDE_CLIENT	Formulário de requisição cliente
+IDS_BON_COMMANDE_FOURNISSEUR	Formulário de requisição fornecedor
+IDS_BON_QUINCAILLERIE	Lista de ferragem -  encomenda
+IDS_BORDEREAUX_LIVRAISON	Guias de entrega
+IDS_BORDEREAU_PANNEAUX	Guia dos painéis
+IDS_BORDEREAU_PREPARATION_LIVRAISON	Guias de preparação de entrega
+IDS_BOUT	Extremidade
+IDS_BOUT_CHUTE	Perda sbrs.
+IDS_BY_DISK	Por disquete
+IDS_BY_EMAIL	Por e-mail
+IDS_CA	V.N.
+IDS_CACHEE	Escondida
+IDS_CACHER_LIGNES_NON_SELECT	Ocultar linhas não selec.
+IDS_CACHER_USINAGES	Ocultar os mecanizados
+IDS_CADRE	Quadro
+IDS_CADRES	Quadros
+IDS_CADRESANSNOM	O quadro não têm nome
+IDS_CAISSON	Caixão
+IDS_CAISSONS	Caixões
+IDS_CAISSON_EXTERIEUR	Caixão exterior
+IDS_CAISSON_HORS_TARIF	Caixão fora tarifa
+IDS_CAISSON_INTEGRE_DORMANT	Caixão integrado no aro
+IDS_CALCUL	Cálculo
+IDS_CALCUL>	Cálculo >
+IDS_CALCULER	Calcular
+IDS_CALCULER_DEBOURSE	Calcular ao desembolso
+IDS_CALCULOPTIMISATION	Cálculo da optimização
+IDS_CALCULRESERVATION	Cálculo das reservações
+IDS_CALCUL_EN_COURS	Cálculo em curso...
+IDS_CALCUL_PRIX_COURANT	Cálculos em preço corrente
+IDS_CALCUL_PRIX_TARIF	Cálculo dos preços tarifa
+IDS_CALENDRIER	Calendário
+IDS_CANCEL	Anular
+IDS_CANNOTFIND	Não pode encontrar "%s".
+IDS_CANTDELETE	Imposible suprimir, porque existe uma referência de este registro no ficheiro
+IDS_CAPACITE	Capacidade
+IDS_CAPACITE_STANDARD	Capac.estand.
+IDS_CAPITAL_LIBERE	Capital desembolsado
+IDS_CATEGORIE	Categoria
+IDS_CATEGORIE(1-99)	Categoria (1-99)
+IDS_CATEGORIEARTICLE	Categorias de artigos
+IDS_CATEGORIECLIENT	Categorias de clientes
+IDS_CATEGORIESARTICLES	Categorias de artigos
+IDS_CATEGORIESCLIENTS	Categorias de clientes
+IDS_CATEGORIE_MO	Categoria M.O
+IDS_CATEGORIE_USINAGE	Categoria dos mecanizados
+IDS_CDE	N° enc.
+IDS_CDEMIN	Enc mín
+IDS_CDEPASVALIDEE	A encomenda não esta validada
+IDS_CDE_FABRICANT	Enc. fabricante
+IDS_CDE_VITRAGES	Enc. de vidros
+IDS_CENTRAGEOUVRANTS	Folha decentrada
+IDS_CENTRE	Centro
+IDS_CH	Jn.
+IDS_CHA	Jan.
+IDS_CHAMBRE_BAS	Câmara baixa
+IDS_CHAMBRE_HAUT	Câmara alta
+IDS_CHANGEMENT_ETAT_CHASSIS_COMMANDE	Modificação do estado dos caixilhos de uma encomenda
+IDS_CHANGEMENT_ETAT_COMMANDE	Modificação do estado de uma encomenda
+IDS_CHANGEMENT_FORME_CADRE	Modificação do formato dos quadros
+IDS_CHANGERNUMERO	Trocar de número
+IDS_CHANGER_CODE_ENREGISTREMENT	Modificar a chave de um registro
+IDS_CHANGER_NUMERO	Modificar o número
+IDS_CHANTIER	Obra
+IDS_CHANTIERS	Obras
+IDS_CHARGE	Carga
+IDS_CHARGEES	Cargadas
+IDS_CHARGEMAXI	Carga máxima
+IDS_CHARGEMENT	Carregamento
+IDS_CHARGEMENT_PALETTES	Carregamento das páletes
+IDS_CHARGER	Cargar
+IDS_CHARGER_LISTE	Cargar lista
+IDS_CHASSIS	Caixilho
+IDS_CHASSISNO	Caixilho nº
+IDS_CHASSISNONREALISABLE	Este caixilho não é realizável
+IDS_CHASSIS_ET/OU_VOLET	Caixilho e/ou estore
+IDS_CHASSIS_INACCESSIBLE	O caixilho #1# da encomenda #2# é inacessivel
+IDS_CHASSIS_NON_RECTANGULAIRES	Caixilhos não rectangulares
+IDS_CHASSIS_PLURIEL	Caixilhos
+IDS_CHASSIS_RECTANGULAIRES	Caixilhos rectângulares
+IDS_CHASSIS_VIDE	Caixilho vazío
+IDS_CHASS_VOL	Jan+Est 
+IDS_CHAUFFEUR	Condutor
+IDS_CHIFFRE_AFFAIRE	Volume de negócios
+IDS_CHIFFRE_AFFAIRE_TOTAL	Volume de negócios total
+IDS_CHOIXSCIES	Seleccão das serras
+IDS_CHOIXTEXTE	Seleccão de um texto predefinido
+IDS_CHOIX_ARTICLE	Seleccão de um artigo
+IDS_CHOIX_GROUPE_COULEURS	Seleccão de um grupo de cores
+IDS_CHOIX_PROFILS_DORMANT	Seleccão dos perfis de aros
+IDS_CHOIX_SCIES	Selecção das serras
+IDS_CHUTE	Sobras
+IDS_CHUTES	Sobras
+IDS_CHUTESRAL	Sobras RAL
+IDS_CHUTES_A_JETER:MAXIMUM	Sobras a jogar: máxima
+IDS_CHUTES_A_STOCKER:MINIMUM	Sobras a armazenar: mínimo
+IDS_CHUTE_A_JETER_MAXIMUM	Sobras a jogar max
+IDS_CHUTE_A_STOCKER_MINIMUM	Sobras a armazenar mín
+IDS_CHUTE_CHUTE	Sobras/So.
+IDS_CH_ACCESS_CONTROL	Acessório a controlar sobre cadeia
+IDS_CH_NON_RECT	Não rectangular
+IDS_CH_OPTIM_CHASSIS	Optimização caixilho
+IDS_CH_OPTIM_COMPLET	Optimização completa
+IDS_CH_OPTIM_VOLET	Optimização estore
+IDS_CH_POSE	Caixilho instalado
+IDS_CH_TERMINE	Caixilho teminado
+IDS_CH_VOLET_CONTROL	Estore a controlar sobre cadeia
+IDS_CINTRE	Curva
+IDS_CINTREDROITE	Meia curva direita
+IDS_CINTREGAUCHE	Meia curva esquerda
+IDS_CLASSE	Classe
+IDS_CLIENT	Cliente
+IDS_CLIENTS	Clientes
+IDS_CLIENT_DE	Cliente de
+IDS_CLIENT_EXISTE_DEJA	Este código cliente já existe
+IDS_CLIENT_FACTURATION	Cliente de facturação
+IDS_CLIENT_LIVRAISON	Cliente de entrega
+IDS_CLIFOU	Cliente/Forn.
+IDS_CLOTURER	Cerrar
+IDS_CLR_EXTER	Cor ext
+IDS_CLR_INTER	Cor int
+IDS_CODE	Código
+IDS_CODE+COURS	Código + curso
+IDS_CODE+DESCRIPTION	Código + descrição
+IDS_CODE/QTE	Código / qde
+IDS_CODEARTICLE	Código artigo
+IDS_CODELOG	Código logist.
+IDS_CODEPAIEMENT	Código pagamento
+IDS_CODEPOSTAL	C.postal
+IDS_CODEVITRAGEINEXISTANT	Código vidro inexistente
+IDS_CODEVITRE	Código vidro
+IDS_CODE_ACCES	Código de acceso
+IDS_CODE_ARTICLE_FOURNISSEUR	Código artigo fornecedor
+IDS_CODE_BARRE	Código barra
+IDS_CODE_CLIENT	Código cliente
+IDS_CODE_CLIENT_FOURNISSEUR	Código cliente para #1#
+IDS_CODE_CLIENT_INCORRECT	Código cliente incorrecto!
+IDS_CODE_COMPTABLE	Código de contabilidade 
+IDS_CODE_CONCATENE	Código composto
+IDS_CODE_DE	Código de
+IDS_CODE_DXF	Código do desenho DXF
+IDS_CODE_FOURNISSEUR	Código fornecedor
+IDS_CODE_LOGIST	Código logíst.
+IDS_CODE_LOGISTIQUE	Código logístico
+IDS_CODE_LOT	Código do lote
+IDS_CODE_NACE	Código NACE
+IDS_CODE_NO_EXIST	Código inexistente: 
+IDS_CODE_POSITIONNEMENT	Código posição
+IDS_CODE_POSTAL	Código postal
+IDS_CODE_PROSPECT	Código Cl. Potencial
+IDS_CODE_TARIF	Código tarifa
+IDS_CODE_TVA	Código IVA
+IDS_CODE_VITRAGE_DEPASSEMENT_DIMENSION	Código do vidro a utilisar no caso de ultrapasso de dimensão
+IDS_COEFF	Coef. %
+IDS_COEFFICIENT	Coeficiente
+IDS_COEFFICIENTS_PRIX	Coeficientes de preços
+IDS_COEFFICIENT_CESSION	Coeficiente de cessão
+IDS_COEFFICIENT_FRAIS	Coeficiente de despesas
+IDS_COEFFICIENT_MARGE	Coeficiente de margem
+IDS_COEFFICIENT_MULTIPLICATEUR	Coeficiente multiplicador
+IDS_COEFFICIENT_PRIX	Coefficiente de preço
+IDS_COEFFICIENT_VENTE	Coeficiente venda
+IDS_COEFFRAIS	Coef. despesas
+IDS_COEFF_PERTE	Coef. perda
+IDS_COEFF_PONDERATION	Coef. pond.
+IDS_COLIS	Tipo de pacotes
+IDS_COLISPREPARE	Pacotes preparados
+IDS_COLONNE_CONDITIONNEMENT_SEPAREE	Coluna de condicionamento separada
+IDS_COMMANDE	Encomenda
+IDS_COMMANDEDEJAPASSEE	Uma pedida de fornecedor já foi creada no número #1#
+IDS_COMMANDEENREGISTREE	1 encomenda foi registrada no número %Id.  Trata esta encomenda na gestão das encomendas fornecedor
+IDS_COMMANDEFOURNISSEUR	Encomenda fornecedor
+IDS_COMMANDENO	Encomenda nº
+IDS_COMMANDER	Encomendado
+IDS_COMMANDER_INDIVIDUELLEMENT	Encomendar individualmente
+IDS_COMMANDER_SANS_COULEUR	Encomendar sim cor
+IDS_COMMANDER_SUR_MESURE	Encomendar a medida
+IDS_COMMANDES	Encomendas
+IDS_COMMANDESDEJAPASSEES	Encomendas fornecedor já foram creadas no número #1# a #2#
+IDS_COMMANDESENREGISTREES	%d encomendas que já foram registradas no número %Id até %Id.  Trata vossas encomendas na gestão das encomendas fornecedor
+IDS_COMMANDESTERMINEES	Encomendas terminadas
+IDS_COMMANDES_ACCESSOIRES	Encomadas acessórios 
+IDS_COMMANDES_AVEC_DATE_LIVRAISON	Encomenda com data de entrega
+IDS_COMMANDES_CLIENT	Encomendas clientes
+IDS_COMMANDES_CONFIRMEES	Encomendas confirmadas
+IDS_COMMANDES_FOURNISSEURS	Encomendas fornecedores
+IDS_COMMANDES_NON_APPROUVEES	Encomendas não aprovadas
+IDS_COMMANDES_SUPPRIMEES	Encomendas suprimidas
+IDS_COMMANDEVITRAGE	Encomenda de vidro
+IDS_COMMANDE_A_VERIFIER	Encomenda a controlar
+IDS_COMMANDE_DEJA_EXPORTEE	Esta encomenda já foi exportada
+IDS_COMMANDE_INACCESSIBLE	A encomenda #1# é inacessivel
+IDS_COMMANDE_INEXISTANTE	Encomenda inexistente
+IDS_COMMANDE_LIVRAISON	Encomendas e entrega
+IDS_COMMANDE_MNT	Importe das encomendas
+IDS_COMMANDE_NBR	Nro de encomenda
+IDS_COMMANDE_NBR_CHA	Nro caixilhos das encomendas
+IDS_COMMANDE_TERMINEE	Encomenda terminada
+IDS_COMMANDE_VERIFIEE	Encomenda verificada
+IDS_COMMANDE_VITRAGES	Encomenda de vidros
+IDS_COMMANDE_VITRAGE_PAR_LOT	Encomenda de vidros por lote
+IDS_COMMENTAIRE	Commentário
+IDS_COMMENTAIRE_ATELIER	Comentários para a fábrica
+IDS_COMMENTAIRE_CLIENT	Comentários para o cliente
+IDS_COMMENTAIRE_PAS_IMPRIME	Comentário (não imprimido)
+IDS_COMMERCIAL	Comercial
+IDS_COMMFOU_PAR_FOURNIS	Encomendas por fornecedores
+IDS_COMMFOU_PAR_NUM	Encomendas fornecedor por número de encomenda
+IDS_COMPACTER_LOT	Compressão dos lotes?
+IDS_COMPETENCE	Competência
+IDS_COMPETENCE_TECHNIQUE	Competência técnica
+IDS_COMPONENTSTOPACKAGE	Listagem dos elementos a empacotar
+IDS_COMPOSANT	Elemento
+IDS_COMPOSANTS	Elementos
+IDS_COMPOSITION	Composição da encomenda
+IDS_COMPRESSER	Comprimir o ficheiro de exportação?\n(tamanho não comprimido: %2f Kb)
+IDS_COMPRIS	Deduzido
+IDS_COMPRIS_DANS_HAUTEUR	Incluida na altura
+IDS_COMPTABILITE	Contabilidade
+IDS_COMPTAGEUNITES	Contagem das unidades
+IDS_COMPTANT	De contado
+IDS_COMPTER_CHUTES_RAL	Contar as sobras RAL
+IDS_COMPTEURS	Contadores
+IDS_COMPTEUR_DETAIL	Voçê não têm o bom número de registro em sua tabela travdorm.dbf.
+IDS_COMPTEUR_TRAVDORM	Voçê não têm o bom número de registro em sua tabela travouvr.dbf.
+IDS_COMPTE_DORMANTS	Há #1# aros (max. #2#)
+IDS_COMPTE_OUVRANTS	Há #3# aros (max. #4#)
+IDS_CONCURRENTS	Competidores
+IDS_CONDIT	Condic.
+IDS_CONDITIONLIVRAISON	Condições de entrega
+IDS_CONDITIONNEMENT	Empacotamento
+IDS_CONDITIONNEMENT_ET_PA_BRUT_DEVISE	Empacotamento e preço de compra bruto em divisa
+IDS_CONDITIONS	Condições
+IDS_CONDITIONSTRANSPORT	Condições de transporte
+IDS_CONDITIONS_PAIEMENT	Condições de pagamento
+IDS_COND_TRANSP	Cond. transp.
+IDS_CONF.	Conf.
+IDS_CONFIMER_ACTION	Confirmação
+IDS_CONFIRMATION	Confirmação
+IDS_CONFIRMATIONFOURNISSEUR	Confirmação fornecedor
+IDS_CONFIRMATION_A_MODIFIER	Confirmações a modificar
+IDS_CONFIRMATION_ENVOYEE	Envío confirmação
+IDS_CONFIRMER	Confirmado
+IDS_CONFIRMEROPERATION	Voçê confirma esta operação?
+IDS_CONFIRMER_CREATION_LOTS	Por favor, confirma a criação de estes lotes:
+IDS_CONFIRMER_DEPLACEMENT_CHASSIS	Voçê confirma a deslocação de este caixilho?
+IDS_CONFIRMER_RECEPTION	Voçê confirma o registro de esta entrada de artigos?
+IDS_CONFIRMER_S_LOTS	Voçê confirma a seleccão das serras para todos os sublotes?
+IDS_CONFIRMFOURNISSEUR	Confirmações fornecedor
+IDS_CONSERVER_NUMERO	Coservar o número
+IDS_CONSOMMATION	Consumo
+IDS_CONSOMMATIONSTOCK	Consumo das existências
+IDS_CONSOMMATIONS_OPTIMISATIONS	Consumos optimizações
+IDS_CONSOMMATION_MENSUELLE	Consumo mensal
+IDS_CONSOMMATION_POUR_COMMANDE	Consumo para a encomenda
+IDS_CONSTITUTION_FICHIERS_MACHINES	Constitução ficheiro máquina
+IDS_CONSTITUTION_TRI_PRODUCTION	Constitução da classificação de produção
+IDS_CONTACT	Contacto
+IDS_CONTACTS	Contactos
+IDS_CONTACT_1	Contacto 1
+IDS_CONTACT_2	Contacto 2
+IDS_CONTACT_3	Contacto 3
+IDS_CONTENU_LOTS	Conteúdo do lotes
+IDS_CONTINU	Em contínuo
+IDS_CONTINUERMEMECODE	É necessário utilizar a referência?
+IDS_CONTROLE	Controlo
+IDS_CONTROLEENCOURS	Controlo do em curso fábrica
+IDS_CONTROLEPRIX	Controlo do preço
+IDS_CONTROLEPRIXACHAT	Controlo do preço de compra
+IDS_CONTROLEPRIXREVIENT	Controlo do preço de custo
+IDS_CONTROLEPRIXVENTE	Controlo do preço de venda
+IDS_CONTROLEQUALITE	Controlo qualidade
+IDS_CONTROLER_SUR_CHAINE	A controlar sobre cadeia
+IDS_CONTROLE_CHAINE	Controlo cadeia
+IDS_CONTROLE_CHAINE_PRODUCTION	A controlar sobre cadeia de produção
+IDS_CONTROLE_FIN_CHAINE	Controlo caixilhos em final de cadeia
+IDS_CONTROLE_LIVRAISON	Controlo das entregas
+IDS_CONTROLE_PRODUCTION	Controlo da produção
+IDS_CONVERSION_EURO	Conversão em €
+IDS_CONVERSION_TOTALE_EURO	Selecciona "Sim" para converter tudo, "Não" para converter só os preços de base
+IDS_COORDONNEES	Coordenadas
+IDS_COORDONNEES_SOCIETE	Coordenadas sociedade
+IDS_COPIE>	Copia >
+IDS_COPIER_ADRESSE_PRINCIPALE	Copiar o morada principal
+IDS_COPIES	cópias
+IDS_COPY	Copiar
+IDS_COPYING_DATABASE	Copiar a base de dados
+IDS_CORPS	Corpo
+IDS_CORRECTION	Correcção
+IDS_CORRECTIONS	Correcções
+IDS_CORRECTIONSTOCK	Correcção de existências
+IDS_CORRECTION_BAS	Correcção em baixo
+IDS_CORRECTION_DROITE	Correcção a direita
+IDS_CORRECTION_GAUCHE	Correcção a esquerda
+IDS_CORRECTION_HAUT	Correcção por cima
+IDS_CORRECTION_RECOUVREMENT_OUVRANT/DORMANT	Correcção cobrimento folha/aro
+IDS_CORRECTION_SCIE_COUPE_45	Correcção serra para corte a 45°
+IDS_CORRECTION_TRAVERSE	Correcção travessa
+IDS_CORRESPONDANCE_RAL	Correspondência RAL
+IDS_CORRIGER_USINAGES_SI_ASSEMBLAGE_DROIT	Corrigir os mecanizados se o acoplamento é recto
+IDS_COTE	Lado
+IDS_COTES	Dimensões
+IDS_COULEUR	Cor
+IDS_COULEURINEXISTANTE	O perfil %s não existe em esta cor
+IDS_COULEURNONDEFINIE	O perfil %s não existe sem cor!
+IDS_COULEURPANNEAU_NONAUTORISEE	Esta cor de painel não é autorizada
+IDS_COULEURPROFILINEXISTANTE	O perfil #1# não existe em cor #2#!
+IDS_COULEURS	Cores
+IDS_COULEURS_AUTORISEES	Cores autorizadas
+IDS_COULEURS_RAL_STANDARD	Cores RAL estandartes
+IDS_COULEUR_CAISSON	Cor caixão
+IDS_COULEUR_CROISILLON_INTERDITE	Essa cor de pinázio não é autorizada
+IDS_COULEUR_EXT	Cor ext.
+IDS_COULEUR_EXTERIEURE	Cor exterior
+IDS_COULEUR_FOND	Cor fundo
+IDS_COULEUR_FOND_TITRE	Cor do fundo dos títulos e totais
+IDS_COULEUR_INT	Cor int.
+IDS_COULEUR_INTERCALAIRE	Cor do pefil separador
+IDS_COULEUR_INTERIEURE	Cor interior
+IDS_COULEUR_OUVRANT	Cor da folha
+IDS_COULEUR_QUINCAILLERIE	Cor ferragem
+IDS_COULEUR_SAISIE	Cor na entrada
+IDS_COULEUR_SOUS_LAME	Cor sub-lámina
+IDS_COULEUR_S_	Cor(es)
+IDS_COULEUR_TRAIT	Cor traço
+IDS_COUPEDROITE	Corte recto
+IDS_COUPE_A_CHAQUE_INTERSECTION	Corte a cada intersecção
+IDS_COUPE_DROITE	Corte recto
+IDS_COUPE_PAR	Corte por
+IDS_COUPLEUR	Perfil de união
+IDS_COUPLEURINEXISTANT	Este perfil de união não existe
+IDS_COUPLEUR_S_	Perfil(s) de união
+IDS_COURANT	Corrente
+IDS_COURS	Curso
+IDS_COURS+CODE	Curso + código
+IDS_COUT	Custo
+IDS_COUTMO	Custo MO
+IDS_CREATION	Criação
+IDS_CREATIONCOLIS	Criação de pacotes ?
+IDS_CREATION_FICHIER	Creação do ficheiro '%s.dbf'
+IDS_CREER_CLIENT	Criar o cliente #1#?
+IDS_CREER_PROSPECT	Criar o cl. potencial  #1#?
+IDS_CRITERES	Critério
+IDS_CRITERES_SELECTION	Critério de selecção
+IDS_CRITERES_TRI	Critério de classificação
+IDS_CROISILLON	Pinázio
+IDS_CROISILLONS	Pinázios
+IDS_CTRL_PRIX	Controlo preço
+IDS_CUT	Cortar
+IDS_ComboBox	Combo Box
+IDS_D(roite)	D
+IDS_DANS_COMMENTAIRES	Em os comentários
+IDS_DANS_ECHECS	Nas intruções 'Falha'
+IDS_DANS_FORMULES	Em as fórmulas
+IDS_DANS_MESSAGES	Em os mensagens
+IDS_DANS_USINAGES	Em os mecanizados
+IDS_DATE	Data
+IDS_DATECDE	Data enc
+IDS_DATECOMMANDE	Data de encomenda
+IDS_DATECONFIRMEE	Data confirm.
+IDS_DATEDEMANDEE	Data desejada
+IDS_DATEDEPASSEE	A data limite de prova esta pasada
+IDS_DATEINVENTAIRE	Data do inventário
+IDS_DATELIVRAISON	Data de entrega
+IDS_DATEPROD	Data prod.
+IDS_DATEPRODCALC	Data calc.
+IDS_DATES	Datas
+IDS_DATES_DE	Datas desde
+IDS_DATES_LIVRAISON_DU	Data de entrega: desde
+IDS_DATES_MISE_EN_FABRICATION_DU	Data de fábricação: desde
+IDS_DATE_10eme	$
+IDS_DATE_11eme	$
+IDS_DATE_12eme	$
+IDS_DATE_13eme	$
+IDS_DATE_14eme	$
+IDS_DATE_15eme	$
+IDS_DATE_16eme	$
+IDS_DATE_17eme	$
+IDS_DATE_18eme	$
+IDS_DATE_19eme	$
+IDS_DATE_1er	º
+IDS_DATE_20eme	$
+IDS_DATE_21eme	$
+IDS_DATE_22eme	$
+IDS_DATE_23eme	$
+IDS_DATE_24eme	$
+IDS_DATE_25eme	$
+IDS_DATE_26eme	$
+IDS_DATE_27eme	$
+IDS_DATE_28eme	$
+IDS_DATE_29eme	$
+IDS_DATE_2eme	$
+IDS_DATE_30eme	$
+IDS_DATE_31eme	$
+IDS_DATE_3eme	$
+IDS_DATE_4eme	$
+IDS_DATE_5eme	$
+IDS_DATE_6eme	$
+IDS_DATE_7eme	$
+IDS_DATE_8eme	$
+IDS_DATE_9eme	$
+IDS_DATE_AVANT_DATE_PRECEDENTE	A data de facturação é anterior a precedente data de facturacão!
+IDS_DATE_CREATION	Data de criação
+IDS_DATE_DE	Datas desde
+IDS_DATE_DEPART	Data de saída
+IDS_DATE_EXPIREE	Expiração da data limite de utilização.\n É necessário contactar o seu fabricante.
+IDS_DATE_EXPIRE_AUJOURDHUI	A data limite de utilização do programa expira hoje.\nÉ necessário contactar com urgência o seu fabricante.
+IDS_DATE_EXPIRE_DANS_N_JOURS	A data limite de utilização do programa expira dentro de #1# dias.\nÉ necessário contactar o seu fabricante o mais rápido possível.
+IDS_DATE_EXPIRE_DEMAIN	A data limite de utilização do programa expira amanhã.\nÉ necessário contactar com urgência o seu fabricante.
+IDS_DATE_FACTURE	Data de factura
+IDS_DATE_LANCEMENT	Data de lançamento
+IDS_DATE_LIMITE	Data última
+IDS_DATE_LIVRAISON_SUGGEREE	A data de entrega sugerida é o 
+IDS_DATE_LIVRAISON_VITRAGES	Data de entrega dos vidros
+IDS_DATE_MISE_EN_FABRICATION	Data de começo da fabricação
+IDS_DATE_MISE_EN_PRODUCTION_LOTS	Data de posta em produção dos lotes
+IDS_DATE_MOUVEMENT	Data de movimento
+IDS_DATE_OUT_OF_RANGE	Esta data deve ser entre o %s e o %s!
+IDS_DATE_PRODUCTION	Data de produção
+IDS_DATE_RAZ	Indicar a data de diminuição a zero
+IDS_DATE_REMISE_A_ZERO	Data de diminuição a zero
+IDS_DATE_SAISIE	Data entrada
+IDS_DATE_SORTIE	Data saída
+IDS_DATE_TARIF	Data da tarifa
+IDS_DBTU	---
+IDS_DBTU_DE	...
+IDS_DCDE	Data enc
+IDS_DCONF	D. confirm.
+IDS_DDEBUT	Início fabr
+IDS_DEADLINE	Lim.valid.
+IDS_DEBIT_POUR_COMMANDE	Lista de corte - encomenda
+IDS_DEBOURSE_PAR_DEFAUT	Utilizar o modo de cálculo ao desembolsado por defeito
+IDS_DEBUT	Início
+IDS_DEBUTCONFIRMATION	Início confirmação
+IDS_DEBUTDEVIS	Início orçamento
+IDS_DEBUTFABR	Início fabr
+IDS_DEBUTFACTURE	Início factura
+IDS_DEBUTNE	Início guia de entrega
+IDS_DECALAGE_HORIZONTAL	Delocalização horizontal
+IDS_DECALAGE_TRANSVERSAL_VANTAIL	Delocalização transversal por folha
+IDS_DECALAGE_USINAGE	Delocalização mecanizado
+IDS_DECALAGE_VERTICAL	Delocalização vertical
+IDS_DECALE	Delocalizado
+IDS_DECEMBRE	Dezembro
+IDS_DECEMBRE_ABR	Dez
+IDS_DECHARGEMENT	Descarga
+IDS_DECIMALES	Decimais
+IDS_DEDUIRE	Reduz.
+IDS_DEFINIR_CHARGEMENT	Definir o carregamento
+IDS_DEFINIR_NUMERO_LOT	Definir o número do lote
+IDS_DEGRES	graus
+IDS_DEJACOMMANDE	Esta encomenda já existe
+IDS_DEJACOMMANDEAUTO	%d encomenda(s) já foram passadas com o número %Id até %Id.  Apesar de todo, voçê quer estabelecer novas encomendas?
+IDS_DEJACOMMANDEFABRICANT	A encomenda já foi enviada ao fabricante o #1#
+IDS_DEJARECU	Já recibido
+IDS_DELAI	Prazo
+IDS_DELAILIBRE	Nenhuma dificuldade para a data de entrega
+IDS_DELAILIVRAISON	Prazo de entrega
+IDS_DELAI_CLIENT	Prazo cliente
+IDS_DELAI_PAIEMENT	Prazo de pagamento
+IDS_DELETE	Suprimir
+IDS_DELIVERY_NOTE_RECAP_TITLE	Guia de entrega recapitulativa
+IDS_DEMANDE_PRIX_VITRAGE	Pedido de preço de vidros
+IDS_DEMARRE_A	Começado o %s a %s
+IDS_DEMO	Versão demostração
+IDS_DEMOJUSQUE	Esta versão de demostração é válida atè o #1#
+IDS_DEPLACEMENT_HORIZONTAL	Deslocação horizontal
+IDS_DEPLACEMENT_VERTICAL	Deslocação vertical
+IDS_DEPOT_PALETTES	Depósito das páletes
+IDS_DEPUIS_LE	Desde o
+IDS_DEPUIS_PLUS_DE	Desde mais de 
+IDS_DERNIEREETIQUETTE	Última etiqueta
+IDS_DERNIER_PRIX_REVIENT	Último preço de custo
+IDS_DESACTIVE	Desactivado
+IDS_DESCRFOURN	Descr. fornec.
+IDS_DESCRIPTIFS	Descrições
+IDS_DESCRIPTION	Descrição
+IDS_DESCRIPTION+CODE	Descrição + código
+IDS_DESCRIPTIONARTICLE	Descrição artigo
+IDS_DESCRIPTION_CONCATENEE	Descrição composta
+IDS_DESSIN	Desenho
+IDS_DESSINAENLEVER	Desenhos a retirar
+IDS_DESSINER_CHASSIS_VOLETS	Desenhar os caixilhos e estores
+IDS_DESSINS	Desenhos
+IDS_DESSIN_DXF_HORIZONTAL	Desenho DXF horizontal
+IDS_DESSIN_DXF_VERTICAL	Desenho DXF vertical
+IDS_DESSIN_EXTERIEUR	Desenho exterior
+IDS_DESSIN_INTERIEUR	Desenho interior
+IDS_DESSIN_MACONNERIE	Desenho maçonaria
+IDS_DESTINATION	Destinação
+IDS_DETAIL	Detalhe
+IDS_DETAIL_COMMANDE_SELECTIONNEE	Detalhe da encomenda seleccionada
+IDS_DETAIL_LOTS	Detalhe dos lotes
+IDS_DETAIL_PRIX_ACCESSOIRES	Preço dos acessórios
+IDS_DEV	Moe.
+IDS_DEVIS	Orçamento
+IDS_DEVISE	Divisa
+IDS_DEVISES	Divisas
+IDS_DEVISE_ACHAT	Divisa de compra
+IDS_DEVISPROSPECT	Este orçamento é atribuido a um cliente potencial. Atribui o orçamento a um cliente antes de transformar-o em encomenda.
+IDS_DEVIS_A_CONFIRMER	Orçamento a confirmar
+IDS_DEVIS_DETAILLE	Orçamento detalhado
+IDS_DEVIS_MNT	Importe dos orçamentos
+IDS_DEVIS_NBR	Nro orçamento
+IDS_DEVIS_NBR_CHA	Nro caixilhos dos orçamentos
+IDS_DEVIS_SIMPLIFIE	Orçamento simplificado
+IDS_DEVIS_SIMPLIFIE_SANS_COTE	Orçam. simplif. sem medidas
+IDS_DFACT	D.Fact
+IDS_DFIN	Fim fabr
+IDS_DIAMETRE	Diâmetro
+IDS_DIM	Dim
+IDS_DIMANCHE	Domingo
+IDS_DIMANCHE_ABR	dom
+IDS_DIMENSION	Dimensão
+IDS_DIMENSIONHORSTOUT	Dimensões totais
+IDS_DIMENSIONS	Dimensões
+IDS_DIMENSIONS_ETIQUETTES	Dimensão das etiquetas
+IDS_DIMENSIONS_EXTERIEUR_OUVRANT	Dimensões exterior folha
+IDS_DIMENSIONS_MAXIMUM	Dimensões máximas
+IDS_DIMENSIONS_MAXIMUM_MINIMUM	Dimensões máximas e mínimas
+IDS_DIMENSION_EXACTE	Dimensões exatas
+IDS_DIMENSION_EXACTE_VITRAGE	Dimensões exatas do vidro
+IDS_DIMENSION_EXTERIEUR_OUVRANT	Dimensões ferragem ao exterior da folha
+IDS_DIMENSION_MAXIMUM	Dimensão máxima
+IDS_DIMENSION_MINIMUM	Dimensão minima
+IDS_DIMFABRICATION	Dim fabricação
+IDS_DIMTABLEAU	Dim tabela
+IDS_DIM_FABR	Fabr.
+IDS_DIM_TABL	Tabela
+IDS_DIRECTEUR	Director
+IDS_DISPONIBLE	Disponível
+IDS_DISPOSITION	Disposição
+IDS_DISTANCE	Distância
+IDS_DISTRIBUTION_COMMANDE	Repartição das encomendas
+IDS_DIVERS	Diverso
+IDS_DLIVR	Data entre.
+IDS_DLL_COMPTA	Módulo de conexão a contabilidade
+IDS_DOC	Doc.
+IDS_DOCUMENT	Documento
+IDS_DOCUMENTS	Documentos
+IDS_DOCUMENTS_ANNEXE_OPTIMISATION	Documentos adicionais da optimização
+IDS_DOCUMENTS_CLIENT	Documentos cliente
+IDS_DONNEES_ET_STAT.	Dados e estatist.
+IDS_DONNEUR_ORDRE	Mandante
+IDS_DORMANT	Aro
+IDS_DORMANTS	Aros
+IDS_DORMANT_HORS_TARIF	Aro fora tarifa
+IDS_DPROD	Data prod.
+IDS_DROIT	Recto
+IDS_DROITE	Direita
+IDS_DROITS	Direitos
+IDS_DROITS_BASE_REGISTRE	Vossos direitos de acesso são insuficientes.  Parada do programa
+IDS_DROITS_LIMITES	Direitos limitados
+IDS_DU	Desde
+IDS_DUREE	Duração
+IDS_DXF	DXF
+IDS_DXF 1	DXF 1
+IDS_DXF 2	DXF 2
+IDS_DXF_NON_NOMME	O ficheiro DXF não têm nome
+IDS_D_ACCORD	De acordo
+IDS_D_SORTIE	D. saída
+IDS_ECARTERTRAVERSE	Afastar a travessa de %Of mm
+IDS_ECHEANCE	Prazo
+IDS_ECHELLE	Escala
+IDS_ECHELLE_1	Escala 1/
+IDS_ECHELLE_ECRAN_COUPE	Escala de visualisação dos cortes
+IDS_ECHELLE_IMPRIMANTE_COUPE	Escala de impressão do corte
+IDS_ECHELLE_IMPRIMANTE_DESSIN	Escala de impressão do desenho
+IDS_ECRASERTEXTE	Substituir o texto actual?
+IDS_ECR_D_A_G	<--
+IDS_EDIT	Modificar
+IDS_EGALISERHAUTEURVITRAGES	Igualar  as alturas dos vidros
+IDS_EGALISERLARGEURVITRAGES	Igualar as larguras dos vidros
+IDS_ELEMENTS_APPLIQUES	Elementos aplicados
+IDS_ELIMINER	Eliminar
+IDS_ELIMINER_CHUTES_SOUS_LOT	Eliminar sobras de sublote
+IDS_EMAIL	e-mail
+IDS_EMPLACEMENT	Localização
+IDS_EMPLACEMENTS	Localizações
+IDS_EMPLACEMENTSTOCK	Localizações das existências
+IDS_EMPLACEMENT_DANS_STOCK	Localização nas existências
+IDS_ENCODAGE	Codificação
+IDS_ENCODAGE_BON_COMMANDE	Codificação do formulário de requisição
+IDS_ENCODAGE_COMMERCIAL	Codificação comercial
+IDS_ENCODAGE_GRILLES_PRIX	Codificação das tabelas de preço
+IDS_ENCODAGE_GRILLE_VITRAGE	Codificação da tabela de vidro
+IDS_ENCODEPAR	Codificado por #1#
+IDS_ENCODEUR	Codificador
+IDS_ENCOURS	Em curso
+IDS_ENCOURSFABRICATIONSYSTEME	Em curso de fabricação, por sistema
+IDS_ENCOURS_AU	Em curso de #1# até #2# a #3#
+IDS_ENCOURS_CHAINE	Em curso cadeia
+IDS_ENCOURS_CLIENT	Em curso do cliente #1#
+IDS_ENCOURS_CONFIRME	Em curso confirmado
+IDS_ENCOURS_DATE	Em curso por data
+IDS_ENCOURS_FACRICATION	Em curso fabricação
+IDS_ENCOURS_NON_CONFIRME	Em curso não confirmado
+IDS_ENCOURS_SYSTEME	Em curso por sistema
+IDS_ENLEVEMENT	Retirada
+IDS_ENREGISTRECOMMANDE	Registrar a encomenda?
+IDS_ENREGISTRECONFIRM	Registrar a confirmação ?
+IDS_ENREGISTRENOUVSTOCK	Registrar o novo stock ?
+IDS_ENREGISTREPROPCOMMANDE	Registrar (de novo) a encomenda?
+IDS_ENREGISTRER	Registrar
+IDS_ENREGISTRERMODIF	Registrar a modificações?
+IDS_ENREGISTRER_FACTURE	Registrar a factura
+IDS_ENREGISTRER_LISTE_AVEC_LOT	Registrar uma lista com cada lote
+IDS_ENREGISTRER_MODIFICATIONS	Registrar as modificações
+IDS_ENREGISTRETRANSFERT	Registra a transferência
+IDS_ENROULEMENT	Enrolamento
+IDS_ENROULEMENTS	Enrolamentos
+IDS_ENTETE	Encabeçamento
+IDS_ENTETE_CFOU	Encabeçamento enc forn.
+IDS_ENTETE_FICHIER_CORROMPU	O encabeçamento do ficheiro parece danificado.  A aplicação vai parar-se.
+IDS_ENTRAXEBASHAUT	Distancias entre eixos de a baixo até em cima
+IDS_ENTRAXEGAUCHEDROITE	Distancias entre eixos da esquerda até a direita:
+IDS_ENTREE	Entrada
+IDS_ENTREES	Entradas
+IDS_ENTREES_SORTIES	Entradas / saídas
+IDS_ENVOI_CONFIRMATION	Envío das confirmações
+IDS_ENVOYER	Enviar
+IDS_EN_BAS	en baixo
+IDS_EN_COTE_TABLEAU	Em medida tabela
+IDS_EN_HAUT	em cima
+IDS_EN_HAUTEUR	em altura
+IDS_EN_LARGEUR	em largura
+IDS_EPAISSEUR	Espessura
+IDS_EPAISSEURAERATEURINCORRECTE	A espessura do ventilador e a do vidro não correspondem
+IDS_EPAISSEUR_MAXIMUM_INTERCALAIRE_VITRAGE	Espessura máxima perfil separador vidros 
+IDS_EPAISSEUR_MINIMUM_INTERCALAIRE_VITRAGE	Espessura mínima perfil separador vidro
+IDS_EPAISSEUR_TRAIT	Espessura traço
+IDS_EQUIPE	Equipa
+IDS_EQUIPES_POSE	Equipas de instalação
+IDS_ERASE_EXISTING_FILE	O ficheiro #1# já existe.  Voçê deseja  suprimir-lo?
+IDS_ERREUR	Erro
+IDS_ERREURCHARGEMENTMODULE	Error durante o cargamento do módulo %s.
+IDS_ERREURCLE	A chave de proteção não podia ser detectada
+IDS_ERREURDICTIONNAIRE	Error no dicionário de dados
+IDS_ERREURINTERNE	Error interno
+IDS_ERREURPREPAOPTI	Error no ficheiro dos caixilhos a optimizar - procede a uma reorganização dos ficheiros de optimização
+IDS_ERREURSURCOMMANDE	Error de cálculo sobre a encomenda
+IDS_ERREURTSE	A chave de protecção não podia ser detectada (-10)
+IDS_ERREUR_ACCES	Error de acesso sobre essa encomenda
+IDS_ERREUR_ASSEMBLAGE	Error de acoplamento dos perfis.
+IDS_ERREUR_CHASSIS	Error sobre caixilho
+IDS_ERREUR_DORMANT	Error sobre o aro
+IDS_ERREUR_IMPORT	O ficheiro importado é estropeado.  Anular o procedimento de importação?
+IDS_ERREUR_OUVERTURE_FICHIER	Error aquando da abertura do ficheiro
+IDS_ERREUR_REHAUSSE	Error en vossa codificação dos perfis periféricos
+IDS_ERREUR_SYSTEME_DORMANT	Error sobre aro: sistema incompatível
+IDS_ERREUR_SYSTEME_OUVRANT	Error sobre folha: sistema incompatível
+IDS_ERREUR_SYSTEME_QUINCAILLERIE	Error sobre ferragem: sistema incompatível
+IDS_ERREUR_SYSTEME_TRAVERSE	Error sobre travessas: sistema incompatível
+IDS_ERREUR_SYSTEME_VERROUILLAGE_ARTICLE	Error sistema cerrando o artigo '%s'.
+IDS_ERRORFILEACCESS	Problema de acesso a os ficheiros
+IDS_ERROR_LOADING_DLL	Error: impossível cargar o módulo %s
+IDS_ERR_INTERPR_00	Interrupção pelo utilizador
+IDS_ERR_INTERPR_01	Fim de ficheiro atingido durante a execução
+IDS_ERR_INTERPR_02	Divisão por zero
+IDS_ERR_INTERPR_03	'se não se'  fora sequência
+IDS_ERR_INTERPR_04	Não 'fim se'
+IDS_ERR_INTERPR_05	Execução da instrução 'Falha'
+IDS_ERR_INTERPR_06	Instrução desconhecida
+IDS_ERR_INTERPR_07	Formato de número incorrecto
+IDS_ERR_INTERPR_08	Formato de tempo incorrecto
+IDS_ERR_INTERPR_10	Operação não válida
+IDS_ERR_INTERPR_11	Variável desconhecida
+IDS_ERR_INTERPR_12	Não argumento para a função
+IDS_ERR_INTERPR_13	Quantidade de parâmetros incorrecto
+IDS_ERR_INTERPR_14	Nome de variável não válido
+IDS_ERR_INTERPR_15	Erro na avaliação de uma expressão aritmética
+IDS_ERR_INTERPR_20	Operador em falta
+IDS_ERR_INTERPR_21	Ultrapasso de capacidade aritmética
+IDS_ERR_INTERPR_22	Ultrapasso da pilha aritmética
+IDS_ERR_INTERPR_23	Há demasiado 'se não'
+IDS_ERR_INTERPR_24	A expressão é demasiado longa!
+IDS_ERR_INTERPR_25	Há demasiados parâmetros para esta função!
+IDS_ERR_INTERPR_26	A sequência 'Se' é incorrecta (demasiado 'se não', 'se não se' ou 'fim se')
+IDS_ERR_INTERPR_27	Argumento de direita faltando na atribuição
+IDS_ERR_INTERPR_29	A variável existe já
+IDS_ERR_INTERPR_30	Procedimento desconhecido
+IDS_ERR_INTERPR_31	Quantidade de parâmetros incorrectos
+IDS_ERR_INTERPR_32	Parâmetro não válido
+IDS_ERR_INTERPR_33	Ficheiro imagem não válida
+IDS_ERR_INTERPR_34	Nenhum caminho foi definido
+IDS_ERR_INTERPR_35	Parâmetro incorrecto
+IDS_ERR_INTERPR_36	Função não suportada para este ambiente
+IDS_ESCOMPTE	Desconto
+IDS_ESPACEMENT_VERTICAL_ETIQUETTES	Espaço vertical das etiquetas
+IDS_ESSENCE	Madeira
+IDS_ET	e
+IDS_ETAT	Estado
+IDS_ETATAPPROBATIONCONFIRMATION	Confirmação aprovada
+IDS_ETATAVALISATIONFINANCIERE	Autorização financeira
+IDS_ETATCHASSIS	Estado do caixilho
+IDS_ETATCLOTURE	Encomenda cerrada
+IDS_ETATCOMMANDE	Encomenda
+IDS_ETATCOMMANDEFOURNISSEUR	Encomenda fornecedor
+IDS_ETATCOMMANDEVITRAGE	Encomenda dos vidros
+IDS_ETATCONFIRMATIONMODIFIEE	Confirmação recebida e modificada
+IDS_ETATEDITIONVERIFCONFIRMATION	Edição da confirmação
+IDS_ETATENVOICONFIRMATION	Envío da confirmação
+IDS_ETATFACTURATION	Factura editada
+IDS_ETATIMPRESSIONCONFIRMATIONMODIFIEE	Confirmação recebida, modificada e reimprimida
+IDS_ETATMISEENATTENTECONFIRMATION	Posta em espera da confirmação
+IDS_ETATMODIFICATIONCOMMANDE	Encomenda modificada
+IDS_ETATMODIFICATIONDATEFABRICATION	Modificação data de início de fabricação
+IDS_ETATMODIFICATIONDATELIVRAISON	Modificação data de entrega
+IDS_ETATNOTEENVOI	Edição da guia de entrega
+IDS_ETATOPTIMISATION	Optimização
+IDS_ETATOPTIMISATION_PARTIELLE	Optimização parcial
+IDS_ETATPREPAOPTIMISATION	Preparação da optimização
+IDS_ETATPREPARATIONLIVRAISON	Guia de preparação do envío
+IDS_ETATPRODUCTION	Posta em produção
+IDS_ETATPRODUCTION_PARTIELLE	Posta em produção parcial
+IDS_ETATREACTIVATIONCONFIRMATION	Reactivação da confirmação
+IDS_ETATRETOURCONFIRMATIONAMODIFIER	Confirmação recebida e a modificar
+IDS_ETATS	Estados
+IDS_ETATS_COMMANDES	Estados das encomendas
+IDS_ETATVALIDATIONCONFIRMATIONMODIFIEE	Confirmação recebida, modificada e revalidada
+IDS_ETATVALIDVERIFCONFIRMATION	Validação da confirmação
+IDS_ETAT_DESCRIP	Estado Descrição
+IDS_ETIQUETTE	Etiqueta
+IDS_ETIQUETTES	Etiquetas
+IDS_ETIQUETTES_RECEPTION	etiquetas na recepção
+IDS_ETPAS	e não
+IDS_ET_DE	e de
+IDS_EXCLURE_MAIN_D_OEUVRE_PR	Excluir a mão-de-obra do preço de custo
+IDS_EXCLURE_MAIN_D_OEUVRE_PV	Excluir a mão-de-obra do preço de venda
+IDS_EXCLURE_PRIX_REVIENT	Excluir do preço de custo
+IDS_EXCLURE_PRIX_VENTE	Excluir o preço de venda
+IDS_EXCLURE_PR_REVIENT	Excluir do pr. de custo
+IDS_EXCLURE_PR_VENTE	Excluir do pr. de venda
+IDS_EXCLURE_WINPRO/D	Excluir de WinPro/D
+IDS_EXISTEDEJA	O código '#1#' já existe
+IDS_EXPEDITEUR	Expedidor
+IDS_EXPORT	Exportar
+IDS_EXPORTATION	Exportação
+IDS_EXPORTATION_TECHNIQUE	Exportação técnica
+IDS_EXPORTATION_TERMINEE	A exportação da tabela é terminada
+IDS_EXPORTCOMMANDE	Exportação de uma encomenda
+IDS_EXPORTER_HISTORIQUE	Exportar o historial?
+IDS_EXPORTER_LIENS_ATELIER	Exportar todas as relações entre o posto de fábrica e os artigos, mensagens e mecanizados?
+IDS_EXPORTER_OUVRANT	Exportar a folha ligada a esta ferragem?
+IDS_EXPORTER_QUINC	Exportar as ferragens ligadas a esta folha?
+IDS_EXPORT_OUVRANT	Exportação folha
+IDS_EXPORT_PALETTE	Exportação pálete
+IDS_EXPORT_POSTE_ATELIER	Exportação de um posto de fábrica
+IDS_EXPORT_QUINC	Exportação ferragem
+IDS_EXPORT_SPEC	Arquivo & ficheiros exportados|
+IDS_EXPORT_SPEC2	Arquivo & ficheiros exportados da sociedade|
+IDS_EXP_PLAN	Exp. Plan.
+IDS_EXTERIEUR	Exterior
+IDS_EXTERIEUR_OUVRANT	Exterior folha
+IDS_EXT_	ext.
+IDS_FABRICATION	Fabricação
+IDS_FABRICATIONTERMINEE	Fabricação terminada
+IDS_FABRICATION_CHASSIS	Fabricação de caixilhos
+IDS_FACTURATION	Facturação
+IDS_FACTURE	Factura
+IDS_FACTUREMENSUELLE	Facturação mensal
+IDS_FACT_PARTIELLE	Facturação parcial
+IDS_FAUXCINTRAGE	Falsa curva
+IDS_FAUXCINTRAGES	Falsas curvas
+IDS_FAUXCINTRE_0	0. Quadro estandarte
+IDS_FAUXCINTRE_1	1. Exterior do aro rectangular
+IDS_FAUXCINTRE_2	2. Aro rectangular; exterior da folha rectangular
+IDS_FAUXCINTRE_4	Adição de uma extenção no exterior do aro
+IDS_FAUXCINTRE_5	Forma do caixilho inalterada; falsa curva sobre os vidros
+IDS_FAX	Fax
+IDS_FERMER	Fechar
+IDS_FEVRIER	Fevereiro
+IDS_FEVRIER_ABR	Fev
+IDS_FICHE_SIMPLIFIEE	Ficha simplificada
+IDS_FICHIER	Ficheiro
+IDS_FICHIERCLIENTDEPLACE	O ficheiro foi renomado e foi delocalizado do seguinte mode: '#1#'
+IDS_FICHIERPOURFABRICANT	Este ficheiro se destina ao fabricante?
+IDS_FICHIERS_MACHINES	Ficheiros máquinas
+IDS_FICHIER_AIDE	Ficheiro de ajuda
+IDS_FICHIER_DBF	Ficheiro .DBF
+IDS_FICHIER_EXPORT_EXISTE_DEJA	Um ficheiro exportação já existe para a encomenda #1#? É necessario substituir-o por uma nova versão?
+IDS_FICHIER_IMAGE	Ficheiro imagem
+IDS_FICHIER_INEXISTANT	Imposível de encontrar o ficheiro #1#
+IDS_FICHIER_INFORMATION_CLIENT_MODULE_DEVIS	Ficheiro de informações cliente (módulo orçamento)
+IDS_FICHIER_N_EXISTE_PAS	O ficheiro não existe
+IDS_FICHIER_PAS_CREE	O ficheiro #1# não podia ser criado
+IDS_FICHIER_VIDE	Ficheiro vazío
+IDS_FILTRE	Filtro
+IDS_FILTRES	Filtros
+IDS_FIN	Fim
+IDS_FINANCES	Finanças
+IDS_FINCONFIRMATION	Fim confirmação
+IDS_FINDEVIS	Fim orçamento
+IDS_FINFACTURE	Fim factura
+IDS_FINNE	Fim guia de entrega
+IDS_FIN_FABR	Fim fabr.
+IDS_FIN_MOIS	Fim do mês
+IDS_FIXE	Fixa
+IDS_FIXE_SIMPLE_CADRE	Fixa simple quadro
+IDS_FLECHE	Flécha
+IDS_FONCTION	Posição
+IDS_FONTE	Tipo de letra
+IDS_FONTES	Jogo de letras
+IDS_FONTE_POUR_DIMENSIONS	Tipo de letras para as dimensões
+IDS_FORCER_COUPE_SIMPLE	Forçar corte simple ao lugar de corte dobro
+IDS_FORCER_DATE	Forçar a data
+IDS_FORFAIT	Preço fixo
+IDS_FORMATDATE	 - ds mmmm yyyy
+IDS_FORMATER	Formatar
+IDS_FORMAT_DATE	Apresentação de a data
+IDS_FORME	Forma
+IDS_FORME_PAS_DE_BAS	Esta forma não têm uma borda baixa
+IDS_FORME_PAS_DE_DROITE	Esta forma não têm uma borda direita
+IDS_FORME_PAS_DE_GAUCHE	Esta forma não têm uma borda esquerda
+IDS_FORME_PAS_DE_HAUT	Esta forma não têm uma borda de cima
+IDS_FORME_PAS_DE_HAUT_DROITE	Esta forma não têm uma borda de cima direita
+IDS_FORME_PAS_DE_HAUT_GAUCHE	Esta forma não têm uma borda de cima esquerda
+IDS_FORME_VITRAGE_INCORRECTE	A forma do vidro #1# é incorrecta
+IDS_FORMULE	Formula
+IDS_FORMULES	Fórmulas
+IDS_FORMULES_HORIZONTALES_BAS_PAGE	Fórmulas horizontais (pé da página)
+IDS_FORMULE_CALCUL_PV	Fórmula para o cálculo do preço de venda
+IDS_FORMULE_REMISE	Fórmulas desconto
+IDS_FORMULE_SPECIF	Fórmulas específicas
+IDS_FORMULE_TARIF	Fórmula preço tarifa
+IDS_FORMULE_VERTICALE_DROITE_PAGE	Fórmula vertical (direita da página)
+IDS_FOURNISS	Fornec
+IDS_FOURNISSEUR	Fornecedor
+IDS_FOURNISSEURNUM	Fornec. nº
+IDS_FOURNISSEURPRINCIPAL	Fornec. princ.
+IDS_FOURNISSEURS	Fornecedores
+IDS_FOURNISSEUR_NO_EXIST	Este fornecedor não existe
+IDS_FOURNISSEUR_PRINCIPAL	Fornecedor principal
+IDS_FOURNISSEUR_VITRAGE	Fornecedor vidro
+IDS_FRAIS	Despesas 
+IDS_FRAISLIVRAISON	Portes de entrega
+IDS_FRAISPORT	Portes
+IDS_FRAIS_LIVRAISON_CHANTIER	Portes de entrega obra
+IDS_FRANCO_PAS_ATTEINT	O importe franco (#1#) não foi alcançado.  Portes: #2#
+IDS_FREQUENCE_LIVRAISON	Frequência de entrega
+IDS_G(auche)	E
+IDS_GARDENUMFACTURE	Voçê quer guardar a data da factura e o importe facturado?
+IDS_GAUCHE	Esquerda
+IDS_GAUCHE_DROITE	Esquerda e direita
+IDS_GENERER	Gerar
+IDS_GENERER_LOTS_SELECT	Gerar os lotes selecc.
+IDS_GENERER_SERIE_DIMENSIONS	Gerar uma série de dimensões
+IDS_GESTION_PRODUCTION	Gestão de producão
+IDS_GRANDEHAUTEUR	Grande altura
+IDS_GRANDEHAUTEURBAS	Grande altura (perfil inférior)
+IDS_GRILLEPREVISIONSTOCK	Tabela previsional semanal
+IDS_GRILLE_1_DIMENSION	Tabela a 1 dimensão
+IDS_GRILLE_2_DIMENSIONS	Tabela a 2 dimensões
+IDS_GRILLE_PA_ARTICLE	Tabela dos preços de compra do artigo #1#
+IDS_GRILLE_PRIX	Tarifa
+IDS_GRILLE_PRIX_COURANT	Tabela preço corrente
+IDS_GRILLE_PRIX_SUIVANT_DIMENSION	Tabela de preço segundo dimensões
+IDS_GRILLE_PRIX_SUIVANT_SURFACE	Tabela de preço segundo superfície
+IDS_GRILLE_PRIX_TARIF	Tabela preço tarifa
+IDS_GRILLE_PR_COURANT_ARTICLE	Tabela dos preços de custo corrento do artigo #1#
+IDS_GRILLE_PR_TARIF_ARTICLE	Tabela dos preços de custo tarifa do artigo #1#
+IDS_GRILLE_PR_VITRAGE	Tabela de preço de custo do vidro por folha
+IDS_GRILLE_PV_ARTICLE	Tabela dos preços de venda do artigo #1#
+IDS_GRILLE_VITRAGES	Tabela de vidros
+IDS_GROUPES_USINAGES	Grupos de macanizados
+IDS_GROUPEUSINAGE	Grupo de mecanizados
+IDS_GROUPE_ACHAT	Grupo de compra
+IDS_GROUPE_COULEUR	Grupo
+IDS_GROUPE_COULEURS	Grupos de cores
+IDS_GRP_ACHAT	Grp. compra
+IDS_H(aut)	A
+IDS_HAUT	Alto
+IDS_HAUT.	Alt.
+IDS_HAUTDROITE	Alto dereita
+IDS_HAUTEUR	Altura
+IDS_HAUTEURCAISSONINSUFFISANTE	A altura do caixão é insuficiente
+IDS_HAUTEUREXTERIEUR	Altura exterior
+IDS_HAUTEUREXTERIEURBAS	Altura exterior, baixo de a folha
+IDS_HAUTEURINTERIEUR	Altura interior
+IDS_HAUTEURINTERIEURBAS	Altura interior, baixo da folha
+IDS_HAUTEURS	Alturas
+IDS_HAUTEUR_CAISSON	Altura caixão
+IDS_HAUTEUR_CONSTRUCTION	Altura construção
+IDS_HAUTEUR_DE	Altura de
+IDS_HAUTEUR_INSUFFISANTE	A altura é insuficiente
+IDS_HAUTEUR_MAXIMUM	Altura máxima
+IDS_HAUTEUR_MINIMUM	Altura mínima
+IDS_HAUTEUR_SUPPLEMENTAIRE	Altura suplementaria
+IDS_HAUTEUR_TROP_IMPORTANTE	A altura é demasiado importante
+IDS_HAUTEUR_VARIABLE	Altura variável
+IDS_HAUTFABR	A Fabr
+IDS_HAUTGAUCHE	Alto esquerda
+IDS_HAUT_BAS	Alto e baixo
+IDS_HAUT_SEULEMENT	Alto só
+IDS_HBGD	ABED
+IDS_HEURE	Hora
+IDS_HEURES/MINUTES	hora:minutos
+IDS_HISTORIQUE	Historial
+IDS_HISTORIQUEDEVISE	Historial das divisas
+IDS_HISTORIQUEMO	Actualização do historial da mão-de-obra
+IDS_HISTORIQUESTOCK	Historial das existências
+IDS_HISTORIQUE_COMMANDE	Historial encomenda
+IDS_HISTO_FACT_PARTIELLE	Lista Dos documentos
+IDS_HOBBY	Hobby
+IDS_HORAIRE_DE	Horário: de
+IDS_HORIZONTAL	Horizontal
+IDS_HORIZONTALE	Horizontal
+IDS_HORIZONTALES	horizontaís
+IDS_HORS-TOUT	Medida do aro
+IDS_HORS_GARANTIE	Fora garantía!
+IDS_HORS_STOCK	Fora existências
+IDS_HTVA	Fora IVA
+IDS_IDENTIFICATEUR	Identificador
+IDS_IDENTIFICATEUR_LOT	Identificador de lote
+IDS_IDENTIFICATEUR_NUMERIQUE	Identificador numérico
+IDS_IDENTIFICATEUR_VITRAGE	Identificador vidro
+IDS_IEME_TRIMESTRE	%d° trimestre
+IDS_IGNORER	Ignorar
+IDS_IMPORT	Importar
+IDS_IMPORTANCE_CREANCES	Importância dos créditos
+IDS_IMPORTANCE_LITIGES	Importância dos litígios
+IDS_IMPORTATION	Importação
+IDS_IMPORTATION_ARCHIVE	Importação arquivo
+IDS_IMPORTATION_EN_COURS_VEUILLEZ_PATIENTER	Importação em curso, quer esperar por favor...
+IDS_IMPORTATION_MULTI_SITE	Importação multi-sítio
+IDS_IMPORTAUTREFABRICANT	Este ficheiro se destina a um outro fabricante!
+IDS_IMPORTER_PROSPECTS	Importar cl. potenciais
+IDS_IMPORT_COMMANDE	Importação incomenda
+IDS_IMPRESSION	Impressão
+IDS_IMPRESSIONBONVALORISE	Impressão guia de entrega valorizado?
+IDS_IMPRESSIONCORRECTE	Impressão correcta ?
+IDS_IMPRESSIONCORRECTION	Impressão das correcções
+IDS_IMPRESSIONS_FACULTATIVES	Impressões facultativas
+IDS_IMPRESSION_ARTICLE_PLAN	Impressão sobre os documentos
+IDS_IMPRESSION_CINTRE_1:1	Impr. curva 1:1
+IDS_IMPRESSION_CONFIRMATION	Impressão confirmação
+IDS_IMPRESSION_CONFIRMATIONS	Impressão das confirmações
+IDS_IMPRESSION_DE	Impressão de
+IDS_IMPRESSION_DEVIS	Impressão dos orçamentos
+IDS_IMPRESSION_DOCUMENTS_CLIENT	Impressão dos documentos cliente
+IDS_IMPRESSION_DOCUMENTS_OPTIMISATION	Impressão dos documentos de optimização
+IDS_IMPRESSION_EN_LISTE	Impressão em lista
+IDS_IMPRESSION_ETIQUETTES_JETER	Impressão das etiquetas 'Jogar'
+IDS_IMPRESSION_PAGE	Impressão da página %d
+IDS_IMPRESSION_PRIX_UNITAIRE	Impressão do preço unitário
+IDS_IMPRESSION_RECAP_COMMANDE	Impressão do recapitulativo dos caixilhos de uma encomenda
+IDS_IMPRESSION_STOCK_NEGATIF	Impressão das existências négativas
+IDS_IMPRESSION_SUR_ETIQUETTE	Impressão sobre etiquetas
+IDS_IMPRIMER	Imprimir
+IDS_IMPRIMER_ADRESSE_LIVRAISON	Imprimir as moradas de entrega
+IDS_IMPRIMER_COMMANDE_FOURNISSEUR	Esta proposição de encomenda aínda não foi imprimida.  Voçê quer imprimir-a agora?
+IDS_IMPRIMER_DIFFERENCE_PRIX	Imprimir as diferenças de preço
+IDS_IMPRIMER_DIMENSION_CADRE	Imprimir a dimensão do quadro
+IDS_IMPRIMER_LISTE	Imprimir a lista
+IDS_IMPRIMER_LISTE_AVEC_LOT	Imprimir uma lista com cada lote
+IDS_IMPRIMER_LISTE_COMMANDES	Impressão da lista das encomendas
+IDS_IMPRIMER_NUMERO_CLIENT	Imprimir o numero de cliente
+IDS_IMPRIMER_POSITION	Imprimir a posição
+IDS_IMPRIMER_SUR_DOC_CLIENT	Imprimir sobre os documentos cliente
+IDS_IMPRIMER_SUR_ETIQUETTES	Imprimir sobre etiquetas
+IDS_IMPRIMER_SUR_PLAN	Imprimir sobre os mapas de fábrica
+IDS_IMPUTATION	Imputação
+IDS_IMPUTATION_COMPTABLE	Imputação contabilística
+IDS_IMP_PLAN	Imp. plan.
+IDS_INCLURE NE & FACT	Incluir guias de envío e facturas
+IDS_INCLURE_CET_ARTICLE	Incluir este artigo
+IDS_INCLURE_COMMANDES_NON_CONFIRMEES	Incluir as encomendas não confirmadas
+IDS_INCLURE_ENCOURS_COMPTABLE	Incluir o em curso contabilístico
+IDS_INCLURE_NOTES_ENVOI	Incluir as guias de entrega
+IDS_INCORPORE	Incorporado
+IDS_INCORRECT_DATE	Data incorrecta!
+IDS_INCORRECT_SHAPE_ORIENTATION	A orientação da forma é incorrecta
+IDS_INCORRECT_SHAPE_TYPE	O tipo de forma é incorrecto
+IDS_INCORRECT_TIME	Tempo incorrecto!
+IDS_INCREMENT	Incremento
+IDS_INDENTATION	Indentação
+IDS_INDEXATION_TABLE	Indexação da tabela '%s.dbf'
+IDS_INDEX_CORROMPU	Error #1110: Um problema de índice foi detectado. O programa vai parar-se.
+IDS_INDEX_ERRONNE	O índice é erróneo.  É necessário reorganizar imperativamente os ficheiros!
+IDS_INDIQUEZ_CODE_CLIENT	Indica o código do cliente!!
+IDS_INDIQUEZ_DATE_LIMITE	Deve indicar uma data límita de utilização
+IDS_INDIQUEZ_NOM_CLIENT	Indicar o nome do cliente!!
+IDS_INFO	Info.
+IDS_INFOCLI_CORROMPU	O ficheiro INFOCLI é corrompido.\nPor favor, contacta o seu fabricante.
+IDS_INFORMATIONS	Informações
+IDS_INFORMATIONS_GENERALES_VITRAGES	Informações gerais para os vidros
+IDS_INFORMATIONS_SOCIETE	Informações sociedade
+IDS_INFORMATIONS_VITRAGE	Informações vidro
+IDS_INFORMATION_COMMANDE	Informações sobre a encomenda
+IDS_INFOS_ATELIER	Informação postos fábrica
+IDS_INFO_CLI	Informações cliente
+IDS_INFO_LIVRAISON	Informações sobre o prazo de entrega
+IDS_INITIALE_DORMANT	A
+IDS_INITIALE_DROITE	D
+IDS_INITIALE_GAUCHE	E
+IDS_INITIALE_OUVRANT	F
+IDS_INSEREZ_DISQUETTE	Insera uma disquete formatada no leito A:
+IDS_INSEREZ_FLOPPY_LICENCE	Insera a disquete que contem o número de licença
+IDS_INSEREZ_INFO_CLI	Insera a diquete 'INFOCLI'
+IDS_INSTRUCTIONS	Instruções
+IDS_INSTRUCTIONS_COMPLEMENTAIRES	Instruções complementares
+IDS_INSTRUCTIONS_LIVRAISON	Instruções de entrega
+IDS_INSTRUCTIONS_POUR_LIVRAISONS	Instruções de entrega
+IDS_INTERCALAIRE	Perfil separador
+IDS_INTERCALAIRE_TROP_EPAIS	O perfil separador do vidro é demasiado espesso para o pinázio seleccionado!
+IDS_INTERCALAIRE_TROP_MINCE	O perfil separador do vidro é demasiado fino para o pinázio seleccionado!
+IDS_INTERDITES	Proibidas
+IDS_INTERIEUR	Interior
+IDS_INTERIEUR_EXTERIEUR	Inter/Exter
+IDS_INTERNET	Internet
+IDS_INTERVALLE	Intervalo
+IDS_INTERVALLES	Intervalos
+IDS_INTERVALLE_ENTRE_COLONNES	Intervalo entre as colunas
+IDS_INTITULE	Título
+IDS_INTITULE_VITRAGE	Título vidro
+IDS_INTRODUIRE_NUMERO_LICENCE	Introduzir seu número de licença
+IDS_INT_	int.
+IDS_INVALID_RANGE	Número fora límite
+IDS_INVENTAIRE	Inventário
+IDS_INVENTEMPLACEMENT	Inventário por localização
+IDS_INVENTGENERAL	Inventário geral
+IDS_INVERSER_ANGLES_PROFILS	Se corta em dobro, os ângulos de um perfil devem ser pelo contrário ângulos de outro perfil
+IDS_INVERSER_DORMANT	Inverter o aro
+IDS_INVERSER_SEL.	Inverter sel.
+IDS_INVERSER_SELECTION	Inverter seleccão
+IDS_INVERSER_VUE	Inverter a vista
+IDS_INVISIBLE	Invisível
+IDS_INVISIBLE_WINPRO/D	Invisível em WinPro/D
+IDS_JAMAIS	Nunca
+IDS_JANVIER	Janeiro
+IDS_JANVIER_ABR	Jan
+IDS_JETER	Jogar
+IDS_JEUDI	Quinta-feira
+IDS_JEUDI_ABR	Qui
+IDS_JOINTPROFIL	Junta de vidro
+IDS_JOINT_CENTRAL_DORMANT	Junta central sobre aro
+IDS_JOINT_CENTRAL_OUVRANT	Junta central sobre folha
+IDS_JOINT_FRAPPE_DORMANT	Junta de aro
+IDS_JOINT_FRAPPE_OUVRANT	Junta de folha
+IDS_JOINT_SUR_CADRE	Junta sobre aro
+IDS_JOINT_VITRAGE	Junta vidro
+IDS_JONCTIONTRAV	Acoplamento com outras travessas:
+IDS_JONCTIONTRAV1	Não há acoplamento
+IDS_JONCTIONTRAV2	Acoplamento de um só lado
+IDS_JONCTIONTRAV3	Acoplamento dos 2 lados
+IDS_JOUR	dia
+IDS_JOURLIVRAISON	Dia de entrega
+IDS_JOURNAL_MAIN_OEUVRE	Diário mão-de-obra
+IDS_JOURNAL_STOCK	Diário existências
+IDS_JOURS	dias
+IDS_JOUR_DE_POSE	O dia da instalação
+IDS_JTVITRAGE	Junta vidro
+IDS_JT_CENTRAL_DORMANT	Jt central aro
+IDS_JT_CENTRAL_OUVRANT	Jt central folha
+IDS_JT_FRAPPE_DORMANT	Jt de aro
+IDS_JT_FRAPPE_OUVRANT	Jt de folha
+IDS_JUILLET	Julho
+IDS_JUILLET_ABR	Jul
+IDS_JUIN	Junho
+IDS_JUIN_ABR	Jun
+IDS_JUSQUE	até
+IDS_JUSQUE_DATE_SORTIE	Até a data de saída:
+IDS_JUSQU_AU	Até o
+IDS_KM_RAYON	km de raio
+IDS_Kg/m²	Kg/m²
+IDS_LANCEMENTFABRICATION	Posta em produção
+IDS_LANCEMENT_OPTIMISATION	Lançamento da optimização
+IDS_LANCER_RECHERCHE	Lançar a procura
+IDS_LANGAGE	Língua
+IDS_LANGUE	Língua
+IDS_LANGUECATEG	Língua, categoria, divisa
+IDS_LANGUEDEV	Língua e divisa
+IDS_LANGUES	Línguas
+IDS_LANGUE_ACTIVE	Língua activa
+IDS_LANGUE_AFFICHAGE	Língua de visualização
+IDS_LANGUE_BASE	Língua de base
+IDS_LANG_SUBST	Língua de subst.
+IDS_LAQUAGE	Lacado
+IDS_LAQUE	Laca
+IDS_LAQUER_1_COULEUR_APRES_ASSEMBLAGE	Lacar os perfis de uma única cor depois acoplamento
+IDS_LARG.	Larg.
+IDS_LARGEUR	Largura
+IDS_LARGEURNULLE	A largura é nula
+IDS_LARGEURS	Larguras
+IDS_LARGEUR_DE	Largura de
+IDS_LARGEUR_MAXIMUM	Largura máxima
+IDS_LARGEUR_MINIMUM	Largura mínima
+IDS_LARGEUR_RESTANTE	Largura restante
+IDS_LARGFABR	L Fabr
+IDS_LIAISON_FOURNISSEUR	Ligação fornecedor
+IDS_LIBELLE	Descrição
+IDS_LIBELLES	Descrições
+IDS_LICENCE	Lincença
+IDS_LIGNE	Linha
+IDS_LIGNEPRODUCTION	Linha prod.
+IDS_LIGNES_PRODUCTION	Linhas de produção
+IDS_LIGNE_PRODUCTION	Linha de produção
+IDS_LIGNE_REPERE	Linha sinal
+IDS_LIMCREDIT	Lim.credito
+IDS_LIMITER_CHOIX_RAL	Limitar a escolha das cores RAL
+IDS_LIMITES_COUPE	Limitas de corte
+IDS_LIMITE_CREDIT	Limite de crédito
+IDS_LIM_VAL	Lim.val.
+IDS_LINEAIRE	Superficie carregamento
+IDS_LINEAIRECAMION	Sup. carreg. camião
+IDS_LINEAIRE_CAMION	Superficie de carregamento do camião
+IDS_LISTE	Lista opti
+IDS_LISTEARTICLE	Lista de artigos
+IDS_LISTECATEGORIEARTICLES	Lista das categorias de artigos
+IDS_LISTECATEGORIECLIENTS	Lista das categorias de clientes
+IDS_LISTECHARGEMENT	Lista de carregamento
+IDS_LISTECHASSIS	Lista dos caixilhos
+IDS_LISTECLIENT	Lista dos clientes
+IDS_LISTECOEFFICIENTS	Lista dos coeficientes de preço
+IDS_LISTEDEVISE	Lista das divisas
+IDS_LISTEEMPLACEMENT	Lista das localizações
+IDS_LISTEERREURS	Lista dos errores
+IDS_LISTEFOURNISSEUR	Lista dos fornecedores
+IDS_LISTEPANNEAUX	Lista de corte dos painéis
+IDS_LISTEPROFIL	Lista dos perfis
+IDS_LISTES	Listas
+IDS_LISTEUSINAGE	Lista dos mecanizados
+IDS_LISTE_ACCESSOIRE_CHASSIS	Lista dos acessórios de caixilhos
+IDS_LISTE_CADRES_LOT_CATEGORIE	Lote #1# - Lista dos quadros tipos #2#
+IDS_LISTE_CHARGEMENT_BARRES	Liste de carregamento das barras
+IDS_LISTE_CHASSIS_OPTIMISES	Lista dos caixilhos optimizados
+IDS_LISTE_COMPARATIVE_DEVIS/COMMANDE	Lista comparative Orçamento / Encomenda
+IDS_LISTE_CONFIRMATIONS	Lista das confirmações
+IDS_LISTE_CONFIRMATION_ENVOYEE	Lista das Confirmações Enviadas
+IDS_LISTE_CONSOMMATION	Lista do consumo
+IDS_LISTE_DESSIN	Lista dos desenhos
+IDS_LISTE_DES_FICHIERS	Lista dos ficheiros
+IDS_LISTE_DORMANT	Lista dos aros
+IDS_LISTE_LAQUAGE	Lista de lacado
+IDS_LISTE_OPTIMISATION	Lista de optimização
+IDS_LISTE_OUVRANT	Lista das folhas
+IDS_LISTE_PANNEAU	Lista dos painéis
+IDS_LISTE_PANNEAU_DECORATIF	Lista dos painéis decorativos
+IDS_LISTE_QUINCAILLERIE	Lista das ferragens
+IDS_LISTE_RESERVATIONS	Lista das reservações
+IDS_LISTE_TRAVERSE	Lista das travessas
+IDS_LISTE_VITRAGE	Lista dos vidros
+IDS_LISTE_VITRAGES_ET_PANNEAUX	Lista dos vidros e painéis
+IDS_LISTE_VUES_COUPES	Lista das vistas en corte
+IDS_LISTPACKAGES	Lista dos pacotes
+IDS_LIVR	Entr
+IDS_LIVR/POSE	Entrega/Instalação
+IDS_LIVRAISON	Entrega
+IDS_LIVRAISONFRANCO	Entrega franco
+IDS_LIVRAISONS	Entregas
+IDS_LIVRAISONS_AVANCEES	Entregas avançadas
+IDS_LIVRAISONS_CHANTIER	Entrega sobre obra
+IDS_LIVRAISON_SAMEDI	Entrega o sábado
+IDS_LIVREES	Entregadas
+IDS_LIVREES_DEPUIS_PLUS_DE	Entregadas desde mais de 
+IDS_LIVRVITR	Entr.vidr.
+IDS_LIVR_FABRICANT	Entr.fabric.
+IDS_LIVR_VITRAGES	Entr. de vidros
+IDS_LIV_PARTIELLE	Entrega parcial
+IDS_LOCALITE	Localidade
+IDS_LOCKINGFILE	Bloqueio do ficheiro #1#.
+IDS_LOCKINGRECORD	Registro bloqueado no ficheiro
+IDS_LOGFACTURATIONPARTIELLE	Facturação parcial
+IDS_LOGIQUE	Lógica
+IDS_LOGISTIQUE	Logística
+IDS_LOGNOTEENVOIPARTIELLE	Guia de entrega parcial
+IDS_LOGO	Sigla representativa
+IDS_LONGUEUR	Comprimento
+IDS_LONGUEURS	Comprimentos
+IDS_LONGUEUR_1_BARRE	Comprimento de uma barra
+IDS_LONGUEUR_COUPE	Comprimento de corte
+IDS_LONGUEUR_COUPE+	Comprimento corte: +
+IDS_LONGUEUR_MAXIMUM	Comprimento máximo
+IDS_LONGUEUR_MINIMUM	Comprimento mínimo
+IDS_LONG_MAX	Cp máx
+IDS_LONG_MIN	Cp mín
+IDS_LONG_MINIMUM	Comprimento mínimo
+IDS_LONG_TOT	Compr tot
+IDS_LOT	Lote
+IDS_LOTS	Lotes
+IDS_LOTS_CHUTES	Lotes de sobras
+IDS_LOTS_DE	Lotes desde
+IDS_LOTS_NON_VALIDES	Foram seleccionados lotes que contem encomendas não aprovadas
+IDS_LOTS_OPTIMISATION	Lotes de optimização
+IDS_LOTVIDE	Este lote é vazío
+IDS_LOWERCASE	Todo em minúsculas
+IDS_LPROD	Linhas prod.
+IDS_LUNDI	Segunda-feira
+IDS_LUNDI_ABR	seg
+IDS_Licensed to	Licença vendida a %s
+IDS_MACONNERIE	Maçonaria
+IDS_MAI	Maio
+IDS_MAIL_ORDERS	Encomendas por e-mail
+IDS_MAIL_TITLE	Correo electrónico
+IDS_MAINDOEUVRE	Mão-de-obra
+IDS_MAINDOEUVREAENLEVER	Mão-de-obra a retirar
+IDS_MAI_ABR	Mai
+IDS_MAJDB_TABLE_INEXISTANTE	Impossível abrir a tabela '%s'.\nA tabela é talvez utilizada sobre outro posto de trabalho.\nWinPro não pode por conseguinte terminar a actualização da base de\ndados, e vai parar-se.
+IDS_MAJMANUELLE	Modificação manual
+IDS_MAJMANUELLECHASSIS	Modificação manual estado caixilho
+IDS_MAJPRIXREVIENT	Por favor confirma a actualização dos preços de custo tarifa
+IDS_MAJ_CLIENT	Actualizar o cliente #1#?
+IDS_MAJ_KOM	Actualização Kömmerling
+IDS_MAJ_KOM_ART	Voçê quer criar este artigo:
+IDS_MAJ_KOM_ERROR	Error durante a actualização dos ficheiros Kömmerling
+IDS_MAJ_KOM_QUIT	Por favor deixa WinPro para reinicializar os dados 
+IDS_MAJ_KOM_SPEC	Ficheiros Kömmerling
+IDS_MAJ_PROSPECT	Actualização do cl. potencial #1#?
+IDS_MANOEUVRE	Obreiro
+IDS_MARDI	Terça-feira
+IDS_MARDI_ABR	ter
+IDS_MARGE	Margem
+IDS_MARGES	Margens
+IDS_MARGE_(HORS_MAIN_D_OEUVRE)	Margem (fora mão-de-obra)
+IDS_MARGE_BRUTE	Margem bruto
+IDS_MARGE_COMM	Margem com.
+IDS_MARGE_DROITE	Margem direita
+IDS_MARGE_MAT	Margem prod.
+IDS_MARGE_POSE	Margem inst.
+IDS_MARGE_PR	Margem/P.custo
+IDS_MARGE_PV	Margem/P.venda
+IDS_MARGE_SUPERIEURE	Margem superior
+IDS_MARGE_SUPPLEMENTAIRE	Preço de custo tarifa
+IDS_MARGE_SUPPL_(%)	Margem acresc (%)
+IDS_MARGE_TOT	Margem tot.
+IDS_MARS	Março
+IDS_MARS_ABR	Mar
+IDS_MATERIEL_PROMOTIONNEL	Material em promoção
+IDS_MAX	Máx
+IDS_MAXIMUM	Máximo
+IDS_MAX_N_PIECES	Voçê não pode seleccionar mais de #1# caixilho(s) em um mesmo lote!
+IDS_MAX_N_VANTAUX	Voçê não pode seleccionar mais de #1# folhas em um mesmo lote!
+IDS_MEMORISER_PRIX_DEVIS	É necessário memorizar os preços?
+IDS_MEMORISER_SELECTIONS	Memorizar as seleccões
+IDS_MENUFAILURE	Falha aquando da criação do menú
+IDS_MERCREDI	quarta-feira
+IDS_MERCREDI_ABR	qua
+IDS_MESSAGE	Mensagem
+IDS_MESSAGES	Mensagem
+IDS_MESURES_FINIES_HxL	Medidas (HxL)
+IDS_MIN	Mín
+IDS_MINIMISER_NOMBRE_COUPES	Minimizar a quantidade de cortes
+IDS_MINIMUM	Mínimo
+IDS_MISEAJOURINTERDITE	Voçê não pode mais modificar os caixilhos de esta encomenda
+IDS_MISEAJOURSTOCK	Actualização das existências
+IDS_MISE_A_JOUR_STRUCTURE_FICHIER	Actualização da estrutura do ficheiro '%s.dbf'
+IDS_MISE_EN_ATTENTE_CONFIRMATION	Posta em espera das confirmações
+IDS_MISE_EN_LOT	Botada em lote
+IDS_MISE_EN_LOTS	Botada en lotes
+IDS_MISE_EN_PRODUCTION	Posta em produção
+IDS_MIXEDCASE	Minusculas e Maiúsculas
+IDS_MM_DE_BAS_OU_GAUCHE	mm do baixo ou da esquerda
+IDS_MM_X_HAUTEUR	mm x Altura
+IDS_MO	Um M.O
+IDS_MOCADRE	Mão-de-obra para o quadro
+IDS_MOCOINS	Mão-de-obra para os ángulos
+IDS_MOCONSOMMEE	Mão-de-obra consumida
+IDS_MODEM	Modem
+IDS_MODE_CALCUL	Módo de cálculo
+IDS_MODE_SAISIE_COTES	Módo entrada dimensões
+IDS_MODIFCOMMANDE	Modificação da encomenda
+IDS_MODIFICATION	Modificação
+IDS_MODIFICATION_LIVRAISONS	Modificação entregas
+IDS_MODIFIERVITRAGE	Câmbiar o tipo de vidro
+IDS_MODIFIER_TRAVERSE	Modificar uma travessa
+IDS_MODIF_ETAT_CDE	Modif. estado enc.
+IDS_MODULEWINPRO	Módulos WinPro
+IDS_MOIS	Mês
+IDS_MONTANT	Importe
+IDS_MONTANT_HTVA	Importe sem IVA
+IDS_MONTANT_MAIN_OEUVRE	Importe da mão-de-obra
+IDS_MOTIF	Motivo
+IDS_MOT_ENTIER	Palavra inteira
+IDS_MOYENNE	Media
+IDS_NBRE_CHASSIS	Nro de caixilhos
+IDS_NBRE_TRAV	Nro travessas
+IDS_NBRE_VOLETS	Nro de estores
+IDS_NBR_COMMANDES	Nro encomendas
+IDS_NBR_PORTES	Nro de portas
+IDS_NEAU_DEVIS	Nv orçam
+IDS_NEAU_PREF	Nv Pref
+IDS_NEAU_SAV	Nv SAV
+IDS_NET_COMM	Neto com.
+IDS_NET_MAT	Neto prod.
+IDS_NET_POSE	Neto instalação
+IDS_NET_TOT	Neto total
+IDS_NEW	Criar
+IDS_NE_PAS_ENREGISTRER	Não registrar
+IDS_NIVEAU	Nível
+IDS_NIVEAU_OPTIMISATION	Nível de optimização
+IDS_NIVEAU_PRIX	Nível de preço
+IDS_NJOURSDATEFACTURE	%d dias data factura
+IDS_NJOURSFINDEMOIS	%d dias fim de mês
+IDS_NLLE_CDE	Nv encomenda
+IDS_NLLE_CDE_ACC	Nv enc acc
+IDS_NOAPP	Não há objecto de aplicação
+IDS_NOCDE	Nº enc.
+IDS_NOCLIENT	Nº cliente
+IDS_NOEXPRESSION	(Expresão) Error de relação para a tabela
+IDS_NOM	Nome
+IDS_NOMBREARGUMENTSINCORRECT	Quantidade de argumentos incorrectos
+IDS_NOMBRE_ASSOCIES	Quantidade de associados
+IDS_NOMBRE_CHIFFRES	Quantidade de números
+IDS_NOMBRE_COLONNES	Quantidade de colunas
+IDS_NOMBRE_MAXIMUM_CHASSIS_LOT	Quantidade máxima de caixilhos por lote
+IDS_NOMBRE_MAXIMUM_VANTAUX_PAR_LOT	Quantidade máxima de folhas por lote
+IDS_NOMBRE_MAXI_DORMANTS	Quantidade máxi. de aros
+IDS_NOMBRE_MAXI_OUVRANTS	Quantidade máxi. de folhas
+IDS_NOMBRE_POSTES	Quantidade de postos
+IDS_NOMBRE_SALARIES	Quantidade de assalariados
+IDS_NOMBRE_TOTAL_VOLUMES	Quantidade total de volumes
+IDS_NOMBRE_TRAVERSES_SELECTIONNEES	Quantidade de travessas seleccionadas
+IDS_NOMBRE_VANTAUX	Quantidade de folhas
+IDS_NOMBRE_VITRAGES_PAR_PALETTE	Quantidade de vidro por pálete
+IDS_NOMBRE_VOLUMES	Quantidade de volumes
+IDS_NOMTVA	Nome e nº de IVA
+IDS_NOM_CLIENT	Nome do cliente
+IDS_NOM_CONTACT	Nome do contacto
+IDS_NOM_FICHIER	Nome do ficheiro
+IDS_NOM_VARIABLE	Nome da variável
+IDS_NON	Não
+IDS_NONCOMPRIS	Não deduzido
+IDS_NONFOURNI	NÃO ENTREGADO
+IDS_NONOPTIMISE	Não optimizado
+IDS_NONRECTANGULAIRES	Não rectangulares
+IDS_NONZERO	<> 0
+IDS_NON_LISTE	Não listado
+IDS_NON_MODIFIABLE	Não modificável
+IDS_NON_POUR_TOUS	Não para todos
+IDS_NON_RETOURNABLE	Não reversível
+IDS_NON_VALORISE	Não valorizado
+IDS_NON_VALORISEE	Não valorizada
+IDS_NOPATH	Nome do ficheiro que falta:
+IDS_NORECORD_SELECT	Nenhum registro seleccionado
+IDS_NORMES_VITRAGE	Normas vidro
+IDS_NORMEVENT	Norma de pressão do vento
+IDS_NORMEVERRE	Norma de vidro
+IDS_NOSREFERENCES	Nossas referências
+IDS_NOS_DEFAUTS	Nossos defeitos
+IDS_NOS_QUALITES	Nossas qualidades
+IDS_NOTABLE	(Tabela) Error de relação para a tabela
+IDS_NOTAG	(Tag) Error de relação para a tabela
+IDS_NOTECREDIT	Nota de crédito
+IDS_NOTEENVOI	Guia de entrega
+IDS_NOTES	Notas
+IDS_NOTES_ENVOI_RECAP	Guias de entrega recapitulativas
+IDS_NOTE_VITRIER	Nota paro vidraceiro
+IDS_NOUVEAUCHASSIS	Novo caixilho
+IDS_NOUVEAUNUMERO	Câmbiar o número
+IDS_NOUVEAUNUMEROFACTURE	Novo número de factura
+IDS_NOUVEAUNUMERONE	Número de guia de entrega
+IDS_NOUVEAUSTOCK	Novas existências
+IDS_NOUVEAU_CLIENT	Novo cliente
+IDS_NOUVEAU_CODE	Novo código
+IDS_NOUVEAU_VOLET	Novo estore
+IDS_NOUVELLE_COULEUR	Nova cor
+IDS_NOUVELLE_DATE_FABRICATION	Nova data de fabricação
+IDS_NOUVELLE_DATE_LIVRAISON	A nova data de entrega sugerida é o 
+IDS_NOUVELLE_VERSION	Nova versão
+IDS_NOUVEL_ETAT	Novo estado
+IDS_NOVEMBRE	Novembro
+IDS_NOVEMBRE_ABR	Nov
+IDS_NO_CONFIRMATION	Nº confirmação
+IDS_NO_DATE	Deve indicar uma data!
+IDS_NO_LABEL	Sm etiq.
+IDS_NO_SELECT_FILE	Voçê seleccionou nenhum ficheiro!
+IDS_NO_SUBJECT_MAIL	Não há correio referente a isto
+IDS_NR	F.E.
+IDS_NRECT	N.Rect
+IDS_NUM	Nº
+IDS_NUMBER_OUT_OF_RANGE	Este valor deve situar-se entre %s e %s!
+IDS_NUMBON	Correcção nº
+IDS_NUMDOC	Número Documento
+IDS_NUMERIQUE	Numérico
+IDS_NUMERO	Número
+IDS_NUMEROEXISTEDEJA	Este número já existe
+IDS_NUMEROFACTUREEFFECTIF	Número de factura efectivo:
+IDS_NUMEROS_VERSION	Números de versão
+IDS_NUMEROTATION	Numeração
+IDS_NUMEROTATION_LIGNES	Numeração das linhas
+IDS_NUMEROTATION_LOTS	Numeração dos lotes
+IDS_NUMEROTATION_MANUELLE	Numeração manual
+IDS_NUMEROTER	Numerar
+IDS_NUMEROTEXTE	Numerar texto
+IDS_NUMERO_1°_PAGE	Número da 1ª página
+IDS_NUMERO_AUTO	Novo número automático
+IDS_NUMERO_CLIENT	Número de cliente
+IDS_NUMERO_COMMANDE	Número de encomenda
+IDS_NUMERO_CONFIRMATION	Número de confirmação
+IDS_NUMERO_LICENCE	Número de licença
+IDS_NUMERO_LOT	Número de lote
+IDS_NUMERO_MACHINE	Número de máquina
+IDS_NUMERO_MANUEL	Novo número manual
+IDS_NUMERO_NE	Número da guia de entrega
+IDS_NUMERO_NE_EFFECTIF	Número da guia de entrega efectivo
+IDS_NUMERO_OUTIL_FACE_BG	Número de ferramenta (lado B/E)
+IDS_NUMERO_OUTIL_FACE_HD	Número de ferramenta (lado A/D)
+IDS_NUMERO_SCIE	Número de serra
+IDS_NUMERO_TARIFS_REMIS	Números das tarifas entregadas
+IDS_NUMERO_TVA	Número de IVA
+IDS_NUMSLOT	Número de sublote:
+IDS_NUM_CHASSIS	Número de caixilho
+IDS_NUM_NOTE_ENVOI	Nº guia de entrega
+IDS_NUM_SIRET	N° Siret
+IDS_NV_CHASSIS	Nv caixilho [F12]
+IDS_Nr_COMMANDE	Nº encomenda
+IDS_N°_DOCUMENT	Nº documento
+IDS_OBJCA0P	Objectivo VN ano 0 (cuidadoso)
+IDS_OBJCA0V	Objectivo VN ano 0 (voluntarista)
+IDS_OBJCA1P	Objectivo VN ano +1 (cuidadoso)
+IDS_OBJCA1V	Objectivo VN ano +1 (voluntarista)
+IDS_OCCUPATION	% enchimento
+IDS_OCTOBRE	Outubro
+IDS_OCTOBRE_ABR	Out
+IDS_OFFRES_ET_CONFIRMATIONS	Ofertas e confirmações
+IDS_OK	Aceitar
+IDS_OKTORESUME	OK para continuar?
+IDS_ON_DEVICE	%s sobre %s
+IDS_OPTIM	Optimização
+IDS_OPTIMENCOURS	#1# lançou uma outra optimização. Deve esperar que termina-se.  Clique em 'Experimentar de novo' para experimentar de novo agora, ou sobre 'Anular' para parar agora e experimentar de novo mais tarde.
+IDS_OPTIMISATION	Optimização
+IDS_OPTIMISATIONTRAVERSE	Optimização das travessas
+IDS_OPTIMISATION_DES_ACCESSOIRES	Optimização dos acessórios
+IDS_OPTIMISATION_DIFFEREE	Optimização diferida
+IDS_OPTIMISATION_INCOMPLETE	A optimização deste caixilho não é terminada
+IDS_OPTIMISER	Optimizar
+IDS_OPTIMISER_PROFILS_PERIPHERIQUES_SEPAREMENT	Optimizar os perfis periféricos separadamente
+IDS_OPTIMISER_TRAVERSES_PLUS_TARD	Optimizar as travessas mais tarde
+IDS_OPTIMISER_TRAVERSES_SEPAREMENT	Optimizar as travessas separadamente
+IDS_OPTION	Opção
+IDS_OPTIONS	Opções
+IDS_OPTIONS_INVENTAIRE	Opções inventário
+IDS_ORDERS_FOR_IMPORT	Encomenda em espera para import
+IDS_ORDRE_DESSIN_OUVRANT	Ordem de desenho das folhas
+IDS_ORDRE_DESSIN_VANTAUX	Ordem de desenhos das folhas
+IDS_ORIENTATION	Orientação
+IDS_ORIENTATION_PAGE	Orientação da página
+IDS_OU	ou
+IDS_OUI	Sim
+IDS_OUI_POUR_TOUS	Sim para todoas
+IDS_OUTILLAGE	Ferramenta
+IDS_OUTOFMEMORY	Memória insufficiente
+IDS_OUVERTURE_DROITE	Abertura na direita
+IDS_OUVERTURE_DROITE_VUE_EXTERIEURE	Abertura na direita, vista exterior
+IDS_OUVERTURE_DROITE_VUE_INTERIEURE	Abertura na direita, vista interior
+IDS_OUVERTURE_GAUCHE	Abertura na esquerda
+IDS_OUVERTURE_GAUCHE_VUE_EXTERIEURE	Abertura na esquerda, vista exterior
+IDS_OUVERTURE_GAUCHE_VUE_INTERIEURE	Abertura na esquerda, vista interior
+IDS_OUVRANT	Folha
+IDS_OUVRANTNORMAL	Folha normal
+IDS_OUVRANTS	Folhas
+IDS_OUVRANT_HORS_TARIF	Folha fora tarifa
+IDS_OUVRIR	Abrir
+IDS_OU_%	ou %
+IDS_OU_>	ou >
+IDS_OU_PAR	Ou por
+IDS_OVALE	Oval
+IDS_OWLEXCEPTION	Excepção ObjectWindows
+IDS_O_N	S/N
+IDS_PA	P.C.
+IDS_PACKAGE	Gestão dos pacotes
+IDS_PADEVISE	P.C. divisa
+IDS_PAGE	Página
+IDS_PAGE_1	Página 1
+IDS_PAGE_ARTICLES	Página artigos
+IDS_PAGE_PROFILS	Página perfìs
+IDS_PAIEMENT	Pagamento
+IDS_PALETTE	Pálete de transporte
+IDS_PALETTES	Páletes
+IDS_PALETTES_DEPOSEES	Páletes depositadas
+IDS_PALETTES_DISPONIBLES	Páletes disponiveis
+IDS_PALETTES_NON_DISPONIBLES	Páletes não disponiveis
+IDS_PALETTES_RENTREES	Páletes recuperadas
+IDS_PALETTE_CHARGEE	Cargada
+IDS_PALETTE_DISPONIBLE	Disponível
+IDS_PALETTE_LIVREE	Entregada
+IDS_PALETTE_VERRE	Pálete de vidros
+IDS_PANET	P.C. neto
+IDS_PANNEAU	Paineis 
+IDS_PANNEAUADECOUPER	Painel a recortar
+IDS_PANNEAUDECORATIF	Painel decorativo
+IDS_PANNEAUFABRIQUE_HORS_TARIF	Painel fora tarifa
+IDS_PANNEAUTROPGRAND	Dimensões do painel fora dos limite
+IDS_PANNEAUX	Painéis
+IDS_PANNEAUX_A_DECOUPER	Painéis a recortar
+IDS_PANNEAUX_DECORATIFS	Painéis decorativos
+IDS_PANNEAUX_FABRIQUES	Painéis fabricados
+IDS_PANNEAUX_SUR_TOUTE_SURFACE	Painéis sobre toda a superficie
+IDS_PANNEAU_1	Painel 1
+IDS_PANNEAU_2	Painel 2
+IDS_PANNEAU_3	Painel 3
+IDS_PANNEAU_4	Painel 4
+IDS_PANNEAU_5	Painel 5
+IDS_PANNEAU_FABRIQUE	Painel fabricado
+IDS_PANNEAU_HORS_COTE	O painel #1# é fora medida !!!
+IDS_PAR	por
+IDS_PARAMETRAGE	Preferências
+IDS_PARAMETRAGE_FORMULES	Paramétrização por fórmulas
+IDS_PARAMETRE	Parâmetro
+IDS_PARAMETRES	Parâmetros
+IDS_PARAMETRES_DOCUMENTS	Parâmetros documentos
+IDS_PARAMETRES_OPTIMISATION	Parâmetros de optimização
+IDS_PARAM_LIVRAISON	Parâm. entrega
+IDS_PARAM_PANNEAUX	Parâm. painéis
+IDS_PARAM_VITRAGES	Parâm. vidros
+IDS_PARPERIMETRE	Por perímetro
+IDS_PARPIECE	Por peça
+IDS_PARSURFACE	Por superficie
+IDS_PARTICULIER	Particular
+IDS_PARTIEVIDE_DORMANT	Parte vazía (perfil aro em cima)
+IDS_PARTIEVIDE_TRAVERSE	Parte vazía (perfil de travessa em cima)
+IDS_PAR_DEFAUT	Por defeito
+IDS_PAR_UNITE+FORFAIT	por unidade + preço fixo
+IDS_PASDEBASEDEREFERENCE	Não base de referência
+IDS_PASDEFICHIERINI	O ficheiro WinPro é incorecto ou imposível de encontrar
+IDS_PASDEMARGE	Não indicou qual margem aplicar. É necessário imprimir apesar de todo?
+IDS_PASDEMARGE2	Não indicou qual margem aplicar.  O documento não se imprimirá
+IDS_PASDENUMERO	Voçê não indicou  número
+IDS_PASDESELECTION	Voçê seleccionou nada
+IDS_PASDETRAVERSEDANSFIXE	Voçê não pode inserir uma travessa numa folha fixa simple quadro.  Insera-a antes como travessa de aro.
+IDS_PASTE	Colar
+IDS_PAS_ASSEMBLAGE	Sem acoplamento
+IDS_PAS_A_COTE_TRAVERSE	Não junto a uma travessa
+IDS_PAS_CODE_COULEUR	Sim código cor
+IDS_PAS_CODE_FOURNISSEUR	Sim código fornecedor
+IDS_PAS_CRX_INCORP_PANNEAU	Não se pode botar pinázios incorporados nos painéis!
+IDS_PAS_CRX_INCORP_VITRAGE	Não se pode botar pinázios incorporados neste vidro
+IDS_PAS_DE_CODE_CLIENT	O código cliente não foi indicado!
+IDS_PAS_DE_CROISILLONS_INCORPORES	Sem pinázios encorporados
+IDS_PAS_DE_DESTINATION_MAIL	Não há destinatário definido para a sociedade '#1#' !!!
+IDS_PAS_DE_DIM_VITRAGE_SUR_CONFIRMATION	Não dim. vidro sobre confirmações
+IDS_PAS_DE_GRILLE	Sem tabela
+IDS_PAS_DE_PRIX	Não há preço definido para o vidro
+IDS_PAS_DE_REMPLACEMENT	Nenhum elemento a substituir foi encontrado
+IDS_PAS_DE_RESERVATION	Não há reservações por o momento
+IDS_PAS_DE_SOUS_LOTS	Não dividir em sublotes
+IDS_PAS_DE_TOTAL	Sem total
+IDS_PAS_DE_VITRAGE!	Sem vidros !
+IDS_PAS_D_ACCORD	Não acordo
+IDS_PAS_D_ARTICLE_A_COMMANDER	Não há nenhum artigo a encomendar
+IDS_PAS_ECLATER_QUANTITES	Não estourar as quantidades
+IDS_PAS_FOURNIR_VITRAGE	Não entregar os vidros
+IDS_PAS_GENERER_COMMANDE_DEPUIS_CLIENT	Não gerar encomenda  ir da encomenda cliente
+IDS_PAS_IMPRIMER_DIM_VITRAGE	Não imprimir as dimensões dos vidros sobre as confirmações
+IDS_PAS_IMPRIMER_ETIQUETTE	Não imprimir etiqueta
+IDS_PAS_METTRE_A_JOUR_STOCK	Não actualizar as existências
+IDS_PAS_PRIX_UNITAIRE	Sem preço unitário
+IDS_PAS_UTILISER_A_COTE_TRAVERSE	Não utilizar ao lado de uma travessa
+IDS_PAS_UTILISER_STOCK_CHUTES	Não utilisar as existências de sobras
+IDS_PAYS	País
+IDS_PAYSAGE	Horizontal
+IDS_PBH	Pin.H
+IDS_PBV	Pin.V
+IDS_PC_CA	% Vol.Neg
+IDS_PC_CHUTE	% sobras
+IDS_PC_REM	% D
+IDS_PDFMAIL	PDF-mail
+IDS_PDFMAILINI	Não deu o caminho de acesso ao ficheiro PDFMAIL. INI
+IDS_PERIMETRE	Perímetro
+IDS_PERIMETRES	Perímetros
+IDS_PERIMETRE_M	Perímetro total
+IDS_PERIODE_COMPTABLE_NON_AUTORISEE	Não pode facturar neste período por o momento
+IDS_PERIODE_LIVRAISON	Período entrega
+IDS_PERIODICITE	Periodicidade
+IDS_PERTE:BOUT_BARRE	Perda: extremidade de barra
+IDS_PERTE_BOUT_CHUTE	Perda em final de sobra
+IDS_PERTE_TRAIT_SCIE_ANGLE	Perda traço de serra (em função dos ângulos de corte)
+IDS_PETITEHAUTEUR	Pequenha altura
+IDS_PETITEHAUTEURBAS	Pequenha altura (perfil inferior)
+IDS_PIECES	Peças
+IDS_PIECES_LIVRABLES_DATES	As peças seguintes são entregáveis às datas mencionadas abaixo
+IDS_PISTE_1	Pista 1
+IDS_PISTE_2	Pista 2
+IDS_PLANCOMPLET	Plano de fábrica completo
+IDS_PLANIFICATION	Planificação
+IDS_PLANMESURAGE	Plano de medição
+IDS_PLANNINGFABRICATION	Plano de fabricação
+IDS_PLANNINGLIVRAISON	Plano de entrega
+IDS_PLANNINGSORTIE	Plano de saída
+IDS_PLANNING_ENLEVEMENT	Lista das retiradas
+IDS_PLANNING_LIVRAISON	Lista das entregas
+IDS_PLANNING_POSE	Lista dos montagens
+IDS_PLANSIMPLIFIE	Plano de fábrica simplificado
+IDS_PLANS_ATELIER	Planos de fábrica
+IDS_PLAN_ATELIER_DETAILLE	Plano de fábrica detalhado
+IDS_PLEINCINTRE	Curva completa
+IDS_PLEINCINTREDROITE	Meia curva completa direita
+IDS_PLEINCINTREGAUCHE	Meia curva completa esquerda
+IDS_PLIS	Dobras
+IDS_PNET	P. neto
+IDS_POIDS_m²	Peso m²
+IDS_POINTAGE_ATELIER	Controlo fábrica
+IDS_POINTS_TYPO	puntos (1/72")
+IDS_POLICE	Tipo de letra
+IDS_PORT	Transporte
+IDS_PORTABLE	Telemóvil
+IDS_PORTE	Porta
+IDS_PORTES	Portas
+IDS_PORTRAIT	Vertical
+IDS_PORT_HTVA	Transporte fora IVA
+IDS_POS	Pos
+IDS_POSE	Instalação
+IDS_POSE/ENLEVEMENT/LIVRAISON	Instalação/ retirada/ entrega
+IDS_POSITION	Posição
+IDS_POSITIONAERATEURINCORRECTE	A posição do ventilador é incorecta
+IDS_POSITIONINCORRECTE	A posição da travessa é incorecta
+IDS_POSITION_PAR_DEFAUT	Posição por defeito
+IDS_POSTE	Posto
+IDS_POSTEFRAIS	Posto
+IDS_POSTES_TRAVAIL	Postos de trabalho
+IDS_POSTRAV	Posição travessa
+IDS_POURCENTAGE	%
+IDS_POUR_ATELIER	Para a fábrica
+IDS_POUR_CLIENT	Para o cliente
+IDS_POUR_PAIEMENT_DANS	% para pagamento dentro de 
+IDS_POUR_UTILISATEUR	Para o utilizador
+IDS_PRCOURANT	P.C. corrente
+IDS_PRCSUPP	% Supl
+IDS_PRECISION_COUPE	Precisão do corte
+IDS_PREDECOUPE	Precorte
+IDS_PREFERENCES	Preferências
+IDS_PREFIX	Prefixo
+IDS_PREFIXE	Prefixo
+IDS_PREFIXE_NUMEROTATION_AUTO	Prefixo para numeração automática
+IDS_PREFIXE_SUPPLEMENTAIRE	Prefixo suplementario
+IDS_PRENDRE	Tomar
+IDS_PRENOM	Nome
+IDS_PREPARATIONPIECES	Preparação da lista de peças
+IDS_PREPARATION_LIVRAISON	Preparação entrega
+IDS_PREPARATION_LOT	Preparação dos lotes
+IDS_PREPARATION_OPTIMISATION	Preparação da optimização
+IDS_PREPASTOCK	Preparação das existências
+IDS_PREST	Prest.
+IDS_PRESTATIONS_ASSOCIEES	Prestações associadas
+IDS_PREVENIR	Prevenir
+IDS_PREVIENT	P.custo
+IDS_PREVISION	Previsão
+IDS_PREVU	Previsto
+IDS_PRINT	Imprimir
+IDS_PRINTERERROR	Error impressora
+IDS_PRINTTOFILE	Impressão para ficheiro?
+IDS_PRINT_ON	'%s' sobre
+IDS_PRIORITE	Prioridade
+IDS_PRIORITE_SUR_VALEURS_SCIE	Estes valores têm prioridade sobre os valores definidos a nível da serra
+IDS_PRISE_MESURE	Toma medidas
+IDS_PRISE_MESURES	Toma de medidas
+IDS_PRIX	Preço
+IDS_PRIXACHAT	Preço de compra
+IDS_PRIXBRUT	Preço bruto
+IDS_PRIXDEV	Preço divisa
+IDS_PRIXREVIENT	Pr.custo
+IDS_PRIXTARIF	Pr tarifa
+IDS_PRIXUNITE	Preço unitário
+IDS_PRIX_ACHAT_NET_DEVISE	Preço de compra neto em #1#
+IDS_PRIX_AU_M2	Preço ao m²
+IDS_PRIX_BASE	Preço base
+IDS_PRIX_BRUT+REMISE_%	Preço bruto + desconto %
+IDS_PRIX_CESSION	Preço de cessão
+IDS_PRIX_COURANT	Preço corrente
+IDS_PRIX_DANS_GRILLE_M³	Preço na tabela por m²
+IDS_PRIX_DES_CHASSIS	Preço dos caixilhos
+IDS_PRIX_ET_REMISES	Preços e descontos
+IDS_PRIX_FORCES	Preços forçados
+IDS_PRIX_FORFAITAIRE_ALVEOLE	Preço forfetário por alvéolo
+IDS_PRIX_HORS_VITRAGE	Preço fora vidro
+IDS_PRIX_IMPOSE	Preço imposto
+IDS_PRIX_MIN	Preço mín
+IDS_PRIX_MINIMUM	Preço mínimo
+IDS_PRIX_MINIMUM_TARIF	Preço mínimo: tarifa
+IDS_PRIX_MOYEN_PONDERE	Preço médio ponderado
+IDS_PRIX_NET	Preço neto
+IDS_PRIX_PROPORTIONNEL_LARGEUR_UTILE	Preço proporcional a largura útil
+IDS_PRIX_REVIENT	Preço de custo
+IDS_PRIX_REVIENT_ALVEOLE	Preço de custo por alvéolo
+IDS_PRIX_REVIENT_COURANT	Preço de custo corrente
+IDS_PRIX_REVIENT_TARIF	Preço de custo tarifa
+IDS_PRIX_TARIF	Preço tarifa
+IDS_PRIX_VENTE	Preço de venda
+IDS_PRIX_VENTE_CONVENUS	Preço de venda combinado
+IDS_PRIX_VENTE_NEGOCE	Preço de venda negócio
+IDS_PRIX_VITRAGES_SEPAREMENT	Preço dos vidros
+IDS_PRIX_VITRAGE_SEUL	Preço do vidro só
+IDS_PRIX_VOLETS_SEPAREMENT	Preço dos estores
+IDS_PRIX_m²_TARIF	Preço/m²: Tarifa
+IDS_PRNCANCEL	Impressão anulada
+IDS_PRNERRORCAPTION	Error impressão
+IDS_PRNERRORTEMPLATE	'%s' não imprimido. %s.
+IDS_PRNGENERROR	Error durante a impressão
+IDS_PRNMGRABORT	Impressão anulada a nível do gestor de impressão
+IDS_PRNON	 sobre
+IDS_PRNOUTOFDISK	Espaço disco insuficiente
+IDS_PRNOUTOFMEMORY	Memória insuficiente
+IDS_PROBLEME_ACCES_TARIF	Problema de acesso à tarifa seleccionada
+IDS_PROBLEME_CALCUL_DIMENSION	Cálculo de dimensão errôneo
+IDS_PROBLEME_DBDEVIS	Problema durante a criação da base de dados orçamento. O programa vai ser parado
+IDS_PROCEDUREINCONNUE	Nome de procedimento desconhecido
+IDS_PRODUITS_VENDUS	Produtos vendidos
+IDS_PROF	Profissional
+IDS_PROFESSIONNEL	Profissional
+IDS_PROFIL	Perfìl
+IDS_PROFILINACCESSIBLE	Este código perfil é inacessível
+IDS_PROFILINEXISTANT	O perfil %s não existe
+IDS_PROFILPRINCIPAL	Perfil principal
+IDS_PROFILS	Perfìs
+IDS_PROFILS_COMPLEMENTAIRES	Perfis perif.
+IDS_PROFILS_PERIPHERIQUES	Perfìs periféricos
+IDS_PROFIL_COMPOSE	Perfil composto
+IDS_PROFIL_EXTERIEUR_1	Perfil exterior 1
+IDS_PROFIL_EXTERIEUR_2	Perfil exterior 2
+IDS_PROFIL_INTERIEUR_1	Perfil interior 1
+IDS_PROFIL_INTERIEUR_2	Perfil interior 2
+IDS_PROFIL_PERIPHERIQUE_HORS_TARIF	Perfìs periféricos fora tarifa
+IDS_PROF_EXT	Perf. exter.
+IDS_PROF_INT	Perf. inter.
+IDS_PROPORTIONVITRAGEDEPASSEE	Proporção largura /altura do vidro demasiado importante
+IDS_PROPORTION_LH_MAX	Proporção L/A máx.
+IDS_PROPOSITIONCOMMANDE	Proposição de encomenda
+IDS_PROPOSITIONCOMMANDEFOURNISSEUR	Proposição de encomenda fornecedor
+IDS_PROPOSITIONENREGISTREE	A proposição foi registada na encomenda n°
+IDS_PROPRETE	Limpeza
+IDS_PROSPECT	Cl. Potencial
+IDS_PROSPECTS	Cl. Potenciais
+IDS_PRTARIF	P.C. tarifa
+IDS_PR_CHANTIER	Preço de custo obra
+IDS_PR_COURANT_VITRAGE	Preço de custo corrente vidro para o fornecedor #1#
+IDS_PR_POSE	Custo instalação
+IDS_PR_PROD	Custo prod
+IDS_PR_PRODUCTION	Preço de custo produção
+IDS_PR_TARIF_VITRAGE	Preço de custo tarifa vidro para o fornecedor #1#
+IDS_PR_TOT	Custo tot.
+IDS_PVBRUT	P.V. bruto
+IDS_PVENTE	P.venda
+IDS_PVNET	P.V. neto
+IDS_QTE	Qde
+IDS_QTECDEE	Quant. enc.
+IDS_QTERECUE	Quant. recebida
+IDS_QTE_AFABRIQUER	Quant. a fabricar
+IDS_QTE_ALIVRER	Quant. a entregar
+IDS_QTE_A_FACTURER	Quant. a facturar
+IDS_QTE_FABRIQUEE	Quant. fabricada
+IDS_QTE_FACTUREE	Quant. facturada
+IDS_QTE_LAQUE	Quant. laca
+IDS_QTE_LIVREE	Quant. entregada
+IDS_QTE_MIN	Quant. mín.
+IDS_QUALITE	Qualidade
+IDS_QUALITE_ET_QUANTITE	Qualidade e quantidade
+IDS_QUANTITE	Quantidade
+IDS_QUANTITETROPIMPORTANTE	Atenção! a quantidade pedida parece demasiado importante!
+IDS_QUANTITE_PAR_DEFAUT	Quantidade por defeito
+IDS_QUANTITE_TOTALE:	Quantidade total:
+IDS_QUELS_FOURNISSEURS	Quais fornecedores?
+IDS_QUERYETAT	Procura sobre os caixilhos não terminados
+IDS_QUESTION	Pergunta
+IDS_QUESTIONS	Perguntas
+IDS_QUESTIONSDORMANT	Perguntas aros
+IDS_QUE_REMPLACER	O que substituir?
+IDS_QUINC	Ferragem
+IDS_QUINCAILLERIE	Ferragem
+IDS_QUINCAILLERIES	Ferragens
+IDS_QUINCAILLERIE_HORS_TARIF	Ferragem fora tarifa
+IDS_QUITTER	Deixar
+IDS_RAL	RAL
+IDS_RAL1COUL	<RAL 1 COR>
+IDS_RAL2COUL	<RAL 2 CORES>
+IDS_RAL_1_COULEUR	RAL 1 cor
+IDS_RAL_2_COULEURS	RAL 2 cores
+IDS_RAL_EXT	Cor RAL ext.
+IDS_RAL_INT	Cor RAL int.
+IDS_RAL_STANDARD_1_COULEUR	RAL estandarte 1 cor
+IDS_RAL_STANDARD_2_COULEURS	RAL estandarte 2 cores
+IDS_RAPPELFOURNISSEUR	Lembrete fornecedores
+IDS_RAPPEL_PALETTES	Lembrete das páletes entregadas
+IDS_RAPPORT_MAXIMUM_LARGEUR/HAUTEUR	Relação máximo largura/altura
+IDS_RAREMENT	Raramente
+IDS_RAZRESCLI	Anulação das reservações
+IDS_RAZ_STOCK	Diminuição a zero das existências
+IDS_RAZ_TOTALE_STOCK	Queira confirmar a diminuição a zero total das existências!!!
+IDS_RAZ_TOUT_STOCK	Pôr a zero toda as existências
+IDS_REACTIVATION_CONFIRMATION	Réactivação das confirmações postas em espera
+IDS_RECALCULER	Calcular novamente
+IDS_RECALCULER_DEVIS	É necessário calcular novamente os preços?
+IDS_RECALC_SELECTION	Calcular nov. seleccão
+IDS_RECAPITULATIF	Recapitulativo
+IDS_RECAPITULATIFS	Recapitulativos
+IDS_RECAP_CHASSIS	Recapitulativo caixilhos
+IDS_RECAP_PAR_SECTION	Recapitulativo por secção - encomenda
+IDS_RECEPTIONCOMMANDEFOURNISSEUR	Recepção de uma encomenda fornecedor
+IDS_RECEPTIONCOMMANDENO	Recepção encomenda n°
+IDS_RECEPTION_CDE_FOURN	Recepção encomenda
+IDS_RECEPT_CHANT	Recep. obra
+IDS_RECHERCHE	Procura
+IDS_RECHERCHE_COMMANDES	Procura de encomendas
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES	Procura de confirmações enviadas
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES_AVANT	Procurar as confirmações enviadas antes o
+IDS_RECHERCHE_DE	Procura de «#1#»
+IDS_RECHERCHE_DEPUIS	Procurar desde o
+IDS_RECHERCHE_ETATS_CHASSIS	Procura dos estados dos caixilhos
+IDS_RECONFIRMER	Reconfirmar
+IDS_RECORDLOCKEDBYOTHER	Registo bloqueado por um outro utilizador. Quer experimentar de novo?
+IDS_RECOUVREMENTOUVRANTDORMANT	Cobrimento da folha sobre o aro
+IDS_RECOUVREMENTOUVRANTDORMANTBAS	Cobrimento folha/aro, em baixo
+IDS_RECOUVREMENT_OUVRANT/DORMANT	Cobrimento folha/aro
+IDS_RECTANGLES	Rectângulos
+IDS_RECU	Recebido
+IDS_REDESSINER	Desenhar de novo
+IDS_REEL	Real
+IDS_REENREGISTRERCOMMANDE	Salvar (de novo) a encomenda?
+IDS_REFERENCE	Referência
+IDS_REFERENCECLIENT	Referência cliente
+IDS_REFERENCEINCONNUE	Referência desconocida
+IDS_REHAUSSES	Perfis periféricos
+IDS_REHAUSSE_PAS_A_DROITE	O perfil #1# não pode ser instalado a direita do caixilho
+IDS_REHAUSSE_PAS_A_GAUCHE	O perfil #1# não pode ser instalado a esquerda do caixilho
+IDS_REHAUSSE_PAS_EN_BAS	O perfil #1# não pode ser instalado em baixo do caixilho
+IDS_REHAUSSE_PAS_EN_HAUT	O perfil #1# não pode ser instalado na parte superior do caixilho
+IDS_REIMPRESSION	Reimpressão
+IDS_REIMPRESSION_CONFIRMATIONS	Reimpressão das confirmações
+IDS_REIMPRESSION_OPTIMISATION	Reimpressão das etiquetas de optimização
+IDS_REIMPRIMER_CONFIRMATIONS	Reimprimir as confirmações
+IDS_REINDEXATION	Reindexação
+IDS_REINDEXATION_FICHIERS	Reindexação dos ficheiros
+IDS_REJET_D_EAU	Rejeição de água
+IDS_RELANCE_OPTIMISATION	Reactivação optimização
+IDS_RELATIONS	Relações
+IDS_REM	Desc %
+IDS_REMARQUE	Observação
+IDS_REMISE	Desconto
+IDS_REMISE_%	Desconto (%)
+IDS_REMISE_1	Desconto 1
+IDS_REMISE_2	Desconto 2
+IDS_REMISE_3	Desconto 3
+IDS_REMISE_ACCORDEE	Desconto atribuído
+IDS_REMISE_A_ZERO	Diminuição a zero
+IDS_REMISE_COMPLEMENTAIRE	Desconto complementar
+IDS_REMISE_DEDUITE	Desconto deduzido
+IDS_REMISE_MATIERE	Desconto matéria
+IDS_REMISE_MAXI	Desconto máxi
+IDS_REMISE_POSE	Desconto instalação
+IDS_REMISE_REPERE	Desconto calculado por sinal
+IDS_REMISE_REPERE_COMMANDE_FABRICANT	Desconto por sinal sobre encomenda fabricante
+IDS_REMISE_REPERE_PAR_DEFAUT	Desconto/sinal por defeito
+IDS_REMISE_SUR_COUTS_PRODUCTION	Desconto sobre custos de produção
+IDS_REMISE_TOTALE	Desconto total
+IDS_REMPLACEMENT	Substitução
+IDS_REMPLACEMENT_ELEMENT	Substituir um elemento
+IDS_REMPLACER	Substituir
+IDS_REMPLIRPARTIEVIDE	Encher parte vazía
+IDS_REMPLISSAGE	Enchimento
+IDS_REMPLISSAGES	Enchimentos
+IDS_REMPLISSAGES_PAR_DEFAUT	Enchimentos por defeito
+IDS_REMPLISSAGE_BAS_GAUCHE	Enchimento em baixo ou a esquerda\nTipo
+IDS_REMPLISSAGE_HAUT_DROITE	Enchimento em cima ou a direita\nTipo
+IDS_REM_VITR	Desc.vidr.
+IDS_REM_VITR_2	Desc.vidr. 2
+IDS_REM_VITR_3	Desc.vidr. 3
+IDS_REM_VOLET	Desc.est.
+IDS_REM_VOLET_2	Desc.est. 2
+IDS_REM_VOLET_3	Desc.est. 3
+IDS_RENAME	Renomear
+IDS_RENFORT	Reforço
+IDS_RENSEIGNEMENTS	Informações
+IDS_RENSEIGNEMENTS_FACULTATIFS	Informações facultativas
+IDS_RENSEIGNEMNENTS	Informações
+IDS_REPART	Distribuição
+IDS_REPARTIR	Distribuir
+IDS_REPARTIR_CHUTES_RAL	Distribuir sobras RAL
+IDS_REPARTITION	Distribuição das cargas
+IDS_REPARTITION_COMMANDES	Distribuição das encomendas
+IDS_REPARTITION_DES_COUTS	Distribuição dos custos por secção
+IDS_REPERE	Sinal
+IDS_REPRESENTANT	Representante
+IDS_REPRESENTANTS	Representantes
+IDS_REP_FACT_PARTIELLE	Reimpressão Facturação Parcial
+IDS_REP_LIV_PARTIELLE	Reimpressão Entrega Parcial
+IDS_REP_MAJDB	Actualização de %d.%d.%d en %d.%d.%d le %s a %s
+IDS_RESERVATION	Reservação
+IDS_RESERVATIONS	Reservações
+IDS_RESERVATIONS_CLIENTS	Reservações clientes
+IDS_RESERVE	Reservado
+IDS_RESPONSABLE	Responsável
+IDS_RESPONSABLE_RECEPTION	Responsável recepção
+IDS_RESP_COMMERCIAL	Resp. comercial
+IDS_RESP_FINANCIER	Resp. financeiro
+IDS_RESP_POSE	Resp. instalação
+IDS_RESP_TECHNIQUE	Resp. técnico
+IDS_RESTAURER_STOCK_CHUTE_IMPOSSIBLE	Impossível de restaurar as existências de sobras!!
+IDS_RESULTATS	Resultados
+IDS_RETOUR_PALETTES	Regresso das páletes
+IDS_RETRIER_LOT(S)	Reclassificar o(s) lote(s)
+IDS_RIB_1	Banco 1
+IDS_RIB_2	Banco 2
+IDS_RIB_3	Banco 3
+IDS_ROTATION	Rotação
+IDS_ROUGE	Vermelho
+IDS_ROUTINE	Rotina
+IDS_ROUTINES	Rotinas
+IDS_RUE	Rua
+IDS_SAISIE_SIMPLIFIEE	Introdução simplificada
+IDS_SALLE_EXPO	Sala de expo.
+IDS_SAMEDI	Sábado
+IDS_SAMEDI_ABR	sáb
+IDS_SANSTVA	Sem IVA
+IDS_SANS_COULEUR	Sem cor
+IDS_SANS_PRIX	Sem preço
+IDS_SANS_VOLET	Sem estore
+IDS_SAUVEMODIF	Registrar as modificações?
+IDS_SAV	Serviço após venda
+IDS_SAVE	Salvar
+IDS_SCIE	Serra
+IDS_SCIES	Serras
+IDS_SCIE_ALT	Serra 2
+IDS_SECTION	Secção
+IDS_SECTIONS	Secções
+IDS_SEEK	Procurar
+IDS_SELECTALL	Seleccionar todo
+IDS_SELECTION	Selecção
+IDS_SELECTIONNER_CAT_ART_RAZ	Selecciona as categorias de artigo a pôr a zero
+IDS_SELECTIONNEZ_DORMANTS	Selecciona os aros a utilizar
+IDS_SELECTIONNEZ_OUVRANTS	Selecciona as folhas a utilizar
+IDS_SELECTIONNEZ_SYSTEMES	Selecciona os sistemas a utilizar
+IDS_SELECTIONNEZ_TARIF	Não seleccionou o código tarifa
+IDS_SELECTIONS	Selecções
+IDS_SELECTION_BIBLIOTHEQUE	Biblioteca - selecção de um caixilho
+IDS_SELECTION_RAPIDE	Selecção rápida
+IDS_SELECTION_RAZ	Nenhuma categoria foi seleccionada
+IDS_SELECTION_SYSTEME	Selecção sistema
+IDS_SELECTUN	Deve seleccionar apenas só uma linha
+IDS_SEM	Sem
+IDS_SEMAINE	Semana
+IDS_SEMAINELIVRAISON	Semana de entrega
+IDS_SEMAINES	semanas
+IDS_SEMAINE_ANNEE_LIVRAISON	Semana / ano de entrega
+IDS_SEMAINE_LIVRAISON_DE	Semana de entrega: de
+IDS_SENDPOLYPANEMAIL	Esta seguro de querer enviar o seu ficheiro por mail?
+IDS_SENS	Direcção
+IDS_SENS_OUVERTURE	Sentido de abertura
+IDS_SEPARATION_1/2	Separação 1/2
+IDS_SEPARATION_2/3	Separação 2/3
+IDS_SEPARATION_3/4	Separação 3/4
+IDS_SEPARATION_4/5	Separação 4/5
+IDS_SEPARATION_5/6	Separação 5/6 
+IDS_SEPARATION_6/7	Separação 6/7
+IDS_SEPTEMBRE	Setembro
+IDS_SEPTEMBRE_ABR	Set
+IDS_SEUIL	Soleira
+IDS_SEUIL_CHASSIS	Parapeito caixilho
+IDS_SEUIL_PORTE	Soleira da porta
+IDS_SEUIL_PORTE_AVEC_REDUCTION	Soleira de porta (com redução do aro)
+IDS_SEUIL_PORTE_SANS_REDUCTION	Soleira de porta (sem redução de aro)
+IDS_SHAPE_INDEX_OUT_OF_BOUND	O índice na lista das formas está fora de limites
+IDS_SHAPE_NOT_CREATED	A forma não pôde ser criada (parâmetros incorrectos)
+IDS_SHORT_DATE	DD-MM-YY
+IDS_SIGNALETIQUES	Descrições
+IDS_SIGNATURE	Assinatura
+IDS_SIRET	Siret
+IDS_SITE	Sítio de produção
+IDS_SITEL	Sítio
+IDS_SITELIVR	Sítio entr.
+IDS_SITE_INTERNET	Sítio WEB
+IDS_SITE_LIVRAISON	Sítio de entrega
+IDS_SITUATION	Situação
+IDS_SITUATION_MACONNERIE	Situação maçonaria
+IDS_SI_DEPASSEMENT_UTILISER	Se ultrapasso, utilizar
+IDS_SI_INDIQUE	Se indicado
+IDS_SI_LONGUEUR_<	Sem comprimento <
+IDS_SI_NON_INDIQUE	Se não indicado
+IDS_SOCIETE	Sociedade
+IDS_SOCIETE_NO_DEFINE	As coordenadas da sociedade não foram definidas
+IDS_SOLDE	Saldo
+IDS_SORTIE	Saída
+IDS_SORTIES	Saídas
+IDS_SOURCE	Fonte
+IDS_SOUSLAME	Sub-lámina
+IDS_SOUSLOT	Sublote
+IDS_SOUSTOTAL	Subtotal
+IDS_SOUS_LOT_PRECEDENT	Sublote precedente
+IDS_SOUS_LOT_SUIVANT	Sublote seguinte
+IDS_SOUS_TITRE	Subtítulo
+IDS_SOUS_TRAITANT_ACCEPTE	Subcontratante aceitado
+IDS_SOUS_TRAITER_LAQUAGE	Subcontratar o lacado
+IDS_SOUVENT	Frequentemente
+IDS_SPECIFIER_COULEUR_CROISILLON	Indicar a cor do pinázio
+IDS_STANDARD	Estandarte
+IDS_STKCH	Ex. Jan.
+IDS_STOCK	Existências
+IDS_STOCKAGE_CHUTES	Armazenamento das sobras
+IDS_STOCKAGE_COUPE	Armazenamento do corte
+IDS_STOCKER	Armazenar
+IDS_STOCKMINMAX	Existências mín/máx
+IDS_STOCKPREVISIONNEL	Existências previsionais
+IDS_STOCKTOTAL	Existências total
+IDS_STOCK_ACTUEL	Existências actual
+IDS_STOCK_CHUTES	Existências de sobras
+IDS_STOCK_INFERIEUR_A_0	Existências inferiores a zero
+IDS_STOCK_METRES	Existências em metros
+IDS_STOCK_MINIMUM/MAXIMUM	Existências mínimo/máximo
+IDS_STOCK_NEGATIF	Existências négativas
+IDS_STOCK_PRINCIPAL	Existências principais
+IDS_STOCK_SUPERIEUR_0	Existências superiores a 0
+IDS_STOCK_SUP_OU_EGAL_0	Existências sup. ou igual 0
+IDS_STOP!	Stop!
+IDS_STYLE	Estilo
+IDS_SUPPLEMENT	Suplemento
+IDS_SUPPLEMENT_ALIGNEMENT_PR	Suplemento alinhamento (PR)
+IDS_SUPPLEMENT_FORFAITAIRE	Suplemento forfetário
+IDS_SUPPRESSION	Supressão
+IDS_SUPPRESSIONARTICLE	Supressão do historial
+IDS_SUPPRESSIONBIBLIOTHEQUE	Supressão da biblioteca
+IDS_SUPPRESSIONCOMMANDE	Supressão de encomenda
+IDS_SUPPRESSIONCOMMANDECOMPLETE	Supressão da encomenda completa?
+IDS_SUPPRESSIONHISTORIQUE	Supressão do historial?
+IDS_SUPPRESSIONPROFIL	Supressão perfil
+IDS_SUPPRESSIONRECORD	Supressão do registro "#1#"?
+IDS_SUPPRESSIONTARIFCOMPLET	Supressão da tarifa completa?
+IDS_SUPPRESSION_CHUTES	Supressão das sobras?
+IDS_SUPPRESSION_IMPOSSIBLE	Supressão impossível por o momento
+IDS_SUPPRIMECHASSIS	Confirma a supressão deste caixilho?
+IDS_SUPPRIMER	Suprimir
+IDS_SUPPRIMERENSEMBLE	Queira confirmar a supressão dos caixilhos contidos no conjunto
+IDS_SUPPRIMERVARIANTES	Esta operação vai suprimir todas as variantes. Queira confirmar.
+IDS_SUPPRIMER_GRILLE	Deseja esvazíar esta tabela de preços?
+IDS_SUPPRIMEVOLET	Confirma a supressão de este estore?
+IDS_SUPPR_COMMANDES	Supr. pedidos
+IDS_SURCOTE	Sobre-dimenção
+IDS_SURFACE	Área
+IDS_SURFACES	Superfícies
+IDS_SURFACEVITRAGETROPGRANDE	Superfície do vidro demasiado grande
+IDS_SURFACE_MAXIMUM	Área máxima
+IDS_SURFACE_MAXIMUM(m²)	Área máxima (m²)
+IDS_SURFACE_TOTALE	Superfície total
+IDS_SURF_MAX	Área máx.
+IDS_SUR_CHANTIER	na obra
+IDS_SUR_DOCUMENTS_ATELIER	documentos produção
+IDS_SUR_DOCUMENTS_CLIENT	documentos clientes
+IDS_SUR_GRILLES_TARIF	Sobre tabela de tarifa
+IDS_SUR_PRIX_COURANT	sobre o preço do dia
+IDS_SYMBOLESOUVERTURE	Símbolos de abertura
+IDS_SYMBOLE_B	Símbolo B
+IDS_SYMBOLE_D	Símbolo D
+IDS_SYMBOLE_G	Símbolo E
+IDS_SYMBOLE_GRAPHIQUE	Simbolo de posicionamento
+IDS_SYMBOLE_H	Símbolo C
+IDS_SYSTEME	Sistema
+IDS_SYSTEMEPRINCIPAL	Sistema principal
+IDS_SYSTEMES	Sistemas
+IDS_TABLE	Tabela
+IDS_TABLES_A_TRAITER	Tabelas a tratar
+IDS_TABLE_PRIX_REVIENT	Tabela de preço de custo
+IDS_TAILLE	Tamanho
+IDS_TARIF	Tarifa
+IDS_TARIFS	Tarifas
+IDS_TARIFS_CHASSIS	Tarifas caixilhos
+IDS_TARIFS_VOLETS	Tarifas estores
+IDS_TARIFVOLET	Tarifa estore
+IDS_TARIF_ASCII	Tarifa ASCII
+IDS_TARIF_FORMAT_ASCII	Tarifas em formato ASCII
+IDS_TARIF_MAIN_DOEUVRE	Tarifa mão-de-obra
+IDS_TARIF_MO	Tarifa M.O
+IDS_TARIF_SPEC	Tarifas (*.TXT)|*.TXT|
+IDS_TAUX	Taxa
+IDS_TAUX_CHANGE	Valor cambial
+IDS_TAUX_CHUTE	Taxa de sobras
+IDS_TAUX_EN_%	Taxa (%)
+IDS_TAUX_TVA	Taxa de IVA
+IDS_TECHNIQUE	Técnica
+IDS_TEINTE_RAL	Cor RAL
+IDS_TEL	Tel
+IDS_TELECOMMUNICATIONS	Telecomunicação
+IDS_TELEFAX	Fax
+IDS_TELEGLASS_FILE	A encomenda precedente não foi enviada: CONTINUAR?
+IDS_TELEPHONE	Telefono
+IDS_TELEPHONEFAX	Telefono e fax
+IDS_TELEPHONES	Telefones
+IDS_TELEPHONE_MOBILE	Telemóvel
+IDS_TEMPSCOIN	Mão-de-obra de ângulo
+IDS_TEMPS_BUREAU_ETUDE	Duração de estudo
+IDS_TEMPS_POSE	Duração instalação
+IDS_TEMPS_PROD	Tempo de produção
+IDS_TEMPS_TOTAL	Tempo total
+IDS_TENIRCOMPTESTOCK	É necessário ter em conta as existências e as reservas?
+IDS_TENIR_COMPTE_DELAI_LIVRAISON	Ter em conta o prazo de entrega para as confirmações cliente
+IDS_TERMINAL_SERVEUR	Terminal Server
+IDS_TERMINE	Terminado
+IDS_TERMINE_A	Terminado o %s a %s
+IDS_TESTER	Testar
+IDS_TESTETIQUETTESOPTIMISATION	Teste das etiquetas de optimização
+IDS_TEXTE	Texto
+IDS_TEXTEPASTROUVE	O texto não foi encontrado
+IDS_TEXTES	Textos
+IDS_TEXTES_CONFIRMATION	Textos conf.
+IDS_TEXTES_DEVIS	Textos orçamento
+IDS_TEXTES_FACTURE	Textos fac.
+IDS_TEXTES_NOTEENVOI	Textos guia de remessa
+IDS_TEXTE_ATELIER	Texto fábrica
+IDS_TEXTE_A_RECHERCHER	Texto a procurar
+IDS_TEXTE_DEBUT	Texto de encabeçamento
+IDS_TEXTE_FIN	Texto de fim
+IDS_TEXTE_FINAL	Texto final
+IDS_TEXTE_FIN_BON_COMMANDE	Texto no final do formulário de requisição
+IDS_TEXTE_PERIODIQUE_FICHE_QUALITE	Texto periódico da ficha qualidade
+IDS_TEXTE_PERIODIQUE_SUR_TOUTES_FICHES_QUALITE	Texto periódico a fazer figurar sobre todas as fichas de controlo qualidade
+IDS_TEXTE_TABLEAU	Texto tabela
+IDS_TEXTURE	Textura
+IDS_TIME	Tempo
+IDS_TIME_OUT_OF_RANGE	Este tempo deve estar entre %s e %s!
+IDS_TITLE	Título
+IDS_TITRE	Título
+IDS_TITRE_GRILLE_PRIX	Tabela de preços para as cores do grupo #1#
+IDS_TITRE_LST_CMPDC	LISTA COMPARATIVA ORÇAMENTO/PEDIDOS
+IDS_TITRE_PAGE_TARIF	Título da página de tarifa
+IDS_TOLE	Chapas a dobrar
+IDS_TOLEPLIE	Chapas dobradas
+IDS_TOTAL	Total
+IDS_TOTALCOMMANDES	total das encomendas
+IDS_TOTALDEV	Tot. divisa
+IDS_TOTALMATIERE	Total matéria
+IDS_TOTALNET	Total neto
+IDS_TOTALPOSE	Total instalação
+IDS_TOTALSTOCK	Valor totale das existências
+IDS_TOTALTVAC	Total IVAI
+IDS_TOTALVITRAGE	Total vidro
+IDS_TOTAL_BON_COMMANDE	Total sobre formulário de requisição
+IDS_TOTAL_GENERAL	Total geral
+IDS_TOTAL_RESERVATION	Total das reservações
+IDS_TOTAL_SEULEMENT	Total apenas
+IDS_TOTAL_SUPPLEMENTS	Total dos suplementos
+IDS_TOTAUX	Totais
+IDS_TOTAUX_LIGNES	Totais das linhas de produção
+IDS_TOTAUX_LOTS	Totais por lote
+IDS_TOTAUX_TYPE_PALETTES_DISPONIBLES	Páletes disponiveis por tipo
+IDS_TOTBRUT	Bruto
+IDS_TOTNET	Neto
+IDS_TOT_MATIERE_NET	Total neto matéria
+IDS_TOT_PV_BRUT	Tot P.venda bruto
+IDS_TOT_PV_NET	Tot P.venda neto
+IDS_TOUJOURS	Sempre
+IDS_TOUJOURS_2_VUES	Sempre 2 vistas
+IDS_TOUS	Todos
+IDS_TOUS_LES_ARTICLES	Todos os artigos
+IDS_TOUT	Tudo
+IDS_TOUTES	Todas
+IDS_TOUT_DESELECTIONNER	Deseleccionar tudo
+IDS_TOUT_INVERSER	Inverter tudo
+IDS_TOUT_SEL.	Selec. tudo
+IDS_TOUT_SELECTIONNER	Seleccionar tudo
+IDS_TO_PAGE	a %d de
+IDS_TRAD	Trad.
+IDS_TRADUCTION	Tradução
+IDS_TRADUCTIONS	Traduções
+IDS_TRAITE	Letra bancaria
+IDS_TRAITEANJOURS	letra bancaria a %d dias
+IDS_TRAITEMENTENCOURS	Tratamento em curso...
+IDS_TRAITER_TOUS_FOURNISSEURS	(Todos os fornecedores serão tratados se indica nada aqui)
+IDS_TRAIT_SCIE	Traço de serra
+IDS_TRANSFERER_CLIENTS	Transferência clientes
+IDS_TRANSFERT	Transferência
+IDS_TRANSFERTS	Transferências
+IDS_TRANSFERTSTOCK	Transferência de existências
+IDS_TRANSFERT_EN_CLIENT	Transferência em cliente
+IDS_TRANSFO_PROSPECT_CLIENT	Transformar um cl. potencial em cliente
+IDS_TRANSLATE	Traduzir
+IDS_TRAVAILLER_EN_PRIX_COURANT	Trabalhar em preço corrente
+IDS_TRAVAILLER_EN_PRIX_TARIF	Trabalhar em preço tarifa
+IDS_TRAVERSE	Travessa
+IDS_TRAVERSEINEXISTANTE	Este código travessa não existe
+IDS_TRAVERSES	Travessas
+IDS_TRAVERSES_HORIZONTALES_ENTIERES	Travessas horizontais inteiras
+IDS_TRAVERSES_VERTICALES_ENTIERES	Travessas verticais inteiras
+IDS_TRAVERSE_DORMANT	Travessa aro
+IDS_TRAVERSE_HORS_TARIF	Travessa fora tarifa
+IDS_TRAVERSE_ISOLEE	Travessa isolada
+IDS_TRAVERSE_OUVRANT	Travessa folha
+IDS_TRAVERSE_PAR_DEFAUT	Travessa por defeito
+IDS_TRAVERSE_S_	Travessa(s)
+IDS_TRI	Classificação
+IDS_TRIDECOUPE	Classificação apôs corte
+IDS_TRIMESTRE	Trimestre
+IDS_TRIVITRAGE	Classificação vidro
+IDS_TRI_PAR_COMMANDE	Classificação por encomenda
+IDS_TROPHAUTPOURCAISSON	Altura demasiado grande para este caixão
+IDS_TROP_DE_DIMENSIONS	Demasiadas dimensões (#1#, máximo #2#)!
+IDS_TVA	IVA
+IDS_TYPE	Tipo
+IDS_TYPECRX	Tipo de pinázios
+IDS_TYPEDIM	Tipo dim.
+IDS_TYPEDOC	Tipo documento
+IDS_TYPEOUVRANT	Tipo de folha
+IDS_TYPES	Tipos
+IDS_TYPETRANSPORT	Tipo de transporte
+IDS_TYPE_ASSEMBLAGE	Tipo de acoplamento
+IDS_TYPE_CLIENT	Tipo de cliente
+IDS_TYPE_CODE_BARRE_INCOMPATIBLE	O tipo de código barra com parâmetros é incompatível com esta funcionalidade!
+IDS_TYPE_COLIS	Tipo de pacotes
+IDS_TYPE_COLIS_LONGUEUR_ENTIERE	Tipo de pacote comprimento inteiro
+IDS_TYPE_CONTROLE	Tipo de controlo
+IDS_TYPE_DIMENSION	Tipo de dimensão
+IDS_TYPE_LIVRAISON	Tipo de entrega
+IDS_TYPE_MARCHE	Tipo de mercado
+IDS_TYPE_MOUVEMENT	Tipo de movimento
+IDS_TYPE_REMPLISSAGE	Tipo de enchimento
+IDS_TYPE_SAISIE	Tipo de entrada
+IDS_TYPE_SOCIETE	Tipo de sociedade
+IDS_TYPE_TARIF	Tipo de tarifa
+IDS_UNABLELOCK	Imposível de bloquear
+IDS_UNABLEREAD	Incapaz de ler o ficheiro %s sobre o disco.
+IDS_UNABLEWRITE	Incapaz de escrever o ficheiro %s sobre o disco.
+IDS_UNDEFINED_SHAPE	A forma não foi definida
+IDS_UNDO	Anular
+IDS_UNHANDLEDXMSG	Excepção não tratada
+IDS_UNICOLORE	Monocor
+IDS_UNIQUEMENT_PISTE	Únicamente sobre pista
+IDS_UNITE	Unidade
+IDS_UNITES	unidades
+IDS_UNITE_MESURE	Unidade de medida
+IDS_UNITPRICE	P.U.
+IDS_UNKNOWNERROR	Error desconhecido
+IDS_UNKNOWNEXCEPTION	Excepção desconhecida
+IDS_UNTITLED	Documento
+IDS_UPPERCASE	TUDO EM MAIÚSCULAS
+IDS_URL	Url http://
+IDS_USER	Utilizador
+IDS_USINAGE	Mecanizado
+IDS_USINAGES	Mecanizados
+IDS_USINAGE_ORIGINE_BAS_GAUCHE	Mecanizados (origem em baixo/a esquerda do quadro)
+IDS_USINAGE_ORIGINE_GAUCHE	Mecanizados (origem a esquerda do perfil)
+IDS_UTILE	Útil
+IDS_UTILISATEURS	Utilizadores
+IDS_UTILISATION	Utilização
+IDS_UTILISER_FORMULES_DESSIN	Utilizar as formulas de desenho
+IDS_UTILISER_POUR_PRIX_REVIENT	Utilizar para o preço de custo
+IDS_UTILISER_POUR_PRIX_VENTE	Utilizar para o preço de venda
+IDS_UTILISER_SCIE_N	Então utilizar a serra n°
+IDS_UTILISE_COMME	Utilizado como
+IDS_VACANCES	Feriados
+IDS_VAL.	Val.
+IDS_VALABLE_JUSQUE	Válido até
+IDS_VALCH	Val.jan.
+IDS_VALEUR	Valor
+IDS_VALEURPARDEFAUT	Valor por defeito
+IDS_VALEURS_PAR_DEFAUT	Valores por defeito
+IDS_VALEUR_BRUTE	Bruto
+IDS_VALEUR_EURO	Valor do €
+IDS_VALEUR_NETTE	Neto
+IDS_VALEUR_TOTALE:	Valor total:
+IDS_VALIDATION	Validação
+IDS_VALIDATION_CONFIRMATION	Validação técnica das confirmações
+IDS_VALIDATION_FACTURES	Validação das facturas
+IDS_VALIDER	Validar
+IDS_VALIDER_CHASSIS	Validar o caixilho [^F3]
+IDS_VALIDER_DATE	Validar a data
+IDS_VALIDER_ET_IMPRIMER	Validar e imprimir
+IDS_VALIDER_SANS_IMPRIMER	Validar sem imprimir
+IDS_VALIDER_STOCK_CHUTES	Validar existências de sobras
+IDS_VALIDER_VOLET	Validar [^F3]
+IDS_VALINVALIDCHAR	Entrada de um carácter não válido
+IDS_VALNOTINLIST	A entrada não esta na listagem de validade
+IDS_VALNOTINRANGE	O valor não esta entre %Id e %Id
+IDS_VALORISATION	Valorização
+IDS_VALORISATION_BON_COMMANDE	Valorização formulário de requisição
+IDS_VALORISATION_ENCOURS	Valorização do em curso das encomendas
+IDS_VALORISE	Com preços
+IDS_VALORISEE	Com preços
+IDS_VALPXPCONFORM	A entrado não coresponde ao filtro:\n""%s""
+IDS_VANTAIL_1	Folha 1
+IDS_VANTAIL_2	Folha 2
+IDS_VANTAIL_3	Folha 3
+IDS_VANTAIL_4	Folha 4
+IDS_VANTAIL_5	Folha 5
+IDS_VANTAIL_6	Folha 6
+IDS_VANTAIL_7	Folha 7
+IDS_VANTAUX	Folhas
+IDS_VARIABLES	Variáveis
+IDS_VARIABLE_P1	(Variável: P1)
+IDS_VARIABLE_P2	(Variável: P2)
+IDS_VARIABLE_P3	(Variável: P3)
+IDS_VARIABLE_X1	(Variável: X1)
+IDS_VARIABLE_X2	(Variável: X2)
+IDS_VARIANTEPRINCIPALE	Variante Principal
+IDS_VARIANTE_1	Variante &1
+IDS_VARIANTE_2	Variante &2
+IDS_VARIANTE_3	Variante &3
+IDS_VARIANTE_4	Variante &4
+IDS_VARIANTE_5	Variante &5
+IDS_VARIANTE_COULEUR	Variantes de cor
+IDS_VARIANTE_VITRAGE	Variantes vidro
+IDS_VAR_SITE	Variáveis de sítio
+IDS_VENDEURS	Vendedores
+IDS_VENDREDI	sexta-feira
+IDS_VENDREDI_ABR	sext
+IDS_VERIF	Verificado
+IDS_VERIFICATION_CONFIRMATION	Verificação confirmação
+IDS_VERROUILLAGE	Bloqueio
+IDS_VERROUILLER_MODIFICATIONS	Bloquear as modificações
+IDS_VERSION	Versão
+IDS_VERT	Verde
+IDS_VERTICAL	Vertical
+IDS_VERTICALE	Vertical
+IDS_VERTICALES	verticais
+IDS_VEUILLEZ_PATIENTER	Espera por favor
+IDS_VIDE_DORMANT_INCOMPATIBLE	Uma parte vazía abaixo aro é um incompatível com a configuração de travessas utilizada
+IDS_VIDE_VIDE_NON_RECTANGULAIRE	WinPro não permite de definir vazíos não retangulares
+IDS_VISIBLE_EXTERIEUR	Visível do exterior
+IDS_VISIBLE_INTERIEUR	Visível do interior
+IDS_VIT	Vid.
+IDS_VITR	Vidro
+IDS_VITRAGE	Vidro
+IDS_VITRAGEFABRIQUE_HORS_TARIF	Vidro fora tarifa
+IDS_VITRAGES	Vidros
+IDS_VITRAGESDEJACOMMANDES	Os vidros já foram encomendados o #1#
+IDS_VITRAGES_DEJA_COMMANDES	Os vidros da encomenda #1# já foram encomendadas. \nVoçê quer reimprimir a encomenda vidro?
+IDS_VITRAGES_DIFFERENTS	Vidros diferentes
+IDS_VITRAGES_ET_PANNEAUX	Vidros e painéis
+IDS_VITRAGETROPGRAND	Vidro demasiado grande
+IDS_VITRAGETROPHAUT	Vidro demasiado alto
+IDS_VITRAGETROPLARGE	Vidro demasiado largo
+IDS_VITRAGE_COMPOSE	Vidro composto
+IDS_VITRAGE_FABRIQUE	Vidro fabricado
+IDS_VOIRPAGE	Ver página %d
+IDS_VOL	Est.
+IDS_VOLET	Estore
+IDS_VOLETNONREALISABLE	Este estore não é realizável
+IDS_VOLETS	Estores
+IDS_VOLET_SEUL	Estore só
+IDS_VOSREFERENCES	Vossas referêncas
+IDS_VOUSNAVEZRIENSELECTIONNE	Voçê seleccionou nada
+IDS_VUEEXTERIEURE	Vista exterior
+IDS_VUEINTERIEURE	Vista interior
+IDS_VUES	Vistas int/ext
+IDS_VUE_COUPE_OUVERTURE_PORTES	Vista em corte da abertura
+IDS_VUE_DEFINIE_DANS_SYSTEME	Vista definida no sistema
+IDS_VUE_DESSIN_SUR_DOCUMENTS	Vista do desenho sobre os documentos
+IDS_VUE_INVERSEE	Vista invertida
+IDS_VUE_NORMALE	Vista normal
+IDS_Version démo	Versão de demostração
+IDS_WARN_TERMINATION	Uma mensagem 'Abnormal program termination' vai aparecer. Esta mensagem é normal.
+IDS_WINDIFFUS	WinDiffus
+IDS_WINPRO/D	WinPro/D
+IDS_WORK	Posto de trabalho
+IDS_WP_REPORT	WP-Report
+IDS_X_PAR_MOIS	X por mês
+IDS_ZERO	= 0
+IDS_ZERO(0)	Zero
+IDS_ZLIVR	Zona entr.
+IDS_ZONE	Zona
+IDS_ZONELIVRAISON	Zona de entrega
+IDS_ZONES	Zonas
+IDS_ZONES_LIVRAISON	Zonas de entrega
+IDS_ZONE_CHALANDISE	Zona de venda
+IDS_ZONE_EXCLUSIVITE	Zona de exclusividade
+IDS_ZONE_INFLUENCE_±	Zona de influência: ±
+IDS_ZONE_NON_DEFINIE	Zona não definida
+IDS__AUTOMATIQUE_	<Auto.>
+IDS__CLRCAISSON_	<Cor caixão>
+IDS__IDENTIQUE_	<Idéntico>
+IDS_mm	mm
+IDS_mm_PART_ET_AUTRE	mm de cada lado
+IDS_mm_X_HAUTEUR	mm x Altura
+IDS_m²	m²
+IDS_pcdQTYnlPU	%d Q\nP
+IDS_traverses	travessas
+IDS_¼_MM	¼ mm
+IDS_½_MM	½ mm
+IDX_CANCEL	Anular
+IDX_CANNOT_OPEN_TABLE	Impossível abrir a tabela '%s '.\nA tabela é talvez utilizada por outra estação de trabalho.\nWinPro não pode compactar a tabela; a indexação vai parar-se.
+IDX_COMPACTAGE	Compactação
+IDX_COMPLETED	Terminado
+IDX_DEPUIS_UN_BACKUP	desde uma cópia de salvaguarda.
+IDX_ENTETE_FICHIER_CORROMPU	O encabeçamento do ficheiro é danificado.
+IDX_ENTETE_FICHIER_CORROMPU_FIN_APPLICATION	O encabeçamento do ficheiro parece danificado.  A aplicação vai parar-se.
+IDX_ERREUR	Error
+IDX_ERREUR_OUVERTURE_FICHIER	Error aquando da abertura do ficheiro
+IDX_FICHIER_INEXISTANT	Imposível de encontrar o ficheiro.
+IDX_FILE_COULD_NOT_BE_OPENED	A tabela não pôde ser aberta!
+IDX_FIN_TRAITEMENT	Fim do tratamento
+IDX_INDEXING	Indexação...
+IDX_NETTOYAGE_ACCOUVR	Limpeza da tabela 'AccOuvr.dbf'
+IDX_NETTOYAGE_ARTCDE	Limpeza da tabela 'ArtCde.dbf'
+IDX_NETTOYAGE_CDELOG	Limpeza da tabela 'CdeLog.dbf'
+IDX_NETTOYAGE_CHEVALET	Limpeza da tabela 'Chevalet.dbf'
+IDX_NETTOYAGE_DETAIL	Limpeza da tabela 'Detail.dbf'
+IDX_NETTOYAGE_REHDORM	Limpeza da tabela 'RehDorm.dbf'
+IDX_NETTOYAGE_TRAVDORM	Limpeza da tabela 'TravDorm.dbf'
+IDX_NETTOYAGE_TRAVOUVR	Limpeza da tabela 'TravOuvr.dbf'
+IDX_PACK	Compactar
+IDX_PACKING_DATA_FILE	Compactação da tabela...
+IDX_PACKING_FILES	Compactação das tabelas
+IDX_REMOVED_RECORDS	Registos foram suprimidos da tabela 'compos.dbf', e colocados na tabela 'rjcompos.dbf '.\nEstes registos não eram mais utilizados.
+IDX_START	Começar
+IDX_TABLE	Tabela
+IDX_VERIF_ARTICLES	Verificação dos artigos
+IDX_VERIF_CDES_FOURN	Verificação das encomendas fornecedor.
+IDX_VERIF_COULEURS_PROFILS	Verificação das cores de perfis
+IDX_VERIF_ENREG_NON_UTILISES_COMPOS	Verificação dos registros não utilizados de Compos.dbf.
+IDX_VERIF_RESERVATIONS	Verificação das reservações
+IDX_VERIF_STOCK	Verificação das existências
+IDX_VOUS_DEVEZ_RESTAURER	Deve restaurar o ficheiro
+MENU_AIDE	Ajuda
+MENU_AUTRES_DONNEES	Outros dados
+MENU_CHASSIS	Caixilho
+MENU_COMMANDE	Encomendas
+MENU_CONTROLE_COUT	Controlo dos custos
+MENU_DESSIN	Mapas
+MENU_DIVERS	Diverso
+MENU_DONNEES	&Dados
+MENU_DONNEES_BASE	Dados de base
+MENU_EDITION	&Edição
+MENU_ENCOURS_SYSTEME	Acções por sistema
+MENU_FENETRES	&Janelas
+MENU_FIMA	Fima
+MENU_FORMAT	Formato
+MENU_GESTION_COMMANDES	Gestão dos orçamentos
+MENU_GESTION_CONFIRMATIONS	Gestão das confirmações
+MENU_GESTION_LIVRAISON	Gestão de &entrega
+MENU_GESTION_PRODUCTION	Gestão de &produção
+MENU_LISTES	&Listagem
+MENU_LISTE_ENCOURS	&Listagem das acções
+MENU_LST_PALETTES	&Listagem
+MENU_MVT_PALETTES	Movimentos
+MENU_PRODUCTION	&Produção
+MENU_RAPPORT	Relatórios
+MENU_STOCK	Existências
+MENU_TARIF	P&reços
+MENU_TECHNIQUE	&Técnica
+MENU_TRANSFERT	Transferência
+MENU_UTILITAIRES	&Utilitários
+MENU_VOLET	Estore
+TBL_AccessoireBibliotheque	Acessórios de caixilhos de biblioteca
+TBL_AccessoireChassis	Acessórios de caixilho
+TBL_AccessoireOuvrant	Acessórios de uma folha
+TBL_Aerateur	Ventiladores
+TBL_ArtPromo	Material de promoção
+TBL_Article	Artigos de base
+TBL_ArticleCommande	Fornecimentos suplementares nas encomendas
+TBL_ArticleCompose	Artigos compostos
+TBL_ArticleFournisseur	Informação fornecedor dos artigos
+TBL_BatchStock	Diário temporário dos movimentos de existências
+TBL_Bibliotheque	Biblioteca de caixilhos e estores
+TBL_CAClient	Volume de negócios cliente
+TBL_Cadre	Quadros
+TBL_Caisson	Caixões de estores
+TBL_CategorieArticle	Categoria de artigos
+TBL_CategorieClient	Categoria de clientes
+TBL_Chauffeur	Condutores
+TBL_ChuteProfil	Sobras de perfis
+TBL_CliMarche	Tipos de mercado
+TBL_CliVendeur	Vendedores dos clientes
+TBL_Client	Clientes
+TBL_Coefficient	Coeficientes de margem
+TBL_Colis	Gestão dos pacotes
+TBL_Commande	Encomendas clientes
+TBL_CommandeFournisseur	Linhas de encomenda fornecedores
+TBL_Composant	Componentes
+TBL_ConditionTransport	Condições de transporte
+TBL_ConsommationMensuelle	Consumos de existências mensais
+TBL_Contact	Contactos
+TBL_Couleur	Cores
+TBL_CouleurComposant	Cores autorizadas para os componentes
+TBL_CouleurFauxCintrage	Falsas curvas por cor
+TBL_CouleurProfil	Cores de perfil
+TBL_CoutProduction	Custo de produção
+TBL_Croisillon	Pinázios
+TBL_Dessin	Desenhos
+TBL_Detail	Linhas de encomendas
+TBL_Detail1Bibliotheque	Caixilhos de biblioteca
+TBL_Detail2Bibliotheque	Folhas e travessas de caixilhos de biblioteca
+TBL_Detail3Bibliotheque	Travessas de folhas de caixilhos de biblioteca
+TBL_DetailColis	Detalhe dos pacotes
+TBL_DetailLotOptimisation	Detalhe dos lotes de optimização
+TBL_DetailTarif	Caixilhos das tarifas
+TBL_DetailTarifVolet	Estores das tarifas
+TBL_DevisEtCommande	Estatísticas orçamento e encomendas
+TBL_Devise	Divisas
+TBL_Dormant	Aros
+TBL_Dxf	Desenhos DXF
+TBL_Emplacement	Localização das exitências
+TBL_EnteteCommandeFournisseur	Encabeçamento das encomendas aos fornecedores
+TBL_Equipe	Equipas de instalação e de entrega
+TBL_FauxCintrage	Falsas curvas
+TBL_FournVitrage	Informações vidro por fornecedor
+TBL_Fournisseur	Fornecedores
+TBL_GrillePrix	Tabelas de preços
+TBL_GroupeCouleur	Grupos de cores
+TBL_GroupeUsinage	Grupose de mecanizados
+TBL_HistoFactPartielle	Historial factura
+TBL_HistoLotNavision	Historial dos lotes creados fora WinPro
+TBL_HistoPalette	Historial das páletes de transporte
+TBL_HistoriqueDevise	Historial das divisas
+TBL_ImportLotNavision	Importação dos lotes creados fora WinPro
+TBL_InfoPoste	Informações para os poste de fábrica
+TBL_Jourchr	Dias feriados
+TBL_JournalMainD'Oeuvre	Diário de fábrica
+TBL_JournalStock	Diário dos movimentos de existências
+TBL_Langue	Línguas
+TBL_LaqueArt	Lacado dos artigos
+TBL_LienPoste	Relação posto fábrica <-> informação
+TBL_LineCapacity	Capacidade de uma linha de produção
+TBL_LotChassis	Caixilhos num lote de produção
+TBL_LotOptimisation	Lotes de produção
+TBL_Message	Mesagens de error
+TBL_NormeVent	Norma de vento
+TBL_NormeVerre	Norma de vidro
+TBL_NumTarif	Números de tarifa
+TBL_Numero	Números diversos
+TBL_Ouvrant	Folhas
+TBL_Paiement	Modos de pagamento
+TBL_Palette	Páletes de transporte
+TBL_Panneau	Painéis a recortar
+TBL_PanneauDecoratif	Painéis decorativos
+TBL_PanneauFabrique	Painéis fabricados
+TBL_Perimetre	Perímetros
+TBL_PlanningLivraisonFournisseur	Plano de entrega dos fornecedores
+TBL_Pose	Artigos de instalação
+TBL_PosteAtelier	Postos em fábrica
+TBL_PosteDeTravail	Mão-de-obra
+TBL_PrepaLot	Lotes de produção preparados
+TBL_ProductionDate	Datas previstas para posta em produção dos lotes
+TBL_ProductionLine	Linhas de produção
+TBL_ProductionSpot	Sítios de produção
+TBL_Profil	Perfis
+TBL_Prospect	Clientes potenciais
+TBL_Question	Perguntas
+TBL_Quincaillerie	Ferragens
+TBL_Report	Definições dos relatórios
+TBL_ReportCfg	Relatórios documentos
+TBL_Representant	Represantantes
+TBL_ReservationClient	Reservações das existências clientes
+TBL_Scie	Serras
+TBL_ScieProfil	Serras alternativas para um perfil
+TBL_SelectionQuestion	Selecções para as perguntas
+TBL_Societe	Coordenadas da sociedade
+TBL_StatutChassis	Estatísticas caixilho
+TBL_StatutCommande	Historial dos estados das encomendas
+TBL_StatutCommandeNavision	Exportação dos estados por encomenda
+TBL_StatutLotNavision	Exportação dos estados por lote
+TBL_StatutRepereNavision	Exportação dos estados por sinal
+TBL_Stock	Existências
+TBL_Sub	Rotinas
+TBL_Systeme	Sistemas
+TBL_Tarif	Tarifas dos caixilhos
+TBL_TarifVolet	Tarifas dos estores
+TBL_Tole	Chapas a dobrar
+TBL_Traduction	Traduções de base
+TBL_TraductionQuestion	Traduções de perguntas
+TBL_TraductionSelectionQuestion	Traduções das selecções
+TBL_Transport	Tipos de transporte
+TBL_Traverse	Travessas
+TBL_TraverseDormant	Folhas e travessas nos caixilhos das encomendas
+TBL_TraverseOuvrant	Travessas de folhas nas encomendas
+TBL_TraverseOuvrantTarif	Travessas de folhas nas tarifas
+TBL_TraverseTarif	Folhas e travessas nas tarifas
+TBL_TypeColis	Tipo de pacote
+TBL_Usinage	Mecanizados
+TBL_Utilisateur	Utilizadores
+TBL_VarClient	Variáveis clientes
+TBL_Vitrage	Vidros
+TBL_XArt	Artigos dos documentos exportados
+TBL_XDet	Descrição das janelas dos documentos exportados
+TBL_XDoc	Documentos exportados
+TBL_XFen	Janelas dos documentos exportados
+TBL_XLin	Componentes das janelas dos documentos exportados
+TBL_XVar	Alternativas das janelas dos documentos exportados
+TBL_ZoneLivraison	Zonas de entrega
+TBL_conditionlivraison	Condições de entrega
+TBL_paramRapide	Parâmetragem rápida
+TBL_vitrecde	Linha de encomenda vidro
+TBL_vitrecrx	Pinázio encomenda vidro
+TBL_vitrehdr	Encabeçamento encomenda vidro
+VAR_2000	aDireita
+VAR_2001	aEsquerda
+VAR_2002	Perfurado
+VAR_2003	AlveolosHorz
+VAR_2004	AlveolosVert
+VAR_2005	Angulo1
+VAR_2006	Angulo2
+VAR_2007	Angulo
+VAR_2008	Eixo
+VAR_2009	Baixo
+VAR_2010	Borda
+VAR_2011	Extremidade1
+VAR_2012	Extremidade2
+VAR_2013	Quadro
+VAR_2014	Centro
+VAR_2015	CentroX
+VAR_2016	CentroY
+VAR_2018	Pinazio
+VAR_2019	Dimensao
+VAR_2020	Dimensao1
+VAR_2021	Dimensao2
+VAR_2022	Aro
+VAR_2023	AroBaixo
+VAR_2024	AroDireito
+VAR_2025	AroEsquerdo
+VAR_2026	AroAlto
+VAR_2027	Direita
+VAR_2028	Recto
+VAR_2029	emBaixo
+VAR_2030	emCima
+VAR_2037	EspessuraLamina 
+VAR_2038	EspessuraPerfil
+VAR_2039	EspessuraVidro
+VAR_2040	Forma
+VAR_2041	FormaAro
+VAR_2042	FormaFolha
+VAR_2043	Esquerda
+VAR_2044	Alto
+VAR_2045	AltoDireito
+VAR_2046	Altura
+VAR_2047	AlturaCaixao
+VAR_2048	AlturaDireita
+VAR_2049	AlturaEsquerda
+VAR_2050	AlturaLamina
+VAR_2051	AlturaTotal
+VAR_2052	AltoEsquerda
+VAR_2053	Horizontal
+VAR_2054	largura
+VAR_2055	LarguraBaixo
+VAR_2056	LaguraCima
+VAR_2058	LarguraTotal
+VAR_2059	Comprimento
+VAR_2060	ComprimentoAltoDireito
+VAR_2061	ComprimentoAltoEsquerdo
+VAR_2062	QuantidadeLaminas
+VAR_2064	Orientacao
+VAR_2065	Folha
+VAR_2066	Abertura
+VAR_2067	Parametro
+VAR_2068	Peso
+VAR_2069	PesoM2
+VAR_2071	PortaADireita
+VAR_2072	PortaAEsquerda
+VAR_2073	Posicao
+VAR_2074	Quantidade
+VAR_2075	Raio
+VAR_2076	Cobrimento
+VAR_2077	Sentido
+VAR_2078	Parapeito
+VAR_2079	SimpleAbertura
+VAR_2080	Saida
+VAR_2081	Superficie
+VAR_2082	Travessa
+VAR_2083	TravessaAEsquerda
+VAR_2084	TravessaADireita
+VAR_2085	Vertical
+VAR_2086	Simple
+VAR_2087	Composto
+VAR_2088	Mecanizado
+VAR_2089	SubstituirPor
+VAR_2090	ExtensorDireito
+VAR_2091	ExtensorEsquerdo
+VAR_2093	AoLadoPorta
+VAR_2094	QuantidadeSegmentos
+VAR_2096	AlturaParapeito
+VAR_2097	QuantidadeFolhas
+VAR_2099	EstoreSo
+VAR_2100	ComEstore
+VAR_2105	AnguloPricipio
+VAR_2106	AnguloFinal
+VAR_2107	DimA
+VAR_2108	DimB
+VAR_2109	DimC
+VAR_2110	DimD
+VAR_2111	DimE
+VAR_2112	DimF
+VAR_2113	DimG
+VAR_2114	DimH
+VAR_2116	FormaFalsaCurva
+VAR_2117	Espessura
+VAR_2118	ReforcoFolha
+VAR_2119	ReforcoAro
+VAR_2121	AlturaBaixo
+VAR_2122	AlturaCima
+VAR_2123	LarguraDireita
+VAR_2124	LarguraEsquerda
+VAR_2125	EmCimaPorta
+VAR_2126	AcoplamentoTravessa
+VAR_2127	Acoplamento
+VAR_2128	Acoplamento1
+VAR_2129	Acoplamento2
+VAR_2131	RectoCurto
+VAR_2132	RectoComprido
+VAR_2133	EspessuraPerfil
+VAR_2134	EspessuraPerfil2
+VAR_2135	Camara
+VAR_2136	Camara1
+VAR_2137	Camara2
+VAR_2138	SemAcoplamento
+VAR_2139	DimensaoAt
+VAR_2140	LarguraAt
+VAR_2141	AlturaAt
+VAR_2142	Perimetro
+VAR_2143	SemVidro
+VAR_2144	EmCimaVazio
+VAR_2145	AoLadoVazio
+VAR_2146	VazioADireita
+VAR_2147	VazioAEsquerda
+VAR_2148	AroEncurtado
+VAR_2149	TravessaEncurtada
+VAR_2150	DimensaoAro
+VAR_2151	LarguraInterior
+VAR_2152	AlturaInterior
+VAR_2153	VistaCorte
+VAR_2154	TipoFolha
+VAR_2155	Porta
+VAR_2156	Fixo
+VAR_2157	Janela
+VAR_2158	PosCorte
+VAR_2159	FlechaFalsaCurva
+VAR_2160	SentidoContrario
+VAR_2161	Absoluto
+VAR_2162	LarguraArtigo
+VAR_2163	AlturaArtigo
+VAR_2164	QuadroFolha
+VAR_2165	NumeroSegmento
+VAR_2166	TiposSegmento
+VAR_2167	DimSegmento
+VAR_2168	Acoplamento1Segmento
+VAR_2169	Acoplamento2Segmento
+VAR_2170	EntreSegmentos
+VAR_2171	NbSubsegmentos
+VAR_2172	Normal
+VAR_2173	Inverso
+VAR_2174	TNormal
+VAR_2175	TInverso
+VAR_2176	ZNormal
+VAR_2177	ZInverso
+VAR_2178	Angulo1Segmento
+VAR_2179	Angulo2Segmento
+VAR_2180	PosicaoBaixo
+VAR_2181	PosicaoEsquerda
+VAR_2182	CobrimentoAlto
+VAR_2183	CobrimentoBaixo
+VAR_2184	CobrimentoEsquerda
+VAR_2185	CobrimentoDireito
+VAR_2186	CobrimentoAltoEsquerda
+VAR_2187	CobrimentoAltoDireito
+VAR_2188	PerfilSeparador
+VAR_2189	nEspessuraVidro
+VAR_2190	LarguraTabela
+VAR_2191	AlturaTabela
+VAR_2192	AlturaVazio
+VAR_2193	VazioADireitaSegmento
+VAR_2194	VazioAEsquerdaSegmento
+VAR_2195	Desconto
+VAR_2196	Desconto2
+VAR_2197	DescontoEstore
+VAR_2198	DescontoEstore2
+VAR_2199	Fabricante
+VAR_2200	Gama
+VAR_2201	Orcamento
+VAR_2202	OrdemLote
+VAR_2203	PequenaAltura
+VAR_2204	GrandeAltura
+VAR_2205	CentroXQuadro
+VAR_2206	CentroYQuadro
+VAR_2207	AberturaQuadro
+VAR_2208	RaioQuadro
+VAR_2209	AnguloPrincipioQuadro
+VAR_2210	AnguloFinalQuadro
+VAR_2211	EspessuraInterior
+VAR_2212	EspessuraExterior
+VAR_2213	Retangulo
+VAR_2214	Trapezio
+VAR_2215	TrianguloRectangulo
+VAR_2216	CantoQuebrado
+VAR_2217	TrapezioRectangulo
+VAR_2218	Curva
+VAR_2223	CurvaTruncado
+VAR_2225	Triangulo
+VAR_2226	Quadrilatero
+VAR_2227	SimpleTrapezio
+VAR_2228	CantoQuebrado2
+VAR_2229	Pentagono
+VAR_2230	TrapezioTruncado
+VAR_2234	ContemPorta
+VAR_2235	ContenidoVazio
+VAR_2236	NFolhas
+VAR_2237	NTravessas
+VAR_2238	FolhaLargura
+VAR_2239	FolhaAltura
+VAR_2240	FolhaX
+VAR_2241	FolhaY
+VAR_2242	FolhaCatFolhas
+VAR_2243	FolhaCatFerragens
+VAR_2244	FolhaSentido
+VAR_2246	TravComprimento
+VAR_2247	TravTipo
+VAR_2248	TravX
+VAR_2249	TravY
+VAR_2250	TravOrient
+VAR_2251	TravCat
+VAR_2252	TravEsp
+VAR_2253	NTravessasAro
+VAR_2254	NTravessasFolha
+VAR_2255	FolhaNTrav
+VAR_2256	TravQuadro
+VAR_2257	NPerif
+VAR_2258	PerifPos
+VAR_2259	PerifTipo
+VAR_2260	PerifComprimento
+VAR_2261	PerifCat
+VAR_2262	PerifEs
+VAR_2263	Perfil
+VAR_2264	SoleiraPorta
+VAR_2265	ParapeitoJanela
+VAR_2266	Vidro
+VAR_2267	PainelARecortar
+VAR_2268	PainelDecorativo
+VAR_2269	PainelFabricado
+VAR_2270	NumeroFolha
+VAR_2271	TipoEnchimento
+VAR_2272	FolhaCima
+VAR_2273	FolhaBaixo
+VAR_2274	FolhaEsquerda
+VAR_2275	FolhaDireita
+VAR_2276	TravCima
+VAR_2277	TravBaixo
+VAR_2278	TravEsquerda
+VAR_2279	TravDireita
+VAR_2280	FolhaCobrimCima
+VAR_2281	FolhaCobrimB
+VAR_2282	FolhaCobrimEsqu
+VAR_2283	FolhaCobrimDir
+VAR_2284	NumeroTravessa
+VAR_2285	Situacao
+VAR_2286	EixoHorizontal
+VAR_2287	EixoVertical
+VAR_2289	Executar
+VAR_2290	CategoriaPinazio
+VAR_2291	IdFornecedor
+VAR_2292	MecanizadoExt
+VAR_2293	SuperficieCarregamentoCamiao
+VAR_2294	LinhaProducaoJanela
+VAR_2295	LinhaProducaoEstore
+VAR_2296	OrdemQuadro
+VAR_2297	PrazoProducaoJanela
+VAR_2298	PrazoProducaoEstore
+VAR_2299	Forma2
+VAR_2300	FormaAro2
+VAR_2301	FormaFolha2
+VAR_2302	TipoSoleira
+VAR_2303	FormaQuadro
+VAR_2304	TipoPreco
+VAR_2305	Desembolso
+VAR_2306	Comercial
+VAR_2307	Desconto3
+VAR_2308	DescontoEstore3
+VAR_2309	Auto
+VAR_2310	Especial
+VAR_2311	CategoriaMecanizado
+VAR_2312	Visivel
+VAR_2313	Seleccao
+VAR_2314	NumeroPerfil
+VAR_2315	CaixaoDeduzidoAutorizado
+VAR_2316	CaixaoNaoDeduzidoAutorizado
+VAR_2317	ExtensaoDireitaCaixao
+VAR_2318	ExtensaoEsquerdaCaixao
+VAR_2319	EspessuraAroEsquerda
+VAR_2320	EspessuraAroDireito
+VAR_2321	EspessuraAroCima
+VAR_2322	EspessuraAroBaixo
+VAR_2323	EspessuraAroAltoEsquerdo
+VAR_2324	EspessuraAroAltoDireito
+VAR_2325	EnchimTipo
+VAR_2326	EnchimCateg
+VAR_2327	EnchimX
+VAR_2328	EnchimY
+VAR_2329	EnchimentoLargura
+VAR_2330	EnchimAltura
+VAR_2332	EnchimentoEspessura
+VAR_2333	EnchimFolha
+VAR_2334	NEnchimento
+VAR_2335	NumeroEnchimento
+VAR_2336	EixoEmQuadro
+VAR_2337	VistaExterior
+VAR_2338	VistaInterior
+VAR_2339	Vista
+VAR_2341	FolhaTravEsquerda
+VAR_2342	FolhaTravDireita
+VAR_2343	FolhaTravCima
+VAR_2344	FolhaTravBaixo
+VAR_2345	EnchimEmBaixo
+VAR_2346	EnchimEmCima
+VAR_2347	EnchimAEsquerda
+VAR_2348	EnchimADireita
+VAR_2349	EnchimEspessuraCima
+VAR_2350	EnchimEspessuraBaixo
+VAR_2351	EnchimEspessuraEsquerda
+VAR_2352	EnchimEspessuraDireita
+VAR_2353	PosicaoVentilador
+VAR_2359	NCurvas
+VAR_2361	TravEspessuraBaixo
+VAR_2362	TravEspessuraCima
+VAR_2363	TravEspessuraEsquerda
+VAR_2364	TravEspessuraDireita
+VAR_2365	TravTravEsquerdo
+VAR_2366	TravTravDireita
+VAR_2367	TravTravCima
+VAR_2368	TravTravBaixo
+VAR_2372	NumeroSerra
+VAR_2373	PrepaEntrega
+VAR_2374	PlanoSimplificado
+VAR_2375	DocCliente
+VAR_2376	CtrlQualidade
+VAR_2377	Coeficiente
+VAR_2378	Valido
+VAR_2379	EntradaRapida
+VAR_2380	DescontoVidro
+VAR_2381	DescontoVidro2
+VAR_2382	DescontoVidro3
+VAR_2384	Imprimir
+VAR_2385	@Negro
+VAR_2386	@Azul
+VAR_2387	@Verde
+VAR_2388	@Cian
+VAR_2389	@Vermelho
+VAR_2390	@Magenta
+VAR_2391	@Amarelo
+VAR_2392	@Cinzento
+VAR_2393	@Blanco
+VAR_2394	TextoPergunta
+VAR_2395	FundoPergunta
+VAR_2396	EnchimLarguraCM
+VAR_2397	EnchimAlturaCM
+VAR_2406	IndiceTravessa1
+VAR_2407	IndiceTravessa2
+VAR_2408	Hoje
+VAR_2409	DataEntrada
+VAR_2410	EnchimForma
+VAR_2411	CopiarForma
+VAR_2412	ReduzirForma
+VAR_2413	AlargarForma
+VAR_2414	CortarFormaHorizontalmente
+VAR_2415	CortarFormaVerticalmente
+VAR_2416	CriarForma
+VAR_2417	TipoForma
+VAR_2418	OrientacaoForma
+VAR_2419	DimAForma
+VAR_2420	DimBForma
+VAR_2421	DimCForma
+VAR_2422	DimDForma
+VAR_2423	DimEForma
+VAR_2424	DimFForma
+VAR_2425	DimGForma
+VAR_2426	DimHForma
+VAR_2427	DimIForma
+VAR_2428	DimJForma
+VAR_2429	DimKForma
+VAR_2430	DimLForma
+VAR_2431	TipoFalsaCurva
+VAR_2432	PerifDeduzido
+VAR_2434	FormaEnchimento
+VAR_2435	CorAro
+VAR_2436	CorFolha
+VAR_2437	CorFerragem
+VAR_2438	PenetracaoMaconariaBaixo
+VAR_2439	PenetracaoMaconariaCima
+VAR_2440	PenetracaoMaconariaEsquerda
+VAR_2441	PenetracaoMaconariaDireita
+VAR_2442	MaoDeObra
+VAR_2443	X0Segmento
+VAR_2444	X1Segmento
+VAR_2445	Y0Segmento
+VAR_2446	Y1Segmento
+VAR_2447	FalsaCurva
+VAR_2448	EspessuraMinPerfil
+VAR_2449	EspessuraEsquerdaPerfil
+VAR_2450	EspessuraDireitaPerfil
+VAR_2451	AlturaSuplFCurva
+VAR_2452	AcoplamentoJanelas
+VAR_2453	ElementosAcoplamento
+VAR_2454	EstructuraAcoplamento
+VAR_2455	ForaAcoplamento
+VAR_2456	NormaVento
+VAR_2457	NormaVidro
+VAR_2458	AlturaConstrucao
+VAR_2459	FolhaSegmentoEsquerda
+VAR_2460	FolhaSegmentoDireito
+VAR_2461	FolhaSegmentoCima
+VAR_2462	FolhaSegmentoBaixo
+VAR_2463	Diml
+VAR_2464	DimJ
+VAR_2465	DimK
+VAR_2466	DimL
+VAR_2467	EnchimDFornecedor
+VAR_2472	DataEntrega
+VAR_2473	LarguraPinazio
+VAR_2474	VistaDesenho
+VAR_2475	AmbasVistas
+VAR_2476	TravEixo
+VAR_2477	TravOrigemEixo
+VAR_2478	FolhaEntreixoFolha1
+VAR_2479	FolhaEntreixoFolha2
+VAR_2480	FolhaEntreixoFolha3
+VAR_2481	FolhaEntreixoFolha4
+VAR_2482	FolhaEntreixoFolha5
+VAR_2483	FolhaEntreixoFolha6
+VAR_2484	FolhaLarguraTabela
+VAR_2485	FolhaAlturaTabela
+VAR_2486	NumeroBiblio
+VAR_2487	NumeroInternoBiblio
+VAR_2488	CodificaçaoComercial
+VAR_2489	EnchimCatPinazio
+VAR_2490	EnchimAlveoloHPinazio
+VAR_2491	EnchimAlveoloVPinazio
+VAR_2492	CaixaoDeduzido
+VAR_2493	EspessuraTotal
+VAR_2494	MaconariaCima
+VAR_2495	MaconariaBaixo
+VAR_2496	MaconariaEsquerda
+VAR_2497	MaconariaDireita
+VAR_2498	CobrimentoCaixao
+VAR_2499	TravComprBD
+VAR_2500	TravLargCE
+VAR_2501	EnchimTravCima
+VAR_2502	EnchimTravBaixo
+VAR_2503	EnchimTravEsquerda
+VAR_2504	EnchimTravDireita
+VAR_2505	EnchimAlturaTabela
+VAR_2506	EnchimLarguraTabela
+VAR_2507	PinaziosEdiCodigo
+VAR_2508	X0
+VAR_2509	X1
+VAR_2510	Y0
+VAR_2511	Y1
+VAR_2512	T
+VAR_2513	W
+VAR_2514	H
+VAR_2515	X
+VAR_2516	Y
+VAR_2517	P1
+VAR_2518	P2
+VAR_2519	P3
+VAR_2520	X2
+VAR_2521	WinPro
+VAR_2528	RAL
+VAR_2542	VarLin
+XLS_Add Language	Nova língua
+XLS_Add String	Acrescentar uma cadeia
+XLS_Cancel	Anular
+XLS_Chaines vides en	Cadeias vazías em:
+XLS_Chercher	Procurar
+XLS_Code	Código
+XLS_Delete	Suprimir
+XLS_Description	Descrição
+XLS_Duplicate	Copiar
+XLS_Fichier	Ficheiro
+XLS_Identifier	Identificador
+XLS_Ignorer Maj Min	Ignorar maiúsculas e minúsculas
+XLS_Lang Exists	Este código de língua já existe!
+XLS_Langue	Língua
+XLS_Langue Base	Língua de substitução
+XLS_Langue affichage	Língua de visualização
+XLS_Langues	Línguas
+XLS_New Lang	Nova língua
+XLS_New String	Nova cadeia
+XLS_OK	OK
+XLS_Quitter	Anular
+XLS_Sauver?	Salvar?
+XLS_Save	Salvar
+XLS_String Count	Quantidade de cadeias: %d
+XLS_Texte a rechercher	Texto a procurar
+XLS_Texte entier	Texto inteiro
+XLS_Toutes	Todas
+XLS_Traduction	Tradução
+XLS_Traductions	Traduções
+XLS_Translate strings	Utilitário de tradução das cadeias de WinPro
+XLS_Trouver	Procurar
+XLS_Trouver suivant	Continuar a procura

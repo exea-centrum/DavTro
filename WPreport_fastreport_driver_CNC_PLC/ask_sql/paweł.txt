@@ -1,0 +1,10 @@
+select l.typedoc, l.commande, l.chassis, l.code, l.descriptio, l.dimension, a.devise, a.pafb as cena_zakupu, a.pr as koszt, sum(l.quantite*d.qte) as 'ilosc'
+from lin l     
+left outer join
+     detail d on d.commande = l.commande and d.ordre+1 = l.chassis,
+     artfou a 
+where a.article = l.code
+  and l.code not like 'CEN%'
+  and l.commande = :ORDER 
+  and l.typedoc = 'X'
+group by l.typedoc, l.commande, l.chassis, l.code, l.descriptio, l.dimension, a.devise, a.pafb, a.pr

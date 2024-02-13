@@ -1,0 +1,4416 @@
+CM_ACCESSOIRES	Accessorie&s
+CM_AERATEURS	Ventilators
+CM_AJOUTCOULEUR	D&uplicate a colour
+CM_ALIGN_CENTER	A&lign Center
+CM_ALIGN_LEFT	&Align Left
+CM_ALIGN_RIGHT	&Align Right
+CM_APPROBATION_DEVIS	&Approve imported quotations
+CM_APPROBCONFIRM	Approve confirmations
+CM_ARCHIVAGE	Ar&chives
+CM_ARCHIVAGE_ARMOIRE	Temporary archival
+CM_ARCHIVAGE_DATE	Archive by date
+CM_ARCHIVAGE_DC	Archive orders and quotations
+CM_ARCHIVAGE_DC_SUPP	Delete orders and quotations
+CM_ARCHIVAGE_PALETTES	&Archiving
+CM_ARRANGEICONS	Arrange icons
+CM_ARTICLEPOSE	Installation items
+CM_ARTICLES	&Articles
+CM_ARTICLE_DELAI	Delay articles
+CM_ASSISTANTS_COMMERCIAUX	Sales assitants
+CM_AUGMENTER_PA	Increase buying price
+CM_AVALFIN	&Financial approval
+CM_BIBLIO	&Libraries
+CM_BOLD	B&old
+CM_BORDERAULIVRAISONPARTILLE	Partial delivery
+CM_BORDEREAULIVRAISON	Delivery documents
+CM_BORDEREAULIVRAISON2	Re&print delivery documents
+CM_BORDLIVR	Delivery preparation
+CM_BORDLIVR2	Reprint delivery preparation
+CM_BRUKOR	&Brukor invoicing
+CM_CADRES	Frames
+CM_CAISSONS	Roller boxes
+CM_CANCEL	Cancel\tESC
+CM_CASIER	Waste Bo&xes
+CM_CATART	Article categories
+CM_CATCLI	Customer categories
+CM_CDES_TERMINEES	Import completed orders
+CM_CDEVITRAGE	Glass order
+CM_CDEVITRAGE2	Reprint glass order
+CM_CHANGEUSER	Change User
+CM_CHARGEMENTPALETTE	&Loading
+CM_CHAUFFEURS	&Drivers
+CM_CHEVALET	Racks loading
+CM_CINTRE	Fal&se Arches
+CM_CLIENTS	&Customers
+CM_CLOSECHILDREN	Close All
+CM_COEFF	Price mar&gins
+CM_COLIS	Package types
+CM_COMMANDE	&Orders and quotations
+CM_COMMANDESTOCK	Create or edit a supplier order
+CM_COMPARAISON_STOCK_CASIER	Check stock in boxes
+CM_COMPTAGE_UNITES	Count units
+CM_CONDITIONSLIVRAISON	&Packaging
+CM_CONDITIONSTRANSPORT	Transport conditions
+CM_CONFIRMATIONSTOCK	Supplier order confirmation
+CM_CONSOMENSUELLE	Monthly article usage
+CM_CONSO_OPTIM	Stock usage by job
+CM_CONTROLECHAINE	Production control
+CM_CONTROLEQUOTIDIEN	Daily control
+CM_CONTROLE_ACCESS	Glazing bars, ventilators and accessories control
+CM_CONTROLE_CHASSIS	Windows control
+CM_CONTROLE_LIVRAISON	Deliveries control
+CM_CONTROLE_VOLETS	Roller shutters control
+CM_COPY	Copy\tF7
+CM_CORRECTIONSTOCK	Adjust stock (specify new value)
+CM_CORRECTIONSTOCK2	Adjust stock (specifiy difference)
+CM_CORRECTION_STOCK_CASIER	Stock boxes corrections
+CM_COULEURS	Co&lours
+CM_COULISSES	Rails
+CM_CROISILLONS	Glazing bars
+CM_DB_COMMERCIALE	Create sales technical database
+CM_DB_DEVIS	Create WinPro/D technical database
+CM_DEBUG	Debug window
+CM_DELETE	Delete
+CM_DEPOTPALETTE	&Stocking racks
+CM_DESSIN	WinPro &Drawings
+CM_DESSIN_MACONNERIE_ENGELS	Masonry drawings
+CM_DEVIS	&Print quotations
+CM_DEVISES	&Currencies
+CM_DISTRIBUTCOMMANDE	&Supply orders
+CM_DORMANTS	Outer frames
+CM_DXF	D&XF drawings
+CM_EDIT	Edit\tF3
+CM_EDITCOPY	Copy\tCtrl+Ins
+CM_EDITCUT	Cut \tShift+Del
+CM_EDITDELETE	Delete\tDel
+CM_EDITPASTE	Paste\tShift+Ins
+CM_EDITUNDO	Undo\tAlt+BkSp
+CM_EMPLACEMENTPRINCIPAL	Main stock store
+CM_EMPLACEMENTS	&Stock stores
+CM_ENCOURSCHAINE	Orders in produ&ction
+CM_ENCOURS_CLIENT	Customer orders list
+CM_ENCOURS_SYSTEME	By system
+CM_ENCOURS_SYSTEME_DEBUT	By production starting date
+CM_ENCOURS_SYSTEME_DLIVRAISON	By delivery date
+CM_ENTREESORTIE	Direct stock input/output
+CM_ENVOICONFIRM	Send confirmations
+CM_EQUIPE	Delivery/installation teams
+CM_ETATCHASSIS	Change window status
+CM_ETATCOMMANDE	Change order status
+CM_ETIQUETTES	Folder labels
+CM_EXPORT	Export\t^F5
+CM_EXPORTTECHNIQUEALF	Export technical data to Alf
+CM_EXPORTTECHNIQUEBREMAUD	Export technical data to Bremaud
+CM_FACTURATIONMENSUELLE	Monthly invoices
+CM_FACTURATIONMENSUELLE2	Reprint monthly invoices
+CM_FACTURES	&Invoices
+CM_FACTURES2	Repr&int invoices
+CM_FACTURES_PARTIELLE	&Partial Invoices
+CM_FACTURES_SIMPLES	Simple invoices and credit notes
+CM_FIND	&Search in formulas
+CM_FONT	&Font
+CM_FOURNISSEURS	&Suppliers
+CM_GAMME	Family
+CM_GESTIONCHUTES	Wastes management
+CM_GRILLEPREVISIONSTOCK	Stock forecast (summary)
+CM_GROUPEUSINAGE	Milling g&roups
+CM_GROUPE_PRODUIT	Product group
+CM_GROUPE_REMISE	Discount group
+CM_HELPABOUT	&About WinPro
+CM_HELP_INDEX	&Help
+CM_HISTODEVISE	Currencies history
+CM_HISTORIQUESTOCK	Stock history
+CM_IMPORT	Import\t^F4
+CM_IMPORTIO	IO Import
+CM_IMPORTTECHNIQUEALF	Import technical data from Alf
+CM_IMPORTTECHNIQUEBREMAUD	Import technical data from Bremaud
+CM_IMPORT_ARTICLES	Import articles
+CM_IMPORT_CLIENTS	Import customers
+CM_IMPORT_COMMANDES	Import orders
+CM_IMPORT_DECEUNINCK	Import Deceuninck's articles
+CM_IMPORT_DEVIS	Quotations import
+CM_IMPORT_PLANNING	Import planning
+CM_IMPORT_TOURNEES	Import delivery areas
+CM_IMPRCONFIRM	&Print confirmations
+CM_IMPRESSIONCHASSISSTD	Print standard windows
+CM_IMPRESSION_LOT	&Print job's documents
+CM_INCIDENTS	Incidents
+CM_INDENT_LEFT	Indent left
+CM_INDENT_RIGHT	Indent right
+CM_INFOCLI	&INFOCLI floppy
+CM_INFO_CLI	Customer information for WinPro/D
+CM_INVENTAIREGENERAL	Global inventory
+CM_ITALICS	It&alics
+CM_JOUR_FERMETURE	&Holidays
+CM_LANCERPRODUCTION	&Launch production
+CM_LARGER	&Larger
+CM_LIAISONCOMPTABLE	Import in accounting software
+CM_LICENCE	&Licence
+CM_LIGNE_PRODUCTION	Production lines
+CM_LINEAIRECAMION	&Truck surface
+CM_LISTEACCESSOIRES	Accessori&es
+CM_LISTEARTICLE	A&rticles ( simplified )
+CM_LISTEARTICLEDETAIL	Articles (&All)
+CM_LISTECATEGORIEARTICLE	&Article categories
+CM_LISTECATEGORIECLIENT	Customer categories
+CM_LISTECHUTES	&Profile wastes
+CM_LISTECLIENTS	&Customers
+CM_LISTECOEFFICIENT	Price mar&gins
+CM_LISTEDESSINS	&Drawings
+CM_LISTEDEVISES	&Currency
+CM_LISTEDORMANTS	Outer frames
+CM_LISTEEMPLACEMENT	Stock stores
+CM_LISTEFOURNISSEUR	&Suppliers
+CM_LISTEINVENTAIREEMPLACEMENT	Inventory by store
+CM_LISTEOUVRANTS	Sashes
+CM_LISTEPANNEAUX	Plain &panels
+CM_LISTEPANNEAUXDECORATIFS	Decorative pan&els
+CM_LISTEPARCLOSES	Glazing beads
+CM_LISTEPROFILS	Prof&iles
+CM_LISTEQUINCAILLERIES	Fittings
+CM_LISTEREHAUSSES	Peripheral profiles
+CM_LISTESYMBOLES	Millings
+CM_LISTETRAVERSES	Transoms
+CM_LISTEVITRAGES	&Glasses
+CM_LISTE_PALETTES_DISPONIBLES	&Available racks
+CM_LISTE_PALETTES_NON_DISPONIBLES	&Unavailable racks
+CM_LST_CMP_DC	Compare quotations and orders
+CM_MATERIAU	Material
+CM_MESSAGES	&Messages
+CM_MISEENATTENTE	Put on hold
+CM_MISE_CHEVALET	Store on delivery racks
+CM_MISE_EN_SERIE	Import orders in production
+CM_MODIFCONFIRM	Confirmations to modify
+CM_MODIFIERCODE	Change a record's code
+CM_MODIF_LIVRAISON	Edit delivery informations
+CM_MO_NEGOCE	Sales labour
+CM_NEW	New\tF6
+CM_NONRECT	Non rectangular windows
+CM_NORMEVENT	&Wind norms
+CM_NORMEVERRE	&Glass norms
+CM_OPTIMISATION_ANTICIPEE	Optimize special windows
+CM_OPTIMISER	&Optimization
+CM_OPTIMISER_PRECADRES	Optimize pre-frames
+CM_OPTIMISER_PROF_ACCESS	Accessories optimization
+CM_OPTIMISER_TRAVERSES	Transoms o&ptimization
+CM_OUVRANTS	&Sashes
+CM_PACKAGE	Packaging
+CM_PAIEMENT	&Payment terms
+CM_PALETTES	&Racks
+CM_PANNEAUX	Plain panels
+CM_PANNEAUXDECORATIFS	Decorative &panels
+CM_PANNEAUXFABRIQUES	Composed panels
+CM_PARAMCOMCLI	Preferences...
+CM_PARCLOSES	Glazing beads
+CM_PASSWORD	Password
+CM_PERIMETRES	Perimeters
+CM_PLANENLEVEMENT	List of items to be picked up
+CM_PLANIFIER	Production dates
+CM_PLANLIVRAISON	List of items to be delivered
+CM_PLANLIVRAISON2	Delivery planning, sorted by driver
+CM_PLANNING_FABRICATION	Production list
+CM_PLANPOSE	List of items to be installed
+CM_PLANSORTIE	Output list
+CM_PLANSORTIEZONE	Output list by area
+CM_POSITION_STOCK	Stock boxes
+CM_POSTETRAVAIL	&Labour
+CM_POSTE_ATELIER	Production spots
+CM_PREPAOPTIMI	&Job preparation
+CM_PREPARATION_COLIS	Pa&ckage Preparation 
+CM_PREVISIONSTOCK	Stock forecast (detailed)
+CM_PRINT	Print\nF11
+CM_PRIX_TARIF	Copy current prices to list prices
+CM_PRN_CDE_SOUSTRAIT	Print sub-contractor orders
+CM_PRODUCTIONCOST	&Production
+CM_PROFILS	Pro&files
+CM_PROPOSITIONSTOCK	Supplier order proposition
+CM_PROSPECTS	&Prospects
+CM_QUERY_280	&Sent order confirmations
+CM_QUERY_CDE	&Find orders
+CM_QUERY_ETAT	Order lookup by status
+CM_QUESTIONSGLOBALES	Global questions
+CM_QUINCAILLERIE	Fittings
+CM_QUIT	&Close\tAlt+F4
+CM_RAPPELSTOCK	List of running supplier orders
+CM_RAPPEL_PALETTES	&Reminder for customers
+CM_RAZ_STOCK	Set stock to zero
+CM_REACTIVATIONCONFIRM	Reacti&vate
+CM_RECEPTIONSTOCK	Receive a supplier order
+CM_RECEPTION_SORTIE_CHAINE	Integrate finished windows
+CM_REHAUSSES	Peripheral profiles
+CM_REIMPRCONFIRM	Reprint confirmations
+CM_REIMPRESSIONOPTIM	Reprint optimization
+CM_REINDEX	&Reindexing
+CM_REINSERTIONCHAINE	Resend to production line
+CM_RELANCE_TRANSFERT	---
+CM_REOPTIMISATION_ANTICIPEE	Re-optimize special windows
+CM_REOPTIMISER	Recompute op&timization
+CM_REOPTIMISER_PRECADRES	Re-optimize pre-frames
+CM_REOPTIMISER_TRAVERSES	Recompute transoms optimization
+CM_REPBORDERAULIVRAISONPARTILLE	Rep&rint partial delivery
+CM_REPFACTURES_PARTIELLE	Reprin&t partial invoices
+CM_REPORT	&Creation
+CM_REPORTTYPE	&Documents type
+CM_REPRCONFIRM	Print modified confirmations
+CM_REPRESENTANT	&Salesmen
+CM_RETOURPALETTE	&Returned racks
+CM_REVALIDCONFIRM	Validate again modified confirmations
+CM_RINDENT_LEFT	Unindent right
+CM_RINDENT_RIGHT	Unindent left
+CM_ROUTINES	&Routines
+CM_SAVE	Save\tF5
+CM_SCIE	&Saws
+CM_SEEK	Find\tF4
+CM_SEL_SYSTEME	&System selection
+CM_SENDORDERSTOCK	Send orders
+CM_SITELIVR	Delivery location
+CM_SMALLER	S&maller
+CM_SOCIETE	&Company address
+CM_SOUS_GROUPE_PRODUIT	Product  subgroup
+CM_STOCK_USINE	Factory stock
+CM_STRIKEOUT	&Strikeout
+CM_SUR_MESURE	Standard / on measure
+CM_SYSTEMES	S&ystems
+CM_SYSTEME_PRINCIPAL	Main s&ystem
+CM_TABLIERS	Shu&tter curtains
+CM_TARIFS	&Windows
+CM_TARIFVOLET	S&hutters
+CM_TEXT_CQ	Periodical text for quality control
+CM_TILECHILDREN	Tile windows
+CM_TOLE	Bent sheets
+CM_TRANSFERTNAVIBAT	Navibat transfers
+CM_TRANSFERTNAVISION	NaVision transfers
+CM_TRANSFERTSTOCK	&Transfer
+CM_TRANSFERT_CDES_TERMINEES	Transfer finished orders
+CM_TRANSFERT_MISE_EN_SERIE	Transfer production jobs
+CM_TRANSFERT_SIMPLIFIE_USINE	Factory data transfer
+CM_TRANSFERT_SORTIES_CHAINE	Transfer finished windows
+CM_TRANSLATE	Translations
+CM_TRAVERSES	Transoms
+CM_TRI_FIN_CHAINE	End of production sort order
+CM_TVA	VAT c&odes
+CM_TYPETRANSPORT	Transport type
+CM_TYPE_PRODUIT	Product type
+CM_UNDERLINE	&Underline
+CM_UPDATE_KOMMERLING	Import Kö&mmerling data
+CM_USERS	Users
+CM_USINAGE	Millings
+CM_VALIDCONFIRM	Validate confirmations
+CM_VALORISATION_ENCOURS	Compute value of running orders
+CM_VAL_CDE_SOUSTRAIT	Validate sub-contractor orders
+CM_VERIFATELIER	Check finished production orders
+CM_VITRAGEPRINCIPAL	Coloured glass frame
+CM_VITRAGES	&Glasses
+CM_WORKCOST	&Labour
+CM_ZONELIVRAISON	Delivery areas
+DOC_%R	%D
+DOC_ACC	Acc.
+DOC_ACCESSOIRES	Accessories
+DOC_ACCESSOIRE_CHASSIS	Window accessory
+DOC_ADRESSELIVRAISON	Delivery address
+DOC_AERATEUR	Ventilator
+DOC_AJOURE	Perforated
+DOC_ANGLES	Angles
+DOC_ARTICLES	Articles
+DOC_ASSEMBLAGE	Connection
+DOC_ASSISTANT_COMMERCIAL	Sales assistant
+DOC_A_DROITE	right
+DOC_A_GAUCHE	left
+DOC_BONCOMMANDE	Order
+DOC_CAISSON	Box
+DOC_CDERECUECONFORME	Order correctly received:\nApproved,
+DOC_CDERECUELE	This order was received on      /     /          at         :
+DOC_CDE_AVALISEE	Saved orders 
+DOC_CDE_A_MODIFIER	Modifying an order
+DOC_CDE_ENCODEE	Saved orders
+DOC_CDE_EN_ATTENTE	Orders on hold
+DOC_CDE_FABRIQUEE	Finished order
+DOC_CHA	Win
+DOC_CHASSIS	Window
+DOC_CHASSISNO	Window nr
+DOC_CHASSISNONREALISABLE	This window cannot be built
+DOC_CHUTESRAL	RAL wastes
+DOC_CLIENT	Customer
+DOC_CLR	Clr
+DOC_CODE	Code
+DOC_COMMANDE	Order
+DOC_COMMANDENO	Order nr
+DOC_COMMANDEVITRAGE	Glass order
+DOC_COMMENTAIRE	Comment
+DOC_COMPRIS	Included
+DOC_CONDITIONNEMENT	Packaging
+DOC_CONFIRMATION	Confirmation
+DOC_CONFIRM_P	The customer fully accepts the general sales conditions, including art. 11 about the relevancy of the Court of Neufchâteau (Belgium)
+DOC_CONF_APPROUVEE	Approved confirmation
+DOC_CONF_ENVOYEE	Sent confirmation
+DOC_CONTROLEPRIXACHAT	Buying price control
+DOC_CONTROLEPRIXREVIENT	Cost price control
+DOC_CONTROLEPRIXVENTE	Selling price control
+DOC_CONTROLEQUALITE	Quality control
+DOC_COULEUR	Colour
+DOC_COULEURMAUCLAIR	French mullion colour
+DOC_COULEUR_EXT	Outer colour
+DOC_COULEUR_INT	Inner colour
+DOC_COULEUR_SOUS_LAME	Bottom lath colour
+DOC_COULISSE	Rail
+DOC_COULISSES	Rails
+DOC_COUPLEUR_S_	Connector(s)
+DOC_CROISILLON	Glazing bar
+DOC_CROISILLONS	Glazing bars
+DOC_DANS_(x semaines)	in
+DOC_DATE	Date
+DOC_DATECOMMANDE	Order date
+DOC_DATELIVRAISON	Delivery date
+DOC_DATE_EXPEDITION	Sent
+DOC_DATE_RECEPTION	Received
+DOC_DELAI_JOURS_COMMANDE_SOIT_LE	Please pay #1# days after ordering, that is on #2#.
+DOC_DELAI_JOURS_FIN_MOIS_LE	Payments #1# days after end of month the #3#, that is on #2#.
+DOC_DELAI_JOURS_FIN_MOIS_SOIT_LE	Payments #1# days after end of month, that is on #2#.
+DOC_DELAI_JOURS_SOIT_LE	Please pay #1# days after invoice date, that is on #2#.
+DOC_DELIVERY_NOTE_NUM	Delivery #
+DOC_DELIVERY_NOTE_RECAP_TITLE	Summarized delivery
+DOC_DEMANDEPRIX	Quotation request
+DOC_DESCRIPTION	Description
+DOC_DESCRIPTIONCHANGEMENT	Description of changes
+DOC_DEVIS	Quotation
+DOC_DIMENSION	Dimension
+DOC_DIMENSIONDORMANT	Frame dimensions
+DOC_DIMENSIONFABRICATION	Production dimensions
+DOC_DIMENSIONHORSTOUT	Total dimensions
+DOC_DIMENSIONS	Dimensions
+DOC_DIMTABLEAU	Masonry dim.
+DOC_DISCOUNT_AMNT	Discount
+DOC_DONNEUR_DORDRE	Ordered by :
+DOC_DORMANT	Outer frame
+DOC_DROITE	Right
+DOC_ENCODEPAR	Input by #1# 
+DOC_ENLEVEMENT	Pick up
+DOC_ENLEVEMENTCOMMANDE	This order can be picked up #4# #1# #5# if the confirmation is sent back approved immediately.
+DOC_ENROULEMENT	Roll diam.
+DOC_ENTRAXEBASHAUT	Bottom to top distance between centers
+DOC_ENTRAXEGAUCHEDROITE	Left to right distance between centers
+DOC_EN_BAS	below
+DOC_EN_HAUT	on top
+DOC_EN_PRODUCTION	In production
+DOC_EQUIV_EURO	Value in €
+DOC_ERREUR	Error
+DOC_ESCOMPTE_PAIEMENT_COMPTANT	Discount #1#% if cash payment : #2#
+DOC_ESCOMPTE_PAIEMENT_JOURS	Discount #1#% if payment within #2# days: #3#
+DOC_ETATCOMMANDE	Order
+DOC_EXTERIEUR	Outer
+DOC_EXT_	out.
+DOC_FACTURE	Invoice
+DOC_FACTUREACOMPTE	Down payment invoice
+DOC_FACTUREACOMPTE_NO	Down payment invoice nr #1#, #2#
+DOC_FACTURE_NO	Invoice nr #1#, #2#
+DOC_FAUXCINTRAGE	False arch
+DOC_FAX	Fax
+DOC_FLECHE	Arrow
+DOC_FOURNITURECOMMANDE	The delivery of this order will take place #4# #1# #5# if the confirmation is sent back approved immediately.
+DOC_FOURNITURESSUPPLEMENTAIRESARTICLES	Extra articles
+DOC_FOURNITURESSUPPLEMENTAIRESPROFILS	Extra profiles
+DOC_FOURNITURESSUPPLEMENTAIRESTOLES	Folded sheets
+DOC_FRAISLIVRAISON	Delivery cost
+DOC_FRAISPORT	Freight
+DOC_GAUCHE	Left
+DOC_GRATUIT	Free
+DOC_GROSS_AMNT	Gross amount
+DOC_HAUT	Top
+DOC_HAUTDROITE	Top right
+DOC_HAUTEUR	Height
+DOC_HAUTGAUCHE	Top left
+DOC_HORS_GARANTIE	No warranty !
+DOC_INITIALE_DROITE	R
+DOC_INITIALE_GAUCHE	L
+DOC_INSTRUCTIONSPOSE	Installation instructions
+DOC_INTERCALAIRE	Glazing frame
+DOC_INTERIEUR	Inner
+DOC_INTERIEUR_EXTERIEUR	In/Out
+DOC_INT_	Inner
+DOC_JUSQUE	to
+DOC_Kg	Kg
+DOC_LARGEUR	Width
+DOC_LA_SEMAINE	on week
+DOC_LE (date)	on
+DOC_LECLIENT	The customer
+DOC_LE_CHAUFFEUR	The driver
+DOC_LIMITE_VALIDITE	Valid until:
+DOC_LIVR	Deliv
+DOC_LIVRAISON	Delivery
+DOC_LIVRAISONCOMMANDE	This order will be delivered #4# #1# #5# if the confirmation is sent back approved immediately.
+DOC_LONGUEUR	Length
+DOC_LOT	Job
+DOC_LPROD	Prod.line
+DOC_MANOEUVRE	Handling
+DOC_MENEAU_X_	Transom(s)
+DOC_MESSAGE	Message
+DOC_MONTANT	Amount
+DOC_MOTIF	Reason
+DOC_NET_AMNT	Net Amount
+DOC_NEXTPAGE	Continued on next page
+DOC_NOCLIENT	Customer nr
+DOC_NOMBRE_VOLUMES	Glass count
+DOC_NON	No
+DOC_NONCOMPRIS	Not included
+DOC_NONFOURNI	NOT DELIVERED
+DOC_NONREALISABLE	Not feasible
+DOC_NOSREFERENCES	Our references
+DOC_NOTECREDIT	Credit note
+DOC_NOTEENVOI	Delivery slip
+DOC_NOTE_ENVOI_NO	Delivery slip #1#
+DOC_NUMERO_TABLIER	Shutter ##1#
+DOC_OPTION	Option
+DOC_OPTIONS	Options
+DOC_ORDRE_LAQUAGE	Varnishing order
+DOC_OUI	Yes
+DOC_OUVRANT	Sash
+DOC_PAGE	Page
+DOC_PAIEMENT	Payment
+DOC_PAIEMENT_COMMANDE_SOIT_LE	Please pay when ordering, on #1#.
+DOC_PAIEMENT_COMPTANT	Cash payment.
+DOC_PAIEMENT_FIN_DE_MOIS_LE	Payement end of month the #2#, that is on #1#.
+DOC_PAIEMENT_FIN_DE_MOIS_SOIT_LE	Payment end of month, that is on #1#.
+DOC_PAIEMENT_PAR_TRAITE	Payment by IOU.
+DOC_PALETTE	Rack
+DOC_PANNEAU	Panels
+DOC_PARCLOSE	Glazing bead
+DOC_PARCLOSES	Glazing beads
+DOC_PLANS_ATELIER	Factory document
+DOC_POIDS_TOTAL	Total weight
+DOC_POSE	Installation
+DOC_POSECOMMANDE	The placement will take place #4# #1# #5# if the confirmation is sent back approved immediately.
+DOC_POURACCORD	Approved,
+DOC_PREPARATIONLIVRAISON	Delivery preparation
+DOC_PRIX	Price
+DOC_PRIXBRUT	Gross price
+DOC_PRIXCOURANT	Current price
+DOC_PRIXTARIF	List price
+DOC_PRIX_ASSEMBLAGE	Price of connection accessories
+DOC_PRIX_CHASSIS	Window price
+DOC_PRIX_DES_ACCESSOIRES	Price of accessories
+DOC_PRIX_DES_CHASSIS	Price of windows
+DOC_PRIX_DES_VITRAGES	Price of glazings
+DOC_PRIX_DES_VOLETS	Price of roller shutters
+DOC_PRIX_NET	Net price
+DOC_PRIX_TOTAL	Total price
+DOC_PRIX_UNITAIRE	Unit price
+DOC_PRIX_VARIANTE	Price of variant
+DOC_PRIX_VITRAGE	Price of glazing
+DOC_PRIX_VOLET	Price of roller shutter
+DOC_PROFILS_COMPLEMENTAIRES	Additional profiles
+DOC_QTE	Qty
+DOC_QUANTITE	Quantity
+DOC_QUINCAILLERIE	Fitting
+DOC_RAYON	Radius
+DOC_RECEPITIONNISTEAUTORISE	Authorized receptionist
+DOC_REFERENCE	Reference
+DOC_REFERENCECLIENT	Customer reference
+DOC_REHAUSSE	Peripheral profile
+DOC_REMARQUE	Remark
+DOC_REMISE	Discount
+DOC_REMISERETROCESSION	Retrocession discount
+DOC_SANS_FOURNISSEUR	No supplier
+DOC_SEMAINE(S)	week(s)
+DOC_SENS	Direction
+DOC_SEUIL	Sill
+DOC_SEUIL_RENFORT	Sill / Reinforcement
+DOC_SIGNATURE	Signature
+DOC_SITE	Production site
+DOC_SOUSLOT	Sub job
+DOC_SUIVANTCOMMANDEDU	According to order #1# on
+DOC_SUPPLEMENT	Additional price
+DOC_SUPPLEMENT_ACCESSOIRES	Additional price for accessories
+DOC_SUPPLEMENT_TOTAL	Total of additional prices
+DOC_SUPPLEMENT_VARIANTE	Additional price for variant
+DOC_SUPPLEMENT_VITRAGE	Additional price for glazing
+DOC_SUPPLEMENT_VOLET	Additional price for roller shutter
+DOC_SURFACE_TOTALE	Total surface
+DOC_SYSTEME	System
+DOC_TABLIER	Shutter curtain
+DOC_TEL	Tel
+DOC_TITREACOMPTE	Down payment
+DOC_TITREACOMPTES	Down payments
+DOC_TOT	Tot.
+DOC_TOTAL	Total
+DOC_TOTALACOMPTE	Total down payment
+DOC_TOTALACOMPTENET	Net total down payment
+DOC_TOTALACOMPTES	Total down payments
+DOC_TOTALCOMMANDEHTVA	Order total excl. VAT
+DOC_TOTALCOMMANDENET	Net order total
+DOC_TOTALFOURNITURE	SUPPLIES TOTAL
+DOC_TOTALGENERALCOMMANDENET	Global net total
+DOC_TOTALGENERALCOMMANDETVAC	Global total incl. VAT
+DOC_TOTALMATIERE	Total materials
+DOC_TOTALNET	Net total
+DOC_TOTALPOSE	Installation total
+DOC_TOTALPVC	TOTAL PVC
+DOC_TOTALTVAC	Total incl. VAT
+DOC_TOTALVITRAGE	Glazing total
+DOC_TOTALVOLET	Roller shutter total
+DOC_TOUTE_LA_COMMANDE	Use this for the whole order 
+DOC_TRAITEPAR	Handled by
+DOC_TRAITE_JOURS	IOU #1# days.
+DOC_TRAVERSE	Transom
+DOC_TRAVERSE_S_	Transom(s)
+DOC_TRI	Sort
+DOC_TVA	VAT
+DOC_UNITE	Unit
+DOC_USER	User
+DOC_VARIANTE	(variants)
+DOC_VARIANTES	Variant(s)
+DOC_VAR_ACCESSOIRE	Option: #1#
+DOC_VAR_COULEUR	Colour: #1#
+DOC_VAR_VITRAGE	Glazing: #1#
+DOC_VENDUPAR	Sold by
+DOC_VERSION	Version
+DOC_VEUILLEZNOTERPROBLEMES	Please take note of the following problems:
+DOC_VEUILLEZPROCEDERCHANGEMENT	Please apply the following changes to my order  :
+DOC_VIT	Gla
+DOC_VITRAGE	Glazing
+DOC_VITRAGES	Glazings
+DOC_VITRAGES_CDES	Glasses ordered
+DOC_VITRAGES_ET_PANNEAUX	Glazings and panels
+DOC_VOL	RSh.
+DOC_VOLET	Roller shutter
+DOC_VOLETNONREALISABLE	This roller shutter cannot be made
+DOC_VOSREFERENCES	Your references
+DOC_VUEEXTERIEURE	Outer view
+DOC_VUEINTERIEURE	Inner view
+DOC_ZONE	Area
+IDS_%	%
+IDS_%R	%D
+IDS_%_AUGMENTATION_PRIX	% buying price increase
+IDS_%_CA	% T.O.
+IDS_%_FOND	%shading
+IDS_%_FOND_VITRAGE	Glass % shading
+IDS_%_MARGE	% margin
+IDS_%_MARGE/DEBOURSE	% margin / budgeted cost
+IDS_%_PAR_DEFAUT	% by default
+IDS_%_REMISE	% discount
+IDS_%_SUPPLEMENT_INTERCALAIRE_COULEUR	Supplement in % for coloured glass frame
+IDS_''	"
+IDS_(BAS)	(Bottom)
+IDS_(TOUTES)	(All)
+IDS_(fois)	X
+IDS_+_COMMANDES_FOURNISSEURS	+ supplier orders
+IDS_+_PRECIS	+ precision
+IDS_+_RAPIDE	+ speed
+IDS_--- % remise ---	--- % discount ---
+IDS_-_RESERVATIONS_CLIENTS	- customer reservations
+IDS_/10	/10
+IDS_1	1
+IDS_1,2,3,4,5	 1:\n 2:\n 3:\n 4:\n 5:
+IDS_1/10_mm	1/10 mm
+IDS_10	10
+IDS_1_CADRE_PAR_CASIER	1 frame per box
+IDS_1_MM	1 mm
+IDS_1_OCCURRENCE	%d case(s)
+IDS_1_PAGE_PAR_CHASSIS	1 page per window
+IDS_1_PLAN/PAGE	1 window/page
+IDS_1_SEULE_FOIS	Use once
+IDS_1_VANTAIL	1 leaf
+IDS_1r_COLONNE_SUR_BON_COMMANDE	1st column on order form
+IDS_1°	1st
+IDS_2	2
+IDS_2_A_8	(2 to 8)
+IDS_2_VANTAUX_HORIZONTALES	2 horizontal leaves
+IDS_2_VANTAUX_VERTICALES	2 vertical leaves
+IDS_2_VUES_SI_BICOLORE	2 views if bicolour
+IDS_2°	2nd
+IDS_2°_REMISE_COMPLEMENTAIRE	2nd additional discount
+IDS_2°_REMISE_MATIERE	2nd discount/prod.
+IDS_3	3
+IDS_3_VANTAUX_HORIZONTALES	3 horizontal leaves
+IDS_3_VANTAUX_VERTICALES	3 vertical leaves
+IDS_3°	3rd
+IDS_3°_REMISE_MATIERE	3rd discount/prod.
+IDS_4	4
+IDS_4_VANTAUX_HORIZONTALES	4 horizontal leaves
+IDS_5	5
+IDS_5_VANTAUX_HORIZONTALES	5 horizontal leaves
+IDS_6	6
+IDS_6_VANTAUX_HORIZONTALES	6 horizontal leaves
+IDS_7	7
+IDS_7_VANTAUX_HORIZONTALES	7 horizontal leaves
+IDS_8	8
+IDS_9	9
+IDS_A	to
+IDS_A(heure)	at
+IDS_ACC	Acc.
+IDS_ACCESREFUSE	Access denied
+IDS_ACCESSOIRES	Accessories
+IDS_ACCESSOIRES_CHASSIS	Window accessories
+IDS_ACCESSOIRES_QUINCAILLERIE	Fitting accessories
+IDS_ACCESSOIRE_CHASSIS	Window accessory
+IDS_ACCESSOIRE_HORS_TARIF	No price for this accessory
+IDS_ACCES_IMPOSSIBLE	Cannot access temporarily
+IDS_ACCORD_CHAUFFEUR	Approved by driver
+IDS_ACOLISER	To pack
+IDS_ACOMPTE	Down payment
+IDS_ACOMPTE_A_LA_COMMANDE	Downpayemnt when ordering
+IDS_ACTIF	Active
+IDS_ACTIONS	Actions
+IDS_ACTUALISER	Refresh
+IDS_ADMINISTRATEUR	Administrator
+IDS_ADRESSE	Address
+IDS_ADRESSELIVRAISON	Delivery address
+IDS_ADRESSES_FACTURATION_ET_LIVRAISON	Delivery and invoicing addresses
+IDS_ADRESSE_FOURNISSEUR	Supplier address
+IDS_ADRESSE_LIVRAISON_MODIFIEE	Modified delivery address
+IDS_AERATEUR	Ventilator
+IDS_AERATEURS	Ventilators
+IDS_AERATEUR_HORS_TARIF	No price for this ventilator
+IDS_AFFICHER_SUR_POSTES:	Display at workplaces:
+IDS_AGREATION	Agreement
+IDS_AIDE_DECHARGEMENT	Help for unloading
+IDS_AISANCE	Clearance
+IDS_AISANCENULLE	No tolerance defined for glazing #1#
+IDS_AISANCE_SUPPLEMENTAIRE_VITRAGE	Additional clearance
+IDS_AJOURE	Perforated
+IDS_AJOUT	Add
+IDS_AJOUTER	Add
+IDS_AJOUTERTRAVERSE	Add a transom
+IDS_AJOUTER_COULEUR	Add a color
+IDS_AJOUTER_DEFAUT	Add a weakness
+IDS_AJOUTER_FONCTION	Add a function
+IDS_AJOUTER_HOBBY	Add a hobby
+IDS_AJOUTER_MARCHE	Add a new market type
+IDS_AJOUTER_QUALITE	Add a quality
+IDS_AJOUTER_TITRE	Add a new title
+IDS_AJOUTER_TRAVERSE	Add a transom
+IDS_AJOUTER_TYPE_MARCHE	Add a new market type
+IDS_AJOUTVARIANTE	Add a variant
+IDS_ALIGNEMENTCROISILLONS	Align glazing bars
+IDS_ALIGNERAXESTRAVERSES	Align transoms
+IDS_ALIGNERCROISILLONSBAS	Align  glazing bars from bottom
+IDS_ALIGNERCROISILLONSDROITE	Align glazing bars from right
+IDS_ALIGNERCROISILLONSGAUCHE	Align glazing bars from left
+IDS_ALIGNERCROISILLONSHAUT	Align glazing bars from top
+IDS_ALIGNERCROISILLONSVANTAIL	Align the glazing bars from this leaf 
+IDS_ALVEOLES	Cells
+IDS_AM_PM	AM/PM
+IDS_AN	Year
+IDS_ANALYSE	Analysis
+IDS_ANCIENMOTPASSEINCORRECT	The old password is invalid
+IDS_ANCIENNE_COULEUR	Previous colour
+IDS_ANCIENNE_DATE_LIVRAISON	Delivery was planned initially on
+IDS_ANCIENSTOCK	Prev. stock
+IDS_ANCIEN_CODE	Former code
+IDS_ANCIEN_ETAT	Previous status
+IDS_ANCIEN_MOT_DE_PASSE	Previous password
+IDS_ANCIEN_NUMERO	Quotation ID
+IDS_ANCIEN_NUMERO_EXISTE	This order number already exist. Replace it?
+IDS_ANGLE	Angle
+IDS_ANGLES	Angles
+IDS_ANNEE	Year
+IDS_ANNEE_DEBUT	First year
+IDS_ANNULATIONENCODAGE	You are about to cancel what you have typed !\nDo you confirm?
+IDS_ANNULATIONETAT	Will you confirme this order again ?
+IDS_ANNULATION_PRIX_MEMORISES	Do you want to cancel the previously stored prices?
+IDS_ANSEPANIER	Basket handle
+IDS_ANSEPANIERDROITE	Right basket angle
+IDS_ANSEPANIERGAUCHE	Left basket angle
+IDS_AOUT	August
+IDS_AOUT_ABR	Aug
+IDS_APPLIQUE	Outside glass
+IDS_APPLIQUER	Apply
+IDS_APPLIQUER_MODE_PRIX_CLIENT	Use price method from customer record
+IDS_APPLIQUER_PRIX_NEGOCE	Apply selling price (if available)
+IDS_APPROBATION	Approve
+IDS_APPROBATION_CONFIRMATION	Approve confirmations
+IDS_APPROBATION_CONFIRMATION2	Confirmation approved
+IDS_APPROBATION_DATE_QUI	Confirmed on #1# at #2# by #3#:
+IDS_APPROCHERTRAVERSE	Move the transom %.0f mm  closer
+IDS_APRES_MIDI	Afternoon
+IDS_APRES_POSE	After installation
+IDS_ARCHIVAGE	Archive
+IDS_ARCHIVAGE_COMMANDES	Orders archiving
+IDS_ARCHIVAGE_DATE	Archive on invoice date
+IDS_ARCHIVAGE_DC	Archive orders and quotations
+IDS_ARCHIVAGE_DC_SUPP	Delete orders and quotations
+IDS_ARCHIVAGE_HISTORIQUE_PALETTES	Racks history archiving
+IDS_ARCHIVE	Archive
+IDS_ARCHIVER_COMMANDES_FACTUREES	Archive orders invoiced until
+IDS_ARCHIVE_EXISTE_DEJA	An archive already exists for order #1#. Overwrite it with a new version?
+IDS_ARCHIVE_SPEC	Archives (*.WPA)|
+IDS_ARGUMENTINCORRECT	Incorrect parameter
+IDS_ARRETER	Stop
+IDS_ARRONDI	Round
+IDS_ARRONDIR_10_CM	Round up to 10 cm
+IDS_ARRONDIR_DIMENSIONS	Round up dimensions
+IDS_ARRONDIR_TOTAL_LIGNE	Round up price for each line
+IDS_ARTICLE	Article
+IDS_ARTICLEAENLEVER	Articles to remove
+IDS_ARTICLECOIN	Corner article
+IDS_ARTICLEINEXISTANT	Article %s does not exist
+IDS_ARTICLES	Articles
+IDS_ARTICLESCADRE	Articles for the frame
+IDS_ARTICLESCOINS	Article for the angles
+IDS_ARTICLESTOCK	Stock article
+IDS_ARTICLES_DELAI	Delay articles
+IDS_ARTICLES_ET_PROFILS	Articles and profiles
+IDS_ARTICLE_1	Article 1
+IDS_ARTICLE_2	Article 2
+IDS_ARTICLE_A_TRADUIRE	Translate articles
+IDS_ARTICLE_COMPOSE	Composed article
+IDS_ARTICLE_DE	Article from
+IDS_ARTICLE_FOURNISSEUR	Supplier's reference
+IDS_ARTICLE_NOTNOW_FOURNISSEUR	Nothing to order from this supplier at the moment !
+IDS_ARTICLE_NO_FOURNISSEUR	No known article for this supplier
+IDS_ARTICLE_PROMOTIONNEL	Promotional article
+IDS_ARTICLE_VERROUILLE_AILLEURS	Article '%s' is locked by another user.
+IDS_ASPECT_VIDE	Bitmap for the empty area
+IDS_ASSEMBLAGE	Connection
+IDS_ASSEMBLAGECOIN	Corner assembly
+IDS_ASSEMBLAGEPORTE	Door corner assembly
+IDS_ASSEMBLAGES_2_COTES	Transoms on both sides
+IDS_ASSEMBLAGE_1_COTE	Transoms on 1 side only
+IDS_ASSEMBLAGE_ATTIQUES	Frame connection beside a door
+IDS_ASSEMBLAGE_BOUT	End connection
+IDS_ASSEMBLAGE_CADRES	Frame connection type
+IDS_ASSEMBLAGE_CHASSIS	Window set
+IDS_ASSEMBLAGE_CROIX	Cross connection
+IDS_ASSEMBL_ANGLES	Corner connection
+IDS_ASSISTANTS_COMMERCIAUX	Sales assistants
+IDS_ASSISTANT_COMMERCIAL	Sales assistant
+IDS_ASSURANCE	Insurance
+IDS_ASSURANCE_%	Insurance (%)
+IDS_ATELIER	Factory
+IDS_AU	To
+IDS_AUCUN	None
+IDS_AUCUNCHASSIS	No window.
+IDS_AUCUNECOMMANDE	No order
+IDS_AUCUNECOMMANDEAFACTURER	There is no order to invoice
+IDS_AUCUNECOMMANDESEL	No order selected
+IDS_AUCUNEOCCURRENCE	No occurrence of %s has been found
+IDS_AUGMENTATION_PA_ET_PR	Increase buying and cost prices
+IDS_AUGMENTER_PA	Increase buying prices
+IDS_AUTOMATIQUE	Automatic
+IDS_AUTORISER_BICOLORE	Accept 2 colours
+IDS_AUTORISER_DIM_BATTEE_ENUMEREES	Allow only for masonry extensions listed below
+IDS_AUTORISER_SAISIE_COTES_TABLEAU	Allow to input masonry dimensions
+IDS_AUTORISER_SAISIE_DIMENSIONS_FABRICATION	Allow to input build dimensions
+IDS_AUTORISER_TOUTES_COULEURS	Accept all colours
+IDS_AUTORISER_USINAGE_POSITION_0	Allow milling at position 0
+IDS_AUTRE	Other
+IDS_AUTRES_FOURNISSEURS	Other Suppliers
+IDS_AUTRES_INFORMATIONS	Other informations
+IDS_AUTRES_PAGES	Other pages
+IDS_AVALISATION	Financial approval
+IDS_AVALISATION_FINANCIERE	Financial authorization
+IDS_AVALISER	Authorize
+IDS_AVANT_POSE	Before installation
+IDS_AVECTVA	With VAT
+IDS_AVERIF	Not checked
+IDS_AVERTISSEMENT	Warning
+IDS_AVERTISSEMENT1_AJOUT_COULEUR	This dialog allows you to add a new colour in WinPro. First save the new colour in the colour table. Then select in this display the closest matching existing colour. WinPro will duplicate each usage of the old colour with the new one in the formulas.
+IDS_AVERTISSEMENT2_AJOUT_COULEUR	If this colour already exists do not use this dialog. Use instead the menu: "Tools | Change a record's code"
+IDS_AVERTISSEMENT_CHANGEMENT_CODE	WARNING:\nThis function changes the code of a record everywere it is used. It is strongly recommended to:\n\n1. make sure no one else is working with WinPro's data at the time you change the code\n\n2. make a backup of WinPro's data\n\n3. after the procedure ends, check the data you have changed.\n\nREMARK:\nBoth the previous and the new code have to exist in the corresponding table.
+IDS_AVERTISSEMENT_NUMERO_FACTURE	The invoice number displayed above is given for information only. Another number might be assigned to the invoice if another workstation prints one or more invoices while this dialog is displayed.\nThis has been designed to guarantee that each invoice number is unique.
+IDS_AVERTISSEMENT_NUMERO_NE	The delivery number displayed above is given for information only. Another number might be assigned to the delivery document if another workstation prints one or more delivery documents while this dialog is displayed.\nThis has been designed to guarantee that each delivery number is unique.
+IDS_AVOIR	Credit note
+IDS_AVRIL	April
+IDS_AVRIL_ABR	Apr
+IDS_AXES_OUVRANT	Axis between leaves
+IDS_AXE_1	Axis 1/2
+IDS_AXE_2	Axis 2/3
+IDS_AXE_3	Axis 3/4
+IDS_AXE_4	Axis 4/5
+IDS_AXE_5	Axis 5/6
+IDS_AXE_6	Axis 6/7
+IDS_AXE_CROISILLONS_HORIZONTAUX	Horizontal axis
+IDS_AXE_CROISILLONS_VERTICAUX	Vertical axis
+IDS_A_DROITE	right
+IDS_A_GAUCHE	left
+IDS_A_LAQUER	To varnish
+IDS_A_OPTIMISER	To optimize
+IDS_A_PARTIR_BORD_DORMANT	Axis from outer frame
+IDS_A_PROPOS_DE_WINPRO	About WinPro...
+IDS_A_TRADUIRE	To translate
+IDS_A_TRANSFERER	To transfer
+IDS_BADPWD	Bad password
+IDS_BALANCE_CLIENT	Customer financial position
+IDS_BALANCE_DU_CLIENT	Financial position of customer #1# - Authorized amount: #2#
+IDS_BARRETTE	Isolator
+IDS_BARRETTE_1	Insulator 1
+IDS_BARRETTE_2	Insulator 2
+IDS_BARRETTE_3	Insulator 3
+IDS_BARRETTE_4	Insulator 4
+IDS_BAS	Bottom
+IDS_BAS_SEULEMENT	At bottom
+IDS_BATTEE	Rebate
+IDS_BATTEEBAS	Bottom rebate
+IDS_BATTEES_PREDEFINIES	Predefined masonry extensions
+IDS_BATTEE_DEFAUT	By default
+IDS_BATTEE_MACONNERIE	Masonry depth
+IDS_BATTEMENT_FIXE	Fixed gap between leaves
+IDS_BIBLIOTHEQUE	Library
+IDS_BIBLIOTHEQUE_SELECTION_RAPIDE	Library: quick selection
+IDS_BIBLIO_RAPIDE	Quick library [F9]
+IDS_BICOLORE	Bicolour
+IDS_BL	Deliv.
+IDS_BLEU	Blue
+IDS_BN_BIBLIOTHEQUE	Library [F8]
+IDS_BOIS	Timber
+IDS_BONCOMMANDE	Order form
+IDS_BONMESURAGE	Final measurement
+IDS_BONUS_FIN_ANNEE	End of year bonus
+IDS_BON_COMMANDE_CLIENT	Customer order form
+IDS_BON_COMMANDE_FOURNISSEUR	Supplier order form
+IDS_BON_QUINCAILLERIE	Fitting supply order
+IDS_BORDEREAUX_LIVRAISON	Delivery forms
+IDS_BORDEREAU_PANNEAUX	Panel list
+IDS_BORDEREAU_PREPARATION_LIVRAISON	Delivery preparation forms
+IDS_BOUT	End
+IDS_BOUT_CHUTE	Loss/wst
+IDS_BULLSEYE_SINGLE_VENT_ONLY	Bull's eye : single leaf only
+IDS_BY_DISK	By disk
+IDS_BY_EMAIL	By e-mail
+IDS_CA	T.O.
+IDS_CACHEE	Hidden
+IDS_CACHER_LIGNES_NON_SELECT	Hide unselected lines
+IDS_CACHER_USINAGES	Hide millings
+IDS_CADRE	Frame
+IDS_CADRES	Frames
+IDS_CADRESANSNOM	This frame has no name
+IDS_CAISSON	Box
+IDS_CAISSONS	Boxes
+IDS_CAISSON_EXTERIEUR	Shutter box
+IDS_CAISSON_HORS_TARIF	Box has no price
+IDS_CAISSON_INTEGRE_DORMANT	Inserted shutter
+IDS_CALCUL	Compute
+IDS_CALCUL>	Compute >
+IDS_CALCULER	Compute
+IDS_CALCULER_DEBOURSE	Selling price is the sum of actual components
+IDS_CALCULOPTIMISATION	Optimizing
+IDS_CALCULRESERVATION	Compute stock reservations
+IDS_CALCUL_EN_COURS	Computing !!!
+IDS_CALCUL_PRIX_COURANT	On current prices
+IDS_CALCUL_PRIX_TARIF	Update price lists
+IDS_CALENDRIER	Calendar
+IDS_CANCEL	Cancel
+IDS_CANNOTFIND	Cannot find "%s".
+IDS_CANTDELETE	Unable to delete due to references to this record
+IDS_CAPACITE	Capacity
+IDS_CAPACITE_STANDARD	Std. capacity
+IDS_CAPITAL_LIBERE	Free capital
+IDS_CASIER	Box
+IDS_CASIERS	Boxes
+IDS_CASIERS_DE_STOCK	Stock boxes
+IDS_CASIERS_DORMANT	Frame boxes
+IDS_CASIERS_OUVRANT	Leaf boxes
+IDS_CASIERS_VOLET	Shutter boxes
+IDS_CASIER_DECOUPE	Cut part box
+IDS_CASIER_DORMANT	Frame box
+IDS_CASIER_LIVRAISON	Delivery box
+IDS_CASIER_OUVRANT	Leaf box
+IDS_CASIER_STOCK	Stock box
+IDS_CASIER_VOLET	Shutter box
+IDS_CATEGORIE	Category
+IDS_CATEGORIE(1-99)	Category (1-99)
+IDS_CATEGORIEARTICLE	Article categories
+IDS_CATEGORIECLIENT	Customer category
+IDS_CATEGORIESARTICLES	Article categories
+IDS_CATEGORIESCLIENTS	Customer categories
+IDS_CATEGORIE_CASIER	Box category
+IDS_CATEGORIE_MO	Labour category
+IDS_CATEGORIE_USINAGE	Milling category
+IDS_CATEG_VITRAGE	Glass category
+IDS_CDE	Order. nr
+IDS_CDEMIN	Min order
+IDS_CDEPASVALIDEE	Order has not been validated
+IDS_CDE_FABRICANT	Order to maker
+IDS_CDE_VITRAGES	Glass order
+IDS_CENTRAGEOUVRANTS	Asymetric leaves
+IDS_CENTRE	Center
+IDS_CH	Fr.
+IDS_CHA	Win.
+IDS_CHAMBRE_BAS	Bottom chamber
+IDS_CHAMBRE_HAUT	Top chamber
+IDS_CHAMBRE_INCOMPATIBLE	The profile chambers can't be matched!
+IDS_CHAMBRE_OU_TYPE_CLAME	Chamber (or clamp type)
+IDS_CHANGEMENTMOTPASSE	Change password
+IDS_CHANGEMENT_ETAT_CHASSIS_COMMANDE	Change order's windows status
+IDS_CHANGEMENT_ETAT_COMMANDE	Change order status
+IDS_CHANGEMENT_FORME_CADRE	Modify shape of frames
+IDS_CHANGERNUMERO	Change the number 
+IDS_CHANGER_CODE_ENREGISTREMENT	Change a record's key
+IDS_CHANGER_MOT_DE_PASSE	Change the password
+IDS_CHANGER_NUMERO	Change number
+IDS_CHANTIER	Job
+IDS_CHANTIERS	Jobs
+IDS_CHANTIER_ACTIF	This job is used in order #1#. Deletion canceled.
+IDS_CHANTIER_EXISTE_DEJA	This job already exists!
+IDS_CHARGE	Load
+IDS_CHARGEES	Loaded
+IDS_CHARGEMAXI	Maximum load
+IDS_CHARGEMENT	Load
+IDS_CHARGEMENT_PALETTES	Racks loading
+IDS_CHARGER	Load
+IDS_CHARGER_LISTE	Load list
+IDS_CHASSIS	Window
+IDS_CHASSISNO	Window nr
+IDS_CHASSISNONREALISABLE	This window cannot be built
+IDS_CHASSIS_ET/OU_VOLET	Window and/or shutter
+IDS_CHASSIS_INACCESSIBLE	Window #1# of order #2# cannot be accessed
+IDS_CHASSIS_NON_RECTANGULAIRES	Non rectangular windows
+IDS_CHASSIS_PLURIEL	Windows
+IDS_CHASSIS_RECTANGULAIRES	Rectangular windows
+IDS_CHASSIS_VIDE	Void window
+IDS_CHASS_VOL	Win+RSh
+IDS_CHAUFFEUR	Driver
+IDS_CHIFFRE_AFFAIRE	Turnover
+IDS_CHIFFRE_AFFAIRE_TOTAL	Global turn over
+IDS_CHILDCREATEFAIL	Error creating child window %s
+IDS_CHILDREGISTERFAIL	Error registering child class %s
+IDS_CHOISISSEZ_INCIDENT	Select an incident type
+IDS_CHOIXSCIES	Saw selection
+IDS_CHOIXTEXTE	Text selection
+IDS_CHOIX_ARTICLE	Select an article
+IDS_CHOIX_GROUPE_COULEURS	Select a colour group
+IDS_CHOIX_MAGASIN	Store selection
+IDS_CHOIX_PROFILS_DORMANT	Frame profiles selection
+IDS_CHOIX_SCIES	Saw selection
+IDS_CHUTE	Waste
+IDS_CHUTES	Wastes
+IDS_CHUTESRAL	RAL wastes
+IDS_CHUTES_A_JETER:MAXIMUM	Throw if below
+IDS_CHUTES_A_STOCKER:MINIMUM	Keep if above
+IDS_CHUTE_A_JETER_MAXIMUM	Max waste length to throw
+IDS_CHUTE_A_STOCKER_MINIMUM	Min waste length to store
+IDS_CHUTE_CHUTE	Waste/waste
+IDS_CH_ACCESS_CONTROL	Accessories to control in production
+IDS_CH_NON_RECT	Non rectangular
+IDS_CH_OPTIM_CHASSIS	Window optimized
+IDS_CH_OPTIM_COMPLET	Optimized
+IDS_CH_OPTIM_VOLET	Shutter optimized
+IDS_CH_POSE	Window installed
+IDS_CH_TERMINE	Finished window
+IDS_CH_VOLET_CONTROL	Shutter must be controlled
+IDS_CINTRE	Bow
+IDS_CINTREDROITE	Right bow
+IDS_CINTREGAUCHE	Left bow
+IDS_CLASSE	Class
+IDS_CLETRI	Sort key
+IDS_CLE_DEMANDEE	The requested key (#1#) does not match the found key (#2#)
+IDS_CLIENT	Customer
+IDS_CLIENTS	Customers
+IDS_CLIENT_DE	Customer from
+IDS_CLIENT_EXISTE_DEJA	This customer code already exists.
+IDS_CLIENT_FACTURATION	Invoiced customer
+IDS_CLIENT_LIVRAISON	Delivery customer
+IDS_CLIFOU	Cust/suppl
+IDS_CLOTURER	Close
+IDS_CLR_EXTER	Out.Clr
+IDS_CLR_INTER	Inner Clr
+IDS_CODE	Code
+IDS_CODE+COURS	Code + rate
+IDS_CODE+DESCRIPTION	Code + description
+IDS_CODE/QTE	Code / qty
+IDS_CODEARTICLE	Article code
+IDS_CODEBARRE	Barcode
+IDS_CODECOULISSEMANQUANT	Missing conductor code
+IDS_CODEEAN	EAN code
+IDS_CODELOG	Logistic code
+IDS_CODEPAIEMENT	Payment code
+IDS_CODEPOSTAL	Postal code
+IDS_CODEVITRAGEINEXISTANT	Glazing code does not exist
+IDS_CODEVITRE	Glazing code
+IDS_CODE_ACCES	Access code
+IDS_CODE_ARTICLE_FOURNISSEUR	Supplier's article code
+IDS_CODE_BARRE	Barcode
+IDS_CODE_CLIENT	Customer ID
+IDS_CODE_CLIENT_FOURNISSEUR	Customer code for #1#
+IDS_CODE_CLIENT_INCORRECT	Incorrect customer code !
+IDS_CODE_COMPTABLE	Accounting code
+IDS_CODE_CONCATENE	Composed code
+IDS_CODE_DE	Code from
+IDS_CODE_DXF	DXF code
+IDS_CODE_FOURNISSEUR	Supplier code
+IDS_CODE_LOGIST	Logist. code
+IDS_CODE_LOGISTIQUE	Logistic code
+IDS_CODE_LOT	Job code
+IDS_CODE_NACE	NACE Code
+IDS_CODE_NO_EXIST	Code does not exist
+IDS_CODE_POSITIONNEMENT	Position code
+IDS_CODE_POSTAL	Postal code
+IDS_CODE_PROSPECT	Prospect ID
+IDS_CODE_REHAUSSE_INEXISTANT	This peripheral profile code (#1#) does not exist 
+IDS_CODE_TARIF	Price level
+IDS_CODE_TVA	VAT code
+IDS_CODE_VITRAGE_DEPASSEMENT_DIMENSION	Glass to use if incompatible dimension
+IDS_COEFF	Coeff.%
+IDS_COEFFICIENT	Coefficient
+IDS_COEFFICIENTS_PRIX	Price coefficients
+IDS_COEFFICIENT_CESSION	Cession coefficient
+IDS_COEFFICIENT_FRAIS	Cost coefficient
+IDS_COEFFICIENT_MARGE	Extra margin
+IDS_COEFFICIENT_MULTIPLICATEUR	Multiplying coefficient
+IDS_COEFFICIENT_PRIX	Price coefficient
+IDS_COEFFICIENT_VENTE	Sales coefficient
+IDS_COEFFRAIS	Cost coeff.
+IDS_COEFF_PERTE	Loss coeff.
+IDS_COEFF_PONDERATION	Pond. coeff.
+IDS_COIN_PARCLOSE	Glazing beads corners
+IDS_COLIS	Type of packing
+IDS_COLISPREPARE	Prepared packing
+IDS_COLONNE_CONDITIONNEMENT_SEPAREE	Separate column for packaging
+IDS_COMMANDE	Order
+IDS_COMMANDEDEJAPASSEE	A supplier order has already been created with number #1# 
+IDS_COMMANDEENREGISTREE	1 order was written with number %ld . Please go to the order window to handle it.
+IDS_COMMANDEFOURNISSEUR	Supplier order
+IDS_COMMANDENO	Order nr
+IDS_COMMANDER	Ordered
+IDS_COMMANDER_INDIVIDUELLEMENT	Order separately
+IDS_COMMANDER_SANS_COULEUR	No colour on supplier orders
+IDS_COMMANDER_SUR_MESURE	Order on measure
+IDS_COMMANDES	Orders
+IDS_COMMANDESDEJAPASSEES	Supplier orders have already been created with numbers #1# to #2# 
+IDS_COMMANDESENREGISTREES	%d orders were written with numbers %ld to %ld . Please go to the order window to handle them.
+IDS_COMMANDESTERMINEES	Finished orders
+IDS_COMMANDES_ACCESSOIRES	Accessories order
+IDS_COMMANDES_AVEC_DATE_LIVRAISON	Orders with a delivery date
+IDS_COMMANDES_CLIENT	Customer order
+IDS_COMMANDES_CONFIRMEES	Confirmed orders
+IDS_COMMANDES_FOURNISSEURS	Supplier orders
+IDS_COMMANDES_NON_APPROUVEES	Unapproved orders
+IDS_COMMANDES_SUPPRIMEES	Deleted orders
+IDS_COMMANDEVITRAGE	Glass order
+IDS_COMMANDE_A_VERIFIER	Order must be checked
+IDS_COMMANDE_DEJA_EXPORTEE	This order has already been exported
+IDS_COMMANDE_INACCESSIBLE	Order #1# cannot be found
+IDS_COMMANDE_INEXISTANTE	Order does not exist
+IDS_COMMANDE_INITIALE	Original order
+IDS_COMMANDE_LIVRAISON	Supply and delivery
+IDS_COMMANDE_MNT	Total amount of orders
+IDS_COMMANDE_NBR	Order count
+IDS_COMMANDE_NBR_CHA	Nbr of windows in orders
+IDS_COMMANDE_NON_OPTIMISEE	Order not yet optimized
+IDS_COMMANDE_TERMINEE	Finished order
+IDS_COMMANDE_VERIFIEE	Order is checked
+IDS_COMMANDE_VITRAGES	Glass order
+IDS_COMMANDE_VITRAGE_PAR_LOT	Glass order by job
+IDS_COMMENTAIRE	Comment
+IDS_COMMENTAIRE_ATELIER	Factory text
+IDS_COMMENTAIRE_CLIENT	Customer text
+IDS_COMMENTAIRE_FACULTATIF	Optional comment
+IDS_COMMENTAIRE_PAS_IMPRIME	Remarks (not printed)
+IDS_COMMERCIAL	Commercial
+IDS_COMMFOU_PAR_FOURNIS	Orders sorted by supplier
+IDS_COMMFOU_PAR_NUM	Orders sorted by number
+IDS_COMPACTER_LOT	Pack all jobs?
+IDS_COMPETENCE	Level
+IDS_COMPETENCE_TECHNIQUE	Technical knowledge
+IDS_COMPONENTSTOPACKAGE	List of components to pack
+IDS_COMPOSANT	Component
+IDS_COMPOSANTS	Components
+IDS_COMPOSITION	Order contents
+IDS_COMPRESSER	Compress the export file ?\n(uncompressed size: %.2f Kb)
+IDS_COMPRIS	Included
+IDS_COMPRIS_DANS_HAUTEUR	Box included in height
+IDS_COMPTABILITE	Accounting
+IDS_COMPTAGEUNITES	Count units
+IDS_COMPTANT	Cash
+IDS_COMPTER_CHUTES_RAL	Add up RAL waste
+IDS_COMPTEURS	Counters
+IDS_COMPTEUR_DETAIL	Incorrect number of records in table TravDorm.dbf
+IDS_COMPTEUR_TRAVDORM	Incorrect number of records in table TravOuvr.dbf
+IDS_COMPTE_DORMANTS	There is(are) #1# frame(s) (max. #2#)
+IDS_COMPTE_OUVRANTS	There is(are) #3# leaves (max. #4#)
+IDS_CONCURRENTS	Competitors
+IDS_CONDIT	Pack.
+IDS_CONDITIONLIVRAISON	Delivery conditions
+IDS_CONDITIONNEMENT	Packaging
+IDS_CONDITIONNEMENT_ET_PA_BRUT_DEVISE	Packaging and buying price in quantity
+IDS_CONDITIONS	Conditions
+IDS_CONDITIONSTRANSPORT	Transport conditions
+IDS_CONDITIONS_PAIEMENT	Payment terms
+IDS_COND_TRANSP	Transp. cond.
+IDS_CONF.	Conf.
+IDS_CONFIMER_ACTION	Confirm
+IDS_CONFIRMATION	Confirmation
+IDS_CONFIRMATIONFOURNISSEUR	Supplier confirmation
+IDS_CONFIRMATION_A_MODIFIER	Confirmations to change
+IDS_CONFIRMATION_ENVOYEE	Confirmation sent
+IDS_CONFIRMER	Confirmed
+IDS_CONFIRMEROPERATION	Do you confirm this operation ?
+IDS_CONFIRMER_CREATION_LOTS	Please confirm the creation of these jobs:
+IDS_CONFIRMER_DEPLACEMENT_CHASSIS	Please confirm that you want to move this window.
+IDS_CONFIRMER_MOT_DE_PASSE	Confirm new password
+IDS_CONFIRMER_RECEPTION	Do you confirm this stock input?
+IDS_CONFIRMER_S_LOTS	Please confirm your selection of saws for all sub-jobs.
+IDS_CONFIRMFOURNISSEUR	Supplier confirmation
+IDS_CONSERVER_NUMERO	Keep number
+IDS_CONSOMMATION	Usage
+IDS_CONSOMMATIONSTOCK	Stock usage
+IDS_CONSOMMATIONS_OPTIMISATIONS	Article usage per job
+IDS_CONSOMMATION_MENSUELLE	Stock usage/month
+IDS_CONSOMMATION_POUR_COMMANDE	Bill of materials for the order
+IDS_CONSTITUTION_FICHIERS_MACHINES	Creating milling and cutting files
+IDS_CONSTITUTION_TRI_PRODUCTION	Production job ordering
+IDS_CONTACT	Contact
+IDS_CONTACTS	Contacts
+IDS_CONTACT_1	Contact 1
+IDS_CONTACT_2	Contact 2
+IDS_CONTACT_3	Contact 3
+IDS_CONTENU_LOTS	Jobs contents
+IDS_CONTINU	Continuous print
+IDS_CONTINUERMEMECODE	Continue with the same code?
+IDS_CONTROLE	Control
+IDS_CONTROLEENCOURS	Current production control
+IDS_CONTROLEPRIX	Price control
+IDS_CONTROLEPRIXACHAT	Buying price control
+IDS_CONTROLEPRIXREVIENT	Cost price control
+IDS_CONTROLEPRIXVENTE	Selling price control
+IDS_CONTROLEQUALITE	Quality control
+IDS_CONTROLER_SUR_CHAINE	Controlled on production line
+IDS_CONTROLE_CHAINE	Control current production
+IDS_CONTROLE_CHAINE_PRODUCTION	Control on production line
+IDS_CONTROLE_FIN_CHAINE	End of production line control
+IDS_CONTROLE_LIVRAISON	Delivery control
+IDS_CONTROLE_PRODUCTION	Production control
+IDS_CONTROLE_RENFORCE	Special control
+IDS_CONVERSION_EURO	Converting to €
+IDS_CONVERSION_TOTALE_EURO	Select 'Yes' to convert everything, 'No' to convert only cost prices
+IDS_COORDONNEES	Address
+IDS_COORDONNEES_SOCIETE	Company address
+IDS_COPIE>	Copy >
+IDS_COPIER_ADRESSE_PRINCIPALE	Copy from main address
+IDS_COPIES	copies
+IDS_COPY	Copy
+IDS_COPYING_DATABASE	Copying database
+IDS_CORPS	Body
+IDS_CORRECTION	Correction
+IDS_CORRECTIONS	Corrections
+IDS_CORRECTIONSTOCK	Stock correction
+IDS_CORRECTION_BAS	Bottom dimensions
+IDS_CORRECTION_DROITE	Right dimension
+IDS_CORRECTION_GAUCHE	Left dimensions
+IDS_CORRECTION_HAUT	Top dimensions
+IDS_CORRECTION_RECOUVREMENT_OUVRANT/DORMANT	Sash/outer frame overlap correction
+IDS_CORRECTION_SCIE_COUPE_45	Saw correction for 45° cut
+IDS_CORRECTION_TRAVERSE	Transom correction
+IDS_CORRESPONDANCE_RAL	RAL match
+IDS_CORRIGER_USINAGES_SI_ASSEMBLAGE_DROIT	Apply a correction for 90° assembling
+IDS_COTE	Side
+IDS_COTES	Dimensions
+IDS_COTES_BATTEE_AUTORISEES	Authorized masonry dimensions
+IDS_COTES_TABLEAU	Masonry dimensions
+IDS_COTE_AXE	Axis position
+IDS_COTE_BASDROIT	Bottom dimension
+IDS_COTE_HAUTGAUCHE	Top dimension
+IDS_COULEUR	Colour
+IDS_COULEURCOULISSEINEXISTANTE	This colour is not available for shutter rails
+IDS_COULEURINEXISTANTE	Profile %s does not exist in this colour
+IDS_COULEURNONDEFINIE	Profile %s is not available without a colour!
+IDS_COULEURPANNEAU_NONAUTORISEE	This panel colour is not available
+IDS_COULEURPROFILINEXISTANTE	Profile #1# is not available in colour #2#!
+IDS_COULEURS	Colours
+IDS_COULEURS_AUTORISEES	Allowed colours
+IDS_COULEURS_RAL_STANDARD	Standard RAL colours
+IDS_COULEURTABLIERINEXISTANTE	This shutter curtain colour is not available
+IDS_COULEUR_CAISSON	Box colour
+IDS_COULEUR_COULISSE	Rail colour
+IDS_COULEUR_CROISILLON_INTERDITE	This glazing bar colour is not available
+IDS_COULEUR_EXT	Outer colour
+IDS_COULEUR_EXTERIEURE	Outside colour
+IDS_COULEUR_FOND	Fill colour
+IDS_COULEUR_FOND_TITRE	Background colour for titles and totals
+IDS_COULEUR_INT	Inner colour
+IDS_COULEUR_INTERCALAIRE	Glass frame colour
+IDS_COULEUR_INTERIEURE	Inside colour
+IDS_COULEUR_OUVRANT	Sash colour
+IDS_COULEUR_QUINCAILLERIE	Fitting colour
+IDS_COULEUR_SAISIE	Colour shown on input
+IDS_COULEUR_SOUS_LAME	Bottom lath colour
+IDS_COULEUR_S_	Colour(s)
+IDS_COULEUR_TABLIER	Shutter colour
+IDS_COULEUR_TRAIT	Line colour
+IDS_COULISSE	Rail
+IDS_COULISSES	Rails
+IDS_COULISSES_CENTRALES	Central rails
+IDS_COULISSE_DOUBLE	Double rail
+IDS_COULISSE_DROITE	Right rail
+IDS_COULISSE_GAUCHE	Left rail
+IDS_COULISSE_HORS_TARIF	No price for the rails
+IDS_COUPEDROITE	Straight cut
+IDS_COUPES_IDENTIQUES	Identical cuts
+IDS_COUPE_A_CHAQUE_INTERSECTION	Cut at each intersection
+IDS_COUPE_DROITE	90° cut
+IDS_COUPE_PAR	Cut by
+IDS_COUPLEUR	Connector
+IDS_COUPLEURINEXISTANT	This connector code does not exist
+IDS_COUPLEUR_S_	Connector(s)
+IDS_COURANT	Current
+IDS_COURS	Rate
+IDS_COURS+CODE	Rate + code
+IDS_COUT	Cost
+IDS_COUTMO	Labour cost
+IDS_CREATION	Creation
+IDS_CREATIONCOLIS	Create packs ?
+IDS_CREATION_FICHIER	Creating file '%s.dbf'
+IDS_CREER_CLIENT	Create customer #1#  ?
+IDS_CREER_PROSPECT	Create prospect #1#?
+IDS_CRITERES	Selection
+IDS_CRITERES_SELECTION	Selection conditions
+IDS_CRITERES_TRI	Sorting order
+IDS_CROISILLON	Glazing bar
+IDS_CROISILLONS	Glazing bars
+IDS_CTRL_PRIX	Price control
+IDS_CUT	Cut
+IDS_ComboBox	Combo Box
+IDS_D(roite)	R
+IDS_DANS_COMMENTAIRES	In comments
+IDS_DANS_ECHECS	In 'Fail' instructions
+IDS_DANS_FORMULES	In formulas
+IDS_DANS_MESSAGES	In messages
+IDS_DANS_USINAGES	In millings
+IDS_DAPPROB	Appr.d.
+IDS_DATE	Date
+IDS_DATECDE	Order date
+IDS_DATECHARG	Load. date
+IDS_DATECOMMANDE	Order date
+IDS_DATECONFIRMEE	Confirmed date
+IDS_DATEDEMANDEE	Requested date
+IDS_DATEDEPASSEE	The limit date for testing has expired
+IDS_DATEFACTUREACOMPTE	Date of down payment invoice
+IDS_DATEINVENTAIRE	Inventory date
+IDS_DATELIVRAISON	Delivery date
+IDS_DATEPROD	Prod. date
+IDS_DATEPRODCALC	Sched. date
+IDS_DATES	Dates
+IDS_DATES_DE	Date from
+IDS_DATES_LIVRAISON_DU	Delivery date: from
+IDS_DATES_MISE_EN_FABRICATION_DU	Production dates: from
+IDS_DATE_10eme	th
+IDS_DATE_11eme	th
+IDS_DATE_12eme	th
+IDS_DATE_13eme	th
+IDS_DATE_14eme	th
+IDS_DATE_15eme	th
+IDS_DATE_16eme	th
+IDS_DATE_17eme	th
+IDS_DATE_18eme	th
+IDS_DATE_19eme	th
+IDS_DATE_1er	st
+IDS_DATE_20eme	th
+IDS_DATE_21eme	st
+IDS_DATE_22eme	nd
+IDS_DATE_23eme	rd
+IDS_DATE_24eme	th
+IDS_DATE_25eme	th
+IDS_DATE_26eme	th
+IDS_DATE_27eme	th
+IDS_DATE_28eme	th
+IDS_DATE_29eme	th
+IDS_DATE_2eme	nd
+IDS_DATE_30eme	th
+IDS_DATE_31eme	st
+IDS_DATE_3eme	rd
+IDS_DATE_4eme	th
+IDS_DATE_5eme	th
+IDS_DATE_6eme	th
+IDS_DATE_7eme	th
+IDS_DATE_8eme	th
+IDS_DATE_9eme	th
+IDS_DATE_AVANT_DATE_PRECEDENTE	The date of invoice is earlier than in the previous invoice!
+IDS_DATE_CREATION	Creation date
+IDS_DATE_DE	Date from
+IDS_DATE_DEPART	Starting date
+IDS_DATE_EXPEDITION	Sending date
+IDS_DATE_EXPIREE	User date expired.\nPlease contact your supplier.
+IDS_DATE_EXPIRE_AUJOURDHUI	User date expires today.\nPlease contact your supplier NOW !!!
+IDS_DATE_EXPIRE_DANS_N_JOURS	User date expires in #1# days.\nPlease contact your supplier as soon as possible.
+IDS_DATE_EXPIRE_DEMAIN	User date expires tomorrow.\n please contact your supplier NOW !!!
+IDS_DATE_FACTURE	Invoice date
+IDS_DATE_LANCEMENT	Launch date
+IDS_DATE_LIMITE	Valid until
+IDS_DATE_LIVRAISON_ACCEPTEE	Accepted delivery date
+IDS_DATE_LIVRAISON_DEMANDEE	Requested delivery date
+IDS_DATE_LIVRAISON_SUGGEREE	The new suggested delivery date is
+IDS_DATE_LIVRAISON_VITRAGES	Delivery date  for the glasses
+IDS_DATE_MISE_EN_FABRICATION	Production starting date
+IDS_DATE_MISE_EN_PRODUCTION_LOTS	Job production date
+IDS_DATE_MOUVEMENT	Transaction date
+IDS_DATE_OUT_OF_RANGE	This date must be between %s and %s!
+IDS_DATE_PRODUCTION	Production dates
+IDS_DATE_RAZ	Please input the date at which the stock is zeroed.
+IDS_DATE_RECEPTION	Date received
+IDS_DATE_REMISE_A_ZERO	Date of transaction
+IDS_DATE_SAISIE	Input date
+IDS_DATE_SORTIE	Output date
+IDS_DATE_TARIF	Date
+IDS_DBTU	---
+IDS_DBTU_DE	...
+IDS_DCDE	Ord.date
+IDS_DCONF	Conf. date
+IDS_DDEBUT	Start date
+IDS_DEADLINE	Deadline
+IDS_DEBIT_POUR_COMMANDE	Saw list for order
+IDS_DEBOURSE_PAR_DEFAUT	Use technical price by default
+IDS_DEBUG	Debug
+IDS_DEBUT	Start
+IDS_DEBUTCONFIRMATION	Head of confirmation
+IDS_DEBUTDEVIS	Head of quotation
+IDS_DEBUTFABR	Prod. start
+IDS_DEBUTFACTURE	Head of invoice
+IDS_DEBUTNE	Head of delivery
+IDS_DECALAGE_HORIZONTAL	Horizontal offset
+IDS_DECALAGE_TRANSVERSAL_VANTAIL	Thickness offset of leaf
+IDS_DECALAGE_USINAGE	Offset milling by
+IDS_DECALAGE_VERTICAL	Vertical offset
+IDS_DECALE	Offset by
+IDS_DECEMBRE	December
+IDS_DECEMBRE_ABR	Dec
+IDS_DECHARGEMENT	Unloading
+IDS_DECIMALES	Decimal places
+IDS_DEDUIRE	Deduce
+IDS_DEFINIR_CHARGEMENT	Define load area
+IDS_DEFINIR_NUMERO_LOT	Define job identifier
+IDS_DEGRES	degrees
+IDS_DEJACOMMANDE	This order already exists 
+IDS_DEJACOMMANDEAUTO	%d order(s) has(have) already been saved with numbers %ld to %ld. Do you want to go on ?
+IDS_DEJACOMMANDEFABRICANT	This order was already sent to the maker on #1#
+IDS_DEJARECU	Already received
+IDS_DELAI	Delay
+IDS_DELAILIBRE	No delivery delay constraint
+IDS_DELAILIVRAISON	Delivery delay
+IDS_DELAIS_SPECIAUX	Special delays
+IDS_DELAI_CLIENT	Customer delay
+IDS_DELAI_COURT	Short delay
+IDS_DELAI_PAIEMENT	Payment terms
+IDS_DELAI_SAV	AS delay
+IDS_DELAI_STD	Standard delay
+IDS_DELETE	Delete
+IDS_DELIVERY_NOTE_RECAP_TITLE	Summarized delivery
+IDS_DEMANDE_PRIX_VITRAGE	Glass quotation request
+IDS_DEMARRAGE_WINPRO	WinPro startup
+IDS_DEMARRE_A	Started on %s at %s
+IDS_DEMO	Demonstration version
+IDS_DEMOJUSQUE	This demonstration version is valid until #1#
+IDS_DENV	Sent d.
+IDS_DEPART_USINE	Factory out
+IDS_DEPLACEMENT_HORIZONTAL	Horizontal alignment
+IDS_DEPLACEMENT_VERTICAL	Vertical Alignment
+IDS_DEPOT_PALETTES	Racks delivery
+IDS_DEPUIS_LE	From
+IDS_DEPUIS_PLUS_DE	For more than
+IDS_DERNIEREETIQUETTE	Last label #
+IDS_DERNIER_PRIX_REVIENT	Latest cost price
+IDS_DESACTIVE	Disabled
+IDS_DESCRFOURN	Suppl. descr.
+IDS_DESCRIPTIFS	Descriptions
+IDS_DESCRIPTION	Description
+IDS_DESCRIPTION+CODE	Description + code
+IDS_DESCRIPTIONARTICLE	Article description
+IDS_DESCRIPTION_CONCATENEE	Composed description
+IDS_DESSIN	Drawing
+IDS_DESSINAENLEVER	Drawings to remove
+IDS_DESSINER_CHASSIS_VOLETS	Draw windows and roller shutters
+IDS_DESSINS	Drawings
+IDS_DESSIN_DXF_HORIZONTAL	Horizontal DXF drawing
+IDS_DESSIN_DXF_VERTICAL	Vertical DXF drawing
+IDS_DESSIN_EXTERIEUR	Outside drawing
+IDS_DESSIN_INTERIEUR	Inside drawing
+IDS_DESSIN_MACONNERIE	Masonry sketch
+IDS_DESTINATION	Destination
+IDS_DESTOCKAGE_CASIERS	Retrieval from stock boxes
+IDS_DETAIL	Detail
+IDS_DETAIL_COMMANDE_SELECTIONNEE	Details of the selected order
+IDS_DETAIL_LOTS	Jobs details
+IDS_DETAIL_PRIX_ACCESSOIRES	Price of accessories
+IDS_DEV	Curr
+IDS_DEVIS	Quotation
+IDS_DEVISE	Currency
+IDS_DEVISES	Currencies
+IDS_DEVISEUR	Estimator
+IDS_DEVISE_ACHAT	Currency for buying
+IDS_DEVISPROSPECT	This quotation is assigned to a prospect. Assign it to a customer before converting it to an order.
+IDS_DEVIS_A_CONFIRMER	Quotations to be confirmed
+IDS_DEVIS_DETAILLE	Detailed quotation
+IDS_DEVIS_MNT	Quotations total amount
+IDS_DEVIS_NBR	Number of quotations
+IDS_DEVIS_NBR_CHA	Number of window in quotations
+IDS_DEVIS_SIMPLIFIE	Simplified quotation
+IDS_DEVIS_SIMPLIFIE_SANS_COTE	Simpl.quot., no dimensions
+IDS_DFACT	Invoic.D
+IDS_DFIN	End date
+IDS_DIAMETRE	Diameter
+IDS_DIM	Dim
+IDS_DIMANCHE	Sunday
+IDS_DIMANCHE_ABR	Sun
+IDS_DIMENSION	Dimension
+IDS_DIMENSIONHORSTOUT	Total dimensions
+IDS_DIMENSIONS	Dimensions
+IDS_DIMENSIONS_ETIQUETTES	Label size
+IDS_DIMENSIONS_EXTERIEUR_OUVRANT	Total sash dimensions
+IDS_DIMENSIONS_MAXIMUM	Maximum dimensions
+IDS_DIMENSIONS_MAXIMUM_MINIMUM	Maximum and minimum dimensions
+IDS_DIMENSION_EXACTE	Exact dimension
+IDS_DIMENSION_EXACTE_VITRAGE	Exact glass dimensions
+IDS_DIMENSION_EXTERIEUR_OUVRANT	Fittings: on sash frame dimensions
+IDS_DIMENSION_MAXIMUM	Max dimension
+IDS_DIMENSION_MINIMUM	Min dimension
+IDS_DIMFABRICATION	Production dim
+IDS_DIMTABLEAU	Masonry dim.
+IDS_DIM_FABR	Prod.
+IDS_DIM_TABL	Masonry
+IDS_DIRECTEUR	Manager
+IDS_DISPONIBILITE	Availability
+IDS_DISPONIBLE	Available
+IDS_DISPOSITION	Layout
+IDS_DISTANCE	Distance
+IDS_DISTRIBUTION_COMMANDE	Orders distribution
+IDS_DIVERS	Miscellaneous
+IDS_DLIVR	Deliv. d.
+IDS_DLL_COMPTA	Accounting module
+IDS_DOC	Doc.
+IDS_DOCCLI	Cu.d.
+IDS_DOCUMENT	Document
+IDS_DOCUMENTS	Documents
+IDS_DOCUMENTS_ANNEXE_OPTIMISATION	Optimization documents
+IDS_DOCUMENTS_CLIENT	Customer documents
+IDS_DONNEES_ET_STAT.	Data and statistics
+IDS_DONNEUR_ORDRE	Ordered by
+IDS_DORMANT	Outer frame
+IDS_DORMANTS	Outer frames
+IDS_DORMANT_HORS_TARIF	No price for this outer frame
+IDS_DORMANT_SANS_BATTEE	Frame without reveal
+IDS_DPROD	Prod.date
+IDS_DROIT	Straight
+IDS_DROITE	Right
+IDS_DROITS	Rights
+IDS_DROITS_BASE_REGISTRE	You do not have sufficient access rights. The program will stop.
+IDS_DROITS_LIMITES	Limited rights
+IDS_DSAIS	Inp.
+IDS_DU	From
+IDS_DUREE	Length
+IDS_DXF	DXF
+IDS_DXF 1	DXF 1
+IDS_DXF 2	DXF 2
+IDS_DXF_NON_NOMME	Unnamed DXF file.
+IDS_D_ACCORD	Agreed
+IDS_D_SORTIE	Exit date
+IDS_ECARTERTRAVERSE	Move the transom by %.0f mm away
+IDS_ECHEANCE	Term
+IDS_ECHELLE	Scale
+IDS_ECHELLE_1	Scale 1/
+IDS_ECHELLE_ECRAN_COUPE	Screen scale for cross section
+IDS_ECHELLE_IMPRIMANTE_COUPE	Printer scale for cross section
+IDS_ECHELLE_IMPRIMANTE_DESSIN	Printer scale for drawing
+IDS_ECRASERTEXTE	Overwrite current text?
+IDS_ECR_D_A_G	<--
+IDS_EDIT	Edit
+IDS_EGALISERHAUTEURVITRAGES	Make height of selected glasses equal
+IDS_EGALISERLARGEURVITRAGES	Make width of selected glasses equal
+IDS_ELEMENTS_APPLIQUES	Applied elements
+IDS_ELIMINER	Remove
+IDS_ELIMINER_CHUTES_SOUS_LOT	No waste on sub-jobs
+IDS_EMAIL	e-mail
+IDS_EMPLACEMENT	Store
+IDS_EMPLACEMENTS	Stores
+IDS_EMPLACEMENTSTOCK	Stock store
+IDS_EMPLACEMENT_A_DECREMENTER	Remove stock from store
+IDS_EMPLACEMENT_DANS_STOCK	Stock location
+IDS_ENCODAGE	Input
+IDS_ENCODAGE_BON_COMMANDE	Supplier order input mode
+IDS_ENCODAGE_COMMERCIAL	Commercial user
+IDS_ENCODAGE_GRILLES_PRIX	Input price tables
+IDS_ENCODAGE_GRILLE_VITRAGE	Input glazing price table
+IDS_ENCODAGE_PRIX	Bent sheets
+IDS_ENCODEPAR	Input by #1# 
+IDS_ENCODEUR	User
+IDS_ENCOURS	Financial position
+IDS_ENCOURSFABRICATIONSYSTEME	Production situation by system
+IDS_ENCOURS_AU	Situation of #1# on #2# at #3#
+IDS_ENCOURS_CHAINE	Current production
+IDS_ENCOURS_CLIENT	Situtation of customer #1#
+IDS_ENCOURS_CONFIRME	Confirmed orders
+IDS_ENCOURS_DATE	Production situtation by date
+IDS_ENCOURS_FACRICATION	Orders in production
+IDS_ENCOURS_FOURNISSEUR	Supplier orders
+IDS_ENCOURS_NON_CONFIRME	Unconfirmed orders
+IDS_ENCOURS_SYSTEME	Production situation by system
+IDS_ENLEVEMENT	Pick up
+IDS_ENREGISTRECOMMANDE	Save order ?
+IDS_ENREGISTRECONFIRM	Save confirmation ?
+IDS_ENREGISTRENOUVSTOCK	Save the new stock?
+IDS_ENREGISTREPROPCOMMANDE	(Re)save this order ?
+IDS_ENREGISTRER	Record
+IDS_ENREGISTRERMODIF	Save changes?
+IDS_ENREGISTRER_FACTURE	Accept invoice
+IDS_ENREGISTRER_LISTE_AVEC_LOT	Save a list with each job
+IDS_ENREGISTRER_MODIFICATIONS	Save changes
+IDS_ENREGISTRETRANSFERT	Save stock move
+IDS_ENROULEMENT	Roll diam.
+IDS_ENROULEMENTS	Rolled dimensions
+IDS_ENTETE	Header
+IDS_ENTETE_CFOU	Supplier order header
+IDS_ENTETE_FICHIER_CORROMPU	File header seems to be corrupted. Application is about to shut down.
+IDS_ENTRAXEBASHAUT	Bottom to top distance between centers
+IDS_ENTRAXEGAUCHEDROITE	Left to right distance between centers
+IDS_ENTREE	Incoming
+IDS_ENTREES	Incoming
+IDS_ENTREES_SORTIES	Incoming / Outcoming
+IDS_ENVOI_ARC	Confirmation sent more than 48h ago
+IDS_ENVOI_CONFIRMATION	Send confirmations
+IDS_ENVOI_USINES	Send to factories
+IDS_ENVOYER	Send
+IDS_EN_BAS	below
+IDS_EN_CASCADE	Cumulative
+IDS_EN_COTE_TABLEAU	Masonry dimension
+IDS_EN_HAUT	on top
+IDS_EN_HAUTEUR	vertically
+IDS_EN_LARGEUR	horizontally
+IDS_EN_REDRESSEMENT_OU_CONCORDAT	Being restructured
+IDS_EPAISSEUR	Thickness
+IDS_EPAISSEURAERATEURINCORRECTE	The thickness of the ventilator does not match the glass thickness
+IDS_EPAISSEUR_FOND_COULISSE	Rail's bottom thickness
+IDS_EPAISSEUR_LAMELLE	Blade thickness
+IDS_EPAISSEUR_MAXIMUM_INTERCALAIRE_VITRAGE	Maximum air thickness inside glazing
+IDS_EPAISSEUR_MINIMUM_INTERCALAIRE_VITRAGE	Minimum air thickness in glazing
+IDS_EPAISSEUR_TRAIT	Line thickness
+IDS_EQUIPE	Team
+IDS_EQUIPES_POSE	Installation teams
+IDS_ERASE_EXISTING_FILE	File #1# already exist. Overwrite it?
+IDS_ERREUR	Error
+IDS_ERREURCHARGEMENTMODULE	Error loading module %s.
+IDS_ERREURCLE	The dongle could not be detected
+IDS_ERREURDICTIONNAIRE	Error in data dictionnary
+IDS_ERREURINTERNE	Internal error
+IDS_ERREURPREPAOPTI	Error in the table of windows to optimize; please reindex the optimization tables.
+IDS_ERREURSURCOMMANDE	Computation error on order
+IDS_ERREURTSE	Error: cannot detect dongle (-10)
+IDS_ERREUR_ACCES	Access error on the order
+IDS_ERREUR_ASSEMBLAGE	Error with profile connection
+IDS_ERREUR_CALCUL_SUR_CHASSIS	Computation error on window %s
+IDS_ERREUR_CHASSIS	Error with window
+IDS_ERREUR_DORMANT	Error with frame
+IDS_ERREUR_IMPORT	Error: the imported file is dammaged. Cancel the import?
+IDS_ERREUR_OUVERTURE_FICHIER	Error opening file
+IDS_ERREUR_REHAUSSE	Mismatch in peripheral profiles
+IDS_ERREUR_SYSTEME_DORMANT	Error on outer frame: incompatible system
+IDS_ERREUR_SYSTEME_OUVRANT	Error on sash: incompatible system
+IDS_ERREUR_SYSTEME_QUINCAILLERIE	Error on fitting: incompatible system
+IDS_ERREUR_SYSTEME_TRAVERSE	Error on transom: incompatible system
+IDS_ERREUR_SYSTEME_VERROUILLAGE_ARTICLE	System error while locking article '%s'.
+IDS_ERRORFILEACCESS	File access error
+IDS_ERROR_LOADING_DLL	Error : cannot load module %s
+IDS_ERR_INTERPR_00	User abort
+IDS_ERR_INTERPR_01	End of file encountered during processing
+IDS_ERR_INTERPR_02	Divide by zero error
+IDS_ERR_INTERPR_03	'else if' out of sequence
+IDS_ERR_INTERPR_04	'end if' not found
+IDS_ERR_INTERPR_05	Instruction 'fail' has been executed
+IDS_ERR_INTERPR_06	Unknown instruction
+IDS_ERR_INTERPR_07	Invalid number format
+IDS_ERR_INTERPR_08	Invalid time format
+IDS_ERR_INTERPR_09	Missing right parenthesis
+IDS_ERR_INTERPR_10	Invalid operation
+IDS_ERR_INTERPR_11	Variable not found
+IDS_ERR_INTERPR_12	No argument for function
+IDS_ERR_INTERPR_13	Wrong number of arguments
+IDS_ERR_INTERPR_14	Invalid variable name
+IDS_ERR_INTERPR_15	Error while evaluating arithmetic expression
+IDS_ERR_INTERPR_16	No parenthesis in a function call
+IDS_ERR_INTERPR_17	Unterminated loop
+IDS_ERR_INTERPR_18	'exit loop' found outside a loop
+IDS_ERR_INTERPR_19	Infinite loop has been detected
+IDS_ERR_INTERPR_20	Operator expected
+IDS_ERR_INTERPR_21	Math overflow
+IDS_ERR_INTERPR_22	Arithmetic stack overflow
+IDS_ERR_INTERPR_23	Too many else statetments!
+IDS_ERR_INTERPR_24	Expression is too long!
+IDS_ERR_INTERPR_25	Too many parameters for function!
+IDS_ERR_INTERPR_26	'If' sequence is incorrect (too many else, else if or end if)
+IDS_ERR_INTERPR_27	No right operand in assignment
+IDS_ERR_INTERPR_28	Missing square bracket ']'
+IDS_ERR_INTERPR_29	Variable already exists
+IDS_ERR_INTERPR_30	Unknown procedure
+IDS_ERR_INTERPR_31	Wrong number of arguments
+IDS_ERR_INTERPR_32	Invalid argument
+IDS_ERR_INTERPR_33	Invalid bitmap file
+IDS_ERR_INTERPR_34	Path has not been defined
+IDS_ERR_INTERPR_35	Invalid parameter
+IDS_ERR_INTERPR_36	Function unsupported in this environment
+IDS_ESCOMPTE	Discount
+IDS_ESPACEMENT_VERTICAL_ETIQUETTES	Vertical space between labels
+IDS_ESSENCE	Timber
+IDS_ET	and
+IDS_ETAT	Status
+IDS_ETATAPPROBATIONCONFIRMATION	Approved confirmation
+IDS_ETATAVALISATIONFINANCIERE	Financial validation
+IDS_ETATCHASSIS	Window status
+IDS_ETATCLOTURE	Order closed
+IDS_ETATCOMMANDE	Order
+IDS_ETATCOMMANDEFOURNISSEUR	Supplier order
+IDS_ETATCOMMANDEVITRAGE	Glazing order
+IDS_ETATCONFIRMATIONMODIFIEE	Confirmation modified
+IDS_ETATEDITIONVERIFCONFIRMATION	Confirmation printed
+IDS_ETATENVOICONFIRMATION	Sent confirmation
+IDS_ETATFACTURATION	Invoiced
+IDS_ETATIMPRESSIONCONFIRMATIONMODIFIEE	Confirmation modified and reprinted
+IDS_ETATMISEENATTENTECONFIRMATION	Confirmation on hold 
+IDS_ETATMODIFICATIONCOMMANDE	Modified order
+IDS_ETATMODIFICATIONDATEFABRICATION	Production date modified
+IDS_ETATMODIFICATIONDATELIVRAISON	Delivery date modified
+IDS_ETATNOTEENVOI	Delivery note printed
+IDS_ETATOPTIMISATION	Optimized
+IDS_ETATOPTIMISATION_PARTIELLE	Partially optimized
+IDS_ETATPREPAOPTIMISATION	Ready for optimization
+IDS_ETATPREPARATIONLIVRAISON	Delivery preparation
+IDS_ETATPRODUCTION	In production
+IDS_ETATPRODUCTION_PARTIELLE	Partially in production
+IDS_ETATREACTIVATIONCONFIRMATION	Confirmation reactivated
+IDS_ETATRETOURCONFIRMATIONAMODIFIER	Confirmation must be modified
+IDS_ETATS	Order status
+IDS_ETATS_COMMANDES	Order status
+IDS_ETATVALIDATIONCONFIRMATIONMODIFIEE	Confirmation validated again
+IDS_ETATVALIDVERIFCONFIRMATION	Confirmation validated
+IDS_ETAT_DESCRIP	Status description
+IDS_ETAT_DES_CHASSIS	Production status
+IDS_ETIQDOSSIER	Folder labels
+IDS_ETIQUETTE	Label
+IDS_ETIQUETTES	Labels
+IDS_ETIQUETTES_RECEPTION	labels when receiving
+IDS_ETPAS	and not
+IDS_ET_DE	and from
+IDS_EXCLURE_MAIN_D_OEUVRE_PR	Exclude labour from cost price
+IDS_EXCLURE_MAIN_D_OEUVRE_PV	Exclure labour from selling price
+IDS_EXCLURE_PRIX_REVIENT	Exclude from cost price
+IDS_EXCLURE_PRIX_VENTE	Exclude from selling price
+IDS_EXCLURE_PR_REVIENT	Do not use for cost price
+IDS_EXCLURE_PR_VENTE	Do not use f. selling price
+IDS_EXCLURE_WINPRO/D	Exclude from WinPro/D
+IDS_EXISTEDEJA	The code '#1#' already exists
+IDS_EXPEDITEUR	Sender
+IDS_EXPORT	Export
+IDS_EXPORTATION	Export
+IDS_EXPORTATION_TECHNIQUE	Technical export
+IDS_EXPORTATION_TERMINEE	Table export completed
+IDS_EXPORTCOMMANDE	Export an order
+IDS_EXPORTER_HISTORIQUE	Export history?
+IDS_EXPORTER_LIENS_ATELIER	Export the links between this workplace and articles, messages and millings ?
+IDS_EXPORTER_OUVRANT	Export the sash to which this fitting is linked?
+IDS_EXPORTER_QUINC	Export fittings linked to this sash?
+IDS_EXPORT_OUVRANT	Sash export
+IDS_EXPORT_PALETTE	Rack export
+IDS_EXPORT_POSTE_ATELIER	Workplace export
+IDS_EXPORT_QUINC	Fitting export
+IDS_EXPORT_SPEC	Archives & exported file|
+IDS_EXPORT_SPEC2	Archives & exported files of the company|
+IDS_EXP_PLAN	Exp. Plan.
+IDS_EXTERIEUR	Outer
+IDS_EXTERIEUR_OUVRANT	Leaf dimension
+IDS_EXT_	out.
+IDS_FABRICATION	Production
+IDS_FABRICATIONTERMINEE	Production completed
+IDS_FABRICATION_CHASSIS	Windows production
+IDS_FACTURATION	Invoicing
+IDS_FACTURE	Invoice
+IDS_FACTUREMENSUELLE	Monthly invoice
+IDS_FACT_ECHUE-30	Due invoices  < 30 days
+IDS_FACT_ECHUE_+90	Due invoices > 90 days
+IDS_FACT_ECHUE_30_60	Due invoices 30 - 60 days
+IDS_FACT_ECHUE_60_90	Due invoices 60 - 90 days
+IDS_FACT_NON_ECHUE	Undue invoices
+IDS_FACT_PARTIELLE	Partial invoicing
+IDS_FAUXCINTRAGE	False arch
+IDS_FAUXCINTRAGES	False arches
+IDS_FAUXCINTRE_0	Standard shape
+IDS_FAUXCINTRE_1	Outer frame is rectangular externally
+IDS_FAUXCINTRE_2	Outer frame is fully rectangular; sashes are rectangular externally
+IDS_FAUXCINTRE_3	Outer frame is fully rectangular; sashes are rectangular externally; glass is rectangular
+IDS_FAUXCINTRE_4	Outer frame is squared out with a panel
+IDS_FAUXCINTRE_5	Window retains its shape; glass is covered to show a non rectangular shape
+IDS_FAX	Fax
+IDS_FERMER	Close
+IDS_FEVRIER	February
+IDS_FEVRIER_ABR	Feb
+IDS_FICHE_SIMPLIFIEE	Simplified
+IDS_FICHIER	File
+IDS_FICHIERCLIENTDEPLACE	This file has been renamed and moved as '#1#'
+IDS_FICHIERPOURFABRICANT	Is this file for the window maker?
+IDS_FICHIERS_MACHINES	Files for machines
+IDS_FICHIER_AIDE	Help file
+IDS_FICHIER_DBF	.DBF file
+IDS_FICHIER_EXPORT_EXISTE_DEJA	An exported file already exists for order #1# order. Replace it?
+IDS_FICHIER_IMAGE	Bitmap file
+IDS_FICHIER_INEXISTANT	File #1# cannot be found.
+IDS_FICHIER_INFORMATION_CLIENT_MODULE_DEVIS	Customers information file (WinPro/D)
+IDS_FICHIER_N_EXISTE_PAS	File does not exist
+IDS_FICHIER_PAS_CREE	File #1# could not been created
+IDS_FICHIER_VIDE	Empty file
+IDS_FILTRE	Filter
+IDS_FILTRES	Filters
+IDS_FIN	End
+IDS_FINANCES	Finance
+IDS_FINCHAINE	Store on racks after production
+IDS_FINCONFIRMATION	Confirmation foot note
+IDS_FINDEVIS	Quotation foot note
+IDS_FINFACTURE	Invoice foot note
+IDS_FINNE	Delivery foot note
+IDS_FIN_FABR	End prod.
+IDS_FIN_MOIS	End of month
+IDS_FIRST_OPTIM	First optimization
+IDS_FIXE	Fixed sash
+IDS_FIXE_SIMPLE_CADRE	Fixed sash
+IDS_FLASQUE_INTERIEUR	Box separators
+IDS_FLECHE	Arrow
+IDS_FONCTION	Function
+IDS_FOND_FEUILLURE_DORMANT	Outer frame rebate dimension
+IDS_FOND_FEUILLURE_OUVRANT	Leaf rebate dimension
+IDS_FONTE	Font
+IDS_FONTES	Fonts
+IDS_FONTE_POUR_DIMENSIONS	Font for dimensions
+IDS_FORCER_COUPE_SIMPLE	Force single rather than double cut
+IDS_FORCER_DATE	Set all dates
+IDS_FORCER_PA_COMMERCIAL	Force commercial buying price
+IDS_FORFAIT	Fixed price
+IDS_FORMATDATE	 - ds mmmm yyyy
+IDS_FORMATER	Format
+IDS_FORMAT_DATE	Date format
+IDS_FORME	Shape
+IDS_FORME_PAS_DE_BAS	This shape has no lower side
+IDS_FORME_PAS_DE_DROITE	This shape has no right side
+IDS_FORME_PAS_DE_GAUCHE	This shape has no left side
+IDS_FORME_PAS_DE_HAUT	This shape has no upper side
+IDS_FORME_PAS_DE_HAUT_DROITE	This shape has no top right side
+IDS_FORME_PAS_DE_HAUT_GAUCHE	This shape has no top left side
+IDS_FORME_VITRAGE_INCORRECTE	Shape of glass #1# is not correct
+IDS_FORMULE	Formula
+IDS_FORMULES	Formulas
+IDS_FORMULES_HORIZONTALES_BAS_PAGE	Horizontal formulas (page bottom)
+IDS_FORMULE_CALCUL_PV	Selling price formula (using X1, X2, P1, P2, and/or P3 variables)
+IDS_FORMULE_REMISE	Discount formula
+IDS_FORMULE_SPECIF	Specific formula 
+IDS_FORMULE_TARIF	List price formula
+IDS_FORMULE_VERTICALE_DROITE_PAGE	Vertical formula (right side of the page)
+IDS_FOURNISS	Supplier
+IDS_FOURNISSEUR	Supplier
+IDS_FOURNISSEURNUM	Supplier #
+IDS_FOURNISSEURPRINCIPAL	Main suppl.
+IDS_FOURNISSEURS	Suppliers
+IDS_FOURNISSEUR_NO_EXIST	This supplier does not exist
+IDS_FOURNISSEUR_PRINCIPAL	Main supplier
+IDS_FOURNISSEUR_VITRAGE	Glass supplier
+IDS_FRAIS	Costs
+IDS_FRAISLIVRAISON	Delivery cost
+IDS_FRAISPORT	Freight
+IDS_FRAIS_LIVRAISON_CHANTIER	Delivery to workplace
+IDS_FRANCO_PAS_ATTEINT	The free delivery amount (#1#) is not reached. Supplier : #2#
+IDS_FREQUENCE_LIVRAISON	Delivery frequency
+IDS_G(auche)	L
+IDS_GAMME	Family
+IDS_GARDENUMFACTURE	Do you want to retain the invoice date and its amount?
+IDS_GAUCHE	Left
+IDS_GAUCHE_DROITE	Left + Right
+IDS_GENERER	Generate
+IDS_GENERER_LOTS_SELECT	Create selected jobs
+IDS_GENERER_SERIE_DIMENSIONS	Generate list of dimensions
+IDS_GESTION_PRODUCTION	Production handling
+IDS_GRANDEHAUTEUR	Larger height
+IDS_GRANDEHAUTEURBAS	Bottom larger height
+IDS_GRATUIT_CLIENT	Unpaid sales
+IDS_GRATUIT_USINE	Unpaid production
+IDS_GRILLEPREVISIONSTOCK	Stock forecast, by week
+IDS_GRILLE_1_DIMENSION	1 dimension table
+IDS_GRILLE_2_DIMENSIONS	2 dimensions table
+IDS_GRILLE_PA_ARTICLE	Buying price table for article #1#
+IDS_GRILLE_PRIX	Price table
+IDS_GRILLE_PRIX_COURANT	Current price table
+IDS_GRILLE_PRIX_SUIVANT_DIMENSION	Use a price table
+IDS_GRILLE_PRIX_SUIVANT_SURFACE	Price table by surface
+IDS_GRILLE_PRIX_TARIF	List price table
+IDS_GRILLE_PR_COURANT_ARTICLE	Current price table for article #1#
+IDS_GRILLE_PR_TARIF_ARTICLE	Cost price table for article #1#
+IDS_GRILLE_PR_VITRAGE	Cost price table for glazing
+IDS_GRILLE_PV_ARTICLE	Selling price table for article #1#
+IDS_GRILLE_VITRAGES	Glass table
+IDS_GROUPER_COUPES	Group cuts
+IDS_GROUPES_USINAGES	Milling groups
+IDS_GROUPEUSINAGE	Milling set
+IDS_GROUPE_ACHAT	Buying group
+IDS_GROUPE_COULEUR	Group
+IDS_GROUPE_COULEURS	Colour groups
+IDS_GROUPE_PRODUIT	Product group
+IDS_GROUPE_REMISE	Discount group
+IDS_GRP_ACHAT	Buy.group
+IDS_H(aut)	T
+IDS_HAUT	Top
+IDS_HAUT.	Height
+IDS_HAUTDROITE	Top right
+IDS_HAUTEUR	Height
+IDS_HAUTEURCAISSONINSUFFISANTE	The box is too small
+IDS_HAUTEUREXTERIEUR	Outer height
+IDS_HAUTEUREXTERIEURBAS	Bottom outer height
+IDS_HAUTEURINTERIEUR	Inner height
+IDS_HAUTEURINTERIEURBAS	Bottom inner height
+IDS_HAUTEURS	Heigths
+IDS_HAUTEUR_CAISSON	Box height
+IDS_HAUTEUR_CONSTRUCTION	Building height
+IDS_HAUTEUR_DE	Height from
+IDS_HAUTEUR_FACE_PARCLOSE	Height of glazing bead
+IDS_HAUTEUR_INSUFFISANTE	Height is too small
+IDS_HAUTEUR_LAMELLE	Blade height
+IDS_HAUTEUR_MAXIMUM	Maximum height
+IDS_HAUTEUR_MINIMUM	Minimum height
+IDS_HAUTEUR_SUPPLEMENTAIRE	Extra height
+IDS_HAUTEUR_TROP_IMPORTANTE	Height is too big
+IDS_HAUTEUR_VARIABLE	Variable height
+IDS_HAUTFABR	Prod. H
+IDS_HAUTGAUCHE	Top left
+IDS_HAUTTABL	Mas. H
+IDS_HAUT_BAS	Up + Down
+IDS_HAUT_SEULEMENT	On top
+IDS_HBGD	TBLR
+IDS_HEURE	Hour
+IDS_HEURES/MINUTES	Hour:minutes
+IDS_HEURE_RECEPTION	TIme received
+IDS_HISTORIQUE	History
+IDS_HISTORIQUEDEVISE	Currency history
+IDS_HISTORIQUEMO	Labour history
+IDS_HISTORIQUESTOCK	Stock history
+IDS_HISTORIQUE_COMMANDE	History of orders
+IDS_HISTO_FACT_PARTIELLE	List of Documents
+IDS_HOBBY	Hobby
+IDS_HORAIRE_DE	Time: from
+IDS_HORIZONTAL	Horizontal
+IDS_HORIZONTALE	Horizontal
+IDS_HORIZONTALES	horizontal
+IDS_HORS-TOUT	Total dimensions
+IDS_HORS_GARANTIE	No warranty !
+IDS_HORS_STOCK	No stock handling
+IDS_HTVA	Excl. VAT
+IDS_IDENTIFICATEUR	Identifier
+IDS_IDENTIFICATEUR_LOT	Job identifier
+IDS_IDENTIFICATEUR_NUMERIQUE	Numerical identifier
+IDS_IDENTIFICATEUR_VITRAGE	Glass supplier identifier
+IDS_IEME_TRIMESTRE	Quarter %d
+IDS_IGNORER	Ignore
+IDS_IMPORT	Import
+IDS_IMPORTANCE_CREANCES	Unpaid accounts level
+IDS_IMPORTANCE_LITIGES	Level of conflicts
+IDS_IMPORTATION	Import
+IDS_IMPORTATION_ARCHIVE	Archives imports
+IDS_IMPORTATION_EN_COURS_VEUILLEZ_PATIENTER	Importing !!!! Please wait !
+IDS_IMPORTATION_MULTI_SITE	Multi-site imports
+IDS_IMPORTAUTREFABRICANT	This file is for another factory!!!
+IDS_IMPORTER_PROSPECTS	Import prospects
+IDS_IMPORT_COMMANDE	Import order
+IDS_IMPRESSION	Print
+IDS_IMPRESSIONBONVALORISE	Print the supplied articles with their value ?
+IDS_IMPRESSIONCORRECTE	Print OK ?
+IDS_IMPRESSIONCORRECTION	Corrections printout
+IDS_IMPRESSIONS_FACULTATIVES	Optional informations
+IDS_IMPRESSION_ARTICLE_PLAN	Print on documents
+IDS_IMPRESSION_CASIERS_STOCK	Box list printout
+IDS_IMPRESSION_CDE_SOUS_TRAITANTS	Print sub-contractor orders
+IDS_IMPRESSION_CINTRE_1:1	Print bow/sale 1:1
+IDS_IMPRESSION_CONFIRMATION	Print confirmations
+IDS_IMPRESSION_CONFIRMATIONS	Confirmations printing
+IDS_IMPRESSION_DE	Now printing
+IDS_IMPRESSION_DEVIS	Quotations printout
+IDS_IMPRESSION_DOCUMENTS_CLIENT	Printing options
+IDS_IMPRESSION_DOCUMENTS_OPTIMISATION	Production ducuments printout
+IDS_IMPRESSION_EN_LISTE	Print as a list
+IDS_IMPRESSION_ETIQUETTES_JETER	Print the 'Throw' labels
+IDS_IMPRESSION_PAGE	Now printing Page %d
+IDS_IMPRESSION_PRIX_UNITAIRE	Print unit price
+IDS_IMPRESSION_RECAP_COMMANDE	Window summary printout
+IDS_IMPRESSION_STOCK_NEGATIF	Print negative stock 
+IDS_IMPRESSION_SUR_ETIQUETTE	Print as labels
+IDS_IMPRIMER	Print
+IDS_IMPRIMER_ADRESSE_LIVRAISON	Print delivery address
+IDS_IMPRIMER_COMMANDE_FOURNISSEUR	This supplier order is not printed yet. Do you wish to do it now?
+IDS_IMPRIMER_DIFFERENCE_PRIX	Print the price difference
+IDS_IMPRIMER_DIMENSION_CADRE	Print the frame's dimensions
+IDS_IMPRIMER_LISTE	Print list
+IDS_IMPRIMER_LISTE_AVEC_LOT	Print a list with each job
+IDS_IMPRIMER_LISTE_COMMANDES	Print list of orders
+IDS_IMPRIMER_NUMERO_CLIENT	Print customer id
+IDS_IMPRIMER_POSITION	Print position
+IDS_IMPRIMER_SUR_DOC_CLIENT	Print on customer documents
+IDS_IMPRIMER_SUR_ETIQUETTES	Print on label
+IDS_IMPRIMER_SUR_PLAN	Print on factory documents
+IDS_IMPUTATION	Accounting
+IDS_IMPUTATION_COMPTABLE	General sales account
+IDS_IMP_PLAN	Imp. plan.
+IDS_INCIDENTS	Incidents
+IDS_INCIDENT_F2	Incident [F3]
+IDS_INCLURE NE & FACT	Invoices and delivery notes included
+IDS_INCLURE_CET_ARTICLE	Include this article
+IDS_INCLURE_COMMANDES_NON_CONFIRMEES	Include unconfirmed orders
+IDS_INCLURE_ENCOURS_COMPTABLE	Include the financial position
+IDS_INCLURE_NOTES_ENVOI	Include deliveries
+IDS_INCORPORE	Inside glass
+IDS_INCORRECT_DATE	Incorrect date!
+IDS_INCORRECT_SHAPE_ORIENTATION	Shape orientation is incorrect
+IDS_INCORRECT_SHAPE_TYPE	Shape type is incorrect
+IDS_INCORRECT_TIME	Incorrect time!
+IDS_INCREMENT	Increment
+IDS_INDENTATION	Indentation
+IDS_INDEXATION_TABLE	Indexing file '%s.dbf'
+IDS_INDEX_CORROMPU	Error #1110: An index problem has been detected. Program is about to stop.
+IDS_INDEX_ERRONNE	Corrupted index. You must reindex files !!!
+IDS_INDIQUEZ_CODE_CLIENT	Please type a customer code !!
+IDS_INDIQUEZ_DATE_LIMITE	You must define a date limit.
+IDS_INDIQUEZ_NOM_CLIENT	Please type the customer name!!!
+IDS_INFO	Info.
+IDS_INFOCLI_CORROMPU	The INFOCLI file is corrupted.\nPlease contact your supplier.
+IDS_INFORMATIONS	Informations
+IDS_INFORMATIONS_GENERALES_VITRAGES	General information for the glazings
+IDS_INFORMATIONS_SOCIETE	Company informations
+IDS_INFORMATIONS_VITRAGE	General information about glass
+IDS_INFORMATION_COMMANDE	Order informations
+IDS_INFOS_ATELIER	Information for workplaces
+IDS_INFO_CDE	Order info
+IDS_INFO_CLI	Customer information
+IDS_INFO_LIVRAISON	Delivery delay information
+IDS_INITIALE_DORMANT	F
+IDS_INITIALE_DROITE	R
+IDS_INITIALE_GAUCHE	L
+IDS_INITIALE_OUVRANT	S
+IDS_INSEREZ_DISQUETTE	Insert a formatted floppy in drive A:
+IDS_INSEREZ_FLOPPY_LICENCE	Insert floppy with licence file
+IDS_INSEREZ_INFO_CLI	Insert the 'INFOCLI' floppy
+IDS_INSTRUCTIONS	Instructions
+IDS_INSTRUCTIONS_COMPLEMENTAIRES	Additional instructions
+IDS_INSTRUCTIONS_LIVRAISON	Delivery instructions
+IDS_INSTRUCTIONS_POUR_LIVRAISONS	Delivery instructions
+IDS_INTERCALAIRE	Glazing frame
+IDS_INTERCALAIRE_TROP_EPAIS	The glazing frame is too thick for the chosen glazing bars!
+IDS_INTERCALAIRE_TROP_MINCE	The glazing frame is too thin for the chosen glazing bars!
+IDS_INTERDITES	Unavailable
+IDS_INTERIEUR	Inner
+IDS_INTERIEUR_EXTERIEUR	In/Out
+IDS_INTERNET	Internet
+IDS_INTERVALLE	Gap
+IDS_INTERVALLES	Space between leaves
+IDS_INTERVALLE_ENTRE_COLONNES	Space between columns
+IDS_INTITULE	Title
+IDS_INTITULE_VITRAGE	Glazing title
+IDS_INTRODUIRE_NUMERO_LICENCE	Please enter your licence id
+IDS_INT_	Inner
+IDS_INVALID_RANGE	Invalid range
+IDS_INVENTAIRE	Inventory
+IDS_INVENTEMPLACEMENT	Inventory by store
+IDS_INVENTGENERAL	Main inventory
+IDS_INVERSER_ANGLES_PROFILS	If double cut, the angles of a profile must be inverted compared to the other profile
+IDS_INVERSER_DORMANT	Reverse frame
+IDS_INVERSER_SEL.	Reverse sel
+IDS_INVERSER_SELECTION	Reverse selection
+IDS_INVERSER_VUE	View from other side
+IDS_INVISIBLE	Invisible
+IDS_INVISIBLE_WINPRO/D	Not visible in Winpro/D
+IDS_JAMAIS	Never
+IDS_JANVIER	January
+IDS_JANVIER_ABR	Jan
+IDS_JETER	Throw
+IDS_JEUDI	Thursday
+IDS_JEUDI_ABR	Tue
+IDS_JEU_COULISSES	Rail/sutter clearance
+IDS_JOINTPARCLOSE	Glazing bead joint
+IDS_JOINTPROFIL	Profile joint
+IDS_JOINT_CENTRAL_DORMANT	Central joint on outer frame
+IDS_JOINT_CENTRAL_OUVRANT	Central joint on sash
+IDS_JOINT_FRAPPE_DORMANT	Outer frame joint
+IDS_JOINT_FRAPPE_OUVRANT	Sash joint
+IDS_JOINT_SUR_CADRE	Joint on frame
+IDS_JOINT_SUR_PARCLOSE	Joint on glazing bead
+IDS_JOINT_VITRAGE	Glazing joint
+IDS_JONCTIONTRAV	Connection with other transoms
+IDS_JONCTIONTRAV1	No connection
+IDS_JONCTIONTRAV2	Connection on one side
+IDS_JONCTIONTRAV3	Connection on both sides
+IDS_JOUR	day
+IDS_JOURLIVRAISON	Delivery date
+IDS_JOURNAL_MAIN_OEUVRE	Labour history
+IDS_JOURNAL_STOCK	Stock history
+IDS_JOURS	days
+IDS_JOUR_DE_POSE	On installation day
+IDS_JTPARCLOSE	Glazing bead joint
+IDS_JTVITRAGE	Glazing joint
+IDS_JT_CENTRAL_DORMANT	Central joint on outer frame
+IDS_JT_CENTRAL_OUVRANT	Central joint on sash
+IDS_JT_FRAPPE_DORMANT	Joint on outer frame
+IDS_JT_FRAPPE_OUVRANT	Joint on sash
+IDS_JUILLET	July
+IDS_JUILLET_ABR	Jul
+IDS_JUIN	June
+IDS_JUIN_ABR	Jun
+IDS_JUSQUE	to
+IDS_JUSQUE_DATE_SORTIE	Until output date:
+IDS_JUSQU_AU	To
+IDS_JUSTIFICATION	Reason
+IDS_KM_RAYON	km radius
+IDS_Kg/m²	Kg/m²
+IDS_LAMELLES	Shutter blade
+IDS_LANCEMENTFABRICATION	Production launch
+IDS_LANCEMENT_OPTIMISATION	Launch optimization
+IDS_LANCER_RECHERCHE	Start searching
+IDS_LANGAGE	Language
+IDS_LANGUE	Language
+IDS_LANGUECATEG	Language, category, currency
+IDS_LANGUEDEV	Lang./curr.
+IDS_LANGUES	Languages
+IDS_LANGUE_ACTIVE	Active language
+IDS_LANGUE_AFFICHAGE	Display language
+IDS_LANGUE_BASE	Base language
+IDS_LANG_SUBST	Subst. language
+IDS_LAQUAGE	Varnishing
+IDS_LAQUE	Varnish
+IDS_LAQUER_1_COULEUR_APRES_ASSEMBLAGE	If single colour, varnish after assembly
+IDS_LARG.	W.
+IDS_LARGEUR	Width
+IDS_LARGEURNULLE	Null width
+IDS_LARGEURS	Widths
+IDS_LARGEUR_COULISSE	Rail width
+IDS_LARGEUR_DE	Witdh from
+IDS_LARGEUR_FRAISAGE	Milling width
+IDS_LARGEUR_MAUCLAIR	French mullion width
+IDS_LARGEUR_MAXIMUM	Maximum width
+IDS_LARGEUR_MINIMUM	Minimum witdh
+IDS_LARGEUR_RESTANTE	Usable witdh
+IDS_LARGFABR	Prod. W
+IDS_LARGTABL	Mas. W
+IDS_LIAISON_FOURNISSEUR	Supplier EDI
+IDS_LIBELLE	Description
+IDS_LIBELLES	Descriptions
+IDS_LICENCE	Licence
+IDS_LIGNE	Line
+IDS_LIGNEPRODUCTION	Prod. line
+IDS_LIGNES_PRODUCTION	Production lines
+IDS_LIGNE_PRODUCTION	Production line
+IDS_LIGNE_REPERE	Reference line
+IDS_LIMCREDIT	Authorized credit
+IDS_LIMITER_CHOIX_RAL	Limit choice of RAL colours
+IDS_LIMITES_COUPE	Length limits
+IDS_LIMITE_CREDIT	Credit limit
+IDS_LIMITE_VALIDITE	Valid until:
+IDS_LIM_VAL	Valid until
+IDS_LINEAIRE	Linear
+IDS_LINEAIRECAMION	Transp. surf.
+IDS_LINEAIRE_CAMION	Transport surface
+IDS_LISTE	Opt. list
+IDS_LISTEARTICLE	List of articles
+IDS_LISTECATEGORIEARTICLES	List of article categories
+IDS_LISTECATEGORIECLIENTS	List of customer categories
+IDS_LISTECHARGEMENT	Loading list
+IDS_LISTECHASSIS	List of windows
+IDS_LISTECLIENT	Customer list
+IDS_LISTECOEFFICIENTS	List of coefficients
+IDS_LISTEDEVISE	List of currencies
+IDS_LISTEEMPLACEMENT	List of stores
+IDS_LISTEERREURS	List of errors
+IDS_LISTEFOURNISSEUR	List of suppliers
+IDS_LISTELOT	Jobs list
+IDS_LISTEPANNEAUX	List of panels
+IDS_LISTEPROFIL	List of profiles
+IDS_LISTES	Lists
+IDS_LISTESERTISSAGE	List of profiles to assemble
+IDS_LISTEUSINAGE	List of millings
+IDS_LISTE_ACCESSOIRE_CHASSIS	List of accessories
+IDS_LISTE_CADRES_LOT_CATEGORIE	Job #1# - List of frames of type #2#
+IDS_LISTE_CHARGEMENT_BARRES	Profile loading list
+IDS_LISTE_CHASSIS_OPTIMISES	Optimized windows list
+IDS_LISTE_COMPARATIVE_DEVIS/COMMANDE	Compare orders and quotations
+IDS_LISTE_CONFIRMATIONS	List of confirmations
+IDS_LISTE_CONFIRMATION_ENVOYEE	List of sent confirmations
+IDS_LISTE_CONSOMMATION	Bill of materials
+IDS_LISTE_DESSIN	List of drawings
+IDS_LISTE_DES_FICHIERS	List of files
+IDS_LISTE_DORMANT	List of outer frames
+IDS_LISTE_LAQUAGE	Varnishing list
+IDS_LISTE_OPTIMISATION	Optimized cutting list
+IDS_LISTE_OUVRANT	List of sashes
+IDS_LISTE_PANNEAU	List of panels
+IDS_LISTE_PANNEAU_DECORATIF	List of decorative panels
+IDS_LISTE_PARCLOSE	List of glazing bead
+IDS_LISTE_QUINCAILLERIE	List of fittings
+IDS_LISTE_REHAUSSE	List of peripheral profiles
+IDS_LISTE_RESERVATIONS	List of reservations
+IDS_LISTE_TRAVERSE	List of transoms
+IDS_LISTE_VITRAGE	List of glazings
+IDS_LISTE_VITRAGES_ET_PANNEAUX	Glasses and panels list
+IDS_LISTE_VUES_COUPES	List of cross-sections
+IDS_LISTPACKAGES	List of packaging
+IDS_LIVR	Deliv
+IDS_LIVR/POSE	Delivery/installation
+IDS_LIVRAISON	Delivery
+IDS_LIVRAISONFRANCO	Free delivery
+IDS_LIVRAISONS	Delivery
+IDS_LIVRAISONS_AVANCEES	Deliv. before schedule
+IDS_LIVRAISONS_CHANTIER	Delivery on spot
+IDS_LIVRAISON_SAMEDI	Delivery on Saturday
+IDS_LIVREES	Delivered
+IDS_LIVREES_DEPUIS_PLUS_DE	Delivered since more than
+IDS_LIVRVITR	Glass deliv.
+IDS_LIVR_FABRICANT	Maker deliv.
+IDS_LIVR_VITRAGES	Glass delivery
+IDS_LIV_PARTIELLE	Partial delivery
+IDS_LOCALITE	City
+IDS_LOCKINGFILE	Locking file #1#.
+IDS_LOCKINGRECORD	Record locked in file
+IDS_LOGFACTURATIONPARTIELLE	Partial invoice
+IDS_LOGIQUE	Logic
+IDS_LOGISTIQUE	Logistics
+IDS_LOGNOTEENVOIPARTIELLE	Partial delivery note
+IDS_LOGO	Logo
+IDS_LONGUEUR	Length
+IDS_LONGUEURS	Lengths
+IDS_LONGUEUR_1_BARRE	Length of profile
+IDS_LONGUEUR_COUPE	Cut length
+IDS_LONGUEUR_COUPE+	Fixed additional length
+IDS_LONGUEUR_FRAISAGE	Milling length
+IDS_LONGUEUR_MAXIMUM	Maximum length
+IDS_LONGUEUR_MINIMUM	Minimum length
+IDS_LONG_DATE	dddd, mmmm ds, YYYY
+IDS_LONG_MAX	Max len
+IDS_LONG_MIN	Min len
+IDS_LONG_MINIMUM	Minimum length
+IDS_LONG_TOT	Tot.length
+IDS_LOT	Job
+IDS_LOTS	Jobs
+IDS_LOTS_CHUTES	Wastes / jobs
+IDS_LOTS_DE	Jobs from
+IDS_LOTS_NON_VALIDES	You have selected jobs containing unapproved orders
+IDS_LOTS_OPTIMISATION	Optimization jobs
+IDS_LOTVIDE	This job is empty
+IDS_LOWERCASE	lower case
+IDS_LPROD	Prod.line
+IDS_LUNDI	Monday
+IDS_LUNDI_ABR	Mon
+IDS_Licensed to	License granted to %s
+IDS_MACONNERIE	Masonry
+IDS_MAGASIN	Store
+IDS_MAI	May
+IDS_MAIL_ORDERS	Orders by e-mail
+IDS_MAIL_TITLE	Electronic mail
+IDS_MAINDOEUVRE	Labour
+IDS_MAINDOEUVREAENLEVER	Labour to remove
+IDS_MAI_ABR	May
+IDS_MAJDB_TABLE_INEXISTANTE	Cannot open table '%s'.\nThe table may be in use on another workstation.\nWinPro cannot update the table structure and will terminate.
+IDS_MAJMANUELLE	Change manually
+IDS_MAJMANUELLECHASSIS	Window status changed manually
+IDS_MAJPRIXREVIENT	Please confirm you want to update the cost prices  ?
+IDS_MAJ_CLIENT	Update customer #1#?
+IDS_MAJ_KOM	Update Kömmerling
+IDS_MAJ_KOM_ART	Do you want to create this article : 
+IDS_MAJ_KOM_ERROR	Failure while updating Kömmerling files
+IDS_MAJ_KOM_QUIT	Please restart WinPro to load the data in memory
+IDS_MAJ_KOM_SPEC	Kömmerling files|
+IDS_MAJ_PROSPECT	Update prospect #1#?
+IDS_MANOEUVRE	Handling
+IDS_MARDI	Tuesday
+IDS_MARDI_ABR	Die
+IDS_MARGE	Margin
+IDS_MARGES	Margins
+IDS_MARGE_(HORS_MAIN_D_OEUVRE)	Margin (without labour)
+IDS_MARGE_BRUTE	Gross margin
+IDS_MARGE_COMM	Sales margin
+IDS_MARGE_DROITE	Right margin
+IDS_MARGE_MAT	Prod. margin
+IDS_MARGE_POSE	Inst. margin
+IDS_MARGE_PR	Margin/Cost price
+IDS_MARGE_PV	Margin/Selling price
+IDS_MARGE_SUPERIEURE	Top margin
+IDS_MARGE_SUPPLEMENTAIRE	Additional margin
+IDS_MARGE_SUPPL_(%)	Extra margin (%)
+IDS_MARGE_TOT	Total margin
+IDS_MARS	March
+IDS_MARS_ABR	Mar
+IDS_MATERIAU	Material
+IDS_MATERIEL_PROMOTIONNEL	Promotional material
+IDS_MATIN	Morning
+IDS_MAUCLAIR	French mullion
+IDS_MAUCLAIR_1/2	French mullion 1/2
+IDS_MAUCLAIR_2/3	French mullion 2/3
+IDS_MAUCLAIR_3/4	French mullion 3/4
+IDS_MAUCLAIR_4/5	French mullion 4/5
+IDS_MAUCLAIR_5/6	French mullion 5/6
+IDS_MAUCLAIR_6/7	French mullion 6/7
+IDS_MAUCLAIR_COULEUR_DORMANT	French mull. in frame clr.
+IDS_MAX	Max
+IDS_MAXIMUM	Maximum
+IDS_MAX_N_PIECES	At most #1# windows in one job!
+IDS_MAX_N_VANTAUX	At most #1# sashes in one job!
+IDS_MEMORISER_PRIX_DEVIS	Save prices ?
+IDS_MEMORISER_SELECTIONS	Save selection
+IDS_MENEAU_X_	Transom(s)
+IDS_MENUFAILURE	Menu creation failure
+IDS_MERCREDI	Wednesday
+IDS_MERCREDI_ABR	Wed
+IDS_MESSAGE	Message
+IDS_MESSAGES	Messages
+IDS_MESSAGETSE	Your TSE version of WinPro has expired!\nPlease call Quadrature at +32 (0) 71 349 100
+IDS_MESURES_FINIES_HxL	Center (HxW)
+IDS_MIN	Min
+IDS_MINIMISER_NOMBRE_COUPES	Minimize number of cuts
+IDS_MINIMUM	Minimum
+IDS_MISEAJOURINTERDITE	The windows in this order can no longer be changed
+IDS_MISEAJOURSTOCK	Updating stock
+IDS_MISE_A_JOUR_STRUCTURE_FICHIER	Updating structure for file '%s.dbf'
+IDS_MISE_EN_ATTENTE_CONFIRMATION	Put confirmations on hold
+IDS_MISE_EN_LOT	Job preparation
+IDS_MISE_EN_LOTS	Job preparation
+IDS_MISE_EN_PRODUCTION	Launch production
+IDS_MIXEDCASE	Mixed Case
+IDS_MM_DE_BAS_OU_GAUCHE	mm from left or bottom
+IDS_MM_X_HAUTEUR	mm x Height
+IDS_MO	Lab.
+IDS_MOCADRE	Frame labour
+IDS_MOCOINS	Corner labour
+IDS_MOCONSOMMEE	Labour used for job
+IDS_MODEM	Modem
+IDS_MODE_CALCUL	Price computation
+IDS_MODE_SAISIE_COTES	Dimensions input mode
+IDS_MODIFCOMMANDE	Change order
+IDS_MODIFICATION	Modification
+IDS_MODIFICATION_DELAI_COMMANDE	Change order delay
+IDS_MODIFICATION_ENTETE_COMMANDE	Modify order header
+IDS_MODIFICATION_LIVRAISONS	Update deliveries
+IDS_MODIFIERVITRAGE	Change glass
+IDS_MODIFIER_TRAVERSE	Change transom
+IDS_MODIF_ETAT_CDE	Change order status
+IDS_MODULEWINPRO	WinPro Modules
+IDS_MOIS	Month
+IDS_MONTANT	Amount
+IDS_MONTANT_HTVA	Excl. VAT
+IDS_MONTANT_MAIN_OEUVRE	Labour cost
+IDS_MOTIF	Reason
+IDS_MOT_DE_PASSE	Password
+IDS_MOT_DE_PASSE_FOURNISSEUR	Supplier order password
+IDS_MOT_ENTIER	Exact word
+IDS_MOYENNE	Average
+IDS_MSG_CLIENT	Message
+IDS_NATURE_COMMANDE	Order type
+IDS_NBRE_CHASSIS	Windows qty
+IDS_NBRE_TRAV	Transoms qty
+IDS_NBRE_VOLETS	Roller shutter qty
+IDS_NBR_COMMANDES	Orders qty
+IDS_NBR_PORTES	Doors qty
+IDS_NEAU_DEVIS	New quot
+IDS_NEAU_PREF	New Pref
+IDS_NEAU_SAV	New aft.sales
+IDS_NET_COMM	Net price
+IDS_NET_MAT	Prod. net
+IDS_NET_POSE	Inst. net
+IDS_NET_TOT	Net total
+IDS_NEW	New
+IDS_NEXT_OPTIM	Next optimization
+IDS_NE_PAS_ENREGISTRER	Reject invoice
+IDS_NIVEAU	Level
+IDS_NIVEAU_OPTIMISATION	Optimization level
+IDS_NIVEAU_PRIX	Price level
+IDS_NJOURSDATEFACTURE	%d days after invoice date
+IDS_NJOURSFINDEMOIS	%d days after end of month
+IDS_NLLE_CDE	New order
+IDS_NLLE_CDE_ACC	New acc ord
+IDS_NOAPP	No application object
+IDS_NOCDE	Order nr
+IDS_NOCLIENT	Customer nr
+IDS_NOEXPRESSION	(Expression) Table relation error
+IDS_NOM	Name
+IDS_NOMBREARGUMENTSINCORRECT	Incorrect parameter count
+IDS_NOMBRE_ASSOCIES	Number of shareholders
+IDS_NOMBRE_CHIFFRES	Number of digits
+IDS_NOMBRE_COLONNES	Number of columns
+IDS_NOMBRE_MAXIMUM_CHASSIS_LOT	Maximum number of outer frames per job
+IDS_NOMBRE_MAXIMUM_PROFILS_PAR_CASIER	Max. profiles per box
+IDS_NOMBRE_MAXIMUM_VANTAUX_PAR_LOT	Maximum number of leaves per job
+IDS_NOMBRE_MAXI_DORMANTS	Max. number of outer frames
+IDS_NOMBRE_MAXI_OUVRANTS	Max. number of leaves
+IDS_NOMBRE_POSTES	Number of windows
+IDS_NOMBRE_SALARIES	Number of employees
+IDS_NOMBRE_TOTAL_VOLUMES	Total number of glazings
+IDS_NOMBRE_TRAVERSES_SELECTIONNEES	Count of selected transoms
+IDS_NOMBRE_VANTAUX	Number of leaves
+IDS_NOMBRE_VITRAGES_PAR_PALETTE	Number of glasses per glass pack
+IDS_NOMBRE_VOLUMES	Glass count
+IDS_NOMTVA	Name and VAT nr
+IDS_NOM_CLIENT	Customer name
+IDS_NOM_CONTACT	Contact's name
+IDS_NOM_FICHIER	File name
+IDS_NOM_VARIABLE	Variable name
+IDS_NON	No
+IDS_NONCOMPRIS	Not included
+IDS_NONFOURNI	NOT DELIVERED
+IDS_NONOPTIMISE	Not optimized
+IDS_NONRECTANGULAIRES	Non rectangular
+IDS_NONZERO	<> 0
+IDS_NON_LISTE	Not listed
+IDS_NON_MODIFIABLE	Blocked
+IDS_NON_POUR_TOUS	No to All
+IDS_NON_RETOURNABLE	Cannot be rotated
+IDS_NON_VALORISE	Without price
+IDS_NON_VALORISEE	Without price
+IDS_NOPATH	Missing file name:
+IDS_NORECORD_SELECT	No record selected
+IDS_NORMES_VITRAGE	Glazing norms
+IDS_NORMEVENT	Wind pressure norm
+IDS_NORMEVERRE	Glass norm
+IDS_NOSREFERENCES	Our references
+IDS_NOS_DEFAUTS	Our weaknesses
+IDS_NOS_QUALITES	Our qualities
+IDS_NOTABLE	(Table) Table relation error
+IDS_NOTAG	(Tag) Table relation error
+IDS_NOTECREDIT	Credit note
+IDS_NOTEENVOI	Delivery slip
+IDS_NOTES	Notes
+IDS_NOTES_ENVOI_RECAP	Delivery summary
+IDS_NOTE_VITRIER	Note for glass supplier
+IDS_NOUVEAUCHASSIS	New window
+IDS_NOUVEAUMOTPASSEINCORRECT	The new password is invalid
+IDS_NOUVEAUNUMERO	New ID
+IDS_NOUVEAUNUMEROFACTURE	New invoice number
+IDS_NOUVEAUNUMERONE	New delivery slip number
+IDS_NOUVEAUSTOCK	New stock
+IDS_NOUVEAU_CHANTIER	Description of a job reference
+IDS_NOUVEAU_CLIENT	New customer
+IDS_NOUVEAU_CODE	New code
+IDS_NOUVEAU_MOT_DE_PASSE	New password
+IDS_NOUVEAU_VOLET	New roller shutter
+IDS_NOUVELLE_COULEUR	New colour
+IDS_NOUVELLE_DATE_FABRICATION	New date for production
+IDS_NOUVELLE_DATE_LIVRAISON	The new sugested delivery date is
+IDS_NOUVELLE_VERSION	New version
+IDS_NOUVEL_ETAT	New status
+IDS_NOVEMBRE	November
+IDS_NOVEMBRE_ABR	Nov
+IDS_NO_CONFIRMATION	Confirm. number
+IDS_NO_DATE	You must type a date!
+IDS_NO_LABEL	No label
+IDS_NO_SELECT_FILE	You selected no file !
+IDS_NO_STOCK_CHUTES	Waste stock #
+IDS_NO_SUBJECT_MAIL	No mail subject
+IDS_NR	N.R.
+IDS_NRECT	N.Rect
+IDS_NUM	Nr
+IDS_NUMBER_OUT_OF_RANGE	Value must be between %s and %s!
+IDS_NUMBON	Correction nr
+IDS_NUMDOC	Document number
+IDS_NUMERIQUE	Numerical
+IDS_NUMERO	Number
+IDS_NUMEROAUTOMATIQUE	Do you want an automatically assigned number?
+IDS_NUMEROEXISTEDEJA	This number already exist 
+IDS_NUMEROFACTUREEFFECTIF	Actual invoice number:
+IDS_NUMEROS_VERSION	Version number
+IDS_NUMEROTATION	Numbering
+IDS_NUMEROTATION_LIGNES	Line numbering
+IDS_NUMEROTATION_LOTS	Generate job IDs
+IDS_NUMEROTATION_MANUELLE	Assign IDs manually
+IDS_NUMEROTER	With numbers
+IDS_NUMEROTEXTE	Text number
+IDS_NUMERO_1°_PAGE	1st page number
+IDS_NUMERO_AUTO	New automatic number
+IDS_NUMERO_CASIER	Box ID
+IDS_NUMERO_CLIENT	Customer ID
+IDS_NUMERO_COMMANDE	Order number
+IDS_NUMERO_CONFIRMATION	Confirmation number
+IDS_NUMERO_LICENCE	Licence code
+IDS_NUMERO_LOT	Job number
+IDS_NUMERO_MACHINE	Machine Nr
+IDS_NUMERO_MANUEL	Type a new number
+IDS_NUMERO_NE	Delivery slip number
+IDS_NUMERO_NE_EFFECTIF	Actual number of the delivery slip
+IDS_NUMERO_OUTIL_FACE_BG	Milling code (B/L side)
+IDS_NUMERO_OUTIL_FACE_HD	Milling code (T/R side)
+IDS_NUMERO_SCIE	Saw number
+IDS_NUMERO_TABLIER	Shutter ##1#
+IDS_NUMERO_TARIFS_REMIS	Number of supplied price lists
+IDS_NUMERO_TVA	VAT ID
+IDS_NUMSLOT	Sub-job ID :
+IDS_NUM_CHASSIS	Window Id
+IDS_NUM_NOTE_ENVOI	Delivery slip nr
+IDS_NUM_SIRET	Siret #
+IDS_NV_CHASSIS	N. window [F12]
+IDS_N_OCCURRENCES	%d cases
+IDS_Nr_COMMANDE	Order nr.
+IDS_N°_DOCUMENT	Document nr
+IDS_OBJCA0P	Turn-over target year 0 (conservative)
+IDS_OBJCA0V	Turn-over target year 0 (agressive)
+IDS_OBJCA1P	Turn-over target year 1 (conservative)
+IDS_OBJCA1V	Turn-over target year 1 (agressive)
+IDS_OCCUPATION	% filling
+IDS_OCTOBRE	October
+IDS_OCTOBRE_ABR	Oct
+IDS_OFFRES_ET_CONFIRMATIONS	Quotations and confirmations
+IDS_OK	OK
+IDS_OKTORESUME	OK to resume?
+IDS_ONGLET	Miter
+IDS_ONGLET+DROIT	Straight + Miter
+IDS_ON_DEVICE	%s on %s
+IDS_OPERATEUR	Operator
+IDS_OPTIM	Optimization
+IDS_OPTIMENCOURS	#1# is now busy with another optimization. Please wait until it is completed. Choose Restart to try again or Cancel to stop and try later.
+IDS_OPTIMISATION	Optimization
+IDS_OPTIMISATIONTRAVERSE	Optimization of transoms
+IDS_OPTIMISATION_ACCESSOIRES	Accessories optimized
+IDS_OPTIMISATION_ANTICIPEE	Optimize special windows
+IDS_OPTIMISATION_DES_ACCESSOIRES	Optimization of accessories
+IDS_OPTIMISATION_DES_PRECADRES	Optimize pre-frames
+IDS_OPTIMISATION_DIFFEREE	Parts to optimize separately
+IDS_OPTIMISATION_INCOMPLETE	Optimization of this window is incomplete
+IDS_OPTIMISATION_PRECADRES	Pre-frames optimized
+IDS_OPTIMISER	Optimize
+IDS_OPTIMISER_PROFILS_PERIPHERIQUES_SEPAREMENT	Optimize secondary profiles separately
+IDS_OPTIMISER_TRAVERSES_PLUS_TARD	Optimize transoms later
+IDS_OPTIMISER_TRAVERSES_SEPAREMENT	Optimize transoms separately
+IDS_OPTION	Option
+IDS_OPTIONS	Options
+IDS_OPTIONS_CALCUL	Computation options
+IDS_OPTIONS_INVENTAIRE	Inventory options
+IDS_ORDERS_FOR_IMPORT	Order to be imported
+IDS_ORDRE_DESSIN_OUVRANT	Leave drawing order
+IDS_ORDRE_DESSIN_VANTAUX	Leaf drawing order
+IDS_ORIENTATION	Orientation
+IDS_ORIENTATION_PAGE	Page orientation
+IDS_OU	or
+IDS_OUI	Yes
+IDS_OUI_POUR_TOUS	Yes to All
+IDS_OUTILLAGE	Tooling
+IDS_OUTOFMEMORY	Insufficient memory
+IDS_OUVERTURE_DROITE	Right opening
+IDS_OUVERTURE_DROITE_VUE_EXTERIEURE	Right opening, view from outside
+IDS_OUVERTURE_DROITE_VUE_INTERIEURE	Right opening, view from inside
+IDS_OUVERTURE_GAUCHE	Left opening
+IDS_OUVERTURE_GAUCHE_VUE_EXTERIEURE	Left opening, view from outside
+IDS_OUVERTURE_GAUCHE_VUE_INTERIEURE	Left opening, view from inside
+IDS_OUVRANT	Sash
+IDS_OUVRANTNORMAL	Regular sash
+IDS_OUVRANTS	Sashes
+IDS_OUVRANT_HORS_TARIF	No price for this sash
+IDS_OUVRANT_PORTEFIXE	Fixed sash
+IDS_OUVRIR	Open
+IDS_OU_%	or %
+IDS_OU_>	or >
+IDS_OU_PAR	or by
+IDS_OVALE	Oval
+IDS_OWLEXCEPTION	ObjectWindows exception
+IDS_O_N	Y/N
+IDS_PA	BP
+IDS_PACKAGE	Package handling
+IDS_PADEVISE	Buying price
+IDS_PAGE	Page
+IDS_PAGE_1	Page 1
+IDS_PAGE_ARTICLES	Article page
+IDS_PAGE_PROFILS	Profile page
+IDS_PAIEMENT	Payment
+IDS_PALETTE	Rack
+IDS_PALETTES	Racks
+IDS_PALETTES_DEPOSEES	Delivered racks
+IDS_PALETTES_DISPONIBLES	Avaible racks
+IDS_PALETTES_NON_DISPONIBLES	Non avaible racks
+IDS_PALETTES_RENTREES	Returned racks
+IDS_PALETTE_CHARGEE	Loaded
+IDS_PALETTE_DISPONIBLE	Avaible
+IDS_PALETTE_LIVREE	Delivered
+IDS_PALETTE_VERRE	Glass rack
+IDS_PANET	Net BP
+IDS_PANNEAU	Panel
+IDS_PANNEAUADECOUPER	Panel
+IDS_PANNEAUDECORATIF	Decorative panel
+IDS_PANNEAUFABRIQUE_HORS_TARIF	No price for panel
+IDS_PANNEAUTROPGRAND	Panel is too large
+IDS_PANNEAUX	Panels
+IDS_PANNEAUX_A_DECOUPER	Panels
+IDS_PANNEAUX_DECORATIFS	Decorative panels
+IDS_PANNEAUX_FABRIQUES	Composed panels
+IDS_PANNEAUX_SUR_TOUTE_SURFACE	Panels on the whole surface
+IDS_PANNEAU_1	Panel 1
+IDS_PANNEAU_2	Panel 2
+IDS_PANNEAU_3	Panel 3
+IDS_PANNEAU_4	Panel 4
+IDS_PANNEAU_5	Panel 5
+IDS_PANNEAU_FABRIQUE	Composed panels
+IDS_PANNEAU_HORS_COTE	The panel #1# is out of dimension !!!
+IDS_PAR	by
+IDS_PARAMETRAGE	Preferences
+IDS_PARAMETRAGE_FORMULES	Define with formulas
+IDS_PARAMETRE	Parameter
+IDS_PARAMETRES	Parameters
+IDS_PARAMETRES_DOCUMENTS	Documents parameters
+IDS_PARAMETRES_OPTIMISATION	Optimization settings
+IDS_PARAM_LIVRAISON	Delivery param.
+IDS_PARAM_PANNEAUX	Panels param.
+IDS_PARAM_VITRAGES	Glazing param.
+IDS_PARCLOSE	Glazing bead
+IDS_PARCLOSES	Glazing beads
+IDS_PARCLOSE_EXTERIEUR	Glazing beads outside
+IDS_PARPERIMETRE	By perimeter
+IDS_PARPIECE	By piece
+IDS_PARSURFACE	By surface
+IDS_PARTICULIER	Final customer
+IDS_PARTIEVIDEEXTERIEURE_DORMANT	Empty outer part (frame profile on top)
+IDS_PARTIEVIDEEXTERIEURE_TRAVERSE	Empte outer part (transom on top)
+IDS_PARTIEVIDESANSBATTEE_DORMANT	Revealless empty part (frame profile on top)
+IDS_PARTIEVIDESANSBATTEE_TRAVERSE	Revealless empty part (transom on top)
+IDS_PARTIEVIDE_DORMANT	Empty part (outer frame profile on top)
+IDS_PARTIEVIDE_TRAVERSE	Empty part (transom profile on top)
+IDS_PAR_DEFAUT	By default
+IDS_PAR_UNITE+FORFAIT	per unit + fixed price
+IDS_PASDEBASEDEREFERENCE	No reference
+IDS_PASDEFICHIERINI	The WinPro.ini file is invalid or not accessible
+IDS_PASDEMARGE	You have defined no margin yet. Do you wish to print anyway?
+IDS_PASDEMARGE2	You have defined no margin. The document will not be printed
+IDS_PASDENUMERO	No number has been defined
+IDS_PASDESELECTION	You have selected nothing
+IDS_PASDETRAVERSEDANSFIXE	You may not add a transom in a fixed sash. Please add it inside the outer frame.
+IDS_PASPARCLOSEPOUREPAISSEUR	No glazing bead for this glass or panel thickness (#1# mm) 
+IDS_PASTE	Paste
+IDS_PAS_ASSEMBLAGE	No Connection
+IDS_PAS_A_COTE_TRAVERSE	Not beside a transom
+IDS_PAS_CODE_COULEUR	No colour code
+IDS_PAS_CODE_FOURNISSEUR	No supplier code
+IDS_PAS_CRX_INCORP_PANNEAU	You cannot add integrated glazing bars into a panel!
+IDS_PAS_CRX_INCORP_VITRAGE	You cannot add integrated glazing bars into this glazing!
+IDS_PAS_DE_CHASSIS	There is no window in this order
+IDS_PAS_DE_CODE_CLIENT	This customer code does not exist !
+IDS_PAS_DE_COMMANDE_EN_COURS	No order to display
+IDS_PAS_DE_CROISILLONS_INCORPORES	Disallow glazing bars
+IDS_PAS_DE_DESTINATION_MAIL	No recipient defined for company '#1#' !!!
+IDS_PAS_DE_DIFFERENCE_STOCK	There is no difference between the stock and the box detail
+IDS_PAS_DE_DIM_VITRAGE_SUR_CONFIRMATION	No glass dimensions on confirmation
+IDS_PAS_DE_GRILLE	No table
+IDS_PAS_DE_PRIX	No price defined for this glass
+IDS_PAS_DE_QUANTITE	You forgot to type the quantity
+IDS_PAS_DE_R4	No D4
+IDS_PAS_DE_REMPLACEMENT	No element to replace
+IDS_PAS_DE_RESERVATION	At the moment there is no reservation
+IDS_PAS_DE_SOUS_LOTS	Cut in a single job
+IDS_PAS_DE_TOTAL	No sum
+IDS_PAS_DE_VITRAGE!	Glasses forbidden
+IDS_PAS_D_ACCORD	Disagreed
+IDS_PAS_D_ARTICLE_A_COMMANDER	There is no article to order
+IDS_PAS_ECLATER_QUANTITES	Do not split quantities
+IDS_PAS_FOURNIR_VITRAGE	Do not supply glass
+IDS_PAS_GENERER_COMMANDE_DEPUIS_CLIENT	No supplier order generated from customer order
+IDS_PAS_IMPRIMANTE_INSTALLEE	WinPro need a default printer on your system
+IDS_PAS_IMPRIMER_DIM_VITRAGE	Do not print glass dimensions on order confirmations
+IDS_PAS_IMPRIMER_ETIQUETTE	Do not print labels
+IDS_PAS_METTRE_A_JOUR_STOCK	Do not update stock
+IDS_PAS_PRIX_UNITAIRE	No unit price
+IDS_PAS_UTILISER_A_COTE_TRAVERSE	Not to use besides a transom
+IDS_PAS_UTILISER_STOCK_CHUTES	Do not use waste stock
+IDS_PAYS	Country
+IDS_PAYSAGE	Landscape
+IDS_PA_COMMERCIAL	Comemrcial buying price
+IDS_PBH	H.bars
+IDS_PBV	V.bars
+IDS_PC_CA	% sales
+IDS_PC_CHUTE	% waste
+IDS_PC_REM	% D
+IDS_PDFMAIL	PDF-mail
+IDS_PDFMAILINI	You have not defined the path for PDFMAIL.INI
+IDS_PERIMETRE	Perimeter
+IDS_PERIMETRES	Peripheral profiles
+IDS_PERIMETRE_M	Total perimeter
+IDS_PERIODE_COMPTABLE_NON_AUTORISEE	This invoice date is not currently allowed.
+IDS_PERIODE_LIVRAISON	Delivery period
+IDS_PERIODICITE	Periodicity
+IDS_PERTE:BOUT_BARRE	Loss on each new profile
+IDS_PERTE_BOUT_CHUTE	Loss when reusing waste
+IDS_PERTE_TRAIT_SCIE_ANGLE	-- Cutting waste (depending on angles) --
+IDS_PETITEHAUTEUR	Smaller height
+IDS_PETITEHAUTEURBAS	Bottom smaller height
+IDS_PIECES	Articles
+IDS_PIECES_LIVRABLES_DATES	The following items can only be delivered at these dates:
+IDS_PISTE_1	Track 1
+IDS_PISTE_2	Track 2
+IDS_PLANCOMPLET	Complete production list
+IDS_PLANIFICATION	Planning
+IDS_PLANMESURAGE	Measurements
+IDS_PLANNINGFABRICATION	Production planning
+IDS_PLANNINGLIVRAISON	Supplier delivery dates
+IDS_PLANNINGSORTIE	Order planning
+IDS_PLANNING_ENLEVEMENT	Pick up list
+IDS_PLANNING_LIVRAISON	Delivery list
+IDS_PLANNING_POSE	Installation list
+IDS_PLANSIMPLIFIE	Simplified factory document
+IDS_PLANS_ATELIER	Factory document
+IDS_PLAN_ATELIER_DETAILLE	Detailed factory doc.
+IDS_PLEINCINTRE	Full bow
+IDS_PLEINCINTREDROITE	Right half full bow
+IDS_PLEINCINTREGAUCHE	Left half full bow
+IDS_PLIS	Folds
+IDS_PNET	Net Pr.
+IDS_POIDS_UNITAIRE	Unit weight
+IDS_POIDS_m²	Weight / m²
+IDS_POINTAGE_ATELIER	Labour check
+IDS_POINTS_TYPO	points (1/72")
+IDS_POLICE	Font type
+IDS_PORT	Transport
+IDS_PORTABLE	Mobile
+IDS_PORTE	Door
+IDS_PORTES	Doors
+IDS_PORTRAIT	Portrait
+IDS_PORT_HTVA	No VAT on transport
+IDS_POS	Pos
+IDS_POSCOULISSEMANQUANT	The rail's position is missing
+IDS_POSE	Installation
+IDS_POSE/ENLEVEMENT/LIVRAISON	Install / Pick up / Deliver
+IDS_POSITION	Position
+IDS_POSITIONAERATEURINCORRECTE	Incorrect ventilator position
+IDS_POSITIONINCORRECTE	Incorrect transom position
+IDS_POSITION_PAR_DEFAUT	Set position as default
+IDS_POSTE	Work place
+IDS_POSTEFRAIS	Cust. order
+IDS_POSTES_TRAVAIL	Work places
+IDS_POSTE_ATELIER	Workplace
+IDS_POSTE_VIRTUEL	Virtual workplace
+IDS_POSTRAV	Transom position
+IDS_POURCENTAGE	%
+IDS_POUR_ATELIER	For the production
+IDS_POUR_CLIENT	For the Customer
+IDS_POUR_PAIEMENT_DANS	% if payment occurs within
+IDS_POUR_UTILISATEUR	For the user
+IDS_PRCACOMPTE	% down payment
+IDS_PRCOURANT	Current C.P.
+IDS_PRCSUPP	% Suppl
+IDS_PRECADRE	Pre-frame
+IDS_PRECISION_COUPE	Cutting precision
+IDS_PREDECOUPE	Pre-cut
+IDS_PREFERENCES	Preferences
+IDS_PREFIX	Prefix
+IDS_PREFIXE	Prefix
+IDS_PREFIXE_NUMEROTATION_AUTO	Prefix for automatic numbering
+IDS_PREFIXE_SUPPLEMENTAIRE	Additional prefix
+IDS_PREMESSAGETSE	Your TSE version of WInPro is about to expire!\nPlease contact Quadrature SA at +32 (0) 71 349 100
+IDS_PRENDRE	Take
+IDS_PRENOM	First name
+IDS_PREPARATIONPIECES	Article preparation
+IDS_PREPARATION_LIVRAISON	Delivery preparation
+IDS_PREPARATION_LOT	Job preparation
+IDS_PREPARATION_OPTIMISATION	Optimized
+IDS_PREPASTOCK	Stock preparation
+IDS_PRESSE_PAPIER	Clipboard
+IDS_PREST	Add.art.
+IDS_PRESTATIONS_ASSOCIEES	Use technical price by default
+IDS_PREVENIR	Call first
+IDS_PREVIENT	Cost price
+IDS_PREVISION	Forecast
+IDS_PREVU	Planned
+IDS_PRINT	Print
+IDS_PRINTERERROR	Printer error
+IDS_PRINTTOFILE	Print to file ?
+IDS_PRINT_ON	'%s' on the
+IDS_PRIORITE	Priority
+IDS_PRIORITE_SUR_VALEURS_SCIE	These values when defined override the corresponding values in the saw definition
+IDS_PRISE_MESURE	Measurement
+IDS_PRISE_MESURES	Measure sheet
+IDS_PRIX	Price
+IDS_PRIXACHAT	Buying price
+IDS_PRIXBRUT	Gross price
+IDS_PRIXCOURANT	Current price
+IDS_PRIXDEV	Price in currency
+IDS_PRIXREVIENT	Cost price
+IDS_PRIXTARIF	List price
+IDS_PRIXUNITE	Unit price
+IDS_PRIX_1KG_ALU	Price/1 Kg aluminium
+IDS_PRIX_ACHAT_NET_DEVISE	Net buying price in #1#
+IDS_PRIX_AU_M2	Price per m²
+IDS_PRIX_BASE	Base price
+IDS_PRIX_BRUT+REMISE_%	Bruto price + discount %
+IDS_PRIX_CESSION	Transmission price
+IDS_PRIX_COURANT	Current cost price
+IDS_PRIX_DANS_GRILLE_M³	Price table per m²
+IDS_PRIX_DES_CHASSIS	Price of windows
+IDS_PRIX_ET_REMISES	Prices and discounts
+IDS_PRIX_FORCES	Forced prices
+IDS_PRIX_FORFAITAIRE_ALVEOLE	Fixed price per cell
+IDS_PRIX_FOURN_KG	Aluminium profile priced per Kg (price defined in the supplier record)
+IDS_PRIX_HORS_VITRAGE	Prices without glazing
+IDS_PRIX_IMPOSE	Fixed price
+IDS_PRIX_MIN	Min price
+IDS_PRIX_MINIMUM	Minimum price
+IDS_PRIX_MINIMUM_TARIF	Minimum price: list
+IDS_PRIX_MOYEN_PONDERE	Average buying price
+IDS_PRIX_NET	Net price
+IDS_PRIX_PROPORTIONNEL_LARGEUR_UTILE	Price proportional to width
+IDS_PRIX_REVIENT	Cost price
+IDS_PRIX_REVIENT_ALVEOLE	Price per cell
+IDS_PRIX_REVIENT_COURANT	Current cost price
+IDS_PRIX_REVIENT_TARIF	List cost price
+IDS_PRIX_TARIF	Cost price
+IDS_PRIX_VENTE	Selling price
+IDS_PRIX_VENTE_CONVENUS	Agreed selling price
+IDS_PRIX_VENTE_NEGOCE	List selling price
+IDS_PRIX_VITRAGES_SEPAREMENT	Price of glazings
+IDS_PRIX_VITRAGE_SEUL	Glazing price
+IDS_PRIX_VOLETS_SEPAREMENT	Price of roller shutters
+IDS_PRIX_m²_TARIF	Price/m²: List
+IDS_PRNCANCEL	Printing canceled
+IDS_PRNERRORCAPTION	Print Error
+IDS_PRNERRORTEMPLATE	'%s' not printed. %s.
+IDS_PRNGENERROR	Error encountered during print
+IDS_PRNMGRABORT	Printing aborted in Print Manager
+IDS_PRNON	 on 
+IDS_PRNOUTOFDISK	Out of disk space
+IDS_PRNOUTOFMEMORY	Out of memory
+IDS_PROBLEME_ACCES_TARIF	Problem accessing the selected price list
+IDS_PROBLEME_CALCUL_DIMENSION	Problem computing the dimension
+IDS_PROBLEME_DBDEVIS	Problem occurred while making the database for WinPro/D. The program will end.
+IDS_PROCEDUREINCONNUE	Unknown procedure
+IDS_PRODUITS_VENDUS	Products sold
+IDS_PROF	Professional
+IDS_PROFESSIONNEL	Professional
+IDS_PROFIL	Profile
+IDS_PROFILINACCESSIBLE	This profile code is not correct
+IDS_PROFILINEXISTANT	Profile %s does not exist
+IDS_PROFILPRINCIPAL	Main profile
+IDS_PROFILS	Profiles
+IDS_PROFILS_COMPLEMENTAIRES	Additional profiles
+IDS_PROFILS_PERIPHERIQUES	Peripheral profiles
+IDS_PROFIL_COMPOSE	Composed Profile
+IDS_PROFIL_EXTERIEUR_1	Outer Profile 1
+IDS_PROFIL_EXTERIEUR_2	Outer Profile 2
+IDS_PROFIL_INTERIEUR_1	Inner Profile 1
+IDS_PROFIL_INTERIEUR_2	Inner Profile 2
+IDS_PROFIL_PERIPHERIQUE_HORS_TARIF	Peripheral profile has no price
+IDS_PROFONDEUR_FRAISAGE	Milling depth
+IDS_PROF_EXT	Ext. prof..
+IDS_PROF_INT	Int.prof.
+IDS_PROLONGER_CRX_CRX_VERTIC	Continue vertical glazing bars on impost
+IDS_PROLONGER_TOUT_CRX_VERTIC	Continue transoms, French mullions and vertical glazing bars on impost
+IDS_PROLONGER_TRAV_CRX_VERTIC	Continue transoms and French mullions on impost
+IDS_PROPORTIONVITRAGEDEPASSEE	Overflow of width/height proportion
+IDS_PROPORTION_LH_MAX	Max W/H proportion
+IDS_PROPOSITIONCOMMANDE	Order proposition
+IDS_PROPOSITIONCOMMANDEFOURNISSEUR	Supplier order proposition
+IDS_PROPOSITIONENREGISTREE	The proposition has been saved as order # 
+IDS_PROPRETE	Cleanliness
+IDS_PROSPECT	Prospect
+IDS_PROSPECTS	Prospects
+IDS_PRTARIF	List CP
+IDS_PR_CHANTIER	Installation cost
+IDS_PR_COURANT_VITRAGE	Current glass cost price for supplier #1#
+IDS_PR_POSE	Inst. cost
+IDS_PR_PROD	Prod. cost
+IDS_PR_PRODUCTION	Production cost
+IDS_PR_TARIF_VITRAGE	List glass cost price for supplier #1#
+IDS_PR_TOT	Total cost
+IDS_PVBRUT	Gross S.P
+IDS_PVENTE	Selling pr.
+IDS_PVNET	Net S.P
+IDS_QTE	Qty
+IDS_QTE/CASIER	Qty / box
+IDS_QTECDEE	Ordered qty
+IDS_QTERECUE	Recvd qty
+IDS_QTE_AFABRIQUER	Qty to produce
+IDS_QTE_ALIVRER	Qty to deliver
+IDS_QTE_A_FACTURER	Qty to invoice
+IDS_QTE_CASIER	Qty in boxes
+IDS_QTE_FABRIQUEE	Qty produced
+IDS_QTE_FACTUREE	Qty invoiced
+IDS_QTE_LAQUE	Varnish quantity
+IDS_QTE_LIVREE	Delivered qty
+IDS_QTE_MIN	Min.qty
+IDS_QTE_STOCK	Qty in store
+IDS_QUAI_CHARGEMENT	Load pier
+IDS_QUALITE	Quality
+IDS_QUALITE_ET_QUANTITE	Quality and quantity
+IDS_QUANTITE	Quantity
+IDS_QUANTITETROPIMPORTANTE	Attention ! Quantity seems too big !
+IDS_QUANTITE_PAR_DEFAUT	Set quantity as default
+IDS_QUANTITE_TOTALE:	Total quantity:
+IDS_QUELS_FOURNISSEURS	Which suppliers?
+IDS_QUERYETAT	Looking up unfinished windows
+IDS_QUESTION	Question
+IDS_QUESTIONS	Questions
+IDS_QUESTIONSDORMANT	Outer frame questions
+IDS_QUE_REMPLACER	Replace what ?
+IDS_QUINC	Fitting
+IDS_QUINCAILLERIE	Fitting
+IDS_QUINCAILLERIES	Fittings
+IDS_QUINCAILLERIE_HORS_TARIF	No price for fitting
+IDS_QUITTER	Quit
+IDS_R4	D4
+IDS_R4_CUMULATIVE	Cumulative D4
+IDS_R4_SUBSTITUTIVE	Substitutive D4
+IDS_RAL	RAL
+IDS_RAL1COUL	<RAL 1 CLR>
+IDS_RAL2COUL	<RAL 2 CLRS>
+IDS_RAL_1_COULEUR	RAL 1 colour
+IDS_RAL_2_COULEURS	RAL 2 colours
+IDS_RAL_EXT	Out. RAL clr
+IDS_RAL_INT	Inn. RAL clr
+IDS_RAL_STANDARD_1_COULEUR	Standard RAL 1 colour
+IDS_RAL_STANDARD_2_COULEURS	Standard RAL 2 colours
+IDS_RAPPELFOURNISSEUR	List of back-orders
+IDS_RAPPEL_PALETTES	List of racks at customers
+IDS_RAPPORT_MAXIMUM_LARGEUR/HAUTEUR	Maximum ratio witdh/height
+IDS_RAREMENT	Seldom
+IDS_RAZRESCLI	Cancel customer reservations
+IDS_RAZ_STOCK	Reduce stock to 0
+IDS_RAZ_TOTALE_STOCK	Setting the complete stock to ZERO!!!.  Please confirm ?
+IDS_RAZ_TOUT_STOCK	Zero all stock
+IDS_REACTIVATION_CONFIRMATION	Reactivation of orders on hold 
+IDS_RECALCULER	Recompute
+IDS_RECALCULER_DEVIS	Recompute prices?
+IDS_RECALC_SELECTION	Recalc. selection
+IDS_RECAPITULATIF	Summary
+IDS_RECAPITULATIFS	Summaries
+IDS_RECAP_CHASSIS	Windows summary
+IDS_RECAP_PAR_SECTION	Summary /section - order
+IDS_RECEPTIONCOMMANDEFOURNISSEUR	Delivery reception
+IDS_RECEPTIONCOMMANDENO	Reception of order #
+IDS_RECEPTION_CDE_FOURN	Order reception
+IDS_RECEPT_CHANT	Close out
+IDS_RECHERCHE	Look up
+IDS_RECHERCHE_COMMANDES	Search for orders
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES	Search for sent confirmations
+IDS_RECHERCHE_CONFIRMATIONS_ENVOYEES_AVANT	Search confirmations sent before
+IDS_RECHERCHE_DE	Look up «#1#»
+IDS_RECHERCHE_DEPUIS	Search since
+IDS_RECHERCHE_ETATS_CHASSIS	Check status of windows
+IDS_RECONFIRMER	Reconfirm
+IDS_RECORDLOCKEDBYOTHER	Record locked by another user. Retry?
+IDS_RECOUVREMENTOUVRANTDORMANT	Sash on frame overlap
+IDS_RECOUVREMENTOUVRANTDORMANTBAS	Bottom sash over frame overlap
+IDS_RECOUVREMENT_FIXE	No variable overlapping
+IDS_RECOUVREMENT_OUVRANT/DORMANT	Frame/sash overlapping
+IDS_RECTANGLES	Rectangles
+IDS_RECU	Received
+IDS_REDESSINER	Redraw
+IDS_REEL	Actual
+IDS_REENREGISTRERCOMMANDE	(Re)save this order  ?
+IDS_REFERENCE	Reference
+IDS_REFERENCECLIENT	Customer reference
+IDS_REFERENCEINCONNUE	Unknown reference
+IDS_REHAUSSE	Peripheral profile
+IDS_REHAUSSES	Peripheral profiles
+IDS_REHAUSSES_SEUILS	Peripheral profiles and sills
+IDS_REHAUSSE_PAS_A_DROITE	Profile #1# may not be located on the right side of the window
+IDS_REHAUSSE_PAS_A_GAUCHE	Profile #1# may not be located on the left side of the window
+IDS_REHAUSSE_PAS_EN_BAS	Profile #1# may not be located on the bottom side of the window
+IDS_REHAUSSE_PAS_EN_HAUT	Profile #1# may not be located on the top side of the window
+IDS_REIMPRESSION	Reprint
+IDS_REIMPRESSION_CONFIRMATIONS	Reprint confirmations
+IDS_REIMPRESSION_OPTIMISATION	Reprint optimization labels
+IDS_REIMPRIMER_CONFIRMATIONS	Reprint confirmation
+IDS_REINDEXATION	Reindexing
+IDS_REINDEXATION_FICHIERS	Database reindex
+IDS_REJET_D_EAU	Weather bar
+IDS_RELANCE_OPTIMISATION	Re-optimization
+IDS_RELATIONS	Relations
+IDS_REM	% Disc
+IDS_REMARQUE	Remark
+IDS_REMISE	Discount
+IDS_REMISES	Discounts
+IDS_REMISE_%	Discount (%)
+IDS_REMISE_1	Discount 1
+IDS_REMISE_2	Discount 2
+IDS_REMISE_3	Discount 3
+IDS_REMISE_ACCORDEE	Granted discount
+IDS_REMISE_A_ZERO	Zero stock
+IDS_REMISE_COMPLEMENTAIRE	Additional discount
+IDS_REMISE_DEDUITE	Hidden discount
+IDS_REMISE_MATIERE	Discount on production
+IDS_REMISE_MAXI	Max. discount
+IDS_REMISE_POSE	Discount on installation
+IDS_REMISE_REC	Discount (Win;Shu;Gla)
+IDS_REMISE_REPERE	Discount per window
+IDS_REMISE_REPERE_COMMANDE_FABRICANT	Discount per window on orders
+IDS_REMISE_REPERE_PAR_DEFAUT	Discount/position
+IDS_REMISE_SUR_COUTS_PRODUCTION	Discounts on production costs
+IDS_REMISE_TOTALE	Total discount
+IDS_REMPLACEMENT	Replacement
+IDS_REMPLACEMENT_ELEMENT	Replace a component
+IDS_REMPLACER	Replace
+IDS_REMPLIRPARTIEVIDE	Fill empty part
+IDS_REMPLISSAGE	Filling type
+IDS_REMPLISSAGES	Fillings
+IDS_REMPLISSAGES_PAR_DEFAUT	Set fillings as default
+IDS_REMPLISSAGE_BAS_GAUCHE	Filling below or to the left\nType
+IDS_REMPLISSAGE_HAUT_DROITE	Filling above or to the right\nType
+IDS_REM_VITR	Glass disc.
+IDS_REM_VITR_2	Glass disc. 2
+IDS_REM_VITR_3	Glass disc. 3
+IDS_REM_VOLET	Roll.shut.disc
+IDS_REM_VOLET_2	Roll.shut.disc 2
+IDS_REM_VOLET_3	Roll.shut.disc 3
+IDS_RENAME	Rename
+IDS_RENFORT	Reinforcement
+IDS_RENFORTMAUCLAIR	Mullion reinforcement
+IDS_RENFORTREHAUSSE	Peripheral profile reinforcement
+IDS_RENSEIGNEMENTS	Informations
+IDS_RENSEIGNEMENTS_FACULTATIFS	Optional information
+IDS_RENSEIGNEMNENTS	Informations
+IDS_REOPTIMISATION_ANTICIPEE	Re-optimize special windows
+IDS_REOPTIMISATION_DES_PRECADRES	Re-optimize pre-frames
+IDS_REPART	Distribute
+IDS_REPARTIR	Distribute
+IDS_REPARTIR_CHUTES_RAL	Distribute RAL wastes
+IDS_REPARTITION	Load balance
+IDS_REPARTITION_COMMANDES	Distribute orders
+IDS_REPARTITION_DES_COUTS	Cost distribution /section
+IDS_REPERE	Window ID
+IDS_REPRESENTANT	Salesman
+IDS_REPRESENTANTS	Salesmen
+IDS_REP_FACT_PARTIELLE	Reprint partial invoice
+IDS_REP_LIV_PARTIELLE	Reprint partial delivery
+IDS_REP_MAJDB	Update from %d.%d.%d to %d.%d.%d on %s at %s
+IDS_RESERVATION	Reservation
+IDS_RESERVATIONS	Reservations
+IDS_RESERVATIONS_CLIENTS	Customer reservations
+IDS_RESERVE	Reserved
+IDS_RESPECTER_CASSE	Ignore case
+IDS_RESPONSABLE	Main contact
+IDS_RESPONSABLE_RECEPTION	Delivery manager
+IDS_RESP_COMMERCIAL	Sales manager
+IDS_RESP_FINANCIER	Financial manager
+IDS_RESP_POSE	Installation manager
+IDS_RESP_TECHNIQUE	Technical manager
+IDS_RESTAURER_STOCK_CHUTE_IMPOSSIBLE	Impossible to restore the waste stock!!
+IDS_RESULTATS	Results
+IDS_RETOURNABLE	Can be rotated
+IDS_RETOURNER	Flip
+IDS_RETOURNER_HORIZONTALEMENT	Flip Horizontal
+IDS_RETOURNER_RAL_BICOLORE	Reverse clrs if RAL 2 clrs
+IDS_RETOURNER_VERTICALEMENT	Flip Vertical
+IDS_RETOUR_PALETTES	Racks return
+IDS_RETRAIT_SOUDURE	Welding loss
+IDS_RETRIER_LOT(S)	Re-sort job(s)
+IDS_RIB_1	Bank 1
+IDS_RIB_2	Bank 2
+IDS_RIB_3	Bank 3
+IDS_ROTATION	Rotation
+IDS_ROUGE	Red
+IDS_ROUTINE	Subroutine
+IDS_ROUTINES	Sub-routines
+IDS_RUE	Street
+IDS_RUE2	Street 2
+IDS_SAISIE_SIMPLIFIEE	Simplified input
+IDS_SALLE_EXPO	Show room
+IDS_SAMEDI	Saturday
+IDS_SAMEDI_ABR	Sat
+IDS_SANSTVA	No VAT
+IDS_SANS_COULEUR	No colour
+IDS_SANS_LISTE_CHARGEMENT	No loading list
+IDS_SANS_PRIX	No price
+IDS_SANS_SEGMENTATION	No segmentation
+IDS_SANS_VOLET	No roller shutter
+IDS_SAUVEMODIF	Save changes ?
+IDS_SAV	After sales service
+IDS_SAVE	Save
+IDS_SCIE	Saw
+IDS_SCIES	Saws
+IDS_SCIE_ALT	Saw 2
+IDS_SECTION	Section
+IDS_SECTIONS	Sections
+IDS_SECTION_FIXE	Fixed section
+IDS_SEEK	Seek
+IDS_SELECTALL	Select all
+IDS_SELECTION	Selection
+IDS_SELECTIONNER_CAT_ART_RAZ	Pick which categories will be zeroed
+IDS_SELECTIONNEZ_DORMANTS	Select which frames to use
+IDS_SELECTIONNEZ_OUVRANTS	Select which sashes to use
+IDS_SELECTIONNEZ_SYSTEMES	Select which systems to use
+IDS_SELECTIONNEZ_TARIF	No sales margin selected
+IDS_SELECTIONS	Selections
+IDS_SELECTION_BIBLIOTHEQUE	Library - select a window
+IDS_SELECTION_RAPIDE	Quick selection
+IDS_SELECTION_RAZ	No category selected
+IDS_SELECTION_SYSTEME	Select system
+IDS_SELECTUN	You must select a single line
+IDS_SEM	Week
+IDS_SEMAINE	Week
+IDS_SEMAINELIVRAISON	Delivery week
+IDS_SEMAINES	Weeks
+IDS_SEMAINE_ANNEE_LIVRAISON	Week / year of delivery
+IDS_SEMAINE_LIVRAISON_DE	Delivery week from
+IDS_SENDPOLYPANEMAIL	Are you sure you want to send your file by mail ?
+IDS_SENS	Direction
+IDS_SENS_OUVERTURE	Opening direction
+IDS_SEPARATION_1/2	Between 1/2
+IDS_SEPARATION_2/3	Between 2/3
+IDS_SEPARATION_3/4	Between 3/4
+IDS_SEPARATION_4/5	Between 4/5
+IDS_SEPARATION_5/6	Between 5/6
+IDS_SEPARATION_6/7	Between 6/7
+IDS_SEPTEMBRE	September
+IDS_SEPTEMBRE_ABR	Sep
+IDS_SEUIL	Sill
+IDS_SEUIL_CHASSIS	Window sill
+IDS_SEUIL_PORTE	Door sill
+IDS_SEUIL_PORTE_AVEC_REDUCTION	Door sill (inside frame)
+IDS_SEUIL_PORTE_SANS_REDUCTION	Door sill (under frame)
+IDS_SHAPE_INDEX_OUT_OF_BOUND	Shape index is out of bound
+IDS_SHAPE_NOT_CREATED	The shape could not be created (incorrect parameters)
+IDS_SHORT_DATE	DD/MM/YY
+IDS_SIGNALETIQUES	Descriptions
+IDS_SIGNATURE	Signature
+IDS_SIRET	Siret
+IDS_SITE	Production site
+IDS_SITEL	Site
+IDS_SITELIVR	Deliv. site
+IDS_SITE_INTERNET	Web site
+IDS_SITE_LIVRAISON	Delivery location
+IDS_SITUATION	Situation
+IDS_SITUATION_MACONNERIE	Wall configuration
+IDS_SI_DEPASSEMENT_UTILISER	If too large use:
+IDS_SI_INDIQUE	If selected
+IDS_SI_LONGUEUR_<	If length <
+IDS_SI_NON_INDIQUE	If not selected
+IDS_SLIVR	Del.w.
+IDS_SOCIETE	Company
+IDS_SOCIETE_NO_DEFINE	Company information undefined
+IDS_SOLDE	Remaining
+IDS_SORTIE	Outgoing
+IDS_SORTIES	Outgoing
+IDS_SOURCE	Source
+IDS_SOUSLAME	Bottom lath
+IDS_SOUSLOT	Sub job
+IDS_SOUSTOTAL	Subtotal
+IDS_SOUS_GROUPE_PRODUIT	Product  subgroup
+IDS_SOUS_LOT_PRECEDENT	Previous sub job
+IDS_SOUS_LOT_SUIVANT	Next sub job
+IDS_SOUS_TITRE	Subtitle
+IDS_SOUS_TRAITANT_ACCEPTE	By contractee
+IDS_SOUS_TRAITER_LAQUAGE	Varnished by external supplier
+IDS_SOUVENT	Often
+IDS_SPECIFIER_COULEUR_CROISILLON	Specify the colour of glazing bars
+IDS_STANDARD	Standard
+IDS_STATUT	Status
+IDS_STKCH	W.stk
+IDS_STOCK	Stock
+IDS_STOCKAGE_CASIERS	Storage in stock boxes
+IDS_STOCKAGE_CHUTES	Waste storage
+IDS_STOCKAGE_COUPE	Profiles storage
+IDS_STOCKER	Save
+IDS_STOCKMINMAX	Min/max stock
+IDS_STOCKPREVISIONNEL	Stock forecast
+IDS_STOCKTOTAL	Total stock
+IDS_STOCK_ACTUEL	Current stock
+IDS_STOCK_CHUTES	Waste stock
+IDS_STOCK_INFERIEUR_A_0	Stock below 0
+IDS_STOCK_METRES	Stock in meter
+IDS_STOCK_MINIMUM/MAXIMUM	Minimum/maximum stock
+IDS_STOCK_NEGATIF	Negative stock
+IDS_STOCK_PRINCIPAL	Main stock
+IDS_STOCK_SUPERIEUR_0	Stock above 0
+IDS_STOCK_SUP_OU_EGAL_0	Positive stock
+IDS_STOP!	Stop!
+IDS_STYLE	Style
+IDS_SUPPLEMENT	Additional price
+IDS_SUPPLEMENT_ALIGNEMENT_PR	Extra cost price for alignment
+IDS_SUPPLEMENT_FORFAITAIRE	Additionnal price
+IDS_SUPPRESSION	Delete
+IDS_SUPPRESSIONARTICLE	Delete article
+IDS_SUPPRESSIONBIBLIOTHEQUE	Delete a library
+IDS_SUPPRESSIONCOMMANDE	Delete this order?
+IDS_SUPPRESSIONCOMMANDECOMPLETE	Delete the whole order ?
+IDS_SUPPRESSIONHISTORIQUE	Delete history ?
+IDS_SUPPRESSIONPROFIL	Delete profile
+IDS_SUPPRESSIONRECORD	Remove record '#1#'?
+IDS_SUPPRESSIONTARIFCOMPLET	Delete price list ?
+IDS_SUPPRESSION_CHANTIER	Deletion of a job reference
+IDS_SUPPRESSION_CHUTES	Delete waste ?
+IDS_SUPPRESSION_IMPOSSIBLE	Impossible to delete now
+IDS_SUPPRIMECHASSIS	Please confirm deleting this window ?
+IDS_SUPPRIMER	Delete
+IDS_SUPPRIMERENSEMBLE	Please confirm deleting the complete window set
+IDS_SUPPRIMERVARIANTES	This operation will delete all variants? Please confirm.
+IDS_SUPPRIMER_GRILLE	Delete this price table ?
+IDS_SUPPRIMEVOLET	Please confirm deleting this roller shutter ?
+IDS_SUPPR_COMMANDES	Order deletion
+IDS_SURCOTE	Extra len.
+IDS_SURFACE	Surface
+IDS_SURFACES	Surfaces
+IDS_SURFACEVITRAGETROPGRANDE	Surface of the glazing is too large
+IDS_SURFACE_MAXIMUM	Maximum surface
+IDS_SURFACE_MAXIMUM(m²)	Maximum surface (m²)
+IDS_SURFACE_TOTALE	Total surface
+IDS_SURF_MAX	Max surface
+IDS_SUR_CHANTIER	on site
+IDS_SUR_DOCUMENTS_ATELIER	on factory documents
+IDS_SUR_DOCUMENTS_CLIENT	on customer documents
+IDS_SUR_GRILLES_TARIF	Added to price table only
+IDS_SUR_MESURE	Standard / on measure
+IDS_SUR_PRIX_COURANT	on current price
+IDS_SYMBOLESOUVERTURE	Fitting symbols
+IDS_SYMBOLE_B	Symbol B
+IDS_SYMBOLE_D	Symbol R
+IDS_SYMBOLE_G	Symbol L
+IDS_SYMBOLE_GRAPHIQUE	Graphic symbol
+IDS_SYMBOLE_H	Symbol T
+IDS_SYSTEME	System
+IDS_SYSTEMEPRINCIPAL	Main system
+IDS_SYSTEMES	Systems
+IDS_TABLE	Table
+IDS_TABLES_A_TRAITER	Tables to update
+IDS_TABLE_PARCLOSE	Glazing beads table
+IDS_TABLE_PRIX_REVIENT	Price table
+IDS_TABLIER	Shutter curtain
+IDS_TABLIERS	Shutter curtains
+IDS_TABLIERTROPHAUTPOURCAISSON	The shutter curtain is too high for this box
+IDS_TABLIER_1	Shutter curtain 1
+IDS_TABLIER_HORS_TARIF	No price for roller shutter
+IDS_TAILLE	Size
+IDS_TARIF	Price list
+IDS_TARIFS	Price lists
+IDS_TARIFS_CHASSIS	Window price lists
+IDS_TARIFS_VOLETS	Roller shutters price lists
+IDS_TARIFVOLET	Roller shutter price list
+IDS_TARIF_ASCII	ASCII output
+IDS_TARIF_FORMAT_ASCII	Price list in ASCII-format
+IDS_TARIF_MAIN_DOEUVRE	Labour pricing
+IDS_TARIF_MO	Labour pricing
+IDS_TARIF_SPEC	Price list (*.TXT)|*.TXT|
+IDS_TAUX	Rate
+IDS_TAUX1_EN_%	Tax 1 (in %)
+IDS_TAUX2_EN_%	Tax 2 (in %)
+IDS_TAUX_CHANGE	Rate
+IDS_TAUX_CHUTE	Waste rate
+IDS_TAUX_EN_%	Tax (in %)
+IDS_TAUX_TVA	VAT codes
+IDS_TECHNIQUE	Technical data
+IDS_TEINTE_RAL	RAL colour
+IDS_TEL	Tel
+IDS_TELECOMMUNICATIONS	Telecommunications
+IDS_TELEFAX	Fax
+IDS_TELEGLASS_FILE	Previous orderhas not been sent : CONTINUE ?
+IDS_TELEPHONE	Phone
+IDS_TELEPHONEFAX	Phone and Fax
+IDS_TELEPHONES	Phones
+IDS_TELEPHONE_MOBILE	Mobile phone
+IDS_TEMPER	Temper.
+IDS_TEMPSCOIN	Corner labour
+IDS_TEMPS_BUREAU_ETUDE	Study duration
+IDS_TEMPS_POSE	Installation duration
+IDS_TEMPS_PROD	Prod. time
+IDS_TEMPS_TOTAL	Total time
+IDS_TENIRCOMPTESTOCK	Use reservations and current stock level?
+IDS_TENIR_COMPTE_DELAI_LIVRAISON	Check delivery delay for customer orders
+IDS_TERMINAL_SERVEUR	Terminal Server
+IDS_TERMINE	Finished
+IDS_TERMINE_A	Ended on %s at %s
+IDS_TESTER	Test
+IDS_TESTETIQUETTESOPTIMISATION	Test optimization labels
+IDS_TEXTE	Text
+IDS_TEXTEPASTROUVE	Text is not found
+IDS_TEXTES	Texts
+IDS_TEXTES_CONFIRMATION	Conf. texts
+IDS_TEXTES_DEVIS	Quot. texts
+IDS_TEXTES_ENGELS	Fixed quot. texts
+IDS_TEXTES_FACTURE	Inv. texts
+IDS_TEXTES_NOTEENVOI	Deliv. texts
+IDS_TEXTE_ATELIER	Text for factory
+IDS_TEXTE_A_RECHERCHER	Text to find
+IDS_TEXTE_DEBUT	Start text
+IDS_TEXTE_FIN	End text
+IDS_TEXTE_FINAL	Footer text
+IDS_TEXTE_FIN_BON_COMMANDE	Final text on supplier order
+IDS_TEXTE_OPTIONNEL	Allow input of optional text
+IDS_TEXTE_PERIODIQUE_FICHE_QUALITE	Periodic text for quality control
+IDS_TEXTE_PERIODIQUE_SUR_TOUTES_FICHES_QUALITE	Periodic text to print on all quality control documents
+IDS_TEXTE_TABLEAU	Masonry text
+IDS_TEXTURE	Texture
+IDS_TIME	Time
+IDS_TIME_OUT_OF_RANGE	This time must be between %s and %s!
+IDS_TITLE	Title
+IDS_TITRE	Title
+IDS_TITREACOMPTES	Down payment
+IDS_TITRE_GRILLE_PRIX	Table of prices for colours of group #1#
+IDS_TITRE_LST_CMPDC	Comparing quotations/offers
+IDS_TITRE_PAGE_TARIF	Title page of price list
+IDS_TOLE	Sheet
+IDS_TOLEPLIE	Folded sheet
+IDS_TOTAL	Total
+IDS_TOTALACOMPTES	Down payment total
+IDS_TOTALCOMMANDES	Orders total
+IDS_TOTALDEV	Tot. curr.
+IDS_TOTALMATIERE	Total materials
+IDS_TOTALNET	Net total
+IDS_TOTALPOSE	Installation total
+IDS_TOTALSTOCK	Total value of the stock
+IDS_TOTALTVAC	Total incl. VAT
+IDS_TOTALVITRAGE	Glazing total
+IDS_TOTAL_BON_COMMANDE	Print total price
+IDS_TOTAL_CONVENU	Agreed price
+IDS_TOTAL_GENERAL	Global sum
+IDS_TOTAL_RESERVATION	Reserved quantity
+IDS_TOTAL_SEULEMENT	Total only
+IDS_TOTAL_SUPPLEMENTS	Total of additional elements
+IDS_TOTAUX	Totals
+IDS_TOTAUX_LIGNES	Production line totals
+IDS_TOTAUX_LOTS	Totals by job
+IDS_TOTAUX_TYPE_PALETTES_DISPONIBLES	Total of each type of avaible rack
+IDS_TOTBRUT	Gross
+IDS_TOTNET	Net
+IDS_TOT_MATIERE_NET	Net total materials
+IDS_TOT_PV_BRUT	Selling price gross total
+IDS_TOT_PV_NET	Selling price net total
+IDS_TOUJOURS	Always
+IDS_TOUJOURS_2_VUES	Always 2 views
+IDS_TOURNEE	Deliv. area
+IDS_TOUS	All
+IDS_TOUS_LES_ARTICLES	All articles
+IDS_TOUT	All
+IDS_TOUTES	All
+IDS_TOUT_DESELECTIONNER	Unselect all
+IDS_TOUT_INVERSER	Reverse all
+IDS_TOUT_SEL.	Select all
+IDS_TOUT_SELECTIONNER	Select all
+IDS_TO_PAGE	to %d of
+IDS_TRAD	Transl.
+IDS_TRADUCTION	Translation
+IDS_TRADUCTIONS	Translations
+IDS_TRAITE	IOU
+IDS_TRAITEANJOURS	IOU %d days
+IDS_TRAITEMENTENCOURS	Computing...
+IDS_TRAITER_TOUS_FOURNISSEURS	(All suppliers will be handled if you type nothing here)
+IDS_TRAIT_SCIE	Saw thickness
+IDS_TRANSFERER_CLIENTS	Transfer customers
+IDS_TRANSFERT	Transfer
+IDS_TRANSFERTS	Transfers
+IDS_TRANSFERTSTOCK	Stock transfer
+IDS_TRANSFERT_EN_CLIENT	Transfert -> customer
+IDS_TRANSFO_PROSPECT_CLIENT	Convert a prospect to a customer
+IDS_TRANSLATE	Translate
+IDS_TRANSNAVIBAT	Navibat transfer
+IDS_TRANSNAVISION	Navison transfer
+IDS_TRANSPORTEUR	Transporter
+IDS_TRAVAILLER_EN_PRIX_COURANT	Use current prices
+IDS_TRAVAILLER_EN_PRIX_TARIF	Use list price
+IDS_TRAVERSE	Transom
+IDS_TRAVERSEINEXISTANTE	This transom does not exist
+IDS_TRAVERSES	Transoms
+IDS_TRAVERSES_HORIZONTALES_ENTIERES	Main bars are horizontal
+IDS_TRAVERSES_VERTICALES_ENTIERES	Main bars are vertical
+IDS_TRAVERSE_DORMANT	Outer frame transom
+IDS_TRAVERSE_HORS_TARIF	No price for transom
+IDS_TRAVERSE_ISOLEE	Standalone
+IDS_TRAVERSE_OUVRANT	Sash transom
+IDS_TRAVERSE_PAR_DEFAUT	Default transom
+IDS_TRAVERSE_S_	Transom(s)
+IDS_TRI	Sort
+IDS_TRIDECOUPE	Sort after cut
+IDS_TRIMESTRE	Quarter
+IDS_TRIVITRAGE	Glass sorting
+IDS_TRI_CODE_ARTICLE	Sort by article code
+IDS_TRI_EMPLACEMENT	Sort by store
+IDS_TRI_PAR_COMMANDE	Sort by order
+IDS_TROPHAUTPOURCAISSON	Roller shutter too high
+IDS_TROP_DE_DIMENSIONS	Too many dimensions (#1#, maximum #2#)!
+IDS_TVA	VAT
+IDS_TVAPOSE	Installation VAT
+IDS_TYPE	Type
+IDS_TYPECRX	Glazing bar type
+IDS_TYPEDIM	Meas. type
+IDS_TYPEDOC	Document type
+IDS_TYPEOUVRANT	Sash type
+IDS_TYPES	Types
+IDS_TYPETRANSPORT	Transport type
+IDS_TYPE_ASSEMBLAGE	Type of connection
+IDS_TYPE_CLIENT	Customer type
+IDS_TYPE_CODE_BARRE_INCOMPATIBLE	The chosen barcode type is not compatible with this function!
+IDS_TYPE_COLIS	Package type
+IDS_TYPE_COLIS_LONGUEUR_ENTIERE	Package type (full length)
+IDS_TYPE_COMMANDE	Order type
+IDS_TYPE_CONTROLE	Control type
+IDS_TYPE_DIMENSION	Dimension type
+IDS_TYPE_LIVRAISON	Delivery type
+IDS_TYPE_MARCHE	Market type
+IDS_TYPE_MOUVEMENT	Movement types
+IDS_TYPE_PRODUIT	Product type
+IDS_TYPE_REMPLISSAGE	Filling type
+IDS_TYPE_SAISIE	Input mode
+IDS_TYPE_SOCIETE	Company type
+IDS_TYPE_TARIF	Price code
+IDS_UNABLELOCK	Unable to lock file
+IDS_UNABLEREAD	Unable to read file %s from disk.
+IDS_UNABLEWRITE	Unable to write file %s to disk.
+IDS_UNDEFINED_SHAPE	Undefined shape
+IDS_UNDO	Undo
+IDS_UNEXPECTED_EXCEPTION	Unexpected exception. Program is about to terminate
+IDS_UNHANDLEDXMSG	Unhandled exception
+IDS_UNICOLORE	Unicolour
+IDS_UNIQUEMENT_PISTE	Only on track
+IDS_UNITE	Unit
+IDS_UNITES	units
+IDS_UNITE_MESURE	Unit
+IDS_UNITPRICE	U.P.
+IDS_UNKNOWNERROR	Unknown error
+IDS_UNKNOWNEXCEPTION	Unknown exception
+IDS_UNTITLED	Untitled
+IDS_UPPERCASE	UPPER CASE
+IDS_URL	Url http://
+IDS_USER	User
+IDS_USINAGE	Milling
+IDS_USINAGES	Millings
+IDS_USINAGE_ORIGINE_BAS_GAUCHE	Millings (origin at bottom left of frame)
+IDS_USINAGE_ORIGINE_GAUCHE	Millings (origin left of profile)
+IDS_USINE	Factory
+IDS_UTILE	Usable
+IDS_UTILISATEURS	Users
+IDS_UTILISATION	Usage
+IDS_UTILISER_FORMULES_DESSIN	Use drawing formulas
+IDS_UTILISER_POUR_PRIX_REVIENT	Use for cost price
+IDS_UTILISER_POUR_PRIX_VENTE	Use for selling price
+IDS_UTILISER_SCIE_N	Then use saw #
+IDS_UTILISE_COMME	Used in
+IDS_VACANCES	Holidays
+IDS_VAL.	Val.
+IDS_VALABLE_JUSQUE	Valid until
+IDS_VALCH	Waste val
+IDS_VALEUR	Value
+IDS_VALEURPARDEFAUT	Default value
+IDS_VALEURS_PAR_DEFAUT	Default values
+IDS_VALEUR_BRUTE	Gross
+IDS_VALEUR_EURO	Rate of €
+IDS_VALEUR_NETTE	Net
+IDS_VALEUR_TOTALE:	Total value:
+IDS_VALIDATION	Validation
+IDS_VALIDATION_CONFIRMATION	Technical order validation
+IDS_VALIDATION_FACTURES	Invoice validation
+IDS_VALIDATORSYNTAX	Validator syntax error
+IDS_VALIDER	Save
+IDS_VALIDER_CHASSIS	Check window [^F3]
+IDS_VALIDER_DATE	Accept date
+IDS_VALIDER_ET_IMPRIMER	Print and send
+IDS_VALIDER_SANS_IMPRIMER	Validate only
+IDS_VALIDER_STOCK_CHUTES	Accept wastes immediately
+IDS_VALIDER_VOLET	Check [^F3]
+IDS_VALID_CDE_SOUS_TRAITANTS	Validate orders to sub-contractors
+IDS_VALINVALIDCHAR	Invalid character in input
+IDS_VALNOTINLIST	Input is not in valid-list
+IDS_VALNOTINRANGE	Value is not in the range %ld to %ld.
+IDS_VALORISATION	Valued
+IDS_VALORISATION_BON_COMMANDE	Print prices on order
+IDS_VALORISATION_ENCOURS	Value of current orders
+IDS_VALORISE	With Prices
+IDS_VALORISEE	With prices
+IDS_VALPXPCONFORM	Input does not conform to picture:\n""%s""
+IDS_VANTAIL_1	Leaf 1
+IDS_VANTAIL_2	Leaf 2
+IDS_VANTAIL_3	Leaf 3
+IDS_VANTAIL_4	Leaf 4
+IDS_VANTAIL_5	Leaf 5
+IDS_VANTAIL_6	Leaf 6
+IDS_VANTAIL_7	Leaf 7
+IDS_VANTAUX	Leaves
+IDS_VARIABLES	Variables
+IDS_VARIABLE_P1	(Variable: P1)
+IDS_VARIABLE_P2	(Variable: P2)
+IDS_VARIABLE_P3	(Variable: P3)
+IDS_VARIABLE_X1	(Variable: X1)
+IDS_VARIABLE_X2	(Variable: X2)
+IDS_VARIANTEPRINCIPALE	Main variant
+IDS_VARIANTE_1	Variant &1
+IDS_VARIANTE_2	Variant &2
+IDS_VARIANTE_3	Variant &3
+IDS_VARIANTE_4	Variant &4
+IDS_VARIANTE_5	Variant &5
+IDS_VARIANTE_COULEUR	Alternative Colours
+IDS_VARIANTE_VITRAGE	Alternative Glasses
+IDS_VAR_SITE	Site variables
+IDS_VENDEURS	Salesmen
+IDS_VENDREDI	Friday
+IDS_VENDREDI_ABR	Fri
+IDS_VERIF	Checked
+IDS_VERIFICATION_CASIER	Checking of stock boxes
+IDS_VERIFICATION_CONFIRMATION	Confirmation checked
+IDS_VERROUILLAGE	Locking
+IDS_VERROUILLER_MODIFICATIONS	Lock changes
+IDS_VERSION	Version
+IDS_VERSION_EXPIREE Your demo version has expired\nCall Quadrature SA (+32(0)71/349.100)
+IDS_VERSION_EXPIREE_CA	Your demo version has expired\nCall WinPro-Canada Inc. (1-514-217-7620)
+IDS_VERSION_VA_EXPIRER Your demo version is about to expire\nCall Quadrature SA (+32(0)71/349.100)
+IDS_VERSION_VA_EXPIRER_CA	Your demo version is about to expire\nCall WinPro-Canada Inc. (1-514-217-7620)
+IDS_VERT	Green
+IDS_VERTICAL	Vertical
+IDS_VERTICALE	Vertical
+IDS_VERTICALES	vertical
+IDS_VEUILLEZ_CONFIRMER_SUPPRESSION	Please confirm deletion
+IDS_VEUILLEZ_CONFIRMER_VERIF_STOCK	Please confirm the stock verification
+IDS_VEUILLEZ_PATIENTER	Please wait
+IDS_VEUILLEZ_SELECTIONNER_INCIDENT	Please select the type of incident
+IDS_VIDE_DORMANT_INCOMPATIBLE	An empty part with outer frame profile above is not possible with this transom configuration
+IDS_VIDE_VIDE_NON_RECTANGULAIRE	WinPro does not allow for non rectangular empty parts
+IDS_VISIBLE_EXTERIEUR	Visible from outside
+IDS_VISIBLE_INTERIEUR	Visible from inside
+IDS_VIT	Gla
+IDS_VITR	Glass
+IDS_VITRAGE	Glazing
+IDS_VITRAGEFABRIQUE_HORS_TARIF	Glass is not in price list
+IDS_VITRAGES	Glazings
+IDS_VITRAGESDEJACOMMANDES	The glazing were already ordered on #1# 
+IDS_VITRAGES_DEJA_COMMANDES	The glasses for this order #1# are already ordered.\nReprint this order ?
+IDS_VITRAGES_DIFFERENTS	Different glazing per line
+IDS_VITRAGES_ET_PANNEAUX	Glazings and panels
+IDS_VITRAGETROPGRAND	Glass is too large
+IDS_VITRAGETROPHAUT	Glazing too high
+IDS_VITRAGETROPLARGE	Glazing too wide
+IDS_VITRAGE_COMPOSE	Composed glass
+IDS_VITRAGE_FABRIQUE	Composed glass
+IDS_VOIRPAGE	See page %d
+IDS_VOL	RSh.
+IDS_VOLET	Roller shutter
+IDS_VOLETNONREALISABLE	This roller shutter cannot be made
+IDS_VOLETS	Roller shutters
+IDS_VOLET_SEUL	Standalone roller shutter
+IDS_VOLUME	Vol.
+IDS_VOSREFERENCES	Your references
+IDS_VOUSNAVEZRIENSELECTIONNE	You selected nothing
+IDS_VUEEXTERIEURE	Outer view
+IDS_VUEINTERIEURE	Inner view
+IDS_VUES	Int/ext views
+IDS_VUE_COUPE_OUVERTURE_PORTES	Cross section representation of door opening
+IDS_VUE_DEFINIE_DANS_SYSTEME	View as defined in the system
+IDS_VUE_DESSIN_SUR_DOCUMENTS	Drawing view on documents
+IDS_VUE_INVERSEE	Reverse view
+IDS_VUE_NORMALE	Normal view
+IDS_Version démo	Demonstration version
+IDS_WARN_TERMINATION	A message 'Abnormal program termination' will appear. This message is normal.
+IDS_WINDIFFUS	WinDiffus
+IDS_WINPRO/D	WinPro/D
+IDS_WORK	Labour
+IDS_WP_REPORT	WP-Report
+IDS_X_PAR_MOIS	X per month
+IDS_ZERO	= 0
+IDS_ZERO(0)	Null
+IDS_ZLIVR	Deliv.area
+IDS_ZONE	Area
+IDS_ZONELIVRAISON	Delivery area
+IDS_ZONES	Areas
+IDS_ZONES_LIVRAISON	Delivery areas
+IDS_ZONE_CHALANDISE	Sales area
+IDS_ZONE_EXCLUSIVITE	Exclusivity area
+IDS_ZONE_INFLUENCE_±	Influence area: ±
+IDS_ZONE_NON_DEFINIE	Undefined area
+IDS__AUTOMATIQUE_	<Auto.>
+IDS__CLRCAISSON_	<Box colour>
+IDS__CLRTABLIER_	<Shutter curtain colour>
+IDS__IDENTIQUE_	<Same>
+IDS_mm	mm
+IDS_mm_PART_ET_AUTRE	mm on both sides
+IDS_mm_X_HAUTEUR	mm x Height
+IDS_m²	m²
+IDS_pcdQTYnlPU	%d Q\nUP
+IDS_traverses	transoms
+IDS_¼_MM	¼ mm
+IDS_½_MM	½ mm
+IDX_CANCEL	Cancel
+IDX_CANNOT_OPEN_TABLE	Cannot open table '%s'.\nThe table may be in use on another workstation.\nWinPro cannot pack the table and indexing will terminate.
+IDX_COMPACTAGE	Packing
+IDX_COMPLETED	Completed.
+IDX_DEPUIS_UN_BACKUP	from a backup copy.
+IDX_ENTETE_FICHIER_CORROMPU	File header seems to be corrupted.
+IDX_ENTETE_FICHIER_CORROMPU_FIN_APPLICATION	File header seems to be corrupted. Application is about to shut down.
+IDX_ERREUR	Error
+IDX_ERREUR_OUVERTURE_FICHIER	Error opening file
+IDX_FICHIER_INEXISTANT	File cannot be found.
+IDX_FILE_COULD_NOT_BE_OPENED	Table could not be opened!
+IDX_FIN_TRAITEMENT	Operation completed.
+IDX_INDEXING	Indexing...
+IDX_NETTOYAGE_ACCOUVR	Cleaning up 'accouvr.dbf'
+IDX_NETTOYAGE_ART	Cleaning up 'Art.dbf'
+IDX_NETTOYAGE_ARTCDE	Cleaning up 'artcde.dbf'
+IDX_NETTOYAGE_CDELOG	Cleaning up 'cdelog.dbf'
+IDX_NETTOYAGE_CHEVALET	Cleaning up 'chevalet.dbf'
+IDX_NETTOYAGE_DET	Cleaning up 'Det.dbf'
+IDX_NETTOYAGE_DETAIL	Cleaning up 'detail.dbf'
+IDX_NETTOYAGE_DOC	Cleaning up 'Cde.dbf'
+IDX_NETTOYAGE_FEN	Cleaning up 'Fen.dbf'
+IDX_NETTOYAGE_LIN	Cleaning up 'Lin.dbf'
+IDX_NETTOYAGE_REHDORM	Cleaning up 'rehdorm.dbf'
+IDX_NETTOYAGE_TRAVDORM	Cleaning up 'travdorm.dbf'
+IDX_NETTOYAGE_TRAVOUVR	Cleaning up 'travouvr.dbf'
+IDX_NETTOYAGE_VAR	Cleaning up 'Var.dbf'
+IDX_PACK	Pack
+IDX_PACKING_DATA_FILE	Packing table...
+IDX_PACKING_FILES	Packing files
+IDX_REMOVED_RECORDS	Records have been removed from table 'compos.dbf' and placed in table 'rjcompos.dbf'\nThese records were no longer used.
+IDX_START	Start
+IDX_TABLE	Table
+IDX_VERIF_ARTICLES	Checking articles.
+IDX_VERIF_CDES_FOURN	Checking supplier orders.
+IDX_VERIF_COULEURS_PROFILS	Checking profile colors.
+IDX_VERIF_ENREG_NON_UTILISES_COMPOS	Checking unused records in compos.dbf.
+IDX_VERIF_RESERVATIONS	Checking reservations.
+IDX_VERIF_STOCK	Checking stock.
+IDX_VOUS_DEVEZ_RESTAURER	You must restore the file
+MENU_AIDE	&Help
+MENU_AUTRES_DONNEES	Miscellaneous
+MENU_CHASSIS	Window
+MENU_COMMANDE	&Orders
+MENU_CONTROLE_COUT	&Cost control
+MENU_DESSIN	Drawings
+MENU_DIVERS	Miscellaneous
+MENU_DONNEES	&Data
+MENU_DONNEES_BASE	Basic data
+MENU_EDITION	&Edit
+MENU_ENCOURS_SYSTEME	Production lists by system
+MENU_FENETRES	&Window
+MENU_FIMA	Fima
+MENU_FORMAT	&Format
+MENU_GESTION_COMMANDES	&Quotations handling
+MENU_GESTION_CONFIRMATIONS	Confirmation handling
+MENU_GESTION_LIVRAISON	Delivery handling
+MENU_GESTION_PRODUCTION	Production handling
+MENU_LISTES	&List
+MENU_LISTE_ENCOURS	&Running production
+MENU_LST_PALETTES	&List
+MENU_MVT_PALETTES	&Movements
+MENU_PRODUCTION	&Production
+MENU_RAPPORT	&Reports
+MENU_STOCK	&Stock
+MENU_TARIF	Price lists
+MENU_TECHNIQUE	&Technics
+MENU_TRANSFERT	Transfer
+MENU_UTILITAIRES	Tools
+MENU_VOLET	Roller shutter
+TBL_AccessoireBibliotheque	Accessories in libraries
+TBL_AccessoireChassis	Window accessories
+TBL_AccessoireOuvrant	Sash accessories
+TBL_Aerateur	Ventilators
+TBL_ArtPromo	Promotional articles
+TBL_Article	Base articles
+TBL_ArticleCommande	Additional supplies in orders
+TBL_ArticleCompose	Composed articles
+TBL_ArticleFournisseur	Supplier information on articles
+TBL_Atelier	Time records in factory
+TBL_BatchStock	Temporary stock movements
+TBL_Battee	Predefined reveals
+TBL_Bibliotheque	Window and shutter libraries
+TBL_CAClient	Customer turn over
+TBL_Cadre	Frames
+TBL_Caisson	Boxes
+TBL_Casier	Waste boxes
+TBL_CategorieArticle	Article categories
+TBL_CategorieClient	Customer categories
+TBL_Chauffeur	Drivers
+TBL_ChuteProfil	Profile wastes
+TBL_CliMarche	Market types
+TBL_CliVendeur	Customers' salesmen
+TBL_Client	Customers
+TBL_Coefficient	Margin coefficients
+TBL_CoinParclose	Glazing bead corners
+TBL_Colis	Packaging
+TBL_Commande	Customer orders
+TBL_CommandeFournisseur	Supplier order lines
+TBL_Composant	Components
+TBL_ConditionTransport	Transport conditions
+TBL_ConsommationMensuelle	Monthly stock usage
+TBL_Contact	Contacts
+TBL_Couleur	Colours
+TBL_CouleurComposant	Authorized colours for components
+TBL_CouleurFauxCintrage	False arches by colour
+TBL_CouleurProfil	Profile colours
+TBL_Coulisse	Shutter rails
+TBL_CoutProduction	Production cost
+TBL_Croisillon	Glazing bars
+TBL_Dessin	Drawings
+TBL_Detail	Order lines
+TBL_Detail1Bibliotheque	Windows in libraries
+TBL_Detail2Bibliotheque	Sashes and transoms in libraries
+TBL_Detail3Bibliotheque	Sash transoms in libraries
+TBL_DetailColis	Package detail
+TBL_DetailLotOptimisation	Optimisation jobs details
+TBL_DetailParclose	Glazing bead details
+TBL_DetailTarif	Windows in price lists
+TBL_DetailTarifVolet	Shutters in price lists
+TBL_DevisEtCommande	Quotations and orders statistics
+TBL_Devise	Currencies
+TBL_Dormant	Outer frames
+TBL_Dxf	DXF drawings
+TBL_Emplacement	Stock stores
+TBL_EnteteCommandeFournisseur	Supplier order headers
+TBL_Equipe	Installation and delivery teams
+TBL_FauxCintrage	False arches
+TBL_FournVitrage	Glass supplier informations
+TBL_Fournisseur	Suppliers
+TBL_GrillePrix	Price tables
+TBL_GroupeCouleur	Colour groups
+TBL_GroupeUsinage	Milling groups
+TBL_HistoFactPartielle	Invoicing history
+TBL_HistoLotNavision	History of jobs created outside WinPro
+TBL_HistoPalette	History of transport racks
+TBL_HistoriqueDevise	Currencies history
+TBL_ImportLotNavision	Imports of jobs created outside WinPro
+TBL_InfoPoste	Indormation for factory work places
+TBL_Jourchr	Closing days
+TBL_JournalMainD'Oeuvre	Labour history
+TBL_JournalStock	Stock history
+TBL_Langue	Languages
+TBL_LaqueArt	Varnished articles
+TBL_LienPoste	Link work place <-> information
+TBL_LineCapacity	Production line capacities
+TBL_LotChassis	Windows in a production job
+TBL_LotOptimisation	Production jobs
+TBL_Message	Error messages
+TBL_NormeVent	Wind norms
+TBL_NormeVerre	Glazing norms
+TBL_NumTarif	Price list numbers
+TBL_Numero	Miscellaneous numbers
+TBL_Ouvrant	Sashes
+TBL_Paiement	Payment terms
+TBL_Palette	Transport racks
+TBL_Panneau	Simple panels
+TBL_PanneauDecoratif	Decorative panels
+TBL_PanneauFabrique	Composed panels
+TBL_Parclose	Glazing beads
+TBL_Perimetre	Perimeters
+TBL_PlanningLivraisonFournisseur	Suppliers delivery planning
+TBL_Pose	Installation articles
+TBL_PosteAtelier	Factory work place
+TBL_PosteDeTravail	Labour
+TBL_PrepaLot	Prepared production jobs
+TBL_ProductionDate	Production jobs foressen dates
+TBL_ProductionLine	Production lines
+TBL_ProductionSpot	Production spots
+TBL_Profil	Profiles
+TBL_Prospect	Prospects
+TBL_Question	Questions
+TBL_Quincaillerie	Fittings
+TBL_Rehausse	Additional profiles
+TBL_RehausseBibliotheque	Additional profiles in libraries
+TBL_RehausseDormant	Additional profiles in orders
+TBL_Report	Report definitions
+TBL_ReportCfg	Documents des rapports
+TBL_Representant	Salesmen
+TBL_ReservationClient	Customer stock reservations
+TBL_Scie	Saws
+TBL_ScieProfil	Alternative saws by profile
+TBL_SelectionQuestion	Selection questions
+TBL_Societe	Company information
+TBL_StatutChassis	Window statistics
+TBL_StatutCommande	Order status history
+TBL_StatutCommandeNavision	Exported order status
+TBL_StatutLotNavision	Exported job status
+TBL_StatutRepereNavision	Exported window status
+TBL_Stock	Stock
+TBL_Sub	Routines
+TBL_Systeme	Systems
+TBL_Tablier	Shutter curtains
+TBL_Tarif	Window price lists
+TBL_TarifVolet	Shutter price lists
+TBL_Tole	Bended sheets
+TBL_Traduction	Basic translations
+TBL_TraductionQuestion	Questions translations
+TBL_TraductionSelectionQuestion	Selections translations
+TBL_Transport	Transport types
+TBL_Traverse	Transoms
+TBL_TraverseDormant	Sashes and transoms in windows in orders
+TBL_TraverseOuvrant	Transoms in sashes in orders
+TBL_TraverseOuvrantTarif	Transoms in sashes in price lists
+TBL_TraverseTarif	Sashes and transoms in windows in price lists
+TBL_TypeColis	Package types
+TBL_UserInterface	User interface informations
+TBL_Usinage	Millings
+TBL_Utilisateur	Users
+TBL_VarClient	Customer variables
+TBL_Vitrage	Glazings
+TBL_XArt	Articles in exported documents
+TBL_XDet	Window details in exported documents
+TBL_XDoc	Exported documents
+TBL_XFen	Windows in exported documents
+TBL_XLin	Window components in exported documents
+TBL_XVar	Window variants in exported documents
+TBL_ZoneLivraison	Delivery areas
+TBL_conditionlivraison	Delivery conditions
+TBL_paramRapide	Quick parameterizing
+TBL_sitelivraison	Delivery sites
+TBL_vitrecde	Glass order line
+TBL_vitrecrx	Glazing bars in glass orders
+TBL_vitrehdr	Glass order headers
+VAR_2000	ToTheRight
+VAR_2001	ToTheLeft
+VAR_2002	Perforated
+VAR_2003	HorzCells
+VAR_2004	VertCells
+VAR_2005	Angle1
+VAR_2006	Angle2
+VAR_2007	Angle
+VAR_2008	Axis
+VAR_2009	Bottom
+VAR_2010	Side
+VAR_2011	End1
+VAR_2012	End2
+VAR_2013	Frame
+VAR_2014	Center
+VAR_2015	xCenter
+VAR_2016	yCenter
+VAR_2017	Clearance
+VAR_2018	GlazingBar
+VAR_2019	Dimension
+VAR_2020	Dimension1
+VAR_2021	Dimension2
+VAR_2022	OuterFrame
+VAR_2023	OuterFrameBottom
+VAR_2024	OuterFrameRight
+VAR_2025	OuterFrameLeft
+VAR_2026	OuterFrameTop
+VAR_2027	Right
+VAR_2028	Straight
+VAR_2029	Beneath
+VAR_2030	Above
+VAR_2031	Clearance1
+VAR_2032	Clearance2
+VAR_2033	Clearance3
+VAR_2034	Clearance4
+VAR_2035	Clearance5
+VAR_2036	Clearance6
+VAR_2037	BladeThickness
+VAR_2038	ProfileThickness
+VAR_2039	GlassThickness
+VAR_2040	Shape
+VAR_2041	OuterFrameShape
+VAR_2042	SashShape
+VAR_2043	Left
+VAR_2044	Top
+VAR_2045	TopRight
+VAR_2046	Height
+VAR_2047	BoxHeight
+VAR_2048	RightHeight
+VAR_2049	LeftHeight
+VAR_2050	BladeHeight
+VAR_2051	TotalHeight
+VAR_2052	TopLeft
+VAR_2053	Horizontal
+VAR_2054	Width
+VAR_2055	BottomWidth
+VAR_2056	TopWidth
+VAR_2057	ShutterWidth
+VAR_2058	TotalWidth
+VAR_2059	Length
+VAR_2060	TopRightLength
+VAR_2061	TopLeftLength
+VAR_2062	BladeCount
+VAR_2063	ShutterCount
+VAR_2064	Orientation
+VAR_2065	Sash
+VAR_2066	Span
+VAR_2067	Parameter
+VAR_2068	Weight
+VAR_2069	WeightPerM2
+VAR_2070	ShutterWeight
+VAR_2071	DoorToRight
+VAR_2072	DoorToLeft
+VAR_2073	Leaf
+VAR_2074	Quantity
+VAR_2075	Radius
+VAR_2076	Overlapping
+VAR_2077	Direction
+VAR_2078	Sill
+VAR_2079	SimpleDoor
+VAR_2080	HandlingPosition
+VAR_2081	Surface
+VAR_2082	Transom
+VAR_2083	LeftTransom
+VAR_2084	RightTransom
+VAR_2085	Vertical
+VAR_2086	Simple
+VAR_2087	Multiple
+VAR_2088	Milling
+VAR_2089	ReplaceWith
+VAR_2090	RightExtensor
+VAR_2091	LeftExtensor
+VAR_2092	Mullion
+VAR_2093	BesideADoor
+VAR_2094	SegmentCount
+VAR_2095	ShutterIndex
+VAR_2096	SillHeight
+VAR_2097	LeafCount
+VAR_2098	BuiltIn
+VAR_2099	RollerShutterOnly
+VAR_2100	HasRollerShutter
+VAR_2101	TopProfile
+VAR_2102	BottomProfile
+VAR_2103	LeftProfile
+VAR_2104	RightProfile
+VAR_2105	StartAngle
+VAR_2106	EndAngle
+VAR_2107	DimA
+VAR_2108	DimB
+VAR_2109	DimC
+VAR_2110	DimD
+VAR_2111	DimE
+VAR_2112	DimF
+VAR_2113	DimG
+VAR_2114	DimH
+VAR_2115	FullBowLeaf
+VAR_2116	FalseArchShape
+VAR_2117	Thickness
+VAR_2118	SashReinforcement
+VAR_2119	OuterFrameReinforcement
+VAR_2120	MullionReinforcement
+VAR_2121	BottomHeight
+VAR_2122	TopHeight
+VAR_2123	RightWidth
+VAR_2124	LeftWidth
+VAR_2125	AboveADoor
+VAR_2126	HasTransom
+VAR_2127	Assembly
+VAR_2128	Assembly1
+VAR_2129	Assembly2
+VAR_2130	Miter
+VAR_2131	StraightShort
+VAR_2132	StraightLong
+VAR_2133	Profile1Thickness
+VAR_2134	Profile2Thickness
+VAR_2135	Chamber
+VAR_2136	Chamber1
+VAR_2137	Chamber2
+VAR_2138	NoAssembly
+VAR_2139	ExtDimension
+VAR_2140	ExtWidth
+VAR_2141	ExtHeight
+VAR_2142	Perimeter
+VAR_2143	NoGlass
+VAR_2144	AboveVoid
+VAR_2145	BesideVoid
+VAR_2146	VoidToRight
+VAR_2147	VoidToLeft
+VAR_2148	ShortFrame
+VAR_2149	ShortTransom
+VAR_2150	FrameDimension
+VAR_2151	InteriorWidth
+VAR_2152	InteriorHeight
+VAR_2153	CutView
+VAR_2154	SashType
+VAR_2155	Door
+VAR_2156	Fixed
+VAR_2157	Window
+VAR_2158	CrossSectionPosition
+VAR_2159	FalseArchHeight
+VAR_2160	OppositeDirection
+VAR_2161	Absolute
+VAR_2162	ArticleWidth
+VAR_2163	ArticleHeight
+VAR_2164	SashFrame
+VAR_2165	SegmentIndex
+VAR_2166	SegmentType
+VAR_2167	SegmentDim
+VAR_2168	SegmentAssembly1
+VAR_2169	SegmentAssembly2
+VAR_2170	BetweenSegments
+VAR_2171	SubSegmentsCount
+VAR_2172	Normal
+VAR_2173	Reversed
+VAR_2174	NormalT
+VAR_2175	ReversedT
+VAR_2176	NormalZ
+VAR_2177	ReversedZ
+VAR_2178	SegmentAngle1
+VAR_2179	SegmentAngle2
+VAR_2180	BottomPosition
+VAR_2181	LeftPosition
+VAR_2182	TopOverlapping
+VAR_2183	BottomOverlapping
+VAR_2184	LeftOverlapping
+VAR_2185	RightOverlapping
+VAR_2186	TopLeftOverlapping
+VAR_2187	TopRightOverlapping
+VAR_2188	AirSpace
+VAR_2189	GlassThicknessCount
+VAR_2190	RevealWidth
+VAR_2191	RevealHeight
+VAR_2192	VoidHeight
+VAR_2193	VoidRightOfSegment
+VAR_2194	VoidLeftOfSegment
+VAR_2195	Discount
+VAR_2196	Discount2
+VAR_2197	RollerShutterDiscount
+VAR_2198	RollerShutterDiscount2
+VAR_2199	Maker
+VAR_2200	SubMaker
+VAR_2201	Seller
+VAR_2202	JobOrder
+VAR_2203	SmallerHeight
+VAR_2204	LargerHeight
+VAR_2205	FrameXCenter
+VAR_2206	FrameYCenter
+VAR_2207	FrameSpan
+VAR_2208	FrameRadius
+VAR_2209	FrameStartAngle
+VAR_2210	FrameEndAngle
+VAR_2211	InnerThickness
+VAR_2212	OuterThickness
+VAR_2213	Rectangle
+VAR_2214	Trapezium
+VAR_2215	RightAngledTriangle
+VAR_2216	TruncatedCorner
+VAR_2217	RightAngledTrapezium
+VAR_2218	Bow
+VAR_2219	FullBow
+VAR_2220	HalfFullBow
+VAR_2221	FlatBow
+VAR_2222	HalfFlatBow
+VAR_2223	TruncatedBow
+VAR_2224	RoundedCorner
+VAR_2225	Triangle
+VAR_2226	Quadrilateral
+VAR_2227	SimpleTrapezium
+VAR_2228	TruncatedCorner2
+VAR_2229	Pentagon
+VAR_2230	TruncatedTrapezium
+VAR_2231	BasketHandle
+VAR_2232	TruncatedBasketHandle
+VAR_2233	BullsEye
+VAR_2234	HasDoor
+VAR_2235	HasVoidPart
+VAR_2236	NSashes
+VAR_2237	NTransoms
+VAR_2238	SashW
+VAR_2239	SashH
+VAR_2240	SashX
+VAR_2241	SashY
+VAR_2242	SashCategory
+VAR_2243	FittingCategory
+VAR_2244	SashOpeningDirection
+VAR_2245	SashNLeaves
+VAR_2246	TransomLength
+VAR_2247	TransomType
+VAR_2248	TransomX
+VAR_2249	TransomY
+VAR_2250	TransomOrientation
+VAR_2251	TransomCategory
+VAR_2252	TransomThickness
+VAR_2253	NFrameTransoms
+VAR_2254	NSashTransoms
+VAR_2255	SashNTransoms
+VAR_2256	TransomFrame
+VAR_2257	NPeriph
+VAR_2258	PeriphPos
+VAR_2259	PeriphType
+VAR_2260	PeriphLength
+VAR_2261	PeriphCat
+VAR_2262	PeriphThickness
+VAR_2263	Profile
+VAR_2264	DoorSill
+VAR_2265	WindowSill
+VAR_2266	Glass
+VAR_2267	Panel
+VAR_2268	DecorativePanel
+VAR_2269	SpecialPanel
+VAR_2270	SashIndex
+VAR_2271	FillingType
+VAR_2272	SashTop
+VAR_2273	SashBottom
+VAR_2274	SashLeft
+VAR_2275	SashRight
+VAR_2276	TransomTop
+VAR_2277	TransomBottom
+VAR_2278	TransomLeft
+VAR_2279	TransomRight
+VAR_2280	SashOverlapTop
+VAR_2281	SashOverlapBottom
+VAR_2282	SashOverlapLeft
+VAR_2283	SashOverlapRight
+VAR_2284	TransomIndex
+VAR_2285	WallConfiguration
+VAR_2286	HorizontalAxis
+VAR_2287	VerticalAxis
+VAR_2288	GlazingBeadCategory
+VAR_2289	Call
+VAR_2290	GlazingBarCategory
+VAR_2291	SupplierId
+VAR_2292	MultMilling
+VAR_2293	TransportSurface
+VAR_2294	WindowProductionLine
+VAR_2295	RollerShutterProductionLine
+VAR_2296	FrameOrder
+VAR_2297	WindowProductionDelay
+VAR_2298	RollerShutterProductionDelay
+VAR_2299	Shape2
+VAR_2300	OuterFrameShape2
+VAR_2301	SashShape2
+VAR_2302	SillType
+VAR_2303	FrameShape
+VAR_2304	PriceType
+VAR_2305	RealCost
+VAR_2306	Commercial
+VAR_2307	Discount3
+VAR_2308	RollerShutterDiscount3
+VAR_2309	Self
+VAR_2310	Special
+VAR_2311	MillingCategory
+VAR_2312	Visible
+VAR_2313	Selection
+VAR_2314	ProfileIndex
+VAR_2315	BoxCanBeDeduced
+VAR_2316	BoxCannotBeDeduced
+VAR_2317	BoxRightExtension
+VAR_2318	BoxLeftExtension
+VAR_2319	FrameThicknessLeft
+VAR_2320	FrameThicknessRight
+VAR_2321	FrameThicknessTop
+VAR_2322	FrameThicknessBottom
+VAR_2323	FrameThicknessTopLeft
+VAR_2324	FrameThicknessTopRight
+VAR_2325	FillType
+VAR_2326	FillCateg
+VAR_2327	FillX
+VAR_2328	FillY
+VAR_2329	FillWidth
+VAR_2330	FillHeight
+VAR_2331	FillLeaf
+VAR_2332	FillThickness
+VAR_2333	FillSash
+VAR_2334	NFillings
+VAR_2335	FIllingIndex
+VAR_2336	AxisInFrame
+VAR_2337	FromOutside
+VAR_2338	FromInside
+VAR_2339	View
+VAR_2340	NShutters
+VAR_2341	SashTransomLeft
+VAR_2342	SashTransomRight
+VAR_2343	SashTransomTop
+VAR_2344	SashTransomBottom
+VAR_2345	FillBottom
+VAR_2346	FillTop
+VAR_2347	FillLeft
+VAR_2348	FillRight
+VAR_2349	FillThicknessTop
+VAR_2350	FillThicknessBottom
+VAR_2351	FillThicknessLeft
+VAR_2352	FillThicknessRight
+VAR_2353	VentilatorPosition
+VAR_2354	FullBasketHandle
+VAR_2355	HalfBasketHandle
+VAR_2356	BasketHandle5
+VAR_2357	FullBasketHandle5
+VAR_2358	HalfBasketHandle5
+VAR_2359	NBows
+VAR_2360	BasketHandleShape
+VAR_2361	TransomThicknessBottom
+VAR_2362	TransomThicknessTop
+VAR_2363	TransomThicknessLeft
+VAR_2364	TransomThicknessRight
+VAR_2365	TransomLeftTransom
+VAR_2366	TransomRightTransom
+VAR_2367	TransomTopTransom
+VAR_2368	TransomBottomTransom
+VAR_2369	TruncatedBasketHandle5
+VAR_2370	LeafWidth
+VAR_2371	LeafHeight
+VAR_2372	SawId
+VAR_2373	DeliveryPreparation
+VAR_2374	SimpleFactDoc
+VAR_2375	CustomerDoc
+VAR_2376	QualityControl
+VAR_2377	Coefficient
+VAR_2378	Valid
+VAR_2379	QuickInput
+VAR_2380	GlassDiscount
+VAR_2381	GlassDiscount2
+VAR_2382	GlassDiscount3
+VAR_2384	Print
+VAR_2385	@Black
+VAR_2386	@Blue
+VAR_2387	@Green
+VAR_2388	@Cyan
+VAR_2389	@Red
+VAR_2390	@Magenta
+VAR_2391	@Yellow
+VAR_2392	@Grey
+VAR_2393	@White
+VAR_2394	QuestionText
+VAR_2395	QuestionBkg
+VAR_2396	FillExtWidth
+VAR_2397	FillExtHeight
+VAR_2398	ContinuedTop
+VAR_2399	ContinuedBottom
+VAR_2400	ContinuedLeft
+VAR_2401	ContinuedRight
+VAR_2402	TransomThroughTop
+VAR_2403	TransomThroughBottom
+VAR_2404	TransomThroughLeft
+VAR_2405	TransomThroughRight
+VAR_2406	TransomIndex1
+VAR_2407	TransomIndex2
+VAR_2408	Today
+VAR_2409	InputDate
+VAR_2410	FillShape
+VAR_2411	CopyShape
+VAR_2412	ShrinkShape
+VAR_2413	ExpandShape
+VAR_2414	SplitShapeHorizontaly
+VAR_2415	SplitShapeVerticaly
+VAR_2416	CreateShape
+VAR_2417	ShapeType
+VAR_2418	ShapeOrientation
+VAR_2419	ShapeDimA
+VAR_2420	ShapeDimB
+VAR_2421	ShapeDimC
+VAR_2422	ShapeDimD
+VAR_2423	ShapeDimE
+VAR_2424	ShapeDimF
+VAR_2425	ShapeDimG
+VAR_2426	ShapeDimH
+VAR_2427	ShapeDimI
+VAR_2428	ShapeDimJ
+VAR_2429	ShapeDimK
+VAR_2430	ShapeDimL
+VAR_2431	FalseArchType
+VAR_2432	PeriphDeduced
+VAR_2433	GlassRebate
+VAR_2434	FillingShape
+VAR_2435	FrameColour
+VAR_2436	SashColour
+VAR_2437	FittingColour
+VAR_2438	BottomReveal
+VAR_2439	TopReveal
+VAR_2440	LeftReveal
+VAR_2441	RightReveal
+VAR_2442	Labour
+VAR_2443	SegmentX0
+VAR_2444	SegmentX1
+VAR_2445	SegmentY0
+VAR_2446	SegmentY1
+VAR_2447	FalseArch
+VAR_2448	ProfileMinThickness
+VAR_2449	ProfileLeftThickness
+VAR_2450	ProfileRightThickness
+VAR_2451	FalseArchExtraHeight
+VAR_2452	WindowSet
+VAR_2453	SetElement
+VAR_2454	SetStructure
+VAR_2455	NotInSet
+VAR_2456	WindNorm
+VAR_2457	GlassNorm
+VAR_2458	HeightInBuilding
+VAR_2459	SashLeftSegment
+VAR_2460	SashRightSegment
+VAR_2461	SashTopSegment
+VAR_2462	SashBottomSegment
+VAR_2463	DimI
+VAR_2464	DimJ
+VAR_2465	DimK
+VAR_2466	DimL
+VAR_2467	FillSupplierID
+VAR_2468	FillTopClearance
+VAR_2469	FillBottomClearance
+VAR_2470	FillLeftClearance
+VAR_2471	FillRightClearance
+VAR_2472	DeliveryDate
+VAR_2473	BarWidth
+VAR_2474	ViewOnDrawing
+VAR_2475	BothViews
+VAR_2476	TransAxis
+VAR_2477	TransomOriginAxis
+VAR_2478	SashLeaf1Axis
+VAR_2479	SashLeaf2Axis
+VAR_2480	SashLeaf3Axis
+VAR_2481	SashLeaf4Axis
+VAR_2482	SashLeaf5Axis
+VAR_2483	SashLeaf6Axis
+VAR_2484	SashRevealWidth
+VAR_2485	SashRevealHeight
+VAR_2486	LibraryNumber
+VAR_2487	LibraryInternalNumber
+VAR_2488	CommercialUser
+VAR_2489	FillGBarCateg
+VAR_2490	FillGBarHCells
+VAR_2491	FillGBarVCells
+VAR_2492	BoxHeightDeduced
+VAR_2493	TotalThickness
+VAR_2494	TopMasonry
+VAR_2495	BottomMasonry
+VAR_2496	LeftMasonry
+VAR_2497	RightMasonry
+VAR_2498	BoxOverlap
+VAR_2499	TransomLengthBR
+VAR_2500	TransomLengthTL
+VAR_2501	FillTopTransom
+VAR_2502	FillBottomTransom
+VAR_2503	FillLeftTransom
+VAR_2504	FillRightTransom
+VAR_2505	FillRevealHeight
+VAR_2506	FillRevealWidth
+VAR_2507	EdiCrxCode
+VAR_2508	X0
+VAR_2509	X1
+VAR_2510	Y0
+VAR_2511	Y1
+VAR_2512	T
+VAR_2513	W
+VAR_2514	H
+VAR_2515	X
+VAR_2516	Y
+VAR_2517	P1
+VAR_2518	P2
+VAR_2519	P3
+VAR_2520	X2
+VAR_2521	WinPro
+VAR_2522	LeftSide
+VAR_2523	RightSide
+VAR_2524	TopLeftSide
+VAR_2525	TopRightSide
+VAR_2526	TopSide
+VAR_2527	BottomSide
+VAR_2528	RAL
+VAR_2529	FrameConnection1
+VAR_2530	FrameConnection2
+VAR_2531	FrameInsideColour
+VAR_2532	SashInsideColour
+VAR_2533	Question
+VAR_2534	FactoryDimension
+VAR_2535	RevealDimension
+VAR_2536	InputMode
+VAR_2537	GlassSystem
+VAR_2538	FillNBarsH
+VAR_2539	FillNBarsV
+VAR_2540	FillNBars
+VAR_2541	BarIndex
+VAR_2542	VarLin
+VAR_2543	TextColour
+VAR_2544	BackgroundColour
+VAR_2545	FillWeight
+VAR_2546	FrameClrCateg
+VAR_2547	SashRefHeight
+VAR_2548	SashRefWidth
+VAR_2549	SashRevealAxis
+VAR_2550	GlazingParam
+VAR_2551	VarSim
+VAR_2552	GlazingView
+VAR_2553	GlazingCateg
+VAR_2554	OuterFrameShapeOrientation
+VAR_2555	ColorFittingsInt
+VAR_2556	VarLin2
+VAR_2557	VarLin3
+VAR_2558	VarLin4
+VAR_2559	VarLin5
+VAR_2560	VarLin6
+VAR_2561	IntLeftL
+VAR_2562	IntRightL
+VAR_2563	ExtLeftL
+VAR_2564	ExtRightL
+VAR_2565	TNoReveal
+VAR_2566	FrameNoReveal
+WPR_ACTIVE	Active
+WPR_BUYING_PRICE_CONTROL	Buying price control
+WPR_CANCEL	&Cancel
+WPR_CLEARDESIGNERCONTENT	Clear designer content
+WPR_CODE	Code
+WPR_CODECANNOTBEEMPTY	Code cannot be empty
+WPR_COMPLETE	Complete
+WPR_CONFIRMATION	Confirmation
+WPR_CONNECTED	Connected
+WPR_COPIES	Copies
+WPR_COPY	Co&py
+WPR_COPYREPORT	Copy report
+WPR_COPYTITLE	Copy
+WPR_COST_PRICE_CONTROL	Cost price control
+WPR_CREATE	&New
+WPR_CUSTOMER_ORDER_FORM	Customer order form
+WPR_DATABASENAME	Databasename
+WPR_DATASOURCE	Datasource
+WPR_DBQUERY	Databases and queries
+WPR_DELETE	&Delete
+WPR_DELETEREPORT	Delete report ?
+WPR_DELETE_DBQUERY	Delete a database/query
+WPR_DELIVERY_NOTE	Delivery note
+WPR_DELIVERY_NOTE_PREPARATION	Delivery note preparation
+WPR_DESCRIPTION	Description
+WPR_DESIGNER	Designer
+WPR_DESIGNING	Designing
+WPR_DETAILED_FACTORY_DOCUMENT	Detailed factory document
+WPR_DETAILED_QUOTATION	Detailed quotation
+WPR_DOCTYPE	Document kind
+WPR_DOCUMENT	Document
+WPR_DOYOUWANTTOCANCEL	Do you want to cancel ?
+WPR_DRAWING	Drawing
+WPR_DRAWING0	No drawing
+WPR_DRAWING1	Windows
+WPR_DRAWING2	Articles
+WPR_DRAWING3	Windows and articles
+WPR_EDIT	&Edit
+WPR_EXPORT	E&xport
+WPR_EXPORTATION	Export
+WPR_FILE	File
+WPR_FILEWITHOUTCOTATIONS	File without cotations
+WPR_FIND	&Find
+WPR_GLASS_ORDER_FORM	Glass order form
+WPR_IMPORT	Imp&ort
+WPR_INSPECTOR	Inspector
+WPR_INVOICE	Invoice
+WPR_LANGUAGE	Language
+WPR_LANGUAGES	Languages
+WPR_LOGINPROMPT	Login prompt
+WPR_MEMO	Memo
+WPR_MEMOWITHOUTCOTATIONS	Memo without cotations
+WPR_NAME	Name
+WPR_NAMECANNOTBEEMPTY	Name cannot be empty !
+WPR_NEWCODE	New code
+WPR_NEW_DB	New database
+WPR_NEW_QUERY	New query
+WPR_NORECORD	No record
+WPR_OK	&Ok
+WPR_OPTIMIZATION_LABELS	Optimization labels
+WPR_OPTIMIZATION_LIST	Optimization list
+WPR_ORDER_FORM	Order form
+WPR_PLEASE_WAIT	Please wait...
+WPR_PREVIEW	Preview
+WPR_PRINT	&Print
+WPR_PRINTMODE	Output mode
+WPR_PRINTMODE0	0 : No printing
+WPR_PRINTMODE1	1 : WinPro standard printing
+WPR_PRINTMODE2	2 : Data export
+WPR_PRINTMODE3	3 : 1 + 2
+WPR_PRINTMODE4	4 : WPReport printing (with data export + deleting)
+WPR_PRINTMODE5	5 : 4 + 1
+WPR_PRINTMODE6	6 : WPReport printing (with data export)
+WPR_PRINTMODE7	7 : 6 + 1
+WPR_PRINTMODE8	8 : WPReport printing
+WPR_PRODUCTION_SPOT	Production spot
+WPR_PROFILE_LOADING_LIST	Profile loading list
+WPR_QUALITY_CONTROL	Quality control
+WPR_QUIT	&Quit
+WPR_REFRESH	Refresh
+WPR_REMOTEDATABASE	DNS ODBC
+WPR_REPLACEREPORT	Replace report ?
+WPR_REPORT	Report
+WPR_REPORTALREADYEXISTS	Report already exist !
+WPR_REPORTDOESNOTEXIST	Report does not exist !
+WPR_REPORTNOTFOUND	Report not found !
+WPR_REPORTS	Reports
+WPR_RESULT	Result
+WPR_SAVE	&Save
+WPR_SAVEREPORT	Save report ?
+WPR_SCRIPT	Script
+WPR_SELLING_PRICE_CONTROL	Selling price control
+WPR_SETUP	Setup
+WPR_SIMPLFIED_FACTORY_DOCUMENT	Simplified factory document
+WPR_SIMPLIFIED_QUOTATION	Simplified quotation
+WPR_SIMPLIFIED_QUOTATION_NO_DIM	Simplified quotation without dimensions
+WPR_STOCK_USAGE	Stock usage
+WPR_SUPPLIER_ORDER_FORM	Supplier order form
+WPR_TESTQUERY	Test query
+WPR_TITLE	Title
+XLS_Add Language	Add a &language
+XLS_Add String	Add a &string
+XLS_Cancel	Cancel
+XLS_Chaines vides en	Empty strings in:
+XLS_Chercher	Find
+XLS_Code	Code
+XLS_Delete	Delete
+XLS_Description	Description
+XLS_Duplicate	Copy
+XLS_Fichier	&File
+XLS_Identifier	Identifier
+XLS_Ignorer Maj Min	Ignore case
+XLS_Lang Exists	This language code already exists
+XLS_Langue	Language
+XLS_Langue Base	Substitution language
+XLS_Langue affichage	Display language
+XLS_Langues	Languages
+XLS_New Lang	New language
+XLS_New String	New string
+XLS_OK	OK
+XLS_Quitter	Quit
+XLS_Sauver?	Save?
+XLS_Save	&Save
+XLS_String Count	String count: %d
+XLS_Texte a rechercher	Text to find
+XLS_Texte entier	Full text
+XLS_Toutes	All
+XLS_Traduction	Translation
+XLS_Traductions	Translations
+XLS_Translate strings	WinPro strings translations tool
+XLS_Trouver	&Find
+XLS_Trouver suivant	Find next

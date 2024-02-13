@@ -1,0 +1,93 @@
+select commande, chassis, code, descriptio , macro3 ,quantite, (macro3/1000 * quantite) as smkaa
+from lin
+where typedoc like 'q'and commande like 'OFE/2009/00363' and code like '72%'
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+
+select l.commande, l.chassis, l.code, l.descriptio , l.macro3 ,l.quantite, (macro3/1000 * quantite) as smkaa
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis) as ilosc
+from lin l
+where l.typedoc like 'q'and l.commande like 'OFE/2009/00363' and l.code like '72%'
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+select l.commande, l.chassis, l.code, l.descriptio , l.macro3 ,l.quantite, (macro3/1000 * quantite) as smkaa
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1) as ilosc
+from lin l
+where l.typedoc like 'x'and l.commande like 'OFE/2009/00363' and l.code like '72%'
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+select l.commande, l.chassis, l.code, l.descriptio , l.macro3 ,l.quantite, (macro3/1000 * quantite) as smkaa
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1) as ilosc
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite as razy
+from lin l
+where l.typedoc like 'x'and l.commande like 'OFE/2009/00363' and l.code like '72%'
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+
+
+SELECT l.commande, l.chassis, l.ligne, l.code, l.descriptio, l.quantite, af.pafb AS `cena zakupu po kursie`, af.pr AS `cena po wspó³czynniku`
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1) as ilosc
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite as razy
+FROM lin AS l
+
+RIGHT JOIN artfou AS af ON af.article = l.code
+
+WHERE  l.typedoc like 'x'and l.commande like 'OFE/2009/00363' and l.code like '72%'
+
+order by code
+
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+SELECT l.commande, l.chassis, l.code, l.descriptio, l.quantite,l.macro3, af.pafb AS `cena zakupu po kursie`, af.pr AS `cena po wspó³czynniku`
+#,(macro3/1000 * quantite) as `smkaa`
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1) as `ilosc okien`
+,(select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite as `razy`
+FROM lin AS l
+RIGHT JOIN artfou AS af ON af.article = l.code
+WHERE  l.typedoc like 'x'and l.commande like 'OFE/2009/00363'
+#and l.code like '72%'
+group by l.descriptio
+
+##########################################################################################
+#
+#
+#
+############################################################################################
+
+
+
+SELECT l.commande, l.chassis, l.code, l.descriptio, l.quantite,l.macro3, af.pafb AS `cena zakupu po kursie`, af.pr AS `cena po wspó³czynniku`
+,sum((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)) as `ilosc okien`
+,SUM((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite) as `razem`
+,SUM((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite * af.pafb) as `smka`
+FROM lin AS l
+RIGHT JOIN artfou AS af ON af.article = l.code
+WHERE  l.typedoc='x' and l.commande like 'OFE/2009/00363'
+#and l.code like 'R259831'
+group by l.descriptio
+order by l.code

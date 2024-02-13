@@ -1,0 +1,13 @@
+###########################################################
+######logistyka jakie okna na jakim etapie z paczki transportowej 
+################################################################
+
+SELECT `detcolis`.`article`,`detcolis`.`qte`,`detcolis`.`longueur`,`detcolis`.`unite`, `detcolis`.`descriptio`,
+`detcolis`.`clrint`,`detcolis`.`clrext`,`detcolis`.`datepack`, `detcolis`.`client`,`detcolis`.`commande`,`detcolis`.`hauteur`,
+`detcolis`.`largeur`, `detcolis`.`lotlivr`, `lotlivraison`.`lot`, `lotlivraison`.`date`, `lotlivraison`.`code`, `lotlivraison`.`comment`,
+`commande`.`numero`,`commande`.`reference`, `detail`.`etat`, `detail`.`commande`
+FROM `winpro_adams`.`detcolis`, `winpro_adams`.`lotlivraison`, `winpro_adams`.`commande`, `winpro_adams`.`detail`
+where  (`detcolis`.`lotlivr`=`lotlivraison`.`lot`) and (`detcolis`.`commande`=`commande`.`numero`)
+and (`detcolis`.`commande`=`detail`.`commande`)
+and (`detcolis`.`lotlivr` like 161) and `detcolis`.`chassis`='1'
+group by numero, article order by client, numero

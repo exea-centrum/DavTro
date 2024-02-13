@@ -1,0 +1,28 @@
+#########################################################
+#####cena materia³ów do zlecenia 
+
+SELECT l.commande, l.chassis, l.code, l.descriptio, l.quantite,l.macro3, af.pafb AS `cena zakupu po kursie`, af.pr AS `cena po wspó³czynniku`
+,sum((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)) as `ilosc okien`
+,SUM((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite) as `razem`
+,(SUM(DIMENSION)/1000) * af.pafb AS WARTOSC
+FROM lin AS l
+RIGHT JOIN artfou AS af ON af.article = l.code
+#WHERE  l.typedoc='x' and l.commande=:order
+WHERE  l.typedoc='x' and l.commande like 'Z M-20310'
+
+and l.code like '800813S701605'
+group by l.descriptio
+order by l.code
+
+###############################################################################
+SELECT l.commande, l.chassis, l.code, l.descriptio, l.quantite,l.macro3, af.pafb AS `cena zakupu po kursie`, af.pr AS `cena po wspó³czynniku`
+,sum((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)) as `ilosc okien`
+,SUM((select qte from detail where detail.commande = l.commande and detail.ordre=l.chassis-1)*l.quantite) as `razem`
+FROM lin AS l
+RIGHT JOIN artfou AS af ON af.article = l.code
+#WHERE  l.typedoc='x' and l.commande=:order
+WHERE  l.typedoc='x' and l.commande like 'O%'
+#-and l.code like 'R259831'
+group by l.descriptio
+order by l.code
+

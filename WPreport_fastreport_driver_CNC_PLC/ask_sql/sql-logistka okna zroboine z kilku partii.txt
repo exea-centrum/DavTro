@@ -1,0 +1,161 @@
+##
+##########################
+select `detcolis`.`article`,`detcolis`.`qte`,`detcolis`.`longueur`,`detcolis`.`unite`, `detcolis`.`descriptio`,
+`detcolis`.`clrint`,`detcolis`.`clrext`,`detcolis`.`datepack`, `detcolis`.`client`,`detcolis`.`commande`,`detcolis`.`hauteur`,
+`detcolis`.`largeur`, `detcolis`.`lotlivr`, `lotlivraison`.`lot`, `lotlivraison`.`date`, `lotlivraison`.`code`, `lotlivraison`.`comment`,
+`commande`.`numero`,`commande`.`reference`,`commande`.`nrchassis`, `detail`.`etat`, `detail`.`commande`,`prepalot`.`commande`, `lot`.`code`,`lot`.`lot` 
+from `winpro_adams`.`detcolis`, `winpro_adams`.`lotlivraison`, `winpro_adams`.`commande`, `winpro_adams`.`detail`,`winpro_adams`.`prepalot`, `winpro_adams`.`lot`
+where `detcolis`.`chassis`='1'
+and (`detail`.`etat`='500')
+and (`detcolis`.`lotlivr`=`lotlivraison`.`lot`)
+and (`detcolis`.`commande`=`commande`.`numero`)
+and (`detcolis`.`commande`=`detail`.`commande`)
+and (`detcolis`.`commande`=`prepalot`.`commande`)
+and (`detcolis`.`article`=`detail`.`numero`)
+and (`lot`.`lot` = `prepalot`.`lot`)
+group by lotlivr
+########################################################################################################################################
+
+procedure Button1OnClick(Sender: TfrxComponent);
+var        
+     sql: string;
+     where: string;
+     i: integer;
+begin                                                                 
+  sql:='select detcolis.article,detcolis.qte,detcolis.longueur,detcolis.unite, detcolis.descriptio, detcolis.clrint,detcolis.clrext,detcolis.datepack, detcolis.client,detcolis.commande,detcolis.hauteur, detcolis.largeur, detcolis.lotlivr, lotlivraison.lot, lotlivraison.date, lotlivraison.code, lotlivraison.comment, commande.numero,commande.reference,commande.nrchassis, detail.etat, detail.commande, lot.code,lot.lot,prepalot.commande from detcolis, lotlivraison, commande, detail, prepalot, lot';
+  sql:= sql + ' where detcolis.chassis="1"';
+  sql:= sql + ' and (detail.etat="500") and (detcolis.lotlivr=lotlivraison.lot) and (detcolis.commande=commande.numero)';
+  sql:= sql + ' and (detcolis.commande=detail.commande) and (detcolis.commande=prepalot.commande) and (detcolis.article=detail.numero)';
+  sql:= sql + ' and (lot.lot = prepalot.lot) and (';          
+  where:=' ';
+                  
+  for i:=0 to CheckListBox1.items.Count-1 do
+     begin
+     if CheckListBox1.checked[i] then
+         begin
+         sql:= sql + where + 'detcolis.lotlivr = ''' + CheckListBox1.Items[i] + ''' ';
+         where := ' or ';
+                      
+         end;
+  end;
+      
+  sql := sql + ') group by commande.numero, detcolis.article  order by lot.code ';                                
+  replacesql('detcolis',sql);                                                                      
+end;
+
+
+
+procedure DialogPage1OnShow(Sender: TfrxComponent);
+begin
+  FirstRecord('detcolis');
+  while not QueryEof('detcolis') do
+  begin
+    CheckListBox1.Items.Add(<detcolis."lotlivr">);
+    NextRecord('detcolis');
+    end;              
+end;
+
+begin
+
+end.
+#########################################################################################################
+
+
+#########################################################################################################
+
+select `detcolis`.`article`,`detcolis`.`qte`,`detcolis`.`longueur`,`detcolis`.`unite`, `detcolis`.`descriptio`,
+`detcolis`.`clrint`,`detcolis`.`clrext`,`detcolis`.`datepack`, `detcolis`.`client`,`detcolis`.`commande`,`detcolis`.`hauteur`,
+`detcolis`.`largeur`, `detcolis`.`lotlivr`, `lotlivraison`.`lot`, `lotlivraison`.`date`, `lotlivraison`.`code`, `lotlivraison`.`comment`,
+`commande`.`numero`,`commande`.`reference`, `detail`.`etat`, `detail`.`commande`, `lot`.`code`,`lot`.`lot`,`prepalot`.`commande`
+from `winpro_adams`.`detcolis`, `winpro_adams`.`lotlivraison`, `winpro_adams`.`commande`, `winpro_adams`.`detail`, `winpro_adams`.`lot`,`winpro_adams`.`prepalot`
+where  (`detcolis`.`lotlivr`=`lotlivraison`.`lot`)
+and (`detcolis`.`commande`=`commande`.`numero`)
+and (`detcolis`.`commande`=`detail`.`commande`)
+and (`detcolis`.`commande`=`prepalot`.`commande`)
+and (`detcolis`.`article`=`detail`.`numero`)
+and `detcolis`.`chassis`='1'
+and (`detcolis`.`lotlivr` like :mon_param)
+and (`lot`.`lot` = `prepalot`.`lot`)
+and (`detail`.`etat`='500')
+group by numero, article
+order by client, numero
+
+
+procedure Button1OnClick(Sender: TfrxComponent);
+var        
+     sql: string;
+     where: string;
+     i: integer;
+begin                                                                 
+  sql:='select detcolis.article,detcolis.qte,detcolis.longueur,detcolis.unite, detcolis.descriptio, detcolis.clrint,detcolis.clrext,detcolis.datepack, detcolis.client,detcolis.commande,detcolis.hauteur, detcolis.largeur, detcolis.lotlivr, lotlivraison.lot, lotlivraison.date, lotlivraison.code, lotlivraison.comment, commande.numero,commande.reference, detail.etat, detail.commande, lot.code,lot.lot,prepalot.commande from detcolis, lotlivraison, commande, detail, prepalot, lot';
+  sql:= sql + ' where detcolis.chassis="1"';
+  sql:= sql + ' and (detail.etat="500") and (detcolis.lotlivr=lotlivraison.lot) and (detcolis.commande=commande.numero)';
+  sql:= sql + ' and (detcolis.commande=detail.commande) and (detcolis.commande=prepalot.commande)';
+  sql:= sql + ' and (lot.lot = prepalot.lot) and (';          
+  where:=' ';
+                  
+  for i:=0 to CheckListBox1.items.Count-1 do
+     begin
+     if CheckListBox1.checked[i] then
+         begin
+         sql:= sql + where + 'detcolis.lotlivr = ''' + CheckListBox1.Items[i] + ''' ';
+         where := ' or ';
+                      
+         end;
+  end;
+      
+  sql := sql + ') group by commande.numero, detcolis.article order by detcolis.client, commande.numero ';                                
+  replacesql('detcolis',sql);                                                                      
+end;
+
+
+
+procedure DialogPage1OnShow(Sender: TfrxComponent);
+begin
+  FirstRecord('detcolis');
+  while not QueryEof('detcolis') do
+  begin
+    CheckListBox1.Items.Add(<detcolis."lotlivr">);
+    NextRecord('detcolis');
+    end;              
+end;
+
+begin
+
+end.
+#######################################################################
+
+
+select `detcolis`.`article`,`detcolis`.`qte`,`detcolis`.`longueur`,`detcolis`.`unite`, `detcolis`.`descriptio`,
+`detcolis`.`clrint`,`detcolis`.`clrext`,`detcolis`.`datepack`, `detcolis`.`client`,`detcolis`.`commande`,`detcolis`.`hauteur`,
+`detcolis`.`largeur`, `detcolis`.`lotlivr`, `lotlivraison`.`lot`, `lotlivraison`.`date`, `lotlivraison`.`code`, `lotlivraison`.`comment`,
+`commande`.`numero`,`commande`.`reference`, `detail`.`etat`, `detail`.`commande`, `lot`.`code`,`lot`.`lot`,`prepalot`.`commande`
+from `david_full`.`detcolis`, `david_full`.`lotlivraison`, `david_full`.`commande`, `david_full`.`detail`, `david_full`.`lot`,`david_full`.`prepalot`
+where  (`detcolis`.`lotlivr`=`lotlivraison`.`lot`)
+and (`detcolis`.`commande`=`commande`.`numero`)
+and (`detcolis`.`commande`=`detail`.`commande`)
+and (`detcolis`.`commande`=`prepalot`.`commande`)
+and (`detcolis`.`article`=`detail`.`numero`)
+and `detcolis`.`chassis`='1'
+######and (`detcolis`.`lotlivr` like :mon_param)
+and (`lot`.`lot` = `prepalot`.`lot`)
+and (`detail`.`etat`='500')
+group by numero, article
+order by client, numero
+
+#################################################
+
+// KOD Z FASTREPORTA:
+
+   i := 0;                            
+   ComboBox1.Items.Clear();
+   FirstRecord('stanow_lista');
+   while not QueryEOF('stanow_lista') do
+   begin
+      stanowisko:= <stanow_lista."code"> + ' - ' + <stanow_lista."descriptio">;
+      ComboBox1.Items.Add(stanowisko);
+      NextRecord('stanow_lista');
+      i:=i+1;
+   end;
+   ComboBox1.Items.Add('Wszystkie');   //dodanie w³asnych pozycji
+   ComboBox1.ItemIndex:=ComboBox1.Items.IndexOf('Wszystkie');    //ustawienie indexu na danej pozycji (cos jakby wartosc domyslna)

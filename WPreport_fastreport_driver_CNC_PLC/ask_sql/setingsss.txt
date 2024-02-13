@@ -1,0 +1,19 @@
+[System]
+VideTablesExpor = 0	Winpro never deletes exported datas				 			
+= 1	Winpro systematically deletes exported datas.
+			
+= 2	Winpro deletes exported datas on demand.
+
+[Packages]
+Multiselection = 1
+ ; 1 enables multiple orders selection mode – 0 disable it
+PackageWindow = 2
+ ; Value 0 checks the box and set it as invisible for the user 
+ ; Value 1 unchecks the box and set it as invisible for the user 
+ ; Value 2 defaultly checks the box and leaves it available for the user
+ ; Value 2 defaultly unchecks the box and leaves it available for the user
+
+
+[PrefixeLot]
+%user%:Prefix 	= string format S, batch prefix code for this user
+%user%:Number 	= double format D, sequence number of the next batch to be created 

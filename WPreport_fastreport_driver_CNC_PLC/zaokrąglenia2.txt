@@ -1,0 +1,288 @@
+Jezeli Wymiar >= 500 I& Wymiar < 550
+   Ilosc := 1
+   Dlugosc := 500
+koniec jezeli
+Jezeli Wymiar >= 550 I& Wymiar < 600
+   Ilosc := 1
+   Dlugosc := 550
+koniec jezeli 
+Jezeli Wymiar >= 600 I& Wymiar < 650
+   Ilosc := 1
+   Dlugosc := 600
+koniec jezeli 
+Jezeli Wymiar >= 650 I& Wymiar < 700
+   Ilosc := 1
+   Dlugosc := 650
+koniec jezeli 
+Jezeli Wymiar >= 700 I& Wymiar < 750
+   Ilosc := 1
+   Dlugosc := 700
+koniec jezeli
+Jezeli Wymiar >= 750 I& Wymiar < 800
+   Ilosc := 1
+   Dlugosc := 750
+koniec jezeli
+Jezeli Wymiar >= 800 I& Wymiar < 850
+   Ilosc := 1
+   Dlugosc := 800
+koniec jezeli
+Jezeli Wymiar >= 850 I& Wymiar < 900
+   Ilosc := 1
+   Dlugosc := 850
+koniec jezeli
+Jezeli Wymiar >= 900 I& Wymiar < 950
+   Ilosc := 1
+   Dlugosc := 900
+koniec jezeli
+Jezeli Wymiar >= 950 I& Wymiar < 1000
+   Ilosc := 1
+   Dlugosc := 950
+koniec jezeli
+Jezeli Wymiar >= 1000 I& Wymiar < 1050
+   Ilosc := 1
+   Dlugosc := 1000
+koniec jezeli
+#############################################################
+Jezeli Wymiar >= 1050 I& Wymiar < 1100
+   Ilosc := 1
+   Dlugosc := 1050
+koniec jezeli
+Jezeli Wymiar >= 1100 I& Wymiar < 1150
+   Ilosc := 1
+   Dlugosc := 1100
+koniec jezeli
+Jezeli Wymiar >= 1150 I& Wymiar < 1200
+   Ilosc := 1
+   Dlugosc := 1150
+koniec jezeli
+Jezeli Wymiar >= 1200 I& Wymiar < 1250
+   Ilosc := 1
+   Dlugosc := 1200
+koniec jezeli
+Jezeli Wymiar >= 1250 I& Wymiar < 1300
+   Ilosc := 1
+   Dlugosc := 1250
+koniec jezeli
+Jezeli Wymiar >= 1300 I& Wymiar < 1350
+   Ilosc := 1
+   Dlugosc := 1300
+koniec jezeli
+Jezeli Wymiar >= 1350 I& Wymiar < 1400
+   Ilosc := 1
+   Dlugosc := 1350
+koniec jezeli
+Jezeli Wymiar >= 1400 I& Wymiar < 1450
+   Ilosc := 1
+   Dlugosc := 1400
+koniec jezeli
+Jezeli Wymiar >= 1450 I& Wymiar < 1500
+   Ilosc := 1
+   Dlugosc := 1450
+koniec jezeli
+Jezeli Wymiar >= 1500 I& Wymiar < 1550
+   Ilosc := 1
+   Dlugosc := 1500
+koniec jezeli
+Jezeli Wymiar >= 1550 I& Wymiar < 1600
+   Ilosc := 1
+   Dlugosc := 1550
+koniec jezeli 
+Jezeli Wymiar >= 1600 I& Wymiar < 1650
+   Ilosc := 1
+   Dlugosc := 1600
+koniec jezeli 
+Jezeli Wymiar >= 1650 I& Wymiar < 1700
+   Ilosc := 1
+   Dlugosc := 1650
+koniec jezeli 
+Jezeli Wymiar >= 1700 I& Wymiar < 1750
+   Ilosc := 1
+   Dlugosc := 1700
+koniec jezeli
+Jezeli Wymiar >= 1750 I& Wymiar < 1800
+   Ilosc := 1
+   Dlugosc := 1750
+koniec jezeli
+Jezeli Wymiar >= 1800 I& Wymiar < 1850
+   Ilosc := 1
+   Dlugosc := 1800
+koniec jezeli
+Jezeli Wymiar >= 1850 I& Wymiar < 1900
+   Ilosc := 1
+   Dlugosc := 1850
+koniec jezeli
+Jezeli Wymiar >= 1900 I& Wymiar < 1950
+   Ilosc := 1
+   Dlugosc := 1900
+koniec jezeli
+Jezeli Wymiar >= 1950 I& Wymiar < 2000
+   Ilosc := 1
+   Dlugosc := 1950
+koniec jezeli
+Jezeli Wymiar >= 2000 I& Wymiar < 2050
+   Ilosc := 1
+   Dlugosc := 2000
+koniec jezeli
+################################################################
+Jezeli Wymiar >= 2050 I& Wymiar < 2100
+   Ilosc := 1
+   Dlugosc := 2050
+koniec jezeli
+Jezeli Wymiar >= 2100 I& Wymiar < 2150
+   Ilosc := 1
+   Dlugosc := 2100
+koniec jezeli
+Jezeli Wymiar >= 2150 I& Wymiar < 2200
+   Ilosc := 1
+   Dlugosc := 2150
+koniec jezeli
+Jezeli Wymiar >= 2200 I& Wymiar < 2250
+   Ilosc := 1
+   Dlugosc := 2200
+koniec jezeli
+Jezeli Wymiar >= 2250 I& Wymiar < 2300
+   Ilosc := 1
+   Dlugosc := 2250
+koniec jezeli
+Jezeli Wymiar >= 2300 I& Wymiar < 2350
+   Ilosc := 1
+   Dlugosc := 2300
+koniec jezeli
+Jezeli Wymiar >= 2350 I& Wymiar < 2400
+   Ilosc := 1
+   Dlugosc := 2350
+koniec jezeli
+Jezeli Wymiar >= 2400 I& Wymiar < 2450
+   Ilosc := 1
+   Dlugosc := 2400
+koniec jezeli
+Jezeli Wymiar >= 2450 I& Wymiar < 2500
+   Ilosc := 1
+   Dlugosc := 2450
+koniec jezeli
+Jezeli Wymiar >= 2500 I& Wymiar < 2550
+   Ilosc := 1
+   Dlugosc := 2500
+koniec jezeli
+Jezeli Wymiar >= 2550 I& Wymiar < 2600
+   Ilosc := 1
+   Dlugosc := 2550
+koniec jezeli 
+Jezeli Wymiar >= 2600 I& Wymiar < 2650
+   Ilosc := 1
+   Dlugosc := 2600
+koniec jezeli 
+Jezeli Wymiar >= 2650 I& Wymiar < 2700
+   Ilosc := 1
+   Dlugosc := 2650
+koniec jezeli 
+Jezeli Wymiar >= 2700 I& Wymiar < 2750
+   Ilosc := 1
+   Dlugosc := 2700
+koniec jezeli
+Jezeli Wymiar >= 2750 I& Wymiar < 2800
+   Ilosc := 1
+   Dlugosc := 2750
+koniec jezeli
+Jezeli Wymiar >= 2800 I& Wymiar < 2850
+   Ilosc := 1
+   Dlugosc := 2800
+koniec jezeli
+Jezeli Wymiar >= 2850 I& Wymiar < 2900
+   Ilosc := 1
+   Dlugosc := 2850
+koniec jezeli
+Jezeli Wymiar >= 2900 I& Wymiar < 2950
+   Ilosc := 1
+   Dlugosc := 2900
+koniec jezeli
+Jezeli Wymiar >= 2950 I& Wymiar < 3000
+   Ilosc := 1
+   Dlugosc := 2950
+koniec jezeli
+Jezeli Wymiar >= 3000 I& Wymiar < 3050
+   Ilosc := 1
+   Dlugosc := 3000
+koniec jezeli
+##############################################################
+Jezeli Wymiar >= 3050 I& Wymiar < 3100
+   Ilosc := 1
+   Dlugosc := 3050
+koniec jezeli
+Jezeli Wymiar >= 3100 I& Wymiar < 3150
+   Ilosc := 1
+   Dlugosc := 3100
+koniec jezeli
+Jezeli Wymiar >= 3150 I& Wymiar < 3200
+   Ilosc := 1
+   Dlugosc := 3150
+koniec jezeli
+Jezeli Wymiar >= 3200 I& Wymiar < 3250
+   Ilosc := 1
+   Dlugosc := 3200
+koniec jezeli
+Jezeli Wymiar >= 3250 I& Wymiar < 3300
+   Ilosc := 1
+   Dlugosc := 3250
+koniec jezeli
+Jezeli Wymiar >= 3300 I& Wymiar < 3350
+   Ilosc := 1
+   Dlugosc := 3300
+koniec jezeli
+Jezeli Wymiar >= 3350 I& Wymiar < 3400
+   Ilosc := 1
+   Dlugosc := 3350
+koniec jezeli
+Jezeli Wymiar >= 3400 I& Wymiar < 3450
+   Ilosc := 1
+   Dlugosc := 3400
+koniec jezeli
+Jezeli Wymiar >= 3450 I& Wymiar < 3500
+   Ilosc := 1
+   Dlugosc := 3450
+koniec jezeli
+Jezeli Wymiar >= 3500 I& Wymiar < 3550
+   Ilosc := 1
+   Dlugosc := 3500
+koniec jezeli
+Jezeli Wymiar >= 3550 I& Wymiar < 3600
+   Ilosc := 1
+   Dlugosc := 3550
+koniec jezeli 
+Jezeli Wymiar >= 3600 I& Wymiar < 3650
+   Ilosc := 1
+   Dlugosc := 3600
+koniec jezeli 
+Jezeli Wymiar >= 3650 I& Wymiar < 3700
+   Ilosc := 1
+   Dlugosc := 3650
+koniec jezeli 
+Jezeli Wymiar >= 3700 I& Wymiar < 3750
+   Ilosc := 1
+   Dlugosc := 3700
+koniec jezeli
+Jezeli Wymiar >= 3750 I& Wymiar < 3800
+   Ilosc := 1
+   Dlugosc := 3750
+koniec jezeli
+Jezeli Wymiar >= 3800 I& Wymiar < 3850
+   Ilosc := 1
+   Dlugosc := 3800
+koniec jezeli
+Jezeli Wymiar >= 3850 I& Wymiar < 3900
+   Ilosc := 1
+   Dlugosc := 3850
+koniec jezeli
+Jezeli Wymiar >= 3900 I& Wymiar < 3950
+   Ilosc := 1
+   Dlugosc := 3900
+koniec jezeli
+Jezeli Wymiar >= 3950 I& Wymiar < 4000
+   Ilosc := 1
+   Dlugosc := 3950
+koniec jezeli
+Jezeli Wymiar >= 4000 I& Wymiar < 4050
+   Ilosc := 1
+   Dlugosc := 4000
+koniec jezeli
+############################

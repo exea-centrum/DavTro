@@ -1,0 +1,185 @@
+##########################################################################
+akceptacje 
+[GesProd]
+; 1xxxx=approbation technique
+; x1xxx=avalisation financière
+; xx1xx=envoi confirmation
+; xxx1x=mise en production
+; xxxx1=mise en lot avant optimisation
+String=11111
+
+
+#############################################################################
+############  kasa 
+[Accounting]
+customers=.
+[LastPath]
+
+###############################################################################
+[Customer Order]
+; AutoNum: 1=numérotation automatique des chassis dans les commandes
+AutoNum=1
+;zaokraglij o 10cm
+Round up=0
+;Policz odpady RAL
+Ral Cutoffs=1
+;Rozdziel odpady RAL
+RAL Distribution=1
+;rabat skalkulowany dla kazdego okna 
+Individual discount=0
+;cena sprzedzazy jest suma aktualnych skladnikow
+Price type=0
+; acc-cena akcesoriów vit-szyb,vol-rolet,cha-okien,rem-rabat ukryty,rep-bez podsumowania 
+acc=2
+cha=2
+vit=2
+vol=2
+rem=2
+rep=2
+tot=2
+
+
+[Commande]
+Administrateur::Acc=1
+Administrateur::Vit=1
+Administrateur::Vol=1
+Administrateur::Cha=1
+Administrateur::Rem=0
+Administrateur::Rep=0
+
+#####################################################################################
+#################    pod Polskie frmy max 100 mm szer. wydruk etykieciarki
+[Optimisation]
+Width barcode=1
+
+#####################################################################################
+#######################   próg
+[System]
+seuil etendu=1
+[User System]
+Administrateur=SKJ-94T 
+###########################  lub
+[System]
+
+seuil etendu=2
+
+
+###################################################################################
+#################### plik gdzie zapisaæ winpro pyta
+[Licence path]
+choixpath=1
+
+
+####################################################################################
+########################            szyby EDI
+[Glass Supplier]
+Count=1
+1=GLASSVER;STE;0;c:\szyby\PCV#1#.txt
+
+################################
+[GLASSVER]
+Code=BRO
+Example:
+[Glass supplier]
+Count = 1
+1 = GLASSVER;SAINTGO;0;\\atl-wp\WinPro\winprodev\edi\SAINTGO\tele#1#.edi
+
+[GLASSVER-SAINTGO]
+Numeros = 1
+Numero 1 = POLSKONE <= this information will be put into the window that appears during the glass order (printscreen that you sent to me)
+#####################################################################################
+################### prefix
+[Prefixes]
+; Order = bon de commande chassis/volets; toujours mettre le préfixe entre ''
+Order='Zam/2005/'
+; Offer = devis; toujours mettre le préfixe entre ''
+Offer='Ofe/2005/'
+; Access = bon de commande Accessoires; toujours mettre le préfixe entre ''
+Access='ZamAkce/'
+; longueur du numéro (complété par des 0 à gauche le cas échéant)
+Length=5
+SAV='Serv/2005/'
+Client=''
+Prefixe Supp='Prefix'
+
+######################################################################################
+
+[Update planning production WEB]
+;60 = 1 hour
+Interval=3
+
+#######################################################################################
+#winpro podaje k¹ty przy oknach ³ukowych
+[System]
+CalculAnglesCintres=1
+CalculAnglesCintresTrav=1
+###########################################################################################
+;wykonanie tylko na partie - Uproszczony plan Produkcji 
+PlanAtelierParLot=1
+##########################
+LS3478-FZ
+#####################
+
+#wielkoœc pytañ
+[system]
+
+Ligne Question = 1 a¿ do 8
+
+##################################################
+
+[Optimisation]
+
+EtiquetteCadre = 1 pour imprimer les étiquettes de cadres juste apres les étiquettes d’optimisation.
+
+               = 0 pour ne pas imprimer les étiquettes cadre apres l'impression des étiquettes d'optimisation.
+
+Dostawa tego zamówienia nast¹pi #4# #1# #5# jeœli zaakceptowane potwierdzenie zostanie nam niezw³ocznie odes³ane.
+Wydanie tego towaru nast¹pi #4# #1# #5# jeœli zaakceptowane potwierdzenie zostanie nam niezw³ocznie odes³ane.
+Monta¿ tego zamówienia nast¹pi #4# #1# #5# jeœli zaakceptowane potwierdzenie zostanie nam niezw³ocznie odes³ane.
+
+
+Version 7.2.6
+
+Modified tables
+Systeme.dbf
+Caisson.dbf
+New module CFL: This is intented to be used with WinproLight : Light Supplier Order.
+This module gives access to the assignment, for each system or roller shutter box, of a supplier code in order to print supplier order forms from the Action tab of the customer order.
+This way, for a given order, designs, shutters, articles, additional supplies as articles or profiles and even bent shetts supplied will be splitted by supplier(s) at the print step.
+Confirmation date:
+A new combination is added for the delivery date onto the printed confirmation, the ability to use macro #6#.
+As reminder, access keys to texts are (via strings.exe):
+
+For installation:
+DOC_POSECOMMANDE
+For delivery:
+DOC_LIVRAISONCOMMANDE
+For pick up delivery mode:
+DOC_ENLEVEMENTCOMMANDE
+For undefined delivery mode:
+DOC_FOURNITURECOMMANDE
+
+Available macros until now were:
+#1#
+Delivery date printed as a week number
+#2#
+The day number (1 to 31) flags the number of weeks for delivery to be done.
+#3#
+Exact delivery date is printed
+#4#
+This text is printed before the delivery date; for macro #1#, it is replaced with text « during week » (identifier « DOC_LA_SEMAINE »); for macro #2#, replaced with text « in » (identifier « DOC_DANS_(x weeks) »); for macro #3# with the text « the » (identifier « DOC_LE (date) »).
+#5#
+
+
+This text follows the delivery date printed; for macro #2#, the macro is replaced with « week(s) » (identificateur « DOC_SEMAINE(S) ») ; for macros #1# and #3#, macro #5# is deleted.
+The new macro :
+#6#
+The customer delay is printed using a week number format
+
+#####################################################################################################################################################
+LOTLIVR pczki wstêpne GLP
+[Optimisation]
+Redifine Delivery Date = 1
+##########################################################
+#kolejnosæ skrzyde³
+Numerotation List=1

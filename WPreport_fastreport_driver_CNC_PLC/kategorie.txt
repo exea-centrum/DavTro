@@ -1,0 +1,55 @@
+skrzy := 1
+Repeat While skrzy <= _NSashes
+   If _FittingCategory [skrzy] <> 1 And odc_list_osc = odc_tak
+      # Nie Zatwierdz Je¿eli w oknie nie ma FIX'ów, a skrzyd³a maj¹ byæ z odciêt¹ listw¹ przyszybow¹ -> nale¿y wybraæ odciêt¹ listwê w ka¿dym skrzydle (w zak³adce SKRZYD£O), a nie w zak³adce OŒCIE¯NICA.
+   End If
+   skrzy += 1
+End Repeat
+
+
+w s³upku
+Repeat While skrzy <= _NSashes
+
+   If _SashCategory [skrzy] = 63
+      If _SashY [skrzy] > Y0 And _SashY [skrzy] = Y0 + (((wym_slupka - 82) / 2) + 8)
+         fix_nad_slemieniem := 1
+      End If
+
+      If _SashY [skrzy] + _SashH [skrzy] < Y0 And _SashY [skrzy] + _SashH [skrzy] = Y0 - (((wym_slupka - 82) / 2) + 32)
+         fix_pod_slemieniem := 1
+      End If
+
+      If X0 < _SashX [skrzy] And X0 + 10.5 = _SashX [skrzy]
+         fix_lewo_slemie := 1
+      End If
+
+      If _SashX [skrzy] + _SashW [skrzy] < X1 And X1 - 10.5 = _SashX [skrzy] + _SashW [skrzy]
+         fix_prawo_slemie := 1
+      End If
+   End If
+
+   skrzy += 1
+
+End Repeat
+
+Repeat While skrzy <= _NSashes
+   If _SashCategory [skrzy] = 63
+      If _SashY [skrzy] < Y0 And _SashY [skrzy] + 13.5 = Y0
+         fix_dol_slupek := 1
+      End If
+
+      If _SashY [skrzy] + _SashH [skrzy] < Y1 And _SashY [skrzy] + _SashH [skrzy] + 10.5 = Y1
+         fix_gora_slupek := 1
+      End If
+
+      If _SashX [skrzy] + _SashW [skrzy] < X0 And _SashX [skrzy] + _SashW [skrzy] + (((wym_slupka - 105) / 2) + 31.5) = X0
+         fix_lewo_slupek := 1
+      End If
+
+      If _SashX [skrzy] > X0 And X0 + (((wym_slupka - 105) / 2) + 31.5) = _SashX [skrzy]
+         fix_prawo_slupek := 1
+      End If
+   End If
+
+   skrzy += 1
+End Repeat
