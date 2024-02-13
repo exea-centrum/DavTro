@@ -1,0 +1,108 @@
+[Record REPORT]
+[CODE=SAGE_FACTURE]
+[C]code=SAGE_FACTURE
+[M]descriptio=51
+Version 1.0.0.0 lancée en même temps que la facture
+[M]design=16230
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.5.25" DotMatrixReport="false" IniFile="\Software\Fast Reports" PreviewOptions.AllowEdit="false" PreviewOptions.Buttons="4089" PreviewOptions.Zoom="1" PrintOptions.Collate="false" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39139,4127702083" ReportOptions.Description.Text="" ReportOptions.Name="SAGE_FACTURE" ReportOptions.LastChange="39644,6194567708" ReportOptions.VersionBuild="0" ReportOptions.VersionMajor="1" ReportOptions.VersionMinor="0" ReportOptions.VersionRelease="0" ScriptLanguage="PascalScript" ScriptText.Text="// Définition des variables    &#13;&#10;var&#13;&#10;okQuestion : integer;&#13;&#10;sql : string;  &#13;&#10;fichierIni : string;                                             &#13;&#10;NumeroCompteTVA : string;&#13;&#10;ImputationComptable : string;                                                              &#13;&#10;&#13;&#10;repertoire : string;&#13;&#10;nomFichier : string;&#13;&#10;ligne : string;&#13;&#10;prefixe : string;&#13;&#10;extension : string;                                               &#13;&#10;&#13;&#10;fichier: TFileStream;&#13;&#10;                                                                 &#13;&#10;// ----------------------------------------------------------------------------------------------//&#13;&#10;// Définition des fonctions ---------------------------------------------------------------------//&#13;&#10;// ----------------------------------------------------------------------------------------------//  &#13;&#10;// Fct FormatAddChr *****************************************************************************//                                                                              &#13;&#10;// Formate une chaîne de caractère à une longueur donnée en ajoutant n caractères avant ou après&#13;&#10;// Exemple : FormatAddChr('+A06','xxx') renvoit la chaîne 'xxxAAA' où 6 correspond à la longueur finale  &#13;&#10;Function FormatAddChr(var FACStyle : String;FACArg : Variant):String;&#13;&#10;var&#13;&#10;   NewStr : String;&#13;&#10;   LgNewStr : Integer;                                          &#13;&#10;   AddPos : String;                                    &#13;&#10;   AddChar : String;&#13;&#10;   NbChar : Integer;&#13;&#10;   AddCpt : Integer;&#13;&#10;     &#13;&#10;begin&#13;&#10;   NewStr := FACArg;&#13;&#10;   AddPos := FACStyle[1];                                                                                                     &#13;&#10;   AddChar := FACStyle[2];&#13;&#10;   LgNewStr := StrToInt(FACStyle[3]) * 10 +  StrToInt(FACStyle[4]);&#13;&#10;   NbChar := LgNewStr - Length(FACArg);                                        &#13;&#10;   if (Length(FACStyle) = 4) and (NbChar &#62;= 0) and (AddPos = '-') then&#13;&#10;   begin                  &#13;&#10;      AddCpt := 0;&#13;&#10;      while AddCpt &#60; NbChar do&#13;&#10;      begin&#13;&#10;         NewStr := NewStr + AddChar;                                                        &#13;&#10;         Inc(AddCpt,1);                                                                                                            &#13;&#10;      end;  &#13;&#10;   end&#13;&#10;   else&#13;&#10;   begin                &#13;&#10;      if (Length(FACStyle) = 4) and (NbChar &#62;= 0) and (AddPos = '+') then&#13;&#10;      begin                  &#13;&#10;         AddCpt := 0;&#13;&#10;         while AddCpt &#60; NbChar do&#13;&#10;         begin&#13;&#10;            NewStr := AddChar + NewStr;                                                        &#13;&#10;            Inc(AddCpt,1);                                                                                                            &#13;&#10;         end;  &#13;&#10;      end&#13;&#10;     else&#13;&#10;         RaiseException('Fct FormatAddChr : arguments incorrects')                                                                        &#13;&#10;       end;      &#13;&#10;   Result := NewStr;                                                                                                &#13;&#10;end;  &#13;&#10;  &#13;&#10;&#13;&#10;&#13;&#10;  &#13;&#10;begin&#13;&#10;    &#13;&#10;   // Mise à 0 des variables.&#13;&#10;   ligne               := '';                                                                                                                                                                                  &#13;&#10;   NumeroCompteTVA     := '';&#13;&#10;   ImputationComptable := '';                         &#13;&#10;   repertoire          := '';&#13;&#10;   nomFichier          := '';&#13;&#10;&#13;&#10;   // Définition des séparateurs.                                                                                 &#13;&#10;   SetDecimalSeparator(',');&#13;&#10;   SetThousandSeparator(' ');&#13;&#10;&#13;&#10;   // Définition du fichier Ini.&#13;&#10;   fichierIni := '.\\Sage.ini';                                    &#13;&#10;     &#13;&#10;   // Constitution du nom de fichier.&#13;&#10;   repertoire := Trim(IniReadString(fichierIni, 'Répertoire:Sage', '.\\'));&#13;&#10;   prefixe := Trim(IniReadString(fichierIni, 'Nom fichier:Préfixe', ''));&#13;&#10;   extension := Trim(IniReadString(fichierIni, 'Nom fichier:Extension', ''));&#13;&#10;   if extension = '' then extension := '.txt';&#13;&#10;   nomFichier := repertoire + prefixe + 'TestLucCompta' + extension;&#13;&#10;&#13;&#10;   // Création du fichier.&#13;&#10;   fichier := TFileStream.Create(nomFichier, fmCreate);                               &#13;&#10;   &#13;&#10;   ExecSQL('commande');      &#13;&#10;   FirstRecord('commande');                              &#13;&#10;   while not QueryEOF('commande') do&#13;&#10;      begin&#13;&#10;      // ------------- chaque repère de la commande --------------------------------------------                                                                                                                                                                                                                 &#13;&#10;      // INSERTION de la requete FEN (chaque repère de la commande) pour les lignes du Hors Taxe &#13;&#10;      FirstRecord('fen');                              &#13;&#10;      while not QueryEOF('fen') do&#13;&#10;         begin&#13;&#10;            case copy(Trim(&#60;fen.&#34;csysteme&#34;&#62;),1,3) of&#13;&#10;               'BOI' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:1', ''));  &#13;&#10;               'PVC' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:2', ''));&#13;&#10;               'ESC' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:2', ''));&#13;&#10;            end;&#13;&#10;         //              date facture                                numero compte général                   numéro de facture                             référence                                                                                                                                                                                                                                                                                                                                                                                                &#13;&#10;         ligne := '10' + FormatDateTime('ddmmyy',&#60;cde.&#34;dateimpr&#34;&#62;) + Format('%-13s',[ImputationComptable]) + Format('%-17s',[IntToStr(&#60;cde.&#34;numdoc&#34;&#62;)]) + Format('%-17.17s',[&#60;cde.&#34;refcli&#34;&#62;]) + FormatAddChr('+ 17',' ');&#13;&#10;&#13;&#10;         //                 date d'échéance                                                                                                                                                                                                                                                                                                                                                                     &#13;&#10;         ligne := ligne + FormatDateTime('ddmmyy',&#60;cde.&#34;echeance&#34;&#62;) + Format('%-35.35s',[&#60;client.&#34;nom&#34;&#62;]) + FormatAddChr('+ 14',' ') + Format('%14s',[FormatFloat('0.00',&#60;fen.&#34;totfacfen&#34;&#62;)]) + CHR(13) + CHR(10);&#13;&#10;      showmessage(ligne);                                      &#13;&#10;  &#13;&#10;         fichier.Write(ligne, Length(ligne));&#13;&#10;         NextRecord('fen');             &#13;&#10;         end;&#13;&#10;&#13;&#10;                          &#13;&#10;      // ------------- chaque article en négoce de la commande ---------------------------------                                                                                                                                                                                                                 &#13;&#10;      // INSERTION de la requete FEN (chaque repère de la commande) pour les lignes du Hors Taxe &#13;&#10;      FirstRecord('art');                              &#13;&#10;      while not QueryEOF('art') do&#13;&#10;         begin&#13;&#10;            case copy(Trim(&#60;art.&#34;descriptio&#34;&#62;),1,1) of&#13;&#10;               'B' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:1', ''));  &#13;&#10;               'P' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:2', ''));&#13;&#10;               'E' : ImputationComptable := Trim(IniReadString(fichierIni, 'ListeImput:2', ''));&#13;&#10;            end;&#13;&#10;         //              date facture                                numero compte général                  numéro de facture                            référence&#13;&#10;         ligne := '10' + FormatDateTime('ddmmyy',&#60;cde.&#34;dateimpr&#34;&#62;) + Format('%-13s',[ImputationComptable]) + Format('%-17s',[IntToStr(&#60;cde.&#34;numdoc&#34;&#62;)]) + Format('%-17.17s',[&#60;cde.&#34;refcli&#34;&#62;]) + FormatAddChr('+ 17',' ');&#13;&#10;&#13;&#10;         //                 date d'échéance                                                                                                                                                                                                                                                                                                                                                                     &#13;&#10;         ligne := ligne + FormatDateTime('ddmmyy',&#60;cde.&#34;echeance&#34;&#62;) + Format('%-35.35s',[&#60;client.&#34;nom&#34;&#62;]) + FormatAddChr('+ 14',' ') + Format('%14s',[FormatFloat('0.00',&#60;art.&#34;pvtotal&#34;&#62;)]) + CHR(13) + CHR(10);&#13;&#10;      showmessage(ligne);                                      &#13;&#10;  &#13;&#10;         fichier.Write(ligne, Length(ligne));&#13;&#10;         NextRecord('art');             &#13;&#10;         end;&#13;&#10;  &#13;&#10;  &#13;&#10;&#13;&#10;                                                                                                 &#13;&#10;      // ligne de la TVA&#13;&#10;      NumeroCompteTVA := Trim(IniReadString(fichierIni, 'Comptes TVA:19.6', ''));&#13;&#10;           &#13;&#10;      ligne := '10' + FormatDateTime('ddmmyy',&#60;cde.&#34;dateimpr&#34;&#62;) + NumeroCompteTVA + ('       ') + Format('%-17s',[IntToStr(&#60;cde.&#34;numdoc&#34;&#62;)]) + Format('%-17.17s',[&#60;cde.&#34;refcli&#34;&#62;]) + FormatAddChr('+ 17',' ');&#13;&#10;      ligne := ligne + FormatDateTime('ddmmyy',&#60;cde.&#34;echeance&#34;&#62;) + Format('%-35.35s',[&#60;client.&#34;nom&#34;&#62;]) + FormatAddChr('+ 14',' ') + Format('%14s',[FormatFloat('0.00',&#60;cde.&#34;tottva&#34;&#62;)]) + CHR(13) + CHR(10);&#13;&#10;      showmessage(ligne);                                      &#13;&#10;  &#13;&#10;      fichier.Write(ligne, Length(ligne));&#13;&#10;            &#13;&#10;      // ligne du TTC    &#13;&#10;      ligne := '10' + FormatDateTime('ddmmyy',&#60;cde.&#34;dateimpr&#34;&#62;) + '4110         ' +  Format('%-17s',[IntToStr(&#60;cde.&#34;numdoc&#34;&#62;)]) + Format('%-17.17s',[&#60;cde.&#34;refcli&#34;&#62;]) + Format('%-17s',[&#60;cde.&#34;client&#34;&#62;]);&#13;&#10;      ligne := ligne + FormatDateTime('ddmmyy',&#60;cde.&#34;echeance&#34;&#62;) + Format('%-35.35s',[&#60;client.&#34;nom&#34;&#62;]) + Format('%14s',[FormatFloat('0.00',&#60;cde.&#34;tottvac&#34;&#62;)]) + CHR(13) + CHR(10);&#13;&#10;      showmessage(ligne);                                      &#13;&#10;  &#13;&#10;      fichier.Write(ligne, Length(ligne));&#13;&#10;             &#13;&#10;      NextRecord('cde');&#13;&#10;      end;&#13;&#10;&#13;&#10;      // Fermeture du fichier.&#13;&#10;      fichier.Free;&#13;&#10;&#13;&#10;      // Mise à 1 du champ EnvoiCompta pour ne pas envoyée une secônde fois en compta                                                                                                                                                                                                                    &#13;&#10;      ExecSQL('compta');&#13;&#10;      ExecSQL('comptacde');&#13;&#10;          &#13;&#10;      Showmessage('Le fichier pour la compta est généré.');                                                                                                                                                            &#13;&#10;              &#13;&#10;end.                                             " StoreInDFM="false" PropData="044C65667403D10203546F70031B0108446174617365747301010C2100000020446174615365743D225F6172742220446174615365744E616D653D226172742200010C2100000020446174615365743D225F6364652220446174615365744E616D653D226364652200010C2700000020446174615365743D225F636C69656E742220446174615365744E616D653D22636C69656E742200010C2B00000020446174615365743D225F636F6D6D616E64652220446174615365744E616D653D22636F6D6D616E64652200010C2100000020446174615365743D225F66656E2220446174615365744E616D653D2266656E220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2232392F30372F323030382200010C1C000000204E616D653D224E4F57222056616C75653D2231303A30303A35372200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E697374726174657572220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDialogPage Name="DialogPage2" Font.Charset="1" Font.Color="0" Font.Height="-7" Font.Name="Tahoma" Font.Style="0" Height="200" Left="265" Top="150" Width="300"/>
+</TfrxReport>
+
+[I]fr3=1
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      0]
+[C]database=DB1
+[C]datasource=odbc_mysql
+[C]name=DB1
+[M]params=30
+USER NAME=root
+password=luc
+
+[C]report=SAGE_FACTURE
+[C]type=D
+[I]typedb=6
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      1]
+[C]database=DB1
+[C]datasource=ds_commande
+[I]line=1
+[C]name=cde
+[C]report=SAGE_FACTURE
+[M]sqlmy=63
+SELECT c.* FROM cde c
+where typedoc="F" 
+and commande=:numero
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      2]
+[C]database=DB1
+[C]datasource=ds_cde
+[I]line=2
+[C]name=client
+[C]report=SAGE_FACTURE
+[M]sqlmy=54
+select code, nom,info1 from Client
+where code=:client
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      3]
+[C]database=DB1
+[C]datasource=ds_cde
+[I]line=3
+[C]name=fen
+[C]report=SAGE_FACTURE
+[M]sqlmy=55
+select * from fen
+where typedoc='F' and numdoc=:numdoc
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      4]
+[C]database=DB1
+[C]datasource=ds_cde
+[I]line=4
+[C]name=art
+[C]report=SAGE_FACTURE
+[M]sqlmy=55
+select * from art
+where typedoc='F' and numdoc=:numdoc
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      5]
+[C]database=DB1
+[I]line=5
+[C]name=compta
+[C]report=SAGE_FACTURE
+[M]sqlmy=53
+update commande set envoicompta=1 where numero=:order
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      6]
+[C]database=DB1
+[I]line=6
+[C]name=comptacde
+[C]report=SAGE_FACTURE
+[M]sqlmy=50
+update cde set envoicompta=1 where commande=:order
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=SAGE_FACTURE      7]
+[C]database=DB1
+[I]line=7
+[C]name=commande
+[C]report=SAGE_FACTURE
+[M]sqlmy=88
+SELECT co.numero,co.envoicompta FROM commande co
+where envoicompta=0
+and numero=:order
+[C]type=Q
+[End of REPORTQRY]

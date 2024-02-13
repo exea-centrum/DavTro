@@ -1,0 +1,138 @@
+[Record REPORT]
+[CODE=DEV SIMPL]
+[C]code=DEV SIMPL
+[M]descriptio=60
+V1.0  Multilingue
+WinPro V 8.0.1.54
+WPReport.dll V 8.0.1.2
+[M]design=21819
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.1.28" DotMatrixReport="false" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39176,4860442708" ReportOptions.Description.Text="" ReportOptions.LastChange="39176,4860442708" ScriptLanguage="PascalScript" ScriptText.Text="//+++++++++  Variables globales  +++++++++&#13;&#10;var&#13;&#10;tot : extended;                                      &#13;&#10;tvatot : extended;&#13;&#10;tvac : extended;                                    &#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;//++++++++++++++++++   Fonctions et procédures ++++++++++++++++++++++++++++++++++                                                                                                                                                                  &#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;    &#13;&#10;function isblank (chaine : string) : boolean;&#13;&#10;begin&#13;&#10;  if (length(trim(chaine)) &#62; 0) then             &#13;&#10;     Result := false  &#13;&#10;  else&#13;&#10;     Result := true;&#13;&#10;end;                      &#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;          &#13;&#10;  &#13;&#10;procedure Clienttel1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;str : string;                              &#13;&#10;begin&#13;&#10;   if not (isblank(&#60;Client.&#34;tel1&#34;&#62;)) then&#13;&#10;   begin&#13;&#10;      str := Translate('DOC_TEL','') + ': ' + &#60;Client.&#34;tel1&#34;&#62;;&#13;&#10;      if not (isblank(&#60;Client.&#34;tel2&#34;&#62;)) then&#13;&#10;      begin&#13;&#10;         str := str + '; ' + &#60;Client.&#34;tel2&#34;&#62;;                                        &#13;&#10;         if not (isblank(&#60;Client.&#34;tel3&#34;&#62;)) then&#13;&#10;         begin&#13;&#10;            str := str + '; ' + &#60;Client.&#34;tel3&#34;&#62;;                                        &#13;&#10;         end;&#13;&#10;      end;                                                       &#13;&#10;   end;&#13;&#10;   Clienttel1.Text := str;                                           &#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;&#13;&#10;  &#13;&#10;procedure Clientfax1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;str : string;                              &#13;&#10;begin&#13;&#10;   if not (isblank(&#60;Client.&#34;fax1&#34;&#62;)) then&#13;&#10;   begin&#13;&#10;      str := Translate('DOC_FAX','') + ': ' + &#60;Client.&#34;fax1&#34;&#62;;&#13;&#10;      if not (isblank(&#60;Client.&#34;fax2&#34;&#62;)) then&#13;&#10;      begin&#13;&#10;         str := str + '; ' + &#60;Client.&#34;fax2&#34;&#62;;                                        &#13;&#10;         if not (isblank(&#60;Client.&#34;fax3&#34;&#62;)) then&#13;&#10;         begin&#13;&#10;            str := str + '; ' + &#60;Client.&#34;fax3&#34;&#62;;                                        &#13;&#10;         end;&#13;&#10;      end;                                                       &#13;&#10;   end;&#13;&#10;   Clientfax1.Text := str;&#13;&#10;end;&#13;&#10; &#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;&#13;&#10;  &#13;&#10;     &#13;&#10;procedure Picture1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   if not (isblank(&#60;Societe.&#34;logo&#34;&#62;)) then&#13;&#10;   begin               &#13;&#10;      Picture1.LoadFromFile(&#60;Societe.&#34;logo&#34;&#62;);&#13;&#10;   end;                     &#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;    &#13;&#10;procedure Memo3OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   Memo3.Text := ' ' + &#60;Client.&#34;nom&#34;&#62;;&#13;&#10;   Memo3.Text := Memo3.Text + &#60;Client.&#34;ruelivr&#34;&#62; + &#60;Client.&#34;cplivr&#34;&#62; + &#60;Client.&#34;villelivr&#34;&#62; + &#60;Client.&#34;provlivr&#34;&#62; + &#60;Client.&#34;payslivr&#34;&#62;;                                                        &#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;  &#13;&#10;procedure DetailsystemeOnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;   Detailsysteme.Text := &#60;Detail.&#34;systeme&#34;&#62;;                                                            &#13;&#10;             &#13;&#10;   if (&#60;Detail.&#34;typevitre&#34;&#62;='0') then&#13;&#10;   begin&#13;&#10;      Detailsysteme.Memo.Add(&#60;Detail.&#34;vitrage&#34;&#62;);                                                            &#13;&#10;   end;&#13;&#10;   if (&#60;Detail.&#34;typevitre&#34;&#62;='1') then&#13;&#10;   begin&#13;&#10;      Detailsysteme.Memo.Add(&#60;Detail.&#34;panneau&#34;&#62;);                                                            &#13;&#10;   end;&#13;&#10;   if (&#60;Detail.&#34;typevitre&#34;&#62;='2') then&#13;&#10;   begin&#13;&#10;      Detailsysteme.Memo.Add(&#60;Detail.&#34;panndeco&#34;&#62;);                                                            &#13;&#10;   end;&#13;&#10;   if (&#60;Detail.&#34;typevitre&#34;&#62;='3') then&#13;&#10;   begin&#13;&#10;      Detailsysteme.Memo.Add(&#60;Detail.&#34;pannfabr&#34;&#62;);                                                            &#13;&#10;   end;&#13;&#10;         &#13;&#10;   Detailsysteme.Memo.Add(&#60;Detail.&#34;couleur&#34;&#62;);  &#13;&#10;  &#13;&#10;end;&#13;&#10;  &#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;&#13;&#10;procedure Picture2OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   WindowDrawing('Picture2',&#60;Commande.&#34;numero&#34;&#62;,&#60;Detail.&#34;numero&#34;&#62;,257,215,true,true);                                                   &#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;  &#13;&#10;procedure Memo10OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   tot := tot + &#60;Detail.&#34;prtotal&#34;&#62;;&#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;  &#13;&#10;procedure Memo16OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   tvatot := tot * &#60;TVA.&#34;d&#34;&#62; / 100;&#13;&#10;   tvac := tot + tvatot;                                                   &#13;&#10;end;&#13;&#10;&#13;&#10;//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#13;&#10;  &#13;&#10;procedure ClienttitreOnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;   tmp : string;                         &#13;&#10;begin&#13;&#10;   tmp := &#60;Client.&#34;titre&#34;&#62; + ' ' + &#60;Client.&#34;nom&#34;&#62;;&#13;&#10;   Clienttitre.Memo.Add(tmp);&#13;&#10;   tmp := &#60;Client.&#34;adresse&#34;&#62;;&#13;&#10;   Clienttitre.Memo.Add(tmp);&#13;&#10;   tmp := &#60;Client.&#34;zip&#34;&#62; + ' ' + &#60;Client.&#34;localite&#34;&#62;;&#13;&#10;   Clienttitre.Memo.Add(tmp);&#13;&#10;   tmp := &#60;Client.&#34;province&#34;&#62; + ' ' +&#60;Client.&#34;pays&#34;&#62;;  &#13;&#10;   Clienttitre.Memo.Add(tmp);       &#13;&#10;end;&#13;&#10;&#13;&#10;  &#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D10203546F70031B0108446174617365747301010C2700000020446174615365743D225F436C69656E742220446174615365744E616D653D22436C69656E742200010C2B00000020446174615365743D225F436F6D6D616E64652220446174615365744E616D653D22436F6D6D616E64652200010C2700000020446174615365743D225F44657461696C2220446174615365744E616D653D2244657461696C2200010C2900000020446174615365743D225F536F63696574652220446174615365744E616D653D22536F63696574652200010C2100000020446174615365743D225F5456412220446174615365744E616D653D22545641220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Height="306" Left="0" ParentFont="false" Top="16" Width="718,1107" Stretched="true">
+      <TfrxPictureView Name="Picture1" Left="8" Top="7,10235" Width="218,48825" Height="41,89765" OnBeforePrint="Picture1OnBeforePrint" KeepAspectRatio="false"/>
+      <TfrxMemoView Name="Societenom" Left="8" Top="55,10235" Width="259,26036" Height="24,89765" DataField="nom" DataSet="_Societe" DataSetName="Societe" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="false" Text="[Societe.&#34;nom&#34;]"/>
+      <TfrxMemoView Name="Societesoustitre" Left="8" Top="87,10235" Width="259,37013" Height="18,89765" DataField="soustitre" DataSet="_Societe" DataSetName="Societe" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Societe.&#34;soustitre&#34;]"/>
+      <TfrxMemoView Name="Societetexte1" Left="8" Top="106,10235" Width="259,37013" Height="18,89765" DataField="texte1" DataSet="_Societe" DataSetName="Societe" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Societe.&#34;texte1&#34;]"/>
+      <TfrxMemoView Name="Societetexte2" Left="8" Top="125,10235" Width="259,37013" Height="18,89765" DataField="texte2" DataSet="_Societe" DataSetName="Societe" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Societe.&#34;texte2&#34;]"/>
+      <TfrxMemoView Name="Memo1" Left="330" Top="16,10235" Width="94,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Translate('DOC_DEVIS',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Clienttitre" Left="330" Top="55,10235" Width="351,03185" Height="83,14966" OnBeforePrint="ClienttitreOnBeforePrint" AutoWidth="true" DataSet="_Client" DataSetName="Client" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Clienttel1" Left="330" Top="145,10235" Width="346,11039" Height="18,89765" OnBeforePrint="Clienttel1OnBeforePrint" DataSet="_Client" DataSetName="Client" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Translate('DOC_TEL',&#60;Client.&#34;langue&#34;&#62;)]:[Client.&#34;tel1&#34;]"/>
+      <TfrxMemoView Name="Clientfax1" Left="330" Top="164,10235" Width="346,11039" Height="18,89765" OnBeforePrint="Clientfax1OnBeforePrint" DataSet="_Client" DataSetName="Client" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Translate('DOC_FAX',&#60;Client.&#34;langue&#34;&#62;)]: [Client.&#34;fax1&#34;]"/>
+      <TfrxMemoView Name="Clientcode" Left="330" Top="183,10235" Width="346,25201" Height="18,89765" DataSet="_Client" DataSetName="Client" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Translate('DOC_NOCLIENT',&#60;Client.&#34;langue&#34;&#62;)]: [Client.&#34;code&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="274,10235" Width="154,48825" Height="31,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="2" Frame.Typ="15" HAlign="haCenter" ParentFont="false" VAlign="vaCenter" Text="[Translate('DOC_ADRESSELIVRAISON',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo3" Left="154" Top="274,10235" Width="564,48825" Height="31,89765" OnBeforePrint="Memo3OnBeforePrint" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="false" VAlign="vaCenter" Text=""/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" Height="40,18089" Left="0" Top="344" Width="718,1107" Stretched="true">
+      <TfrxMemoView Name="Memo4" Left="0" Top="8,28323999999998" Width="359,48825" Height="31,89765" Color="16313577" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" VAlign="vaCenter" Text="[Translate('DOC_DEVIS',&#60;Client.&#34;langue&#34;&#62;)] [Commande.&#34;numero&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="359" Top="8,28323999999998" Width="359,48825" Height="31,89765" Color="16313577" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" VAlign="vaCenter" Text="[Date]"/>
+    </TfrxPageHeader>
+    <TfrxPageFooter Name="PageFooter1" Height="37,7953" Left="0" Top="908" Width="718,1107">
+      <TfrxMemoView Name="Memo11" Left="0" Top="0" Width="200,31509" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="false" Text="[Date] - [Time]"/>
+      <TfrxMemoView Name="Commandenumero" Align="baCenter" Left="268,34663" Top="18,89765" Width="181,41744" Height="18,89765" Color="16777215" DataField="numero" DataSet="_Commande" DataSetName="Commande" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="false" Text="[Commande.&#34;numero&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="200,31509" Top="0" Width="366,61441" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Page" Left="566,9295" Top="0" Width="151,1812" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="4" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_PAGE',&#60;Client.&#34;langue&#34;&#62;)] [Page] "/>
+    </TfrxPageFooter>
+    <TfrxMasterData Name="MasterData1" Height="257,75572" Left="0" Top="444" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="_Detail" DataSetName="Detail" RowCount="0" Stretched="true">
+      <TfrxMemoView Name="Memo6" Left="0" Top="235,07854" Width="718,48825" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Detailnumero" Left="283,46475" Top="3,77953000000002" Width="128,50402" Height="18,89765" Color="16313577" DataField="numero" DataSet="_Detail" DataSetName="Detail" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="false" Text="[Detail.&#34;numero&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="411,96877" Top="3,77953000000002" Width="306,14193" Height="18,89765" Color="16313577" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="false" Text="[Translate('DOC_DESCRIPTION',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo8" Left="283,46475" Top="22,67718" Width="128,50402" Height="49,13389" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Translate('DOC_SYSTEME',&#60;Client.&#34;langue&#34;&#62;)]&#13;&#10;[Translate('DOC_VITRAGE',&#60;Client.&#34;langue&#34;&#62;)]&#13;&#10;[Translate('DOC_COULEUR',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Detailsysteme" Left="411,96877" Top="22,67718" Width="306,14193" Height="49,13389" OnBeforePrint="DetailsystemeOnBeforePrint" Color="16777215" DataSet="_Detail" DataSetName="Detail" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Memo9" Left="283,46475" Top="71,81107" Width="128,50402" Height="18,89765" Color="16313577" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="13" ParentFont="false" Text="[Translate('DOC_PRIX_CHASSIS',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxPictureView Name="Picture2" Left="22,67718" Top="15,11812" Width="257,00804" Height="215,43321" OnBeforePrint="Picture2OnBeforePrint"/>
+      <TfrxMemoView Name="Memo10" Left="411,96877" Top="71,81107" Width="306,14193" Height="18,89765" OnBeforePrint="Memo10OnBeforePrint" Color="16313577" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[Detail.&#34;prtotal&#34;] [Client.&#34;devise&#34;]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="128,50402" Left="0" Top="720" Width="718,1107">
+      <TfrxMemoView Name="Memo13" Left="283,46475" Top="7,55906000000004" Width="272,12616" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial Narrow" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Memo14" Left="555,59091" Top="7,55906000000004" Width="162,51979" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_TOTALNET',&#60;Client.&#34;langue&#34;&#62;)] "/>
+      <TfrxMemoView Name="Memo15" Left="283,46475" Top="26,45671" Width="272,12616" Height="18,89765" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_TOTAL',&#60;Client.&#34;langue&#34;&#62;)] "/>
+      <TfrxMemoView Name="Memo16" Left="555,59091" Top="26,45671" Width="162,51979" Height="18,89765" OnBeforePrint="Memo16OnBeforePrint" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[tot] [Client.&#34;devise&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="283,46475" Top="45,35436" Width="272,12616" Height="30,23621559" Color="16777215" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_TOTALNET',&#60;Client.&#34;langue&#34;&#62;)] &#13;&#10;[Translate('DOC_TVA',&#60;Client.&#34;langue&#34;&#62;)]  [TVA.&#34;d&#34;] % "/>
+      <TfrxMemoView Name="Memo18" Left="555,59091" Top="45,35436" Width="162,51979" Height="30,23624" Color="16777215" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[tot] [Client.&#34;devise&#34;]&#13;&#10;[tvatot] [Client.&#34;devise&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="283,46475" Top="75,5906" Width="272,12616" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="5" Frame.Typ="7" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_TOTALTVAC',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo20" Left="555,59091" Top="75,5906" Width="162,51979" Height="22,67718" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="5" Frame.Typ="7" HAlign="haRight" ParentFont="false" Text="[tvac] [Client.&#34;devise&#34;]"/>
+      <TfrxMemoView Name="Memo21" Left="283,46475" Top="98,26778" Width="272,12616" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_EQUIV_EURO',&#60;Client.&#34;langue&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="555,59091" Top="98,26778" Width="162,51979" Height="18,89765" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haRight" ParentFont="false" Text="[tvac / &#60;Client.&#34;euro&#34;&#62;] â‚¬"/>
+    </TfrxFooter>
+  </TfrxReportPage>
+</TfrxReport>
+
+[I]fr3=1
+[C]title=Devis simplifié sans cotes
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         0]
+[C]database=DB1
+[C]datasource=odbc_mysql
+[C]name=Database1
+[M]params=31
+user name=root
+password=test
+
+[C]report=DEV SIMPL
+[C]type=D
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         1]
+[C]database=DB1
+[I]line=1
+[C]name=Societe
+[M]params=57
+Select nom, soustitre, texte1, texte2, logo
+from societe
+[C]report=DEV SIMPL
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         2]
+[C]database=DB1
+[I]line=2
+[C]name=Commande
+[M]params=175
+Select c.numero, c.client, c.reference, c.adresse, s.key as tva, c.totconf
+from commande c, settings s
+where c.numero='$TEST_BCV9' and s.section='VAT code' and s.s=c.codetva
+[C]report=DEV SIMPL
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         3]
+[C]database=DB1
+[C]datasource=ds_Commande
+[I]line=3
+[C]name=Client
+[M]params=304
+Select cl.code, cl.nom, cl.adresse, cl.localite, cl.zip, cl.province, cl.pays, cl.langue, cl.tel1, cl.tel2, cl.tel3, cl.fax1, cl.fax2, cl.fax3, cl.devise, d.euro, cl.titre, cl.ruelivr, cl.villelivr, cl.cplivr, cl.provlivr, cl.payslivr
+From client cl, devise d
+where cl.code=:client and d.code=cl.devise
+[C]report=DEV SIMPL
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         4]
+[C]database=DB1
+[C]datasource=ds_Commande
+[I]line=4
+[C]name=Detail
+[M]params=454
+Select d.numero, d.prtotal, d.pr0total, s.descriptio as systeme, c.descriptio as couleur, d.typevitre, v.descriptio as vitrage, p.descriptio as panneau, pd.descriptio as panndeco, pf.descriptio as pannfabr, d.wp_ver
+from detail d, systeme s, vitrage v, panneau p, panndeco pd, pannfabr pf, couleur c 
+where d.commande=:numero and s.code=d.systeme and (v.code=d.vitrage or p.code=d.vitrage or pd.code=d.vitrage or pf.code=d.vitrage) and d.couleur=c.code
+[C]report=DEV SIMPL
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=DEV SIMPL         5]
+[C]database=DB1
+[C]datasource=ds_Commande
+[I]line=5
+[C]name=TVA
+[M]params=68
+Select s.d
+From settings s
+where s.section='VAT pc' and s.key=:tva
+[C]report=DEV SIMPL
+[C]type=Q
+[End of REPORTQRY]

@@ -1,0 +1,39 @@
+K16057                                                                                                                                                          
+K2           041026041026                                                                                                                                       
+T1EDI Hemmar PVC                                                                                                                              K                 
+T1EDI                                                                                                                                         K                 
+T1D                                                                                                                                           P                 
+P1 001.1.1   0                 DG 4/15/4 KLAAR                                                                           00000108921892SK 8,00,GW,0,1           
+P2                                                                     1500          N                                                                          
+T1DEJA COMMANDE: EDI             .001.1.1   
+K16057                                                                                                                                                          
+K2           041026041026                                                                                                                                       
+T1EDI Hemmar PVC                                                                                                                              K                 
+T1EDI                                                                                                                                         K                 
+T1D                                                                                                                                           P                 
+P1 002.1.1   0                 DG 4/15/4 KLAAR                                                                           00000108921873SK 8,00,GW,0,1           
+P2                                                                     1500          N                                                                          
+B1I                                                                                                0001FORME 1                                                  
+M1 20892        18731606                                                                                                                                        
+T1DEJA COMMANDE: EDI             .002.1.1   
+T1EDI                                                                                                                                         K                 
+T1D                                                                                                                                           P                 
+P1 003.1.1   0                 DG 4/15/4 KLAAR                                                                           00000108591717SK 8,00,GW,0,1           
+P2                                                                     1500          N                                                                          
+B1I                                                                                                0001FORME 2                                                  
+M1460859        1717                                                                                                                                            
+T1DEJA COMMANDE: EDI             .003.1.1   
+T1EDI                                                                                                                                         K                 
+T1D                                                                                                                                           P                 
+P1 004.1.1   0                 DG 4/15/4 KLAAR                                                                           00000108921892SK 8,00,GW,0,1           
+P2                                                                     1500          N                                                                          
+B1I                                                                                                0001FORME 6                                                  
+M1780892        1892                                                                                                                                            
+T1DEJA COMMANDE: EDI             .004.1.1   
+T1EDI                                                                                                                                         K                 
+T1D                                                                                                                                           P                 
+P1 005.1.1   0                 DG 4/15/4 KLAAR                                                                           00000108771873SK 8,00,GW,0,1           
+P2                                                                     1500          N                                                                          
+B1I                                                                                                0001FORME 13                                                 
+M11608770409    18731709                                                                                                                                        
+T1DEJA COMMANDE: EDI             .005.1.1   

@@ -1,0 +1,68 @@
+[Record REPORT]
+[CODE=CATEG ART]
+[C]code=CATEG ART
+[M]descriptio=25
+V 1.2 YL ajout du titre
+
+[M]design=7054
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.2.14" DotMatrixReport="false" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="pdfFactory" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39160,58374125" ReportOptions.Description.Text="" ReportOptions.Name="CATEG ART" ReportOptions.LastChange="39160,58374125" ScriptLanguage="PascalScript" ScriptText.Text="procedure PageHeader1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   Memo1.Text := Translate('DOC_CODE','');&#13;&#10;   Memo2.Text := Translate('DOC_DESCRIPTION','');&#13;&#10;   Memo3.Text := Translate('IDS_IMPUTATION','');       &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D10203546F70031B0108446174617365747301010C2500000020446174615365743D225F43617465672220446174615365744E616D653D2243617465672200010C2900000020446174615365743D225F536F63696574652220446174615365744E616D653D22536F6369657465220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2232352F30352F323030372200010C1C000000204E616D653D224E4F57222056616C75653D2231313A30383A31392200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E697374726174657572220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Font.Charset="1" Font.Color="10027007" Font.Height="-13" Font.Name="Arial" Font.Style="0" Height="45,35436" Left="0" ParentFont="false" Top="18,89765" Width="718,1107" OnBeforePrint="PageHeader1OnBeforePrint" Stretched="true">
+      <TfrxMemoView Name="Memo1" Left="0" Top="26,45671" Width="128,50402" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Memo2" Left="128,50402" Top="26,45671" Width="480,00031" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Memo3" Left="608,50433" Top="26,45671" Width="109,60637" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Societenom" Left="0" Top="0" Width="436" Height="24" DataSet="_Societe" DataSetName="Societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="0" Frame.Typ="8" ParentFont="false" Text="[Societe.&#34;nom&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="105,82684" Top="0" Width="612" Height="24" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="0" Frame.Typ="8" HAlign="haRight" ParentFont="false" Text="[Translate('IDS_LISTECATEGORIEARTICLES','')]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="124,72449" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="_Categ" DataSetName="Categ" RowCount="0" Stretched="true">
+      <TfrxMemoView Name="Categcode" Left="0" Top="0" Width="128,50402" Height="18,89765" StretchMode="smMaxHeight" DataField="code" DataSet="_Categ" DataSetName="Categ" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Categ.&#34;code&#34;]"/>
+      <TfrxMemoView Name="Categdescriptio" Left="128,50402" Top="0" Width="480,00031" Height="18,89765" StretchMode="smMaxHeight" DataField="descriptio" DataSet="_Categ" DataSetName="Categ" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Categ.&#34;descriptio&#34;]"/>
+      <TfrxMemoView Name="Categimput" Left="608,50433" Top="0" Width="109,60637" Height="18,89765" StretchMode="smMaxHeight" DataField="imput" DataSet="_Categ" DataSetName="Categ" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Categ.&#34;imput&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="204,09462" Width="718,1107">
+      <TfrxMemoView Name="Page" Left="377,953" Top="0" Width="340,1577" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="2" Frame.Typ="4" HAlign="haRight" ParentFont="false" Text="[Page]"/>
+      <TfrxMemoView Name="Date" Left="0" Top="0" Width="377,953" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="2" Frame.Typ="4" ParentFont="false" Text="[Date]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
+
+[I]fr3=1
+[C]title=Liste des catégories d'articles
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=CATEG ART         0]
+[C]database=DB1
+[C]datasource=odbc_mysql
+[C]name=DB1
+[M]params=23
+USER NAME=
+PASSWORD=
+
+[C]report=CATEG ART
+[C]type=D
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=CATEG ART         1]
+[C]database=DB1
+[I]line=1
+[C]name=Categ
+[M]params=67
+Select c.code, c.descriptio, c.imput
+from categ c
+order by c.code
+[C]report=CATEG ART
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=CATEG ART         2]
+[C]database=DB1
+[I]line=2
+[C]name=Societe
+[M]params=25
+Select nom 
+From societe
+[C]report=CATEG ART
+[C]type=Q
+[End of REPORTQRY]

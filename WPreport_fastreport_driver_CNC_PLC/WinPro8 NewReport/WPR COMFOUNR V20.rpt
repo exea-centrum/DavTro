@@ -1,0 +1,233 @@
+[Record REPORT]
+[CODE=WPR COMFOUNR V20]
+[C]code=WPR COMFOUNR V20
+[M]descriptio=3676
+//---------
+// Reste a faire
+//---------
+Vérifier totaux devise du fournisseur en non gras dernier, et devise de base en gras premier.
+Vérifier l'intégration par rapport au process (écriture table avant impression, et pas de suppression si soldée)
+Cas apurée a preciser.
+
+//---------
+// Description
+//---------
+
+V2.0
+WinPro V 8.0.1.61
+WPReport.dll V 8.0.1.4
+Compatible version 8 FoxPro & mySQL, non compatible avec les versions < 8 (la lecture des préférences se fait dans la table settings et non plus dans winpro.ini) et les tables de préférences ancien format)
+
+//---------
+// Utilisation
+//---------
+
+Changer le nom du DSN ODBC et le driver ODBC (FoxPro ou mySQL), (à terme, à lier au document WinPro "Commande fournisseur non-récéptionnée" dans le menu Divers/Rapports/Documents types de WinPro, lorsque celui ci sera disponible dans le dialogue)
+
+//---------
+// Test
+//---------
+
+Réceptionner une commande fournisseur avec une version 8 
+
+//---------
+// Intégration
+//---------
+
+Le document est compatible avec les variantes suivantes:
+- Multi devises 
+- Multi langue pour la mise en forme (dans la langue de l'utilisateur qui imprime)
+- Affichage et position du logo suivant préférences. Si il existe des valeurs dans les champs de positionnement et dimensionnement du logo d'en tete commande fournisseur dans les préférences (pas de logo renseigné=>espace vide sans info société), le logo est affiché en priorité sur les infos société. Si pas de valeurs, les infos société sont imprimées.
+- Affichage et position des infos société suivant preferences. Si il existe des valeurs dans les champs du logo, les infos société ne sont pas imprimées.
+- Affichage et positionnement de l'adresse fournisseur suivant les preferences 
+- Portrait ou paysage suivant preferences
+- 1ere colonne article ou description suivant preferences
+- Prix unitaire net suivant preferences
+- Prix unitaire brut + remise suivant preferences
+- Pas de prix unitaire par ligne suivant preferences
+- Numerotation ou non des lignes suivant preferences
+- Texte de fin de bon de commande suivant preferences, texte de début suivant saisie du bon de commande
+- Format de date suivant preference fournisseur
+- Valorisation ou non du bon de commande suivant preference fournisseur
+- Total sur bon de commande  suivant preference fournisseur (ici indépendant de la valorisation contrairement au standard WinPro)
+- Colonne conditionnement séparée suivant preference fournisseur
+- Arrondi du total ligne suivant preference fournisseur
+- Impression du numero de client chez le fournisseur suivant preference fournisseur
+
+//---------
+// Limitations
+//---------
+
+- Description de l'article en premiere colonne ne se fait pas dans la langue utilisateur (Translate(,) ne lit que dans les string principaux, pas dans les traductions des composants)
+- Positionnement des infos de société si pas de logo, le champs Hauteur de WinPro est ignoré, pose probleme lorsque les coordonnées société inclues un sous titres, des informations etc... Les autres champs sont, eux, bien pris en compte
+- Total bas de page du bon de commande indépendant de la valorisation. En standard, pas de valorisation, pas de total. Ici, les 2 cases sont indépendates 
+- Les champs de positionnement dans les preferences|entete cde fournisseur, sont donnés dans WinPro dans des unités qui ne sont pas claires (mm, cm, pixel ou pouces?). En fonction des champs considérés (logo, societe ou adresse fournisseur), les unités semblent differentes.
+- En tete des pages autre que premiere, en standard WinPro affiche le jour de la semaine, WPR n'a pas de fonction pour extraire cette info.
+[M]design=29207
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.1.28" DotMatrixReport="false" EngineOptions.DoublePass="true" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39183,1359718519" ReportOptions.Description.Text="" ReportOptions.Name="WPR COMFOUNR V20" ReportOptions.LastChange="39206,1876426852" ScriptLanguage="PascalScript" ScriptText.Text="// -----                 &#13;&#10;// Variables générales                                                            &#13;&#10;// -----                 &#13;&#10;var&#13;&#10;sql0 : string;      &#13;&#10;unitpix : extended;&#13;&#10;valpouce : extended;&#13;&#10;  &#13;&#10;// -----                 &#13;&#10;// procedures                                                                              &#13;&#10;// -----                 &#13;&#10;procedure numlinOnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;chainetmp : string;&#13;&#10;  &#13;&#10;begin&#13;&#10;   chainetmp := IntToStr(&#60;comfou.&#34;numligne&#34;&#62; + 1);                                                              &#13;&#10;   numlin.memo.add(chainetmp + ' ');&#13;&#10;end;&#13;&#10;&#13;&#10;procedure MasterData1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  numlin.left := ET_numlin.left;    &#13;&#10;  numlin.width := ET_numlin.width;  &#13;&#10;  nosref.left := ET_nosref.left;        &#13;&#10;  nosref.width := ET_nosref.width;&#13;&#10;  qterecue.left := ET_qterecue.left;       &#13;&#10;  qterecue.width := ET_qterecue.width;&#13;&#10;  vosref.left := ET_vosref.left;        &#13;&#10;  vosref.width := ET_vosref.width;&#13;&#10;  prix.left := ET_prix.left;        &#13;&#10;  prix.width := ET_prix.width;&#13;&#10;  total.left := ET_total.left;        &#13;&#10;  total.width := ET_total.width;&#13;&#10;  solde.left := ET_solde.left;        &#13;&#10;  solde.width := ET_solde.width;&#13;&#10;  prixdev.left := ET_prixdev.left;        &#13;&#10;  prixdev.width := ET_prixdev.width;&#13;&#10;  totaldev.left := ET_totaldev.left;        &#13;&#10;  totaldev.width := ET_totaldev.width;&#13;&#10;  rem.left := ET_rem.left;        &#13;&#10;  rem.width := ET_rem.width;&#13;&#10;end;&#13;&#10;&#13;&#10;procedure PageHeader1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  if &#60;Page#&#62; = 1 then&#13;&#10;    PageHeader1.visible := false  &#13;&#10;  else&#13;&#10;    PageHeader1.visible := true;  &#13;&#10;end;&#13;&#10;&#13;&#10;procedure ReportTitle1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;  affichlogo : boolean;&#13;&#10;begin&#13;&#10;  affichlogo := true;                    &#13;&#10;  if (&#60;settings.&#34;logoh&#34;&#62; = 0) and (&#60;settings.&#34;logow&#34;&#62; = 0) and (&#60;settings.&#34;logol&#34;&#62; = 0) and (&#60;settings.&#34;logot&#34;&#62; = 0)  then&#13;&#10;     affichlogo := false&#13;&#10;  else&#13;&#10;     affichlogo := true;                    &#13;&#10;// Préférences fournisseur&#13;&#10;// Nom du fournisseur                                                                                                                          &#13;&#10;  fournnom.left := page1.paperwidth * unitpix - page1.leftmargin * unitpix - page1.rightmargin * unitpix - comfounumcom.width;                                                                                                &#13;&#10;  comfounumcom.left := page1.paperwidth * unitpix - page1.leftmargin * unitpix - page1.rightmargin * unitpix - comfounumcom.width;                                                                                                &#13;&#10;// Préférences systeme&#13;&#10;// Logo                 &#13;&#10;  if (affichlogo = true) then           &#13;&#10;     begin                                   &#13;&#10;       nomsoc.width := &#60;settings.&#34;compw&#34;&#62; * valpouce * unitpix;&#13;&#10;       sstsoc.left := nomsoc.left;&#13;&#10;       if Length(Trim(&#60;societe.&#34;logo&#34;&#62;)) &#60;&#62; 0 then&#13;&#10;          begin              &#13;&#10;            nomsoc.visible := false;  &#13;&#10;            sstsoc.visible := false;  &#13;&#10;            txt1soc.visible := false;  &#13;&#10;            logosoc.visible := true;&#13;&#10;            logosoc.loadfromfile(&#60;societe.&#34;logo&#34;&#62;);&#13;&#10;            //logosoc.width := GetEMFWidth('logosoc');&#13;&#10;            //logosoc.height := getemfheight('logosoc');  &#13;&#10;            logosoc.width := &#60;settings.&#34;logow&#34;&#62; * valpouce * unitpix;&#13;&#10;            logosoc.height := &#60;settings.&#34;logow&#34;&#62; * valpouce * unitpix;  &#13;&#10;            logosoc.left := &#60;settings.&#34;logol&#34;&#62; * valpouce;&#13;&#10;            logosoc.top := &#60;settings.&#34;logot&#34;&#62; * valpouce;  &#13;&#10;            comfouhclient.left := logosoc.left;&#13;&#10;            comfouhclient.top := logosoc.top + logosoc.height;                                                                                                        &#13;&#10;            comfouhclient.width := logosoc.width;&#13;&#10;          end;&#13;&#10;     end             &#13;&#10;  else               &#13;&#10;    begin&#13;&#10;      // Préférences système&#13;&#10;      // Société&#13;&#10;      nomsoc.visible := true;  &#13;&#10;      sstsoc.visible := true;  &#13;&#10;      txt1soc.visible := true;  &#13;&#10;      logosoc.visible := false;&#13;&#10;      nomsoc.left := &#60;settings.&#34;compl&#34;&#62; * valpouce;&#13;&#10;      nomsoc.top := &#60;settings.&#34;compt&#34;&#62; * valpouce;  &#13;&#10;      nomsoc.width := &#60;settings.&#34;compw&#34;&#62; * valpouce * unitpix;&#13;&#10;      sstsoc.left := nomsoc.left;                                                                                                &#13;&#10;      sstsoc.width := nomsoc.width;&#13;&#10;      sstsoc.top := nomsoc.top + nomsoc.height;&#13;&#10;      txt1soc.left := nomsoc.left;                                                                                                &#13;&#10;      txt1soc.width := nomsoc.width;                                                                                                &#13;&#10;      txt1soc.top := sstsoc.top + sstsoc.height;&#13;&#10;      comfouhclient.left := nomsoc.left;&#13;&#10;      comfouhclient.top := txt1soc.top + txt1soc.height;&#13;&#10;      comfouhclient.width := nomsoc.width;&#13;&#10;    end            &#13;&#10;end;&#13;&#10;&#13;&#10;procedure comfouhclientOnBeforePrint(Sender: TfrxComponent);&#13;&#10;var      &#13;&#10;  chaine0 : string;&#13;&#10;&#13;&#10;begin&#13;&#10;// Préférences fournisseur                    &#13;&#10;// Numéro du client/fabricant chez le fournisseur                                                                                                                &#13;&#10;  if length(Trim(&#60;fourn.&#34;numcli&#34;&#62;)) &#60;&#62; 0 then                                &#13;&#10;     begin&#13;&#10;       chaine0 := Translate('DOC_CLIENT',&#60;fourn.&#34;langue&#34;&#62;);  &#13;&#10;       comfouhclient.memo.add(chaine0 + ' ' + &#60;fourn.&#34;numcli&#34;&#62;);&#13;&#10;     end&#13;&#10;end;&#13;&#10;&#13;&#10;procedure NosRefOnBeforePrint(Sender: TfrxComponent);&#13;&#10;// Preferences utilisateur&#13;&#10;// Premiere colonne article ou description d'article                                                                                                                                                              &#13;&#10;begin&#13;&#10;  If &#60;settings.&#34;fircol&#34;&#62; = 1 then&#13;&#10;     nosref.memo.add(&#60;comfou.&#34;article&#34;&#62;)&#13;&#10;  else&#13;&#10;     nosref.memo.add(&#60;comfou.&#34;descriptio&#34;&#62;);                                     &#13;&#10;end;  &#13;&#10;&#13;&#10;procedure Child2OnAfterPrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;largdispo : extended;&#13;&#10;                                            &#13;&#10;begin&#13;&#10;// Largeur totale tous champs compris                                                                      &#13;&#10;  largdispo := page1.paperwidth * unitpix - page1.leftmargin * unitpix - page1.rightmargin * unitpix - ET_NumLin.width - ET_QteRecue.width - ET_Prix.width - ET_Total.width - ET_Solde.width - ET_PrixDev.width - ET_TotalDev.width - ET_Rem.width;&#13;&#10;  &#13;&#10;// Preferences utilisateur&#13;&#10;// Numerotation  de ligne                                                         &#13;&#10;  if &#60;settings.&#34;linum&#34;&#62; = 0 then&#13;&#10;     begin&#13;&#10;       largdispo := largdispo + ET_NumLin.width;                                                                                               &#13;&#10;       ET_NosRef.left := 0;&#13;&#10;       ET_NumLin.visible := false;&#13;&#10;       NumLin.visible := false;                                  &#13;&#10;     end&#13;&#10;  else&#13;&#10;     begin&#13;&#10;       ET_NosRef.left := ET_NumLin.left + ET_NumLin.width;&#13;&#10;       ET_NumLin.visible := true;&#13;&#10;       NumLin.visible := true;                                  &#13;&#10;     end;&#13;&#10;                    &#13;&#10;  ET_NosRef.width := 1/3 * largdispo;           &#13;&#10;  ET_VosRef.width := 2/3 * largdispo;           &#13;&#10;  ET_QteRecue.left := ET_NosRef.left + ET_NosRef.width;&#13;&#10;  ET_VosRef.left := ET_QteRecue.left + ET_QteRecue.width;&#13;&#10;  ET_Prix.left := ET_VosRef.left + ET_VosRef.width;&#13;&#10;  ET_Total.left := ET_Prix.left + ET_Prix.width;&#13;&#10;  ET_Solde.left := ET_Total.left + ET_Total.width;&#13;&#10;  ET_PrixDev.left := ET_Solde.left + ET_Solde.width;&#13;&#10;  ET_TotalDev.left := ET_PrixDev.left + ET_PrixDev.width;&#13;&#10;  ET_Rem.left := ET_TotalDev.left + ET_TotalDev.width;&#13;&#10;    &#13;&#10;end;&#13;&#10;&#13;&#10;procedure ReportSummary1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;      totcde.width := ET_TotalDev.width + ET_Rem.width;&#13;&#10;      libtotcde.left := 0;&#13;&#10;      libtotcde.width := page1.paperwidth * unitpix - page1.leftmargin * unitpix - page1.rightmargin * unitpix - totcde.width;&#13;&#10;      totcde.left := libtotcde.left + libtotcde.width;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;// -----                 &#13;&#10;// Begin principal&#13;&#10;// -----                 &#13;&#10;  &#13;&#10;// Valeur du pixel en mm pour conversion des largeurs de page et des marges (en mm)&#13;&#10;// Les longueurs de champs width/left renvoient des pixels                                                                                                                             &#13;&#10;unitpix := 3.78;                &#13;&#10;// Valeur du pouce en mm pour conversion                                                                                                                              &#13;&#10;valpouce := 25.423;                &#13;&#10;// Preferences utilisateur                                                                 &#13;&#10;// Orientation de la page                                                        &#13;&#10;if &#60;settings.&#34;orien&#34;&#62; = 'Landscape' then&#13;&#10;  page1.orientation := poLandscape      &#13;&#10;else&#13;&#10;  page1.orientation := poPortrait;&#13;&#10;    &#13;&#10;end." PropData="044C65667403D10203546F70031B0108446174617365747301010C2700000020446174615365743D225F636F6D666F752220446174615365744E616D653D22636F6D666F752200010C2900000020446174615365743D225F636F6D666F75682220446174615365744E616D653D22636F6D666F75682200010C2500000020446174615365743D225F666F75726E2220446174615365744E616D653D22666F75726E2200010C2700000020446174615365743D225F5175657279312220446174615365744E616D653D225175657279312200010C2B00000020446174615365743D225F73657474696E67732220446174615365744E616D653D2273657474696E67732200010C2900000020446174615365743D225F736F63696574652220446174615365744E616D653D22736F6369657465220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2232322F30352F323030372200010C1C000000204E616D653D224E4F57222056616C75653D2230333A30313A31372200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E697374726174657572220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" PrintIfEmpty="false" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Height="96,14966" Left="0" ParentFont="false" Top="16" Width="1046,92981" OnBeforePrint="ReportTitle1OnBeforePrint" Stretched="true">
+      <TfrxMemoView Name="fournnom" Left="642,5201" Top="0" Width="404,40971" Height="18,89765" StretchMode="smMaxHeight" DataSet="_fourn" DataSetName="fourn" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[fourn.&#34;nom&#34;]&#13;&#10;[fourn.&#34;adresse&#34;]&#13;&#10;[Trim(&#60;fourn.&#34;zip&#34;&#62;)] [fourn.&#34;localite&#34;]&#13;&#10;[Translate('DOC_TEL','')] [fourn.&#34;tel1&#34;]&#13;&#10;[Translate('DOC_FAX','')] [fourn.&#34;fax1&#34;]"/>
+      <TfrxMemoView Name="comfounumcom" Left="642,5201" Top="22,67718" Width="404,40971" Height="52,91342" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="dd mmm yyyy" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" VAlign="vaCenter" Text="[Translate('IDS_RECEPTION_CDE_FOURN','')] [comfou.&#34;numcom&#34;] - [Date]"/>
+      <TfrxMemoView Name="Memo2" Left="646,29963" Top="76,5906" Width="94,48825" Height="7,55906" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="comfouhclient" Left="0" Top="67,75603" Width="226,7718" Height="18,89765" OnBeforePrint="comfouhclientOnBeforePrint" StretchMode="smActualHeight" DataSet="_comfouh" DataSetName="comfouh" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="sstsoc" Left="0" Top="21,67718" Width="226,7718" Height="22,67718" StretchMode="smActualHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Trim(&#60;societe.&#34;soustitre&#34;&#62;)]"/>
+      <TfrxMemoView Name="txt1soc" Left="0" Top="44,35436" Width="226,7718" Height="18,89765" StretchMode="smActualHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="false" Text="[Trim(&#60;societe.&#34;texte1&#34;&#62;)]&#13;&#10;[Trim(&#60;societe.&#34;texte2&#34;&#62;)]"/>
+      <TfrxPictureView Name="logosoc" Left="0" Top="4" Width="203,87415" Height="62,74026" OnBeforePrint="logosocOnBeforePrint"/>
+      <TfrxMemoView Name="nomsoc" Left="0" Top="0" Width="228" Height="24" StretchMode="smActualHeight" Color="16777215" DataField="nom" DataSet="_societe" DataSetName="societe" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="false" Text="[societe.&#34;nom&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="276" Width="1046,92981" OnBeforePrint="MasterData1OnBeforePrint" ColumnWidth="0" ColumnGap="0" DataSet="_comfou" DataSetName="comfou" RowCount="0" Stretched="true">
+      <TfrxMemoView Name="numlin" Left="-0,22047" Top="0" Width="26,45671" Height="18,89765" OnBeforePrint="numlinOnBeforePrint" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="NosRef" Left="26,23624" Top="0" Width="128,50402" Height="18,89765" OnBeforePrint="NosRefOnBeforePrint" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="vosref" Left="283,46475" Top="0" Width="253,22851" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" ParentFont="false" Text="[comfou.&#34;libelle&#34;]"/>
+      <TfrxMemoView Name="qterecue" Left="153,96073" Top="0" Width="128,50402" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haCenter" HideZeros="true" ParentFont="false" Text="[&#60;comfou.&#34;qterecue&#34;&#62;] [&#60;comfou.&#34;unite&#34;&#62;]"/>
+      <TfrxMemoView Name="Prix" Left="536,69326" Top="0" Width="50" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.4f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[comfou.&#34;pafb&#34;]"/>
+      <TfrxMemoView Name="rem" Left="784,74057" Top="0" Width="34,45671" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[comfou.&#34;remise&#34;]"/>
+      <TfrxMemoView Name="total" Left="588,41775" Top="0" Width="50" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[&#60;comfou.&#34;pafb&#34;&#62;*&#60;comfou.&#34;qterecue&#34;&#62;]"/>
+      <TfrxMemoView Name="solde" Left="636" Top="0" Width="50" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[&#60;comfou.&#34;qtecdee&#34;&#62;-&#60;comfou.&#34;qterecue&#34;&#62;]"/>
+      <TfrxMemoView Name="prixdev" Left="685" Top="0" Width="50" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.4f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[comfou.&#34;pa&#34;]"/>
+      <TfrxMemoView Name="totaldev" Left="733,16543" Top="0" Width="50" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="false" Text="[&#60;comfou.&#34;pa&#34;&#62;*&#60;comfou.&#34;qterecue&#34;&#62;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="41,45671" Left="0" Top="132" Width="1046,92981" OnBeforePrint="PageHeader1OnBeforePrint" Child="Child2" PrintChildIfInvisible="true" Stretched="true">
+      <TfrxMemoView Name="nomfour" Align="baRight" Left="926,92981" Top="8" Width="120" Height="16" StretchMode="smMaxHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="false" Text="[fourn.&#34;nom&#34;]"/>
+      <TfrxMemoView Name="numcom" Align="baCenter" Left="449,464905" Top="9" Width="148" Height="16" StretchMode="smMaxHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_COMMANDENO','')] [comfouh.&#34;numero&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="449,464905" Top="24,45671" Width="76,18893" Height="16" StretchMode="smMaxHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="Memo8" Align="baCenter" Left="449,464905" Top="25,45671" Width="148" Height="16" StretchMode="smMaxHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="dd mmm yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="false" Text="[Date]"/>
+      <TfrxMemoView Name="Memo9" Align="baLeft" Left="0" Top="9,55905999999999" Width="148" Height="16" StretchMode="smMaxHeight" DataSet="_societe" DataSetName="societe" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="false" Text="[societe.&#34;nom&#34;]"/>
+    </TfrxPageHeader>
+    <TfrxPageFooter Name="PageFooter1" Height="18,89765" Left="0" Top="416" Width="1046,92981">
+      <TfrxMemoView Name="pagenum" Left="795,55968" Top="0" Width="251,37013" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="3" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_PAGE','')] [Page#]-[TotalPages]"/>
+    </TfrxPageFooter>
+    <TfrxChild Name="Child2" Height="22,44094" Left="0" Top="192" Width="1046,92981" OnAfterPrint="Child2OnAfterPrint" PrintChildIfInvisible="true" Stretched="true">
+      <TfrxMemoView Name="ET_NumLin" Left="0" Top="3,54329000000001" Width="33,7953" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text=""/>
+      <TfrxMemoView Name="ET_NosRef" Left="35,45671" Top="3,54329000000001" Width="196,53556" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_NOSREFERENCES','')]"/>
+      <TfrxMemoView Name="ET_VosRef" Left="291,23624" Top="3,54329000000001" Width="253,22851" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_VOSREFERENCES','')]"/>
+      <TfrxMemoView Name="ET_QteRecue" Left="231,21274" Top="3,54329000000001" Width="59,37007874" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_QUANTITE','')]"/>
+      <TfrxMemoView Name="ET_Prix" Left="544,71676" Top="3,54329000000001" Width="90" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_PRIX','')]"/>
+      <TfrxMemoView Name="ET_Rem" Left="949,98454" Top="3,54329000000001" Width="46" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_%R','')]"/>
+      <TfrxMemoView Name="ET_Total" Left="635,88219" Top="3,54329000000001" Width="90" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('DOC_TOTAL','')]"/>
+      <TfrxMemoView Name="ET_Solde" Left="726" Top="4" Width="42" Height="18,89765" StretchMode="smMaxHeight" DataSet="_comfou" DataSetName="comfou" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('IDS_SOLDE','')]"/>
+      <TfrxMemoView Name="ET_PrixDev" Left="769" Top="4" Width="90" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('IDS_PRIXDEV','')]"/>
+      <TfrxMemoView Name="ET_TotalDev" Left="859,16543" Top="4" Width="90" Height="18,89765" StretchMode="smMaxHeight" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haCenter" ParentFont="false" Text="[Translate('IDS_TOTALDEV','')]"/>
+    </TfrxChild>
+    <TfrxReportSummary Name="ReportSummary1" Height="41,7953" Left="0" Top="356" Width="1046,92981" OnBeforePrint="ReportSummary1OnBeforePrint">
+      <TfrxMemoView Name="libtotcde" Left="0" Top="4" Width="607,906" Height="18,89765" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="false" Text="[Translate('DOC_TOTAL','')]"/>
+      <TfrxMemoView Name="totcde" Left="607,906" Top="4" Width="187,02381" Height="18,89765" OnBeforePrint="totcdeOnBeforePrint" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="[SUM((&#60;comfou.&#34;pafb&#34;&#62; * &#60;comfou.&#34;qtecdee&#34;&#62; / &#60;fourn.&#34;valeur&#34;&#62;),MasterData1,0)] [fourn.&#34;devise&#34;]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>
+
+[I]fr3=1
+[C]title=Commande fournisseur non récéptionnée (ou bon de livraison/réception valorisé)
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  0]
+[C]database=wprstd
+[C]datasource=wprstdf
+[C]name=wprstd
+[M]params=32
+user name=root
+password=rezza
+
+[C]report=WPR COMFOUNR V20
+[C]type=D
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  1]
+[C]database=wprstd
+[I]line=1
+[C]name=comfou
+[C]report=WPR COMFOUNR V20
+[M]sqlfox=189
+Select c.*, a.descriptio, af.cdemin
+from comfou c 
+join article a on c.article = a.code 
+join artfou af on a.code = af.article
+where val(c.numcom)=:order
+order by c.numligne, c.article
+[M]sqlmy=184
+Select c.*, a.descriptio, af.cdemin
+from comfou c 
+join article a on c.article = a.code 
+join artfou af on a.code = af.article
+where c.numcom=:order
+order by c.numligne, c.article
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  2]
+[C]database=wprstd
+[C]datasource=ds_comfou
+[I]line=2
+[C]name=fourn
+[M]params=90
+select f.*, d.valeur 
+from fourn f join devise d on f.devise=d.code 
+where f.code=:fourn
+[C]report=WPR COMFOUNR V20
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  3]
+[C]database=wprstd
+[C]datasource=ds_comfou
+[I]line=3
+[C]name=comfouh
+[M]params=45
+select * 
+from comfouh
+where numero=:numcom
+[C]report=WPR COMFOUNR V20
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  4]
+[C]database=wprstd
+[I]line=4
+[C]name=settings
+[M]params=1528
+select s1.d as comph, s2.d as compw, s3.d as compt, s4.d as compl, s5.d as custh, s6.d as custw, s7.d as custt, s8.d as custl, s9.d as logoh, s10.d as logow, s11.d as logot, s12.d as logol, s13.i as fircol, s14.i as linum, s15.s as orien, s16.i as unipr 
+from settings s1, settings s2, settings s3, settings s4, settings s5, settings s6, settings s7, settings s8, settings s9, settings s10, settings s11, settings s12, settings s13, settings s14, settings s15, settings s16 
+where (s1.section = 'Supplier order' and s1.key = 'Company height')
+and (s2.section = 'Supplier order' and s2.key = 'Company width')
+and (s3.section = 'Supplier order' and s3.key = 'Company top')
+and (s4.section = 'Supplier order' and s4.key = 'Company left')
+and (s5.section = 'Supplier order' and s5.key = 'Customer height')
+and (s6.section = 'Supplier order' and s6.key = 'Customer width')
+and (s7.section = 'Supplier order' and s7.key = 'Customer top')
+and (s8.section = 'Supplier order' and s8.key = 'Customer left')
+and (s9.section = 'Supplier order' and s9.key = 'Logo height')
+and (s10.section = 'Supplier order' and s10.key = 'Logo width')
+and (s11.section = 'Supplier order' and s11.key = 'Logo top')
+and (s12.section = 'Supplier order' and s12.key = 'Logo left')
+and (s13.section = 'Supplier order' and s13.key = 'First Column')
+and (s14.section = 'Supplier order' and s14.key = 'Line Numbering')
+and (s15.section = 'Supplier order' and s15.key = 'Orientation')
+and (s16.section = 'Supplier order' and s16.key = 'Unit Price')
+[C]report=WPR COMFOUNR V20
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  5]
+[C]database=wprstd
+[I]line=5
+[C]name=societe
+[M]params=25
+select * 
+from societe s
+[C]report=WPR COMFOUNR V20
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR COMFOUNR V20  6]
+[C]database=wprstd
+[I]line=6
+[C]name=Query1
+[M]params=21
+select * 
+from fourn
+[C]report=WPR COMFOUNR V20
+[C]type=Q
+[End of REPORTQRY]

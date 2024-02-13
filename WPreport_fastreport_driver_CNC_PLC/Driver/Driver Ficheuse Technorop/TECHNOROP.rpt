@@ -1,0 +1,39 @@
+[Record REPORT]
+[CODE=TECHNOROP]
+[C]code=TECHNOROP
+[M]design=5419
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.6.5" DotMatrixReport="false" EngineOptions.DoublePass="true" IniFile="\Software\Fast Reports" PreviewOptions.AllowEdit="false" PreviewOptions.Buttons="4089" PreviewOptions.Zoom="1" PrintOptions.Printer="Par défaut" PrintOptions.PrintOnSheet="0" PrintOptions.ShowDialog="false" ReportOptions.CreateDate="39917,4026660301" ReportOptions.Description.Text="" ReportOptions.Name="TECHNOROP" ReportOptions.LastChange="39917,4026660301" ScriptLanguage="PascalScript" ScriptText.Text="var&#13;&#10;t : tfilestream;                                      &#13;&#10;chemin, cheminr : string;&#13;&#10;ligne, sepa : string;                                  &#13;&#10;  &#13;&#10;begin&#13;&#10;sepa := ';';&#13;&#10;  &#13;&#10;chemin := inireadstring('.\technorop.ini', 'chemin de base:chemin', '.\');&#13;&#10;cheminr := inireadstring('.\technorop.ini', 'chemin reseau:chemin', '.\');&#13;&#10;&#13;&#10;forcedirectories(chemin);&#13;&#10;forcedirectories(cheminr); &#13;&#10;  &#13;&#10;firstrecord('usglot');&#13;&#10;  &#13;&#10;ligne := '';&#13;&#10;  &#13;&#10;while not queryeof('usglot') do&#13;&#10;begin&#13;&#10;       ligne := ligne + 'DP' + sepa&#13;&#10;       + trim(&#60;usglot.&#34;codebarre&#34;&#62;) + sepa&#13;&#10;       + 'OP' + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;dim1&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;dim2&#34;&#62;) + sepa&#13;&#10;       + &#60;usglot.&#34;profil&#34;&#62; + sepa&#13;&#10;       + copy(trim(&#60;usglot.&#34;code&#34;&#62;), 5, length(trim(&#60;usglot.&#34;code&#34;&#62;))) + sepa&#13;&#10;       + 'N' + sepa&#13;&#10;       + &#60;usglot.&#34;position&#34;&#62; + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position2&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position3&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position4&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position5&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position6&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position7&#34;&#62;) + sepa&#13;&#10;       + floattostr(&#60;usglot.&#34;position8&#34;&#62;) + sepa&#13;&#10;       + inireadstring('.\technorop.ini', 'correspondance couleur:'+floattostr(&#60;usglot.&#34;position9&#34;&#62;), '0') + sepa&#13;&#10;       + 'FP' + sepa + chr(13) + chr(10);                                          &#13;&#10;       nextrecord('usglot');                                                     &#13;&#10;end;&#13;&#10;  &#13;&#10;t := tfilestream.create(chemin+'WPO'+trim(&#60;usglot.&#34;lot&#34;&#62;)+'.TEC', fmcreate);&#13;&#10;t.write(ligne, length(ligne));                                                             &#13;&#10;t.free;                &#13;&#10;&#13;&#10;if cheminr &#60;&#62; '.\' then CopyFile(chemin+'WPO'+trim(&#60;usglot.&#34;lot&#34;&#62;)+'.TEC',cheminr+'WPO'+trim(&#60;usglot.&#34;lot&#34;&#62;)+'.TEC');                                                                       &#13;&#10;  &#13;&#10;end." StoreInDFM="false" PropData="044C65667403D10203546F70031B0108446174617365747301010C2700000020446174615365743D225F7573676C6F742220446174615365744E616D653D227573676C6F74220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2231342F30342F323030392200010C1C000000204E616D653D224E4F57222056616C75653D2231303A34353A33382200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E697374726174657572220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+</TfrxReport>
+
+[I]fr3=1
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=TECHNOROP         0]
+[C]database=db
+[C]datasource=%DSN%
+[C]name=Database1
+[M]params=13
+%AUTOLOGIN%
+
+[C]report=TECHNOROP
+[C]type=D
+[I]typedb=9
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=TECHNOROP         1]
+[C]database=db
+[I]line=1
+[C]name=usglot
+[M]params=425
+select u.lot, u.code, case u.position when 1 then 'P01' when 2 then 'P02' end as position, u.position2, u.position3, u.position4, u.position5, u.position6, u.position7, u.position8, u.position9,
+d.codebarre, dt.dim1, dt.dim2, d.profil 
+from usglot u 
+inner join detlot d on u.lot=d.lot and u.ligne=d.ligne
+inner join detail dt on d.windowid=dt.windowid
+where left(u.code, 4) = 'PFT-' and u.lot = :order
+order by u.ligne
+[C]report=TECHNOROP
+[C]type=Q
+[End of REPORTQRY]

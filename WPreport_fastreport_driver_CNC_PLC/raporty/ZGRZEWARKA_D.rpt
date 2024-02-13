@@ -1,0 +1,61 @@
+[Record REPORT]
+[CODE=ZGRZEWARKA_D]
+[C]code=ZGRZEWARKA_D
+[M]design=5575
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9" DotMatrixReport="false" EngineOptions.DoublePass="true" IniFile="\Software\Fast Reports" PreviewOptions.AllowEdit="false" PreviewOptions.Buttons="4089" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39378,4890270486" ReportOptions.Description.Text="" ReportOptions.Name="ZGRZEWARKA_D" ReportOptions.LastChange="39378,4890270486" ScriptLanguage="PascalScript" ScriptText.Text="var&#13;&#10;tekst:string;&#13;&#10;plik1:string;&#13;&#10;lp:real;&#13;&#10;  &#13;&#10;procedure ReportSummary1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;  plik: string;&#13;&#10;  path: string;                               &#13;&#10;&#13;&#10;begin  &#13;&#10;  path:='c:\pila\';&#13;&#10;  plik:=path+plik1+'.zge';                              &#13;&#10;  savetofile(plik, tekst);&#13;&#10;end;&#13;&#10;  &#13;&#10;procedure MasterData1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;tekst1:string;&#13;&#10;lp22:real;&#13;&#10;//lp2:string;&#13;&#10;lp3:real;&#13;&#10;lp4:real;&#13;&#10;    &#13;&#10;  &#13;&#10;begin    &#13;&#10;  //// if &#60;pyt2.&#34;nouvr&#34;&#62;=0 then &#13;&#10;   ////begin&#13;&#10;     // lp22:=strtofloat(&#60;pyt2.&#34;chassis&#34;&#62;);&#13;&#10;      ////lp2:=formatfloat('000',strtofloat(&#60;pyt2.&#34;chassis&#34;&#62;));                                                     &#13;&#10;   ////end;&#13;&#10;   ////if &#60;pyt2.&#34;nouvr&#34;&#62;=1 then &#13;&#10;   ////begin&#13;&#10;      ////lp2:=inttostr(500+ strtoint(&#60;pyt2.&#34;chassis&#34;&#62;));&#13;&#10;   ////end;       &#13;&#10;   lp:=lp+1.0;&#13;&#10;   lp3:=&#60;pyt2.&#34;hcadre&#34;&#62;*10;&#13;&#10;   lp4:=&#60;pyt2.&#34;lcadre&#34;&#62;*10;&#13;&#10;     &#13;&#10;   tekst:=tekst +&#60;pyt2.&#34;kodkreskowy&#34;&#62; +';'&#13;&#10;   + 'N'+ formatfloat('000',lp)&#13;&#10;   +';'+&#60;pyt2.&#34;commande&#34;&#62;&#13;&#10;   //+ '    P'+ lp2+'  F'&#13;&#10;   + &#60;pyt2.&#34;chassis&#34;&#62;&#13;&#10;   + 'X'+formatfloat('00000',lp3)+'Y'+formatfloat('00000',lp4)&#13;&#10;   +'Z'+ chr(13);&#13;&#10;  // +';'+ chr(13)+ chr(10);&#13;&#10;     nextrecord('pyt2');&#13;&#10;    // inc(pyt2);       &#13;&#10;   plik1:=&#60;pyt2.&#34;code&#34;&#62;;                                            &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." StoreInDFM="false" PropData="044C65667403D10203546F70031B0108446174617365747301010C2300000020446174615365743D225F707974322220446174615365744E616D653D2270797432220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2230312F30362F323031312200010C1C000000204E616D653D224E4F57222056616C75653D2232323A31323A32362200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E6973747261746575722200010C1F000000204E616D653D22575056455253494F4E222056616C75653D22382E312E312200010C22000000204E616D653D2257505256455253494F4E222056616C75653D22382E302E322E372200010C1A000000204E616D653D224D4158504C4953222056616C75653D223130220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="18,89765" Width="718,1107" OnBeforePrint="MasterData1OnBeforePrint" ColumnWidth="0" ColumnGap="0" DataSet="_pyt2" DataSetName="pyt2" RowCount="0"/>
+    <TfrxReportSummary Name="ReportSummary1" Height="22,67718" Left="0" Top="102,04731" Width="718,1107" OnBeforePrint="ReportSummary1OnBeforePrint"/>
+  </TfrxReportPage>
+</TfrxReport>
+
+[I]fr3=1
+[C]lniptyoc7=A58982ACC24393F565BD7A777F7B61D9
+[C]title=Zgrzewarka ok kod przyciety
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=ZGRZEWARKA_D      0]
+[C]database=zgrzew
+[C]datasource=%SERVER%:%DB%
+[C]name=Database1
+[M]params=31
+user name=root
+password=root
+
+[C]report=ZGRZEWARKA_D
+[C]type=D
+[I]typedb=9
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=ZGRZEWARKA_D      1]
+[C]database=zgrzew
+[I]line=1
+[C]name=pyt1
+[M]params=217
+select detlot.lot, detlot.ligne, commande, nouvr, hcadre, lcadre, instruct, article, chassis, dim,  casier, position, lot.code 
+from detlot
+join lot on detlot.lot =lot.lot
+where instruct ='C' and detlot.lot =:order
+[C]report=ZGRZEWARKA_D
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=ZGRZEWARKA_D      2]
+[C]database=zgrzew
+[I]line=2
+[C]name=pyt2
+[M]params=814
+select detlot.lot, lot.code, detlot.ligne, detlot.lcadre, detlot.hcadre, article.code, detlot.numero, detlot.ouvrant, detlot.position, detlot.type,
+detlot.angle1, detlot.angle2, detlot.commande, detlot.chassis, detlot.profil, detlot.teinteext, detlot.renfort, detlot.dimrenfort, detlot.dim,
+detlot.article, detlot.descriptio, article.codefou, 
+left(detlot.codebarre,8) as kodkreskowy, -- przyciety do 8 detlot.codebarre, 
+detlot.dormant, detlot.nouvr, detlot.sens, detlot.vantail, detlot.scie
+from detlot, article, lot
+where detlot.article = article.code and detlot.lot = lot.lot and detlot.lot = '4' and detlot.scie = 1 and detlot.position = '4'
+and (detlot.type = 1 or detlot.type = 2) and detlot.instruct = 'C' AND detlot.profil Not Like '%6324%' And detlot.profil Not Like '%6322%'
+order by detlot.type
+[C]report=ZGRZEWARKA_D
+[C]type=Q
+[End of REPORTQRY]

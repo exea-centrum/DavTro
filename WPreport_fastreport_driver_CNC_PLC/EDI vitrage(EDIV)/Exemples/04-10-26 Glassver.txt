@@ -1,0 +1,8 @@
+E   CDE1        NC01DC261004AL             RUE                 CP     VIL                     
+CEDI           REF                         DL261004QLI005QVL005
+VSK 8,00,GW,0,1     L0892H1892INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F   W    W1    H    H1    H2    R    REP001.1.1             AGR          CB          
+VSK 8,00,GW,0,1     L0892H1873INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F002W0892W1    H1873H11606H2    R    REP002.1.1             AGR          CB          
+VSK 8,00,GW,0,1     L0859H1717INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F046W0859W1    H1717H1    H2    R    REP003.1.1             AGR          CB          
+VSK 8,00,GW,0,1     L0892H1892INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F064W0892W1    H1892H1    H2    R    REP004.1.1             AGR          CB          
+VSK 8,00,GW,0,1     L0877H1873INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F000W0877W1    H1873H1    H2    R    REP005.1.1             AGR          CB          
+FC

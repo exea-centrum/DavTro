@@ -1,0 +1,78 @@
+[Record REPORT]
+[CODE=ZGRZEW_STER_2]
+[C]code=ZGRZEW_STER_2
+[M]design=8463
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9" DotMatrixReport="false" EngineOptions.DoublePass="true" IniFile="\Software\Fast Reports" PreviewOptions.AllowEdit="false" PreviewOptions.Buttons="4089" PreviewOptions.Zoom="1" PrintOptions.Printer="Domyœlny" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40615,4998913079" ReportOptions.Description.Text="" ReportOptions.Name="ZGRZEW_STER_2" ReportOptions.LastChange="40787,4489129398" ScriptLanguage="PascalScript" ScriptText.Text="var&#13;&#10;partia, pozycja, zamowienie, linia: string;                                                                                                       &#13;&#10;plik : TFileStream;&#13;&#10;sciezka : string;&#13;&#10;dawid,dawid2,dawid3, dav, dav2, dav3,tom1, tom2 : string;                       &#13;&#10;begin&#13;&#10;FirstRecord('test1');&#13;&#10;linia:='';                      &#13;&#10;while not QueryEOF('test1') do&#13;&#10;begin&#13;&#10;// programy do zgrzewania                                                                         &#13;&#10;        begin&#13;&#10;        dawid:=&#60;test1.&#34;profil2&#34;&#62;;&#13;&#10;        dawid2:=&#60;test1.&#34;profil2&#34;&#62;;&#13;&#10;        dawid3:=&#60;test1.&#34;profil2&#34;&#62;;                            &#13;&#10;       if (dawid = '8865') then  dav:='001';&#13;&#10;       if (dawid = '8866') then  dav:='002';&#13;&#10;       if (dawid = '8867') then  dav:='002';&#13;&#10;       if (dawid = '8868') then  dav:='002';&#13;&#10;       if (dawid = '7803') then  dav:='003';&#13;&#10;       if (dawid = '7805') then  dav:='003';&#13;&#10;       if (dawid = '7808') then  dav:='001';&#13;&#10;       if (dawid = '8570') then  dav:='001';&#13;&#10;       if (dawid = '8601') then  dav:='001';&#13;&#10;       if (dawid = '8606') then  dav:='001';&#13;&#10;       if (dawid = '8798') then  dav:='004';&#13;&#10;       if (dawid = '8809') then  dav:='001';&#13;&#10;       if (dawid = '8856') then  dav:='009';&#13;&#10;       if (dawid = '8864') then  dav:='001';&#13;&#10;       if (dawid = '8899') then  dav:='012';&#13;&#10;       if (dawid = '9002') then  dav:='001';&#13;&#10;       if (dawid = '9011') then  dav:='012';&#13;&#10;       if (dawid = '9111') then  dav:='004';&#13;&#10;       if (dawid = '9161') then  dav:='001';&#13;&#10;       if (dawid = '9192') then  dav:='001';&#13;&#10;       if (dawid = '8621') then  dav:='002';&#13;&#10;       if (dawid = '8648') then  dav:='002';&#13;&#10;       if (dawid = '9037') then  dav:='002';&#13;&#10;       if (dawid = '8148') then  dav:='011';&#13;&#10;       if (dawid = '8207') then  dav:='011';&#13;&#10;       if (dawid = '8509') then  dav:='002';&#13;&#10;       if (dawid = '8563') then  dav:='002';&#13;&#10;       if (dawid = '8605') then  dav:='011';&#13;&#10;       if (dawid = '8641') then  dav:='002';&#13;&#10;       if (dawid = '8738') then  dav:='011';&#13;&#10;       if (dawid = '8739') then  dav:='011';&#13;&#10;       if (dawid = '8813') then  dav:='002';&#13;&#10;       if (dawid = '9035') then  dav:='002';&#13;&#10;       if (dawid = '9071') then  dav:='002';&#13;&#10;       if (dawid = '9108') then  dav:='002';&#13;&#10;       if (dawid = '9109') then  dav:='002';&#13;&#10;       if (dawid = '9168') then  dav:='011';&#13;&#10;       if (dawid = '9189') then  dav:='011';&#13;&#10;       if (dawid = '8822') then  dav:='002';&#13;&#10;       if (dawid = '8620') then  dav:='002';&#13;&#10;       if (dawid = '8812') then  dav:='002';&#13;&#10;       if (dawid = '9162') then  dav:='002';&#13;&#10;       if (dawid = '8857') then  dav:='001';&#13;&#10;       if (dawid2 = '8865') then  tom1:=FormatFloat('00000',&#60;test1.&#34;lcadre&#34;&#62;+116)+'0';&#13;&#10;       if (dawid2 = '8865') then  tom2:=FormatFloat('00000',&#60;test1.&#34;hcadre&#34;&#62;+116)+'0';&#13;&#10;       if (dawid2 = '8866') then  tom1:=FormatFloat('00000',&#60;test1.&#34;lcadre&#34;&#62;)+'0';&#13;&#10;       if (dawid2 = '8866') then  tom2:=FormatFloat('00000',&#60;test1.&#34;hcadre&#34;&#62;)+'0';           &#13;&#10;         &#13;&#10;        end;    &#13;&#10;    dav2:=&#60;test1.&#34;palette&#34;&#62;;&#13;&#10;    dav3:=copy(&#60;test1.&#34;casier&#34;&#62;,1,1);                      &#13;&#10;   // pozycja:=&#60;test1.&#34;chassis&#34;&#62;;&#13;&#10;  // pozycja:=&#60;test1.&#60;test1.&#34;palette&#34;&#62;&#13;&#10;    pozycja:=&#60;test1.&#34;codebarre&#34;&#62;;      &#13;&#10;    partia:=&#60;test1.&#34;partia&#34;&#62;;&#13;&#10;    zamowienie:=&#60;test1.&#34;commande&#34;&#62;;&#13;&#10;    linia:= linia+ copy(pozycja,1,8)&#13;&#10;    +';'+zamowienie+'/'+&#60;test1.&#34;chassis&#34;&#62;  &#13;&#10;    +';'+ tom1        &#13;&#10;    +';'+ tom2&#13;&#10;    +';'+dav            &#13;&#10;    + ';'+dav3          &#13;&#10;    + ';'+dav2          &#13;&#10;    + ';'    //+partia        &#13;&#10;    +';'+&#60;test1.&#34;profil2&#34;&#62;&#13;&#10;    + chr(13)+chr(10);&#13;&#10;    nextrecord('test1');&#13;&#10;end;&#13;&#10;sciezka := 'c:\zgrzewarka\' + &#60;test1.&#34;partia&#34;&#62; + '_4zg.aks';                                &#13;&#10;plik := TFileStream.Create(sciezka,fmCreate);                                                               &#13;&#10;plik.Write(linia, length(linia));&#13;&#10;plik.free;    &#13;&#10;end.&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;                  //+';'+parametr&#13;&#10;                  //+';'+FormatFloat('000',&#60;rama.&#34;palette&#34;&#62;)                                &#13;&#10;                  //+';'+Copy(FormatFloat('000',&#60;rama.&#34;casier&#34;&#62;),3,Length(FormatFloat('000',&#60;rama.&#34;casier&#34;&#62;)))                                  &#13;&#10;                  //+';'+'001'+';'+&#60;rama.&#34;profil2&#34;&#62;&#13;&#10;                  //+';'+dav+';'+&#60;rama.&#34;profil2&#34;&#62;  &#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;  " StoreInDFM="false" PropData="044C65667403D10203546F70031B0108446174617365747301010C2500000020446174615365743D225F74657374312220446174615365744E616D653D227465737431220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2232372F30392F323031312200010C1C000000204E616D653D224E4F57222056616C75653D2232303A33363A32372200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E6973747261746575722200010C1F000000204E616D653D22575056455253494F4E222056616C75653D22382E312E312200010C22000000204E616D653D2257505256455253494F4E222056616C75653D22382E302E322E372200010C1A000000204E616D653D224D4158504C4953222056616C75653D223130220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+</TfrxReport>
+
+[I]fr3=1
+[C]lniptyoc7=8C95FA6C768565691CF665FC74659D59
+[C]title=prosty sterowniczek do zgrzewarki bez wydruku papieru
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=ZGRZEW_STER_2     0]
+[C]database=winpro
+[C]datasource=%SERVER%:%DB%
+[C]name=Database1
+[M]params=40
+USER NAME=%LOGIN%
+PASSWORD=%PASSWORD%
+
+[C]report=ZGRZEW_STER_2
+[C]type=D
+[I]typedb=9
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=ZGRZEW_STER_2     1]
+[C]database=winpro
+[I]line=1
+[C]name=test1
+[M]params=734
+select     distinct
+d.lot -- partia
+,left(d.profil,2) as profil -- profil
+,d.codebarre -- kod kreskowy
+-- ,d.dim -- wymiar
+,d.souslot as palette -- wózek
+,d.casier -- pó³ka
+,d.scie -- pi³a
+,replace(l.code,'-','') as partia
+-- , d.ligne  -- nr rekordu dla partii w detlot
+, d.commande  -- zamowienie
+, d.chassis  -- pozycja w zleceniu
+, d.lcadre   -- szerokosc
+, d.hcadre   -- wysokosc
+,d.profil as profil2 
+
+
+from detlot d
+join lot l on d.lot = l.lot
+where 
+d.lot = '5' -- nr partii 
+and d.instruct='C'  -- rodzaj operacji
+-- and ouvrant=-1    -- 0-rama <> skrzyd³o
+and d.scie=1  -- pi³a 1 -ramy  // 10 - skrzydla,20 slupki, 30 wzmocnienia, 40 listw. przyszyb
+and d.position = '4'
+order by d.palette, d.casier
+[C]report=ZGRZEW_STER_2
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=ZGRZEW_STER_2     2]
+[C]database=winpro
+[I]line=2
+[C]name=test2
+[M]params=801
+select detlot.lot, lot.code, detlot.ligne, detlot.lcadre, detlot.hcadre, article.code, detlot.numero, detlot.ouvrant, detlot.position, detlot.type,
+detlot.angle1, detlot.angle2, detlot.commande, detlot.chassis, detlot.profil, detlot.teinteext, detlot.renfort, detlot.dimrenfort, detlot.dim,
+detlot.article, detlot.descriptio, article.codefou, detlot.codebarre, detlot.dormant, detlot.nouvr, detlot.sens, detlot.vantail, detlot.scie
+,left(detlot.codebarre,8) as bardav -- profil
+from detlot, article, lot
+where detlot.article = article.code and detlot.lot = lot.lot and detlot.lot = '5' and detlot.scie = 1 and detlot.position = '4'
+and (detlot.type = 1 or detlot.type = 2) and detlot.instruct = 'C' AND detlot.profil Not Like '%6324%' And detlot.profil Not Like '%6322%'
+-- order by detlot.type
+[C]report=ZGRZEW_STER_2
+[C]type=Q
+[End of REPORTQRY]

@@ -1,0 +1,72 @@
+[Record REPORT]
+[CODE=COEFF PRIX]
+[C]code=COEFF PRIX
+[M]descriptio=20
+V 1.2 YL ajout titre
+[M]design=9266
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.2.14" DotMatrixReport="false" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="pdfFactory" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39160,6338106597" ReportOptions.Description.Text="" ReportOptions.Name="COEFF PRIX" ReportOptions.LastChange="39160,6338106597" ScriptLanguage="PascalScript" ScriptText.Text="procedure PageHeader1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;   Memo1.Text := Translate('DOC_CODE','');&#13;&#10;   Memo2.Text := Translate('IDS_MARGE','') + ' 1';&#13;&#10;   Memo6.Text := Translate('IDS_MARGE','') + ' 2';&#13;&#10;   Memo3.Text := Translate('IDS_DEBOURSE','');&#13;&#10;   Memo4.Text := Translate('IDS_PCOURANT','');&#13;&#10;   Memo5.Text := Translate('DOC_DESCRIPTION','');       &#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403D10203546F70031B0108446174617365747301010C2500000020446174615365743D225F436F6566662220446174615365744E616D653D22436F6566662200010C2900000020446174615365743D225F536F63696574652220446174615365744E616D653D22536F6369657465220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2232352F30352F323030372200010C1C000000204E616D653D224E4F57222056616C75653D2231353A32303A35322200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E697374726174657572220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215,9" PaperHeight="279,4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="41,57483" Left="0" Top="18,89765" Width="740,409927" OnBeforePrint="PageHeader1OnBeforePrint" Stretched="true">
+      <TfrxMemoView Name="Memo1" Left="0" Top="22,67718" Width="128,50402" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="Code"/>
+      <TfrxMemoView Name="Memo2" Left="128,50402" Top="22,67718" Width="79,37013" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="Marge 1"/>
+      <TfrxMemoView Name="Memo3" Left="287,24428" Top="22,67718" Width="94,48825" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="Déboursé"/>
+      <TfrxMemoView Name="Memo4" Left="381,73253" Top="22,67718" Width="94,48825" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="P. Courant"/>
+      <TfrxMemoView Name="Memo5" Left="476,22078" Top="22,67718" Width="264,5671" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="Description"/>
+      <TfrxMemoView Name="Memo6" Left="207,87415" Top="22,67718" Width="79,37013" Height="18,89765" Color="10027007" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="Marge 2"/>
+      <TfrxMemoView Name="Memo8" Left="0" Top="0" Width="797,48083" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-2147483640" Font.Height="-19" Font.Name="Arial" Font.Style="0" ParentFont="false" Text=" [Societe.&#34;nom&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="185,19697" Top="0" Width="555,30705" Height="24" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="false" Text="[Translate('IDS_LISTECOEFFICIENTS','')]"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="120,94496" Width="740,409927" ColumnWidth="0" ColumnGap="0" DataSet="_Coeff" DataSetName="Coeff" RowCount="0" Stretched="true">
+      <TfrxMemoView Name="Coeffcode" Left="0" Top="0" Width="128,50402" Height="18,89765" StretchMode="smMaxHeight" DataField="code" DataSet="_Coeff" DataSetName="Coeff" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Coeff.&#34;code&#34;]"/>
+      <TfrxMemoView Name="Coeffmarge" Left="128,50402" Top="0" Width="79,37013" Height="18,89765" StretchMode="smMaxHeight" DataSet="_Coeff" DataSetName="Coeff" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Coeff.&#34;marge&#34;] %"/>
+      <TfrxMemoView Name="Coeffdebourse" Left="287,24428" Top="0" Width="94,48825" Height="18,89765" StretchMode="smMaxHeight" DataField="debourse" DataSet="_Coeff" DataSetName="Coeff" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Coeff.&#34;debourse&#34;]"/>
+      <TfrxMemoView Name="Coeffmarge2" Left="207,87415" Top="0" Width="79,37013" Height="18,89765" StretchMode="smMaxHeight" DataSet="_Coeff" DataSetName="Coeff" DisplayFormat.DecimalSeparator="," DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="false" Text="[Coeff.&#34;marge2&#34;] %"/>
+      <TfrxMemoView Name="Coeffpcourant" Left="381,73253" Top="0" Width="94,48825" Height="18,89765" StretchMode="smMaxHeight" DataField="pcourant" DataSet="_Coeff" DataSetName="Coeff" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Coeff.&#34;pcourant&#34;]"/>
+      <TfrxMemoView Name="Coeffdescriptio" Left="476,22078" Top="0" Width="264,5671" Height="18,89765" StretchMode="smMaxHeight" DataField="descriptio" DataSet="_Coeff" DataSetName="Coeff" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="false" Text="[Coeff.&#34;descriptio&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="200,31509" Width="740,409927">
+      <TfrxMemoView Name="Date" Left="0" Top="0" Width="340,1577" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="2" Frame.Typ="4" ParentFont="false" Text="[Date]"/>
+      <TfrxMemoView Name="Page" Left="340,1577" Top="0" Width="400,63018" Height="18,89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="2" Frame.Typ="4" HAlign="haRight" ParentFont="false" Text="[Page]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
+
+[I]fr3=1
+[C]title=Liste des coefficients de prix
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=COEFF PRIX        0]
+[C]database=DB1
+[C]datasource=odbc_mysql
+[C]name=DB1
+[M]params=23
+USER NAME=
+PASSWORD=
+
+[C]report=COEFF PRIX
+[C]type=D
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=COEFF PRIX        1]
+[C]database=DB1
+[I]line=1
+[C]name=Coeff
+[M]params=35
+Select *
+from coeff
+order by code
+[C]report=COEFF PRIX
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=COEFF PRIX        2]
+[C]database=DB1
+[I]line=2
+[C]name=Societe
+[M]params=23
+select nom from societe
+[C]report=COEFF PRIX
+[C]type=Q
+[End of REPORTQRY]

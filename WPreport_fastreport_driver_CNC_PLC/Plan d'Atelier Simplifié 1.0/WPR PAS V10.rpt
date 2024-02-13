@@ -1,0 +1,1322 @@
+[Record REPORT]
+[CODE=WPR PAS V10]
+[C]CODE=WPR PAS V10
+[C]TITLE=Fiche d'atelier simplifié  standard WinPro
+[M]DESCRIPTIO=850
+- créé par RAM - Quadrature le 15/09/2003
+* échelle du dessin (tel winpro ou reprendre le calcul??)
+* DXF article, plan de coupe châssis
+* pour version 7, récupérer les dessins de sens d'ouverture (nouveauté v7) et situation maconnerie (idem)
+* VR: tablier/question de manoeuvres multiples
+* mauclair couleur dormant
+* lot si existe
+* liaison avec module de langue
+* gérer le plan d'atelier bois ?? (mise en page distincte)
+* répétition de l'entete de détail à revoir
+* penser a copier les bitmaps du document dans un sous répertoire "jpg" (manoeuvre VR) et "bmp" (code d'établissement et schéma de coupe) du répertoire "REPORTS" de WinPro
+* version non compatible avec l'impression par repère du plan d'atelier (sera corrigé dans les prochaines versions)
+
+- Perte de 11 lignes de détails dans la liste de piece par rapport au standard
+
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       0]
+[C]REPORT=WPR PAS V10
+[C]TYPE=D
+[X]OBJECT=173
+object WP: TSDDatabase
+  LoginPrompt = False
+  DatabaseName = 'WP'
+  IdleTimeOut = 0
+  RemoteDatabase = 'WPRSTD'
+  ServerType = stODBC
+  SessionName = 'Default'
+end
+
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       1]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=267
+object CDE: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  SQL.Strings = (
+    
+      'SELECT typedoc, commande, refcli, client, encodeur, numdoc from ' +
+      'cde where typedoc = "S" and commande = :order and numdoc = :numd' +
+      'oc and !deleted() ')
+end
+
+[I]LINE=1
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       2]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=172
+object NOMCLI: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_CDE
+  SQL.Strings = (
+    'select code, nom from client where code = :client')
+end
+
+[I]LINE=2
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       3]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=228
+object FEN: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_CDE
+  SQL.Strings = (
+    
+      'select * from fen where typedoc = :typedoc and commande = :comma' +
+      'nde and numdoc = :numdoc')
+end
+
+[I]LINE=3
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       4]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=404
+object DETDORM: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, in' +
+      'dex, section, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'type = "D" and info2 = "B" and section = "D"')
+end
+
+[I]LINE=4
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       5]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=328
+object DETSITU: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select texte, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'type = "D" and info2 = "S" and section = "D"')
+end
+
+[I]LINE=5
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       6]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=330
+object DETTEXTAB: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select texte, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'type = "D" and info2 = "T" and section = "D"')
+end
+
+[I]LINE=6
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       7]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=350
+object DETDORQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETDORM
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and index = :index and type = "?" and section = :section')
+end
+
+[I]LINE=7
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       8]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=384
+object DETTRAVD: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select distinct typedoc, commande, chassis, texte, index, type, ' +
+      'section, numdoc from det where numdoc = :numdoc and typedoc = :t' +
+      'ypedoc and commande = :commande and chassis = :chassis and type ' +
+      '= "T" and section = "D"')
+end
+
+[I]LINE=8
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10       9]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=362
+object DETTRAVDQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETTRAVD
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and index = :index and section = :section and type = "?" '
+    '')
+end
+
+[I]LINE=9
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      10]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=388
+object DETPERI: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, info3, info2, index, t' +
+      'ype, section, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'section = "P" and type = "H"')
+end
+
+[I]LINE=10
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      11]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=359
+object DETPERIQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETPERI
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?"'
+    '')
+end
+
+[I]LINE=11
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      12]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=375
+object DETSEUIL: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, index, type, section, ' +
+      'numdoc from det where numdoc = :numdoc and typedoc = :typedoc an' +
+      'd commande = :commande and chassis = :chassis and section = "D" ' +
+      'and type = "S"')
+end
+
+[I]LINE=12
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      13]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=353
+object DETSEUILQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETSEUIL
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=13
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      14]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=316
+object NPERI: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETPERI
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and section = :section and typ' +
+      'e = :type and numdoc = :numdoc')
+end
+
+[I]LINE=14
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      15]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=319
+object NTRAVD: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETTRAVD
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and type = :type and section =' +
+      ' :section and numdoc = :numdoc ')
+end
+
+[I]LINE=15
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      16]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=319
+object NSEUIL: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETSEUIL
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and section = :section and typ' +
+      'e = :type and numdoc = :numdoc ')
+end
+
+[I]LINE=16
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      17]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=417
+object DETOUV: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, section, type, index, info1, ' +
+      'info2,  clrinter, clrexter, texte, numdoc from det where numdoc ' +
+      '= :numdoc and typedoc = :typedoc and commande = :commande and ch' +
+      'assis = :chassis and section = "O" and type = "O" '
+    '')
+end
+
+[I]LINE=17
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      18]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=414
+object DETQC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, se' +
+      'ction, index, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'section = :section and info1 = :info1 and type = "Q" ')
+end
+
+[I]LINE=18
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      19]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=350
+object DETOUVQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis  and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=19
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      20]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=348
+object DETQCQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETQC
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis  and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=20
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      21]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=419
+object DETTRAVO: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, section, index, type, info1, ' +
+      'texte, vantail, numdoc from det where numdoc = :numdoc and typed' +
+      'oc = :typedoc and commande = :commande and chassis = :chassis an' +
+      'd section = :section and info1 = :info1 and type = "T" ')
+end
+
+[I]LINE=21
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      22]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=354
+object DETTRAVOQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETTRAVO
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and index = :index and section = :section and type = "?" ')
+end
+
+[I]LINE=22
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      23]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=319
+object NTRAVO: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETTRAVO
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and type = :type and section =' +
+      ' :section and numdoc = :numdoc ')
+end
+
+[I]LINE=23
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      24]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=454
+object DETCROISILL: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, section, index, type, info1, ' +
+      'texte, vantail, clrexter, clrinter, numdoc from det where numdoc' +
+      ' = :numdoc and typedoc = :typedoc and commande = :commande and c' +
+      'hassis = :chassis and section = :section and info1 = :info1 and ' +
+      'type = "X" ')
+end
+
+[I]LINE=24
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      25]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=366
+object DETCROISIQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETCROISILL
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?" '
+    '')
+end
+
+[I]LINE=25
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      26]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=324
+object NCROISILL: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETCROISILL
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and type = :type and section =' +
+      ' :section and numdoc = :numdoc')
+end
+
+[I]LINE=26
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      27]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=459
+object DETPANF: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, section, clrinter, clrexter, ' +
+      'index, type, info1, texte, question, vantail, numdoc from det wh' +
+      'ere numdoc = :numdoc and typedoc = :typedoc and commande = :comm' +
+      'ande and chassis = :chassis and section = :section and info1 = :' +
+      'info1 and type = "P"')
+end
+
+[I]LINE=27
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      28]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=383
+object DETPANFQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETPANF
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and info1 = :info1 and index = :ind' +
+      'ex and type = "?" ')
+end
+
+[I]LINE=28
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      29]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=316
+object NPANF: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETPANF
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and type = :type and section =' +
+      ' :section and numdoc = :numdoc')
+end
+
+[I]LINE=29
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      30]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=701
+object DETPARC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select d.typedoc, d.commande, d.chassis, d.texte, d.question, d.' +
+      'info1, d.vantail, d.rempl, d.index, d.section, d.type, f.parclos' +
+      'e, f.numdoc, d.numdoc from det d, fen f where d.typedoc = :typed' +
+      'oc and d.commande = :commande and f.commande = :commande and d.c' +
+      'hassis = :chassis and f.chassis = :chassis and f.numdoc = d.numd' +
+      'oc and d.numdoc = :numdoc and f.numdoc = :numdoc and f.typedoc =' +
+      ' :typedoc and d.section = :section and d.info1 = :info1 and d.ty' +
+      'pe = "V" and d.texte <> f.parclose')
+end
+
+[I]LINE=30
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      31]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=409
+object DETCAIS: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, in' +
+      'fo1, info2, info3, index, section, numdoc from det where numdoc ' +
+      '= :numdoc and typedoc = :typedoc and commande = :commande and ch' +
+      'assis = :chassis and type = "C" and section = "V"')
+end
+
+[I]LINE=31
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      32]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=351
+object DETCAISQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETCAIS
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=32
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      33]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=395
+object DETLAME: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, in' +
+      'dex, info1, section, numdoc from det where numdoc = :numdoc and ' +
+      'typedoc = :typedoc and commande = :commande and chassis = :chass' +
+      'is and type = "L" and section = "V"')
+end
+
+[I]LINE=33
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      34]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=351
+object DETLAMEQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETLAME
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=34
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      35]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=389
+object DETGUIDE: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, in' +
+      'dex, section, numdoc from det where numdoc = :numdoc and typedoc' +
+      ' = :typedoc and commande = :commande and chassis = :chassis and ' +
+      'type = "G" and section = "V"')
+end
+
+[I]LINE=35
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      36]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=353
+object DETGUIDEQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETGUIDE
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?"')
+end
+
+[I]LINE=36
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      37]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=321
+object ARTSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, type, code, descriptio, quantite, unit' +
+      'e, numdoc from art where numdoc = :numdoc and typedoc = :typedoc' +
+      ' and commande = :commande and type = 0')
+end
+
+[I]LINE=37
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      38]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=325
+object PROFSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, type, code, descriptio, quantite, long' +
+      'ueur, numdoc from art where numdoc = :numdoc and typedoc = :type' +
+      'doc and commande = :commande and type = 1')
+end
+
+[I]LINE=38
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      39]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=324
+object TPSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select typedoc, commande, type, code, descriptio, quantite, long' +
+      'ueur, numdoc from art  where numdoc = :numdoc and typedoc = :typ' +
+      'edoc and commande = :commande and type = 3')
+end
+
+[I]LINE=39
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      40]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=259
+object NARTSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_ARTSUP
+  SQL.Strings = (
+    
+      'select count(*) from art where typedoc = :typedoc and commande =' +
+      ' :commande and type = :type and numdoc = :numdoc')
+end
+
+[I]LINE=40
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      41]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=262
+object NPROFSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_PROFSUP
+  SQL.Strings = (
+    
+      'select count(*) from art where typedoc = :typedoc and commande =' +
+      ' :commande and type = :type and numdoc = :numdoc ')
+end
+
+[I]LINE=41
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      42]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=258
+object NTPSUP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_TPSUP
+  SQL.Strings = (
+    
+      'select count(*) from art where typedoc = :typedoc and commande =' +
+      ' :commande and type = :type and numdoc = :numdoc ')
+end
+
+[I]LINE=42
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      43]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=453
+object DETAER: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETOUV
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, se' +
+      'ction, index, type, clrexter, clrinter, numdoc from det where nu' +
+      'mdoc = :numdoc and typedoc = :typedoc and commande = :commande a' +
+      'nd chassis = :chassis and section = :section and info1 = :info1 ' +
+      'and type = "R" ')
+end
+
+[I]LINE=43
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      44]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=350
+object DETAERQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETAER
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and section = :section and index = :index and type = "?" ')
+end
+
+[I]LINE=44
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      45]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=315
+object NAER: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETAER
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and type = :type and section =' +
+      ' :section and numdoc = :numdoc ')
+end
+
+[I]LINE=45
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      46]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=420
+object DETACC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETQC
+  SQL.Strings = (
+    
+      'select typedoc, commande, chassis, texte, clrexter, clrinter, in' +
+      'fo1, section, type, numdoc from det where numdoc = :numdoc and t' +
+      'ypedoc = :typedoc and commande = :commande and chassis = :chassi' +
+      's and section = :section and index = :index and type = "A" ')
+end
+
+[I]LINE=46
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      47]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=314
+object NACC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETACC
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and section = :section and typ' +
+      'e = :type and numdoc = :numdoc')
+end
+
+[I]LINE=47
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      48]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=375
+object DETCOUPL: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select commande, typedoc, chassis, section, type, index, texte, ' +
+      'numdoc from det where numdoc = :numdoc and typedoc = :typedoc an' +
+      'd commande = :commande and chassis = :chassis and section = "P" ' +
+      'and type = "U"')
+end
+
+[I]LINE=48
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      49]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=354
+object DETCOUPLQ: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETCOUPL
+  SQL.Strings = (
+    
+      'select texte, question, numdoc from det where numdoc = :numdoc a' +
+      'nd typedoc = :typedoc and commande = :commande and chassis = :ch' +
+      'assis and index = :index and section = :section and type = "?" ')
+end
+
+[I]LINE=49
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      50]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=338
+object DETFXCINT: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select commande, typedoc, chassis, section, type, texte, numdoc ' +
+      'from det where numdoc = :numdoc and typedoc = :typedoc and comma' +
+      'nde =:commande and chassis = :chassis and type = "F"')
+end
+
+[I]LINE=50
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      51]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=297
+object NFXCINTR: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETFXCINT
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ':commande and chassis = :chassis and type = :type and numdoc = :' +
+      'numdoc')
+end
+
+[I]LINE=51
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      52]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=335
+object NPARC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_DETPARC
+  SQL.Strings = (
+    
+      'select count(*) from det where typedoc = :typedoc and commande =' +
+      ' :commande and chassis = :chassis and section = :section and inf' +
+      'o1 = :info1 and type = :type and numdoc = :numdoc')
+end
+
+[I]LINE=52
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      53]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=329
+object DETMESS: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select question, texte, info3, numdoc from det where numdoc = :n' +
+      'umdoc and typedoc = :typedoc and commande = :commande and chassi' +
+      's = :chassis and section = "I" and type = "M"')
+end
+
+[I]LINE=53
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      54]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=369
+object LINPROF: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select code, descriptio, dimension, quantite, rayon, angle1, ang' +
+      'le2, position, numdoc from lin where numdoc = :numdoc and typedo' +
+      'c = :typedoc and commande = :commande and chassis = :chassis and' +
+      ' type = 0')
+end
+
+[I]LINE=54
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      55]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=312
+object LINART: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select code, descriptio, quantite, numdoc from lin where numdoc ' +
+      '= :numdoc and typedoc = :typedoc and commande = :commande and ch' +
+      'assis = :chassis and type = 1')
+end
+
+[I]LINE=55
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      56]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=308
+object LINMO: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select code, descriptio, temps, numdoc from lin where numdoc = :' +
+      'numdoc and typedoc = :typedoc and commande = :commande and chass' +
+      'is = :chassis and type = 2')
+end
+
+[I]LINE=56
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      57]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=324
+object LINREMP: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  DataSource = frmMain.ds_FEN
+  SQL.Strings = (
+    
+      'select code, descriptio, quantite, dimrempl, numdoc from lin whe' +
+      're numdoc = :numdoc and typedoc = :typedoc and commande = :comma' +
+      'nde and chassis = :chassis and type >= 3')
+end
+
+[I]LINE=57
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      58]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=115
+object NOMSOC: TSDQuery
+  Tag = 1
+  DatabaseName = 'WP'
+  SQL.Strings = (
+    'select nom from societe')
+end
+
+[I]LINE=58
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=WPR PAS V10      59]
+[C]REPORT=WPR PAS V10
+[C]TYPE=Q
+[X]OBJECT=109
+object Query1: TSDQuery
+  Tag = 1
+  DatabaseName = 'wp'
+  SQL.Strings = (
+    'select * from fen')
+end
+
+[I]LINE=59
+[End of REPORTQRY]
+[Record FRF]
+[WPR PAS V10.frf=WPR PAS V10.frf]
+[R]FRF=102460
+  ÿÿ  ÿÿÿÿÿ	   4  š               ÿÿ    ÿÿ             Form   €Ü   x   |  ,    begin@    typedim := IniReadInteger('.\\winpro.ini','System :HxW','0'); end ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,    begin    if not finalpass then*       hauteur[ch] := hauteur[ch] + height;   end ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š                   ÿÿ    ÿÿ             Form   €Ü   x   |  ,     ÿÿÿÿÿ	   4  š           2    ÿÿ  ÿÿÿÿ             Form   €Ü   x   |  ,    beginV    if (([NARTSUP."cnt"] = 0) and ([NPROFSUP."cnt"] = 0) and ([NTPSUP."cnt"] = 0)) then       page21.visible := false    else       page21.visible := true; end  Û   PiedDe page1     ğ  ö     0           ÿÿÿ             ÿÿ                  È             Q	  
+ Bde_EnTete     -   ö  !   ±           ÿÿÿ             ÿÿ             Bde_ETMaster    È             û	   Bde_DummyCde     ç   ö  
+   2           ÿÿÿ     _CDE      begin* // ne sert qu'au saut de page par commande end                     È             h
+   Bde_SSRLignes     a  ö     1           ÿÿÿ             ÿÿ                  È             ß   Bde_DetMaster       ö     ·           ÿÿÿ     _FEN      begin    nbcoupl := 0;    nbperi := 0;    nbtravd := 0;    if finalpass then       begin(           if ([FEN."ensemble"] = 0) then              begin+                 SSR_DetMen.visible := true;.                 SSR_DetAssem.visible := false;              end           else              begin-                 SSR_DetAssem.visible := true;,                 SSR_DetMen.visible := false;5                 SSR_DetAssem.left := SSR_DetMen.left;              end
+       end; end ÿÿ             Bde_SSRLignes    È             H   Bde_ETMaster     X   ö     ±           ÿÿÿ            begin    if finalpass then?          if (([FEN."ensemble"] = 1) or ([FEN."type"] = 2)) then             begin-                descparclose.visible := false;)                desccoul.visible := false;T                descsys.width := descsys.width + descparclose.width + desccoul.width;             end          else             begin,                descparclose.visible := true;(                desccoul.visible := true;$                descsys.width := 209;             end end ÿÿ             Enfant1    È             ¯   Enfant1        ö     0           ÿÿÿ             ÿÿ                  È              <   Memo4     ñ  „                  ÿÿÿ ,       [today] - [now]    ÿÿ            Arial                    ÿÿÿ            ‹   Line1     ñ  º                 ÿÿÿ ,           ÿÿ              z   Memo5  ù   ò                   ÿÿÿ ,           begin   memo5.memo.clear;   if finalpass then5      memo5.memo.add('Encodé par ' + [CDE."encodeur"]) end ÿÿ            Arial                   ÿÿÿ                Memo6  M  ò  Œ                  ÿÿÿ ,       Page [page#]    ÿÿ            Arial                   ÿÿÿ             ®   TitreDoc     /                    ÿÿÿ,      ) Plan d'atelier - [trim([CDE."commande"])]    ÿÿ            Arial 
+                  ÿÿÿ             J   TitreCli  Ñ  /                    ÿÿÿ,       [UPPERCASE([NOMSOC."nom"])]    ÿÿ            Arial 
+                 ÿÿÿ            ™   Line2     ?   ¼                 ÿÿÿ ,           ÿÿ                 RefCli  |  @   ]                 ÿÿÿ,         
+  begin    refcli.memo.clear;1    if ([length([trim([CDE."refcli"])])] = 0) then       visible := false    else       begin          visible := true;H          refcli.memo.add('Référence client: ' + [trim([CDE."refcli"])]);
+       end; end ÿÿ            Arial                   ÿÿÿ                NomCli     @   W                 ÿÿÿ,           begin    nomcli.memo.clear;Z    nomcli.memo.add('Client: (' + [trim([NOMCLI."code"])] + ') ' + [trim([NOMCLI."nom"])]); end ÿÿ            Arial                    ÿÿÿ            o  
+ SSR_DetMen  I    É                  ÿÿÿ,           ÿÿ                Ç  
+ SSR_Lignes     f  »                 ÿÿÿ,           ÿÿ                  
+ SSR_Dessin       )                 ÿÿÿ,           ÿÿ                 ^   NumChass     Z   V                 ëçş ,          begin   if finalpass then
+      begin         numchass.memo.clear;&         if ([FEN."ensemble"] = 1) then@            numchass.memo.add('Assemblage ' + '[FEN."position"]')?         else if (([FEN."type"] = 1) or ([FEN."type"] = 3)) thenB                 numchass.memo.add('Châssis ' + '[FEN."position"]'),              else if ([FEN."type"] = 2) thenA                  numchass.memo.add('Volet ' + '[FEN."position"]')      end end ÿÿ            Arial          
+         ÿÿÿ             ó   QteChass  r   Z   6                 ëçş ,        Qté [FEN."quantite"]    ÿÿ             Arial          
+         ÿÿÿ             ,   DescSys  ¨   Z   Ñ                 ëçş ,            begin    descsys.memo.clear;R    if (([FEN."ensemble"] = 0) and (([FEN."type"] = 1) or ([FEN."type"] = 3))) then;       descsys.memo.add('Système: [trim([FEN."systeme"])]'); end ÿÿ             Arial          
+         ÿÿÿ             Ô   DescParclose  y  Z   Ñ                 ëçş ,       # Parcloses: [trim([FEN."parclose"])]    ÿÿ             Arial          
+         ÿÿÿ             u   DescCoul  J  Z                    ëçş ,         Couleur: [trim([FEN."couleur"])]    ÿÿ             Arial          
+         ÿÿÿ            Ï   SSR_DetAssem      Æ                  ÿÿÿ,           ÿÿ               ş   
+ Bde_Dessin        ö     1           ÿÿÿ     1      begin  ( // Initialisation du champs avec l'image   if finalpass then    begin+       dessin1.loadfromfile([FEN."dessin"]);p       largdispo := [round((page1.width - et_code.width - et_desc.width - et_coulr.width - 2*page1.leftmargin))];4       factreduc := largdispo / getemfwidth(dessin1);:       htrdess := round(getemfheight(dessin1) * factreduc);         if factreduc > 1 then          begin2             dessin1.width := getemfwidth(dessin1);4             dessin1.height := getemfheight(dessin1);          end
+       else          begin'             dessin1.width := largdispo;&             dessin1.height := htrdess;          end;    end;  8 // on met la bande à hauteur du dessin dans tous les casP // dans le cas ou le detail est plus petit que le dessin, la bande sera au moinsJ // aussi grande que le dessin. Sinon les sous rapports étireront la bande.  '    bde_dessin.height := dessin1.height;   end ÿÿ             Bde_DessinVE    È            Ù%   Bde_DessinVE     s   ö  ,   1           ÿÿÿ          #  begin3    if ([length([trim([FEN."dessinve"])])] = 0) then#       bde_dessinve.visible := false    else#       bde_dessinve.visible := true;  ( // Initialisation du champs avec l'image   if finalpass then    begin/       dessin1ve.loadfromfile([FEN."dessinve"]);r       largdispove := [round((page1.width - et_code.width - et_desc.width - et_coulr.width - 2*page1.leftmargin))];:       factreducve := largdispove / getemfwidth(dessin1ve);@       htrdessve := round(getemfheight(dessin1ve) * factreducve);         if factreducve > 1 then          begin6             dessin1ve.width := getemfwidth(dessin1ve);8             dessin1ve.height := getemfheight(dessin1ve);          end
+       else          begin+             dessin1ve.width := largdispove;*             dessin1ve.height := htrdessve;          end;    end;  8 // on met la bande à hauteur du dessin dans tous les casP // dans le cas ou le detail est plus petit que le dessin, la bande sera au moinsJ // aussi grande que le dessin. Sinon les sous rapports étireront la bande.  +    bde_dessinve.height := dessin1ve.height;     end ÿÿ                  È            0&   Dessin1                           ÿÿÿ,           ÿÿ             0&  ‰&  	 Dessin1ve      „                     ÿÿÿ,           ÿÿ             ‰&  Z(   Bde_SSRDetChass     ı   ö     1           ÿÿÿ     1      begin    if finalpass then       begin)          SSR_DetChass.left := poscolcode;*          SSR_DetChass.width := largentete;X          if ((([FEN."type"] = 1) or ([FEN."type"] = 3)) and ([FEN."ensemble"] = 0)) then+             bde_ssrdetchass.visible := true          else-             bde_ssrdetchass.visible := false;
+       end; end                    È            U*   Bde_SSRDetVR     ½   ö     1           ÿÿÿ     1      begin    nbcais := 0;    nbtab := 0;    nbcoulisse := 0;    if finalpass then       begin&          SSR_DetVR.left := poscolcode;'          SSR_DetVR.width := largentete;X          if ((([FEN."type"] = 2) or ([FEN."type"] = 3)) and ([FEN."ensemble"] = 0)) then(             bde_ssrdetvr.visible := true          else*             bde_ssrdetvr.visible := false;
+       end; end                    È            <,  
+ Bde_ComAte     4  ö  $   1           ÿÿÿ     1      begin>   if ([length([trim([plaintext([FEN."comment"])])])] = 0) then       Bde_ComAte.visible := false   else
+      begin#         Bde_ComAte.visible := true;	      end;   if finalpass then
+      begin!         EtCom.left := poscolcode;"         EtCom.width := largentete;"         ComAte.left := poscolcode;#         ComAte.width := largentete;	      end; end                    È            *.   Bde_Message     z  ö  $   1           ÿÿÿ     1      begin@   if ([length([trim([plaintext([DETMESS."texte"])])])] = 0) then"       Bde_Message.visible := false   else       begin%          Bde_Message.visible := true;
+       end;   if finalpass then
+      begin"         EtMess.left := poscolcode;#         EtMess.width := largentete;          Mess.left := poscolcode;!         Mess.width := largentete;	      end; end                    È            )1   Bde_ETDetMen     $   ö     p           ÿÿÿ            begin( // Positionnement des champs de l'entete> // Attention le document est calé sur ces valeurs et variables0    et_desc.left := et_code.left + et_code.width;A    et_coulr.left := et_code.left + et_code.width + et_desc.width;  - // Variables contenant les largeurs de champs@    largentete := et_code.width + et_coulr.width + et_desc.width;     largcolcode := et_code.width;     largcoldesc := et_desc.width;"    largcolcoulr := et_coulr.width;  4 // Variables contenant la position (left) des champs    posentete := et_code.left;    poscolcode := et_code.left;    poscoldesc := et_desc.left;     poscolcoulr := et_coulr.left;   end ÿÿ                  È            ƒ1   SSR_DetChass     ı   ˜                 ÿÿÿ,           ÿÿ               Ú1  	 SSR_DetVR     ½   ˜                 ÿÿÿ,           ÿÿ                c2   EtCom      9  ™                ëçş ,       Commentaire    ÿÿ             Arial                   ÿÿÿ            é2   EtMess        ™                ëçş ,       Message    ÿÿ             Arial                   ÿÿÿ            2>   Mess        ™                ÿÿÿ,         %  begin    mess.memo.clear;$    if ([DETMESS."info3"] = 'A') thenx       mess.memo.add('Accessoire de Châssis ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'C') theno            mess.memo.add('Caisson ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'D') theno            mess.memo.add('Dormant ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'F') thenz            mess.memo.add('Site de production ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'G') thenp            mess.memo.add('Coulisse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'H') thenp            mess.memo.add('Rehausse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'L') theno            mess.memo.add('Tablier ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'O') theno            mess.memo.add('Ouvrant ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'P') thenx            mess.memo.add('Panneau fabriqué ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'Q') thenu            mess.memo.add('Quincaillerie ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'R') thenp            mess.memo.add('Aérateur ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'S') theno            mess.memo.add('Système ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'T') thenp            mess.memo.add('Traverse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'U') thens            mess.memo.add('Utilisateur ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'V') thenp            mess.memo.add('Parclose ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'W') theno            mess.memo.add('Vitrage ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'X') thens            mess.memo.add('Croisillon ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'); end ÿÿ             Arial     €             ÿÿÿ           
+ TfrRichView ¦>   ComAte      G  ™                ÿÿÿ,       [FEN."comment"]    ÿÿ             ¦>   $?   ET_Code      $   m                 ëçş ,           ÿÿ             Arial                    ÿÿÿ            ¯?   ET_Desc  l   $   Æ                 ëçş ,       Description    ÿÿ             Arial                   ÿÿÿ            7@   ET_Coulr  2  $   \                 ëçş ,       Couleur    ÿÿ             Arial                   ÿÿÿ           KA  
+ Bde_DetCpl     N   ö     5           ÿÿÿ    	 _DETCOUPL      begin      if finalpass then       begin$          desccpl.left := poscoldesc;5          desccpl.width := largcoldesc + largcolcoulr;
+       end; end ÿÿ                  È            `B   Bde_DetCplQ     ˜   ö     1           ÿÿÿ    
+ _DETCOUPLQ      begin    if finalpass then       begin%          desccplq.left := poscoldesc;6          desccplq.width := largcoldesc + largcolcoulr;
+       end; end ÿÿ                  È            D   Bde_SSRDetPeriAss     Ä   ö     ±           ÿÿÿ            begin    if finalpass then       begin+          SSR_DetPeriAss.left := poscolcode;,          SSR_DetPeriAss.width := largentete;$          if ([NPERI."cnt"] = 0) then.             bde_ssrdetperiass.visible := false          else.             bde_ssrdetperiass.visible := true;
+       end; end ÿÿ             Bde_TraitFinAss    È            éD   Bde_TraitFinAss     ì   ö     °           ÿÿÿ            begin"    TraitFinAss.left := poscolcode;#    TraitFinAss.width := largentete; end ÿÿ             Bde_ComAteAss    È            ñE   Bde_ETVR        ö     p           ÿÿÿ            begin( // Positionnement des champs de l'entete    et_code2.left := poscolcode;    et_desc2.left := poscoldesc;!    et_coulr2.left := poscolcoulr; end ÿÿ                  È            úG   Bde_ComAteAss       ö  %   ±           ÿÿÿ            begin>   if ([length([trim([plaintext([FEN."comment"])])])] = 0) then#      Bde_ComAteAss.visible := false   else
+      begin&         Bde_ComAteAss.visible := true;	      end;   if finalpass then
+      begin$         EtComAss.left := poscolcode;%         EtComAss.width := largentete;%         ComAteAss.left := poscolcode;&         ComAteAss.width := largentete;	      end; end ÿÿ             Bde_MessageAss    È            üI   Bde_MessageAss     K  ö  #   1           ÿÿÿ            begin@   if ([length([trim([plaintext([DETMESS."texte"])])])] = 0) then%       Bde_MessageAss.visible := false   else       begin(          Bde_MessageAss.visible := true;
+       end;   if finalpass then
+      begin%         EtMessAss.left := poscolcode;&         EtMessAss.width := largentete;#         MessAss.left := poscolcode;$         MessAss.width := largentete;	      end; end ÿÿ                  È            XJ   SSR_DetPeriAss      Ä                    ÿÿÿ,           ÿÿ                .K   CodeCpl     N   b                 ÿÿÿ ,       Coupleur [nbcoupl]   begin    if finalpass then       nbcoupl := nbcoupl + 1; end ÿÿ             Arial                    ÿÿÿ             ÈK   DescCpl  l   N                   ÿÿÿ ,       [trim([detcoupl."texte"])]    ÿÿ             Arial                    ÿÿÿ             EL   Memo15      N                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             äL   CodeCplQ     ˜   W                 ÿÿÿ ,       [trim([DETCOUPLQ."question"])]    ÿÿ             Arial                   ÿÿÿ             €M   DescCplQ  l   ˜   +                ÿÿÿ ,       [trim([DETCOUPLQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             ıM   Memo18      ˜                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            RN   TraitFinAss      ì                     ÿÿÿ ,           ÿÿ             ÑN   ET_Code2         m                 ëçş ,           ÿÿ             Arial                    ÿÿÿ            ]O   ET_Desc2  l      Æ                 ëçş ,       Description    ÿÿ             Arial                   ÿÿÿ            İO  	 Et_Coulr2  2     \                 ëçş ,           ÿÿ             Arial                   ÿÿÿ            iP   EtComAss        ™                ëçş ,       Commentaire    ÿÿ             Arial                   ÿÿÿ            òP  	 EtMassAss      P  ™                ëçş ,       Message    ÿÿ             Arial                   ÿÿÿ            t\   MessAss      ^  ™                ÿÿÿ,         %  begin    messass.memo.clear;$    if ([DETMESS."info3"] = 'A') then{       messass.memo.add('Accessoire de Châssis ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'C') thenr            messass.memo.add('Caisson ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'D') thenr            messass.memo.add('Dormant ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'F') then}            messass.memo.add('Site de production ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'G') thens            messass.memo.add('Coulisse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'H') thens            messass.memo.add('Rehausse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'L') thenr            messass.memo.add('Tablier ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'O') thenr            messass.memo.add('Ouvrant ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'P') then{            messass.memo.add('Panneau fabriqué ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'Q') thenx            messass.memo.add('Quincaillerie ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'R') thens            messass.memo.add('Aérateur ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'S') thenr            messass.memo.add('Système ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'T') thens            messass.memo.add('Traverse ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'U') thenv            messass.memo.add('Utilisateur ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'V') thens            messass.memo.add('Parclose ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'W') thenr            messass.memo.add('Vitrage ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'))    else if ([DETMESS."info3"] = 'X') thenv            messass.memo.add('Croisillon ' + '[DETMESS."question"]' + ': ' + '[trim([plaintext([DETMESS."texte"])])]'); end ÿÿ             Arial     €             ÿÿÿ           
+ TfrRichView ë\  	 ComAteAss        ™                ÿÿÿ,       [FEN."comment"]    ÿÿ             ë\  ^   Bde_DetAssPeri        ö     5           ÿÿÿ     _DETPERI      begin    if finalpass then       begin(          descassperi.left := poscoldesc;9          descassperi.width := largcoldesc + largcolcoulr;
+       end; end ÿÿ                  È            '_   Bde_DetAssPeriQ     È   ö     1           ÿÿÿ    	 _DETPERIQ      begin    if finalpass then       begin)          descassperiq.left := poscoldesc;:          descassperiq.width := largcoldesc + largcolcoulr;
+       end; end ÿÿ                  È             `   CodeAssPeri        g                 ÿÿÿ ,       Prof. Périph. [nbperi]   begin    if finalpass then       nbperi := nbperi + 1; end ÿÿ             Arial                    ÿÿÿ             †g   DescAssPeri  r      "                ÿÿÿ ,        "  begin    descassperi.memo.clear;$    if ([DETPERI."info3"] = 'D') then       begin*          if ([DETPERI."info2"] = 'H') thenT             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut (Déduit)');*          if ([DETPERI."info2"] = 'B') thenS             descassperi.memo.add('[trim([detperi."texte"])]' + ' en bas (Déduit)');*          if ([DETPERI."info2"] = 'G') thenU             descassperi.memo.add('[trim([detperi."texte"])]' + ' à gauche (Déduit)');*          if ([DETPERI."info2"] = 'D') thenU             descassperi.memo.add('[trim([detperi."texte"])]' + ' à droite (Déduit)');*          if ([DETPERI."info2"] = '/') then]             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut à gauche (Déduit)');*          if ([DETPERI."info2"] = '\') then]             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut à droite (Déduit)');	       end    else       begin*          if ([DETPERI."info2"] = 'H') thenX             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut (Non déduit)');*          if ([DETPERI."info2"] = 'B') thenW             descassperi.memo.add('[trim([detperi."texte"])]' + ' en bas (Non déduit)');*          if ([DETPERI."info2"] = 'G') thenY             descassperi.memo.add('[trim([detperi."texte"])]' + ' à gauche (Non déduit)');*          if ([DETPERI."info2"] = 'D') thenY             descassperi.memo.add('[trim([detperi."texte"])]' + ' à droite (Non déduit)');*          if ([DETPERI."info2"] = '/') thena             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut à gauche (Non déduit)');*          if ([DETPERI."info2"] = '\') thena             descassperi.memo.add('[trim([detperi."texte"])]' + ' en haut à droite (Non déduit)');  
+       end; end ÿÿ             Arial                    ÿÿÿ             h   Cale27                          ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             ¥h   CodeAssPeriQ     È   \                 ÿÿÿ ,       [trim([DETPERIQ."question"])]    ÿÿ             Arial                   ÿÿÿ             Di   DescAssPeriQ  r   È   )                ÿÿÿ ,       [trim([DETPERIQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             Ái   Cale28      È                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            Œk   Bde_DetCais     *   ö     5           ÿÿÿ     _DETCAIS      begin    if finalpass then       begin          nbcais := nbcais + 1;%          codecais.left := poscolcode;'          codecais.width := largcolcode;%          desccais.left := poscoldesc;'          desccais.width := largcoldesc;&          coulcais.left := poscolcoulr;(          coulcais.width := largcolcoulr;
+       end; end ÿÿ                  È            êl   Bde_DetCaisQ     –   ö     1           ÿÿÿ     	 _DETCAISQ    	  begin    if finalpass then       begin&          desccaisq.left := poscoldesc;(          desccaisq.width := largcoldesc;'          coulcaisq.left := poscolcoulr;)          coulcaisq.width := largcolcoulr;
+       end; end ÿÿ                  È            ïm   Bde_SSRDetLame     q  ö     1           ÿÿÿ     1      begin    if finalpass then       begin(          SSR_DetLame.left := poscolcode;)          SSR_DetLame.width := largentete;
+       end; end ÿÿ                  È            Ns   Bde_ManCais       ö     1 	          ÿÿÿ          #  begin"    if ([detcais."info2"] = 0) then"       bde_mancais.visible := false    else"       bde_mancais.visible := true;  < // Initialisation du dessin de manoeuvre si enroulement <> 0' // un dessin par manoeuvre, 1cm sur 1cmG // soit hauteur 36 pixels, largeur 36 pixels (échelle WpReport = pixel)"    if ([detcais."info2"] = 1) then9       dessin2.loadfromfile('REPORTS\jpg\manoeuvre 1.jpg')'    else if ([detcais."info2"] = 2) then>            dessin2.loadfromfile('REPORTS\jpg\manoeuvre 2.jpg')'    else if ([detcais."info2"] = 3) then>            dessin2.loadfromfile('REPORTS\jpg\manoeuvre 3.jpg')'    else if ([detcais."info2"] = 4) then;         dessin2.loadfromfile('REPORTS\jpg\manoeuvre 4.jpg')'    else if ([detcais."info2"] = 5) then?            dessin2.loadfromfile('REPORTS\jpg\manoeuvre 5.jpg');      dessin2.height := 30;    dessin2.width := 30;(    bde_mancais.height := dessin2.height;      if finalpass then       begin$          codeman.left := poscolcode;&          codeman.width := largcolcode;%          coulman.left := poscolcoulr;6          descman.width := largcoldesc - dessin2.width;4          descman.left := poscoldesc + dessin2.width;'          coulman.width := largcolcoulr;
+       end;   end ÿÿ                  È            Vt   Bde_SSRDetGuide     Ô  ö     1           ÿÿÿ     1      begin    if finalpass then       begin)          SSR_DetGuide.left := poscolcode;*          SSR_DetGuide.width := largentete;
+       end; end ÿÿ                  È            ”u   Bde_TraitFinVR       ö     0           ÿÿÿ            begin!    traitfinvr.left := poscolcode;"    traitfinvr.width := largentete;    if ([FEN."type"] = 2) then$       Bde_TraitFinVR.visible := true    else&       Bde_TraitFinVR.visible := false; end ÿÿ                  È             %v   CodeCais     +   q                 ÿÿÿ ,       Caisson [nbcais]    ÿÿ             Arial                    ÿÿÿ             Üv   DescCais  r   +   Ú                 ÿÿÿ ,      6 [trim([detcais."texte"])] [trim([detcais."info1"])] mm    ÿÿ             Arial                    ÿÿÿ             ‹x   CoulCais  L  +   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulcais.memo.clear;-          if ([DETCAIS."clrinter"] <> '') thenV             coulcais.memo.add('[DETCAIS."clrinter"]' + ' / ' + '[DETCAIS."clrexter"]')          else5             coulcais.memo.add('[DETCAIS."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             *y  	 CodeCaisQ     –   h                 ÿÿÿ ,       [trim([detcaisq."question"])]    ÿÿ             Arial                   ÿÿÿ             Æy  	 DescCaisQ  r   –   Ú                 ÿÿÿ ,       [trim([detcaisq."texte"])]    ÿÿ             Arial                   ÿÿÿ             Fz  	 CoulCaisQ  L  –   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             Ãz   Cale18      –                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            {   SSR_DetLame  şÿÿÿq  š                 ÿÿÿ,           ÿÿ                ¥{   CodeMan        q                 ÿÿÿ ,      	 Manoeuvre    ÿÿ             Arial                    ÿÿÿ             }   DescMan  ¥     §                 ÿÿÿ ,        	  begin    sensman := '';    descman.memo.clear;$    if ([detcais."info3"] = 'D') then       sensman := 'Droite'    else       sensman := 'Gauche';H    descman.memo.add('    [sensman]' + ' Enroulement [detcais."info2"]'); end ÿÿ             Arial                    ÿÿÿ             }   CoulMan  K    M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ            ç}   Dessin2  w     (                  ÿÿÿ,           ÿÿ             ç}  A~   SSR_DetGuide      Ô  š                 ÿÿÿ,           ÿÿ               •~  
+ TraitFinVR                         ÿÿÿ ,           ÿÿ            X€   Bde_DetLame     6   ö     5           ÿÿÿ     _DETLAME      begin    if finalpass then       begin          nbtab := nbtab + 1;$          codetab.left := poscolcode;&          codetab.width := largcolcode;$          desctab.left := poscoldesc;&          desctab.width := largcoldesc;%          coultab.left := poscolcoulr;'          coultab.width := largcolcoulr;
+       end; end ÿÿ                  È            ²   Bde_DetLameQ     i   ö     1           ÿÿÿ     	 _DETLAMEQ    	  begin    if finalpass then       begin%          desctabq.left := poscoldesc;'          desctabq.width := largcoldesc;&          coultabq.left := poscolcoulr;(          coultabq.width := largcolcoulr;
+       end; end ÿÿ                  È             A‚   CodeTab     6   q                 ÿÿÿ ,       Tablier [nbtab]    ÿÿ             Arial                    ÿÿÿ             a„   DescTab  r   6   Ú                 ÿÿÿ ,        	  begin    desctab.memo.clear;"    if ([detlame."info1"] = 0) thenF       desctab.memo.add('[trim([detlame."texte"])]' + ', sans ajours');$    if ([detlame."info1"] = 100) thenF       desctab.memo.add('[trim([detlame."texte"])]' + ', tout ajouré');D    if (([detlame."info1"] <> 100) and ([detlame."info1"] <> 0)) thenT       desctab.memo.add('[trim([detlame."texte"])]' + ', [detlame."info1"]% ajouré'); end ÿÿ             Arial                    ÿÿÿ             †   CoulTab  L  6   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coultab.memo.clear;-          if ([DETLAME."clrinter"] <> '') thenU             coultab.memo.add('[DETLAME."clrinter"]' + ' / ' + '[DETLAME."clrexter"]')          else4             coultab.memo.add('[DETLAME."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             ª†   CodeTabQ     i   h                 ÿÿÿ ,       [trim([detlameq."question"])]    ÿÿ             Arial                   ÿÿÿ             E‡   DescTabQ  r   i   Ú                 ÿÿÿ ,       [trim([detlameq."texte"])]    ÿÿ             Arial                   ÿÿÿ             Ä‡   CoulTabQ  L  i   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             Aˆ   Cale20      i                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            Š   Bde_DetGuide     -   ö     5           ÿÿÿ    	 _DETGUIDE      begin    if finalpass then       begin&          nbcoulisse := nbcoulisse + 1;&          codeguide.left := poscolcode;(          codeguide.width := largcolcode;&          descguide.left := poscoldesc;(          descguide.width := largcoldesc;'          coulguide.left := poscolcoulr;)          coulguide.width := largcolcoulr;
+       end; end ÿÿ                  È            €‹   Bde_DetGuideQ     a   ö     1           ÿÿÿ     
+ _DETGUIDEQ    	  begin    if finalpass then       begin'          descguideq.left := poscoldesc;)          descguideq.width := largcoldesc;(          coulguideq.left := poscolcoulr;*          coulguideq.width := largcolcoulr;
+       end; end ÿÿ                  È             Œ  	 CodeGuide  şÿÿÿ-   q                 ÿÿÿ ,      	 Coulisses    ÿÿ             Arial                    ÿÿÿ             §Œ  	 DescGuide  o   -   Ú                 ÿÿÿ ,       [trim([detguide."texte"])]    ÿÿ             Arial                    ÿÿÿ             ^  	 CoulGuide  I  -   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulguide.memo.clear;.          if ([DETGUIDE."clrinter"] <> '') thenY             coulguide.memo.add('[DETGUIDE."clrinter"]' + ' / ' + '[DETGUIDE."clrexter"]')          else7             coulguide.memo.add('[DETGUIDE."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             ÿ  
+ CodeGuideQ     a   h                 ÿÿÿ ,       [trim([detguideq."question"])]    ÿÿ             Arial                   ÿÿÿ               
+ DescGuideQ  r   a   Ú                 ÿÿÿ ,       [trim([detguideq."texte"])]    ÿÿ             Arial                   ÿÿÿ               
+ CoulGuideQ  L  a   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             ›   Cale21      a                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            j’  	 Bde_Dormt     …   ö     5           ÿÿÿ     _DETDORM      begin      nbperi := 0;      if finalpass then       begin$          codedor.left := poscolcode;&          codedor.width := largcolcode;  $          descdor.left := poscoldesc;&          descdor.width := largcoldesc;  %          couldor.left := poscolcoulr;'          couldor.width := largcolcoulr;
+       end;   end ÿÿ             Bde_DormSitu    È            «”   Bde_DormSitu     Ä   ö     ±           ÿÿÿ             begin4    if ([length([trim([detsitu."texte"])])] = 0) then#       bde_dormsitu.visible := false    else#       bde_dormsitu.visible := true;      if finalpass then       begin%          codesitu.left := poscolcode;'          codesitu.width := largcolcode;%          descsitu.left := poscoldesc;'          descsitu.width := largcoldesc;&          coulsitu.left := poscolcoulr;(          coulsitu.width := largcolcoulr;
+       end; end ÿÿ             Bde_DormTexTab    È            ú–   Bde_DormTexTab     í   ö     ±           ÿÿÿ             begin6    if ([length([trim([DETTEXTAB."texte"])])] = 0) then%       bde_dormtextab.visible := false    else%       bde_dormtextab.visible := true;      if finalpass then       begin&          codetexte.left := poscolcode;(          codetexte.width := largcolcode;&          desctexte.left := poscoldesc;(          desctexte.width := largcoldesc;'          coultexte.left := poscolcoulr;)          coultexte.width := largcolcoulr;
+       end; end ÿÿ             Bde_FenCoteTab    È            D˜  	 Bde_DormQ     |  ö     1           ÿÿÿ      _DETDORQ    	  begin    if finalpass then       begin"          descq.left := poscoldesc;$          descq.width := largcoldesc;#          coulq.left := poscolcoulr;%          coulq.width := largcolcoulr;
+       end; end ÿÿ                  È            û™   Bde_FenCoteTab     
+  ö     ±           ÿÿÿ            begin    if finalpass then       begin(          codecotetab.left := poscolcode;*          codecotetab.width := largcolcode;(          desccotetab.left := poscoldesc;*          desccotetab.width := largcoldesc;)          coulcotetab.left := poscolcoulr;+          coulcotetab.width := largcolcoulr;
+       end; end ÿÿ                  È            ›   Bde_SSRDetOuvQc     ã  ö     1           ÿ ÿ             begin    if finalpass then       begin)          SSR_DetOuvQc.left := poscolcode;+          SSR_DetOuvQc.width := largcolcode;
+       end; end ÿÿ                  È            ®œ   Bde_SSRDetFxCintr     ¬  ö     1           ÿ ÿ      1      begin    if finalpass then       begin+          SSR_DetFxCintr.left := poscolcode;-          SSR_DetFxCintr.width := largcolcode;'          if ([NFXCINTR."cnt"] = 0) then.             bde_ssrdetfxcintr.visible := false          else.             bde_ssrdetfxcintr.visible := true;
+       end; end ÿÿ                  È            L   Bde_SSRDetSeuil     d  ö     1           ÿ ÿ      1      begin    if finalpass then       begin)          SSR_DetSeuil.left := poscolcode;*          SSR_DetSeuil.width := largentete;%          if ([NSEUIL."cnt"] = 0) then,             bde_ssrdetseuil.visible := false          else,             bde_ssrdetseuil.visible := true;
+       end; end ÿÿ                  È            äŸ   Bde_SSRDetPeri     .  ö     1           ÿ ÿ      1      begin    if finalpass then       begin(          SSR_DetPeri.left := poscolcode;)          SSR_DetPeri.width := largentete;$          if ([NPERI."cnt"] = 0) then+             bde_ssrdetperi.visible := false          else+             bde_ssrdetperi.visible := true;
+       end; end ÿÿ                  È            ‚¡   Bde_SSRDetTravD     æ  ö     0           ÿ ÿ      1      begin    if finalpass then       begin)          SSR_DetTravD.left := poscolcode;*          SSR_DetTravD.width := largentete;%          if ([NTRAVD."cnt"] = 0) then,             bde_ssrdettravd.visible := false          else,             bde_ssrdettravd.visible := true;
+       end; end ÿÿ                  È             	¢   CodeDor      …   l                 ÿÿÿ ,       Dormant    ÿÿ             Arial                    ÿÿÿ             ¢¢   DescDor  l   …   Ê                 ÿÿÿ ,       [trim([detdorm."texte"])]    ÿÿ             Arial                    ÿÿÿ             M¤   CoulDor  6  …   Z                 ÿÿÿ ,        
+  begin    if finalpass then       begin          couldor.memo.clear;-          if ([DETDORM."clrinter"] <> '') thenU             couldor.memo.add('[DETDORM."clrinter"]' + ' / ' + '[DETDORM."clrexter"]')          else4             couldor.memo.add('[DETDORM."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             Ì¤   CodeSitu      Ä   r                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             f¥   DescSitu  r   Ä   Ú                 ÿÿÿ ,       [trim([detsitu."texte"])]    ÿÿ             Arial                    ÿÿÿ             å¥   CoulSitu  L  Ä   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             e¦  	 CodeTexte      í   r                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             §  	 DescTexte  r   í   Ú                 ÿÿÿ ,       [trim([dettextab."texte"])]    ÿÿ             Arial                    ÿÿÿ             ‚§  	 CoulTexte  L  í   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             ¨   CodeQ     |  h                 ÿÿÿ ,       [trim([detdorq."question"])]    ÿÿ             Arial                   ÿÿÿ             ³¨   DescQ  r   |  Ú                 ÿÿÿ ,       [trim([detdorq."texte"])]    ÿÿ             Arial                   ÿÿÿ             /©   CoulQ  L  |  M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             «©   Cale1      |                   ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            ª   SSR_DetTravD      æ  ™                 ÿÿÿ,           ÿÿ            	   ^ª   SSR_DetPeri      .  ™                 ÿÿÿ,           ÿÿ            
+   ¸ª   SSR_DetSeuil      d  —                 ÿÿÿ,           ÿÿ                :«   CodeCoteTab      
+  r                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             )®   DescCoteTab  r   
+  Ú                 ÿÿÿ ,          begin    desccotetab.memo.clear;    dim := '';X // typedim correspond a la variable de winpro ini pour l'ordre d'encodage des dimensions    if typedim = 1 then$       if ([FEN."hauttabl"] = 0) thenE          dim := 'Dimensions: [FEN."hautfabr"] H x [FEN."largfabr"] L'
+       elseF          dim := 'Dim Tableau: [FEN."hauttabl"] H x [FEN."largtabl"] L'    else$       if ([FEN."hauttabl"] = 0) thenE          dim := 'Dimensions: [FEN."largfabr"] L x [FEN."hautfabr"] H'
+       elseG          dim := 'Dim Tableau: [FEN."largtabl"] L x [FEN."hauttabl"] H';    desccotetab.memo.add(dim);    else end ÿÿ             Arial                    ÿÿÿ             «®   CoulCoteTab  L  
+  M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ            ¯   SSR_DetOuvQc      ã  ™                 ÿÿÿ,           ÿÿ               a¯   SSR_DetFxCintr      ¬  –                 ÿÿÿ,           ÿÿ               	±   Bde_DeTravD     E   ö     5           ÿÿÿ    	 _DETTRAVD      begin    if finalpass then       begin&          codetravd.left := poscolcode;(          codetravd.width := largcolcode;&          desctravd.left := poscoldesc;(          desctravd.width := largcoldesc;'          coultravd.left := poscolcoulr;)          coultravd.width := largcolcoulr;
+       end; end ÿÿ                  È            	u²   Bde_DeTravDQ     y   ö     1           ÿÿÿ    
+ _DETTRAVDQ    	  begin    if finalpass then       begin'          desctravdq.left := poscoldesc;)          desctravdq.width := largcoldesc;(          coultravdq.left := poscolcoulr;*          coultravdq.width := largcolcoulr;
+       end; end ÿÿ                  È            	)´   Bde_EtTravD        ö     0           ÿÿÿ            begin    if finalpass then       begin(          etcodetravd.left := poscolcode;*          etcodetravd.width := largcolcode;(          etdesctravd.left := poscoldesc;*          etdesctravd.width := largcoldesc;)          etcoultravd.left := poscolcoulr;+          etcoultravd.width := largcolcoulr;
+       end; end ÿÿ                  È             	«´  	 CodeTravD      E   t                 ÿÿÿ ,            ÿÿ             Arial                    ÿÿÿ             	Gµ  	 DescTravD  s   E   Ú                 ÿÿÿ ,       [trim([dettravd."texte"])]    ÿÿ             Arial                    ÿÿÿ             	Çµ  	 CoulTravD  M  E   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             	h¶  
+ CodeTravDQ     y   ^                 ÿÿÿ ,       [trim([DETTRAVDQ."question"])]    ÿÿ             Arial                   ÿÿÿ             	·  
+ DescTravDQ  r   y   Ú                 ÿÿÿ ,       [trim([DETTRAVDQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             	‡·  
+ CoulTravDQ  L  y   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             	¸   Cale3      y                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ             	‘¸   EtCodeTravD        r                 ÿÿÿ ,      
+ Trav./Men.    ÿÿ             Arial                    ÿÿÿ             	¹   EtDescTravD  s      Ú                 ÿÿÿ ,            ÿÿ             Arial                    ÿÿÿ             	˜¹   Et_CoulTravD  M     M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ            
+ğº   Bde_DetPeri     d   ö     5           ÿÿÿ     _DETPERI    	  begin    if finalpass then       begin%          descperi.left := poscoldesc;'          descperi.width := largcoldesc;&          coulperi.left := poscolcoulr;(          coulperi.width := largcolcoulr;
+       end; end ÿÿ                  È            
+N¼   Bde_DetPeriQ     ®   ö     1           ÿÿÿ    	 _DETPERIQ    	  begin    if finalpass then       begin&          descperiq.left := poscoldesc;(          descperiq.width := largcoldesc;'          coulperiq.left := poscolcoulr;)          coulperiq.width := largcolcoulr;
+       end; end ÿÿ                  È             
+c½   CodePeri     d   g                 ÿÿÿ ,          begin    codeperi.memo.clear;    if finalpass then       nbperi := nbperi + 1;7       codeperi.memo.add('Prof. Périph. ' + '[nbperi]'); end ÿÿ             Arial                    ÿÿÿ             
+¼Ä   DescPeri  r   d   Ú                 ÿÿÿ ,        "  begin    descperi.memo.clear;$    if ([DETPERI."info3"] = 'D') then       begin*          if ([DETPERI."info2"] = 'H') thenQ             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut (Déduit)');*          if ([DETPERI."info2"] = 'B') thenP             descperi.memo.add('[trim([detperi."texte"])]' + ' en bas (Déduit)');*          if ([DETPERI."info2"] = 'G') thenR             descperi.memo.add('[trim([detperi."texte"])]' + ' à gauche (Déduit)');*          if ([DETPERI."info2"] = 'D') thenR             descperi.memo.add('[trim([detperi."texte"])]' + ' à droite (Déduit)');*          if ([DETPERI."info2"] = '/') thenZ             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut à gauche (Déduit)');*          if ([DETPERI."info2"] = '\') thenZ             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut à droite (Déduit)');	       end    else       begin*          if ([DETPERI."info2"] = 'H') thenU             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut (Non déduit)');*          if ([DETPERI."info2"] = 'B') thenT             descperi.memo.add('[trim([detperi."texte"])]' + ' en bas (Non déduit)');*          if ([DETPERI."info2"] = 'G') thenV             descperi.memo.add('[trim([detperi."texte"])]' + ' à gauche (Non déduit)');*          if ([DETPERI."info2"] = 'D') thenV             descperi.memo.add('[trim([detperi."texte"])]' + ' à droite (Non déduit)');*          if ([DETPERI."info2"] = '/') then^             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut à gauche (Non déduit)');*          if ([DETPERI."info2"] = '\') then^             descperi.memo.add('[trim([detperi."texte"])]' + ' en haut à droite (Non déduit)');  
+       end; end ÿÿ             Arial                    ÿÿÿ             
+;Å   CoulPeri  L  d   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             
+·Å   Cale4      d                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             
+VÆ  	 CodePeriQ     ®   \                 ÿÿÿ ,       [trim([DETPERIQ."question"])]    ÿÿ             Arial                   ÿÿÿ             
+òÆ  	 DescPeriQ  r   ®   Ú                 ÿÿÿ ,       [trim([DETPERIQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             
+rÇ  	 CoulPeriQ  L  ®   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             
+îÇ   Cale5      ®                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            LÉ   Bde_DetSeuil     _   ö     5           ÿÿÿ    	 _DETSEUIL    	  begin    if finalpass then       begin&          descseuil.left := poscoldesc;(          descseuil.width := largcoldesc;'          coulseuil.left := poscolcoulr;)          coulseuil.width := largcolcoulr;
+       end; end ÿÿ                  È            °Ê   Bde_DetSeuilQ     ª   ö     1           ÿÿÿ    
+ _DETSEUILQ    	  begin    if finalpass then       begin'          descseuilq.left := poscoldesc;)          descseuilq.width := largcoldesc;(          coulseuilq.left := poscolcoulr;*          coulseuilq.width := largcolcoulr;
+       end; end ÿÿ                  È             7Ë  	 CodeSeuil     _   g                 ÿÿÿ ,       Seuil    ÿÿ             Arial                    ÿÿÿ             ÓË  	 DescSeuil  r   _   Ú                 ÿÿÿ ,       [trim([DETSEUIL."texte"])]    ÿÿ             Arial                    ÿÿÿ             SÌ  	 CoulSeuil  L  _   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             ÏÌ   Cale6      _                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             pÍ  
+ CodeSeuilQ     ª   \                 ÿÿÿ ,       [trim([DETSEUILQ."question"])]    ÿÿ             Arial                   ÿÿÿ             Î  
+ DescSeuilQ  r   ª   Ú                 ÿÿÿ ,       [trim([DETSEUILQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             Î  
+ CoulSeuilQ  L  ª   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             Ï   Cale7      ª                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            dĞ   Bde_DetFxCintr         ö     1           ÿÿÿ    
+ _DETFXCINT    	  begin    if finalpass then       begin$          descfxc.left := poscoldesc;&          descfxc.width := largcoldesc;%          coulfxc.left := poscolcoulr;'          coulfxc.width := largcolcoulr;
+       end; end ÿÿ                  È             ñĞ   CodeFxC         g                 ÿÿÿ ,       Faux Cintrage    ÿÿ             Arial                    ÿÿÿ             ŒÑ   DescFxC  r       Ú                 ÿÿÿ ,       [trim([DETFXCINT."texte"])]    ÿÿ             Arial                    ÿÿÿ             
+Ò   CoulFxC  L      M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             ‡Ò   Cale25                           ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ            ¿Ô  
+ Bde_DetOuv     >   ö     5           ÿÿÿ     _DETOUV      begin    nbacc := 0;  #    if ([DETOUV."info2"] = 'F') then        bde_detqc.visible := false    else        bde_detqc.visible := true;      if finalpass then       begin$          codeouv.left := poscolcode;&          codeouv.width := largcolcode;$          descouv.left := poscoldesc;&          descouv.width := largcoldesc;%          coulouv.left := poscolcoulr;'          coulouv.width := largcolcoulr;
+       end; end ÿÿ            	 Bde_DetQc    È            SÖ  	 Bde_DetQc     m   ö     1           ÿÿÿ            begin    if finalpass then       begin#          codeqc.left := poscolcode;%          codeqc.width := largcolcode;#          descqc.left := poscoldesc;%          descqc.width := largcoldesc;$          coulqc.left := poscolcoulr;&          coulqc.width := largcolcoulr;
+       end; end ÿÿ                  È            «×   Bde_DetOuvQ     é   ö     1           ÿÿÿ     _DETOUVQ    	  begin    if finalpass then       begin%          descouvq.left := poscoldesc;'          descouvq.width := largcoldesc;&          coulouvq.left := poscolcoulr;(          coulouvq.width := largcolcoulr;
+       end; end ÿÿ                  È            ıØ  
+ Bde_DetQcQ     ;  ö     1           ÿÿÿ     _DETQCQ    	  begin    if finalpass then       begin$          descqcq.left := poscoldesc;&          descqcq.width := largcoldesc;%          coulqcq.left := poscolcoulr;'          coulqcq.width := largcolcoulr;
+       end; end ÿÿ                  È            ›Ú   Bde_SSRDetTravO     —  ö     1           ÿÿÿ     1      begin    if finalpass then       begin)          SSR_DetTravO.left := poscolcode;*          SSR_DetTravO.width := largentete;%          if ([NTRAVO."cnt"] = 0) then,             bde_ssrdettravo.visible := false          else,             bde_ssrdettravo.visible := true;
+       end; end ÿÿ                  È            KÜ   Bde_SSRCroisillons     Ç  ö     1           ÿÿÿ     1      begin    if finalpass then       begin,          SSR_Croisillons.left := poscolcode;-          SSR_Croisillons.width := largentete;(          if ([NCROISILL."cnt"] = 0) then/             bde_ssrcroisillons.visible := false          else/             bde_ssrcroisillons.visible := true;
+       end; end ÿÿ                  È            íİ   Bde_SSRDetPanFab       ö     1           ÿÿÿ     1      begin    if finalpass then       begin*          SSR_DetPanFab.left := poscolcode;+          SSR_DetPanFab.width := largentete;$          if ([NPANF."cnt"] = 0) then-             bde_ssrdetpanfab.visible := false          else-             bde_ssrdetpanfab.visible := true;
+       end; end ÿÿ                  È            øß   Bde_DetParc     Ÿ   ö     1           ÿÿÿ     _DETPARC      begin    if finalpass then       begin%          codeparc.left := poscolcode;%          descparc.left := poscoldesc;'          descparc.width := largcoldesc;&          coulparc.left := poscolcoulr;(          coulparc.width := largcolcoulr;:          if ([length([trim([DETPARC."texte"])])] = 0) then             visible := false          else             visible := true;
+       end; end ÿÿ                  È            Šá   Bde_SSRDetAer     e  ö     1     ÓÓÓ   ÿÿÿ      1      begin    if finalpass then       begin'          SSR_DetAer.left := poscolcode;(          SSR_DetAer.width := largentete;#          if ([NAER."cnt"] = 0) then*             bde_ssrdetaer.visible := false          else*             bde_ssrdetaer.visible := true;
+       end; end ÿÿ                  È            Xâ   Bde_TraitFinChass       ö     0     ÿ                     begin$    TraitFinChass.left := poscolcode;&    TraitFinChass.width := largentete;; end ÿÿ                  È            êã   Bde_SSRDetacc     Š  ö     1           ÿÿÿ     1      begin    if finalpass then       begin'          SSR_DetAcc.left := poscolcode;(          SSR_DetAcc.width := largentete;#          if ([NACC."cnt"] = 0) then*             bde_ssrdetacc.visible := false          else*             bde_ssrdetacc.visible := true;
+       end; end ÿÿ                  È             ‚ä   CodeOuv      >   r                 ÿÿÿ ,       Ouvrant [DETOUV."info1"]    ÿÿ             Arial                    ÿÿÿ             å   DescOuv  r   >   Ú                 ÿÿÿ ,       [trim([detouv."texte"])]    ÿÿ             Arial                    ÿÿÿ             Áæ   CoulOuv  L  >   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulouv.memo.clear;,          if ([DETOUV."clrinter"] <> '') thenS             coulouv.memo.add('[DETOUV."clrinter"]' + ' / ' + '[DETOUV."clrexter"]')          else3             coulouv.memo.add('[DETOUV."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             >ç   CodeQc      m   s                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             Ôç   DescQc  r   m   Ú                 ÿÿÿ ,       [trim([detqc."texte"])]    ÿÿ             Arial                    ÿÿÿ             sé   CoulQc  L  m   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulqc.memo.clear;+          if ([DETQC."clrinter"] <> '') thenP             coulqc.memo.add('[DETQC."clrinter"]' + ' / ' + '[DETQC."clrexter"]')          else1             coulqc.memo.add('[DETQC."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             ê   CodeOuvQ     é   h                 ÿÿÿ ,       [trim([DETOUVQ."question"])]    ÿÿ             Arial                   ÿÿÿ             ªê   DescOuvQ  r   é   Ú                 ÿÿÿ ,       [trim([DETOUVQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             )ë   CoulOuvQ  L  é   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             ¦ë   Cale11      é                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ             Aì   CodeQcQ     ;  h                 ÿÿÿ ,       [trim([DETQCQ."question"])]    ÿÿ             Arial                   ÿÿÿ             Ùì   DescQcQ  r   ;  Ú                 ÿÿÿ ,       [trim([DETQCQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             Wí   CoulQcQ  L  ;  M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             Ôí   Cale12      ;                   ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            .î   SSR_DetTravO      —  —                 ÿÿÿ,           ÿÿ               ‹î   SSR_Croisillons     Ç  •                 ÿÿÿ,           ÿÿ               æî   SSR_DetPanFab        ”                 ÿÿÿ,           ÿÿ                ï   CodeParc      Ÿ   r                 ÿÿÿ ,      ) Parclose [copy([DETPARC."question"],1,5)]    ÿÿ             Arial                   ÿÿÿ             *ğ   DescParc  r   Ÿ   Ú                 ÿÿÿ ,       [trim([DETPARC."texte"])]    ÿÿ             Arial                    ÿÿÿ             ©ğ   CoulParc  L  Ÿ   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ            ñ  
+ SSR_DetAer      e  •           ÓÓÓ   ÿÿÿ ,           ÿÿ               Xñ   TraitFinChass                          ÿÿÿ ,           ÿÿ            °ñ  
+ SSR_DetAcc      Š  •                 ÿÿÿ,           ÿÿ               ó   Bde_DetTravO     A   ö     5           ÿÿÿ    	 _DETTRAVO    	  begin    if finalpass then       begin&          desctravo.left := poscoldesc;(          desctravo.width := largcoldesc;'          coultravo.left := poscolcoulr;)          coultravo.width := largcolcoulr;
+       end; end ÿÿ                  È            rô   Bde_DetTravOQ     u   ö     1           ÿÿÿ    
+ _DETTRAVOQ    	  begin    if finalpass then       begin'          desctravoq.left := poscoldesc;)          desctravoq.width := largcoldesc;(          coultravoq.left := poscolcoulr;*          coultravoq.width := largcolcoulr;
+       end; end ÿÿ                  È             $õ  	 CodeTravO     A   g                 ÿÿÿ ,      0 Traverse [DETTRAVO."info1"].[DETTRAVO."vantail"]    ÿÿ             Arial                    ÿÿÿ             Àõ  	 DescTravO  r   A   Ú                 ÿÿÿ ,       [trim([dettravo."texte"])]    ÿÿ             Arial                    ÿÿÿ             @ö  	 CoulTravO  L  A   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             ½ö   Cale13      A                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             ^÷  
+ CodeTravOQ     u   \                 ÿÿÿ ,       [trim([DETTRAVOQ."question"])]    ÿÿ             Arial                   ÿÿÿ             ü÷  
+ DescTravOQ  r   u   Ú                 ÿÿÿ ,       [trim([DETTRAVOQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             }ø  
+ CoulTravOQ  L  u   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ             úø   Cale14      u                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            aú   Bde_DetCroisillons     ;   ö     5           ÿÿÿ     _DETCROISILL    	  begin    if finalpass then       begin&          desccrois.left := poscoldesc;(          desccrois.width := largcoldesc;'          coulcrois.left := poscolcoulr;)          coulcrois.width := largcolcoulr;
+       end; end ÿÿ                  È            Ëû   Bde_DetCroisiQ     g   ö     1           ÿÿÿ     _DETCROISIQ    	  begin    if finalpass then       begin(          desccroisiq.left := poscoldesc;*          desccroisiq.width := largcoldesc;)          coulcroisiq.left := poscolcoulr;+          coulcroisiq.width := largcolcoulr;
+       end; end ÿÿ                  È             Xü  	 CodeCrois     ;   g                 ÿÿÿ ,       Croisillons    ÿÿ             Arial                    ÿÿÿ             ÷ü  	 DescCrois  r   ;   Ú                 ÿÿÿ ,       [trim([detcroisill."texte"])]    ÿÿ             Arial                    ÿÿÿ             Ğş  	 CoulCrois  L  ;   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulcrois.memo.clear;G          if ([DETCROISILL."clrinter"] <> [DETCROISILL."clrexter"]) then_             coulcrois.memo.add('[DETCROISILL."clrinter"]' + ' / ' + '[DETCROISILL."clrexter"]')          else:             coulcrois.memo.add('[DETCROISILL."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             Mÿ   Cale15      ;                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             ğÿ   CodeCroisiQ     g   \                 ÿÿÿ ,       [trim([DETCROISIQ."question"])]    ÿÿ             Arial                   ÿÿÿ                DescCroisiQ  r   g   Ú                 ÿÿÿ ,       [trim([DETCROISIQ."texte"])]    ÿÿ             Arial                   ÿÿÿ               CoulCroisiQ  L  g   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ               Cale16      g                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            ç  Bde_DetPanF     4   ö     5           ÿÿÿ     _DETPANF    	  begin    if finalpass then       begin%          descpanf.left := poscoldesc;'          descpanf.width := largcoldesc;&          coulpanf.left := poscolcoulr;(          coulpanf.width := largcolcoulr;
+       end; end ÿÿ                  È            E  Bde_DetPanFQ     `   ö     1           ÿÿÿ    	 _DETPANFQ    	  begin    if finalpass then       begin&          descpanfq.left := poscoldesc;(          descpanfq.width := largcoldesc;'          coulpanfq.left := poscolcoulr;)          coulpanfq.width := largcolcoulr;
+       end; end ÿÿ                  È             ã  CodePanF     4   f                 ÿÿÿ ,       Panneaux [DETPANF."question"]    ÿÿ             Arial                    ÿÿÿ             }  DescPanF  r   4   Ú                 ÿÿÿ ,       [trim([detpanf."texte"])]    ÿÿ             Arial                    ÿÿÿ             ,  CoulPanF  L  4   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulpanf.memo.clear;-          if ([DETPANF."clrinter"] <> '') thenV             coulpanf.memo.add('[DETPANF."clrinter"]' + ' / ' + '[DETPANF."clrexter"]')          else5             coulpanf.memo.add('[DETPANF."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             ©  Cale17      4                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             H 	 CodePanFQ     `   [                 ÿÿÿ ,       [trim([DETPANFQ."question"])]    ÿÿ             Arial                    ÿÿÿ             ä 	 DescPanFQ  r   `   Ú                 ÿÿÿ ,       [trim([DETPANFQ."texte"])]    ÿÿ             Arial                    ÿÿÿ             d	 	 CoulPanFQ  L  `   M                 ÿÿÿ ,           ÿÿ             Arial                    ÿÿÿ             á	  Memo11      `                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ            3 
+ Bde_DetAer     2   ö     5           ÿÿÿ     _DETAER    	  begin    if finalpass then       begin$          descaer.left := poscoldesc;&          descaer.width := largcoldesc;%          coulaer.left := poscolcoulr;'          coulaer.width := largcolcoulr;
+       end; end ÿÿ                  È            ‹  Bde_DetAerQ     ^   ö     1           ÿÿÿ     _DETAERQ    	  begin    if finalpass then       begin%          descaerq.left := poscoldesc;'          descaerq.width := largcoldesc;&          coulaerq.left := poscolcoulr;(          coulaerq.width := largcolcoulr;
+       end; end ÿÿ                  È               CodeAer     2   f                 ÿÿÿ ,      	 Aérateurs    ÿÿ             Arial                    ÿÿÿ             ¬  DescAer  r   2   Ú                 ÿÿÿ ,       [trim([detaer."texte"])]    ÿÿ             Arial                    ÿÿÿ             S  CoulAer  L  2   M                 ÿÿÿ ,        
+  begin    if finalpass then       begin          coulaer.memo.clear;,          if ([DETAER."clrinter"] <> '') thenS             coulaer.memo.add('[DETAER."clrinter"]' + ' / ' + '[DETAER."clrexter"]')          else3             coulaer.memo.add('[DETAER."clrexter"]')
+       end; end ÿÿ             Arial                    ÿÿÿ             Ğ  Cale22      2                    ÿÿÿ ,           ÿÿ             Arial 
+                   ÿÿÿ             m  CodeAerQ     ^   [                 ÿÿÿ ,       [trim([DETAERQ."question"])]    ÿÿ             Arial                   ÿÿÿ               DescAerQ  r   ^   Ú                 ÿÿÿ ,       [trim([DETAERQ."texte"])]    ÿÿ             Arial                   ÿÿÿ             †  CoulAerQ  L  ^   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ               Cale23      ^                    ÿÿÿ ,           ÿÿ             Arial 
+                  ÿÿÿ            ¥ 
+ Bde_DetAcc     $   ö     1           ÿÿÿ     _DETACC      begin    if finalpass then       begin$          codeacc.left := poscolcode;&          codeacc.width := largcolcode;$          descacc.left := poscoldesc;&          descacc.width := largcoldesc;%          coulacc.left := poscolcoulr;'          coulacc.width := largcolcoulr;
+       end; end ÿÿ                  È             \  CodeAcc      $   r                 ÿÿÿ ,          Option [nbacc]   begin    nbacc := nbacc + 1; end ÿÿ             Arial                   ÿÿÿ               DescAcc  r   $   Ú                 ÿÿÿ ,      1 [trim([DETACC."texte"])] [trim([DETACC."info1"])]    ÿÿ             Arial                   ÿÿÿ             ‹  CoulAcc  L  $   M                 ÿÿÿ ,           ÿÿ             Arial                   ÿÿÿ            ÷  Bde_EtLignes         ö     1           ÿÿÿ             ÿÿ                  È            f  DonnéesMaitre2     H   ö     4           ÿÿÿ     1                           È            ªZ  Bde_LignProf     m   ö     µ           ÿÿÿ     _LINPROF    i begin  $    linpfcode.left := etlincode.left;&    linpfcode.width := etlincode.width;  $    linpfdesc.left := etlindesc.left;&    linpfdesc.width := etlindesc.width;  "    linpfdim.left := etlindim.left;$    linpfdim.width := etlindim.width;   // Schéma des angles de coupes  #    if ([LINPROF."rayon"] <> 0) then       begin#          dessangg.visible := false;#          linpfangg.visible := true;)          linpfangg.left := etlinang.left;+          linpfangg.width := etlinang.width;#          dessangd.visible := false;$          linpfangd.visible := false;	       end    else       begin(          if [LINPROF."angle1"] = 45 then             begin(                dessangg.visible := true;*                linpfangg.visible := false;<                dessangg.loadfromfile('REPORTS\bmp\g45.bmp');             end-          else if [LINPROF."angle1"] = 90 then                  begin-                     dessangg.visible := true;/                     linpfangg.visible := false;A                     dessangg.loadfromfile('REPORTS\bmp\g90.bmp');                  end.          else if [LINPROF."angle1"] = 300 then                  begin-                     dessangg.visible := true;/                     linpfangg.visible := false;B                     dessangg.loadfromfile('REPORTS\bmp\g300.bmp');                  end.          else if [LINPROF."angle1"] = 250 then                  begin-                     dessangg.visible := true;/                     linpfangg.visible := false;B                     dessangg.loadfromfile('REPORTS\bmp\g250.bmp');                  end.          else if [LINPROF."angle1"] = 200 then                  begin-                     dessangg.visible := true;/                     linpfangg.visible := false;B                     dessangg.loadfromfile('REPORTS\bmp\g200.bmp');                  end.          else if ([LINPROF."angle1"] = 0) then                  begin-                     dessangg.visible := true;/                     linpfangg.visible := false;@                     dessangg.loadfromfile('REPORTS\bmp\g0.bmp');                  end          else                  begin.                     dessangg.visible := false;.                     linpfangg.visible := true;4                     linpfangg.left := etlinang.left;8                     linpfangg.width := etlinang.width/2;                  end;  (          if [LINPROF."angle2"] = 45 then             begin(                dessangd.visible := true;*                linpfangd.visible := false;<                dessangd.loadfromfile('REPORTS\bmp\d45.bmp');             end-          else if [LINPROF."angle2"] = 90 then                  begin-                     dessangd.visible := true;/                     linpfangd.visible := false;A                     dessangd.loadfromfile('REPORTS\bmp\d90.bmp');                  end.          else if [LINPROF."angle2"] = 300 then                  begin-                     dessangd.visible := true;/                     linpfangd.visible := false;B                     dessangd.loadfromfile('REPORTS\bmp\d300.bmp');                  end.          else if [LINPROF."angle2"] = 250 then                  begin-                     dessangd.visible := true;/                     linpfangd.visible := false;B                     dessangd.loadfromfile('REPORTS\bmp\d250.bmp');                  end.          else if [LINPROF."angle2"] = 200 then                  begin-                     dessangd.visible := true;/                     linpfangd.visible := false;B                     dessangd.loadfromfile('REPORTS\bmp\d200.bmp');                  end.          else if ([LINPROF."angle2"] = 0) then                  begin-                     dessangd.visible := true;/                     linpfangd.visible := false;@                     dessangd.loadfromfile('REPORTS\bmp\d0.bmp');                  end          else                  begin.                     dessangd.visible := false;.                     linpfangd.visible := true;G                     linpfangd.left := etlinang.left + etlinang.width/2;8                     linpfangd.width := etlinang.width/2;                  end;
+       end;   // Code d'établissement      pos1.visible := true;    pos2.visible := true;    pos3.visible := true;    pos4.visible := true;    pos5.visible := true;  7    if ([length([trim([LINPROF."position"])])] = 0) then       begin            pos1.visible := false;          pos2.visible := false;          pos3.visible := false;          pos4.visible := false;          pos5.visible := false;  	       end<    else if ([length([trim([LINPROF."position"])])] = 1) then       begin  5          if ([trim([LINPROF."position"])] = 'G') then5             pos1.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'D') then5             pos1.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'H') then5             pos1.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'B') then5             pos1.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '/') then6             pos1.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '\') then7             pos1.loadfromfile('REPORTS\bmp\poshd.bmp');            pos2.visible := false;          pos3.visible := false;          pos4.visible := false;          pos5.visible := false;  	       end<    else if ([length([trim([LINPROF."position"])])] = 2) then       begin  C          if ([copy([trim([LINPROF."position"])], 1, 1)] = 'G') then5             pos1.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'D') then5             pos1.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'H') then5             pos1.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'B') then5             pos1.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '/') then6             pos1.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '\') then7             pos1.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 2, 1)] = 'G') then5             pos2.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'D') then5             pos2.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'H') then5             pos2.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'B') then5             pos2.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '/') then6             pos2.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '\') then7             pos2.loadfromfile('REPORTS\bmp\poshd.bmp');            pos3.visible := false;          pos4.visible := false;          pos5.visible := false;  	       end<    else if ([length([trim([LINPROF."position"])])] = 3) then       begin  C          if ([copy([trim([LINPROF."position"])], 1, 1)] = 'G') then5             pos1.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'D') then5             pos1.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'H') then5             pos1.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'B') then5             pos1.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '/') then6             pos1.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '\') then7             pos1.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 2, 1)] = 'G') then5             pos2.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'D') then5             pos2.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'H') then5             pos2.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'B') then5             pos2.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '/') then6             pos2.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '\') then7             pos2.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 3, 1)] = 'G') then5             pos3.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'D') then5             pos3.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'H') then5             pos3.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'B') then5             pos3.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '/') then6             pos3.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '\') then7             pos3.loadfromfile('REPORTS\bmp\poshd.bmp');            pos4.visible := false;          pos5.visible := false;  	       end<    else if ([length([trim([LINPROF."position"])])] = 4) then       begin  C          if ([copy([trim([LINPROF."position"])], 1, 1)] = 'G') then5             pos1.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'D') then5             pos1.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'H') then5             pos1.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'B') then5             pos1.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '/') then6             pos1.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '\') then7             pos1.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 2, 1)] = 'G') then5             pos2.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'D') then5             pos2.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'H') then5             pos2.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'B') then5             pos2.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '/') then6             pos2.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '\') then7             pos2.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 3, 1)] = 'G') then5             pos3.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'D') then5             pos3.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'H') then5             pos3.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'B') then5             pos3.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '/') then6             pos3.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '\') then7             pos3.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 4, 1)] = 'G') then5             pos4.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'D') then5             pos4.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'H') then5             pos4.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'B') then5             pos4.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = '/') then6             pos4.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = '\') then7             pos4.loadfromfile('REPORTS\bmp\poshd.bmp');            pos5.visible := false;  	       end<    else if ([length([trim([LINPROF."position"])])] = 5) then       begin  C          if ([copy([trim([LINPROF."position"])], 1, 1)] = 'G') then5             pos1.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'D') then5             pos1.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'H') then5             pos1.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = 'B') then5             pos1.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '/') then6             pos1.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 1, 1)] = '\') then7             pos1.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 2, 1)] = 'G') then5             pos2.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'D') then5             pos2.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'H') then5             pos2.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = 'B') then5             pos2.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '/') then6             pos2.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 2, 1)] = '\') then7             pos2.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 3, 1)] = 'G') then5             pos3.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'D') then5             pos3.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'H') then5             pos3.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = 'B') then5             pos3.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '/') then6             pos3.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 3, 1)] = '\') then7             pos3.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 4, 1)] = 'G') then5             pos4.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'D') then5             pos4.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'H') then5             pos4.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = 'B') then5             pos4.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = '/') then6             pos4.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 4, 1)] = '\') then7             pos4.loadfromfile('REPORTS\bmp\poshd.bmp');  C          if ([copy([trim([LINPROF."position"])], 5, 1)] = 'G') then5             pos5.loadfromfile('REPORTS\bmp\posg.bmp')H          else if ([copy([trim([LINPROF."position"])], 5, 1)] = 'D') then5             pos5.loadfromfile('REPORTS\bmp\posd.bmp')H          else if ([copy([trim([LINPROF."position"])], 5, 1)] = 'H') then5             pos5.loadfromfile('REPORTS\bmp\posh.bmp')H          else if ([copy([trim([LINPROF."position"])], 5, 1)] = 'B') then5             pos5.loadfromfile('REPORTS\bmp\posb.bmp')H          else if ([copy([trim([LINPROF."position"])], 5, 1)] = '/') then6             pos5.loadfromfile('REPORTS\bmp\poshg.bmp')H          else if ([copy([trim([LINPROF."position"])], 5, 1)] = '\') then7             pos5.loadfromfile('REPORTS\bmp\poshd.bmp');  	       end end ÿÿ             Bde_TraitSsAng    È            [  Bde_TraitFinProf     °   ö     0 	          ÿÿÿ             ÿÿ                  È            í\  Bde_LignRemp     U  ö     µ           ÿÿÿ     _LINREMP      begin$    linrecode.left := etlincode.left;&    linrecode.width := etlincode.width;  $    linredesc.left := etlindesc.left;&    linredesc.width := etlindesc.width;  "    linreqte.left := etlinqte.left;$    linreqte.width := etlinqte.width;  "    linredim.left := etlindim.left;5    linredim.width := etlindim.width + etlinang.width; end ÿÿ                  È            ]]  Bde_TraitFinRemp     y  ö     0 	          ÿÿÿ             ÿÿ                  È            _  Bde_LignArt     É   ö     µ           ÿÿÿ     _LINART    
+  begin$    linarcode.left := etlincode.left;&    linarcode.width := etlincode.width;  $    linardesc.left := etlindesc.left;Y    linardesc.width := etlindesc.width + etlindim.width + etlinang.width + etlinqte.width;  "    linarqte.left := etlinqte.left;$    linarqte.width := etlinqte.width; end ÿÿ                  È            p_  Bde_TraitFinArt     í   ö     0 	          ÿÿÿ             ÿÿ                  È            a 
+ Bde_LignMo       ö     µ           ÿÿÿ     _LINMO    
+  begin$    linmocode.left := etlincode.left;&    linmocode.width := etlincode.width;  $    linmodesc.left := etlindesc.left;Y    linmodesc.width := etlindesc.width + etlindim.width + etlinang.width + etlinqte.width;  "    linmoqte.left := etlinqte.left;$    linmoqte.width := etlinqte.width; end ÿÿ                  È            €a  Bde_TraitFinMo     5  ö     0 	          ÿÿÿ             ÿÿ                  È            îa  Bde_TraitSsAng     –   ö     °     ÀÀÀ   ÿÿÿ              ÿÿ                  È            øb 
+ Bde_Erreur     °  ö     1           ÿÿÿ            begin>    if ([length([trim([plaintext([FEN."erreur"])])])] = 0) then!       bde_erreur.visible := false    else!       bde_erreur.visible := true; end ÿÿ                  È             Šc 	 LinPfCode      n   v        d   ÓÓÓ   ÿÿÿ ,       [LINPROF."code"]    ÿÿ             Arial                    ÿÿÿ             d 	 EtLinCode      !   v       
+ d         ÿÿÿ ,       Code    ÿÿ             Arial                   ÿÿÿ            d 	 EtLinDesc  v   !   w      
+ d         ÿÿÿ ,       Description    ÿÿ             Arial                   ÿÿÿ            !e  EtLinDim  í  !   6       
+ d         ÿÿÿ ,       Dim    ÿÿ             Arial                  ÿÿÿ            «e  EtLinAng  #  !   X       
+ d         ÿÿÿ ,      	    Angles    ÿÿ             Arial                  ÿÿÿ            /f  EtLinQte  {  !   A       
+ d         ÿÿÿ ,       Qté    ÿÿ             Arial                  ÿÿÿ            Çf 	 LinPfDesc  v   n   w       d   ÓÓÓ   ÿÿÿ ,       [LINPROF."descriptio"]    ÿÿ             Arial                    ÿÿÿ             ]g  LinPfDim  í  n   6        d   ÓÓÓ   ÿÿÿ ,     [LINPROF."dimension"]    ÿÿ             Arial                   ÿÿÿ             õh 	 LinPfAngG  º  n   %        d   ÓÓÓ   ÿÿÿ ,         
+  begin    linpfangg.memo.clear;4    ang1 := FORMATFLOAT('###.##',[LINPROF."angle1"]);2    ray := FORMATFLOAT('###.##',[LINPROF."rayon"]);  #    if ([LINPROF."rayon"] <> 0) then#       linpfangg.memo.add('R [ray]')    else(       linpfangg.memo.add([ang1] + '--'); end ÿÿ             Arial                   ÿÿÿ             Ši  LinPfQte  ¡  n           d   ÓÓÓ   ÿÿÿ ,      [LINPROF."quantite"]    ÿÿ             Arial                   ÿÿÿ             j 	 LinReCode      V  v        d   ÓÓÓ   ÿÿÿ ,       [LINREMP."code"]    ÿÿ             Arial                    ÿÿÿ             ´j 	 LinReDesc  v   V  w       d   ÓÓÓ   ÿÿÿ ,       [LINREMP."descriptio"]    ÿÿ             Arial                    ÿÿÿ             Ik  LinReDim  í  V          d   ÓÓÓ   ÿÿÿ ,     [LINREMP."dimrempl"]    ÿÿ             Arial                    ÿÿÿ             Şk  LinReQte  {  V  A        d   ÓÓÓ   ÿÿÿ ,       [LINREMP."quantite"]    ÿÿ             Arial                   ÿÿÿ            8l  DessAngG  &  p   #   	               ÿÿÿ ,            ÿÿ              8l l  DessAngD  B  p   $   	               ÿÿÿ ,           ÿÿ              l  (n 	 LinPfAngD  Ù  n   %        d   ÓÓÓ   ÿÿÿ ,         
+  begin    linpfangd.memo.clear;4    ang2 := FORMATFLOAT('###.##',[LINPROF."angle2"]);2    ray := FORMATFLOAT('###.##',[LINPROF."rayon"]);  #    if ([LINPROF."rayon"] <> 0) then#       linpfangd.memo.add('R [ray]')    else(       linpfangd.memo.add('--' + [ang2]); end ÿÿ             Arial                    ÿÿÿ            ~n  TraitFinProf      °   ¾        d         ÿÿÿ ,           ÿÿ            Ôn  TraitFinRemp      z  ¾        d         ÿÿÿ ,           ÿÿ             eo 	 LinArCode      Ê   v        d   ÓÓÓ   ÿÿÿ ,       [LINART."code"]    ÿÿ             Arial                    ÿÿÿ             üo 	 LinArDesc  v   Ê          d   ÓÓÓ   ÿÿÿ ,       [LINART."descriptio"]    ÿÿ             Arial                    ÿÿÿ             ¬p  LinArQte  {  Ê   A      C  d   ÓÓÓ   ÿÿÿ ,    / [FORMATFLOAT('#####.####',[LINART."quantite"])]    ÿÿ             Arial                   ÿÿÿ             <q 	 LinMoCode        v        d   ÓÓÓ   ÿÿÿ ,       [LINMO."code"]    ÿÿ             Arial                    ÿÿÿ             Òq 	 LinMoDesc  v            d   ÓÓÓ   ÿÿÿ ,       [LINMO."descriptio"]    ÿÿ             Arial                    ÿÿÿ             nr  LinMoQte  {    A        d   ÓÓÓ   ÿÿÿ ,      [copy([LINMO."temps"],3,8)]    ÿÿ             Arial                   ÿÿÿ            Ãr  TraitFinArt      î   ¾        d         ÿÿÿ ,           ÿÿ            s 
+ TraitFinMo      6  ¾        d         ÿÿÿ ,           ÿÿ            ks 
+ TraitSsAng    –                ÀÀÀ   ÿÿÿ ,           ÿÿ            Ás  Pos1  u  n                     ÿÿÿ ,            ÿÿ              Ás t  Pos2    n                     ÿÿÿ ,            ÿÿ              t mt  Pos3  Œ  n                     ÿÿÿ ,            ÿÿ              mt Ãt  Pos4  –  n                     ÿÿÿ ,            ÿÿ              Ãt u  Pos5  ¡  n                     ÿÿÿ ,            ÿÿ              u 
+ TfrRichView v  Erreur     ±  ¿                 ÿÿÿ,           ÿÿ            v {\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\i\f0\fs28 Ch\'e2ssis Non R\'e9alisable
+\par [FEN."erreur"]
+\par \cf2\b0\i0\f1\fs16 
+\par }
+ w  Bde_ProfSup     š   ö     µ           ÿÿÿ     _PROFSUP       ÿÿ                  È            w  EntêteDe page1        ö  !   ±           ÿÿÿ             ÿÿ                  È            ëw  PiedDe page2     ü  ö     0           ÿÿÿ             ÿÿ                  È            Xx  Bde_EtProfSup     Y   ö     ğ           ÿÿÿ             ÿÿ                  È            Éx 
+ Bde_ArtSup     -  ö     µ           ÿÿÿ     _ARTSUP       ÿÿ                  È            5y  Bde_EtArtSup     ì   ö     ğ           ÿÿÿ             ÿÿ                  È            ¤y 	 Bde_TpSup     É  ö     µ           ÿÿÿ     _TPSUP       ÿÿ                  È            z  Bde_EtTpSup     ˆ  ö     ğ           ÿÿÿ             ÿÿ                  È             ¡z 	 CodePfSup     š   s        ô        ÿÿÿ,       [PROFSUP."code"]    ÿÿ             Arial                    ÿÿÿ            9{ 	 DescPfSup     š   Í       ô        ÿÿÿ,       [PROFSUP."descriptio"]    ÿÿ             Arial                    ÿÿÿ            ä{ 	 TitreDoc2                         ÿÿÿ,      ) Plan d'atelier - [trim([CDE."commande"])]    ÿÿ            Arial 
+                  ÿÿÿ            p| 	 TitreCli2  Ñ                      ÿÿÿ,      
+ NOM CLIENT    ÿÿ            Arial 
+                 ÿÿÿ           ¿|  Line3        ¼                 ÿÿÿ ,           ÿÿ             ?~  RefCli2  œ     =                 ÿÿÿ,         
+  begin    refcli2.memo.clear;1    if ([length([trim([CDE."refcli"])])] = 0) then       visible := false    else       begin          visible := true;I          refcli2.memo.add('Référence client: ' + [trim([CDE."refcli"])]);
+       end; end ÿÿ            Arial                   ÿÿÿ            C  NomCli2        ;                 ÿÿÿ,           begin    nomcli2.memo.clear;[    nomcli2.memo.add('Client: (' + [trim([NOMCLI."code"])] + ') ' + [trim([NOMCLI."nom"])]); end ÿÿ            Arial                    ÿÿÿ            Ñ  Memo10     ü  „                  ÿÿÿ ,       [today] - [now]    ÿÿ            Arial                    ÿÿÿ            €  Line4     ü  º                 ÿÿÿ ,           ÿÿ               Memo12  ù   ı                   ÿÿÿ ,           begin   memo12.memo.clear;   if finalpass then6      memo12.memo.add('Encodé par ' + [CDE."encodeur"]) end ÿÿ            Arial                   ÿÿÿ              Memo13  M  ı  Œ                  ÿÿÿ ,       Page [page#]    ÿÿ            Arial                   ÿÿÿ            C‚ 	 EtProfSup     ]   º                ëçş ,      $ Fournitures supplémentaires: profils    ÿÿ             Arial                  ÿÿÿ             Ë‚  EtCodePfSup     j   s                 ÿÿÿ ,       Code    ÿÿ             Arial                   ÿÿÿ             Zƒ  EtDescPfSup     j   Í                ÿÿÿ ,       Description    ÿÿ             Arial                   ÿÿÿ             åƒ 
+ EtQtePfSup  ]  j   =                 ÿÿÿ ,       Quantité    ÿÿ             Arial                  ÿÿÿ             p„ 
+ EtLgrPfSup  š  j   =                 ÿÿÿ ,       Longueur    ÿÿ             Arial                  ÿÿÿ             …  QtePfSup  ]  š   =        ô        ÿÿÿ ,       [PROFSUP."quantite"]    ÿÿ             Arial                   ÿÿÿ             š…  LgrPfSup  š  š   =        ô        ÿÿÿ ,       [PROFSUP."longueur"]    ÿÿ             Arial                   ÿÿÿ             +† 	 CodeArSup     -  s        ô        ÿÿÿ,       [ARTSUP."code"]    ÿÿ             Arial                    ÿÿÿ            Â† 	 DescArSup     -  Í       ô        ÿÿÿ,       [ARTSUP."descriptio"]    ÿÿ             Arial                    ÿÿÿ            h‡  EtArtSup     ğ   º                ëçş ,      % Fournitures supplémentaires: articles    ÿÿ             Arial                  ÿÿÿ             ğ‡  EtCodeArSup     ı   s                 ÿÿÿ ,       Code    ÿÿ             Arial                   ÿÿÿ             ˆ  EtDescArSup     ı   Í                ÿÿÿ ,       Description    ÿÿ             Arial                   ÿÿÿ             
+‰ 
+ EtQteArSup  ]  ı   =                 ÿÿÿ ,       Quantité    ÿÿ             Arial                  ÿÿÿ             ’‰ 
+ EtUniArSup  š  ı   =                 ÿÿÿ ,       Unité    ÿÿ             Arial                  ÿÿÿ             &Š  QteArSup  ]  -  =        ô        ÿÿÿ ,       [ARTSUP."quantite"]    ÿÿ             Arial                   ÿÿÿ             ·Š  UniArSup  š  -  =        ô        ÿÿÿ ,       [ARTSUP."unite"]    ÿÿ             Arial                   ÿÿÿ             G‹ 	 CodeTpSup     É  s        ô        ÿÿÿ,       [TPSUP."code"]    ÿÿ             Arial                    ÿÿÿ            İ‹ 	 DescTpSup     É  Í       ô        ÿÿÿ,       [TPSUP."descriptio"]    ÿÿ             Arial                    ÿÿÿ            †Œ  EtTpSup     Œ  º                ëçş ,      ) Fournitures supplémentaires: tôles pliées    ÿÿ             Arial                  ÿÿÿ               EtCodeTpSup     ™  s                 ÿÿÿ ,       Code    ÿÿ             Arial                   ÿÿÿ               EtDescTpSup     ™  Í                ÿÿÿ ,       Description    ÿÿ             Arial                   ÿÿÿ             ( 
+ EtQteTpSup  ]  ™  =                 ÿÿÿ ,       Quantité    ÿÿ             Arial                  ÿÿÿ             ³ 
+ EtLgrTpSup  š  ™  =                 ÿÿÿ ,       Longueur    ÿÿ             Arial                  ÿÿÿ             F  QteTpSup  ]  É  =        ô        ÿÿÿ ,       [TPSUP."quantite"]    ÿÿ             Arial                   ÿÿÿ             Ù  LgrTpSup  š  É  =        ô        ÿÿÿ ,       [TPSUP."longueur"]    ÿÿ             Arial                   ÿÿÿ            şşÿ     WINPRO     ORDER     WINDOW     BARCODE            ü                X …ö²>„â@|Í^ÆÔ‡â@[End of FRF]

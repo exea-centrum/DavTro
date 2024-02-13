@@ -1,0 +1,11 @@
+E   CDE863      NC01DC301106AL             RUE                 CP     VIL                     
+CC-01155       REF                         DL301106QLI008QVL008
+V4-16-4             L0990H1990INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F   W    W1    H    H1    H2    R    REP001.1.1             AGR          CB          
+V4-16-4             L0990H1990INT    Q001CRCRX             TR02MT02H03950;04000;     ;     ;     ;     ;     ;     ;     V04450;03000;     ;     ;     ;     ;     ;     ;     F   W    W1    H    H1    H2    R    REP002.1.1             AGR          CB          
+V4-16-4             L0990H1987INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F001W0990W1    H1987H11492H2    R    REP003.1.1             AGR          CB          
+V4-16-4             L0990H1987INT    Q001CRCRX             TR01MT01H12950;     ;     ;     ;     ;     ;     ;     ;     V06450;     ;     ;     ;     ;     ;     ;     ;     F001W0990W1    H1987H11492H2    R    REP004.1.1             AGR          CB          
+V4-16-4             L0990H1990INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F064W0990W1    H1990H1    H2    R    REP005.1.1             AGR          CB          
+V4-16-4             L0990H1990INT    Q001CRCRX             TR02MT02H03950;04000;     ;     ;     ;     ;     ;     ;     V00950;07500;     ;     ;     ;     ;     ;     ;     F064W0990W1    H1990H1    H2    R    REP006.1.1             AGR          CB          
+V4-16-4             L0990H1990INT    Q001CR                TR00MT00H     ;     ;     ;     ;     ;     ;     ;     ;     V     ;     ;     ;     ;     ;     ;     ;     ;     F009W0990W10196H1990H11693H2    R    REP007.1.1             AGR          CB          
+V4-16-4             L0990H1990INT    Q001CRCRX             TR02MT02H02950;12000;     ;     ;     ;     ;     ;     ;     V00950;07500;     ;     ;     ;     ;     ;     ;     F009W0990W10196H1990H11693H2    R    REP008.1.1             AGR          CB          
+FC

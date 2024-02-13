@@ -1,0 +1,101 @@
+[Record REPORT]
+[CODE=RAPIDDAV]
+[C]code=RAPIDDAV
+[M]design=13809
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.9" DotMatrixReport="false" EngineOptions.DoublePass="true" IniFile="\Software\Fast Reports" PreviewOptions.AllowEdit="false" PreviewOptions.Buttons="4089" PreviewOptions.Zoom="1" PrintOptions.Printer="Domyœlny" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39520,4162416782" ReportOptions.Description.Text="" ReportOptions.Name="RAPIDDAV" ReportOptions.LastChange="39616,6148866204" ScriptLanguage="PascalScript" ScriptText.Text="//---------------------------------------------------------------&#13;&#10;  function spacje(kod : string) : string;&#13;&#10;var&#13;&#10;i : integer;                            &#13;&#10;begin&#13;&#10;   for i:=1 to (20-length(kod)) do&#13;&#10;   kod := kod + ' ';&#13;&#10;&#13;&#10;   result := kod;                                   &#13;&#10;     &#13;&#10;end;          &#13;&#10;//---------------------------------------------------------------&#13;&#10;  &#13;&#10;function zamien(text:string):string;  &#13;&#10;var &#13;&#10;i:integer;&#13;&#10;s:string;                    &#13;&#10;begin&#13;&#10; s:='';             &#13;&#10; for i:=1 to length(text) do&#13;&#10;   if (ord(text[i]) &#62;=48) and (ord(text[i]) &#60;=57) then        &#13;&#10;     s:=s+text[i]&#13;&#10;   else&#13;&#10;     s:=s+'0';&#13;&#10; while length(s)&#60;9 do  &#13;&#10;     s := s + '0';                                                            &#13;&#10; if length(s)&#62;8 then&#13;&#10;     s:=copy(s,1,8);                                        &#13;&#10;   result := s;                                      &#13;&#10;end;&#13;&#10;//---------------------------------------------------------------&#13;&#10;function konw_licz(licz:integer):string;  &#13;&#10;var &#13;&#10;s:string;                    &#13;&#10;begin&#13;&#10;   s:=IntToStr(licz);&#13;&#10;   if length(licz)=1 then&#13;&#10;      s:='0'+s ;  &#13;&#10;   result := s;&#13;&#10;end;&#13;&#10;//---------------------------------------------------------------  &#13;&#10;//---------------------------------------------------------------&#13;&#10;    &#13;&#10;&#13;&#10;var&#13;&#10;plik : TFileStream;                              &#13;&#10;text,article : string;&#13;&#10;numer,licznik : integer;&#13;&#10;sciezka,kod,partia,zlec,odcinek,wozek,wymiar,skrzydla,slupki : string;                                                &#13;&#10;nr_partii:integer;&#13;&#10;profil:string;                              &#13;&#10;begin&#13;&#10;licznik:=0;                        &#13;&#10;FirstRecord('detlot');&#13;&#10;&#13;&#10;text:='P' + zamien(&#60;detlot.&#34;partia&#34;&#62;) + '01' + &#60;detlot.&#34;profil&#34;&#62; + '00001' + chr(13)+ chr(10);&#13;&#10;numer := 1;&#13;&#10;nr_partii:=1;                                &#13;&#10;licznik:=1;                      &#13;&#10;while not QueryEOF('detlot') do&#13;&#10;begin&#13;&#10; // if numer mod 2 = 0 then&#13;&#10; //begin                  &#13;&#10;     if numer=2 then&#13;&#10;     begin                 &#13;&#10;        article:=&#60;detlot.&#34;article&#34;&#62;;&#13;&#10;        profil:=&#60;detlot.&#34;article&#34;&#62;;                                &#13;&#10;     end;                  &#13;&#10;&#13;&#10;     // showmessage(article+'   '+&#60;detlot.&#34;article&#34;&#62;);&#13;&#10;     if article&#60;&#62;&#60;detlot.&#34;article&#34;&#62; then&#13;&#10;     begin&#13;&#10;       sciezka := 'c:\pila\' +&#60;detlot.&#34;partia&#34;&#62;+'_'+profil+'_'+IntToStr(numer)+ '_rama.job';&#13;&#10;       plik := TFileStream.Create(sciezka,fmCreate);                                                               &#13;&#10;       plik.Write(text, length(text));&#13;&#10;       plik.free;&#13;&#10;       Inc(licznik);             &#13;&#10;       text:='P' + zamien(&#60;detlot.&#34;partia&#34;&#62;) +  konw_licz(licznik) + &#60;detlot.&#34;profil&#34;&#62; + '00001' + chr(13)+ chr(10);&#13;&#10;     end;&#13;&#10;  &#13;&#10;     text := text + 'N' + FormatFloat('000',numer) + 'C' + spacje(&#60;detlot.&#34;codebarre&#34;&#62;) + 'Z001L' + FormatFloat('0000',&#60;detlot.&#34;dim&#34;&#62;) + '0S00F' + FormatFloat('0',&#60;detlot.&#34;palette&#34;&#62;) +  copy(&#60;detlot.&#34;casier&#34;&#62;,length(&#60;detlot.&#34;casier&#34;&#62;)-1,2) + 'H0'+'W'+ FormatFloat('000',&#60;detlot.&#34;angle1&#34;&#62;)+'0'+'W'+ FormatFloat('000',&#60;detlot.&#34;angle2&#34;&#62;)+'0' +  chr(13)+ chr(10);&#13;&#10;     // pobranie zmiennych dla etykiety                                                                                             &#13;&#10;     kod:=&#60;detlot.&#34;codebarre&#34;&#62;;&#13;&#10;     partia:=&#60;detlot.&#34;partia&#34;&#62;;        &#13;&#10;     zlec:=&#60;detlot.&#34;commande&#34;&#62;+'/'+&#60;detlot.&#34;chassis&#34;&#62;;    &#13;&#10;     odcinek:=IntToStr(&#60;detlot.&#34;dim&#34;&#62;);        &#13;&#10;     wozek:='R'+FormatFloat('00',&#60;detlot.&#34;palette&#34;&#62;)+'/'+copy(&#60;detlot.&#34;casier&#34;&#62;,length(&#60;detlot.&#34;casier&#34;&#62;)-1,2);                    &#13;&#10;     wymiar:=FloatToStr(&#60;detlot.&#34;lcadre&#34;&#62;)+' x '+FloatToStr(&#60;detlot.&#34;hcadre&#34;&#62;);                                         &#13;&#10;     //pobranie skrzyde³ dla etykiety                                                                          &#13;&#10;     FirstRecord('skrzydla');&#13;&#10;     skrzydla:='';                               &#13;&#10;     while not QueryEOF('skrzydla') do&#13;&#10;     begin&#13;&#10;        skrzydla := skrzydla+'  '+'F'+FormatFloat('00',&#60;skrzydla.&#34;palette&#34;&#62;)+'/'+copy(&#60;skrzydla.&#34;casier&#34;&#62;,length(&#60;skrzydla.&#34;casier&#34;&#62;)-1,2);                                             &#13;&#10;        nextrecord('skrzydla');&#13;&#10;     end;&#13;&#10;     //pobranie slupkow dla etykiety                                                                          &#13;&#10;     FirstRecord('slupki');&#13;&#10;     slupki:='';                               &#13;&#10;     while not QueryEOF('slupki') do&#13;&#10;     begin&#13;&#10;        slupki := slupki+'  '+'S'+FormatFloat('00',&#60;slupki.&#34;palette&#34;&#62;)+'/'+copy(&#60;slupki.&#34;casier&#34;&#62;,length(&#60;slupki.&#34;casier&#34;&#62;)-1,2);                                             &#13;&#10;        nextrecord('slupki');&#13;&#10;     end;&#13;&#10;  &#13;&#10;     wymiar:=wymiar+'  '+slupki;                                       &#13;&#10;    // text := text + 'E00101xA^XA ^PW700 ^FO1,120  ^A0,30,30  ^BCN,50,Y,N,N ^FD'+kod+'^FS  ^FO0,12  ^A0,30,20 ^FD'+partia+'^FS  ^FO160,10  ^A0,30,20  ^FD'+zlec+'^FS  ^FO360,10  ^A0,30,20  ^FD'+odcinek+'^FS  ^FO0,45  ^A050,40  ^FD'+wozek+'^FS   ^FO0,80  ^A0,35,25 ^FD'+skrzydla+'^FS   ^FO130,45  ^A0,30,20  ^FD'+wymiar+'^FS ^FO260,45  ^A0,40,30  ^FD^FS  ^FO350,85  ^A0,30,20  ^FD^FS  ^XZ'+Chr(13)+Chr(10);&#13;&#10;     article:=&#60;detlot.&#34;article&#34;&#62;;&#13;&#10;     profil:=&#60;detlot.&#34;article&#34;&#62;;  &#13;&#10;         &#13;&#10; //end;         &#13;&#10;     nextrecord('detlot');&#13;&#10;     inc(numer);       &#13;&#10;end;&#13;&#10;&#13;&#10;//sciezka := 'c:\pila\' + &#60;detlot.&#34;partia&#34;&#62; + '_rama.job';                                &#13;&#10;sciezka := 'c:\pila\' + &#60;detlot.&#34;partia&#34;&#62;+'_'+profil+'_' +IntToStr(numer)+ '_rama.job';&#13;&#10;  &#13;&#10;plik := TFileStream.Create(sciezka,fmCreate);&#13;&#10;plik.Write(text, length(text));&#13;&#10;plik.free;                    &#13;&#10;             &#13;&#10;  &#13;&#10;{  &#13;&#10; // jeden plik dla wielu profili&#13;&#10;while not QueryEOF('detlot') do&#13;&#10;begin&#13;&#10; if numer mod 2 = 0 then&#13;&#10; begin                  &#13;&#10;     text := text + 'N' + FormatFloat('000',numer) + 'C' + spacje(&#60;detlot.&#34;codebarre&#34;&#62;) + 'Z001L' + FormatFloat('0000',&#60;detlot.&#34;dim&#34;&#62;) + '0S00F' + FormatFloat('0',&#60;detlot.&#34;palette&#34;&#62;) +  copy(&#60;detlot.&#34;casier&#34;&#62;,length(&#60;detlot.&#34;casier&#34;&#62;)-1,2) + 'H0' +  chr(13)+ chr(10);&#13;&#10;     // pobranie zmiennych dla etykiety                                                                                             &#13;&#10;     kod:=&#60;detlot.&#34;codebarre&#34;&#62;;&#13;&#10;     partia:=&#60;detlot.&#34;partia&#34;&#62;;        &#13;&#10;     zlec:=&#60;detlot.&#34;commande&#34;&#62;+'/'+&#60;detlot.&#34;chassis&#34;&#62;;    &#13;&#10;     odcinek:=IntToStr(&#60;detlot.&#34;dim&#34;&#62;);        &#13;&#10;     wozek:='R'+FormatFloat('00',&#60;detlot.&#34;palette&#34;&#62;)+'/'+copy(&#60;detlot.&#34;casier&#34;&#62;,length(&#60;detlot.&#34;casier&#34;&#62;)-1,2);                    &#13;&#10;     wymiar:=FloatToStr(&#60;detlot.&#34;lcadre&#34;&#62;)+' x '+FloatToStr(&#60;detlot.&#34;hcadre&#34;&#62;);                                         &#13;&#10;     //pobranie skrzyde³ dla etykiety                                                                          &#13;&#10;     FirstRecord('skrzydla');&#13;&#10;     skrzydla:='';                               &#13;&#10;     while not QueryEOF('skrzydla') do&#13;&#10;     begin&#13;&#10;        skrzydla := skrzydla+'  '+'F'+FormatFloat('00',&#60;skrzydla.&#34;palette&#34;&#62;)+'/'+copy(&#60;skrzydla.&#34;casier&#34;&#62;,length(&#60;skrzydla.&#34;casier&#34;&#62;)-1,2);                                             &#13;&#10;        nextrecord('skrzydla');&#13;&#10;     end;&#13;&#10;     //pobranie slupkow dla etykiety                                                                          &#13;&#10;     FirstRecord('slupki');&#13;&#10;     slupki:='';                               &#13;&#10;     while not QueryEOF('slupki') do&#13;&#10;     begin&#13;&#10;        slupki := slupki+'  '+'S'+FormatFloat('00',&#60;slupki.&#34;palette&#34;&#62;)+'/'+copy(&#60;slupki.&#34;casier&#34;&#62;,length(&#60;slupki.&#34;casier&#34;&#62;)-1,2);                                             &#13;&#10;        nextrecord('slupki');&#13;&#10;     end;&#13;&#10;  &#13;&#10;     wymiar:=wymiar+'  '+slupki;                                       &#13;&#10;       &#13;&#10;     text := text + 'E00101xA^XA ^PW700 ^FO1,120  ^A0,30,30  ^BCN,50,Y,N,N ^FD'+kod+'^FS  ^FO0,12  ^A0,30,20 ^FD'+partia+'^FS  ^FO160,10  ^A0,30,20  ^FD'+zlec+'^FS  ^FO360,10  ^A0,30,20  ^FD'+odcinek+'^FS  ^FO0,45  ^A050,40  ^FD'+wozek+'^FS   ^FO0,80  ^A0,35,25 ^FD'+skrzydla+'^FS   ^FO130,45  ^A0,30,20  ^FD'+wymiar+'^FS ^FO260,45  ^A0,40,30  ^FD^FS  ^FO350,85  ^A0,30,20  ^FD^FS  ^XZ'+Chr(13)+Chr(10);&#13;&#10; end;         &#13;&#10;     nextrecord('detlot');&#13;&#10;     inc(numer);&#13;&#10;           &#13;&#10;end;          &#13;&#10;&#13;&#10;sciezka := 'c:\pila\' + &#60;detlot.&#34;partia&#34;&#62; + '_rama.job';                                &#13;&#10;plik := TFileStream.Create(sciezka,fmCreate);                                                               &#13;&#10;plik.Write(text, length(text));&#13;&#10;plik.free;                    &#13;&#10;}    &#13;&#10;  &#13;&#10;end." StoreInDFM="false" PropData="044C65667403D10203546F70031B0108446174617365747301010C2700000020446174615365743D225F6465746C6F742220446174615365744E616D653D226465746C6F742200010C2B00000020446174615365743D225F736B727A79646C612220446174615365744E616D653D22736B727A79646C612200010C2700000020446174615365743D225F736C75706B692220446174615365744E616D653D22736C75706B69220000095661726961626C657301010C10000000204E616D653D2220436861727365742200010C1E000000204E616D653D22414E53495F43484152534554222056616C75653D22302200010C21000000204E616D653D2244454641554C545F43484152534554222056616C75653D22312200010C20000000204E616D653D2253594D424F4C5F43484152534554222056616C75653D22322200010C1E000000204E616D653D224D41435F43484152534554222056616C75653D2237372200010C23000000204E616D653D2253484946544A495F43484152534554222056616C75653D223132382200010C23000000204E616D653D2248414E4745554C5F43484152534554222056616C75653D223132392200010C22000000204E616D653D2248414E47554C5F43484152534554222056616C75653D223132392200010C21000000204E616D653D224A4F4841425F43484152534554222056616C75653D223133302200010C22000000204E616D653D224742323331325F43484152534554222056616C75653D223133342200010C27000000204E616D653D224348494E455345424947355F43484152534554222056616C75653D223133362200010C21000000204E616D653D22475245454B5F43484152534554222056616C75653D223136312200010C23000000204E616D653D225455524B4953485F43484152534554222056616C75653D223136322200010C26000000204E616D653D22564945544E414D4553455F43484152534554222056616C75653D223136332200010C22000000204E616D653D224845425245575F43484152534554222056616C75653D223137372200010C22000000204E616D653D224152414249435F43484152534554222056616C75653D223137382200010C22000000204E616D653D2242414C5449435F43484152534554222056616C75653D223138362200010C23000000204E616D653D225255535349414E5F43484152534554222056616C75653D223230342200010C20000000204E616D653D22544841495F43484152534554222056616C75653D223232322200010C26000000204E616D653D22454153544555524F50455F43484152534554222056616C75653D223233382200010C1F000000204E616D653D224F454D5F43484152534554222056616C75653D223235352200010C0F000000204E616D653D222057696E50726F2200010C20000000204E616D653D22544F444159222056616C75653D2230392F30362F323031312200010C1C000000204E616D653D224E4F57222056616C75653D2231313A31323A32302200010C15000000204E616D653D22544142222056616C75653D22092200010C25000000204E616D653D22575055534552222056616C75653D2241646D696E6973747261746575722200010C1F000000204E616D653D22575056455253494F4E222056616C75653D22382E312E312200010C22000000204E616D653D2257505256455253494F4E222056616C75653D22382E302E322E372200010C1A000000204E616D653D224D4158504C4953222056616C75653D223130220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+</TfrxReport>
+
+[I]fr3=1
+[C]lniptyoc7=A58982ACC24393F565BD7A777F7B61D9
+[C]title=rama
+[End of REPORT]
+[Record REPORTQRY]
+[REPORT=RAPIDDAV          0]
+[C]database=winpro
+[C]datasource=%SERVER%:%DB%
+[C]name=Database1
+[M]params=40
+USER NAME=%LOGIN%
+PASSWORD=%PASSWORD%
+
+[C]report=RAPIDDAV
+[C]type=D
+[I]typedb=9
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=RAPIDDAV          1]
+[C]database=winpro
+[I]line=1
+[C]name=detlot
+[M]params=747
+select 
+d.lot -- partia
+,d.profil -- profil
+,d.codebarre -- kod kreskowy
+,d.dim -- wymiar
+,d.angle1 -- kat
+,d.angle2 -- kat
+,d.souslot as palette-- wózek
+,right(d.casier,2) as casier-- pó³ka
+,d.scie -- pi³a
+,replace(l.code,'-','') as partia
+, d.ligne  -- nr rekordu dla partii w detlot
+, d.commande  -- zamowienie
+, d.chassis  -- pozycja w zleceniu
+, d.lcadre   -- szerokosc
+, d.hcadre   -- wysokosc
+,l.code as partia_org
+,d.article
+from detlot d
+join lot l on d.lot =l.lot
+where 
+d.lot =:order -- nr partii 
+and d.instruct='C'  -- rodzaj operacji
+-- and ouvrant=-1    -- 0 - rama <> skrzyd³o
+and d.scie=1  -- pi³a 1 - ramy  // 10 - skrzydla,20 slupki, 30 wzmocnienia, 40 listw. przyszyb
+AND (d.POSITION=1 or d.POSITION=3)
+[C]report=RAPIDDAV
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=RAPIDDAV          2]
+[C]database=winpro
+[C]datasource=ds_detlot
+[I]line=2
+[C]name=skrzydla
+[M]params=503
+select distinct d.commande, d.chassis, d.palette, d.casier, d.scie, d.profil
+from detlot d                                      
+where 
+d.lot =:lot -- order -- nr partii 
+and d.instruct='C'  -- rodzaj operacji
+-- and ouvrant=-1    -- 0-rama <> skrzyd³o
+and d.scie=1  -- pi³a 1 - ramy  // 10 - skrzydla,20 slupki, 30 wzmocnienia, 40 listw. przyszyb
+and d.commande = :commande -- zlecenie z query detlot
+and d.chassis = :chassis -- chassis  z query detlot
+and left(codebarre,5)=left(:codebarre,5)
+[C]report=RAPIDDAV
+[C]type=Q
+[End of REPORTQRY]
+[Record REPORTQRY]
+[REPORT=RAPIDDAV          3]
+[C]database=winpro
+[C]datasource=ds_detlot
+[I]line=3
+[C]name=slupki
+[M]params=466
+select d.commande, d.chassis, d.palette, d.casier, d.scie, d.profil
+from detlot d                                      
+where 
+d.lot =:lot -- order -- nr partii 
+and d.instruct='C'  -- rodzaj operacji
+-- and ouvrant=-1    -- 0-rama <> skrzyd³o
+and d.scie=3 --40  -- pi³a 1 -ramy  // 10 - skrzydla,20 slupki, 30 wzmocnienia, 40 listw. przyszyb
+and d.commande = :commande --commande
+and d.chassis = :chassis -- chassis
+and left(codebarre,5)=left(:codebarre,5)
+[C]report=RAPIDDAV
+[C]type=Q
+[End of REPORTQRY]
