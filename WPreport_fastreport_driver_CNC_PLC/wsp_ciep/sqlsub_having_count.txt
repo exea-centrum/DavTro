@@ -1,0 +1,5 @@
+ select code,count(code)
+from article
+group by replace(replace(code,' ',''),'_','')
+having count(replace(replace(code,' ',''),'_','')) >1
+order by code 

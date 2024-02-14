@@ -1,0 +1,254 @@
+# _WSP_PRZE_CIEPL4 - wsp馧czynnik Dawida - od章czony
+
+
+
+Jezeli _Ilosc = 1
+   # ar := ((114 *                             (WysokoscZew -            228) *                          2) + (114                               * SzerokoscZew * 2)) / 1000000
+   ar := (((GruboscProfil1 + GruboscProfil2) * (WysokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) * 2) + ((GruboscProfil1 + GruboscProfil2) * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   # as := (((SzerokoscZew - 228)                                   + 30) * ((WysokoscZew -      228) +                                30)) / 1000000
+   as := (((SzerokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) + 30) * ((WysokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   # ll := (((SzerokoscZew - 114                             + 15) * 2) + ((WysokoscZew - 114                               + 15) * 2)) / 1000
+   ll := (((SzerokoscZew - (GruboscProfil1 + GruboscProfil2) + 15) * 2) + ((WysokoscZew - (GruboscProfil1 + GruboscProfil2) + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   # Ilosc := Zaokraglij W Gore ((u / 1) / _LSkrzydel)
+   # Ilosc := Zaokraglij (((u / 1) / _LSkrzydel), 1)
+   Ilosc := ((u / 1) / _LSkrzydel)
+Koniec Jezeli
+
+Jezeli _Ilosc > 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   # Ilosc := ((u / _Ilosc) / _LSkrzydel)
+   Ilosc := Zaokraglij (((u / _Ilosc) / _LSkrzydel), 1)
+Koniec Jezeli
+# ####################################################################################################
+# jak WK1 lub WK2 to klasa 4
+# ####################################################################################################
+# jak WK1 lub WK2 to klasa 4
+# SzerokoscArtykul := GruboscProfil1 + GruboscProfil2
+# SzerokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+# WysokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+Jezeli _stalwk = 1
+   SzerokoscArtykul := 4
+Albo
+   SzerokoscArtykul := 3
+Koniec Jezeli
+# ####################################################################################################
+Jezeli (SzerokoscZew * WysokoscZew) / 1000000 < 2.7
+   rwdav := 32
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 2.8 I& (SzerokoscZew * WysokoscZew) / 1000000 < 3.6
+   rwdav := 31
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 3.7 I& (SzerokoscZew * WysokoscZew) / 1000000 < 4.6
+   rwdav := 30
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 > 4.7
+   rwdav := 29
+Koniec Jezeli
+Grubosc := rwdav
+# ######################################################################################
+# klasa C4 wys>1250,  klasa 3C  std,  klasa C2 <2200
+Jezeli OscieznicaLewo = Oscieznica I& OscieznicaGora = Oscieznica I& OscieznicaPrawo = Oscieznica I& OscieznicaDol = Oscieznica
+   Jezeli WysokoscZew < 1250
+      Makro5 := 4
+   Albo Jezeli WysokoscZew >= 1250 I& WysokoscZew < 2200
+      Makro5 := 3
+   Albo Jezeli WysokoscZew >= 2200
+      Makro5 := 2
+   Koniec Jezeli
+Koniec Jezeli
+# #########################################
+# klasa 6A jednoskrzyd這we   klasa 5A dwuskrzyd這we
+# (SzerokoscZew * WysokoscZew) / 1000
+Jezeli OscieznicaLewo = Oscieznica I& OscieznicaGora = Oscieznica I& OscieznicaPrawo = Oscieznica I& OscieznicaDol = Oscieznica
+   Makro6 := 6
+Albo
+   Makro6 := 5
+Koniec Jezeli
+
+# ##############################################
+# ## jak potrzeba co\u015b wrzuci\u0107 do tablicy lin  np: makra do #6#
+# ##############################################
+
+# SzerokoscArtykul := 30
+# WysokoscArtykul := 30
+# Grubosc := u
+# ############# to tylko tekst    makro4 := 4
+# Makro5 := Grubosc
+# Makro6 := _LSkrzydel
+
+# ##############################################
+# ## jak potrzeba co wrzuci\u0107 do tablicy lin
+# ##############################################
+VarLin := 101
+ZmiennaLin2 := 102
+ZmiennaLin3 := 103
+ZmiennaLin4 := 104
+ZmiennaLin5 := 105
+ZmiennaLin6 := 106
+# #####################Tre\u015b\u0107 nowej notatki.. 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+# _WSP_PRZE_CIEPL4 - wsp馧czynnik Dawida - od章czony
+
+
+
+Jezeli _Ilosc = 1
+   # ar := ((114 *                             (WysokoscZew -            228) *                          2) + (114                               * SzerokoscZew * 2)) / 1000000
+   ar := (((GruboscProfil1 + GruboscProfil2) * (WysokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) * 2) + ((GruboscProfil1 + GruboscProfil2) * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   # as := (((SzerokoscZew - 228)                                   + 30) * ((WysokoscZew -      228) +                                30)) / 1000000
+   as := (((SzerokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) + 30) * ((WysokoscZew - ((GruboscProfil1 + GruboscProfil2) * 2)) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   # ll := (((SzerokoscZew - 114                             + 15) * 2) + ((WysokoscZew - 114                               + 15) * 2)) / 1000
+   ll := (((SzerokoscZew - (GruboscProfil1 + GruboscProfil2) + 15) * 2) + ((WysokoscZew - (GruboscProfil1 + GruboscProfil2) + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   # Ilosc := Zaokraglij W Gore ((u / 1) / _LSkrzydel)
+   # Ilosc := Zaokraglij (((u / 1) / _LSkrzydel), 1)
+   Ilosc := ((u / 1) / _LSkrzydel)
+Koniec Jezeli
+
+Jezeli _Ilosc > 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   # Ilosc := ((u / _Ilosc) / _LSkrzydel)
+   Ilosc := Zaokraglij (((u / _Ilosc) / _LSkrzydel), 1)
+Koniec Jezeli
+# ####################################################################################################
+# jak WK1 lub WK2 to klasa 4
+# ####################################################################################################
+# jak WK1 lub WK2 to klasa 4
+# SzerokoscArtykul := GruboscProfil1 + GruboscProfil2
+# SzerokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+# WysokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+Jezeli _stalwk = 1
+   SzerokoscArtykul := 4
+Albo
+   SzerokoscArtykul := 3
+Koniec Jezeli
+# ####################################################################################################
+Jezeli (SzerokoscZew * WysokoscZew) / 1000000 < 2.7
+   rwdav := 32
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 2.8 I& (SzerokoscZew * WysokoscZew) / 1000000 < 3.6
+   rwdav := 31
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 3.7 I& (SzerokoscZew * WysokoscZew) / 1000000 < 4.6
+   rwdav := 30
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 > 4.7
+   rwdav := 29
+Koniec Jezeli
+Grubosc := rwdav
+# ######################################################################################
+# klasa C4 wys>1250,  klasa 3C  std,  klasa C2 <2200
+Makro5 := 3
+# #########################################
+# klasa 6A jednoskrzyd這we   klasa 5A dwuskrzyd這we
+# (SzerokoscZew * WysokoscZew) / 1000
+Jezeli OscieznicaLewo = Oscieznica I& OscieznicaGora = Oscieznica I& OscieznicaPrawo = Oscieznica I& OscieznicaDol = Oscieznica
+   Makro6 := 6
+Albo
+   Makro6 := 5
+Koniec Jezeli
+
+# ##############################################
+# ## jak potrzeba co\u015b wrzuci\u0107 do tablicy lin  np: makra do #6#
+# ##############################################
+
+# SzerokoscArtykul := 30
+# WysokoscArtykul := 30
+# Grubosc := u
+# ############# to tylko tekst    makro4 := 4
+# Makro5 := Grubosc
+# Makro6 := _LSkrzydel
+
+# ##############################################
+# ## jak potrzeba co wrzuci\u0107 do tablicy lin
+# ##############################################
+VarLin := 101
+ZmiennaLin2 := 102
+ZmiennaLin3 := 103
+ZmiennaLin4 := 104
+ZmiennaLin5 := 105
+ZmiennaLin6 := 106
+# #####################Tre\u015b\u0107 nowej notatki.. 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+# _WSP_PRZE_CIEPL4 - wsp馧czynnik Dawida - od章czony
+Jezeli _Ilosc = 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / 1) / _LSkrzydel)
+Koniec Jezeli
+
+Jezeli _Ilosc > 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / _Ilosc) / _LSkrzydel)
+Koniec Jezeli
+# ####################################################################################################
+# jak WK1 lub WK2 to klasa 4
+# SzerokoscArtykul := GruboscProfil1 + GruboscProfil2
+# SzerokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+# WysokoscArtykul := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+Jezeli _stalwk = 1
+   SzerokoscArtykul := 4
+Albo
+   SzerokoscArtykul := 3
+Koniec Jezeli
+# ####################################################################################################
+Jezeli (SzerokoscZew * WysokoscZew) / 1000000 < 2.7
+   rwdav := 32
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 2.8 I& (SzerokoscZew * WysokoscZew) / 1000000 < 3.6
+   rwdav := 31
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 >= 3.7 I& (SzerokoscZew * WysokoscZew) / 1000000 < 4.6
+   rwdav := 30
+Albo Jezeli (SzerokoscZew * WysokoscZew) / 1000000 > 4.7
+   rwdav := 29
+Koniec Jezeli
+Grubosc := rwdav
+# ######################################################################################
+# klasa C4 wys>1250,  klasa 3C  std,  klasa C2 <2200
+Makro5 := 3
+# #########################################
+# klasa 6A jednoskrzyd這we   klasa 5A dwuskrzyd這we
+# (SzerokoscZew * WysokoscZew) / 1000
+Jezeli OscieznicaLewo = Oscieznica I& OscieznicaGora = Oscieznica I& OscieznicaPrawo = Oscieznica I& OscieznicaDol = Oscieznica
+   Makro6 := 6
+Albo
+   Makro6 := 5
+Koniec Jezeli

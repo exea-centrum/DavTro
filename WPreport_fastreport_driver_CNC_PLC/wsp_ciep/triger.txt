@@ -1,0 +1,25 @@
+DELIMITER $$
+CREATE TRIGGER log_data_prod
+AFTER UPDATE ON commande
+FOR EACH ROW
+BEGIN
+IF NEW.dlivraison != OLD.dlivraison
+ THEN
+ INSERT INTO asz_dataprod (user, zma, old_dataprod, new_dataprod, data_log, flaga, ile_przed, ile_po) values (CURRENT_USER(), NEW.numero, OLD.dlivraison, NEW.dlivraison, NOW(),'ZMIANA DATY', 0, NEW.nrchassis);
+END IF;
+IF NEW.nrchassis != OLD.nrchassis
+ THEN
+ INSERT INTO asz_dataprod (user, zma, old_dataprod, new_dataprod, data_log, flaga, ile_przed, ile_po) values (CURRENT_USER(), NEW.numero, OLD.dlivraison, NEW.dlivraison, NOW(),'ZMIANA ILOSCI', OLD.nrchassis, NEW.nrchassis);
+END IF;
+END $$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER log_data_prod2
+AFTER INSERT ON commande
+FOR EACH ROW
+BEGIN
+ INSERT INTO asz_dataprod (user, zma, old_dataprod, new_dataprod, data_log, flaga, ile_przed, ile_po) values (CURRENT_USER(), NEW.numero, NULL, NEW.dlivraison, NOW(), 'NOWE ZAMOWIENIE',0 , NEW.nrchassis);
+END $$
+DELIMITER ; 

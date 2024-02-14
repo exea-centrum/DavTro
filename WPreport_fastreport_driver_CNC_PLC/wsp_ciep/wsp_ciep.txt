@@ -1,0 +1,25 @@
+Jezeli _Ilosc = 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / 1) / _LSkrzydel)
+Koniec Jezeli
+
+Jezeli _Ilosc > 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / _Ilosc) / _LSkrzydel)
+Koniec Jezeli
