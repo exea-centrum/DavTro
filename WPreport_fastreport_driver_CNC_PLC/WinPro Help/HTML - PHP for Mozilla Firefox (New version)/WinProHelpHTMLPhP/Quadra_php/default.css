@@ -1,0 +1,92 @@
+/* Text Styles */
+hr { color: #000000}
+body, table /* Normal */
+{
+ font-size: 10pt;
+ font-family: 'Arial';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.f_CodeExample /* Code Example */
+{
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+span.f_ImageCaption /* Image Caption */
+{
+}
+span.f_Interligne /* Interligne */
+{
+ font-size: 5pt;
+}
+span.f_Legende /* Legende */
+{
+ font-size: 8pt;
+ font-style: italic;
+ color: #666699;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_Textestd /* Texte std */
+{
+ color: #000000;
+}
+span.f_TitreReleaseNote /* Titre Release Note */
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.f_Variables /* Variables */
+{
+ font-family: 'Courier New';
+ color: #0000ff;
+}
+span.f_Winproini /* Winpro ini */
+{
+ font-weight: bold;
+ color: #666699;
+}
+/* Paragraph styles */
+p /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_CodeExample /* Code Example */
+{
+}
+.p_Comment /* Comment */
+{
+}
+.p_Heading1 /* Heading1 */
+{
+}
+.p_ImageCaption /* Image Caption */
+{
+}
+.p_Interligne /* Interligne */
+{
+}
+.p_Legende /* Legende */
+{
+ text-align: center;
+}
+.p_Notes /* Notes */
+{
+}
+.p_Textestd /* Texte std */
+{
+}
