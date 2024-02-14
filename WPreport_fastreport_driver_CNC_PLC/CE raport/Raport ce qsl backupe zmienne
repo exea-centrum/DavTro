@@ -1,0 +1,163 @@
+select distinct commande.numero, commande.client, commande.reference,
+  commande.adresse, commande.notes, commande.date, commande.dlivraison, commande.debut, commande.encodeur,
+  fen.chassis, fen.position, fen.largfabr, fen.hautfabr, fen.systeme,fen.couleur, fen.quantite, `fen`.`comment`, fen.emf, 
+  lin.commande as lcommande, lin.chassis as lchassis, lin.quantite as lquantite,lin.macro2 as lmacro2, lin.macro3 as lmacro3, lin.macro5 as lmacro5, lin.macro6 as lmacro6,
+  detail.commande as detailcommande, detail.numero as detailnumero, detail.vitrage, detail2.uw as detail2uw, detail2.surface as detail2surface 
+  from 
+    `elwiz2014`.`commande` join `elwiz2014`.`fen`, `elwiz2014`.`lin`, `elwiz2014`.`detail`,`elwiz2014`.`detail2`     
+     where `commande`.numero = `fen`.commande  
+     and commande.numero = 'OFR-14-6524' and fen.typedoc = 'S' and lin.typedoc = 'S'
+     and `fen`.commande = lin.commande and `fen`.chassis = lin.chassis
+     and `fen`.commande = detail.commande and `fen`.chassis = detail.numero
+     and `fen`.commande = detail2.commande and `fen`.chassis = detail2.numero  
+     order by fen.position
+
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+select commande.numero, commande.client, commande.reference,
+  commande.adresse, commande.notes, commande.date, commande.dlivraison, commande.debut, commande.encodeur,
+  fen.chassis, fen.position, fen.largfabr, fen.hautfabr, fen.systeme,fen.couleur, fen.quantite, fen.comment, fen.emf, 
+  lin.commande as lcommande, lin.chassis as lchassis, lin.quantite as lquantite,lin.macro2 as lmacro2, lin.macro3 as lmacro3,lin.macro5 as lmacro5, lin.macro6 as lmacro6,
+  detail.commande as detailcommande, detail.numero as detailnumero, detail.vitrage 
+  from 
+    `elwiz2014`.`commande` join `elwiz2014`.`fen`, `elwiz2014`.`lin`, `elwiz2014`.`detail`    
+     where `commande`.numero = `fen`.commande  
+     and commande.numero ='OFR-14-6524' and lin.code = 'WSP_PRZENIK_CIEP' and fen.typedoc = 'X' and lin.typedoc = 'X'
+     and `fen`.commande = lin.commande and `fen`.chassis = lin.chassis
+     and `fen`.commande = detail.commande and `fen`.chassis = detail.numero
+    
+     order by fen.position
+
+
+Jezeli _Ilosc = 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / 1) / _LSkrzydel)
+Koniec Jezeli
+
+Jezeli _Ilosc > 1
+   ar := ((114 * (WysokoscZew - 228) * 2) + (114 * SzerokoscZew * 2)) / 1000000
+   ur := 1.4
+   as := (((SzerokoscZew - 228) + 30) * ((WysokoscZew - 228) + 30)) / 1000000
+   a := (SzerokoscZew * WysokoscZew) / 1000000
+   uos := (_WypelnienieKat2 [_LiczbaWypelnien]) / 10
+   fi := 0.04
+   ll := (((SzerokoscZew - 114 + 15) * 2) + ((WysokoscZew - 114 + 15) * 2)) / 1000
+
+   u := ((uos * as) + (ur * ar) + (fi * ll)) / a
+   Ilosc := ((u / _Ilosc) / _LSkrzydel)
+Koniec Jezeli
+
+
+select distinct commande.numero, commande.client, commande.reference,
+  commande.adresse, commande.notes, commande.date, commande.dlivraison, commande.debut, commande.encodeur,
+  fen.chassis, fen.position, fen.largfabr, fen.hautfabr, fen.systeme,fen.couleur, fen.quantite, `fen`.`comment`, fen.emf, 
+  lin.commande as lcommande, lin.chassis as lchassis, lin.quantite as lquantite,lin.macro2 as lmacro2, lin.macro3 as lmacro3, lin.macro5 as lmacro5, lin.macro6 as lmacro6,lin.var as lvar,    lin.var2 as lvar2,
+  detail.commande as detailcommande, detail.numero as detailnumero, detail.vitrage, detail2.uw as detail2uw, detail2.surface as detail2surface 
+  from 
+    `elwiz2014`.`commande` join `elwiz2014`.`fen`, `elwiz2014`.`lin`, `elwiz2014`.`detail`,`elwiz2014`.`detail2`     
+     where `commande`.numero = `fen`.commande  
+     and commande.numero = 'OFR-14-6524' and fen.typedoc = 'S' and lin.typedoc = 'S' and lin.code = 'WSP_PRZENIK_CIEP'
+     and `fen`.commande = lin.commande and `fen`.chassis = lin.chassis
+     and `fen`.commande = detail.commande and `fen`.chassis = detail.numero
+     and `fen`.commande = detail2.commande and `fen`.chassis = detail2.numero  
+
+
+Etykieta   
+
+Klient                        Cliente                     Kunde
+ZamÃ³wienie                    Commande                    Bestellung
+Pozycja                       Position                    Position
+Wym                           Dim                         Masse
+Kolor                         Couleur                     Farbe
+Szyba                         Vitrage                     Glas 
+Wspó³czynnik Lt  i g:         Coefficient Lt & g          Lichttransmission Lt & g     69   047
+Uw = 
+RW = 
+Obc. wiatrem:                 RÃ©sistance an vent          Windlast:                   Klasse 5C
+Przep. Powietrza:             PermÃ©abilitÃ© Ã  l'air        Luftdurch.:                 Klasse 4
+Wodoszczelno¶æ:               Ã©tanche Ã  l'eau             Schlagregen-dichtheit       1000 
+
+
+ Technische Bestätigung               AVIS TECHNIQUE AT 
+ESSAI  NO 305/2011   CONFORMEMENT A PN-EN 14351-1 + A1:2010
+L`ANNE DE PRODUCTION                                      Produktionsdatum
+Badanie Typu  NR 305/2011  zgodnie z PN-EN 14351-1 + A1:2010
+Untersuchung vom Typ NR 305/2011      gemaess   PN-EN 14351-1 + A1:2010
+*- Okna szczelne - przeznaczone do stosowania wy³±cznie w pomieszczeniach z mechaniczn± wentylacj± nawiewn±. Dla usuniêcia zawilgocenia pomieszczeñ niezbêdne jest montowanie za dodatkow± op³at± w zakupionej stolarce atestowanych wywietrzników.
+
+FENETRES ETANCHES - A POSER UNIQUEMENT AVEC DES AERATEURS AFIN D`EVITER L`HUMIDITE DANS DES SALLES. IL EST NECESSAIRE DE POSER SUR MENUISERIE DES AERATEURS ATTESTES (LE PRIX SUPPLIMENTAIRE DES AERATEURS SELON LE CATALOGUE)
+
+ *- Okna szczelne - przeznaczone do stosowania wy³±cznie w pomieszczeniach z mechaniczn± wentylacj± nawiewn±. Dla unikniêcia zawilgocenia pomieszczeñ niezbêdne jest montowanie za dodatkow± op³at± w zakupionej stolarce atestowanych wywietrzników.
+
+* - Dichtefenster - nur für den Einsatz in Räumen mit mechanischer Lüftung vorgesehen. Um die Feuchtigkeit des Räumens zu vermeiden, ist notwendig, einen zusätzlichen geprüfften Lüfter gegen Aufpreis zu montieren.
+ - Dichtefenster - nur für den Einsatz in Räumen mit mechanischer Lüftung vorgesehen. Um die Feuchtigkeit des Räumens zu vermeiden, ist notwendig, einen zusätzlichen geprüfften Lüfter gegen Aufpreis zu montieren.
+
+
+
+* - Windows tight - intended for use only in rooms with mechanical ventilation air. To remove moisture premises is necessary to mount an additional cost of purchased joinery approved vents.
+
+# ########################
+ar := (68 * Wysokosc * 2) + (68 * Szerokosc * 2)
+ur := 1.4
+as := (Szerokosc - 68 - 38 + 16) * (Wysokosc - 68 - 38 + 14)
+a := Szerokosc * Wysokosc
+uos := 1.1
+fi := 0.02
+l := ((Szerokosc - 68 - 38 + 16) * 2) + ((Wysokosc - 68 - 38 + 16) * 2)
+
+u := ((uos * as) + (ur * ar) + (fi * l)) / a
+Ilosc := u / 1
+
+# ##############################################
+# ## jak potrzeba co¶ wrzuciæ do tablicy lin  np: makra do #6#
+# ##############################################
+
+# Odpornosc na obciazenie wiatrem
+VarLin := 4
+# ZmiennaLin2 := 102
+
+# syzba G i Lt
+SzerokoscArtykul := _WypelnieniePrzepuszczalnoscSwia [1]
+WysokoscArtykul := _WypelnienieFacSol [1]
+
+# Grubosc := u
+
+
+# Przepuszczalnosc powietrza
+Grubosc := 4
+
+# ############# to tylko tekst
+# makro4 := 1000
+
+# Wodoszczelnosc
+Makro5 := 1000
+Makro4 := 1234
+
+# Rw dla szyby
+Makro6 := _WypelnienieKat2 [_LiczbaWypelnien]
+
+
+
+# ##############################################
+# ## jak potrzeba co¶ wrzuciæ do tablicy lin
+# ##############################################
+
+# ZmiennaLin2 := 102
+# ZmiennaLin3 := 103
+# ZmiennaLin4 := 104
+# ZmiennaLin5 := 105
+# ZmiennaLin6 := 106
+# #####################
+
+# Ilosc := 1
+
