@@ -2,7 +2,7 @@
 # software id = YG4X-DXxx
 #
 # model = CRS109-8G-1S-2HnD
-# serial number = 7869066Bxxxx
+# serial number = 786xxxx
 /interface bridge
 add name=LAN1
 add name=LAN2
@@ -213,8 +213,8 @@ set api disabled=yes
 set winbox address=10.0.0.0/24,10.0.2.0/24
 set api-ssl disabled=yes
 /ppp secret
-add name=client1 password=zxcvbnm profile=openvpn service=ovpn
-add local-address=10.0.0.2 name=client password=zxcvbnm remote-address=\
+add name=client1 password=xxxxxxxxxxxxxxxxxxxxxxxxxx profile=openvpn service=ovpn
+add local-address=10.0.0.2 name=client password=xxxxxxxxxxxxxxxxxxxxx remote-address=\
     10.0.0.3 service=ovpn
 /system clock
 set time-zone-name=Europe/Warsaw
