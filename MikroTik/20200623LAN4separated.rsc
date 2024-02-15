@@ -12,11 +12,11 @@ add disabled=yes name=wlan
 /interface wireless security-profiles
 set [ find default=yes ] authentication-types=wpa-psk,wpa2-psk eap-methods="" \
     group-ciphers=tkip mode=dynamic-keys supplicant-identity=MikroTikCRS \
-    unicast-ciphers=tkip wpa-pre-shared-key=hujhujhuj wpa2-pre-shared-key=\
-    hujhujhuj
+    unicast-ciphers=tkip wpa-pre-shared-key=xxxxxxx wpa2-pre-shared-key=\
+    xxxxxxx
 add authentication-types=wpa2-psk eap-methods="" management-protection=\
     allowed mode=dynamic-keys name=profile1 supplicant-identity="" \
-    wpa2-pre-shared-key=qwertyuiop
+    wpa2-pre-shared-key=xxxxxxxxxx
 /interface wireless
 set [ find default-name=wlan1 ] adaptive-noise-immunity=ap-and-client-mode \
     band=2ghz-b/g/n channel-width=20/40mhz-Ce comment=wlandav country=poland \
@@ -46,7 +46,7 @@ add add-arp=yes address-pool=LAN3 disabled=no interface=LAN3 lease-time=1h \
 add add-arp=yes address-pool=LAN4 disabled=no interface=LAN4 lease-time=1h \
     name=DHCP_LAN4
 /ppp profile
-add dns-server=92.242.42.170 local-address=10.0.0.1 name=openvpn \
+add dns-server=92.242.dav.tro local-address=10.0.0.1 name=openvpn \
     remote-address=LAN1_openVPN use-encryption=required
 /queue simple
 add comment=asus10_0_2_10_guest max-limit=1M/1M name=asus10_0_2_10_guest \
@@ -72,7 +72,7 @@ add disabled=yes interface=wlan1 security-profile=default
 /ip address
 add address=10.0.0.1/24 comment=LAN1 interface=LAN1 network=10.0.0.0
 add address=10.0.2.1/24 comment=LAN2 interface=LAN2 network=10.0.2.0
-add address=92.242.42.170/24 comment=WAN1 interface=ether1 network=\
+add address=92.242.dav.tro/24 comment=WAN1 interface=ether1 network=\
     92.242.42.0
 add address=192.168.8.10/24 comment=WAN2 interface=ether6 network=192.168.8.0
 add address=192.168.1.1/24 comment=LAN3 interface=LAN3 network=192.168.1.0
@@ -154,35 +154,35 @@ add action=accept chain=prerouting comment=192_0na10_2_icmp dst-address=\
 /ip firewall nat
 add action=masquerade chain=srcnat comment=WAN1 out-interface=ether1
 add action=masquerade chain=srcnat comment=WAN2 out-interface=ether6
-add action=dst-nat chain=dstnat comment=win2008 dst-address=92.242.42.170 \
+add action=dst-nat chain=dstnat comment=win2008 dst-address=92.242.dav.tro \
     dst-port=3389 log=yes log-prefix=win2008 protocol=tcp to-addresses=\
     192.168.1.202 to-ports=3389
 add action=dst-nat chain=dstnat comment=cam182na7000 dst-address=\
-    92.242.42.170 dst-port=7000 log=yes log-prefix=cam182na7000 protocol=tcp \
+    92.242.dav.tro dst-port=7000 log=yes log-prefix=cam182na7000 protocol=tcp \
     to-addresses=192.168.1.182 to-ports=7000
 add action=dst-nat chain=dstnat comment=cam192na8000 dst-address=\
-    92.242.42.170 dst-port=8000 log=yes log-prefix=cam192na800 protocol=tcp \
+    92.242.dav.tro dst-port=8000 log=yes log-prefix=cam192na800 protocol=tcp \
     to-addresses=192.168.1.192 to-ports=8000
 add action=dst-nat chain=dstnat comment="proxmox226 na 10.0.0.226" \
-    dst-address=92.242.42.170 dst-port=18006 log=yes log-prefix=proxmox226 \
+    dst-address=92.242.dav.tro dst-port=18006 log=yes log-prefix=proxmox226 \
     protocol=tcp to-addresses=10.0.0.226 to-ports=8006
 add action=dst-nat chain=dstnat comment="proxmox226 na 10.0.0.228" \
-    dst-address=92.242.42.170 dst-port=28006 log=yes log-prefix=proxmox228 \
+    dst-address=92.242.dav.tro dst-port=28006 log=yes log-prefix=proxmox228 \
     protocol=tcp to-addresses=10.0.0.228 to-ports=8006
 add action=dst-nat chain=dstnat comment="mayneOCR na 192.168.1.196 443" \
-    dst-address=92.242.42.170 dst-port=4443 log=yes log-prefix=proxmox228 \
+    dst-address=92.242.dav.tro dst-port=4443 log=yes log-prefix=proxmox228 \
     protocol=tcp to-addresses=192.168.1.196 to-ports=443
 add action=dst-nat chain=dstnat comment="proxmox220 na 10.0.0.220" disabled=\
-    yes dst-address=92.242.42.170 dst-port=38006 log=yes log-prefix=\
+    yes dst-address=92.242.dav.tro dst-port=38006 log=yes log-prefix=\
     proxmox220 protocol=tcp to-addresses=10.0.0.220 to-ports=8006
 add action=dst-nat chain=dstnat comment="91 na 152dav3389" dst-address=\
-    92.242.42.170 dst-port=63389 log=yes log-prefix=152dav3389 protocol=tcp \
+    92.242.dav.tro dst-port=63389 log=yes log-prefix=152dav3389 protocol=tcp \
     to-addresses=10.0.0.152 to-ports=3389
 add action=dst-nat chain=dstnat comment=162openvpn1194 disabled=yes \
-    dst-address=92.242.42.170 dst-port=1194 log=yes log-prefix=162openvpn1194 \
+    dst-address=92.242.dav.tro dst-port=1194 log=yes log-prefix=162openvpn1194 \
     protocol=udp to-addresses=10.0.0.162 to-ports=1194
 add action=dst-nat chain=dstnat comment="proxmox226 na 192.168.1.226" \
-    disabled=yes dst-address=92.242.42.170 dst-port=8006 log=yes log-prefix=\
+    disabled=yes dst-address=92.242.dav.tro dst-port=8006 log=yes log-prefix=\
     poxmox2 protocol=tcp to-addresses=192.168.1.226 to-ports=8006
 /ip firewall service-port
 set ftp disabled=yes
