@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#
+# sptawdzanie czy jest polik bash example  
+#
+
+# echo "Hello czesc dawid"
+# if [ -e ~/.bashrc ]
+# then
+#  echo "Masz plik .bashrc"
+# fi
+if [ -e ~/.bashrc ]
+then
+  echo "Masz plik.bashrc"
+else
+  echo "Nie masz pliku .bashrc"
+fi

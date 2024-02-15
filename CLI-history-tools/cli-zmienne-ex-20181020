@@ -1,0 +1,932 @@
+kasia@kasia-2 ~ $ nano zamienwpliku.sh
+kasia@kasia-2 ~ $ cat pytanie_bashmainternet2
+#!/bin/sh
+zm=`ping -c 1 google.pl | grep "100% packet loss"`
+if [[ `echo $zm` == "" ]]
+then
+  echo "Mamy internet"
+else
+  echo "david brak internetu"
+fi
+kasia@kasia-2 ~ $ nano zamienwpliku.sh
+kasia@kasia-2 ~ $ nano zamienwpliku.sh
+kasia@kasia-2 ~ $ bash zamienwpliku.sh
+#!/bin/sh
+zm=`ping -c 1 google.pl | grep "100% packet loss"`
+if [[ `echo $zm` == "" ]]
+then
+  echo "oney internet"
+else
+  echo "david two internetu"
+fi
+
+ls → wyświetla atrybuty pliku
+
+cat, more → wyświetla plik na ekranie
+
+cp → kopiuje plika do plikub
+
+rm → usuwa plik
+
+mv → zmienia nazwę pliku
+
+cmp, comm, diff → porównują pliki
+
+touch → tworzenie pustego pliku
+
+Przeszukiwanie i przetwarzanie plików
+Spis treści
+1 awk
+2 cat
+3 cmp
+4 cut
+5 diff
+6 find
+7 grep
+8 join
+9 sed
+10 split
+11 tail
+12 paste
+13 pg
+14 more
+
+awk
+awk - służy do przeszukiwania plików w poszukiwaniu wzorca lub zależności oraz przetwarza odpowiadające im linie; może być używane do obróbki pól tekstowych i danych liczbowych. Wywołanie: awk [-Fx] program [parametry] [pliki] - gdzie program jest zbiorem instrukcji (w postaci: wzorzec {akcja})
+
+Opcje: Fx - dzieli plik na rekordy i pola, gdzie x jest separatorem pól
+
+
+cat
+cat - umożliwia wyświetlanie i łączenie plików Wywołanie: cat [-suvte] [pliki] Opcje:
+
+e - tylko z opcją -v; wyświetla znak $ na końcu linii
+s - nie wyświetla informacji o nie istniejących plikach
+t - tylko z opcją -v; wyświetla znak tabulacji jako ^I
+u - powoduje, że wyjście nie jest buforowane
+v - pokazuje znaki niedrukowalne
+Przykłady wykorzystania polecenia cat
+
+
+cat test.c
+plik test.c jest wyświetlany na ekranie, przy czym zawartość ekranu jest przewijana aż do końca pliku
+
+cat test1 test2 > wynik
+wyjście polecenia cat zostało przekierowane do pliku wynik , więc polecenie to utworzy plik wynik zawierający pliki test1 i test2
+
+ 
+
+
+cmp
+cmp - porównywanie zawartości dwóch plików; domyślnie wyświetla tyko pierwszą znalezioną różnicę. Wywołanie: cmp [-l -s] plik1 plik2 Opcje:
+
+l - wypisuje numer i wartości różniących się bajtów
+s - nie informuje o różnicach
+Kod wyjściowy polecenia cmp:
+
+0 - pliki są identyczne
+1 - pliki różnią się
+2 - brak pliku lub brak praw dostępu do pliku
+Przykłady wykorzystania polecenia cmp
+
+
+cmp test1 test2
+- porównuje pliki test1 i test2 i wyświetla różnice między nimi (tzn. linię i numer różniących się znaków)
+
+cmp -l test1 test2
+- wyświetla wszystkie różnice między plikami
+
+
+cut
+cut - służy do wycinania kolumn lub pól z pliku Wywołanie: cut -clista [pliki]cut -flista [-dznak] [-s] [pliki] Opcje:
+
+
+-clista - pozostawia wyszczególnione w liście kolumny
+-flista - pozostawia wyszczególnione w liście pola
+-dznak - znak jest separatorem pól
+-s - pomija linie bez separatora pól
+Przykłady wykorzystania polecenia cut
+
+
+cut -f1,5 -d' ' test1
+wyświetla pola 1 i 5 z pliku test1 , przy czym przyjmuje się, że pola oddzielone są spacją ( -d' ' )
+
+cut -c5-10 test1
+wyświetla kolumny od 5 do 10 z pliku test1
+
+ 
+
+
+diff
+diff - porównuje dwa pliki i pokazuje różnice między nimi Wywołanie: diff [-befh] plik1 plik2 Opcje:
+
+b - pomijanie znaków spacji i tabulatorów
+e - tworzy zestaw instrukcji dla edytora ed, umożliwiający odtworzenie pliku plik2
+h - niepełna informacja
+Przykłady wykorzystania polecenia diff
+
+
+diff test1 test2
+wyświetla różniące się linie w plikach test1 i test2 z bieżącego katalogu, przy czym linie z pliku test1 poprzedzane są znakiem ">" , zaś linie z pliku test2 poprzedzane są znakiem ">"
+
+ 
+
+
+find
+find - wyszukiwanie podanych plików w katalogach (wraz z podkatalogami) Wywołanie: find katalogi pliki - przeszukuje podane katalogi, aby znaleźć wymienione pliki, przy czym pliki może to być nazwa pliku, wzorzec nazwy, wielkość pliku, data ostatniej modyfikacji, itd.
+
+ 
+
+
+grep
+grep - wyszukuje w plikach linie z podanym wzorcem i wyświetla je Wywołanie: grep [-vclnbs] wzorzec [pliki] Opcje:
+
+v - wyświetlanie linii nie zawierających wzorca
+c - wyświetlanie liczby zmienionych linii dla każdego pliku oddzielnie
+l - wyświetlanie nazw plików, w których znaleziono line odpowiadające wzorcowi
+n - poprzedza linię jej numerem
+s - nie wyświetla komunikatów o błędach przy dostępie do plików
+wzorzec - jedno słowo lub ciąg znaków
+Przykłady wykorzystania polecenia grep
+
+
+grep 'pies' test
+wypisuje wszystkie linie pliku test , które zawierają wyraz pies
+
+grep dom *
+przeszukuje pliki znajdujące się w bieżącym katalogu w poszukiwaniu słowa dom i wyświetla znalezione linie wraz z nazwami plików
+
+ 
+
+ 
+
+
+join
+join - łączy odpowiadające sobie linie z dwóch plików. Domyślnie polem łączącym jest pierwsze słowo w każdej linii Wywołanie: join plik1 plik2 Przykłady wykorzystania polecenia join
+
+
+Polecenie
+join test1 test2 łączy odpowiadające sobie linie z podanych plików, tzn. łączone są te kolejne linie, w których pierwsze słowo jest takie samo. Powtarzające się słowo jest wyświetlane tylko raz.
+
+
+sed
+sed - wykonuje zestaw poleceń edycyjnych na zawartości pliku Wywołanie: sed [-n] [-e skrypt] [-f plik_skryptu] [pliki] Opcje:
+
+n - nie wyświetla przetworzonych linii
+e skrypt - zestaw poleceń, które mają zostać wykonane
+f plik_skryptu - polecenia edycyjne są zawarte w plik_skryptu
+> sed -n 's/UNIX/Linux/g plik
+tak jak wyżej ale wyświetlane są wyłącznie linie w których nastąpiła zmiana
+
+split
+split - dzieli plik na mniejsze części Wywołanie: split [-n] [plik[przedrostek]] Opcje:
+
+n - dzieli plik na części po n linii ; domyślnie n=100
+przedrostek - pierwszy plik wyjściowy jest nazywany przedrostekaa, następny przedrostekab,
+itd; domyślnie przedrostek=x Przykłady wykorzystania polecenia split
+
+
+Polecenie
+split -10 test ts podzieli plik test na części po 10 linii, przy czym pierwsze 10 linii jest kopiowane do pliku tsaa , następne 10 do pliku tsab , itd.
+
+split test
+podzieli plik na części po 100 linii, przy czym kolejne części będą zapisywane do plików aa, ab, ac , itd.
+
+
+tail
+tail - wyświetla końcowe linie pliku Wywołanie: tail [+/-liczba[lc]] [nazwa_pliku] Opcje:
+
++liczba - wyświetla podaną liczbę linii od końca pliku
+-liczba - wyświetla linie, zaczynając od linii o podanym numerze do końca pliku
+l - liczba oznacza linie
+c - liczba oznacza znaki
+Przykład wykorzystania polecenia tail
+
+
+tail nazwa_pliku
+- wyświetla ostatnie 10 linii pliku nazwa_pliku
+
+tail +100 nazwa_pliku
+- wyświetla ostatnie 100 linii pliku nazwa_pliku
+
+
+paste
+paste - pozwala na łączenie kolejnych linii jednego pliku lub odpowiadających sobie linii z różnych plików. Wywołanie:
+
+paste [-dznaki] pliki
+- łączy odpowiadające sobie linie z podanych plików w jedną i wysyła ją na standardowe wyjście, przy czym między łączone linie wstawiane są kolejne znaki
+
+paste -s [-dznaki] pliki
+- każda linia pliku jest dodawana do poprzedniej
+
+
+pg
+pg - dzieli oglądany tekst na strony wielkości jednego ekranu Wywołanie: pg [-opcje] [pliki] Opcje:
+
+e - nie zatrzymuje się po każdej stronie
+f - nie dzieli linii
++numer - zaczyna wyświetlać od linii o podanym numerze
+Przykłady wykorzystania polecenia pg
+
+
+pg test1.c test2.c
+wyświetla najpierw zawartość pliku test1.c po czym wypisuje komunikat EOF, przyciśniecie klawisza enter powoduje wyświetlenie zawartości pliku test2.c
+
+Poruszanie się po pliku:
+10
+- do przodu do 10 ekranu
+
++10
+- do przodu o 10 ekranów
+
+-5l
+- 5 linii do tyłu
+
+enter
+- do przodu o jeden ekran
+
+skok
+- do następnej linii z napisem skok
+
+
+more
+more - wyświetla zawartość pliku Przykłady wykorzystania polecenia more
+
+
+more test.c
+powoduje wyświetlenie zawartości pliku test.c , przy czym wyświetlany jest jeden ekran, a wyświetlenie kolejnego ekranu następuje po wciśnięciu spacji
+
+tr
+> echo Witaj swiecie | tr ai ia
+w podanym haśle zamienia literę 'i' na 'a' oraz literę 'a' na 'i'
+$ echo "the geek stuff" | tr -d 't'
+he geek suff
+
+Najważniejsze polecenia
+cat
+wyświetla zawartość plików
+
+Postać: cat [opcje] [plik...]
+
+Przykład:
+> cat /etc/passwd
+Polecenie cat może też posłużyć do tworzenia plików tekstowych
+> cat > pliktekstowy
+to jest tekst
+który zostanie umieszczony
+w pliku o nazwie pliktekstowy
+Aby zakończyć wciśnij Ctrl+ D
+lub do łączenia kilku plików w jedną całość - rezultat można przekierować do pliku:
+> cat pliktekstowy dane.txt > nowy.txt
+more
+wyświetla zawartość pliku strona po stronie
+
+Postać: more [opcje] plik
+
+Przykład:
+> more /etc/passwd
+wyświetli zawartość pliku passwd
+> ls /bin | more
+pozwala przejrzeć listę plików w katalogu /bin
+less
+wyświetl zawartość pliku strona po stronie
+
+Postać: less [opcje] plik
+
+Jest to ulepszona wersja polecenia more pozwalająca poruszać się po pliku zarówno w przód jak i w tył.
+Przykład:
+> less /etc/passwd
+Programy more i less posiadają wiele funkcji dostępnych za pomocą skrótów klawiszowych o których możemy się dowiedzieć wciskając h. Inne przydatne funkcje uzyskamy wciskając: q - wyjście z programu, / - poszukuje wyrażenia w pliku.
+head
+wyświetla początek pliku
+
+Postać: head [opcje] plik...
+
+Przykład:
+> head /etc/passwd
+wyświetli 10 pierwszych linii w pliku passwd
+Najważniejsze opcje:
+-n liczba wyświetli określoną liczbę początkowych linii
+-c liczba wyświetli określona liczbę początkowych znaków
+Przykład:
+> head -c 10 /etc/passwd
+wyświetli 10 pierwszych znaków pliku passwd
+> ls | head -n 3
+wyświetli nazwy trzech pierwszych plików z bieżącego katalogu
+tail
+wyświetla koniec pliku
+
+Postać: tail [opcje] plik...
+
+Działanie i opcje takie same jak w poleceniu head z tą różnicą, że wyświetlane jest zakończenie pliku
+Przykład:
+> tail -n 4 /etc/passwd
+wyświetli cztery ostatnie linie pliku passwd
+cmp
+porównuje pliki znak po znaku
+
+Postać: cmp [opcje] plik1 plik2
+
+Polecenie wyświetla pozycje pierwszej napotkanej różnicy w zawartości plików.
+Przykład:
+> cmp plik1.txt plik2.txt
+plik1.txt plik2.txt różnią się: bajt 30 linia 2
+Najważniejsze opcje: -c wypisuje różniące się znaki
+diff
+znajduje różnice pomiędzy plikami
+
+Postać: diff [opcje] plik1 plik2
+
+Przykład:
+> diff plik1.txt plik2.txt
+Wynikiem działania jest wyświetlenie fragmentów które są różne w obu plikach wraz z informacją jak należy zmienić pierwszy z plików aby otrzymać drugi (c zamień, d usuń, a dodaj fragment tekstu).
+Np.:
+1,10c2,5 oznacza, że należy zamienić linie od 1 do 10 w pierwszym pliku na tekst który występuje w liniach od 2 do 5 w drugim pliku.
+3a5 oznacza, że w linii trzeciej pierwszego pliku należy dodać 5 linię z drugiego pliku
+wc
+liczy ilość znaków, słów i linii w pliku
+
+Postać: wc [opcje] plik...
+
+Najważniejsze opcje:
+-c drukuje liczbę znaków/bajtów w pliku
+-w drukuje liczbę wyrazów w pliku
+-l drukuje ilość linii w pliku
+Przykład:
+> wc -c dane.txt
+wyświetli ilość bajtów zajętych przez plik
+Przykład:
+> wc -l *.txt
+wyświetli liczbę linii we wszystkich plikach o rozszerzeniu .txt znajdujących się w bieżącym katalogu.
+sort
+sortuje zawartość pliku tekstowego
+
+Postać: sort [opcje] plik...
+
+Przykład:
+> sort dane.txt > posortowane.txt
+spowoduje posortowanie linii zawartych w pliku dane.txt i przesłanie wyniku do pliku posortowane.txt
+Niektóre opcje:
+-r odwraca kolejność sortowania
+-u usuwa duplikaty
+-f wyłącza rozróżnianie małych i dużych liter
+-n sortowanie liczb (standardowo dane sortowane traktowane są jako ciągi znaków)
+Przykład:
+> du . | sort -n
+wyświetli listę plików w bieżącym katalogu posortowaną według rozmiaru
++liczba pozwala pominąć przy sortowaniu określoną liczbę pól (pola standardowo są rozdzielone białymi znakami (przestarzała wersja))
+-k poz1[,poz2] pozwala specyfikować względem którego pola (kolumny) chcemy sortować
+-t separator używa podanego znaku jako separatora pól (kolumn)
+Przykład:
+> ls -l | sort +4 -n
+wyświetli posortowaną listę plików według piątej kolumny otrzymanej za pomocą polecenia ls -l
+> sort -k 5 -t : /etc/passwd
+Wyświetli posortowana listę użytkowników (piąta kolumna pliku passwd, gdzie kolumny sa oddzielone dwukropkami).
+grep
+wyświetla linie pasujące do wzorca
+
+Postać: grep [opcje] wzorzec [plik...]
+
+Przykład:
+> grep student /etc/passwd
+wyświetli linie z pliku /etc/passwd zawierającą słowo tudent Często stosuje się to polecenie jako filtr w strumieniu, np:
+> ls /bin | grep z | wc -l
+wyświetli liczbę plików z katalogu bin zawierających w nazwie literę Najważniejsze opcje:
+-v wyświetlane są wiersze w których wzorzec nie pojawia się
+-l wyświetli tylko nazwę pliku w którym znaleziono wzorzec
+-i nie rozróżnia dużych i małych liter we wzorcu
+-A n wyświetla także $n$ kolejnych linii
+-B n wyświetla także $n$ poprzedzających linii
+cut
+Wypisuje wybrane fragmenty linii
+
+Postać: cut [opcja]... [plik]...
+
+Niektóre opcje:
+-b N wypisuje tylko podane bajty
+-f N wypisuje tylko podane kolumny (standardowo separatorami kolumn są białe znaki)
+-d znak użyj podanego znaku jako separatora kolumn
+Przykład:
+> cut -c 1 /etc/passwd
+wyświetli tylko pierwszy znak z każdej linii.
+> cut -c 4-7 plik
+wyświetli znaki od 4-go do 7-go.
+> cut -f 2- plik
+Wyświetli linie bez pierwszej kolumny
+> cut -d : -f 5 /etc/passwd
+wyświetli imiona i nazwiska użytkowników (5 kolumna pliku gdzie kolumny oddzielone są dwukropkiem).
+tr
+Zamienia znaki wczytane ze standardowego wejścia.
+
+Postać: tr łańcuch1 łańcuch2
+tr -d łańcuch
+tr -s łańcuch
+
+Najważniejsze opcje:
+-d usuń podane w łańcuchu znaki
+-s usuń wielokrotne wystąpienia tych samych znaków
+Przykład:
+> echo $PATH | tr : ' '
+wyświetla wartość zmiennej $PATH zastępując dwukropki spacjami.
+> echo Witaj swiecie | tr ai ia
+w podanym haśle zamienia literę 'i' na 'a' oraz literę 'a' na 'i'
+> echo Witaj swiecie | tr [a-z] [A-Z]
+zamienia małe litery na duże
+> cat plik | tr -d ' '
+usuwa spacje z pliku
+> cat plik | tr -s ' '
+usuwa powtórzenia spacji w pliku
+sed
+Edytor strumieniowy
+
+Postać: sed [-n] [-e skrypt] [opcja]... [plik]...
+
+Odczytuje kolejne linie ze strumienia wejściowego (lub pliku), dokonuje edycji zgodnie z podanym skryptem i wynik wyświetla na standardowym wyjściu.
+Najważniejsze opcje:
+-n hamuje normalne wyjście (wyświetlanie tylko linii wskazanych w skrypcie komendą p)
+-e wykonają podany skrypt (pojedyncze polecenie). Jeśli podajemy tylko jedną komendę ta opcja nie jest wymagana.
+Składnia skryptu:
+[adres[,adres]] funkcja [argumenty]
+adres to numer linii pliku ($ oznacza numer ostatniej linii) lub wyrażenie regularne umieszczone pomiędzy znakami /
+. Określa on zakres linii strumienia na których będę dokonywane operacje. Na przykład 1,3 pasuje do pierwszych trzech linii, /bash/ pasuje do wszystkich linii zawierających wyrażenie bash, zaś /begin/,/end/ dotyczy wszystkich kolejnych linii z których pierwsza zawiera słowo begin a ostatnia słowo end. funkcja do wyboru mamy wiele możliwości edycji strumienia. Najważniejsze to:
+a tekst dodaj podany tekst przed następną linią
+c tekst zamień linię podanym tekstem
+d usuń linię
+i tekst wstaw podany tekst
+p wyświetl bufor (aktualnie edytowaną linię)
+s/wyrażenie/łańcuch/ zastępuje podanym łancuchem pierwsze znalezione w buforze wyrażenie
+s/wyrażenie/łańcuch/g zastępuje podanym łancuchem wszystkie znalezione w buforze wyrażenia
+= wyświetla numer linii
+Przykłady:
+> sed -n '1p' plik
+wyświetli pierwsza linię pliku
+> sed -n '3,$p' plik
+wyświetli wszystkie linie od 3-ciej to końca pliku
+> sed '3,$d' plik
+usunie wszystkie linie od 3-ciej do końca pliku
+> sed -n '/Marek/p' /etc/passwd
+wyświetla linie zawierające słowo Marek z pliku /etc/passwd
+> sed '/UNIX/c Linux' plik
+Zamienia linie w których występuje słowo UNIX zwrotem Linux
+> sed -n '/UNIX/=' plik
+wyświetla numery linii w których występuje wyrażenie UNIX
+> sed 's/UNIX/Linux/g plik
+zamienia wszystkie wystąpienia słowa UNIX na Linux
+> sed -n 's/UNIX/Linux/g plik
+tak jak wyżej ale wyświetlane są wyłącznie linie w których nastąpiła zmiana
+ 1309  ioping -RL /dev/sda
+ 1310  sudo apt install ioping
+ 1311  ioping -RL /dev/sda
+ 1312  ioping -RL /dev/
+ 1313  ioping -RL
+ 1314  ioping
+ 1315  lsblk
+ 1316  ioping -RL /dev/sda1
+ 1317  ioping -RL /dev/sdb
+ 1318  ioping -R
+ 1319  ioping -L
+ 1320  ioping
+ 1321  iostat -h
+ 1322  iostat
+cut – wycinanie fragmentów tekstu
+by mateusz midor under Narzędzia Programisty
+Przykłady użycia polecenia “cut”; wycinanie kolumn, zakresów znaków, pipelining and the like.
+
+
+Zakładając, że mamy przygotowany plik input z następującą zawartością (tutaj notowania KGHM):
+
+<TICKER>,<DTYYYYMMDD>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOLUME>
+KGHM,1997-07-10,23.50,23.50,23.50,23.50,2462894
+KGHM,1997-07-11,24.00,24.00,24.00,24.00,1557833
+KGHM,1997-07-14,21.60,21.60,21.60,21.60,398333
+, możemy zacząć zabawę z cut-em. Do dzieła!
+
+Operacje na kolumnach
+wyciągnąć tylko drugą kolumnę
+1	# -d określa delimiter, ',' to nasz delimiter, -f2 określa drugą kolumnę
+2	cut -d ',' -f2 input
+3	<DTYYYYMMDD>
+4	1997-07-10
+5	1997-07-11
+6	1997-07-14
+ 
+
+wyciągnąć pierwszą i drugą kolumnę
+1	# -f1,2 określa pierwszą i drugą kolumnę
+2	cut -d ',' -f1,2 input
+3	<TICKER>,<DTYYYYMMDD>
+4	KGHM,1997-07-10
+5	KGHM,1997-07-11
+6	KGHM,1997-07-14
+ 
+
+wyciągnąć kolumny od drugiej do szóstej
+1	# -f2-6 określa od drugiej do szóstej kolumny
+2	cut -d ',' -f2-6 input
+3	<DTYYYYMMDD>,<OPEN>,<HIGH>,<LOW>,<CLOSE>
+4	1997-07-10,23.50,23.50,23.50,23.50
+5	1997-07-11,24.00,24.00,24.00,24.00
+6	1997-07-14,21.60,21.60,21.60,21.60
+ 
+
+Operacje na znakach
+możemy wyciągnąć np. pierwsze  20 znaków
+1	# -c-20 określa pierwsze 20 znaków
+2	cut -c-20 input
+3	<TICKER>,<DTYYYYMMDD
+4	KGHM,1997-07-10,23.5
+5	KGHM,1997-07-11,24.0
+6	KGHM,1997-07-14,21.6
+ 
+
+albo znaki od 20 do końca
+1	# -c20- określa znaki od 20 do końca
+2	cut -c20- input
+3	D>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOLUME>
+4	50,23.50,23.50,23.50,2462894
+5	00,24.00,24.00,24.00,1557833
+6	60,21.60,21.60,21.60,398333
+ 
+
+Pipelining
+Oczywiście polecenie cut działa też z pipem (|), czyli możemy zapisać np.
+
+1	echo "jeden,dwa,trzy,cztery" | cut -d ',' -f2,3
+2	dwa,trzy
+cp /home/stacy/images/image*.jpg /home/stacy/archive
+scp /home/stacy/images/image*.jpg stacy@myhost.com:/home/stacy/archive
+
+Or, you could specify a remote location as the source location if you want to download files. For example,
+scp stacy@myhost.com:/home/stacy/archive/image*.jpg /home/stacy/downloads
+
+bez wchodzenia między katalogami na tym samym hoscie
+scp user@myhost.com:/home/user/dir1/file.txt user@myhost.com:/home/user/dir2
+
+miedzy 2 hostami
+scp someuser@alpha.com:/somedir/somefile.txt someuser@beta.com:/anotherdir
+
+scp -r root@178.xxx.xxx.xxx:/var/chef .
+rsync -r . root@178.xxx.xxx.xxx:/var/chef
+rsync -vP username@host:/path/to/file .
+sftp user@host.com:/home/dav/notes.txt ./
+ftp username:password@my.domain.com
+ftp ftp://username:password@my.domain.com
+#!/bin/sh
+ftp -n ftp.backupte4.rsyncbackup.info << EOF
+quote USER bapte
+quote PASS b2p7Ua2
+put somefile
+quit
+EOF
+
+192.168.0.1:/NASShare  /mnt/NAS  nfs username=administrator,password=pass  0 0
+sudo mount -t nfs 192.168.10.204:/DataVolume/Public /mnt/Public
+sudo mount -t nfs <IP Address>:/<DriveVolumeName>/<NameofShare> /mnt/<FolderyouCreated>
+sudo mount -t cifs -o noperm //<IP Address>/<NameofShare> /mnt/<FolderyouCreated>
+[root@localhost]# vim/etc/fstab 
+
+//10.0.0.100/public /mnt/sambashare cifs username=linuxuser, password=123456 0 0
+
+
+#!/bin/bash
+OLD="xyz"
+NEW="abc"
+DPATH="/home/you/foo/*.txt"
+BPATH="/home/you/bakup/foo"
+TFILE="/tmp/out.tmp.$$"
+[ ! -d $BPATH ] && mkdir -p $BPATH || :
+for f in $DPATH
+do
+  if [ -f $f -a -r $f ]; then
+    /bin/cp -f $f $BPATH
+   sed "s/$OLD/$NEW/g" "$f" > $TFILE && mv $TFILE "$f"
+  else
+   echo "Error: Cannot read $f"
+  fi
+done
+/bin/rm $TFILE
+
+#################################################################
+
+find . -name '*.xaction' | xargs sed -i 's/test-data/live-data/g'
+
+sed 's/\<word\>//g' input
+sed -e 's/\<regex-for-word\>//g' input > output
+
+1657  sed -e 's/\<___0;37m\>/ /g' inxi.txt > inxi3.txt
+
+tr -s '[[' 'q' < inxii.txt > inxii2.txt
+ tr -s '^[[0' 'q' < inxii.txt > inxii3.txt
+
+
+
+
+#######################
+cp /home/stacy/images/image*.jpg /home/stacy/archive
+scp /home/stacy/images/image*.jpg stacy@myhost.com:/home/stacy/archive
+
+Or, you could specify a remote location as the source location if you want to download files. For example,
+scp stacy@myhost.com:/home/stacy/archive/image*.jpg /home/stacy/downloads
+
+bez wchodzenia między katalogami na tym samym hoscie
+scp user@myhost.com:/home/user/dir1/file.txt user@myhost.com:/home/user/dir2
+
+miedzy 2 hostami
+scp someuser@alpha.com:/somedir/somefile.txt someuser@beta.com:/anotherdir
+
+scp -r root@178.xxx.xxx.xxx:/var/chef .
+rsync -r . root@178.xxx.xxx.xxx:/var/chef
+rsync -vP username@host:/path/to/file .
+sftp user@host.com:/home/dav/notes.txt ./
+ftp username:password@my.domain.com
+ftp ftp://username:password@my.domain.com
+#!/bin/sh
+ftp -n ftp.backupte4.rsyncbackup.info << EOF
+quote USER bapte
+quote PASS b2p7Ua2
+put somefile
+quit
+EOF
+
+192.168.0.1:/NASShare  /mnt/NAS  nfs username=administrator,password=pass  0 0
+sudo mount -t nfs 192.168.10.204:/DataVolume/Public /mnt/Public
+sudo mount -t nfs <IP Address>:/<DriveVolumeName>/<NameofShare> /mnt/<FolderyouCreated>
+sudo mount -t cifs -o noperm //<IP Address>/<NameofShare> /mnt/<FolderyouCreated>
+##############################################
+#!/bin/bash
+
+echo "Co wybierasz?"
+select x in kawe herbate sok quit
+do
+  case $x in
+    "kawe") echo "Wybrales kawe." ;;
+    "herbate") echo "Wybrales herbate." ;;
+    "sok") echo "Wybrales sok." ;;
+    "quit") echo "Wybrales quit."; break ;;
+    *) echo "Nic nie wybrales."
+  esac
+done
+exit 0
+
+
+#
+# sptawdzanie czy jest polik bash example 
+#
+
+# echo "Hello czesc dawid"
+# if [ -e ~/.bashrc ]
+# then
+#  echo "Masz plik .bashrc"
+# fi
+##################################
+# if [ -e ~/.bashrc ]
+# then
+#   echo "Masz plik.bashrc"
+# else
+#   echo "Nie masz pliku .bashrc"
+# fi
+
+
+##################################################################################
+#!/bin/bash
+
+echo -n "Czy jest wieczor? Odpowiedz tak lub nie: "
+read odp
+if [ "$odp" = "tak" ]
+then echo "Dobry wieczor"
+elif [ "$odp" = "nie" ]
+then echo "Dzien dobry"
+else
+  echo "Nie rozpoznana odpowiedz: $odp"
+  exit 1
+fi
+exit 0
+
+#
+# sptawdzanie czy jest polik bash example 
+#
+
+# echo "Hello czesc dawid"
+# if [ -e ~/.bashrc ]
+# then
+#  echo "Masz plik .bashrc"
+# fi
+##################################
+# if [ -e ~/.bashrc ]
+# then
+#   echo "Masz plik.bashrc"
+# else
+#   echo "Nie masz pliku .bashrc"
+# fi
+
+################################################################################
+#!/bin/sh
+zm=`ping -c 1 google.pl | grep "100% packet loss"`
+if [[ `echo $zm` == "" ]]
+then
+  echo "Mamy internet"
+else
+  echo "david brakkkkkk internetu"
+fi
+
+#################################################################################
+
+Table of Contents
+
+System Related Commands
+Hardware Related Commands
+Statistic Related Commands
+User-Related Commands
+File Related Commands
+Process Related Commands
+File Permission Related Commands
+Network Related Commands
+Compression / Archive Related Commands
+Package Installation Related Commands
+Search Related Commands
+Login Related Commands
+File Transfer Related Commands
+Disk Usage Related Commands
+Directory Traverse Related Commands
+Conclusion
+System Related Commands
+These commands are used to view and manage Linux system-related information.
+
+1. uname                   :  Displays linux system information. With -a switch you can view all the information, with -r switch you can view kernel release information and with -o you can view OS information
+2. cat /etc/redhat_release :  Shows which version of redhat installed 
+3. uptime                  :  Shows how long the system has been running
+4. hostname                :  Shows system host name. With -i switch you can view the ip address of the machine and with -d you can view the domain name
+5. last reboot             :  Shows system reboot history
+6. date                    :  Shows the current date and time. You can specify the format you want to view the date as well. As an example, by using 'date +%D' you can view the date in 'MM/DD/YY' format
+7. cal                     :  Shows the calendar of the current month. With -y switch you can view the calendar of the whole current year
+8. w                       :  Displays who is logged on and what they are doing
+9. whoami                  :  Shows current user id
+10. finger user            :  Displays information about user
+11. reboot                :  Reboots the system
+12. shutdown              :  Shuts down the system
+Hardware Related Commands
+These commands are used to view and manage hardware-related aspects of the Linux machine.
+
+13. dmesg                 : Displays all the messages from Kernel ring buffer. With -k switch you can view kernel messages and with -u you can view userspace messages
+14. cat /proc/cpuinfo     : Displays information about processes and CPUs of the system
+15. cat /proc/meminfo     : Displays details on hardware memory
+16. cat /proc/interrupts  : Lists the number of interrupts per CPU per I/O device
+17. lshw                  : Displays information on hardware configuration of the system. But this command must be run as super user or it will only report partial information
+18. lsblk                 : Displays block device related information of the machine. With -a you can view all block devices
+19. free -m               : Shows used and free memory (-m for MB)
+20. lspci -tv             : Shows information on PCI buses devices
+21. lsusb -tv             : Shows information on USB devices
+22. dmidecode             : Shows hardware info from the BIOS (vendor details)
+23. hdparm -i /dev/sda    : Shows info about disk sda
+    hdparm -tT /dev/sda   : Performs a read speed test on disk sda
+24. badblocks -s /dev/sda : Tests for unreadable blocks on disk sda
+Statistic Related Commands
+These set of commands are used to view various kinds of stats of the Linux system
+
+25. mpstat 1                      : Displays processors related statistics
+26. vmstat 2                      : Displays virtual memory statistics
+27. iostat 2                      : Displays I/O statistics
+28. tail -n 500 /var/log/messages : Displays the last 500 kernel/syslog messages
+29. tcpdump -i eth1               : Captures all packets flow on interface eth1. With -w switch you can specify a file where you can direct the output to
+    tcpdump -i eth0 'port 80'     : Monitors all traffic on port 80 on interface eth0
+30. lsof                          : Lists all open files belonging to all active processes
+    lsof -u testuser              : Lists files opened by a specific user
+31. free -m                       : Shows RAM memory details
+32. watch df -h                   : Watches changeable disk usage continuously
+User-Related Commands
+These commands are used to manage Linux users
+
+33. id                                      : Shows the active user and group information. With -G switch you can view the IDs of groups
+34. last                                    : Shows a list of last logins on the system. Using -a switch you can add the hostname to the last column of the output
+35. who                                     : Shows who is logged on the system
+36. groupadd admin                          : Adds the group "admin"
+37. useradd -c "Sam Tomshi" -g admin -m sam : Creates user "sam" and adds to group "admin"
+38. userdel sam                             : Deletes user sam
+39. adduser sam                             : Adds user "sam"
+40. usermod                                 : Modifies user information
+41. passwd user1                            : Changes the password of user1
+File Related Commands
+These commands are used to handle files and directories
+
+42. ls -al                                 : Displays all information about files/directories. This includes displaying all hidden files as well
+43. pwd                                    : Shows current directory path
+44. mkdir directory-name                   : Creates a directory
+45. rm file-name                           : Deletes file
+    rm -r directory-name                   : Deletes directory recursively 
+    rm -f file-name                        : Forcefully removes file
+    rm -rf directory-name                  : Forcefully removes directory recursively
+46. cp file1 file2                         : Copies linux files, here file1 to file2
+    cp -r dir1 dir2                        : Copies dir1 to dir2, creates dir2 if it doesn't  exist
+47. mv file1 file2                         : Moves files from one place to another/renames file1 to file2
+48. ln -s  /path/to/target-directory-name link-dir    : Creates a symbolic link to link-dir
+49. touch file                             : Creates empty file
+50. cat file                               : Prints the file content in terminal
+51. more file                              : Display the contents of file
+52. head file                              : Display the first 10 lines of file
+53. tail file                              : Outputs the last 10 lines of file
+    tail -f file                           : Outputs the contents of file as it grows starting with the last 10 lines
+54. gpg -c file                            : Encrypts file
+    gpg file.gpg                           : Decrypts file
+55. cksum file                             : View the checksum of the file
+56. diff file1 file2                       : View the differences between contents of file1 and file2
+57. ln -s target-file link-file            : Create a soft link named link-file to target-file
+58. sort                                   : Sorts files in alphabetical order
+59. uniq                                   : Compares adjacent lines in a file and removes/reports any duplicate lines
+60. wc                                     : Counts number of words/lines
+61. dir                                    : Lists the content of the directory
+62. tee                                    : Command for chaining and redirection
+63. tr                                     : Command for translating characters
+Process Related Commands
+These commands are used to handle Linux processes
+
+64. ps                       : Displays your currently active processes
+    ps aux | grep 'telnet'   : Displays all process ids related to telnet process
+65. pmap                     : Display Memory map of process
+66. top                      : Display all running processes and cpu/memory usage
+67. kill pid                 : Kills process with mentioned pid
+68. killall proc             : Kills all processes named proc
+69. pkill processname        : Sends kill signal to a process with its name
+70. bg                       : Resumes suspended jobs without bringing them to foreground
+71. fg                       : Brings the most recent job to foreground
+    fg n                     : Brings job n to the foreground
+File Permission Related Commands
+These commands are used to change permissions of the files
+
+72. chmod octal file-name      		     : Changes the permissions of file to octal
+    chmod 777 /data/test.c                   : Sets rwx permission for owner , group and others
+    chmod 755 /data/test.c                   : Sets rwx permission for owner and rx for group and others
+73. chown owner-user file                    : Changes owner of the file
+    chown owner-user:owner-group  file-name  : Changes owner and group owner of the file
+    chown owner-user:owner-group directory   : Changes owner and group owner of the directory
+74. chgrp group1 file                        : Changes the group ownership of the file to group1
+Network Related Commands
+These commands are used to view and edit network configurations related aspects of the system
+
+75. ifconfig -a        : Displays all network interface and set ip address
+76. ifconfig eth0      : Displays eth0 ethernet port ip address and details
+77. ip addr show       : Display all network interfaces and ip addresses
+78. ip address add 192.168.0.1 dev eth0  : Sets ip address of eth0 device
+79. ethtool eth0       : Linux tool to show ethernet status
+80. mii-tool  eth0     : Linux tool to show eth0 status
+81. ping host          : Sends echo requests to the host to test ipv4 connection
+82. whois domain       : Gets who is information for domain
+83. dig domain         : Gets DNS nameserver information for domain
+    dig -x host        : Reverse lookup host 
+84. host google.com    : Lookup DNS ip address for the name
+85. hostname -i        : Lookup local ip address
+86. wget file          : Downloads file
+87. netstat  -tupl     : Lists all active listening ports
+88. nslookup           : Resolves domain names to IP addresses
+Compression / Archive Related Commands
+These commands are used to compress and decompress files
+
+89. tar cf home.tar  home         : Creates a tar named home.tar containing home/
+    tar xf file.tar               : Extracts the files from file.tar
+    tar czf  file.tar.gz  files   : Creates a tar with gzip compression
+90. gzip file                     : Compresses file and renames it to file.gz
+91. bzip2 -z file                 : Compresses file and renames it to file.bz2
+    bzip2 -d file.bz2             : Decompress the file
+Package Installation Related Commands
+These commands are used to manage Linux packages
+
+92. rpm -i pkgname.rpm     : Installs rpm based package
+    rpm -e pkgname         : Removes package
+93. make                   : Install from source file
+Search Related Commands
+These commands are used to search for files and patterns
+
+94. grep pattern files              : Searches for pattern in files
+    grep -r pattern dir             : Searches recursively for pattern in dir
+95. locate file                     : Finds all instances of file
+96. find /home/tom -name 'index*'   : Finds file names that start with "index" inside /home/tom directory
+    find /home -size +10000k        : Finds files larger than 10000k in /home
+Login Related Commands
+These commands are used to log into another host
+
+97. ssh user@host              : Securely connect to a host as user
+    ssh -p port $ user@host    : Connects to host using specific port
+98. telnet host                : Connects to the system using  telnet port
+File Transfer Related Commands
+These commands are used to copy files from one system to another system
+
+99. scp file.txt   server2:/tmp                  : Secure copy file.txt to remote host  /tmp folder
+    scp nixsavy@server2:/www/*.html /www/tmp     : Copies *.html files from remote host to current host /www/tmp folder
+    scp -r nixsavy@server2:/www   /www/tmp       : Copies all files and folders recursively from remote server to the current system /www/tmp folder
+100. rsync -a /home/apps /backup/                 : Synchronizes source to destination
+    rsync -avz /home/apps $ linoxide@192.168.10.1:/backup  : Synchronize files/directories between the local and remote system with compression enabled
+Disk Usage Related Commands
+These commands are used to view disk statistics
+
+101.  df -h                          : Shows free space on mounted filesystems
+     df -i 	                    : Shows free inodes on mounted filesystems
+102. fdisk -l	                    : Shows disks partitions sizes and types
+103. du -ah                         : Displays disk usage in human readable form
+     du -sh                         : Displays total disk usage on the current directory
+104. findmnt                        : Displays target mount point for all filesystems
+105. mount device-path mount-point  : Mounts a device to the device-path
+Directory Traverse Related Commands
+These commands are used to change the directory
+
+106. cd ..          : Goes up one level of the directory tree
+     cd	            : Goes to $HOME directory
+     cd /test       : Changes to /test directory

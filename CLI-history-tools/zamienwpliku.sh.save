@@ -1,0 +1,15 @@
+pytanie_bashmainternet2#!/bin/sh
+sed -e '
+ 
+> s/This/That/
+ 
+> s/test/another test/' myfile
+
+
+##############################
+# sed '
+# s/a/A/g 
+# s/e/E/g 
+# s/i/I/g 
+# s/o/O/g 
+# s/u/U/g'  pytanie_bashmainternet

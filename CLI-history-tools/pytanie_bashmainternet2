@@ -1,0 +1,8 @@
+#!/bin/sh
+zm=`ping -c 1 google.pl | grep "100% packet loss"`
+if [[ `echo $zm` == "" ]]
+then
+  echo "Mamy internet"
+else
+  echo "david brak internetu"
+fi

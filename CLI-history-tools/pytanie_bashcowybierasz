@@ -1,0 +1,32 @@
+#!/bin/bash
+
+echo "Co wybierasz?"
+select x in kawe herbate sok quit
+do
+  case $x in
+    "kawe") echo "Wybrales kawe." ;;
+    "herbate") echo "Wybrales herbate." ;;
+    "sok") echo "Wybrales sok." ;;
+    "quit") echo "Wybrales quit."; break ;;
+    *) echo "Nic nie wybrales."
+  esac
+done
+exit 0
+
+
+#
+# sptawdzanie czy jest polik bash example  
+#
+
+# echo "Hello czesc dawid"
+# if [ -e ~/.bashrc ]
+# then
+#  echo "Masz plik .bashrc"
+# fi
+##################################
+# if [ -e ~/.bashrc ]
+# then
+#   echo "Masz plik.bashrc"
+# else
+#   echo "Nie masz pliku .bashrc"
+# fi

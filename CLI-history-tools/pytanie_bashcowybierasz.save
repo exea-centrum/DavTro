@@ -1,0 +1,30 @@
+!/bin/bash
+
+echo -n "Czy jest wieczor? Odpowiedz tak lub nie: "
+read odp
+if [ "$odp" = "tak" ]
+then echo "Dobry wieczor"
+elif [ "$odp" = "nie" ]
+then echo "Dzien dobry"
+else
+  echo "Nie rozpoznana odpowiedz: $odp"
+  exit 1
+fi
+exit 0
+
+#
+# sptawdzanie czy jest polik bash example  
+#
+
+# echo "Hello czesc dawid"
+# if [ -e ~/.bashrc ]
+# then
+#  echo "Masz plik .bashrc"
+# fi
+##################################
+# if [ -e ~/.bashrc ]
+# then
+#   echo "Masz plik.bashrc"
+# else
+#   echo "Nie masz pliku .bashrc"
+# fi
