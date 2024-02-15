@@ -930,3 +930,159 @@ These commands are used to change the directory
 106. cd ..          : Goes up one level of the directory tree
      cd	            : Goes to $HOME directory
      cd /test       : Changes to /test directory
+##############################
+  346  apt-get clean packaget
+  347  sudo apt-get clean packaget
+  348  sudo apt-get clean
+  349  sudo apt-get autoclean
+  350  sudo apt-get autoremove
+  351  sudo apt-get clean
+  352  df -h
+  353  exit
+  354  top
+  355  history
+  356  einfo | grep audit
+  357  seinfo | grep audit
+  358  sestatus
+  359  ps axZ | grep httpd
+  360  sestatus
+  361  cd /etc/
+  362  ls
+  363  less /etc/selinux/config
+  364  cd selinux/
+  365  ls
+  366  less /etc/selinux/semanage.conf
+  367  ls -Z
+  368  sudo apt-get clean
+  369  sudo apt-get autoremove
+  370  inix -aux
+  371  inxi
+  372  inxi -aux
+  373  inxi -auxz
+  374  man inxi
+  375  inxi -f
+  376  inxi --full
+  377  ip link
+  378  ls /sys/class/net
+  379  ip a
+  380  ip addr show virbr0
+  381  ip link show master bridge0
+  382  ip link show eth0
+  383  cat /etc/network/interfaces
+  384  arp -a
+  385  arp
+  386  ping anya
+  387  netstat -r
+  388  ip link show
+  389  nmcli device status
+  390  nmcli connection show
+  391  netstat -i
+  392  tcpdump --list-interfaces
+  393  /sbin/ifconfig -a
+  394  arp -a
+  395  arp -e
+  396  arp -n
+  397  ip neigh
+  398  ip -s neigh
+  399  docker network ls
+  400  docker network inspect bridge
+  401  machinectl list
+  402  machinectl login debian
+  403  ip a show dev ve-debian
+  404  helm repo add cilium https://helm.cilium.io
+  405  helm repo update
+  406  helm install tetragon cilium/tetragon -n kube-system
+  407  kubectl rollout status -n kube-system ds/tetragon -w
+  408  kubectl create -f https://raw.githubusercontent.com/cilium/cilium/v1.11/examples/minikube/http-sw-app.yaml
+  409  kubectl get pods
+  410  kubectl logs -n kube-system -l app.kubernetes.io/name=tetragon -c export-stdout -f
+  411  kubectl logs -n kube-system -l app.kubernetes.io/name=tetragon -c export-stdout -f | tetra getevents -o compact --namespace default --pod xwing
+  412  kubectl exec -it -n kube-system ds/tetragon -c tetragon -- tetra getevents -o compact
+  413  kubectl exec -it xwing -- /bin/bash
+  414  kubectl delete -f https://raw.githubusercontent.com/cilium/tetragon/main/examples/tracingpolicy/sys_write_follow_fd_prefix.yaml
+  415  kubectl delete -f https://raw.githubusercontent.com/cilium/tetragon/main/examples/tracingpolicy/sys_write_follow_fd_prefix.yaml
+  416  kubectl exec -it xwing -- curl http://cilium.io
+  417  ls /sys/kernel/btf/
+  418  kubectl logs -n kube-system -l app.kubernetes.io/name=tetragon -c export-stdout -f | tetra getevents -o compact
+  419  kubectl exec -it -n kube-system ds/tetragon -c tetragon -- tetra getevents -o compact
+  420  kubectl logs -n kube-system -l app.kubernetes.io/name=tetragon -c export-stdout -f | ./tetra getevents -o compact --namespace default --pod system-monitor-deployment-*
+  421  kubectl cluster-info
+  422  sudo mc
+  423  history
+  424  history |grep jpg
+  425  history |grep JPG
+  426  cd /home/david/Wideo/biesse/
+  427  mogrify -resize 1920x1080 *.jpg
+  428  mogrify -resize 1920x1080 *.jpg
+  429  mogrify -resize 1920x1080 *.jpg
+  430  sudo apt-get clean
+  431  sudo apt-get autoclean
+  432  sudo du -sh /usr/
+  433  df -h
+  434  df -h /dev/sda2
+  435  df /data/
+  436  df -h /dev/sda
+  437  df --o
+  438  du -a -h /etc/
+  439  du -a -h /usr/
+  440  du -a -h /home/
+  441  du -a -h /
+  442  du -a /etc/ | sort -n -r | head -n 10
+  443  sudo du -a /etc/ | sort -n -r | head -n 10
+  444  ls -l /dev | grep "sda"
+  445  sudo fdisk -l
+  446  lsblk
+  447  df -Th
+  448  df -Thi
+  449  df -h | awk '{printf "%-20s %s\n", $1, $2}'
+  450  fdisk -l | awk '$1=="Disk" && $2 ~ /^\/dev\/.*/ {print $2 $3 $4}'
+  451  parted -l | awk '$1=="Disk" && $2 ~ /^\/dev\/.*/ {print $2 $3 $4}'
+  452  du -ach -t 1M /var/log/* | sort -hr
+  453  lsblk -o NAME,SIZE,FSTYPE
+  454  lshw -c disk | grep -E "logical name|size:"
+  455  dmesg | grep sdb
+  456  dmesg | grep blocks
+  457  lsscsi --size
+  458  df -a
+  459  du -a /etc/ | sort -n -r | head -n 10
+  460  history
+  461  exit  
+  462  sudo apt-get clean
+  463  sudo apt-get autoclean
+  464  df -h
+  465  mc
+  466  df -h
+  467  lsscsi --size
+  468  dmesg | grep blocks
+  469  fdisk -l | awk '$1=="Disk" && $2 ~ /^\/dev\/.*/ {print $2 $3 $4}'
+  470  lshw -c disk | grep -E "logical name|size:"
+  471  df -h
+  472  df -Th
+  473  dmesg | grep sdb
+  474  dmesg | grep sdb2
+  475   dmesg | grep blocks
+  476  du -sh *
+  477  ls -l --sort=size | head -10
+  478  sudo du -ak | sort -nr | head -50
+  479  sudo find / -size +1G
+  480  smartctl -a /dev/DEVICE
+  481  df -i /ftpusers/
+  482  find /proc/*/fd -ls | grep  '(deleted)'
+  483  lsof -nP | grep '(deleted)'
+  484  sudo apt autoremove --purge
+  485  dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -nr | head -20
+  486  dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -nr | head -50
+  487  df -Thi
+  488  df -Th
+  489  du -a /ftpusers/tmp | sort -n -r | head -n 10
+  490  duf
+  491  sudo apt clean; sudo apt autoremove --purge;
+  492  df -Th
+  493  du -sh ./*
+  494  lsof -P -n | grep deleted
+  495  du -shc * | sort -h
+  496  cd /; for x in *; do if [[ ("$x" = "dev") || ("$x" = "proc") || ("$x" = "sys") ]]; then continue; fi; du -hs "$x"; done
+  497  nmon
+  498  iostat -x 2 5
+  499  atop
+  500  sudo apt clean; sudo apt autoremove --purge;
