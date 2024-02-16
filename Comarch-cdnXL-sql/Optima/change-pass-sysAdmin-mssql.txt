@@ -1,0 +1,68 @@
+
+Start Single User Mode Step by Step
+0) SQL Server Configuration Manager - Make sure to enable NamedPipes/TCP Locally
+1) List the Services 
+    a) net start
+    b) services.msc
+2) Stop the Service - net stop [SQL-SERVICENAME] 
+3) Start Single User Mode 
+        a) net start [SQL-SERVICENAME] -m"SQLCMD"
+        b) "C:\Program Files\Microsoft SQL Server\MSSQL14.SQL1\MSSQL\Binn\sqlservr.exe" -sSQL1 -m"SQLCMD"
+4) SQLCMD -S [SQL INSTANCE]
+5) sqlcmd - Login
+        a) SQL User - CREATE LOGIN [name] WITH PASSWORD='password'; GO
+        b) Windows User - CREATE LOGIN [domainName\login_name] FROM WINDOWS; GO  
+6) sqlcmd 
+        a) SP_ADDSRVROLEMEMBER name,'SYSADMIN'; GO
+        b) Confirm - SELECT name FROM syslogins; GO;
+7) sqlcmd - exit
+8) Stop the Service - net stop [SQL-SERVICENAME] 
+9) Start the Service normal - net start [SQL-SERVICENAME]
+
+
+
+https://www.youtube.com/watch?v=GOvbjo1tlYo
+
+
+
+Optima - delete ADMIN password
+Jeżeli zapomnieliśmy hasła administratora do programu Comarch Optima mamy opcję jego resetu poprzez usunięcie odpowiednich wpisów w bazie danych. Wykonujemy to poprzez zapytanie SQL w bazie konfiguracyjnej o następującej treści:
+
+update cdn.operatorzy set ope_haslo = '5Z8SfmZByqw' where ope_opeid = 1
+
+update cdn.operatorzy set ope_haslochk = 'Cw' where ope_opeid = 1
+
+W Optimie działa (Management studio):
+
+Resetowanie hasła administratora (użytkownik o ID =1)
+W bazie konfiguracyjnej zmienić wpisy:
+update cdn.operatorzy set ope_haslo = '5Z8SfmZByqw' where ope_opeid = 1
+update cdn.operatorzy set ope_haslochk = 'Cw' where ope_opeid = 1
+
+
+
+Optima ERP: reset hasła administratora
+Reset hasła administratora w aplikacji Comarch ERP Optima możemy dokonać z poziomu bazy danych SQL.
+
+
+
+
+#################################
+Wystarczy że przeprowadzimy update na bazie konfiguracyjnej (w moim wypadku ma domyślną nazwe: CDN_KNF_Konfiguracja):
+
+-- sprawdzone.it // resetowanie hasła w  Comarch Optima ERP
+-- ustawiamy hasło na puste (ustawienie zaraz po czystej instalacji)
+-- ope_opeid =1 to id operatora: Administrator
+
+update cdn.operatorzy 
+set ope_haslo = '5Z8SfmZByqw'
+where ope_opeid = 1
+
+update cdn.operatorzy 
+set ope_haslochk = 'Cw' 
+where ope_opeid = 1
+Urcuhamiamy ponownie Optimę i po wskazaniu operatora ADMIN (administrator) pojawi nam się okno wyboru bazy firmy:
+
+
+
+Pamiętajcie aby dla pewności sprawdzić ID swojego Administratora i dla spokoju przed całą operacja wykonać backup bazy konfiguracyjnej.
