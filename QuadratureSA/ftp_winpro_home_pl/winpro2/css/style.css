@@ -1,0 +1,168 @@
+body {
+	color: #0166AE;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CCCCCC;
+}
+.pageheader {
+	background-color: #0166AE;
+	
+}
+.enter {
+	background-color: #FFFFFF;
+	color: #0080C0;
+}
+.noinit {
+	font-weight: bold;
+	color: #FF3300;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.pagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0B1940;
+}
+.warning {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FF0000;
+	font-size: 24px;
+}
+.attention {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.tabadmtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFCC;
+	text-align: center;
+	background-color: #0166AE;
+	border-bottom-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+.tabadmfooter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	border-top-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+.tabgen {
+	border: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	color: #000000;
+}
+.tabmiddle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFCC;
+	text-align: center;
+	background-color: #0166AE;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+.error {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF0000;
+}
+.lstuser {
+	width: 80%;
+	text-align: left;
+	text-indent: 1%;
+}
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #0166AE;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+} 
+
+.lstorder1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DDF0FF;
+	color: #00B542;
+	text-align: center;
+}
+.lstorder2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #00B542;
+	text-align: center;
+}
+.lstorder1max {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DDF0FF;
+	color: #FF0000;
+	line-height: normal;
+	text-align: center;
+}
+.lstorder2max {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #FF0000;
+	text-align: center;
+}
+.tabsubtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFCC;
+	text-align: center;
+	background-color: #0166AE;
+	border-bottom-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	vertical-align: middle;
+}
+.message {
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+}
